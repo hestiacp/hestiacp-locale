@@ -2,7 +2,7 @@ name: Create POT
 
 on:
   cron: '55 * * * *'
-  workflow_dispatch
+  workflow_dispatch:
 
 jobs:
   update-pot:
