@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "[ * ] Remove old hestiacp.pot and generate new one"
 rm hestiacp.pot
 echo "" > hestiacp.pot
