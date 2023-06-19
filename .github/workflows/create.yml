@@ -16,4 +16,5 @@ jobs:
       - name: Build hestiacp.pot
         run: |
           git clone https://github.com/hestiacp/hestiacp
+          sudo apt install gettext -y
           ./hst_scan_i18n.sh
