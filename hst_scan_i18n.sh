@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "[ * ] Remove old hestiacp.pot and generate new one"
-mv hestiacp.pot.old
+mv hestiacp.pot hestiacp.pot.old
 rm hestiacp.pot
 echo "" > hestiacp.pot
 find  ./hestiacp/ \( -name '*.php' -o -name '*.html' -o -name '*.sh' \) | xgettext --output=hestiacp.pot --language=PHP --join-existing -f -
