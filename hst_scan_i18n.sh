@@ -23,7 +23,7 @@ IFS=$OLDIFS
 # Prevent only date change become a commit
 if [ $(diff hestiacp.pot hestiacp.pot.old| wc -l) != 2 ]; then
 	rm hestiacp.pot 
-	mv hestiacp.pot.old
+	mv hestiacp.pot.old hestiacp.pot
 else
 	rm hestiacp.pot.old
 fi
