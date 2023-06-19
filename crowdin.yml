@@ -1,0 +1,3 @@
+files:
+  - source: /hestiacp.pot
+	translation: /%locale_with_underscore%/LC_MESSAGES/hestia.po
