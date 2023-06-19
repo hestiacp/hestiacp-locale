@@ -16,7 +16,6 @@ jobs:
       - name: Build hestiacp.pot
         run: |
           git clone https://github.com/hestiacp/hestiacp
-          apt install gettext
           chmod +x ./hestiacp/web/locale/hst_scan_i18n.sh
           ./hestiacp/web/locale/hst_scan_i18n.sh
           cp ./hestiacp/web/locale/hestiacp.pot ./
