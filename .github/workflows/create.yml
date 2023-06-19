@@ -1,4 +1,5 @@
 name: Create hestiacp.pot file
+
 on:
   - push ['main']
   - cron: '3 0 * * *'
