@@ -1,20 +1,15 @@
-name: Create hestiacp.pot file
+name: Create POT
 
 on:
+  pull_request:
   push:
     branches:
-    - main
-  cron: '3 0 * * *'
-  workflow_dispatch:
+      - main
 
 jobs:
-  create:
+  markdownlint:
+    name: Clone code
     runs-on: ubuntu-latest
     steps:
-      - name: Run a multi-line script
+      - name: Checkout code
         uses: actions/checkout@v3
-        run: |
-            apt install gettext
-            git clone https://github.com/hestiacp/hestiacp
-            ./hestiacp/locale/hst_scan_i18n.sh
-            cp -f ./hestiacp/locale/hestiacp.pot ./hestiacp.pot
