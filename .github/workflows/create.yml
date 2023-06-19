@@ -17,6 +17,7 @@ jobs:
         run: |
           git clone https://github.com/hestiacp/hestiacp
           sudo apt install gettext -y
+          HESTIA='./hestiacp/'
           chmod +x ./hestiacp/web/locale/hst_scan_i18n.sh
           ./hestiacp/web/locale/hst_scan_i18n.sh
           cp ./hestiacp/web/locale/hestiacp.pot ./
