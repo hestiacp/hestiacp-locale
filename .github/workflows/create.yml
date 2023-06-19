@@ -1,8 +1,10 @@
 name: Create hestiacp.pot file
 
 on:
-  - push ['main']
-  - cron: '3 0 * * *'
+  push:
+    branches:
+    - main
+  cron: '3 0 * * *'
   workflow_dispatch:
 
 jobs:
