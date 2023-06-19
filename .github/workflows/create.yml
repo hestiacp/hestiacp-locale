@@ -8,8 +8,11 @@ on:
 
 jobs:
   markdownlint:
-    name: Clone code
+    name: Update .pot file
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -18,3 +21,5 @@ jobs:
           git clone https://github.com/hestiacp/hestiacp
           sudo apt install gettext -y
           ./hst_scan_i18n.sh
+      - name: Commit new .pot file
+        uses: stefanzweifel/git-auto-commit-action@v4
