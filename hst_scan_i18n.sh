@@ -2,7 +2,6 @@
 
 echo "[ * ] Remove old hestiacp.pot and generate new one"
 mv hestiacp.pot hestiacp.pot.old
-rm hestiacp.pot
 echo "" > hestiacp.pot
 find  ./hestiacp/ \( -name '*.php' -o -name '*.html' -o -name '*.sh' \) | xgettext --output=hestiacp.pot --language=PHP --join-existing -f -
 OLDIFS=$IFS
@@ -22,7 +21,7 @@ done
 IFS=$OLDIFS
 
 # Prevent only date change become a commit
-if [ $(diff hestiacp.pot hestiacp.pot.old| wc -l) == 2 ]; then
+if [ $(diff hestiacp.pot hestiacp.pot.old| wc -l) != 2 ]; then
 	rm hestiacp.pot 
 	mv hestiacp.pot.old
 else
