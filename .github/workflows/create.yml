@@ -1,0 +1,17 @@
+name: Create hestiacp.pot file
+on:
+  - push ['main']
+  - cron: '3 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  create:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run a multi-line script
+        uses: actions/checkout@v3
+        run: |
+            apt install gettext
+            git clone https://github.com/hestiacp/hestiacp
+            ./hestiacp/locale/hst_scan_i18n.sh
+            cp -f ./hestiacp/locale/hestiacp.pot ./hestiacp.pot
