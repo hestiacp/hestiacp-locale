@@ -294,7 +294,7 @@ msgid "Type"
 msgstr "Tipo"
 
 msgid "Charset"
-msgstr "Charset"
+msgstr "Codificação"
 
 msgid "Generate Self-Signed SSL Certificate"
 msgstr "Gerar certificado SSL auto assinado."
@@ -807,7 +807,7 @@ msgid "Aliases"
 msgstr "Apelidos"
 
 msgid "Forwarding"
-msgstr "Forwarding"
+msgstr "Encaminhamento"
 
 msgid "Auto Reply"
 msgstr "Resposta Automática"
@@ -1303,7 +1303,7 @@ msgstr[0] "%d pacote"
 msgstr[1] "%d pacotes"
 
 msgid "Add IP list"
-msgstr "Add IP list"
+msgstr "Adicionar lista de IPs"
 
 msgid "Are you sure you want to delete IP list %s?"
 msgstr "Você tem certeza que deseja remover a lista de IPs %s?"
@@ -1398,7 +1398,7 @@ msgstr[0] "%d chave SSH"
 msgstr[1] "%d chaves SSH"
 
 msgid "Hestia Control Panel"
-msgstr "Hestia Control Panel"
+msgstr "Painel de Controle Hestia"
 
 msgid "Close menu"
 msgstr "Fechar menu"
@@ -1645,7 +1645,7 @@ msgid "Send update installation log by email"
 msgstr "Enviar log de atualização por e-mail"
 
 msgid "Web Server"
-msgstr "Web Server"
+msgstr "Servidor Web"
 
 msgid "Proxy Server"
 msgstr "Servidor Proxy"
