@@ -1,9 +1,9 @@
-name: Download .po
+name: Convert .po to mo
 
 on:
   push:
-  branches:
-    - main
+    branches:
+      - main
 
 jobs:
   convertpo:
