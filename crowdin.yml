@@ -1,5 +1,11 @@
+project_id_env: CROWDIN_PROJECT_ID
+api_token_env: CROWDIN_PERSONAL_TOKEN
 files:
   - source: hestiacp.pot
     translation: /src/%two_letters_code%/LC_MESSAGES/hestiacp.po
-project_id_env: CROWDIN_PROJECT_ID
-api_token_env: CROWDIN_PERSONAL_TOKEN
+targets:
+  - name: hestiacp
+    sources:
+      - /hestiacp.pot
+    file: /src/%two_letters_code%/LC_MESSAGES/hestiacp.po
+    format: po-export
