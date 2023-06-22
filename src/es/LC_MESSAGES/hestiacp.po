@@ -307,7 +307,7 @@ msgid "SSL Private Key"
 msgstr "Clave privada SSL"
 
 msgid "SSL CSR"
-msgstr "Código CSR del SSL"
+msgstr "CSR para SSL"
 
 msgid "Packages"
 msgstr "Planes"
