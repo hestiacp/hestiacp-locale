@@ -957,7 +957,7 @@ msgid "MAIL"
 msgstr "CORREO"
 
 msgid "Rate Limit"
-msgstr "Ancho de banda"
+msgstr "Tráfico"
 
 msgid "per account / hour"
 msgstr "por cuenta / hora"
@@ -1054,18 +1054,16 @@ msgid "Enable two-factor authentication"
 msgstr "Habilitar autenticación de doble factor"
 
 msgid "Account Recovery Code"
-msgstr "Código de recuperación de la cuenta"
+msgstr "Código de recuperación de cuenta"
 
 msgid "Please scan the code below in your 2FA application"
-msgstr "Por favor escanea el código de abajo en su aplicación 2FA."
+msgstr "Por favor escanea el siguiente código con tu aplicación 2FA"
 
 msgid "2FA QR Code"
-msgstr "Código 2FA QR"
+msgstr "Código QR para 2FA"
 
 msgid "Use IP address allow list for login attempts"
-msgstr ""
-"Usar direcciones IP de la lista de permitidos para los intentos de i"
-"nicio de sesión"
+msgstr "Usar direcciones IP de la lista blanca para los intentos de acceso"
 
 msgid "For example"
 msgstr "Por ejemplo"
@@ -1131,7 +1129,7 @@ msgid "Refresh"
 msgstr "Refrescar"
 
 msgid "Are you sure you want to delete the logs?"
-msgstr "¿Está seguro de borrar los históricos?"
+msgstr "¿Estás seguro de borrar los históricos?"
 
 msgid "Message"
 msgstr "Mensaje"
@@ -1246,7 +1244,7 @@ msgid "Two-factor Authentication"
 msgstr "Autenticación de Doble Factor"
 
 msgid "2FA Token"
-msgstr "PIN OTP"
+msgstr "Token 2FA"
 
 msgid "Forgot Token"
 msgstr "Token olvidado"
@@ -1393,7 +1391,7 @@ msgid "SSH Key"
 msgstr "Clave SSH"
 
 msgid "Are you sure you want to delete SSH key %s?"
-msgstr "¿Está seguro de borrar la clave SSH %s?"
+msgstr "¿Estás seguro de borrar la clave SSH %s?"
 
 msgid "%d SSH key"
 msgid_plural "%d SSH keys"
@@ -1470,10 +1468,10 @@ msgid "Memory"
 msgstr "Memoria"
 
 msgid "Are you sure you want to stop service %s?"
-msgstr "¿Está seguro de detener el servicio %s?"
+msgstr "¿Estás seguro de detener el servicio %s?"
 
 msgid "Are you sure you want to start service %s?"
-msgstr "Está seguro de iniciar el servicio %s?"
+msgstr "¿Estás seguro de iniciar el servicio %s?"
 
 msgid "MB"
 msgstr "MB"
@@ -1563,15 +1561,15 @@ msgid "Add FTP account"
 msgstr "Agregar cuenta FTP"
 
 msgid "Are you sure you want to delete access key %s?"
-msgstr "Está seguro de borrar la llave de acceso %s?"
+msgstr "¿Estás seguro de borrar la clave de acceso %s?"
 
 msgid "%d access key"
 msgid_plural "%d access keys"
-msgstr[0] "llave de acceso %d"
-msgstr[1] "llaves de acceso %d"
+msgstr[0] "%d clave de acceso"
+msgstr[1] "%d claves de acceso"
 
 msgid "Send welcome email"
-msgstr "Enviar correo electrónico de bienvenida"
+msgstr "Enviar correo de bienvenida"
 
 msgid "a database"
 msgstr "una base de datos"
@@ -1651,7 +1649,7 @@ msgstr ""
 "alado"
 
 msgid "Send update installation log by email"
-msgstr "Enviar histórico de actualización por correo electrónico"
+msgstr "Enviar histórico de actualización por correo"
 
 msgid "Web Server"
 msgstr "Servidor Web"
@@ -1700,7 +1698,7 @@ msgid "phpMyAdmin Alias"
 msgstr "Alias de phpMyAdmin"
 
 msgid "phpMyAdmin Single Sign On"
-msgstr "histórico único de phpMyAdmin"
+msgstr "Histórico Único de phpMyAdmin"
 
 msgid "More info"
 msgstr "Más información"
@@ -1748,10 +1746,10 @@ msgid "Enabled for all users"
 msgstr "Habilitado para todos los usuarios"
 
 msgid "Enable legacy API access"
-msgstr "Habilitar acceso de API de legado"
+msgstr "Habilitar acceso legacy a la API"
 
 msgid "Allowed IP addresses for API"
-msgstr "Permtir dirección IP para la API"
+msgstr "Direcciones IP permitidas para la API"
 
 msgid "Login screen style"
 msgstr "Estilo de pantalla de entrada"
