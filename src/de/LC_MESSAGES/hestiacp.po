@@ -109,7 +109,7 @@ msgid "IP Address"
 msgstr "IP Addresse"
 
 msgid "IPs"
-msgstr "IPs"
+msgstr "IP-Adressen"
 
 msgid "Disk"
 msgstr "Speicher"
@@ -121,19 +121,19 @@ msgid "Databases"
 msgstr "Datenbanken"
 
 msgid "Mail"
-msgstr "Mail"
+msgstr "E-Mail"
 
 msgid "User Directory"
 msgstr "Benutzerverzeichnis"
 
 msgid "Web Domains"
-msgstr "Web Domains"
+msgstr "Web-Domänen"
 
 msgid "Mail Domains"
 msgstr "Mail Domain"
 
 msgid "SSL Domains"
-msgstr "SSL Domains"
+msgstr "SSL-Domänen"
 
 msgid "Mail Accounts"
 msgstr "Mail Konten"
@@ -145,13 +145,13 @@ msgid "DNS Zones"
 msgstr "DNS-Zonen"
 
 msgid "Cron Jobs"
-msgstr "Cron Jobs"
+msgstr "Cronjobs"
 
 msgid "DNS Records"
 msgstr "DNS Einträge"
 
 msgid "Backups"
-msgstr "Backups"
+msgstr "Datensicherungen"
 
 msgid "%d month"
 msgid_plural "%d months"
@@ -201,16 +201,16 @@ msgid "No"
 msgstr "Nein"
 
 msgid "Custom Logo"
-msgstr "Custom Logo"
+msgstr "Benutzerdefiniertes Logo"
 
 msgid "Custom logo"
-msgstr "Custom logo"
+msgstr "Benutzerdefiniertes Logo"
 
 msgid "Upload the files to %s"
-msgstr "Upload the files to %s"
+msgstr "Die Dateien hochladen nach %s"
 
 msgid "Update logo"
-msgstr "Update logo"
+msgstr "Logo aktualisieren"
 
 msgid "Add Mail Domain"
 msgstr "Mail Domain hinzufügen"
@@ -234,7 +234,7 @@ msgid "Continue"
 msgstr "Weiter"
 
 msgid "Domain"
-msgstr "Domain"
+msgstr "Domäne"
 
 msgid "Webmail Client"
 msgstr "Webmail-Client"
@@ -243,13 +243,13 @@ msgid "Disabled"
 msgstr "Deaktiviert"
 
 msgid "Spam Filter"
-msgstr "Spam Filter"
+msgstr "Spamfilter"
 
 msgid "Reject Spam"
 msgstr "Spam ablehnen"
 
 msgid "Anti-Virus"
-msgstr "Anti-Virus"
+msgstr "Antivirus"
 
 msgid "DKIM Support"
 msgstr "DKIM Unterstützung"
@@ -258,7 +258,7 @@ msgid "SMTP Relay"
 msgstr "SMTP-Relay"
 
 msgid "Host"
-msgstr "Host"
+msgstr "Server"
 
 msgid "Port"
 msgstr "Port"
@@ -309,7 +309,7 @@ msgid "SSL Private Key"
 msgstr "SSL Privater Schlüssel"
 
 msgid "SSL CSR"
-msgstr "SSL CSR"
+msgstr "SSL-CSR"
 
 msgid "Packages"
 msgstr "Hosting-Pakete"
@@ -526,7 +526,7 @@ msgid "Sep"
 msgstr "Sep"
 
 msgid "Oct"
-msgstr "Oct"
+msgstr "Okt"
 
 msgid "Nov"
 msgstr "Nov"
@@ -556,10 +556,10 @@ msgid "Clear"
 msgstr "Löschen"
 
 msgid "IP Version"
-msgstr "IP Version"
+msgstr "IP-Version"
 
 msgid "Auto Update"
-msgstr "Auto Update"
+msgstr "Automatische Aktualisierung"
 
 msgid "Advanced Details"
 msgstr "Erweiterte Details"
@@ -597,7 +597,7 @@ msgid "Unsuspend All"
 msgstr "Alle reaktivieren"
 
 msgid "Hostname"
-msgstr "Hostname"
+msgstr "Servername"
 
 msgid "Are you sure you want to unsuspend database %s?"
 msgstr "Sind Sie sicher, dass Sie die Datenbank %s reaktivieren möchten?"
@@ -606,7 +606,7 @@ msgid "Are you sure you want to suspend database %s?"
 msgstr "Sind Sie sicher, dass Sie die Datenbank %s pausieren möchten?"
 
 msgid "Download Database"
-msgstr "Download Database"
+msgstr "Datenbank herunterladen"
 
 msgid "Are you sure you want to delete database %s?"
 msgstr "Sind Sie sicher, dass Sie die Datenbank %s löschen möchten?"
@@ -663,19 +663,19 @@ msgid "Restore"
 msgstr "Wiederherstellen"
 
 msgid "Details"
-msgstr "Details"
+msgstr "Detaillierte Informationen"
 
 msgid "Web Domain"
-msgstr "Web Domain"
+msgstr "Webdomäne"
 
 msgid "Mail Domain"
-msgstr "Mail Domain"
+msgstr "E-Mail-Domäne"
 
 msgid "DNS Zone"
 msgstr "DNS-Zone"
 
 msgid "Jobs"
-msgstr "Jobs"
+msgstr "Aufgaben"
 
 msgid "%d item"
 msgid_plural "%d items"
@@ -695,7 +695,7 @@ msgid "Edit DNS Domain"
 msgstr "DNS-Domäne bearbeiten"
 
 msgid "Template"
-msgstr "Template"
+msgstr "Vorlage"
 
 msgid "Enable DNSSEC"
 msgstr "DNSSEC einschalten"
@@ -725,7 +725,7 @@ msgid "Priority"
 msgstr "Priorität"
 
 msgid "Optional"
-msgstr "Optional"
+msgstr "Optionell"
 
 msgid "Add IP Address"
 msgstr "IP-Adresse hinzufügen"
@@ -883,16 +883,16 @@ msgid "Rebuild"
 msgstr "Neu generieren"
 
 msgid "DNSKEY Record"
-msgstr "DNSKEY Record"
+msgstr "DNSKEY-Eintrag"
 
 msgid "DS Record"
-msgstr "DS Record"
+msgstr "DS-Eintrag"
 
 msgid "Public Key"
 msgstr "Öffentlicher Schlüssel"
 
 msgid "Key Tag / Flag"
-msgstr "Key Tag / Flag"
+msgstr "Schlüsseltag / Markierung"
 
 msgid "Algorithm"
 msgstr "Algorithmus"
@@ -942,19 +942,19 @@ msgid "per domain"
 msgstr "pro Domain"
 
 msgid "Web Template"
-msgstr "Web Template"
+msgstr "Web-Vorlage"
 
 msgid "Backend Template"
-msgstr "Backend Template"
+msgstr "Backend-Vorlage"
 
 msgid "Proxy Template"
-msgstr "Proxy Template"
+msgstr "Proxy-Vorlage"
 
 msgid "DNS"
 msgstr "DNS"
 
 msgid "DNS Template"
-msgstr "DNS Template"
+msgstr "DNS-Vorlage"
 
 msgid "Name Servers"
 msgstr "Name Server"
@@ -963,7 +963,7 @@ msgid "Add Name Server"
 msgstr "Nameserver hinzufügen "
 
 msgid "MAIL"
-msgstr "MAIL"
+msgstr "E-MAIL"
 
 msgid "Rate Limit"
 msgstr "Grenzwert"
@@ -1960,7 +1960,7 @@ msgid "BLACKLIST"
 msgstr "BLACKLIST"
 
 msgid "IPVERSE"
-msgstr "IPVERSE"
+msgstr "IPVERS"
 
 msgid "Logged in as"
 msgstr "Angemeldet als"
@@ -2213,9 +2213,9 @@ msgid ""
 "ame}}\\nPassword: {{password}}\\nSQL Manager: {{dbadmin}}\\n\\nBest regards,"
 "\\n\\n--\\n{{appname}}"
 msgstr ""
-"Database has been created.\\n\\nDatabase: {{database}}\\nUsername: {{usern"
-"ame}}\\nPassword: {{password}}\\nSQL Manager: {{dbadmin}}\\n\\nBest regards,"
-"\\n\\n--\\n{{appname}}"
+"Die Datenbank wurde erstellt.\\n\\nDatenbank: {{database}}\\nBenutzername:"
+" {{username}}\\nPasswort: {{password}}\\nSQL Manager: {{dbadmin}}\\n\\nMit f"
+"reundlichen Grüßen,\\n\\n--\\n{{appname}}"
 
 msgid "Database Credentials: %s"
 msgstr "Datenbankanmeldeinformationen: %s"
