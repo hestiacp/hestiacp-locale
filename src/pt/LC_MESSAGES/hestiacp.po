@@ -904,13 +904,13 @@ msgid "Are you sure you want to suspend this cron job?"
 msgstr "Are you sure you want to suspend this cron job?"
 
 msgid "Edit Cron Job"
-msgstr "Edit Cron Job"
+msgstr "Editar Tarefa Cronológica"
 
 msgid "Edit"
-msgstr "Edit"
+msgstr "Editar"
 
 msgid "Are you sure you want to delete this cron job?"
-msgstr "Are you sure you want to delete this cron job?"
+msgstr "Tem a certeza que deseja remover esta tarefa cronológica?"
 
 msgid "%d cron job"
 msgid_plural "%d cron jobs"
@@ -1669,11 +1669,12 @@ msgid ""
 "It may take a few minutes to save your changes. Please wait until th"
 "e process has completed and do not refresh the page."
 msgstr ""
-"It may take a few minutes to save your changes. Please wait until th"
-"e process has completed and do not refresh the page."
+"Pode demorar alguns minutos para salvar as suas alterações. Por favo"
+"r, aguarde até que o processo esteja concluído e não atualize a pági"
+"na."
 
 msgid "System PHP Version"
-msgstr "System PHP Version"
+msgstr "Versão do PHP do sistema"
 
 msgid "DNS Server"
 msgstr "Server DNS"
@@ -1685,7 +1686,7 @@ msgid "Mail Server"
 msgstr "Servidor de Email"
 
 msgid "Webmail Alias"
-msgstr "Webmail Alias"
+msgstr "Alias do webmail"
 
 msgid "Global SMTP Relay"
 msgstr "Redireccionamento global de SMTP"
@@ -1694,7 +1695,7 @@ msgid "MySQL Support"
 msgstr "Suporte MySQL"
 
 msgid "phpMyAdmin Alias"
-msgstr "phpMyAdmin Alias"
+msgstr "Alias do phpMyAdmin"
 
 msgid "phpMyAdmin Single Sign On"
 msgstr "PHPMyAdmin Autenticação Simples"
@@ -1703,31 +1704,31 @@ msgid "More info"
 msgstr "Mais informações"
 
 msgid "Maximum Number of Databases"
-msgstr "Maximum Number of Databases"
+msgstr "Número máximo de Bases de dados"
 
 msgid "Current Number of Databases"
-msgstr "Current Number of Databases"
+msgstr "Número atual de Bases de dados"
 
 msgid "PostgreSQL Support"
 msgstr "Suporte PostgreSQL"
 
 msgid "phpPgAdmin Alias"
-msgstr "phpPgAdmin Alias"
+msgstr "Alias do phpPgAdmin"
 
 msgid "Local Backup"
-msgstr "Local Backup"
+msgstr "Cópia de Segurança Local"
 
 msgid "Compression"
 msgstr "Compressão"
 
 msgid "Compression Level"
-msgstr "Compression Level"
+msgstr "Nível de compressão"
 
 msgid "zstd only"
 msgstr "Apenas zstd"
 
 msgid "Remote Backup"
-msgstr "Remote Backup"
+msgstr "Cópia de segurança remota"
 
 msgid "Security"
 msgstr "Segurança"
