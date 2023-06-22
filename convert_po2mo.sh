@@ -1,7 +1,9 @@
 #!/bin/bash 
 
-languages=$(ls -d "./src/*/" | awk -F'/' '{print $(NF-1)}')
-for lang in $languages; do
+cd './src/'
+for lang in */; do
+  [ -L "${lang%/}" ] && continue
   echo "[ * ] Update $lang "
-  msgfmt "./src/$lang/LC_MESSAGES/hestiacp.po" -o "./build/$lang/LC_MESSAGES/hestiacp.mo"
+  mkdir -p "../build/${lang%/}/LC_MESSAGES/"
+  msgfmt "./${lang%/}/LC_MESSAGES/hestiacp.po" -o "../build/${lang%/}/LC_MESSAGES/hestiacp.mo"
 done
