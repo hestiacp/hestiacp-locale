@@ -596,16 +596,16 @@ msgid "Hostname"
 msgstr "Nombre del servidor"
 
 msgid "Are you sure you want to unsuspend database %s?"
-msgstr "¿Está seguro de quitar la suspensión a la base de datos %s?"
+msgstr "¿Estás seguro de quitar la suspensión a la base de datos %s?"
 
 msgid "Are you sure you want to suspend database %s?"
-msgstr "¿Está seguro de suspender la base de datos %s?"
+msgstr "¿Estás seguro de suspender la base de datos %s?"
 
 msgid "Download Database"
 msgstr "Descargar Base de Datos"
 
 msgid "Are you sure you want to delete database %s?"
-msgstr "¿Está seguro de borrar la base de datos %s?"
+msgstr "¿Estás seguro de borrar la base de datos %s?"
 
 msgid "%d database"
 msgid_plural "%d databases"
@@ -634,16 +634,16 @@ msgid "Protocol"
 msgstr "Protocolo"
 
 msgid "Are you sure you want to unsuspend rule #%s?"
-msgstr "¿Está seguro de quitar la suspensión a la regla #%s?"
+msgstr "¿Estás seguro de quitar la suspensión a la regla #%s?"
 
 msgid "Are you sure you want to suspend rule #%s?"
-msgstr "¿Está seguro de suspender la regla #%s?"
+msgstr "¿Estás seguro de suspender la regla #%s?"
 
 msgid "Edit Firewall Rule"
 msgstr "Editar Regla de Firewall"
 
 msgid "Are you sure you want to delete rule %s"
-msgstr "¿Está seguro de borrar la regla %s?"
+msgstr "¿Estás seguro de borrar la regla %s?"
 
 msgid "%d firewall rule"
 msgid_plural "%d firewall rules"
@@ -1820,7 +1820,7 @@ msgid "Allow users to view action and login history logs"
 msgstr "Permitir a los usuarios ver el historial de Acciones y Acceso"
 
 msgid "Allow users to delete log history"
-msgstr "Permitir a los usuarios eliminar el historial de Acceso"
+msgstr "Permitir a los usuarios eliminar el historial de acceso"
 
 msgid "Enforce subdomain ownership"
 msgstr "Reforzar la propiedad del subdominio"
@@ -1861,7 +1861,7 @@ msgid "Add Record"
 msgstr "Añadir registro"
 
 msgid "Are you sure you want to delete record %s?"
-msgstr "¿Está seguro de borrar el registro %s?"
+msgstr "¿Estás seguro de borrar el registro %s?"
 
 msgid "%d DNS record"
 msgid_plural "%d DNS records"
@@ -1875,7 +1875,7 @@ msgid "Enable Automatic Updates"
 msgstr "Habilitar Actualizaciones Automáticas"
 
 msgid "Package Names"
-msgstr "Nombre de los Paquetes"
+msgstr "Nombre de Planes"
 
 msgid "Search Results"
 msgstr "Resultados de Búsqueda"
@@ -2037,7 +2037,7 @@ msgid "Please enter a valid email address."
 msgstr "Por favor ingrese un correo electrónico válido."
 
 msgid "Please enter a valid contact name."
-msgstr "Por favor ingrese nombre de contacto válido."
+msgstr "Por favor ingresa un nombre de contacto válido."
 
 msgid "Changes have been saved."
 msgstr "Los cambios se guardaron."
@@ -2060,7 +2060,7 @@ msgid ""
 msgstr ""
 "La cuenta de correo se ha creado correctamente.\\n\\nAjustes comunes de "
 "la cuenta:\\nUsuario: {{account}}@{{domain}}\\nContraseña: {{password}}\\n"
-"Webmail: {{webmail}}\\nHostname: {{hostname}}\\n\\nAjustes IMAP\\nAutenticac"
+"Webmail: {{webmail}}\\nServidor: {{hostname}}\\n\\nAjustes IMAP\\nAutenticac"
 "ión: Contraseña Normal\\nSSL/TLS: Puerto 993\\nSTARTTLS: Puerto 143\\nSin "
 "encriptar: Puerto 143\\n\\nAjustes POP3\\nAutenticación: Contraseña Normal"
 "\\nSSL/TLS: Puerto 995\\nSTARTTLS: Puerto 110\\nSin encriptar: Puerto 110\\n"
@@ -2069,32 +2069,30 @@ msgstr ""
 "\\n{{appname}}"
 
 msgid "Email Credentials: %s@%s"
-msgstr "Credenciales del correo electrónico: %s@%s"
+msgstr "Credenciales de Correo: %s@%s"
 
 msgid "Error: unknown record ID."
-msgstr "Error: ID desconocido."
+msgstr "Error: ID de registro desconocido."
 
 msgid ""
 "FTP account has been created and ready to use.\\n\\nHostname: {{domain}}"
 "\\nUsername: {{username}}\\nPassword: {{password}}\\n\\nBest regards,\\n\\n--\\n{{"
 "appname}}"
 msgstr ""
-"La cuenta FTP se ha creado y está lista para su uso.\\n\\nHostname: {{do"
+"La cuenta FTP se ha creado y está lista para su uso.\\n\\nServidor: {{do"
 "main}}\\nUsuario: {{username}}\\nContraseña: {{password}}\\n\\nSaludos cordi"
 "ales,\\n\\n--\\n{{appname}}"
 
 msgid "FTP Account Credentials: %s"
-msgstr "Credenciales para la Cuenta FTP: %s"
+msgstr "Credenciales de la Cuenta FTP: %s"
 
 msgid "Info (read-only mode): Crontab can only be edited via SSH."
-msgstr ""
-"Info (modo de solo lectura): Crontab se puede editar solamente via S"
-"SH."
+msgstr "Info (modo de sólo lectura): Crontab sólo se puede editar via SSH."
 
 msgid "Inactive session timeout can not lower than 1 minute."
 msgstr ""
-"El tiempo de espera de sesión inactiva no puede ser inferior a 1 min"
-"uto."
+"El tiempo límite de sesión inactiva no puede ser inferior a 1 minuto"
+"."
 
 msgid "Account has been suspended"
 msgstr "La cuenta ha sido suspendida"
@@ -2103,15 +2101,13 @@ msgid "Unsupported hash method"
 msgstr "Método hash no soportado"
 
 msgid "Invalid username or password"
-msgstr "Usuario o contraseña no válido."
+msgstr "Usuario o contraseña no válido"
 
 msgid "Invalid or missing 2FA token"
 msgstr "Token 2FA no válido o inexistente"
 
 msgid "Download of remote backup file has been scheduled."
-msgstr ""
-"La descarga remota de la copia de seguridad se ha programado correct"
-"amente."
+msgstr "La descarga del archivo de respaldo remoto ha sido programada."
 
 msgid "Unable to add database! Limit reached!"
 msgstr "Imposible añadir base de datos! Límite alcanzado!"
@@ -2144,7 +2140,7 @@ msgid "Restart \"%s\" failed"
 msgstr "Fallo al reiniciar \"%s\""
 
 msgid "SSH Key already exists."
-msgstr "La llave SSH ya existe."
+msgstr "La clave SSH ya existe."
 
 msgid "SSH Key has been created successfully."
 msgstr "La clave SSH se ha creado correctamente."
@@ -2159,10 +2155,10 @@ msgstr ""
 "d}}\\n\\nSaludos cordiales,\\n\\n--\\n{{appname}}"
 
 msgid "User {%s} has been created successfully. / {Log in as %s}"
-msgstr "El usuario {%s} se ha creado correctamente. / {Iniciar como %s}"
+msgstr "El usuario {%s} se ha creado correctamente. / {Log in as %s}"
 
 msgid "Package {%s} has been created successfully."
-msgstr "El paquete {%s} se ha creado correctamente."
+msgstr "El plan {%s} se ha creado correctamente."
 
 msgid "Mail domain {%s} has been created successfully."
 msgstr "El dominio de correo {%s} se ha creado correctamente."
@@ -2171,7 +2167,7 @@ msgid "Mail account {%s@%s} has been created successfully."
 msgstr "La cuenta de correo {%s@%s} se ha creado correctamente."
 
 msgid "Access key {%s} has been created successfully."
-msgstr "La llave {%s} de acceso se creó correctamente."
+msgstr "La clave de acceso {%s} se ha creado correctamente."
 
 msgid "DNS zone {%s} has been created successfully."
 msgstr "La zona DNS {%s} se ha creado correctamente."
@@ -2186,13 +2182,13 @@ msgid "Rule has been created successfully."
 msgstr "La regla se ha creado correctamente."
 
 msgid "IP address has been banned successfully."
-msgstr "La dirección IP se ha bloqueado correctamente."
+msgstr "La dirección IP se ha baneado correctamente."
 
 msgid "IP list has been created successfully."
 msgstr "La lista IP se ha creado correctamente."
 
 msgid "Cron job has been created successfully."
-msgstr "La tarea se ha programado correctamente."
+msgstr "El trabajo cron se ha creado correctamente."
 
 msgid "IP address {%s} has been created successfully."
 msgstr "La dirección IP {%s} se creó correctamente."
