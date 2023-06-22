@@ -1861,7 +1861,7 @@ msgid "Add Record"
 msgstr "Añadir registro"
 
 msgid "Are you sure you want to delete record %s?"
-msgstr "Está seguro de borrar el registro %s?"
+msgstr "¿Está seguro de borrar el registro %s?"
 
 msgid "%d DNS record"
 msgid_plural "%d DNS records"
