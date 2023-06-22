@@ -393,8 +393,8 @@ msgstr "Редактировать пакет"
 
 msgid "%d user account"
 msgid_plural "%d user accounts"
-msgstr[0] "%d аккаунт"
-msgstr[1] "%d аккаунта"
+msgstr[0] "%d учётная запись пользователя"
+msgstr[1] "%d учётные записи пользователя"
 msgstr[2] "%d учётных записей пользователя"
 msgstr[3] "%d user accounts"
 
