@@ -12,7 +12,7 @@ msgstr ""
 "X-Generator: Crowdin\\n"
 
 msgid "Error: Hestia did not return any output."
-msgstr "Erro: O painel não retornou nenhum resultado de saída"
+msgstr "Erro: O painel Hestia não retornou nenhum valor."
 
 msgid ""
 "Hello {{name}},\\n\\nTo reset your {{appname}} password, please follow t"
@@ -610,7 +610,7 @@ msgstr "Tem certeza que gostaria de apagar a base de dados %s?"
 
 msgid "%d database"
 msgid_plural "%d databases"
-msgstr[0] "%d database"
+msgstr[0] "%d base de dados"
 msgstr[1] "%d bases de dados"
 
 msgid "Configure Server"
@@ -962,7 +962,7 @@ msgid "MAIL"
 msgstr "EMAIL"
 
 msgid "Rate Limit"
-msgstr "Rate Limit"
+msgstr "Taxa Limite"
 
 msgid "per account / hour"
 msgstr "por conta/hora"
@@ -980,7 +980,7 @@ msgid "No exclusions"
 msgstr "Sem exclusões"
 
 msgid "ISO 3166-1 alpha-2 two-letter code"
-msgstr "ISO 3166-1 alpha-2 two-letter code"
+msgstr "ISO 3166-1 alpha-2 código de duas letras"
 
 msgid "State / Province"
 msgstr "Estado / Província / Região"
@@ -998,10 +998,10 @@ msgid "Permissions"
 msgstr "Permissões"
 
 msgid "Catch-All Email"
-msgstr "Catch-All Email"
+msgstr "E-mail captura-tudo"
 
 msgid "email / hour / account"
-msgstr "email / hour / account"
+msgstr "e-mail / hora / conta"
 
 msgid "Enable SSL for this domain"
 msgstr "Ativar SSL para este domínio"
@@ -1023,7 +1023,7 @@ msgid "Issued To"
 msgstr "Emitido para"
 
 msgid "Alternate"
-msgstr "Alternate"
+msgstr "Alternar"
 
 msgid "Not Before"
 msgstr "Não antes"
@@ -1092,7 +1092,7 @@ msgid "Theme"
 msgstr "Aparência"
 
 msgid "Default List Sort Order"
-msgstr "Default List Sort Order"
+msgstr "Ordem de Classificação padrão da lista"
 
 msgid "PHP CLI Version"
 msgstr "Versão PHP CLI"
@@ -1122,10 +1122,10 @@ msgid "Secret Key"
 msgstr "Chave secreta"
 
 msgid "Warning! Last chance to save secret key!"
-msgstr "Warning! Last chance to save secret key!"
+msgstr "Aviso! Última hipótese para salvar a chave secreta!"
 
 msgid "Edit IP Address"
-msgstr "Edit IP Address"
+msgstr "Editar endereço IP"
 
 msgid "Login History"
 msgstr "Histórico de início de sessão"
@@ -1319,14 +1319,14 @@ msgstr "Atualmente não há listas de IP definidas."
 
 msgid "%d IP list"
 msgid_plural "%d IP lists"
-msgstr[0] "%d IP list"
+msgstr[0] "%d Lista de IPs"
 msgstr[1] "%d Listas de IPs"
 
 msgid "Account"
 msgstr "Conta"
 
 msgid "Use local-part without domain name"
-msgstr "Use local-part without domain name"
+msgstr "Usar parte local sem o nome de domínio"
 
 msgid "Forward to"
 msgstr "Encaminhar para"
@@ -1401,7 +1401,7 @@ msgstr "Tem a certeza que pretende eliminar a chave SSH %s?"
 msgid "%d SSH key"
 msgid_plural "%d SSH keys"
 msgstr[0] "%d chave SSH"
-msgstr[1] "%d SSH keys"
+msgstr[1] "%d chaves SSH"
 
 msgid "Hestia Control Panel"
 msgstr "Painel de Controlo Hestia"
@@ -1568,7 +1568,7 @@ msgstr "Tem a certeza que pretende eliminar a chave de acesso %s?"
 
 msgid "%d access key"
 msgid_plural "%d access keys"
-msgstr[0] "%d access key"
+msgstr[0] "%d chave de acesso"
 msgstr[1] "%d chaves de acesso"
 
 msgid "Send welcome email"
@@ -1811,10 +1811,10 @@ msgstr ""
 "NS"
 
 msgid "Sync Error document templates on user rebuild"
-msgstr "Sync Error document templates on user rebuild"
+msgstr "Erro de Sincronização de modelos na recriação do utilizador"
 
 msgid "Sync Skeleton templates"
-msgstr "Sync Skeleton templates"
+msgstr "Sincronizar modelos Base"
 
 msgid "Allow users to view action and login history logs"
 msgstr ""
@@ -1863,7 +1863,7 @@ msgid "Add Record"
 msgstr "Adicionar Registo"
 
 msgid "Are you sure you want to delete record %s?"
-msgstr "Are you sure you want to delete record %s?"
+msgstr "Tem a certeza que quer eliminar o registo %s?"
 
 msgid "%d DNS record"
 msgid_plural "%d DNS records"
@@ -1877,7 +1877,7 @@ msgid "Enable Automatic Updates"
 msgstr "Ativar Atualizações Automáticas"
 
 msgid "Package Names"
-msgstr "Package Names"
+msgstr "Nomes do Pacote"
 
 msgid "Search Results"
 msgstr "Resultados de pesquisa"
@@ -1891,13 +1891,13 @@ msgid "Shortcuts"
 msgstr "Atalhos"
 
 msgid "Add new object"
-msgstr "Add new object"
+msgstr "Adicionar um novo objeto"
 
 msgid "Save form"
-msgstr "Save form"
+msgstr "Guardar formulário"
 
 msgid "Unsave form"
-msgstr "Unsave form"
+msgstr "Não salvar formulário"
 
 msgid "Go to WEB list"
 msgstr "Ir para a lista WEB"
@@ -1939,7 +1939,7 @@ msgid "Move down through elements list"
 msgstr "Mover para baixo na lista de elementos"
 
 msgid "No notifications"
-msgstr "No notifications"
+msgstr "Sem notificações"
 
 msgid "Delete all notifications"
 msgstr "Apagar todas as notificações"
@@ -1987,16 +1987,16 @@ msgid "Limit"
 msgstr "Limite"
 
 msgid "Zones"
-msgstr "Zones"
+msgstr "Zonas"
 
 msgid "CRON"
 msgstr "Tarefa Cronológica"
 
 msgid "BACKUP"
-msgstr "BACKUP"
+msgstr "Cópias de Segurança"
 
 msgid "Error: %s update failed."
-msgstr "Error: %s update failed."
+msgstr "Erro: Atualização %s falhou."
 
 msgid "NGINX cache has been purged successfully."
 msgstr "A Cache do servidor NGINX foi apagada com sucesso."
@@ -2005,10 +2005,14 @@ msgid "The system is going down for reboot NOW!"
 msgstr "O sistema irá ficar em baixo para reiniciar AGORA!"
 
 msgid "Cron job email reporting has been successfully disabled."
-msgstr "Cron job email reporting has been successfully disabled."
+msgstr ""
+"O relatório de e-mail dos trabalhos Cronológicos foi desativado com "
+"sucesso."
 
 msgid "Cron job email reporting has been successfully enabled."
-msgstr "Cron job email reporting has been successfully enabled."
+msgstr ""
+"O relatório de e-mail dos trabalhos Cronológicos foi ativado com suc"
+"esso."
 
 msgid "Error: unable to copy package."
 msgstr "Erro: não foi possível copiar o pacote."
@@ -2023,10 +2027,10 @@ msgid "Field \"%s\" can not be blank."
 msgstr "O Campo \"%s\" não pode estar vazio."
 
 msgid "Error code: %s"
-msgstr "Error code: %s"
+msgstr "Código de Erro: %s"
 
 msgid "Certificate has been generated successfully."
-msgstr "Certificate has been generated successfully."
+msgstr "O Certificado foi gerado com sucesso."
 
 msgid "Password does not match the minimum requirements."
 msgstr "A Palavra-passe não corresponde com os critérios mínimos."
@@ -2038,7 +2042,7 @@ msgid "Please enter a valid contact name."
 msgstr "Por favor, insira um nome de contacto válido."
 
 msgid "Changes have been saved."
-msgstr "Changes have been saved."
+msgstr "As alterações foram guardadas."
 
 msgid "Nameserver 1"
 msgstr "Servidor de nome 1"
@@ -2085,10 +2089,10 @@ msgid "FTP Account Credentials: %s"
 msgstr "Credenciais Conta FTP: %s"
 
 msgid "Info (read-only mode): Crontab can only be edited via SSH."
-msgstr "Info (read-only mode): Crontab can only be edited via SSH."
+msgstr "Informação (modo de leitura): Crontab só pode ser editado via SSH."
 
 msgid "Inactive session timeout can not lower than 1 minute."
-msgstr "Inactive session timeout can not lower than 1 minute."
+msgstr "O Tempo limite de sessão inativa não pode ser inferior a 1 minuto."
 
 msgid "Account has been suspended"
 msgstr "Conta foi suspensa"
@@ -2103,7 +2107,9 @@ msgid "Invalid or missing 2FA token"
 msgstr "Código 2FA inválido ou ausente"
 
 msgid "Download of remote backup file has been scheduled."
-msgstr "Download of remote backup file has been scheduled."
+msgstr ""
+"O Descarregamento do arquivo de cópia de segurança remoto foi agenda"
+"do."
 
 msgid "Unable to add database! Limit reached!"
 msgstr "Não Foi possivel adicionar a base de dados! Limite atingido!"
@@ -2112,7 +2118,7 @@ msgid "Unable to add database!"
 msgstr "Não Foi possivel adicionar a base de dados!"
 
 msgid "You are logged out, please log in again."
-msgstr "You are logged out, please log in again."
+msgstr "Está com a sessão terminada, por favor, inicie sessão novamente."
 
 msgid "%d day"
 msgid_plural "%d days"
@@ -2136,10 +2142,10 @@ msgid "Restart \"%s\" failed"
 msgstr "Reinicio de \"%s\" falhou"
 
 msgid "SSH Key already exists."
-msgstr "SSH Key already exists."
+msgstr "A chave SSH já existe."
 
 msgid "SSH Key has been created successfully."
-msgstr "SSH Key has been created successfully."
+msgstr "A Chave SSH foi criada com sucesso."
 
 msgid ""
 "Hello {{name}},\\n\\nYour account has been created and ready to use.\\n\\nht"
@@ -2166,28 +2172,28 @@ msgid "Access key {%s} has been created successfully."
 msgstr "A chave de acesso {%s} foi criada com sucesso."
 
 msgid "DNS zone {%s} has been created successfully."
-msgstr "DNS zone {%s} has been created successfully."
+msgstr "A Zona DNS {%s} foi criada com sucesso."
 
 msgid "Record {%s.%s} has been created successfully."
-msgstr "Record {%s.%s} has been created successfully."
+msgstr "O Registo {%s.%s} foi criado com sucesso."
 
 msgid "Domain {%s} has been created successfully."
 msgstr "O domínio {%s} foi criado com sucesso."
 
 msgid "Rule has been created successfully."
-msgstr "Rule has been created successfully."
+msgstr "A regra foi criada com êxito."
 
 msgid "IP address has been banned successfully."
-msgstr "IP address has been banned successfully."
+msgstr "O Endereço IP foi banido com sucesso."
 
 msgid "IP list has been created successfully."
-msgstr "IP list has been created successfully."
+msgstr "A lista de IPs foi criada com sucesso."
 
 msgid "Cron job has been created successfully."
 msgstr "A tarefa Cronológica foi criada com sucesso."
 
 msgid "IP address {%s} has been created successfully."
-msgstr "IP address {%s} has been created successfully."
+msgstr "Endereço IP {%s} foi criada com sucesso."
 
 msgid ""
 "Database has been created.\\n\\nDatabase: {{database}}\\nUsername: {{usern"
@@ -2199,16 +2205,16 @@ msgstr ""
 "om os melhores cumprimentos,\\n\\n--\\n{{appname}}"
 
 msgid "Database Credentials: %s"
-msgstr "Database Credentials: %s"
+msgstr "Credenciais da Base de Dados: %s"
 
 msgid "Database {%s} has been created successfully. / {Open %s}"
-msgstr "Database {%s} has been created successfully. / {Open %s}"
+msgstr "A Base de dados {%s} foi criada com sucesso. / {Abrir %s}"
 
 msgid "Unable to install %s, %s is not available."
-msgstr "Unable to install %s, %s is not available."
+msgstr "Não foi possível instalar %s, %s não está disponível."
 
 msgid "%s installer missing."
-msgstr "%s installer missing."
+msgstr "Instalador %s faltando."
 
 msgid "%s installed successfully."
 msgstr "%s instalado com sucesso."
@@ -2229,7 +2235,7 @@ msgid "backend server"
 msgstr "servidor de backend"
 
 msgid "reverse proxy"
-msgstr "reverse proxy"
+msgstr "proxy reverso"
 
 msgid "dns server"
 msgstr "servidor de DNS"
@@ -2241,7 +2247,7 @@ msgid "imap/pop3 server"
 msgstr "Servidor Imap/POP3"
 
 msgid "email anti-virus"
-msgstr "email anti-virus"
+msgstr "antivírus de e-mail"
 
 msgid "email spam filter"
 msgstr "Filtro de spam de e-mail"
