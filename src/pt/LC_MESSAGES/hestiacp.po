@@ -635,16 +635,16 @@ msgid "Protocol"
 msgstr "Protocolo"
 
 msgid "Are you sure you want to unsuspend rule #%s?"
-msgstr "Are you sure you want to unsuspend rule #%s?"
+msgstr "Tem certeza que quer de cancelar a suspensão da regra #%s?"
 
 msgid "Are you sure you want to suspend rule #%s?"
-msgstr "Are you sure you want to suspend rule #%s?"
+msgstr "Tem certeza que quer suspender a regra #%s?"
 
 msgid "Edit Firewall Rule"
 msgstr "Editar Regra da Firewall"
 
 msgid "Are you sure you want to delete rule %s"
-msgstr "Are you sure you want to delete rule %s"
+msgstr "Tem certeza que deseja excluir a regra %s"
 
 msgid "%d firewall rule"
 msgid_plural "%d firewall rules"
@@ -827,7 +827,7 @@ msgid "Open Webmail"
 msgstr "Abrir o Webmail"
 
 msgid "Are you sure you want to delete %s?"
-msgstr "Are you sure you want to delete %s?"
+msgstr "Tem a certeza que quer apagar %s?"
 
 msgid "%d mail account"
 msgid_plural "%d mail accounts"
@@ -877,13 +877,13 @@ msgid "Rebuild"
 msgstr "Reconstruir"
 
 msgid "DNSKEY Record"
-msgstr "DNSKEY Record"
+msgstr "Registo DNSKEY"
 
 msgid "DS Record"
-msgstr "DS Record"
+msgstr "Registo DS"
 
 msgid "Public Key"
-msgstr "Public Key"
+msgstr "Chave pública"
 
 msgid "Key Tag / Flag"
 msgstr "Etiqueta/Marcação Chave"
@@ -892,16 +892,18 @@ msgid "Algorithm"
 msgstr "Algoritmo"
 
 msgid "Disable Notifications"
-msgstr "Disable Notifications"
+msgstr "Desativar Notificações"
 
 msgid "Enable Notifications"
-msgstr "Enable Notifications"
+msgstr "Ativar Notificações"
 
 msgid "Are you sure you want to unsuspend this cron job?"
-msgstr "Are you sure you want to unsuspend this cron job?"
+msgstr ""
+"Tem certeza que gostaria de cancelar a suspensão dessa tarefa cronol"
+"ógica?"
 
 msgid "Are you sure you want to suspend this cron job?"
-msgstr "Are you sure you want to suspend this cron job?"
+msgstr "Tem certeza que quer suspender esta tarefa cronológica?"
 
 msgid "Edit Cron Job"
 msgstr "Editar Tarefa Cronológica"
