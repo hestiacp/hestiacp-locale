@@ -960,7 +960,7 @@ msgid "per account / hour"
 msgstr "por cuenta / hora"
 
 msgid "DB"
-msgstr "BD"
+msgstr "BBDD"
 
 msgid "SSH Access"
 msgstr "Acceso SSH"
@@ -1126,7 +1126,7 @@ msgid "Refresh"
 msgstr "Refrescar"
 
 msgid "Are you sure you want to delete the logs?"
-msgstr "¿Estás seguro de borrar los históricos?"
+msgstr "¿Estás seguro de borrar los historiales?"
 
 msgid "Message"
 msgstr "Mensaje"
