@@ -865,7 +865,7 @@ msgid "Expire"
 msgstr "Expira"
 
 msgid "Records"
-msgstr "Registros"
+msgstr "Historial"
 
 msgid "Rebuild"
 msgstr "Reconstruir"
@@ -1036,7 +1036,7 @@ msgid "Manage SSH Keys"
 msgstr "Gestionar Claves SSH"
 
 msgid "Logs"
-msgstr "Históricos"
+msgstr "Historiales"
 
 msgid "Access Keys"
 msgstr "Claves de Acceso"
@@ -1133,8 +1133,8 @@ msgstr "Mensaje"
 
 msgid "%d log record"
 msgid_plural "%d log records"
-msgstr[0] "%d registro histórico"
-msgstr[1] "%d registros históricos"
+msgstr[0] "%d historial de acceso"
+msgstr[1] "%d historiales de acceso"
 
 msgid "Close debug panel"
 msgstr "Cerrar el panel de depuración"
@@ -1208,7 +1208,7 @@ msgstr ""
 "r><br>Ahora puede iniciar sesión."
 
 msgid "Log in"
-msgstr "Acceder"
+msgstr "Entrar"
 
 msgid "Unlock Account"
 msgstr "Desbloquear Cuenta"
@@ -1603,7 +1603,7 @@ msgid "Visit"
 msgstr "Visitar"
 
 msgid "Access Log"
-msgstr "Histórico de acceso"
+msgstr "Historial de acceso"
 
 msgid "%d web domain"
 msgid_plural "%d web domains"
@@ -1836,7 +1836,7 @@ msgid "one or more email addresses"
 msgstr "una o más direcciones de correo"
 
 msgid "Error Log"
-msgstr "Histórico de errores"
+msgstr "Historial de errores"
 
 msgid "Last 70 lines of %s.%s.log"
 msgstr "Últimas 70 líneas de %s.%s.log"
