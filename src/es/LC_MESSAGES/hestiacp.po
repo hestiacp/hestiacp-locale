@@ -2102,7 +2102,7 @@ msgid "Invalid or missing 2FA token"
 msgstr "Token 2FA no válido o inexistente"
 
 msgid "Download of remote backup file has been scheduled."
-msgstr "La descarga del archivo de respaldo remoto ha sido programada."
+msgstr "La descarga del archivo remoto de respaldo ha sido programada."
 
 msgid "Unable to add database! Limit reached!"
 msgstr "Imposible añadir base de datos! Límite alcanzado!"
