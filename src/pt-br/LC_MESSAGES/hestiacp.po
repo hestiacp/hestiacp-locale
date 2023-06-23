@@ -294,7 +294,7 @@ msgid "Type"
 msgstr "Tipo"
 
 msgid "Charset"
-msgstr "Charset"
+msgstr "Codificação"
 
 msgid "Generate Self-Signed SSL Certificate"
 msgstr "Gerar certificado SSL auto assinado."
@@ -807,7 +807,7 @@ msgid "Aliases"
 msgstr "Apelidos"
 
 msgid "Forwarding"
-msgstr "Forwarding"
+msgstr "Encaminhamento"
 
 msgid "Auto Reply"
 msgstr "Resposta Automática"
@@ -970,7 +970,7 @@ msgid "SSH Access"
 msgstr "Acesso SSH"
 
 msgid "Value"
-msgstr "Value"
+msgstr "Valor"
 
 msgid "No exclusions"
 msgstr "Sem exclusões"
@@ -1127,7 +1127,7 @@ msgid "Login History"
 msgstr "Histórico de login"
 
 msgid "Refresh"
-msgstr "Refresh"
+msgstr "Atualizar"
 
 msgid "Are you sure you want to delete the logs?"
 msgstr "Você tem certeza que deseja remover os logs?"
@@ -1230,7 +1230,7 @@ msgid "Next"
 msgstr "Próximo"
 
 msgid "Forgot Password"
-msgstr "Forgot Password"
+msgstr "Esqueci a senha"
 
 msgid "New Password"
 msgstr "Nova senha"
@@ -1251,7 +1251,7 @@ msgid "Forgot Token"
 msgstr "Esqueceu o token"
 
 msgid "Login"
-msgstr "Login"
+msgstr "Entrar"
 
 msgid "Password reset code has been sent to your email address"
 msgstr "Código de recuperação de senha foi enviado para o seu e-mail."
@@ -1303,7 +1303,7 @@ msgstr[0] "%d pacote"
 msgstr[1] "%d pacotes"
 
 msgid "Add IP list"
-msgstr "Add IP list"
+msgstr "Adicionar lista de IPs"
 
 msgid "Are you sure you want to delete IP list %s?"
 msgstr "Você tem certeza que deseja remover a lista de IPs %s?"
@@ -1398,7 +1398,7 @@ msgstr[0] "%d chave SSH"
 msgstr[1] "%d chaves SSH"
 
 msgid "Hestia Control Panel"
-msgstr "Hestia Control Panel"
+msgstr "Painel de Controle Hestia"
 
 msgid "Close menu"
 msgstr "Fechar menu"
@@ -1645,7 +1645,7 @@ msgid "Send update installation log by email"
 msgstr "Enviar log de atualização por e-mail"
 
 msgid "Web Server"
-msgstr "Web Server"
+msgstr "Servidor Web"
 
 msgid "Proxy Server"
 msgstr "Servidor Proxy"
@@ -1673,10 +1673,10 @@ msgid "DNS Server"
 msgstr "Servidor DNS"
 
 msgid "DNS Cluster"
-msgstr "DNS Cluster"
+msgstr "Cluster de DNS"
 
 msgid "Mail Server"
-msgstr "Mail Server"
+msgstr "Servidor de email"
 
 msgid "Webmail Alias"
 msgstr "Webmail Alias"
@@ -1946,7 +1946,7 @@ msgid "Logged in as"
 msgstr "Autenticado como"
 
 msgid "Notifications"
-msgstr "Notifications"
+msgstr "Notificações"
 
 msgid "Delete notification"
 msgstr "Deletar notificação"
@@ -1958,7 +1958,7 @@ msgid "Server settings"
 msgstr "Configurações do servidor"
 
 msgid "Help"
-msgstr "Help"
+msgstr "Ajuda"
 
 msgid "Collapse main menu"
 msgstr "Recolher menu principal"
@@ -2184,9 +2184,9 @@ msgid ""
 "ame}}\\nPassword: {{password}}\\nSQL Manager: {{dbadmin}}\\n\\nBest regards,"
 "\\n\\n--\\n{{appname}}"
 msgstr ""
-"Database has been created.\\n\\nDatabase: {{database}}\\nUsername: {{usern"
-"ame}}\\nPassword: {{password}}\\nSQL Manager: {{dbadmin}}\\n\\nBest regards,"
-"\\n\\n--\\n{{appname}}"
+"Banco de dados foi criado.\\n\\nBanco de dados: {{database}}\\nUsuário: {{"
+"username}}\\nSenha: {{password}}\\nGerenciador SQL: {{dbadmin}}\\n\\nAtencio"
+"samente,\\n\\n--\\n{{appname}}"
 
 msgid "Database Credentials: %s"
 msgstr "Credenciais do Banco de dados: %s"
@@ -2219,7 +2219,7 @@ msgid "backend server"
 msgstr "servidor de backend"
 
 msgid "reverse proxy"
-msgstr "reverse proxy"
+msgstr "proxy reverso"
 
 msgid "dns server"
 msgstr "servidor DNS"

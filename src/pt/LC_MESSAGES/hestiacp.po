@@ -394,7 +394,7 @@ msgstr[0] "%d conta de utilizador"
 msgstr[1] "%d conta de utilizadores"
 
 msgid "Add Cron Job"
-msgstr "Adicionar Tarefa CRON"
+msgstr "Adicionar Tarefa Cronológica"
 
 msgid "Command"
 msgstr "Comando"
@@ -915,7 +915,7 @@ msgstr "Tem a certeza que deseja remover esta tarefa cronológica?"
 msgid "%d cron job"
 msgid_plural "%d cron jobs"
 msgstr[0] "%d cron tarefa"
-msgstr[1] "%d cron tarefas"
+msgstr[1] "%d tarefas Cronológicas"
 
 msgid "Add Package"
 msgstr "Adicionar Pacote"
@@ -975,7 +975,7 @@ msgid "Value"
 msgstr "Valor"
 
 msgid "No exclusions"
-msgstr "No exclusions"
+msgstr "Sem exclusões"
 
 msgid "ISO 3166-1 alpha-2 two-letter code"
 msgstr "ISO 3166-1 alpha-2 two-letter code"
@@ -1002,10 +1002,10 @@ msgid "email / hour / account"
 msgstr "email / hour / account"
 
 msgid "Enable SSL for this domain"
-msgstr "Enable SSL for this domain"
+msgstr "Ativar SSL para este domínio"
 
 msgid "Use Let's Encrypt to obtain SSL certificate"
-msgstr "Use Let's Encrypt to obtain SSL certificate"
+msgstr "Utilize o Let's Encrypt para obter o certificado SSL"
 
 msgid ""
 "To enable Let's Encrypt SSL, ensure that DNS records exist for mail."
@@ -1018,28 +1018,28 @@ msgid "SSL Certificate Authority / Intermediate"
 msgstr "Autoridade Certificadora SSL / Intermediária"
 
 msgid "Issued To"
-msgstr "Issued To"
+msgstr "Emitido para"
 
 msgid "Alternate"
 msgstr "Alternate"
 
 msgid "Not Before"
-msgstr "Not Before"
+msgstr "Não antes"
 
 msgid "Not After"
-msgstr "Not After"
+msgstr "Não após"
 
 msgid "Signature"
-msgstr "Signature"
+msgstr "Assinatura"
 
 msgid "Key Size"
-msgstr "Key Size"
+msgstr "Tamanho da chave"
 
 msgid "Issued By"
-msgstr "Issued By"
+msgstr "Emitido Por"
 
 msgid "Manage SSH Keys"
-msgstr "Manage SSH Keys"
+msgstr "Gerir chaves SSH"
 
 msgid "Logs"
 msgstr "Histórico"
@@ -1102,7 +1102,7 @@ msgid "Add Web Domain"
 msgstr "Adicionar Domínio Web"
 
 msgid "a web domain"
-msgstr "a web domain"
+msgstr "um domínio web"
 
 msgid "DNS Support"
 msgstr "Suporte DNS"
@@ -1114,7 +1114,7 @@ msgid "Access Key"
 msgstr "Chave de acesso"
 
 msgid "Access Key ID"
-msgstr "Access Key ID"
+msgstr "ID de chave de acesso"
 
 msgid "Secret Key"
 msgstr "Chave secreta"
@@ -1126,13 +1126,13 @@ msgid "Edit IP Address"
 msgstr "Edit IP Address"
 
 msgid "Login History"
-msgstr "Login History"
+msgstr "Histórico de início de sessão"
 
 msgid "Refresh"
 msgstr "Actualizar"
 
 msgid "Are you sure you want to delete the logs?"
-msgstr "Are you sure you want to delete the logs?"
+msgstr "Tem a certeza de que pretende eliminar os logs?"
 
 msgid "Message"
 msgstr "Mensagem"
@@ -1149,7 +1149,7 @@ msgid "Open debug panel"
 msgstr "Abrir painel de depuração"
 
 msgid "Add IP Address to Banlist"
-msgstr "Add IP Address to Banlist"
+msgstr "Adicionar o endereço IP à lista de banimentos"
 
 msgid "Banlist"
 msgstr "Lista Negra"
@@ -1282,10 +1282,10 @@ msgid "Enabled"
 msgstr "Ativo"
 
 msgid "View Public DNSSEC Key"
-msgstr "View Public DNSSEC Key"
+msgstr "Ver chave DNSSEC pública"
 
 msgid "Are you sure you want to delete domain %s?"
-msgstr "Are you sure you want to delete domain %s?"
+msgstr "Tem certeza que gostaria de apagar o domínio %s?"
 
 msgid "%d DNS zone"
 msgid_plural "%d DNS zones"
@@ -1299,7 +1299,7 @@ msgid "Duplicate"
 msgstr "Duplicar"
 
 msgid "Are you sure you want to delete package %s?"
-msgstr "Are you sure you want to delete package %s?"
+msgstr "Tem certeza que gostaria de apagar o pacote %s?"
 
 msgid "%d package"
 msgid_plural "%d packages"
@@ -1318,7 +1318,7 @@ msgstr "Atualmente não há listas de IP definidas."
 msgid "%d IP list"
 msgid_plural "%d IP lists"
 msgstr[0] "%d IP list"
-msgstr[1] "%d IP lists"
+msgstr[1] "%d Listas de IPs"
 
 msgid "Account"
 msgstr "Conta"
@@ -1330,7 +1330,7 @@ msgid "Forward to"
 msgstr "Encaminhar para"
 
 msgid "One or more email addresses"
-msgstr "One or more email addresses"
+msgstr "Um ou mais endereços de e-mail"
 
 msgid "Discard all mail"
 msgstr "Descartar todos os Emails"
@@ -1339,19 +1339,19 @@ msgid "Do not store forwarded mail"
 msgstr "Não armazenar email encaminhado"
 
 msgid "email / hour"
-msgstr "email / hour"
+msgstr "e-mail / hora"
 
 msgid "Email login credentials to:"
 msgstr "Enviar Credenciais de login para o email:"
 
 msgid "Common Account Settings"
-msgstr "Common Account Settings"
+msgstr "Configurações comuns da conta"
 
 msgid "Webmail"
 msgstr "Webmail"
 
 msgid "IMAP Settings"
-msgstr "IMAP Settings"
+msgstr "Definições de IMAP"
 
 msgid "Authentication"
 msgstr "Autenticação"
@@ -1363,7 +1363,7 @@ msgid "No encryption"
 msgstr "Sem criptografia"
 
 msgid "POP3 Settings"
-msgstr "POP3 Settings"
+msgstr "Definições POP3"
 
 msgid "SMTP Settings"
 msgstr "Definições de SMTP"
@@ -1869,10 +1869,10 @@ msgstr[0] "%d registo DNS"
 msgstr[1] "%d registos DNS"
 
 msgid "Disable Automatic Updates"
-msgstr "Disable Automatic Updates"
+msgstr "Desativar Atualizações Automáticas"
 
 msgid "Enable Automatic Updates"
-msgstr "Enable Automatic Updates"
+msgstr "Ativar Atualizações Automáticas"
 
 msgid "Package Names"
 msgstr "Package Names"
@@ -1910,7 +1910,7 @@ msgid "Go to DB list"
 msgstr "Ir para a lista de Bases de Dados"
 
 msgid "Go to CRON list"
-msgstr "Ir para a lista de tarefas CRON"
+msgstr "Ir para a lista de tarefas Cronológicas"
 
 msgid "Go to BACKUP list"
 msgstr "Ir para a lista de BACKUP"
@@ -1988,7 +1988,7 @@ msgid "Zones"
 msgstr "Zones"
 
 msgid "CRON"
-msgstr "Tarefa CRON"
+msgstr "Tarefa Cronológica"
 
 msgid "BACKUP"
 msgstr "BACKUP"
