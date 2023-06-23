@@ -361,10 +361,10 @@ msgid "Package"
 msgstr "Plan"
 
 msgid "Are you sure you want to unsuspend user %s?"
-msgstr "Está seguro de quitar la suspensión al usuario %s?"
+msgstr "¿Estás seguro de quitar la suspensión al usuario %s?"
 
 msgid "Are you sure you want to suspend user %s?"
-msgstr "Está seguro de suspender al usuario %s?"
+msgstr "¿Estás seguro de suspender al usuario %s?"
 
 msgid "Select"
 msgstr "Seleccionar"
@@ -379,7 +379,7 @@ msgid "Email"
 msgstr "Correo electrónico"
 
 msgid "Are you sure you want to delete user %s?"
-msgstr "Está seguro de borrar el usuario %s?"
+msgstr "¿Estás seguro de borrar el usuario %s?"
 
 msgid "Edit Package"
 msgstr "Editar Plan"
@@ -570,7 +570,7 @@ msgid "Comment"
 msgstr "Comentario"
 
 msgid "Are you sure you want to delete IP address %s?"
-msgstr "¿Está seguro de borrar la dirección IP %s?"
+msgstr "¿Estás seguro de borrar la dirección IP %s?"
 
 msgid "There are currently no banned IP addresses."
 msgstr "Actualmente no hay ninguna dirección IP baneada."
@@ -809,7 +809,7 @@ msgid "Auto Reply"
 msgstr "Auto-Respuesta"
 
 msgid "Are you sure you want to unsuspend %s?"
-msgstr "Estás seguro de quitar la suspensión a %s?"
+msgstr "¿Estás seguro de quitar la suspensión a %s?"
 
 msgid "Are you sure you want to suspend %s?"
 msgstr "¿Estás seguro de suspender a %s?"
@@ -904,7 +904,7 @@ msgid "Edit"
 msgstr "Editar"
 
 msgid "Are you sure you want to delete this cron job?"
-msgstr "¿Estás seguro de que deseas eliminar este trabajo cron?"
+msgstr "¿Estás seguro de eliminar este trabajo cron?"
 
 msgid "%d cron job"
 msgid_plural "%d cron jobs"
@@ -1267,10 +1267,10 @@ msgid "DNSSEC"
 msgstr "DNSSEC"
 
 msgid "Are you sure you want to unsuspend domain %s?"
-msgstr "¿Está seguro de quitar la suspensión del dominio %s?"
+msgstr "¿Estás seguro de quitar la suspensión del dominio %s?"
 
 msgid "Are you sure you want to suspend domain %s?"
-msgstr "¿Está seguro de suspender el dominio %s?"
+msgstr "¿Estás seguro de suspender el dominio %s?"
 
 msgid "Enabled"
 msgstr "Activado"
@@ -1279,7 +1279,7 @@ msgid "View Public DNSSEC Key"
 msgstr "Ver clave pública DNSSEC"
 
 msgid "Are you sure you want to delete domain %s?"
-msgstr "¿Está seguro de borrar el dominio %s?"
+msgstr "¿Estás seguro de borrar el dominio %s?"
 
 msgid "%d DNS zone"
 msgid_plural "%d DNS zones"
@@ -1293,7 +1293,7 @@ msgid "Duplicate"
 msgstr "Duplicar"
 
 msgid "Are you sure you want to delete package %s?"
-msgstr "Está seguro de borrar el plan %s?"
+msgstr "¿Estás seguro de borrar el plan %s?"
 
 msgid "%d package"
 msgid_plural "%d packages"
@@ -1304,7 +1304,7 @@ msgid "Add IP list"
 msgstr "Añadir lista de IPs"
 
 msgid "Are you sure you want to delete IP list %s?"
-msgstr "¿Está seguro de borrar la lista IP %s?"
+msgstr "¿Estás seguro de borrar la lista IP %s?"
 
 msgid "There are currently no IP lists defined."
 msgstr "Actualmente no hay listas IP definidas."
@@ -1435,7 +1435,7 @@ msgid "Firewall"
 msgstr "Firewall"
 
 msgid "Are you sure you want to restart %s?"
-msgstr "Está seguro de reiniciar %s?"
+msgstr "¿Estás seguro de reiniciar %s?"
 
 msgid "Stop"
 msgstr "Detener"
@@ -1938,7 +1938,7 @@ msgid "Delete all notifications"
 msgstr "Borrar todas las notificaciones"
 
 msgid "Are you sure you want to leave the page?"
-msgstr "¿Está seguro de abandonar esta página?"
+msgstr "¿Estás seguro de abandonar esta página?"
 
 msgid "BLACKLIST"
 msgstr "LISTA NEGRA"
