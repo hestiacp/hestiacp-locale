@@ -534,7 +534,7 @@ msgid "Block Malicious IPs"
 msgstr "Bloquear IPs maliciosas"
 
 msgid "Add IPset IP List for Firewall"
-msgstr "Añadir Lista IPset para el Firewall"
+msgstr "Añadir Lista IPset al cortafuegos"
 
 msgid "IP List Name"
 msgstr "Nombre de Lista IP"
@@ -637,15 +637,15 @@ msgid "Are you sure you want to suspend rule #%s?"
 msgstr "¿Estás seguro de suspender la regla #%s?"
 
 msgid "Edit Firewall Rule"
-msgstr "Editar Regla de Firewall"
+msgstr "Editar Regla del Cortafuegos"
 
 msgid "Are you sure you want to delete rule %s"
 msgstr "¿Estás seguro de borrar la regla %s?"
 
 msgid "%d firewall rule"
 msgid_plural "%d firewall rules"
-msgstr[0] "%d regla de firewall"
-msgstr[1] "%d reglas de firewall"
+msgstr[0] "%d regla de cortafuegos"
+msgstr[1] "%d reglas de conrtafuegos"
 
 msgid "Restore All"
 msgstr "Restaurar Todos"
@@ -785,7 +785,7 @@ msgid "Policy"
 msgstr "Política"
 
 msgid "Allow suspended users to log in with read-only access"
-msgstr "Permitir a los usuarios suspendidos acceder en modo solo lectura"
+msgstr "Permitir a los usuarios suspendidos acceder en modo sólo lectura"
 
 msgid "Partially implemented"
 msgstr "Parcialmente implementado"
@@ -856,7 +856,7 @@ msgid "Setup"
 msgstr "Configuración"
 
 msgid "Add Firewall Rule"
-msgstr "Añadir Regla de Firewall"
+msgstr "Añadir Regla al Cortafuegos"
 
 msgid "Add DNS Domain"
 msgstr "Añadir Dominio DNS"
@@ -865,7 +865,7 @@ msgid "Expire"
 msgstr "Expira"
 
 msgid "Records"
-msgstr "Historial"
+msgstr "Registros"
 
 msgid "Rebuild"
 msgstr "Reconstruir"
@@ -1133,8 +1133,8 @@ msgstr "Mensaje"
 
 msgid "%d log record"
 msgid_plural "%d log records"
-msgstr[0] "%d historial de acceso"
-msgstr[1] "%d historiales de acceso"
+msgstr[0] "%d registro histórico"
+msgstr[1] "%d registros históricos"
 
 msgid "Close debug panel"
 msgstr "Cerrar el panel de depuración"
@@ -1252,7 +1252,7 @@ msgstr "Entrar"
 msgid "Password reset code has been sent to your email address"
 msgstr ""
 "El código de restablecimiento de contraseña ha sido enviado a tu dir"
-"ección de correo electrónico"
+"ección de correo"
 
 msgid "Reset Code"
 msgstr "Código de restablecimiento"
@@ -1432,7 +1432,7 @@ msgid "Updates"
 msgstr "Actualizaciones"
 
 msgid "Firewall"
-msgstr "Firewall"
+msgstr "Cortafuegos"
 
 msgid "Are you sure you want to restart %s?"
 msgstr "¿Estás seguro de reiniciar %s?"
@@ -1646,7 +1646,7 @@ msgstr ""
 "alado"
 
 msgid "Send update installation log by email"
-msgstr "Enviar histórico de actualización por correo"
+msgstr "Enviar historial de actualización por correo"
 
 msgid "Web Server"
 msgstr "Servidor Web"
@@ -2258,7 +2258,7 @@ msgid "ssh server"
 msgstr "servidor ssh"
 
 msgid "firewall"
-msgstr "firewall"
+msgstr "cortafuegos"
 
 msgid "brute-force protection"
 msgstr "protección de fuerza bruta"
