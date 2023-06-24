@@ -77,16 +77,13 @@ msgid ""
 "Task has been added to the queue. You will receive an email notifica"
 "tion when your backup is ready for download."
 msgstr ""
-"La tarea ha sido añadida a la cola. Recibirás una notificación por c"
-"orreo electrónico cuando tu copia de seguridad esté lista para ser d"
-"escargada."
+"Tarea añadida a la cola. Recibirás una notificación por correo cuand"
+"o tu respaldo esté listo para ser descargado."
 
 msgid ""
 "An existing backup is already running. Please wait for that backup t"
 "o finish."
-msgstr ""
-"Ya existe una copia de seguridad en ejecución. Por favor, espera a q"
-"ue la copia de seguridad termine."
+msgstr "Ya existe un respaldo en ejecución. Por favor, espera a que termine."
 
 msgid "Overall Statistics"
 msgstr "Estadísticas Generales"
@@ -364,10 +361,10 @@ msgid "Package"
 msgstr "Plan"
 
 msgid "Are you sure you want to unsuspend user %s?"
-msgstr "Está seguro de quitar la suspensión al usuario %s?"
+msgstr "¿Estás seguro de quitar la suspensión al usuario %s?"
 
 msgid "Are you sure you want to suspend user %s?"
-msgstr "Está seguro de suspender al usuario %s?"
+msgstr "¿Estás seguro de suspender al usuario %s?"
 
 msgid "Select"
 msgstr "Seleccionar"
@@ -382,7 +379,7 @@ msgid "Email"
 msgstr "Correo electrónico"
 
 msgid "Are you sure you want to delete user %s?"
-msgstr "Está seguro de borrar el usuario %s?"
+msgstr "¿Estás seguro de borrar el usuario %s?"
 
 msgid "Edit Package"
 msgstr "Editar Plan"
@@ -573,7 +570,7 @@ msgid "Comment"
 msgstr "Comentario"
 
 msgid "Are you sure you want to delete IP address %s?"
-msgstr "¿Está seguro de borrar la dirección IP %s?"
+msgstr "¿Estás seguro de borrar la dirección IP %s?"
 
 msgid "There are currently no banned IP addresses."
 msgstr "Actualmente no hay ninguna dirección IP baneada."
@@ -812,7 +809,7 @@ msgid "Auto Reply"
 msgstr "Auto-Respuesta"
 
 msgid "Are you sure you want to unsuspend %s?"
-msgstr "Estás seguro de quitar la suspensión a %s?"
+msgstr "¿Estás seguro de quitar la suspensión a %s?"
 
 msgid "Are you sure you want to suspend %s?"
 msgstr "¿Estás seguro de suspender a %s?"
@@ -868,7 +865,7 @@ msgid "Expire"
 msgstr "Expira"
 
 msgid "Records"
-msgstr "Registros"
+msgstr "Historial"
 
 msgid "Rebuild"
 msgstr "Reconstruir"
@@ -907,7 +904,7 @@ msgid "Edit"
 msgstr "Editar"
 
 msgid "Are you sure you want to delete this cron job?"
-msgstr "¿Estás seguro de que deseas eliminar este trabajo cron?"
+msgstr "¿Estás seguro de eliminar este trabajo cron?"
 
 msgid "%d cron job"
 msgid_plural "%d cron jobs"
@@ -963,7 +960,7 @@ msgid "per account / hour"
 msgstr "por cuenta / hora"
 
 msgid "DB"
-msgstr "BD"
+msgstr "BBDD"
 
 msgid "SSH Access"
 msgstr "Acceso SSH"
@@ -1039,7 +1036,7 @@ msgid "Manage SSH Keys"
 msgstr "Gestionar Claves SSH"
 
 msgid "Logs"
-msgstr "Históricos"
+msgstr "Historiales"
 
 msgid "Access Keys"
 msgstr "Claves de Acceso"
@@ -1129,15 +1126,15 @@ msgid "Refresh"
 msgstr "Refrescar"
 
 msgid "Are you sure you want to delete the logs?"
-msgstr "¿Estás seguro de borrar los históricos?"
+msgstr "¿Estás seguro de borrar los historiales?"
 
 msgid "Message"
 msgstr "Mensaje"
 
 msgid "%d log record"
 msgid_plural "%d log records"
-msgstr[0] "%d registro histórico"
-msgstr[1] "%d registros históricos"
+msgstr[0] "%d historial de acceso"
+msgstr[1] "%d historiales de acceso"
 
 msgid "Close debug panel"
 msgstr "Cerrar el panel de depuración"
@@ -1178,7 +1175,7 @@ msgid "Create Backup"
 msgstr "Crear Respaldo"
 
 msgid "Backup Exclusions"
-msgstr "Exclusiones de Respaldo"
+msgstr "Exclusiones del Respaldo"
 
 msgid "File Name"
 msgstr "Nombre del archivo"
@@ -1193,7 +1190,7 @@ msgid "Download"
 msgstr "Descargar"
 
 msgid "Are you sure you want to delete backup %s?"
-msgstr "Está seguro de borrar el respaldo %s?"
+msgstr "¿Estás seguro de borrar el respaldo %s?"
 
 msgid "%d backup"
 msgid_plural "%d backups"
@@ -1211,7 +1208,7 @@ msgstr ""
 "r><br>Ahora puede iniciar sesión."
 
 msgid "Log in"
-msgstr "Acceder"
+msgstr "Entrar"
 
 msgid "Unlock Account"
 msgstr "Desbloquear Cuenta"
@@ -1270,10 +1267,10 @@ msgid "DNSSEC"
 msgstr "DNSSEC"
 
 msgid "Are you sure you want to unsuspend domain %s?"
-msgstr "¿Está seguro de quitar la suspensión del dominio %s?"
+msgstr "¿Estás seguro de quitar la suspensión del dominio %s?"
 
 msgid "Are you sure you want to suspend domain %s?"
-msgstr "¿Está seguro de suspender el dominio %s?"
+msgstr "¿Estás seguro de suspender el dominio %s?"
 
 msgid "Enabled"
 msgstr "Activado"
@@ -1282,7 +1279,7 @@ msgid "View Public DNSSEC Key"
 msgstr "Ver clave pública DNSSEC"
 
 msgid "Are you sure you want to delete domain %s?"
-msgstr "¿Está seguro de borrar el dominio %s?"
+msgstr "¿Estás seguro de borrar el dominio %s?"
 
 msgid "%d DNS zone"
 msgid_plural "%d DNS zones"
@@ -1296,7 +1293,7 @@ msgid "Duplicate"
 msgstr "Duplicar"
 
 msgid "Are you sure you want to delete package %s?"
-msgstr "Está seguro de borrar el plan %s?"
+msgstr "¿Estás seguro de borrar el plan %s?"
 
 msgid "%d package"
 msgid_plural "%d packages"
@@ -1307,7 +1304,7 @@ msgid "Add IP list"
 msgstr "Añadir lista de IPs"
 
 msgid "Are you sure you want to delete IP list %s?"
-msgstr "¿Está seguro de borrar la lista IP %s?"
+msgstr "¿Estás seguro de borrar la lista IP %s?"
 
 msgid "There are currently no IP lists defined."
 msgstr "Actualmente no hay listas IP definidas."
@@ -1438,7 +1435,7 @@ msgid "Firewall"
 msgstr "Firewall"
 
 msgid "Are you sure you want to restart %s?"
-msgstr "Está seguro de reiniciar %s?"
+msgstr "¿Estás seguro de reiniciar %s?"
 
 msgid "Stop"
 msgstr "Detener"
@@ -1606,7 +1603,7 @@ msgid "Visit"
 msgstr "Visitar"
 
 msgid "Access Log"
-msgstr "Histórico de acceso"
+msgstr "Historial de acceso"
 
 msgid "%d web domain"
 msgid_plural "%d web domains"
@@ -1839,7 +1836,7 @@ msgid "one or more email addresses"
 msgstr "una o más direcciones de correo"
 
 msgid "Error Log"
-msgstr "Histórico de errores"
+msgstr "Historial de errores"
 
 msgid "Last 70 lines of %s.%s.log"
 msgstr "Últimas 70 líneas de %s.%s.log"
@@ -1941,7 +1938,7 @@ msgid "Delete all notifications"
 msgstr "Borrar todas las notificaciones"
 
 msgid "Are you sure you want to leave the page?"
-msgstr "¿Está seguro de abandonar esta página?"
+msgstr "¿Estás seguro de abandonar esta página?"
 
 msgid "BLACKLIST"
 msgstr "LISTA NEGRA"
@@ -2105,7 +2102,7 @@ msgid "Invalid or missing 2FA token"
 msgstr "Token 2FA no válido o inexistente"
 
 msgid "Download of remote backup file has been scheduled."
-msgstr "La descarga del archivo de respaldo remoto ha sido programada."
+msgstr "La descarga del archivo remoto de respaldo ha sido programada."
 
 msgid "Unable to add database! Limit reached!"
 msgstr "Imposible añadir base de datos! Límite alcanzado!"
