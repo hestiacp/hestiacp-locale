@@ -198,7 +198,7 @@ msgid "Custom Logo"
 msgstr "自定义 Logo"
 
 msgid "Custom logo"
-msgstr "Custom logo"
+msgstr "自定义 Logo"
 
 msgid "Upload the files to %s"
 msgstr "Upload the files to %s"
@@ -786,7 +786,7 @@ msgid "Add Mail Account"
 msgstr "添加邮箱账户"
 
 msgid "Edit Mail Domain"
-msgstr "Edit Mail Domain"
+msgstr "编辑邮箱域名"
 
 msgid "Quota"
 msgstr "配额"
@@ -798,7 +798,7 @@ msgid "Forwarding"
 msgstr "转发"
 
 msgid "Auto Reply"
-msgstr "Auto Reply"
+msgstr "自动回复"
 
 msgid "Are you sure you want to unsuspend %s?"
 msgstr "Are you sure you want to unsuspend %s?"
@@ -807,7 +807,7 @@ msgid "Are you sure you want to suspend %s?"
 msgstr "Are you sure you want to suspend %s?"
 
 msgid "Edit Mail Account"
-msgstr "Edit Mail Account"
+msgstr "编辑邮箱账户"
 
 msgid "Open Webmail"
 msgstr "Open Webmail"
@@ -892,7 +892,7 @@ msgid "Edit Cron Job"
 msgstr "Edit Cron Job"
 
 msgid "Edit"
-msgstr "Edit"
+msgstr "编辑"
 
 msgid "Are you sure you want to delete this cron job?"
 msgstr "Are you sure you want to delete this cron job?"
@@ -1110,7 +1110,7 @@ msgid "Edit IP Address"
 msgstr "Edit IP Address"
 
 msgid "Login History"
-msgstr "Login History"
+msgstr "登录历史"
 
 msgid "Refresh"
 msgstr "刷新"
@@ -1153,7 +1153,7 @@ msgid "Owner"
 msgstr "归属"
 
 msgid "Verify IP Address"
-msgstr "Verify IP Address"
+msgstr "验证 IP 地址"
 
 msgid "%d IP address"
 msgid_plural "%d IP addresses"
@@ -1534,7 +1534,7 @@ msgid "Send FTP credentials to email"
 msgstr "将FTP登录信息发送到邮箱"
 
 msgid "Add FTP account"
-msgstr "Add FTP account"
+msgstr "添加 FTP 帐户"
 
 msgid "Are you sure you want to delete access key %s?"
 msgstr "Are you sure you want to delete access key %s?"
