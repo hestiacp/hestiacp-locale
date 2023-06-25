@@ -137,7 +137,7 @@ msgid "Web Aliases"
 msgstr "网站别名"
 
 msgid "DNS Zones"
-msgstr "DNS Zones"
+msgstr "DNS 区域"
 
 msgid "Cron Jobs"
 msgstr "定时任务"
@@ -195,7 +195,7 @@ msgid "No"
 msgstr "否"
 
 msgid "Custom Logo"
-msgstr "Custom Logo"
+msgstr "自定义 Logo"
 
 msgid "Custom logo"
 msgstr "Custom logo"
@@ -369,7 +369,7 @@ msgid "Select"
 msgstr "选中"
 
 msgid "Edit User"
-msgstr "Edit User"
+msgstr "编辑用户"
 
 msgid "Log in as"
 msgstr "Log in as"
@@ -378,7 +378,7 @@ msgid "Email"
 msgstr "电子邮箱"
 
 msgid "Are you sure you want to delete user %s?"
-msgstr "Are you sure you want to delete user %s?"
+msgstr "你确定要删除用户 %s 吗？"
 
 msgid "Edit Package"
 msgstr "编辑用户方案"
@@ -655,10 +655,10 @@ msgid "Web Domain"
 msgstr "Web Domain"
 
 msgid "Mail Domain"
-msgstr "Mail Domain"
+msgstr "邮箱域名"
 
 msgid "DNS Zone"
-msgstr "DNS Zone"
+msgstr "DNS 区域"
 
 msgid "Jobs"
 msgstr "任务"
@@ -671,13 +671,13 @@ msgid "Configure"
 msgstr "配置"
 
 msgid "Advanced Options"
-msgstr "Advanced Options"
+msgstr "高级选项"
 
 msgid "Basic Options"
-msgstr "Basic Options"
+msgstr "基本选项"
 
 msgid "Edit DNS Domain"
-msgstr "Edit DNS Domain"
+msgstr "编辑 DNS 域名"
 
 msgid "Template"
 msgstr "模板"
@@ -713,7 +713,7 @@ msgid "Optional"
 msgstr "Optional"
 
 msgid "Add IP Address"
-msgstr "Add IP Address"
+msgstr "添加IP地址"
 
 msgid "Netmask"
 msgstr "子网掩码"
