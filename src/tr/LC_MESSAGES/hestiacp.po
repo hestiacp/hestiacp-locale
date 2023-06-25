@@ -42,7 +42,7 @@ msgstr ""
 "önderildi."
 
 msgid "Please wait 15 minutes before sending a new request."
-msgstr "Please wait 15 minutes before sending a new request."
+msgstr "Yeni bir istek göndermeden önce lütfen 15 dakika bekleyin."
 
 msgid "An internal error occurred"
 msgstr "Dahili bir hata oluştu"
@@ -54,7 +54,7 @@ msgid "Invalid username or code"
 msgstr "Geçersiz kullanıcı adı veya kod"
 
 msgid "Passwords do not match"
-msgstr "Passwords do not match"
+msgstr "Parolalar eşleşmiyor"
 
 msgid "Stop \"%s\" failed"
 msgstr "\"%s\" durdurulamadı"
@@ -77,15 +77,15 @@ msgid ""
 "Task has been added to the queue. You will receive an email notifica"
 "tion when your backup is ready for download."
 msgstr ""
-"Task has been added to the queue. You will receive an email notifica"
-"tion when your backup is ready for download."
+"Görev sıraya eklendi. Yedeğiniz indirilmeye hazır olduğunda bir emai"
+"l bildirimi alacaksınız."
 
 msgid ""
 "An existing backup is already running. Please wait for that backup t"
 "o finish."
 msgstr ""
-"An existing backup is already running. Please wait for that backup t"
-"o finish."
+"Mevcut bir yedekleme zaten çalışıyor. Lütfen yedeklemenin bitmesini "
+"bekleyin."
 
 msgid "Overall Statistics"
 msgstr "Tüm İstatistikler"
@@ -139,7 +139,7 @@ msgid "Web Aliases"
 msgstr "Web Takma Adları"
 
 msgid "DNS Zones"
-msgstr "DNS Zones"
+msgstr "DNS Bölgeleri"
 
 msgid "Cron Jobs"
 msgstr "Cron Görevleri"
@@ -162,34 +162,34 @@ msgid "Save"
 msgstr "Kaydet"
 
 msgid "White Label Options"
-msgstr "White Label Options"
+msgstr "Beyaz Etiket Seçenekleri"
 
 msgid "General"
-msgstr "General"
+msgstr "Genel"
 
 msgid "Application Name"
-msgstr "Application Name"
+msgstr "Uygulama Adı"
 
 msgid "Title"
-msgstr "Title"
+msgstr "Başlık"
 
 msgid "Supported variables"
-msgstr "Supported variables"
+msgstr "Desteklenen değişkenler"
 
 msgid "Sender Name"
-msgstr "Sender Name"
+msgstr "Gönderen Adı"
 
 msgid "Default"
 msgstr "Varsayılan"
 
 msgid "Sender Email Address"
-msgstr "Sender Email Address"
+msgstr "Gönderen Email Adresi"
 
 msgid "Email Subject"
-msgstr "Email Subject"
+msgstr "Email konu"
 
 msgid "Hide link to Documentation"
-msgstr "Hide link to Documentation"
+msgstr "Dokümantasyon bağlantısını gizle"
 
 msgid "Yes"
 msgstr "Evet"
@@ -198,16 +198,16 @@ msgid "No"
 msgstr "Hayır"
 
 msgid "Custom Logo"
-msgstr "Custom Logo"
+msgstr "Özel logo"
 
 msgid "Custom logo"
-msgstr "Custom logo"
+msgstr "Özel logo"
 
 msgid "Upload the files to %s"
-msgstr "Upload the files to %s"
+msgstr "Dosyaları %s'ye yükleyin"
 
 msgid "Update logo"
-msgstr "Update logo"
+msgstr "Logoyu güncelle"
 
 msgid "Add Mail Domain"
 msgstr "E-posta Alan Adı Ekle"
@@ -303,7 +303,7 @@ msgid "SSL Certificate"
 msgstr "SSL Sertifikası"
 
 msgid "SSL Private Key"
-msgstr "SSL Private Key"
+msgstr "SSL Özel Anahtarı"
 
 msgid "SSL CSR"
 msgstr "SSL CSR"
@@ -327,13 +327,13 @@ msgid "Rebuild All"
 msgstr "Rebuild All"
 
 msgid "Rebuild User Profile"
-msgstr "Rebuild User Profile"
+msgstr "Kullanıcı Profilini Yeniden Oluştur"
 
 msgid "Rebuild Web Domains"
 msgstr "Rebuild Web Domains"
 
 msgid "Rebuild DNS Zones"
-msgstr "Rebuild DNS Zones"
+msgstr "DNS Bölgelerini Yeniden Oluştur"
 
 msgid "Rebuild Mail Domains"
 msgstr "Rebuild Mail Domains"
@@ -375,7 +375,7 @@ msgid "Edit User"
 msgstr "Edit User"
 
 msgid "Log in as"
-msgstr "Log in as"
+msgstr "Oturum açın"
 
 msgid "Email"
 msgstr "E-posta"
@@ -434,13 +434,13 @@ msgid "Every minute"
 msgstr "Every minute"
 
 msgid "Every %s minutes"
-msgstr "Every %s minutes"
+msgstr "Her %s dakikada"
 
 msgid "Every hour"
 msgstr "Every hour"
 
 msgid "Every %s hours"
-msgstr "Every %s hours"
+msgstr "Her %s saatte"
 
 msgid "Every day"
 msgstr "Every day"
@@ -452,7 +452,7 @@ msgid "Every even day"
 msgstr "Every even day"
 
 msgid "Every %s days"
-msgstr "Every %s days"
+msgstr "Her %s günde"
 
 msgid "Weekdays (5 days)"
 msgstr "Weekdays (5 days)"
@@ -491,7 +491,7 @@ msgid "Every even month"
 msgstr "Every even month"
 
 msgid "Every %s months"
-msgstr "Every %s months"
+msgstr "Her %s ay"
 
 msgid "Jan"
 msgstr "Oca"
@@ -533,10 +533,10 @@ msgid "Country"
 msgstr "Ülke"
 
 msgid "Block Malicious IPs"
-msgstr "Block Malicious IPs"
+msgstr "Kötü niyetli IP'leri engelleyin"
 
 msgid "Add IPset IP List for Firewall"
-msgstr "Add IPset IP List for Firewall"
+msgstr "Güvenlik duvarı için IPset IP listesi ekleyin"
 
 msgid "IP List Name"
 msgstr "IP List Name"
@@ -557,7 +557,7 @@ msgid "Auto Update"
 msgstr "Auto Update"
 
 msgid "Advanced Details"
-msgstr "Advanced Details"
+msgstr "Gelişmiş Ayrıntılar"
 
 msgid "Yearly"
 msgstr "Yıllık"
@@ -601,15 +601,15 @@ msgid "Are you sure you want to suspend database %s?"
 msgstr "Are you sure you want to suspend database %s?"
 
 msgid "Download Database"
-msgstr "Download Database"
+msgstr "Veritabanını İndir"
 
 msgid "Are you sure you want to delete database %s?"
 msgstr "Are you sure you want to delete database %s?"
 
 msgid "%d database"
 msgid_plural "%d databases"
-msgstr[0] "%d database"
-msgstr[1] "%d databases"
+msgstr[0] "%d veritabanı"
+msgstr[1] "%d veritabanı"
 
 msgid "Configure Server"
 msgstr "Configure Server"
@@ -621,10 +621,10 @@ msgid "Add Rule"
 msgstr "Kural Ekle"
 
 msgid "Fail2ban Banlists"
-msgstr "Fail2ban Banlists"
+msgstr "Fail2ban ban listleri"
 
 msgid "IPset IP Lists"
-msgstr "IPset IP Lists"
+msgstr "IPset IP Listeleri"
 
 msgid "Action"
 msgstr "İşlem"
@@ -665,7 +665,7 @@ msgid "Mail Domain"
 msgstr "Mail Domain"
 
 msgid "DNS Zone"
-msgstr "DNS Zone"
+msgstr "DNS Bölgesi"
 
 msgid "Jobs"
 msgstr "Görevler"
@@ -721,7 +721,7 @@ msgid "Optional"
 msgstr "Optional"
 
 msgid "Add IP Address"
-msgstr "Add IP Address"
+msgstr "IP Adresi Ekle"
 
 msgid "Netmask"
 msgstr "Netmask"
@@ -790,7 +790,7 @@ msgstr ""
 "in ver"
 
 msgid "Partially implemented"
-msgstr "Partially implemented"
+msgstr "Kısmen uygulanmış"
 
 msgid "Add Mail Account"
 msgstr "Mail Hesabı Ekle"
@@ -808,7 +808,7 @@ msgid "Forwarding"
 msgstr "Yönlendirme"
 
 msgid "Auto Reply"
-msgstr "Auto Reply"
+msgstr "Otomatik Cevap"
 
 msgid "Are you sure you want to unsuspend %s?"
 msgstr "Are you sure you want to unsuspend %s?"
@@ -843,10 +843,10 @@ msgid "All ports: 0, Range: 80-82, List: 80,443,8080,8443"
 msgstr "Tüm Portlar: 0, Aralık: 80-82, Liste: 80,443,8080,8443"
 
 msgid "IP Address / IPset IP List"
-msgstr "IP Address / IPset IP List"
+msgstr "IP Adresi / IPset IP Listesi"
 
 msgid "Support CIDR format"
-msgstr "Support CIDR format"
+msgstr "CIDR format desteği"
 
 msgid "Quick Install App"
 msgstr "Hızlı Kurulum App"
@@ -888,10 +888,10 @@ msgid "Algorithm"
 msgstr "Algoritma"
 
 msgid "Disable Notifications"
-msgstr "Disable Notifications"
+msgstr "Bildirimleri Devre Dışı Bırak"
 
 msgid "Enable Notifications"
-msgstr "Enable Notifications"
+msgstr "Bildirimleri Etkinleştir"
 
 msgid "Are you sure you want to unsuspend this cron job?"
 msgstr "Are you sure you want to unsuspend this cron job?"
@@ -900,7 +900,7 @@ msgid "Are you sure you want to suspend this cron job?"
 msgstr "Are you sure you want to suspend this cron job?"
 
 msgid "Edit Cron Job"
-msgstr "Edit Cron Job"
+msgstr "Cron İşini Düzenle"
 
 msgid "Edit"
 msgstr "Edit"
@@ -974,7 +974,7 @@ msgid "No exclusions"
 msgstr "No exclusions"
 
 msgid "ISO 3166-1 alpha-2 two-letter code"
-msgstr "ISO 3166-1 alpha-2 two-letter code"
+msgstr "ISO 3166-1 alpha-2 iki-harfli kod"
 
 msgid "State / Province"
 msgstr "Eyalet / İl"
@@ -1017,7 +1017,7 @@ msgid "Issued To"
 msgstr "Issued To"
 
 msgid "Alternate"
-msgstr "Alternate"
+msgstr "Alternatif"
 
 msgid "Not Before"
 msgstr "Not Before"
@@ -1029,7 +1029,7 @@ msgid "Signature"
 msgstr "Signature"
 
 msgid "Key Size"
-msgstr "Key Size"
+msgstr "Anahtar Boyutu"
 
 msgid "Issued By"
 msgstr "Issued By"
@@ -1044,7 +1044,7 @@ msgid "Access Keys"
 msgstr "Erişim Anahtarları"
 
 msgid "Contact Name"
-msgstr "Contact Name"
+msgstr "İletişim Adı"
 
 msgid "Do not allow user to log in to Control Panel"
 msgstr "Kullanıcının Kontrol Panelinde oturum açmasına izin verme"
@@ -1065,7 +1065,7 @@ msgid "Use IP address allow list for login attempts"
 msgstr "Giriş denemeleri için IP adresi izin listesi kullan"
 
 msgid "For example"
-msgstr "For example"
+msgstr "Örneğin"
 
 msgid "Language"
 msgstr "Dil"
@@ -1200,7 +1200,7 @@ msgstr[0] "%d yedek"
 msgstr[1] "%d yedek"
 
 msgid "Account Unlocked"
-msgstr "Account Unlocked"
+msgstr "Hesap Kilidi Açıldı"
 
 msgid ""
 "Two-factor authentication is now turned off for your account.<br><br"
@@ -1311,8 +1311,8 @@ msgstr "Şu anda tanımlanmış IP listesi yok."
 
 msgid "%d IP list"
 msgid_plural "%d IP lists"
-msgstr[0] "%d IP list"
-msgstr[1] "%d IP lists"
+msgstr[0] "%d IP listesi"
+msgstr[1] "%d IP listesi"
 
 msgid "Account"
 msgstr "Hesap"
@@ -1420,7 +1420,7 @@ msgid "Top"
 msgstr "Üst"
 
 msgid "Add DNS Zone"
-msgstr "Add DNS Zone"
+msgstr "DNS Bölgesi Ekle"
 
 msgid "a dns domain"
 msgstr "a dns domain"
@@ -1474,7 +1474,7 @@ msgid "MB"
 msgstr "MB"
 
 msgid "Purge NGINX Cache"
-msgstr "Purge NGINX Cache"
+msgstr "NGINX Önbelleğini Temizle"
 
 msgid "Edit Web Domain"
 msgstr "Edit Web Domain"
@@ -1483,8 +1483,8 @@ msgid ""
 "If the aliases changes, Let's Encrypt will obtain a new SSL certific"
 "ate."
 msgstr ""
-"If the aliases changes, Let's Encrypt will obtain a new SSL certific"
-"ate."
+"Takma adlar değişirse, Let's Encrypt yeni bir SSL sertifikası alacak"
+"tır."
 
 msgid "Web Statistics"
 msgstr "Web İstatistikleri"
@@ -1595,10 +1595,10 @@ msgid "Statistics"
 msgstr "İstatistikler"
 
 msgid "Edit Domain"
-msgstr "Edit Domain"
+msgstr "Domain Düzenle"
 
 msgid "Visit"
-msgstr "Visit"
+msgstr "Ziyaret"
 
 msgid "Access Log"
 msgstr "Erişim Günlüğü"
@@ -1609,7 +1609,7 @@ msgstr[0] "%d web alan adı"
 msgstr[1] "%d web alan adları"
 
 msgid "White Label"
-msgstr "White Label"
+msgstr "Beyaz etiket"
 
 msgid "Time Zone"
 msgstr "Saat Dilimi"
@@ -1639,7 +1639,7 @@ msgid "View"
 msgstr "Görünüm"
 
 msgid "Send email notification when an update has been installed"
-msgstr "Send email notification when an update has been installed"
+msgstr "Bir güncelleme yüklendiğinde e-posta bildirimi gönder"
 
 msgid "Send update installation log by email"
 msgstr "Send update installation log by email"
@@ -1657,7 +1657,7 @@ msgid "Backend Pool Mode"
 msgstr "Backend Pool Mode"
 
 msgid "Enabled PHP Versions"
-msgstr "Enabled PHP Versions"
+msgstr "Etkin PHP Sürümleri"
 
 msgid ""
 "It may take a few minutes to save your changes. Please wait until th"
@@ -1866,7 +1866,7 @@ msgid "Enable Automatic Updates"
 msgstr "Enable Automatic Updates"
 
 msgid "Package Names"
-msgstr "Package Names"
+msgstr "Paket İsimleri"
 
 msgid "Search Results"
 msgstr "Arama Sonuçları"
@@ -1880,13 +1880,13 @@ msgid "Shortcuts"
 msgstr "Kısayollar"
 
 msgid "Add new object"
-msgstr "Add new object"
+msgstr "Yeni nesne ekle"
 
 msgid "Save form"
-msgstr "Save form"
+msgstr "Biçimi kaydet"
 
 msgid "Unsave form"
-msgstr "Unsave form"
+msgstr "Biçimi kaydetme"
 
 msgid "Go to WEB list"
 msgstr "WEB listesine git"
@@ -1910,7 +1910,7 @@ msgid "Focus on search"
 msgstr "Aramaya odaklan"
 
 msgid "Display / Hide shortcuts"
-msgstr "Display / Hide shortcuts"
+msgstr "Kısayolları görüntüle / gizle"
 
 msgid "Move backward through top menu"
 msgstr "Üst menüde geriye doğru git"
@@ -1928,13 +1928,13 @@ msgid "Move down through elements list"
 msgstr "Öğe listesinde aşağı doğru git"
 
 msgid "No notifications"
-msgstr "No notifications"
+msgstr "Bildirim yok"
 
 msgid "Delete all notifications"
 msgstr "Tüm bildirimleri sil"
 
 msgid "Are you sure you want to leave the page?"
-msgstr "Are you sure you want to leave the page?"
+msgstr "Sayfadan ayrılmak istediğinize emin misiniz?"
 
 msgid "BLACKLIST"
 msgstr "BLACKLIST"
@@ -1988,7 +1988,7 @@ msgid "Error: %s update failed."
 msgstr "Error: %s update failed."
 
 msgid "NGINX cache has been purged successfully."
-msgstr "NGINX cache has been purged successfully."
+msgstr "NGINX önbelleği başarıyla temizlendi."
 
 msgid "The system is going down for reboot NOW!"
 msgstr "ŞİMDİ sistem yeniden başlatma için kapanıyor!"
@@ -2000,7 +2000,7 @@ msgid "Cron job email reporting has been successfully enabled."
 msgstr "Cron job email reporting has been successfully enabled."
 
 msgid "Error: unable to copy package."
-msgstr "Error: unable to copy package."
+msgstr "Hata: paket kopyalanamıyor."
 
 msgid "State"
 msgstr "Eyalet"
@@ -2018,13 +2018,13 @@ msgid "Certificate has been generated successfully."
 msgstr "Certificate has been generated successfully."
 
 msgid "Password does not match the minimum requirements."
-msgstr "Password does not match the minimum requirements."
+msgstr "Parola minimum gereksinimleri karşılamıyor."
 
 msgid "Please enter a valid email address."
 msgstr "Please enter a valid email address."
 
 msgid "Please enter a valid contact name."
-msgstr "Please enter a valid contact name."
+msgstr "Lütfen geçerli bir kişi adı girin."
 
 msgid "Changes have been saved."
 msgstr "Changes have been saved."
@@ -2058,7 +2058,7 @@ msgid "Email Credentials: %s@%s"
 msgstr "Email Credentials: %s@%s"
 
 msgid "Error: unknown record ID."
-msgstr "Error: unknown record ID."
+msgstr "Hata: bilinmeyen kayıt kimliği."
 
 msgid ""
 "FTP account has been created and ready to use.\\n\\nHostname: {{domain}}"
@@ -2070,10 +2070,12 @@ msgstr ""
 "appname}}"
 
 msgid "FTP Account Credentials: %s"
-msgstr "FTP Account Credentials: %s"
+msgstr "FTP Hesap Kimlik Bilgileri: %s"
 
 msgid "Info (read-only mode): Crontab can only be edited via SSH."
-msgstr "Info (read-only mode): Crontab can only be edited via SSH."
+msgstr ""
+"Bilgi (salt okunur mod): Crontab yalnızca SSH aracılığıyla düzenlene"
+"bilir."
 
 msgid "Inactive session timeout can not lower than 1 minute."
 msgstr "Inactive session timeout can not lower than 1 minute."
@@ -2100,7 +2102,7 @@ msgid "Unable to add database!"
 msgstr "Veritabanı eklenemiyor!"
 
 msgid "You are logged out, please log in again."
-msgstr "You are logged out, please log in again."
+msgstr "Çıkış yaptınız, lütfen tekrar giriş yapın."
 
 msgid "%d day"
 msgid_plural "%d days"
@@ -2127,7 +2129,7 @@ msgid "SSH Key already exists."
 msgstr "SSH Key already exists."
 
 msgid "SSH Key has been created successfully."
-msgstr "SSH Key has been created successfully."
+msgstr "SSH Anahtarı başarıyla oluşturuldu."
 
 msgid ""
 "Hello {{name}},\\n\\nYour account has been created and ready to use.\\n\\nht"
@@ -2151,7 +2153,7 @@ msgid "Mail account {%s@%s} has been created successfully."
 msgstr "Mail account {%s@%s} has been created successfully."
 
 msgid "Access key {%s} has been created successfully."
-msgstr "Access key {%s} has been created successfully."
+msgstr "{%s} erişim anahtarı başarıyla oluşturuldu."
 
 msgid "DNS zone {%s} has been created successfully."
 msgstr "DNS zone {%s} has been created successfully."
@@ -2169,10 +2171,10 @@ msgid "IP address has been banned successfully."
 msgstr "IP address has been banned successfully."
 
 msgid "IP list has been created successfully."
-msgstr "IP list has been created successfully."
+msgstr "IP listesi başarıyla oluşturuldu."
 
 msgid "Cron job has been created successfully."
-msgstr "Cron job has been created successfully."
+msgstr "Cron işi başarıyla oluşturuldu."
 
 msgid "IP address {%s} has been created successfully."
 msgstr "IP address {%s} has been created successfully."
@@ -2199,16 +2201,16 @@ msgid "%s installer missing."
 msgstr "%s installer missing."
 
 msgid "%s installed successfully."
-msgstr "%s installed successfully."
+msgstr "%s başarıyla yüklendi."
 
 msgid "Hestia core package"
-msgstr "Hestia core package"
+msgstr "Hestia çekirdek paketi"
 
 msgid "Hestia internal php interpreter"
-msgstr "Hestia internal php interpreter"
+msgstr "Hestia dahili php yorumlayıcısı"
 
 msgid "Hestia internal web server"
-msgstr "Hestia internal web server"
+msgstr "Hestia dahili web sunucusu"
 
 msgid "web server"
 msgstr "web sunucu"
@@ -2229,10 +2231,10 @@ msgid "imap/pop3 server"
 msgstr "imap/pop3 server"
 
 msgid "email anti-virus"
-msgstr "email anti-virus"
+msgstr "email anti-virüs"
 
 msgid "email spam filter"
-msgstr "email spam filter"
+msgstr "email spam filtresi"
 
 msgid "database server"
 msgstr "veritabanı sunucusu"
@@ -2250,5 +2252,5 @@ msgid "firewall"
 msgstr "güvenlik duvarı"
 
 msgid "brute-force protection"
-msgstr "brute-force protection"
+msgstr "brute-force koruması"
 
