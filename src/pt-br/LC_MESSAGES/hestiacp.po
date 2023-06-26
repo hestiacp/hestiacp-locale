@@ -566,7 +566,7 @@ msgid "Ban IP Address"
 msgstr "Bloquear Endereço IP"
 
 msgid "Time"
-msgstr "Time"
+msgstr "Hora"
 
 msgid "Comment"
 msgstr "Comentário"
@@ -851,13 +851,13 @@ msgid "Support CIDR format"
 msgstr "Suporte ao formato CIDR"
 
 msgid "Quick Install App"
-msgstr "Quick Install App"
+msgstr "Instalação rápida de aplicação"
 
 msgid "Version"
 msgstr "Versão"
 
 msgid "Setup"
-msgstr "Setup"
+msgstr "Configuração"
 
 msgid "Add Firewall Rule"
 msgstr "Adicionar regra de firewall"
@@ -1091,7 +1091,7 @@ msgid "Default List Sort Order"
 msgstr "Ordenação padrão da lista"
 
 msgid "PHP CLI Version"
-msgstr "PHP CLI Version"
+msgstr "Versão PHP CLI"
 
 msgid "Default Name Servers"
 msgstr "Servidores de DNS"
@@ -1309,7 +1309,7 @@ msgid "Are you sure you want to delete IP list %s?"
 msgstr "Você tem certeza que deseja remover a lista de IPs %s?"
 
 msgid "There are currently no IP lists defined."
-msgstr "There are currently no IP lists defined."
+msgstr "Atualmente não há listas de IP definidas."
 
 msgid "%d IP list"
 msgid_plural "%d IP lists"
@@ -1651,10 +1651,10 @@ msgid "Proxy Server"
 msgstr "Servidor Proxy"
 
 msgid "Backend Server"
-msgstr "Backend Server"
+msgstr "Servidor Backend"
 
 msgid "Backend Pool Mode"
-msgstr "Backend Pool Mode"
+msgstr "Modo Backend Pool"
 
 msgid "Enabled PHP Versions"
 msgstr "Versões do PHP ativas"
@@ -1679,7 +1679,7 @@ msgid "Mail Server"
 msgstr "Servidor de email"
 
 msgid "Webmail Alias"
-msgstr "Webmail Alias"
+msgstr "Alias do webmail"
 
 msgid "Global SMTP Relay"
 msgstr "Redirecionamento global de SMTP"
