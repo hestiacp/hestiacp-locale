@@ -350,7 +350,7 @@ msgid "Update Usage Counters"
 msgstr "Update Usage Counters"
 
 msgid "Suspend"
-msgstr "Suspend"
+msgstr "Pozastaviť"
 
 msgid "Unsuspend"
 msgstr "Unsuspend"
@@ -675,7 +675,7 @@ msgid "Mail Domain"
 msgstr "Mail Domain"
 
 msgid "DNS Zone"
-msgstr "DNS Zone"
+msgstr "DNS zóna"
 
 msgid "Jobs"
 msgstr "Úlohy"
@@ -691,7 +691,7 @@ msgid "Configure"
 msgstr "Konfigurovať"
 
 msgid "Advanced Options"
-msgstr "Advanced Options"
+msgstr "Pokročilé nastavenia"
 
 msgid "Basic Options"
 msgstr "Basic Options"
@@ -820,7 +820,7 @@ msgid "Forwarding"
 msgstr "Preposlať"
 
 msgid "Auto Reply"
-msgstr "Auto Reply"
+msgstr "Automatická odpoveď"
 
 msgid "Are you sure you want to unsuspend %s?"
 msgstr "Are you sure you want to unsuspend %s?"
@@ -917,7 +917,7 @@ msgid "Edit Cron Job"
 msgstr "Edit Cron Job"
 
 msgid "Edit"
-msgstr "Edit"
+msgstr "Upraviť"
 
 msgid "Are you sure you want to delete this cron job?"
 msgstr "Are you sure you want to delete this cron job?"
