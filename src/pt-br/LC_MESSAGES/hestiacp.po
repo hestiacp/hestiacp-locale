@@ -1688,7 +1688,7 @@ msgid "MySQL Support"
 msgstr "Suporte MySQL"
 
 msgid "phpMyAdmin Alias"
-msgstr "phpMyAdmin Alias"
+msgstr "Alias do phpMyAdmin"
 
 msgid "phpMyAdmin Single Sign On"
 msgstr "phpMyAdmin Autenticação Simples"
@@ -1706,7 +1706,7 @@ msgid "PostgreSQL Support"
 msgstr "Suporte PostgreSQL"
 
 msgid "phpPgAdmin Alias"
-msgstr "phpPgAdmin Alias"
+msgstr "Alias do phpPgAdmin"
 
 msgid "Local Backup"
 msgstr "Backup local"
@@ -1800,10 +1800,10 @@ msgstr ""
 "S"
 
 msgid "Sync Error document templates on user rebuild"
-msgstr "Sync Error document templates on user rebuild"
+msgstr "Erro de sincronização de modelos na recriação do usuário"
 
 msgid "Sync Skeleton templates"
-msgstr "Sync Skeleton templates"
+msgstr "Sincronizar modelos base"
 
 msgid "Allow users to view action and login history logs"
 msgstr ""
@@ -1937,7 +1937,7 @@ msgid "Are you sure you want to leave the page?"
 msgstr "Tem certeza que deseja sair da página?"
 
 msgid "BLACKLIST"
-msgstr "BLACKLIST"
+msgstr "LISTA DE BLOQUEIO"
 
 msgid "IPVERSE"
 msgstr "IPVERSE"
