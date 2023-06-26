@@ -1997,7 +1997,7 @@ msgid "USER"
 msgstr "BENUTZER"
 
 msgid "Limit"
-msgstr "Limitierung"
+msgstr "Limit"
 
 msgid "Zones"
 msgstr "Zonen"
@@ -2006,7 +2006,7 @@ msgid "CRON"
 msgstr "CRONS"
 
 msgid "BACKUP"
-msgstr "Sicherungen"
+msgstr "SICHERUNG"
 
 msgid "Error: %s update failed."
 msgstr "Fehler: Aktualisierung von %s fehlgeschlagen."
@@ -2031,7 +2031,7 @@ msgid "Error: unable to copy package."
 msgstr "Fehler: Kopieren vom Paket nicht möglich."
 
 msgid "State"
-msgstr "Staat / Provinz"
+msgstr "Bundesland"
 
 msgid "City"
 msgstr "Stadt"
