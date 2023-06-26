@@ -1234,9 +1234,9 @@ msgstr "هل أنت متأكد من أنك تريد حذف النسخة الاح
 
 msgid "%d backup"
 msgid_plural "%d backups"
-msgstr[0] "%s نسخة احتياطية"
-msgstr[1] "%s نسخة احتياطية"
-msgstr[2] "%s نسخة احتياطية"
+msgstr[0] "%s نسخ احتياطية"
+msgstr[1] "نسخة احتياطية واحدة"
+msgstr[2] "%s نسخ احتياطية"
 msgstr[3] "%s نسخ احتياطية"
 msgstr[4] "%s نسخة احتياطية"
 msgstr[5] "%s نسخة احتياطية"
