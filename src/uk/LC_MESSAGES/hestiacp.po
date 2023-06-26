@@ -162,7 +162,7 @@ msgid "Save"
 msgstr "Зберегти"
 
 msgid "White Label Options"
-msgstr "White Label Options"
+msgstr "Опції White Label"
 
 msgid "General"
 msgstr "Основне"
@@ -180,7 +180,7 @@ msgid "Sender Name"
 msgstr "Ім'я відправника"
 
 msgid "Default"
-msgstr "Default"
+msgstr "За замовчуванням"
 
 msgid "Sender Email Address"
 msgstr "EMail відправника"
@@ -198,16 +198,16 @@ msgid "No"
 msgstr "Ні"
 
 msgid "Custom Logo"
-msgstr "Custom Logo"
+msgstr "Користувацький логотип"
 
 msgid "Custom logo"
-msgstr "Custom logo"
+msgstr "Користувацький логотип"
 
 msgid "Upload the files to %s"
-msgstr "Upload the files to %s"
+msgstr "Вивантаження файлів в %s"
 
 msgid "Update logo"
-msgstr "Update logo"
+msgstr "Оновити логотип"
 
 msgid "Add Mail Domain"
 msgstr "Додати поштовий домен"
@@ -240,7 +240,7 @@ msgid "Disabled"
 msgstr "Вимкнено"
 
 msgid "Spam Filter"
-msgstr "Spam Filter"
+msgstr "Антиспам"
 
 msgid "Reject Spam"
 msgstr "Відхиляти спам"
