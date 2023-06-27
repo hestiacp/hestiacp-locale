@@ -256,7 +256,7 @@ msgid "SMTP Relay"
 msgstr "SMTP Relay"
 
 msgid "Host"
-msgstr "Host"
+msgstr "Kiszolgáló"
 
 msgid "Port"
 msgstr "Port"
@@ -593,7 +593,7 @@ msgid "Unsuspend All"
 msgstr "Összes Felfüggesztésének Megszüntetése"
 
 msgid "Hostname"
-msgstr "Hostname"
+msgstr "Kiszolgálónév"
 
 msgid "Are you sure you want to unsuspend database %s?"
 msgstr "Biztosan fel akarod oldani a(z) %s adatbázist?"
@@ -897,10 +897,10 @@ msgid "Enable Notifications"
 msgstr "Értesítések Bekapcsolása"
 
 msgid "Are you sure you want to unsuspend this cron job?"
-msgstr "Are you sure you want to unsuspend this cron job?"
+msgstr "Biztosan fel akarod oldani az ütemezett feladat felfüggesztését?"
 
 msgid "Are you sure you want to suspend this cron job?"
-msgstr "Are you sure you want to suspend this cron job?"
+msgstr "Biztosan fel akarod függeszteni az ütemezett feladatot?"
 
 msgid "Edit Cron Job"
 msgstr "Ütemezett Feladat Szerkesztése"
@@ -998,7 +998,7 @@ msgid "Catch-All Email"
 msgstr "Catch-All Email Cím"
 
 msgid "email / hour / account"
-msgstr "email / hour / account"
+msgstr "email / óra / fiók"
 
 msgid "Enable SSL for this domain"
 msgstr "SSL engedélyezése a domainhez"
@@ -1340,7 +1340,7 @@ msgid "Do not store forwarded mail"
 msgstr "Továbbított e-mailek eltárolásának tiltása"
 
 msgid "email / hour"
-msgstr "email / hour"
+msgstr "email / óra"
 
 msgid "Email login credentials to:"
 msgstr "Hitelesítő adatok elküldése a következő email címre:"
