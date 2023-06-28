@@ -40,7 +40,7 @@ msgid ""
 msgstr "密碼重設說明已寄出到與此帳號關聯的電子郵件地址."
 
 msgid "Please wait 15 minutes before sending a new request."
-msgstr "Please wait 15 minutes before sending a new request."
+msgstr "請等待 15 分鐘後再發送新請求。"
 
 msgid "An internal error occurred"
 msgstr "發生內部錯誤"
