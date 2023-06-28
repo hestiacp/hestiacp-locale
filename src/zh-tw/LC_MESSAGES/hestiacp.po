@@ -369,7 +369,7 @@ msgid "Select"
 msgstr "選擇"
 
 msgid "Edit User"
-msgstr "Edit User"
+msgstr "編輯使用者"
 
 msgid "Log in as"
 msgstr "Log in as"
@@ -478,16 +478,16 @@ msgid "Sunday"
 msgstr "星期日"
 
 msgid "Every month"
-msgstr "Every month"
+msgstr "每月"
 
 msgid "Every odd month"
-msgstr "Every odd month"
+msgstr "每個單數月"
 
 msgid "Every even month"
-msgstr "Every even month"
+msgstr "每個偶數月"
 
 msgid "Every %s months"
-msgstr "Every %s months"
+msgstr "每個%s月"
 
 msgid "Jan"
 msgstr "一月"
@@ -529,13 +529,13 @@ msgid "Country"
 msgstr "國家"
 
 msgid "Block Malicious IPs"
-msgstr "Block Malicious IPs"
+msgstr "阻擋惡意IPs"
 
 msgid "Add IPset IP List for Firewall"
 msgstr "Add IPset IP List for Firewall"
 
 msgid "IP List Name"
-msgstr "IP List Name"
+msgstr "IP清單名稱"
 
 msgid "Data Source"
 msgstr "資料來源"
@@ -1277,7 +1277,7 @@ msgid "Duplicate"
 msgstr "Duplicate"
 
 msgid "Are you sure you want to delete package %s?"
-msgstr "Are you sure you want to delete package %s?"
+msgstr "確定要刪除%s方案嗎?"
 
 msgid "%d package"
 msgid_plural "%d packages"
@@ -1837,7 +1837,7 @@ msgid "Enable Automatic Updates"
 msgstr "Enable Automatic Updates"
 
 msgid "Package Names"
-msgstr "Package Names"
+msgstr "方案名稱"
 
 msgid "Search Results"
 msgstr "搜尋結果"
@@ -2169,7 +2169,7 @@ msgid "%s installed successfully."
 msgstr "%s installed successfully."
 
 msgid "Hestia core package"
-msgstr "Hestia core package"
+msgstr "Hestia核心方案"
 
 msgid "Hestia internal php interpreter"
 msgstr "Hestia internal php interpreter"
