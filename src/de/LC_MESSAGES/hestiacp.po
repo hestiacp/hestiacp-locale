@@ -133,10 +133,10 @@ msgid "Mail Domains"
 msgstr "Mail Domain"
 
 msgid "SSL Domains"
-msgstr "SSL-Domänen"
+msgstr "SSL-Domains"
 
 msgid "Mail Accounts"
-msgstr "Mail Konten"
+msgstr "E-Mail Konten"
 
 msgid "Web Aliases"
 msgstr "Web Aliase"
@@ -165,7 +165,7 @@ msgid "Save"
 msgstr "Speichern"
 
 msgid "White Label Options"
-msgstr "Optionen vom \"Weißen Etikett\""
+msgstr "White-Label-Optionen"
 
 msgid "General"
 msgstr "Allgemein"
@@ -174,7 +174,7 @@ msgid "Application Name"
 msgstr "Anwendungsname"
 
 msgid "Title"
-msgstr "Aufschrift"
+msgstr "Titel"
 
 msgid "Supported variables"
 msgstr "Unterstützte Variablen"
@@ -339,7 +339,7 @@ msgid "Rebuild DNS Zones"
 msgstr "DNS-Zonen erneuern "
 
 msgid "Rebuild Mail Domains"
-msgstr "Mail-Domänen neu generieren"
+msgstr "Mail-Domains neu erstellen"
 
 msgid "Rebuild Databases"
 msgstr "Datenbanken neu generieren"
@@ -666,10 +666,10 @@ msgid "Details"
 msgstr "Detaillierte Informationen"
 
 msgid "Web Domain"
-msgstr "Webdomäne"
+msgstr "Web Domains"
 
 msgid "Mail Domain"
-msgstr "E-Mail-Domäne"
+msgstr "Mail Domains"
 
 msgid "DNS Zone"
 msgstr "DNS-Zone"
@@ -1050,7 +1050,7 @@ msgid "Manage SSH Keys"
 msgstr "SSH-Schlüssel verwalten"
 
 msgid "Logs"
-msgstr "Verlauf"
+msgstr "Protokolle"
 
 msgid "Access Keys"
 msgstr "Zugriffsschlüssel"
@@ -1997,7 +1997,7 @@ msgid "USER"
 msgstr "BENUTZER"
 
 msgid "Limit"
-msgstr "Limitierung"
+msgstr "Limit"
 
 msgid "Zones"
 msgstr "Zonen"
@@ -2006,7 +2006,7 @@ msgid "CRON"
 msgstr "CRONS"
 
 msgid "BACKUP"
-msgstr "Sicherungen"
+msgstr "SICHERUNG"
 
 msgid "Error: %s update failed."
 msgstr "Fehler: Aktualisierung von %s fehlgeschlagen."
@@ -2031,7 +2031,7 @@ msgid "Error: unable to copy package."
 msgstr "Fehler: Kopieren vom Paket nicht möglich."
 
 msgid "State"
-msgstr "Staat / Provinz"
+msgstr "Bundesland"
 
 msgid "City"
 msgstr "Stadt"
