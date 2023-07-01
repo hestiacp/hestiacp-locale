@@ -121,7 +121,7 @@ msgid "Mail"
 msgstr "ელფოსტა"
 
 msgid "User Directory"
-msgstr "User Directory"
+msgstr "მომხმარებლის დირექტორია"
 
 msgid "Web Domains"
 msgstr "ვებ დომენები"
@@ -139,7 +139,7 @@ msgid "Web Aliases"
 msgstr "Web ალიასები"
 
 msgid "DNS Zones"
-msgstr "DNS Zones"
+msgstr "DNS ზონები"
 
 msgid "Cron Jobs"
 msgstr "კრონის დავალებები"
@@ -162,34 +162,34 @@ msgid "Save"
 msgstr "შენახვა"
 
 msgid "White Label Options"
-msgstr "White Label Options"
+msgstr "რებრენდინგის პარამეტრები"
 
 msgid "General"
-msgstr "General"
+msgstr "ზოგადი"
 
 msgid "Application Name"
-msgstr "Application Name"
+msgstr "აპლიკაციის სახელი"
 
 msgid "Title"
-msgstr "Title"
+msgstr "სათაური"
 
 msgid "Supported variables"
-msgstr "Supported variables"
+msgstr "მხარდაჭერილი ცვლადები"
 
 msgid "Sender Name"
-msgstr "Sender Name"
+msgstr "გამგზავნის სახელი"
 
 msgid "Default"
 msgstr "ნაგულისხმები"
 
 msgid "Sender Email Address"
-msgstr "Sender Email Address"
+msgstr "გამგზავნის ელფოსტის მისამართი"
 
 msgid "Email Subject"
-msgstr "Email Subject"
+msgstr "ელფოსტის თემა"
 
 msgid "Hide link to Documentation"
-msgstr "Hide link to Documentation"
+msgstr "დოკუმენტაციაზე ბმულის დამალვა"
 
 msgid "Yes"
 msgstr "კი"
@@ -318,7 +318,7 @@ msgid "Sort by"
 msgstr "Sort by"
 
 msgid "Name"
-msgstr "Name"
+msgstr "სახელი"
 
 msgid "Date"
 msgstr "თარიღით"
@@ -348,10 +348,10 @@ msgid "Update Usage Counters"
 msgstr "Update Usage Counters"
 
 msgid "Suspend"
-msgstr "Suspend"
+msgstr "შეჩერება"
 
 msgid "Unsuspend"
-msgstr "Unsuspend"
+msgstr "შეჩერების მოხსნა"
 
 msgid "Delete"
 msgstr "წაშლა"
@@ -455,10 +455,10 @@ msgid "Every %s days"
 msgstr "Every %s days"
 
 msgid "Weekdays (5 days)"
-msgstr "Weekdays (5 days)"
+msgstr "კვირის დღეები (5 დღე)"
 
 msgid "Weekend (2 days)"
-msgstr "Weekend (2 days)"
+msgstr "დასვენების დღეები (2 დღე)"
 
 msgid "Monday"
 msgstr "ორშაბათი"
@@ -482,7 +482,7 @@ msgid "Sunday"
 msgstr "კვირა"
 
 msgid "Every month"
-msgstr "Every month"
+msgstr "ყოველ თვე"
 
 msgid "Every odd month"
 msgstr "Every odd month"
@@ -542,7 +542,7 @@ msgid "IP List Name"
 msgstr "IP List Name"
 
 msgid "Data Source"
-msgstr "Data Source"
+msgstr "მონაცემთა წყარო"
 
 msgid "url, script or file"
 msgstr "ბმული, სკრიპტი ან ფაილი"
@@ -551,13 +551,13 @@ msgid "Clear"
 msgstr "სერტიფიკატის დამალვა"
 
 msgid "IP Version"
-msgstr "IP Version"
+msgstr "IP ვერსია"
 
 msgid "Auto Update"
-msgstr "Auto Update"
+msgstr "ავტომატური განახლება"
 
 msgid "Advanced Details"
-msgstr "Advanced Details"
+msgstr "დამატებითი დეტალები"
 
 msgid "Yearly"
 msgstr "ყოველწლიური"
@@ -566,13 +566,13 @@ msgid "Ban IP Address"
 msgstr "IP მისამართის დაბლოკვა"
 
 msgid "Time"
-msgstr "Time"
+msgstr "დრო"
 
 msgid "Comment"
 msgstr "კომენტარი"
 
 msgid "Are you sure you want to delete IP address %s?"
-msgstr "Are you sure you want to delete IP address %s?"
+msgstr "ნამდვილად გსურთ წაშალოთ IP მისამართი %s?"
 
 msgid "There are currently no banned IP addresses."
 msgstr "ახლა არ არის დაბლოკილი IP მისამართები."
@@ -586,10 +586,10 @@ msgid "Add Database"
 msgstr "ბაზის დამატება"
 
 msgid "Suspend All"
-msgstr "Suspend All"
+msgstr "ყველას შეჩერება"
 
 msgid "Unsuspend All"
-msgstr "Unsuspend All"
+msgstr "ყველას შეჩერების გაუქმება"
 
 msgid "Hostname"
 msgstr "ჰოსტის სახელი"
@@ -718,7 +718,7 @@ msgid "Priority"
 msgstr "პრიორიტეტი"
 
 msgid "Optional"
-msgstr "Optional"
+msgstr "არასავალდებულო"
 
 msgid "Add IP Address"
 msgstr "Add IP Address"
