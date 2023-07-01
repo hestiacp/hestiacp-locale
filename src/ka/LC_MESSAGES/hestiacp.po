@@ -721,7 +721,7 @@ msgid "Optional"
 msgstr "არასავალდებულო"
 
 msgid "Add IP Address"
-msgstr "Add IP Address"
+msgstr "IP მისამართის დამატება"
 
 msgid "Netmask"
 msgstr "მასკა"
@@ -733,16 +733,16 @@ msgid "Shared"
 msgstr "გაზიარებული"
 
 msgid "Assigned User"
-msgstr "Assigned User"
+msgstr "მიმაგრებული მომხმარებელი"
 
 msgid "Assigned Domain"
-msgstr "Assigned Domain"
+msgstr "მიმაგრებული დომენი"
 
 msgid "NAT IP Association"
-msgstr "NAT IP Association"
+msgstr "NAT IP ასოციაცია"
 
 msgid "Edit Backup Exclusions"
-msgstr "Edit Backup Exclusions"
+msgstr "მარქაფიდან გამონაკლისების რედაქტირება"
 
 msgid ""
 "Type domain name, one per line. To exclude all domains use *. To exc"
@@ -796,7 +796,7 @@ msgid "Add Mail Account"
 msgstr "ელფოსტის ანგარიშის დამატება"
 
 msgid "Edit Mail Domain"
-msgstr "Edit Mail Domain"
+msgstr "ელფოსტის დომენის რედაქტირება"
 
 msgid "Quota"
 msgstr "კვოტა"
@@ -894,16 +894,16 @@ msgid "Enable Notifications"
 msgstr "Enable Notifications"
 
 msgid "Are you sure you want to unsuspend this cron job?"
-msgstr "Are you sure you want to unsuspend this cron job?"
+msgstr "დარწმუნებული ხართ, რომ გსურთ მოხსნათ შეჩერება ამ cron job-ს?"
 
 msgid "Are you sure you want to suspend this cron job?"
-msgstr "Are you sure you want to suspend this cron job?"
+msgstr "დარწმუნებული ხართ, რომ გსურთ შეაჩეროთ ეს cron job?"
 
 msgid "Edit Cron Job"
-msgstr "Edit Cron Job"
+msgstr "ქრონის დავალების რედაქტირება"
 
 msgid "Edit"
-msgstr "Edit"
+msgstr "რედაქტირება"
 
 msgid "Are you sure you want to delete this cron job?"
 msgstr "Are you sure you want to delete this cron job?"
@@ -968,7 +968,7 @@ msgid "SSH Access"
 msgstr "SSH წვდომა"
 
 msgid "Value"
-msgstr "Value"
+msgstr "მნიშვნელობა"
 
 msgid "No exclusions"
 msgstr "No exclusions"
@@ -1122,7 +1122,7 @@ msgid "Edit IP Address"
 msgstr "Edit IP Address"
 
 msgid "Login History"
-msgstr "Login History"
+msgstr "შესვლების ისტორია"
 
 msgid "Refresh"
 msgstr "Refresh"
@@ -1183,7 +1183,7 @@ msgid "File Name"
 msgstr "File Name"
 
 msgid "Size"
-msgstr "Size"
+msgstr "ზომა"
 
 msgid "Runtime"
 msgstr "Runtime"
@@ -1200,7 +1200,7 @@ msgstr[0] "%d მარქაფი"
 msgstr[1] "%d backups"
 
 msgid "Account Unlocked"
-msgstr "Account Unlocked"
+msgstr "ანგარიში განიბლოკა"
 
 msgid ""
 "Two-factor authentication is now turned off for your account.<br><br"
