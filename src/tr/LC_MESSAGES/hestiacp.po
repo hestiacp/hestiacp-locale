@@ -2189,16 +2189,16 @@ msgstr ""
 "\\n\\n--\\n{{appname}}"
 
 msgid "Database Credentials: %s"
-msgstr "Database Credentials: %s"
+msgstr "Veritabanı Kimlik Bilgileri: %s"
 
 msgid "Database {%s} has been created successfully. / {Open %s}"
-msgstr "Database {%s} has been created successfully. / {Open %s}"
+msgstr "{%s} veritabanı başarıyla oluşturuldu. / {%s aç}"
 
 msgid "Unable to install %s, %s is not available."
-msgstr "Unable to install %s, %s is not available."
+msgstr "%s yüklenemiyor, %s mevcut değil."
 
 msgid "%s installer missing."
-msgstr "%s installer missing."
+msgstr "%s yükleyici eksik."
 
 msgid "%s installed successfully."
 msgstr "%s başarıyla yüklendi."
@@ -2228,7 +2228,7 @@ msgid "mail server"
 msgstr "mail sunucusu"
 
 msgid "imap/pop3 server"
-msgstr "imap/pop3 server"
+msgstr "imap/pop3 sunucu"
 
 msgid "email anti-virus"
 msgstr "email anti-virüs"
@@ -2246,7 +2246,7 @@ msgid "job scheduler"
 msgstr "görev zamanlayıcısı"
 
 msgid "ssh server"
-msgstr "ssh server"
+msgstr "ssh sunucu"
 
 msgid "firewall"
 msgstr "güvenlik duvarı"
