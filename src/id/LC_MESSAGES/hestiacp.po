@@ -45,26 +45,26 @@ msgid "Please wait 15 minutes before sending a new request."
 msgstr "Please wait 15 minutes before sending a new request."
 
 msgid "An internal error occurred"
-msgstr "An internal error occurred"
+msgstr "Terjadi kesalahan internal"
 
 msgid "Code has been expired"
-msgstr "Code has been expired"
+msgstr "Code telah kedaluwarsa"
 
 msgid "Invalid username or code"
 msgstr "Kode atau nama pengguna salah"
 
 msgid "Passwords do not match"
-msgstr "Passwords do not match"
+msgstr "Kata sandi tidak cocok"
 
 msgid "Stop \"%s\" failed"
-msgstr "Stop \"%s\" failed"
+msgstr "Berhenti \"%s\" gagal"
 
 msgid ""
 "Task has been added to the queue. You will receive an email notifica"
 "tion when your restore has been completed."
 msgstr ""
-"Task has been added to the queue. You will receive an email notifica"
-"tion when your restore has been completed."
+"Task telah ditambahkan dalam antrian. Anda akan menerima email notif"
+"ikasi apabila proses restore telah selesai."
 
 msgid ""
 "An existing restoration task is already running. Please wait for it "
@@ -97,7 +97,7 @@ msgid "Apply to selected"
 msgstr "Apply to selected"
 
 msgid "Search"
-msgstr "Search"
+msgstr "Cari"
 
 msgid "Bandwidth"
 msgstr "Bandwidth"
