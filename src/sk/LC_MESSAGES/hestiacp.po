@@ -11,8 +11,35 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 3;\\n"
 "X-Generator: Crowdin\\n"
 
-msgid "Error: Hestia did not return any output."
-msgstr "Chyba: Hestia nevrátil žiaden výstup"
+msgid "Stop \"%s\" failed"
+msgstr "Zastavenie \"%s\" zlyhalo"
+
+msgid "Error code: %s"
+msgstr "Error code: %s"
+
+msgid "You are logged out, please log in again."
+msgstr "You are logged out, please log in again."
+
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d deň"
+msgstr[1] "%d dni"
+msgstr[2] "%d dní"
+msgstr[3] "%d days"
+
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d hodina"
+msgstr[1] "%d hodiny"
+msgstr[2] "%d hodín"
+msgstr[3] "%d hours"
+
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minúta"
+msgstr[1] "%d minúty"
+msgstr[2] "%d minút"
+msgstr[3] "%d minutes"
 
 msgid ""
 "Hello {{name}},\\n\\nTo reset your {{appname}} password, please follow t"
@@ -56,84 +83,99 @@ msgstr "Neplatné používateľské meno alebo kód"
 msgid "Passwords do not match"
 msgstr "Passwords do not match"
 
-msgid "Stop \"%s\" failed"
-msgstr "Zastavenie \"%s\" zlyhalo"
+msgid "Download of remote backup file has been scheduled."
+msgstr "Download of remote backup file has been scheduled."
+
+msgid "Error: Hestia did not return any output."
+msgstr "Chyba: Hestia nevrátil žiaden výstup"
+
+msgid "Changes have been saved."
+msgstr "Changes have been saved."
+
+msgid "Password does not match the minimum requirements."
+msgstr "Password does not match the minimum requirements."
+
+msgid "Field \"%s\" can not be blank."
+msgstr "Pole \"%s\" nemôže byť prázdne."
+
+msgid "Please enter a valid email address."
+msgstr "Please enter a valid email address."
 
 msgid ""
-"Task has been added to the queue. You will receive an email notifica"
-"tion when your restore has been completed."
+"Mail account has been created.\\n\\nCommon Account Settings:\\nUsername: {"
+"{account}}@{{domain}}\\nPassword: {{password}}\\nWebmail: {{webmail}}\\nHo"
+"stname: {{hostname}}\\n\\nIMAP Settings\\nAuthentication: Normal Password\\n"
+"SSL/TLS: Port 993\\nSTARTTLS: Port 143\\nNo encryption: Port 143\\n\\nPOP3 S"
+"ettings\\nAuthentication: Normal Password\\nSSL/TLS: Port 995\\nSTARTTLS: "
+"Port 110\\nNo encryption: Port 110\\n\\nSMTP Settings\\nAuthentication: Norm"
+"al Password\\nSSL/TLS: Port 465\\nSTARTTLS: Port 587\\nNo encryption: Port"
+" 25\\n\\nBest regards,\\n\\n--\\n{{appname}}"
 msgstr ""
-"Task has been added to the queue. You will receive an email notifica"
-"tion when your restore has been completed."
+"Mail account has been created.\\n\\nCommon Account Settings:\\nUsername: {"
+"{account}}@{{domain}}\\nPassword: {{password}}\\nWebmail: {{webmail}}\\nHo"
+"stname: {{hostname}}\\n\\nIMAP Settings\\nAuthentication: Normal Password\\n"
+"SSL/TLS: Port 993\\nSTARTTLS: Port 143\\nNo encryption: Port 143\\n\\nPOP3 S"
+"ettings\\nAuthentication: Normal Password\\nSSL/TLS: Port 995\\nSTARTTLS: "
+"Port 110\\nNo encryption: Port 110\\n\\nSMTP Settings\\nAuthentication: Norm"
+"al Password\\nSSL/TLS: Port 465\\nSTARTTLS: Port 587\\nNo encryption: Port"
+" 25\\n\\nBest regards,\\n\\n--\\n{{appname}}"
+
+msgid "Email Credentials: %s@%s"
+msgstr "Email Credentials: %s@%s"
+
+msgid "Error: unknown record ID."
+msgstr "Error: unknown record ID."
+
+msgid "Username"
+msgstr "Používateľské meno"
 
 msgid ""
-"An existing restoration task is already running. Please wait for it "
-"to finish before launching it again."
+"FTP account has been created and ready to use.\\n\\nHostname: {{domain}}"
+"\\nUsername: {{username}}\\nPassword: {{password}}\\n\\nBest regards,\\n\\n--\\n{{"
+"appname}}"
 msgstr ""
-"An existing restoration task is already running. Please wait for it "
-"to finish before launching it again."
+"FTP account has been created and ready to use.\\n\\nHostname: {{domain}}"
+"\\nUsername: {{username}}\\nPassword: {{password}}\\n\\nBest regards,\\n\\n--\\n{{"
+"appname}}"
 
-msgid ""
-"Task has been added to the queue. You will receive an email notifica"
-"tion when your backup is ready for download."
-msgstr ""
-"Task has been added to the queue. You will receive an email notifica"
-"tion when your backup is ready for download."
+msgid "FTP Account Credentials: %s"
+msgstr "FTP Account Credentials: %s"
 
-msgid ""
-"An existing backup is already running. Please wait for that backup t"
-"o finish."
-msgstr ""
-"An existing backup is already running. Please wait for that backup t"
-"o finish."
+msgid "Please enter a valid contact name."
+msgstr "Please enter a valid contact name."
 
-msgid "Overall Statistics"
-msgstr "Zobraziť štatistiky"
+msgid "Action"
+msgstr "Akcia"
 
-msgid "Show Per User"
-msgstr "Show Per User"
+msgid "Protocol"
+msgstr "Protokol"
 
-msgid "Apply to selected"
-msgstr "Apply to selected"
-
-msgid "Search"
-msgstr "Hľadať"
-
-msgid "Bandwidth"
-msgstr "Prenos"
+msgid "Port"
+msgstr "Port"
 
 msgid "IP Address"
 msgstr "IP adresa"
 
-msgid "IPs"
-msgstr "IP"
+msgid "Package"
+msgstr "Balíček"
 
-msgid "Disk"
-msgstr "Disk"
+msgid "Web Template"
+msgstr "Web šablóna"
 
-msgid "Web"
-msgstr "Web"
+msgid "Backend Template"
+msgstr "Backend šablóna"
 
-msgid "Databases"
-msgstr "Databázy"
+msgid "Proxy Template"
+msgstr "Šablóna proxy servera"
 
-msgid "Mail"
-msgstr "Email"
+msgid "DNS Template"
+msgstr "DNS šablóna"
 
-msgid "User Directory"
-msgstr "User Directory"
+msgid "Shell"
+msgstr "Shell"
 
 msgid "Web Domains"
 msgstr "Web domény"
-
-msgid "Mail Domains"
-msgstr "Email domény"
-
-msgid "SSL Domains"
-msgstr "SSL Domény"
-
-msgid "Mail Accounts"
-msgstr "Email účty"
 
 msgid "Web Aliases"
 msgstr "Web aliasy"
@@ -141,78 +183,551 @@ msgstr "Web aliasy"
 msgid "DNS Zones"
 msgstr "DNS Zones"
 
-msgid "Cron Jobs"
-msgstr "Cron úlohy"
-
 msgid "DNS Records"
 msgstr "DNS záznamy"
+
+msgid "Mail Domains"
+msgstr "Email domény"
+
+msgid "Mail Accounts"
+msgstr "Email účty"
+
+msgid "Rate Limit"
+msgstr "Rate Limit"
+
+msgid "Databases"
+msgstr "Databázy"
+
+msgid "Cron Jobs"
+msgstr "Cron úlohy"
 
 msgid "Backups"
 msgstr "Zálohy"
 
-msgid "%d month"
-msgid_plural "%d months"
-msgstr[0] "%d mesiac"
-msgstr[1] "%d mesiace"
-msgstr[2] "%d mesiacov"
-msgstr[3] "%d months"
+msgid "Quota"
+msgstr "Kvóta"
+
+msgid "Bandwidth"
+msgstr "Prenos"
+
+msgid "Nameserver 1"
+msgstr "Nameserver 1"
+
+msgid "Nameserver 2"
+msgstr "Nameserver 2"
+
+msgid "Info (read-only mode): Crontab can only be edited via SSH."
+msgstr "Info (read-only mode): Crontab can only be edited via SSH."
+
+msgid "Inactive session timeout can not lower than 1 minute."
+msgstr "Inactive session timeout can not lower than 1 minute."
+
+msgid "NGINX cache has been purged successfully."
+msgstr "NGINX cache has been purged successfully."
+
+msgid "Unable to add database! Limit reached!"
+msgstr "Nie je možné pridať databázu! Dosiahnutý limit!"
+
+msgid "Unable to add database!"
+msgstr "Nie je možné pridať databázu!"
+
+msgid "Restart \"%s\" failed"
+msgstr "Reštart \"%s\" zlyhal"
+
+msgid "The system is going down for reboot NOW!"
+msgstr "Systém sa vypína kvôli reštartovaniu práve TERAZ!"
+
+msgid "Cron job email reporting has been successfully disabled."
+msgstr "Cron job email reporting has been successfully disabled."
+
+msgid "Cron job email reporting has been successfully enabled."
+msgstr "Cron job email reporting has been successfully enabled."
+
+msgid ""
+"Task has been added to the queue. You will receive an email notifica"
+"tion when your restore has been completed."
+msgstr ""
+"Task has been added to the queue. You will receive an email notifica"
+"tion when your restore has been completed."
+
+msgid ""
+"An existing restoration task is already running. Please wait for it "
+"to finish before launching it again."
+msgstr ""
+"An existing restoration task is already running. Please wait for it "
+"to finish before launching it again."
+
+msgid "Minute"
+msgstr "Minúta"
+
+msgid "Hour"
+msgstr "Hodina"
+
+msgid "Day"
+msgstr "Deň"
+
+msgid "Month"
+msgstr "Mesiac"
+
+msgid "Day of Week"
+msgstr "Day of Week"
+
+msgid "Command"
+msgstr "Príkaz"
+
+msgid "Cron job has been created successfully."
+msgstr "Cron job has been created successfully."
+
+msgid "Database"
+msgstr "Databáza"
+
+msgid "Password"
+msgstr "Heslo"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Host"
+msgstr "Hostiteľ"
+
+msgid "Charset"
+msgstr "Znaková sada"
+
+msgid ""
+"Database has been created.\\n\\nDatabase: {{database}}\\nUsername: {{usern"
+"ame}}\\nPassword: {{password}}\\nSQL Manager: {{dbadmin}}\\n\\nBest regards,"
+"\\n\\n--\\n{{appname}}"
+msgstr ""
+"Database has been created.\\n\\nDatabase: {{database}}\\nUsername: {{usern"
+"ame}}\\nPassword: {{password}}\\nSQL Manager: {{dbadmin}}\\n\\nBest regards,"
+"\\n\\n--\\n{{appname}}"
+
+msgid "Database Credentials: %s"
+msgstr "Database Credentials: %s"
+
+msgid "Database {%s} has been created successfully. / {Open %s}"
+msgstr "Database {%s} has been created successfully. / {Open %s}"
+
+msgid "Domain"
+msgstr "Doména"
+
+msgid "Mail domain {%s} has been created successfully."
+msgstr "Mail domain {%s} has been created successfully."
+
+msgid "Account"
+msgstr "Účet"
+
+msgid "Mail account {%s@%s} has been created successfully."
+msgstr "Mail account {%s@%s} has been created successfully."
+
+msgid "DNS zone {%s} has been created successfully."
+msgstr "DNS zone {%s} has been created successfully."
+
+msgid "Record"
+msgstr "Záznam"
+
+msgid "IP or Value"
+msgstr "IP alebo hodnota"
+
+msgid "Record {%s.%s} has been created successfully."
+msgstr "Record {%s.%s} has been created successfully."
+
+msgid "Domain {%s} has been created successfully."
+msgstr "Domain {%s} has been created successfully."
+
+msgid "Permissions"
+msgstr "Oprávnenia"
+
+msgid "Access key {%s} has been created successfully."
+msgstr "Access key {%s} has been created successfully."
+
+msgid "Unable to install %s, %s is not available."
+msgstr "Unable to install %s, %s is not available."
+
+msgid "%s installer missing."
+msgstr "%s installer missing."
+
+msgid "%s installed successfully."
+msgstr "%s installed successfully."
+
+msgid "Netmask"
+msgstr "Maska"
+
+msgid "Interface"
+msgstr "Rozhranie"
+
+msgid "Assigned User"
+msgstr "Assigned User"
+
+msgid "IP address {%s} has been created successfully."
+msgstr "IP address {%s} has been created successfully."
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Contact Name"
+msgstr "Contact Name"
+
+msgid ""
+"Hello {{name}},\\n\\nYour account has been created and ready to use.\\n\\nht"
+"tps://{{hostname}}/login/\\nUsername: {{user}}\\nPassword: {{password}}\\n"
+"\\nBest regards,\\n\\n--\\n{{appname}}"
+msgstr ""
+"Hello {{name}},\\n\\nYour account has been created and ready to use.\\n\\nht"
+"tps://{{hostname}}/login/\\nUsername: {{user}}\\nPassword: {{password}}\\n"
+"\\nBest regards,\\n\\n--\\n{{appname}}"
+
+msgid "Welcome to %s"
+msgstr "Welcome to %s"
+
+msgid "User {%s} has been created successfully. / {Log in as %s}"
+msgstr "User {%s} has been created successfully. / {Log in as %s}"
+
+msgid "Name"
+msgstr "Meno"
+
+msgid "Data Source"
+msgstr "Zdroj dát"
+
+msgid "IP Version"
+msgstr "IP Version"
+
+msgid "Auto Update"
+msgstr "Auto Update"
+
+msgid "IP list has been created successfully."
+msgstr "IP list has been created successfully."
+
+msgid "Rule has been created successfully."
+msgstr "Rule has been created successfully."
+
+msgid "Banlist"
+msgstr "Banlist"
+
+msgid "IP address has been banned successfully."
+msgstr "IP address has been banned successfully."
+
+msgid "Package {%s} has been created successfully."
+msgstr "Package {%s} has been created successfully."
+
+msgid "SSH Key"
+msgstr "SSH Key"
+
+msgid "SSH Key already exists."
+msgstr "SSH Key already exists."
+
+msgid "SSH Key has been created successfully."
+msgstr "SSH Key has been created successfully."
+
+msgid "Country"
+msgstr "Krajina"
+
+msgid "State"
+msgstr "Štát"
+
+msgid "City"
+msgstr "Mesto"
+
+msgid "Organization"
+msgstr "Organizázia"
+
+msgid "Certificate has been generated successfully."
+msgstr "Certificate has been generated successfully."
+
+msgid "Shortcuts"
+msgstr "Odkaz"
+
+msgid "Add new object"
+msgstr "Add new object"
+
+msgid "Save form"
+msgstr "Save form"
+
+msgid "Unsave form"
+msgstr "Unsave form"
+
+msgid "Go to WEB list"
+msgstr "Prejsť na WEB zoznam"
+
+msgid "Go to DNS list"
+msgstr "Prejsť na DNS zoznam"
+
+msgid "Go to MAIL list"
+msgstr "Prejsť na EMAIL zoznam"
+
+msgid "Go to DB list"
+msgstr "Prejsť na DB zoznam"
+
+msgid "Go to CRON list"
+msgstr "Prejsť na CRON zoznam"
+
+msgid "Go to BACKUP list"
+msgstr "Prejsť na ZÁLOHA zoznam"
+
+msgid "Focus on search"
+msgstr "Zameranie sa na vyhľadávanie"
+
+msgid "Display / Hide shortcuts"
+msgstr "Display / Hide shortcuts"
+
+msgid "Move backward through top menu"
+msgstr "Posun späť cez horné menu"
+
+msgid "Move forward through top menu"
+msgstr "Posun dopredu cez horné menu"
+
+msgid "Enter focused element"
+msgstr "Zadajte cielený prvok"
+
+msgid "Move up through elements list"
+msgstr "Posun v zozname prvkov smerom nahor"
+
+msgid "Move down through elements list"
+msgstr "Posun v zozname prvkov smerom nadol"
+
+msgid "Top"
+msgstr "Hore"
 
 msgid "Back"
 msgstr "Späť"
 
-msgid "Save"
-msgstr "Uložiť"
+msgid "Add IP list"
+msgstr "Pridať zoznam IP"
 
-msgid "White Label Options"
-msgstr "White Label Options"
+msgid "Apply to selected"
+msgstr "Apply to selected"
 
-msgid "General"
-msgstr "General"
+msgid "Delete"
+msgstr "Zmazať"
 
-msgid "Application Name"
-msgstr "Application Name"
+msgid "IPset IP Lists"
+msgstr "IPset IP Lists"
 
-msgid "Title"
-msgstr "Title"
+msgid "Select all"
+msgstr "Vybrať všetko"
 
-msgid "Supported variables"
-msgstr "Supported variables"
+msgid "IP List Name"
+msgstr "IP List Name"
 
-msgid "Sender Name"
-msgstr "Sender Name"
+msgid "Date"
+msgstr "Dátum"
 
-msgid "Default"
-msgstr "Predvolené"
+msgid "Time"
+msgstr "Čas"
 
-msgid "Sender Email Address"
-msgstr "Sender Email Address"
+msgid "Select"
+msgstr "Vybrať"
 
-msgid "Email Subject"
-msgstr "Email Subject"
+msgid "Are you sure you want to delete IP list %s?"
+msgstr "Are you sure you want to delete IP list %s?"
 
-msgid "Hide link to Documentation"
-msgstr "Hide link to Documentation"
+msgid "Disabled"
+msgstr "Vypnuté"
 
-msgid "Yes"
-msgstr "Áno"
+msgid "Enabled"
+msgstr "Povolené"
+
+msgid "There are currently no IP lists defined."
+msgstr "V súčasnosti nie sú definované žiadne zoznamy IP."
+
+msgid "%d IP list"
+msgid_plural "%d IP lists"
+msgstr[0] "%d IP list"
+msgstr[1] "%d IP lists"
+msgstr[2] "%d IP lists"
+msgstr[3] "%d IP lists"
+
+msgid "Disable Automatic Updates"
+msgstr "Disable Automatic Updates"
+
+msgid "Enable Automatic Updates"
+msgstr "Enable Automatic Updates"
+
+msgid "Updates"
+msgstr "Aktualizácie"
+
+msgid "Package Names"
+msgstr "Package Names"
+
+msgid "Description"
+msgstr "Popis"
+
+msgid "Version"
+msgstr "Verzia"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Add Mail Domain"
+msgstr "Pridať email doménu"
+
+msgid "Sort items"
+msgstr "Zoradiť položky"
+
+msgid "Sort by"
+msgstr "Sort by"
+
+msgid "Accounts"
+msgstr "Účty"
+
+msgid "Disk"
+msgstr "Disk"
+
+msgid "Rebuild All"
+msgstr "Rebuild All"
+
+msgid "Suspend"
+msgstr "Pozastaviť"
+
+msgid "Unsuspend"
+msgstr "Unsuspend"
+
+msgid "Search"
+msgstr "Hľadať"
+
+msgid "Anti-Virus"
+msgstr "Anti-Virus"
+
+msgid "Spam Filter"
+msgstr "Spam Filter"
+
+msgid "DKIM"
+msgstr "DKIM"
+
+msgid "SSL"
+msgstr "SSL"
+
+msgid "Are you sure you want to unsuspend domain %s?"
+msgstr "Are you sure you want to unsuspend domain %s?"
+
+msgid "Are you sure you want to suspend domain %s?"
+msgstr "Are you sure you want to suspend domain %s?"
+
+msgid "Open Webmail"
+msgstr "Open Webmail"
+
+msgid "Add Mail Account"
+msgstr "Pridať email účet"
+
+msgid "Edit Mail Domain"
+msgstr "Edit Mail Domain"
+
+msgid "Are you sure you want to delete domain %s?"
+msgstr "Are you sure you want to delete domain %s?"
+
+msgid "%d mail domain"
+msgid_plural "%d mail domains"
+msgstr[0] "%d email doména"
+msgstr[1] "%d email domény"
+msgstr[2] "%d email domén"
+msgstr[3] "%d mail domains"
+
+msgid "Create Backup"
+msgstr "Vytvoriť zálohu"
+
+msgid "Backup Exclusions"
+msgstr "Backup Exclusions"
+
+msgid "File Name"
+msgstr "Meno súboru"
+
+msgid "Size"
+msgstr "Veľkosť"
+
+msgid "Runtime"
+msgstr "Čas behu"
 
 msgid "No"
 msgstr "Nie"
 
-msgid "Custom Logo"
-msgstr "Custom Logo"
+msgid "Yes"
+msgstr "Áno"
 
-msgid "Custom logo"
-msgstr "Custom logo"
+msgid "Restore"
+msgstr "Obnoviť"
 
-msgid "Upload the files to %s"
-msgstr "Upload the files to %s"
+msgid "Download"
+msgstr "Stiahnuť"
 
-msgid "Update logo"
-msgstr "Update logo"
+msgid "Are you sure you want to delete backup %s?"
+msgstr "Are you sure you want to delete backup %s?"
 
-msgid "Add Mail Domain"
-msgstr "Pridať email doménu"
+msgid "%d backup"
+msgid_plural "%d backups"
+msgstr[0] "%d záloha"
+msgstr[1] "%d zálohy"
+msgstr[2] "%d záloh"
+msgstr[3] "%d backups"
+
+msgid "Save"
+msgstr "Uložiť"
+
+msgid "Webmail Client"
+msgstr "Webmail klient"
+
+msgid "Catch-All Email"
+msgstr "Catch-All Email"
+
+msgid "email / hour / account"
+msgstr "email / hour / account"
+
+msgid "Reject Spam"
+msgstr "Reject Spam"
+
+msgid "DKIM Support"
+msgstr "DKIM"
+
+msgid "Enable SSL for this domain"
+msgstr "Enable SSL for this domain"
+
+msgid "Use Let's Encrypt to obtain SSL certificate"
+msgstr "Use Let's Encrypt to obtain SSL certificate"
+
+msgid ""
+"To enable Let's Encrypt SSL, ensure that DNS records exist for mail."
+"%s and %s!"
+msgstr ""
+"Ak chcete povoliť funkciu Let's Encrypt SSL, uistite sa, že existujú"
+" DNS záznamy pre mail.%s a %s!"
+
+msgid "SSL Certificate"
+msgstr "SSL certifikát"
+
+msgid "Generate Self-Signed SSL Certificate"
+msgstr "Generate Self-Signed SSL Certificate"
+
+msgid "SSL Private Key"
+msgstr "SSL Private Key"
+
+msgid "SSL Certificate Authority / Intermediate"
+msgstr "Certifikačná autorita SSL / Intermediate"
+
+msgid "Optional"
+msgstr "Optional"
+
+msgid "Issued To"
+msgstr "Issued To"
+
+msgid "Alternate"
+msgstr "Alternate"
+
+msgid "Not Before"
+msgstr "Not Before"
+
+msgid "Not After"
+msgstr "Not After"
+
+msgid "Signature"
+msgstr "Signature"
+
+msgid "Key Size"
+msgstr "Key Size"
+
+msgid "Issued By"
+msgstr "Issued By"
+
+msgid "SMTP Relay"
+msgstr "SMTP preposielateľ"
 
 msgid ""
 "It is strongly advised to {create a standard user account} before ad"
@@ -232,189 +747,38 @@ msgstr "Pridať používateľa"
 msgid "Continue"
 msgstr "Pokračovať"
 
-msgid "Domain"
-msgstr "Doména"
+msgid "Add IP Address"
+msgstr "Add IP Address"
 
-msgid "Webmail Client"
-msgstr "Webmail klient"
+msgid "Shared"
+msgstr "Zdieľané"
 
-msgid "Disabled"
-msgstr "Vypnuté"
+msgid "Assigned Domain"
+msgstr "Assigned Domain"
 
-msgid "Spam Filter"
-msgstr "Spam Filter"
+msgid "NAT IP Association"
+msgstr "NAT IP Association"
 
-msgid "Reject Spam"
-msgstr "Reject Spam"
+msgid "Close debug panel"
+msgstr "Zatvoriť debug panel"
 
-msgid "Anti-Virus"
-msgstr "Anti-Virus"
+msgid "Open debug panel"
+msgstr "Otvoriť debug panel"
 
-msgid "DKIM Support"
-msgstr "DKIM"
+msgid "Add Web Domain"
+msgstr "Pridať web doménu"
 
-msgid "SMTP Relay"
-msgstr "SMTP preposielateľ"
+msgid "a web domain"
+msgstr "a web domain"
 
-msgid "Host"
-msgstr "Hostiteľ"
+msgid "DNS Support"
+msgstr "DNS podpora"
 
-msgid "Port"
-msgstr "Port"
+msgid "Mail Support"
+msgstr "Mail podpora"
 
-msgid "Username"
-msgstr "Používateľské meno"
-
-msgid "Password"
-msgstr "Heslo"
-
-msgid "Edit Database"
-msgstr "Edit Database"
-
-msgid "Database"
-msgstr "Databáza"
-
-msgid "Maximum %s characters length, including prefix"
-msgstr "Maximum %s characters length, including prefix"
-
-msgid "Generate"
-msgstr "Generate"
-
-msgid "Your password must have at least"
-msgstr "Vaše heslo musí mať najmenej"
-
-msgid "8 characters long"
-msgstr "dĺžku 8 znakov"
-
-msgid "1 uppercase & 1 lowercase character"
-msgstr "1 veľké a 1 malé písmeno"
-
-msgid "1 number"
-msgstr "1 čislo"
-
-msgid "Type"
-msgstr "Typ"
-
-msgid "Charset"
-msgstr "Znaková sada"
-
-msgid "Generate Self-Signed SSL Certificate"
-msgstr "Generate Self-Signed SSL Certificate"
-
-msgid "SSL Certificate"
-msgstr "SSL certifikát"
-
-msgid "SSL Private Key"
-msgstr "SSL Private Key"
-
-msgid "SSL CSR"
-msgstr "Žiadost o certifikát SSL"
-
-msgid "Packages"
-msgstr "Balíčky"
-
-msgid "Sort items"
-msgstr "Zoradiť položky"
-
-msgid "Sort by"
-msgstr "Sort by"
-
-msgid "Name"
-msgstr "Meno"
-
-msgid "Date"
-msgstr "Dátum"
-
-msgid "Rebuild All"
-msgstr "Rebuild All"
-
-msgid "Rebuild User Profile"
-msgstr "Rebuild User Profile"
-
-msgid "Rebuild Web Domains"
-msgstr "Rebuild Web Domains"
-
-msgid "Rebuild DNS Zones"
-msgstr "Rebuild DNS Zones"
-
-msgid "Rebuild Mail Domains"
-msgstr "Rebuild Mail Domains"
-
-msgid "Rebuild Databases"
-msgstr "Rebuild Databases"
-
-msgid "Rebuild Cron Jobs"
-msgstr "Rebuild Cron Jobs"
-
-msgid "Update Usage Counters"
-msgstr "Update Usage Counters"
-
-msgid "Suspend"
-msgstr "Pozastaviť"
-
-msgid "Unsuspend"
-msgstr "Unsuspend"
-
-msgid "Delete"
-msgstr "Zmazať"
-
-msgid "Select all"
-msgstr "Vybrať všetko"
-
-msgid "Package"
-msgstr "Balíček"
-
-msgid "Are you sure you want to unsuspend user %s?"
-msgstr "Are you sure you want to unsuspend user %s?"
-
-msgid "Are you sure you want to suspend user %s?"
-msgstr "Are you sure you want to suspend user %s?"
-
-msgid "Select"
-msgstr "Vybrať"
-
-msgid "Edit User"
-msgstr "Edit User"
-
-msgid "Log in as"
-msgstr "Log in as"
-
-msgid "Email"
-msgstr "Email"
-
-msgid "Are you sure you want to delete user %s?"
-msgstr "Are you sure you want to delete user %s?"
-
-msgid "Edit Package"
-msgstr "Editovať balíček"
-
-msgid "%d user account"
-msgid_plural "%d user accounts"
-msgstr[0] "%d používateľský účet"
-msgstr[1] "%d používateľské účty"
-msgstr[2] "%d používateľských účtov"
-msgstr[3] "%d user accounts"
-
-msgid "Add Cron Job"
-msgstr "Pridať Cron úlohu"
-
-msgid "Command"
-msgstr "Príkaz"
-
-msgid "Minute"
-msgstr "Minúta"
-
-msgid "Hour"
-msgstr "Hodina"
-
-msgid "Day"
-msgstr "Deň"
-
-msgid "Month"
-msgstr "Mesiac"
-
-msgid "Day of Week"
-msgstr "Day of Week"
+msgid "Edit Cron Job"
+msgstr "Edit Cron Job"
 
 msgid "Minutes"
 msgstr "Minúty"
@@ -439,6 +803,9 @@ msgstr "Every minute"
 
 msgid "Every %s minutes"
 msgstr "Every %s minutes"
+
+msgid "Generate"
+msgstr "Generate"
 
 msgid "Every hour"
 msgstr "Every hour"
@@ -533,316 +900,8 @@ msgstr "Nov"
 msgid "Dec"
 msgstr "Dec"
 
-msgid "Country"
-msgstr "Krajina"
-
-msgid "Block Malicious IPs"
-msgstr "Block Malicious IPs"
-
-msgid "Add IPset IP List for Firewall"
-msgstr "Add IPset IP List for Firewall"
-
-msgid "IP List Name"
-msgstr "IP List Name"
-
-msgid "Data Source"
-msgstr "Zdroj dát"
-
-msgid "url, script or file"
-msgstr "url, skript alebo súbor"
-
-msgid "Clear"
-msgstr "Clear"
-
-msgid "IP Version"
-msgstr "IP Version"
-
-msgid "Auto Update"
-msgstr "Auto Update"
-
-msgid "Advanced Details"
-msgstr "Advanced Details"
-
-msgid "Yearly"
-msgstr "Ročne"
-
-msgid "Ban IP Address"
-msgstr "Zablokovať IP adresu"
-
-msgid "Time"
-msgstr "Čas"
-
-msgid "Comment"
-msgstr "Služba"
-
-msgid "Are you sure you want to delete IP address %s?"
-msgstr "Are you sure you want to delete IP address %s?"
-
-msgid "There are currently no banned IP addresses."
-msgstr "V súčasnosti neexistujú žiadne zakázané IP adresy."
-
-msgid "%d banned IP address"
-msgid_plural "%d banned IP addresses"
-msgstr[0] "%d zablokovaná IP adresa"
-msgstr[1] "%d zablokované IP adresy"
-msgstr[2] "%d zablokovaných IP adries"
-msgstr[3] "%d banned IP addresses"
-
-msgid "Add Database"
-msgstr "Pridať databázu"
-
-msgid "Suspend All"
-msgstr "Suspend All"
-
-msgid "Unsuspend All"
-msgstr "Unsuspend All"
-
-msgid "Hostname"
-msgstr "Meno hostiteľa"
-
-msgid "Are you sure you want to unsuspend database %s?"
-msgstr "Are you sure you want to unsuspend database %s?"
-
-msgid "Are you sure you want to suspend database %s?"
-msgstr "Are you sure you want to suspend database %s?"
-
-msgid "Download Database"
-msgstr "Download Database"
-
-msgid "Are you sure you want to delete database %s?"
-msgstr "Are you sure you want to delete database %s?"
-
-msgid "%d database"
-msgid_plural "%d databases"
-msgstr[0] "%d database"
-msgstr[1] "%d databases"
-msgstr[2] "%d databases"
-msgstr[3] "%d databases"
-
-msgid "Configure Server"
-msgstr "Configure Server"
-
-msgid "Restart"
-msgstr "Reštart"
-
-msgid "Add Rule"
-msgstr "Pridať pravidlo"
-
-msgid "Fail2ban Banlists"
-msgstr "Fail2ban Banlists"
-
-msgid "IPset IP Lists"
-msgstr "IPset IP Lists"
-
-msgid "Action"
-msgstr "Akcia"
-
-msgid "Protocol"
-msgstr "Protokol"
-
-msgid "Are you sure you want to unsuspend rule #%s?"
-msgstr "Are you sure you want to unsuspend rule #%s?"
-
-msgid "Are you sure you want to suspend rule #%s?"
-msgstr "Are you sure you want to suspend rule #%s?"
-
-msgid "Edit Firewall Rule"
-msgstr "Edit Firewall Rule"
-
-msgid "Are you sure you want to delete rule %s"
-msgstr "Are you sure you want to delete rule %s"
-
-msgid "%d firewall rule"
-msgid_plural "%d firewall rules"
-msgstr[0] "%d firewall pravidlo"
-msgstr[1] "%d firewall pravidlá"
-msgstr[2] "%d firewall pravidiel"
-msgstr[3] "%d firewall rules"
-
-msgid "Restore All"
-msgstr "Obnoviť všetko"
-
-msgid "Restore"
-msgstr "Obnoviť"
-
-msgid "Details"
-msgstr "Detaily"
-
-msgid "Web Domain"
-msgstr "Web Domain"
-
-msgid "Mail Domain"
-msgstr "Mail Domain"
-
-msgid "DNS Zone"
-msgstr "DNS zóna"
-
-msgid "Jobs"
-msgstr "Úlohy"
-
-msgid "%d item"
-msgid_plural "%d items"
-msgstr[0] "%d položka"
-msgstr[1] "%d položky"
-msgstr[2] "%d položiek"
-msgstr[3] "%d items"
-
-msgid "Configure"
-msgstr "Konfigurovať"
-
-msgid "Advanced Options"
-msgstr "Pokročilé nastavenia"
-
-msgid "Basic Options"
-msgstr "Basic Options"
-
-msgid "Edit DNS Domain"
-msgstr "Edit DNS Domain"
-
-msgid "Template"
-msgstr "Šablóna"
-
-msgid "Enable DNSSEC"
-msgstr "Zapnúť DNSSEC"
-
-msgid "Expiration Date"
-msgstr "Dátum expirácie"
-
-msgid "YYYY-MM-DD"
-msgstr "YYYY-MM-DD"
-
-msgid "SOA"
-msgstr "SOA"
-
-msgid "TTL"
-msgstr "TTL"
-
-msgid "Add DNS Record"
-msgstr "Pridať DNS záznam"
-
-msgid "Record"
-msgstr "Záznam"
-
-msgid "IP or Value"
-msgstr "IP alebo hodnota"
-
-msgid "Priority"
-msgstr "Priorita"
-
-msgid "Optional"
-msgstr "Optional"
-
-msgid "Add IP Address"
-msgstr "Add IP Address"
-
-msgid "Netmask"
-msgstr "Maska"
-
-msgid "Interface"
-msgstr "Rozhranie"
-
-msgid "Shared"
-msgstr "Zdieľané"
-
-msgid "Assigned User"
-msgstr "Assigned User"
-
-msgid "Assigned Domain"
-msgstr "Assigned Domain"
-
-msgid "NAT IP Association"
-msgstr "NAT IP Association"
-
-msgid "Edit Backup Exclusions"
-msgstr "Edit Backup Exclusions"
-
-msgid ""
-"Type domain name, one per line. To exclude all domains use *. To exc"
-"lude specific dirs use following format: domain.tld:public_html/cach"
-"e:public_html/tmp"
-msgstr ""
-"Type domain name, one per line. To exclude all domains use *. To exc"
-"lude specific dirs use following format: domain.tld:public_html/cach"
-"e:public_html/tmp"
-
-msgid ""
-"Type domain name, one per line. To exclude all domains use *. To exc"
-"lude specific accounts use following format: domain.tld:info:support"
-":postmaster"
-msgstr ""
-"Type domain name, one per line. To exclude all domains use *. To exc"
-"lude specific accounts use following format: domain.tld:info:support"
-":postmaster"
-
-msgid ""
-"Type full database name, one per line. To exclude all databases use "
-"*"
-msgstr ""
-"Type full database name, one per line. To exclude all databases use "
-"*"
-
-msgid "Type directory name, one per line. To exlude all dirs use *"
-msgstr "Type directory name, one per line. To exlude all dirs use *"
-
-msgid "Category"
-msgstr "Kategória"
-
-msgid "Status"
-msgstr "Status"
-
-msgid "System"
-msgstr "Systém"
-
-msgid "Policy"
-msgstr "Politika"
-
-msgid "Allow suspended users to log in with read-only access"
-msgstr ""
-"Povolenie prihlásenia pozastavených používateľov s prístupom len na "
-"čítanie"
-
-msgid "Partially implemented"
-msgstr "Partially implemented"
-
-msgid "Add Mail Account"
-msgstr "Pridať email účet"
-
-msgid "Edit Mail Domain"
-msgstr "Edit Mail Domain"
-
-msgid "Quota"
-msgstr "Kvóta"
-
-msgid "Aliases"
-msgstr "Aliasy"
-
-msgid "Forwarding"
-msgstr "Preposlať"
-
-msgid "Auto Reply"
-msgstr "Automatická odpoveď"
-
-msgid "Are you sure you want to unsuspend %s?"
-msgstr "Are you sure you want to unsuspend %s?"
-
-msgid "Are you sure you want to suspend %s?"
-msgstr "Are you sure you want to suspend %s?"
-
-msgid "Edit Mail Account"
-msgstr "Edit Mail Account"
-
-msgid "Open Webmail"
-msgstr "Open Webmail"
-
-msgid "Are you sure you want to delete %s?"
-msgstr "Are you sure you want to delete %s?"
-
-msgid "%d mail account"
-msgid_plural "%d mail accounts"
-msgstr[0] "%d email účet"
-msgstr[1] "%d email účty"
-msgstr[2] "%d email účtov"
-msgstr[3] "%d mail accounts"
+msgid "Add Firewall Rule"
+msgstr "Add Firewall Rule"
 
 msgid "DROP"
 msgstr "ZAHODIŤ"
@@ -862,126 +921,78 @@ msgstr "IP Address / IPset IP List"
 msgid "Support CIDR format"
 msgstr "Support CIDR format"
 
-msgid "Quick Install App"
-msgstr "Rýchla inštalácia aplikácie"
+msgid "Clear"
+msgstr "Clear"
 
-msgid "Version"
-msgstr "Verzia"
+msgid "Comment"
+msgstr "Služba"
 
-msgid "Setup"
-msgstr "Nastavenie"
+msgid "Packages"
+msgstr "Balíčky"
 
-msgid "Add Firewall Rule"
-msgstr "Add Firewall Rule"
+msgid "Rebuild User Profile"
+msgstr "Rebuild User Profile"
 
-msgid "Add DNS Domain"
-msgstr "Pridať DNS doménu"
+msgid "Rebuild Web Domains"
+msgstr "Rebuild Web Domains"
 
-msgid "Expire"
-msgstr "Expirácia"
+msgid "Rebuild DNS Zones"
+msgstr "Rebuild DNS Zones"
 
-msgid "Records"
-msgstr "Záznamy"
+msgid "Rebuild Mail Domains"
+msgstr "Rebuild Mail Domains"
 
-msgid "Rebuild"
-msgstr "Rebuild"
+msgid "Rebuild Databases"
+msgstr "Rebuild Databases"
 
-msgid "DNSKEY Record"
-msgstr "DNSKEY Record"
+msgid "Rebuild Cron Jobs"
+msgstr "Rebuild Cron Jobs"
 
-msgid "DS Record"
-msgstr "DS Record"
+msgid "Update Usage Counters"
+msgstr "Update Usage Counters"
 
-msgid "Public Key"
-msgstr "Public Key"
+msgid "Users"
+msgstr "Používatelia"
 
-msgid "Key Tag / Flag"
-msgstr "Key Tag / Flag"
+msgid "IPs"
+msgstr "IP"
 
-msgid "Algorithm"
-msgstr "Algoritmus"
+msgid "Are you sure you want to unsuspend user %s?"
+msgstr "Are you sure you want to unsuspend user %s?"
 
-msgid "Disable Notifications"
-msgstr "Disable Notifications"
+msgid "Are you sure you want to suspend user %s?"
+msgstr "Are you sure you want to suspend user %s?"
 
-msgid "Enable Notifications"
-msgstr "Enable Notifications"
+msgid "Edit User"
+msgstr "Edit User"
 
-msgid "Are you sure you want to unsuspend this cron job?"
-msgstr "Are you sure you want to unsuspend this cron job?"
+msgid "Log in as"
+msgstr "Log in as"
 
-msgid "Are you sure you want to suspend this cron job?"
-msgstr "Are you sure you want to suspend this cron job?"
+msgid "Are you sure you want to delete user %s?"
+msgstr "Are you sure you want to delete user %s?"
 
-msgid "Edit Cron Job"
-msgstr "Edit Cron Job"
+msgid "Edit Package"
+msgstr "Editovať balíček"
 
-msgid "Edit"
-msgstr "Upraviť"
+msgid "%d user account"
+msgid_plural "%d user accounts"
+msgstr[0] "%d používateľský účet"
+msgstr[1] "%d používateľské účty"
+msgstr[2] "%d používateľských účtov"
+msgstr[3] "%d user accounts"
 
-msgid "Are you sure you want to delete this cron job?"
-msgstr "Are you sure you want to delete this cron job?"
+msgid "Configure Server"
+msgstr "Configure Server"
 
-msgid "%d cron job"
-msgid_plural "%d cron jobs"
-msgstr[0] "%d cron úloha"
-msgstr[1] "%d cron úlohy"
-msgstr[2] "%d cron úloh"
-msgstr[3] "%d cron jobs"
+msgid "Restart"
+msgstr "Reštart"
 
-msgid "Add Package"
-msgstr "Pridať balíček"
+msgid "Edit Firewall Rule"
+msgstr "Edit Firewall Rule"
 
-msgid "Package Name"
-msgstr "Meno balíčku"
-
-msgid "in MB"
-msgstr "in MB"
-
-msgid "Unlimited"
-msgstr "Neobmedzené"
-
-msgid "WEB"
-msgstr "WEB"
-
-msgid "per domain"
-msgstr "Na doménu"
-
-msgid "Web Template"
-msgstr "Web šablóna"
-
-msgid "Backend Template"
-msgstr "Backend šablóna"
-
-msgid "Proxy Template"
-msgstr "Šablóna proxy servera"
-
-msgid "DNS"
-msgstr "DNS"
-
-msgid "DNS Template"
-msgstr "DNS šablóna"
-
-msgid "Name Servers"
-msgstr "Name Servers"
-
-msgid "Add Name Server"
-msgstr "Pridanie menného servera"
-
-msgid "MAIL"
-msgstr "MAIL"
-
-msgid "Rate Limit"
-msgstr "Rate Limit"
-
-msgid "per account / hour"
-msgstr "za účet / hodinu"
-
-msgid "DB"
-msgstr "DB"
-
-msgid "SSH Access"
-msgstr "SSH prístup"
+msgid "Edit Backup Exclusions"
+msgstr "Edit Backup Exclusions"
 
 msgid "Value"
 msgstr "Hodnota"
@@ -989,441 +1000,116 @@ msgstr "Hodnota"
 msgid "No exclusions"
 msgstr "No exclusions"
 
-msgid "ISO 3166-1 alpha-2 two-letter code"
-msgstr "ISO 3166-1 alpha-2 two-letter code"
+msgid "White Label Options"
+msgstr "White Label Options"
 
-msgid "State / Province"
-msgstr "Štát / Kraj"
+msgid "General"
+msgstr "General"
 
-msgid "City / Locality"
-msgstr "Mesto / Lokalita"
+msgid "Application Name"
+msgstr "Application Name"
 
-msgid "Organization"
-msgstr "Organizázia"
+msgid "Title"
+msgstr "Title"
 
-msgid "Add Access Key"
-msgstr "Pridať prístupový kľúč"
+msgid "Supported variables"
+msgstr "Supported variables"
 
-msgid "Permissions"
-msgstr "Oprávnenia"
+msgid "Sender Name"
+msgstr "Sender Name"
 
-msgid "Catch-All Email"
-msgstr "Catch-All Email"
+msgid "Default"
+msgstr "Predvolené"
 
-msgid "email / hour / account"
-msgstr "email / hour / account"
+msgid "Sender Email Address"
+msgstr "Sender Email Address"
 
-msgid "Enable SSL for this domain"
-msgstr "Enable SSL for this domain"
+msgid "Email Subject"
+msgstr "Email Subject"
 
-msgid "Use Let's Encrypt to obtain SSL certificate"
-msgstr "Use Let's Encrypt to obtain SSL certificate"
+msgid "Hide link to Documentation"
+msgstr "Hide link to Documentation"
 
-msgid ""
-"To enable Let's Encrypt SSL, ensure that DNS records exist for mail."
-"%s and %s!"
+msgid "Custom Logo"
+msgstr "Custom Logo"
+
+msgid "Custom logo"
+msgstr "Custom logo"
+
+msgid "Upload the files to %s"
+msgstr "Upload the files to %s"
+
+msgid "Update logo"
+msgstr "Update logo"
+
+msgid "Priority"
+msgstr "Priorita"
+
+msgid "TTL"
+msgstr "TTL"
+
+msgid "Preview Features"
+msgstr "Preview Features"
+
+msgid "Category"
+msgstr "Kategória"
+
+msgid "System"
+msgstr "Systém"
+
+msgid "Policy"
+msgstr "Politika"
+
+msgid "Allow suspended users to log in with read-only access"
 msgstr ""
-"Ak chcete povoliť funkciu Let's Encrypt SSL, uistite sa, že existujú"
-" DNS záznamy pre mail.%s a %s!"
+"Povolenie prihlásenia pozastavených používateľov s prístupom len na "
+"čítanie"
 
-msgid "SSL Certificate Authority / Intermediate"
-msgstr "Certifikačná autorita SSL / Intermediate"
+msgid "Partially implemented"
+msgstr "Partially implemented"
 
-msgid "Issued To"
-msgstr "Issued To"
+msgid "Quick Install App"
+msgstr "Rýchla inštalácia aplikácie"
 
-msgid "Alternate"
-msgstr "Alternate"
-
-msgid "Not Before"
-msgstr "Not Before"
-
-msgid "Not After"
-msgstr "Not After"
-
-msgid "Signature"
-msgstr "Signature"
-
-msgid "Key Size"
-msgstr "Key Size"
-
-msgid "Issued By"
-msgstr "Issued By"
-
-msgid "Manage SSH Keys"
-msgstr "Manage SSH Keys"
-
-msgid "Logs"
-msgstr "Záznamy"
-
-msgid "Access Keys"
-msgstr "Prístupové kľúče"
-
-msgid "Contact Name"
-msgstr "Contact Name"
-
-msgid "Do not allow user to log in to Control Panel"
-msgstr "Zakázať používateľovi prihlásenie sa do Administrácie"
-
-msgid "Enable two-factor authentication"
-msgstr "Enable two-factor authentication"
-
-msgid "Account Recovery Code"
-msgstr "Account Recovery Code"
-
-msgid "Please scan the code below in your 2FA application"
-msgstr "Please scan the code below in your 2FA application"
-
-msgid "2FA QR Code"
-msgstr "2FA QR kód"
-
-msgid "Use IP address allow list for login attempts"
-msgstr "Prihlásenie cez zoznam povolených IP"
-
-msgid "For example"
-msgstr "For example"
-
-msgid "Language"
-msgstr "Jazyk"
-
-msgid "Role"
-msgstr "Rola"
-
-msgid "User"
-msgstr "Používateľ"
-
-msgid "Administrator"
-msgstr "Administrátor"
-
-msgid "DNS Sync User"
-msgstr "DNS Sync User"
-
-msgid "Theme"
-msgstr "Téma"
-
-msgid "Default List Sort Order"
-msgstr "Default List Sort Order"
-
-msgid "PHP CLI Version"
-msgstr "PHP CLI verzia"
-
-msgid "Default Name Servers"
-msgstr "Predvolené menné servery"
-
-msgid "Add Web Domain"
-msgstr "Pridať web doménu"
-
-msgid "a web domain"
-msgstr "a web domain"
-
-msgid "DNS Support"
-msgstr "DNS podpora"
-
-msgid "Mail Support"
-msgstr "Mail podpora"
-
-msgid "Access Key"
-msgstr "Prístupový kľúč"
-
-msgid "Access Key ID"
-msgstr "Access Key ID"
-
-msgid "Secret Key"
-msgstr "Tajný kľúč"
-
-msgid "Warning! Last chance to save secret key!"
-msgstr "Warning! Last chance to save secret key!"
+msgid "Setup"
+msgstr "Nastavenie"
 
 msgid "Edit IP Address"
 msgstr "Edit IP Address"
 
-msgid "Login History"
-msgstr "Login History"
+msgid "Aliases"
+msgstr "Aliasy"
 
-msgid "Refresh"
-msgstr "Obnoviť"
+msgid "Forwarding"
+msgstr "Preposlať"
 
-msgid "Are you sure you want to delete the logs?"
-msgstr "Are you sure you want to delete the logs?"
+msgid "Auto Reply"
+msgstr "Automatická odpoveď"
 
-msgid "Message"
-msgstr "Správa"
+msgid "Are you sure you want to unsuspend %s?"
+msgstr "Are you sure you want to unsuspend %s?"
 
-msgid "%d log record"
-msgid_plural "%d log records"
-msgstr[0] "%d log záznam"
-msgstr[1] "%d log záznamy"
-msgstr[2] "%d log záznamov"
-msgstr[3] "%d log records"
+msgid "No aliases"
+msgstr "No aliases"
 
-msgid "Close debug panel"
-msgstr "Zatvoriť debug panel"
+msgid "Aliases used"
+msgstr "Aliases used"
 
-msgid "Open debug panel"
-msgstr "Otvoriť debug panel"
+msgid "Are you sure you want to suspend %s?"
+msgstr "Are you sure you want to suspend %s?"
 
-msgid "Add IP Address to Banlist"
-msgstr "Add IP Address to Banlist"
+msgid "Edit Mail Account"
+msgstr "Edit Mail Account"
 
-msgid "Banlist"
-msgstr "Banlist"
+msgid "Are you sure you want to delete %s?"
+msgstr "Are you sure you want to delete %s?"
 
-msgid "SSH"
-msgstr "SSH"
-
-msgid "FTP"
-msgstr "FTP"
-
-msgid "HESTIA"
-msgstr "HESTIA"
-
-msgid "Domains"
-msgstr "Domény"
-
-msgid "Owner"
-msgstr "Vlastník"
-
-msgid "Verify IP Address"
-msgstr "Verify IP Address"
-
-msgid "%d IP address"
-msgid_plural "%d IP addresses"
-msgstr[0] "%d IP adresa"
-msgstr[1] "%d IP adresy"
-msgstr[2] "%d IP adries"
-msgstr[3] "%d IP addresses"
-
-msgid "Create Backup"
-msgstr "Vytvoriť zálohu"
-
-msgid "Backup Exclusions"
-msgstr "Backup Exclusions"
-
-msgid "File Name"
-msgstr "Meno súboru"
-
-msgid "Size"
-msgstr "Veľkosť"
-
-msgid "Runtime"
-msgstr "Čas behu"
-
-msgid "Download"
-msgstr "Stiahnuť"
-
-msgid "Are you sure you want to delete backup %s?"
-msgstr "Are you sure you want to delete backup %s?"
-
-msgid "%d backup"
-msgid_plural "%d backups"
-msgstr[0] "%d záloha"
-msgstr[1] "%d zálohy"
-msgstr[2] "%d záloh"
-msgstr[3] "%d backups"
-
-msgid "Account Unlocked"
-msgstr "Account Unlocked"
-
-msgid ""
-"Two-factor authentication is now turned off for your account.<br><br"
-">You may now proceed to log in."
-msgstr ""
-"Two-factor authentication is now turned off for your account.<br><br"
-">You may now proceed to log in."
-
-msgid "Log in"
-msgstr "Prihlásiť"
-
-msgid "Unlock Account"
-msgstr "Unlock Account"
-
-msgid "2FA Reset Code"
-msgstr "Kód pre obnovenie účtu"
-
-msgid "Submit"
-msgstr "Odoslať"
-
-msgid "Welcome to %s"
-msgstr "Welcome to %s"
-
-msgid "Next"
-msgstr "Ďalej"
-
-msgid "Forgot Password"
-msgstr "Zabudnuté heslo"
-
-msgid "New Password"
-msgstr "Nové heslo"
-
-msgid "Confirm Password"
-msgstr "Potvrdiť heslo"
-
-msgid "Reset"
-msgstr "Resetovať"
-
-msgid "Two-factor Authentication"
-msgstr "Two-factor Authentication"
-
-msgid "2FA Token"
-msgstr "Overovací kód"
-
-msgid "Forgot Token"
-msgstr "Forgot Token"
-
-msgid "Login"
-msgstr "Prihlásiť"
-
-msgid "Password reset code has been sent to your email address"
-msgstr "Password reset code has been sent to your email address"
-
-msgid "Reset Code"
-msgstr "Kód obnovenia"
-
-msgid "Confirm"
-msgstr "Potvrdiť"
-
-msgid "Welcome"
-msgstr "Vitajte"
-
-msgid "DNSSEC"
-msgstr "DNSSEC"
-
-msgid "Are you sure you want to unsuspend domain %s?"
-msgstr "Are you sure you want to unsuspend domain %s?"
-
-msgid "Are you sure you want to suspend domain %s?"
-msgstr "Are you sure you want to suspend domain %s?"
-
-msgid "Enabled"
-msgstr "Povolené"
-
-msgid "View Public DNSSEC Key"
-msgstr "View Public DNSSEC Key"
-
-msgid "Are you sure you want to delete domain %s?"
-msgstr "Are you sure you want to delete domain %s?"
-
-msgid "%d DNS zone"
-msgid_plural "%d DNS zones"
-msgstr[0] "%d DNS zóna"
-msgstr[1] "%d DNS zóny"
-msgstr[2] "%d DNS zón"
-msgstr[3] "%d DNS zones"
-
-msgid "Shell"
-msgstr "Shell"
-
-msgid "Duplicate"
-msgstr "Duplicate"
-
-msgid "Are you sure you want to delete package %s?"
-msgstr "Are you sure you want to delete package %s?"
-
-msgid "%d package"
-msgid_plural "%d packages"
-msgstr[0] "%d balíček"
-msgstr[1] "%d balíčky"
-msgstr[2] "%d balíčkov"
-msgstr[3] "%d packages"
-
-msgid "Add IP list"
-msgstr "Pridať zoznam IP"
-
-msgid "Are you sure you want to delete IP list %s?"
-msgstr "Are you sure you want to delete IP list %s?"
-
-msgid "There are currently no IP lists defined."
-msgstr "V súčasnosti nie sú definované žiadne zoznamy IP."
-
-msgid "%d IP list"
-msgid_plural "%d IP lists"
-msgstr[0] "%d IP list"
-msgstr[1] "%d IP lists"
-msgstr[2] "%d IP lists"
-msgstr[3] "%d IP lists"
-
-msgid "Account"
-msgstr "Účet"
-
-msgid "Use local-part without domain name"
-msgstr "Use local-part without domain name"
-
-msgid "Forward to"
-msgstr "Preposlať na"
-
-msgid "One or more email addresses"
-msgstr "One or more email addresses"
-
-msgid "Discard all mail"
-msgstr "Zahodiť všetky emaily"
-
-msgid "Do not store forwarded mail"
-msgstr "Neukladať preposlaný email"
-
-msgid "email / hour"
-msgstr "email / hour"
-
-msgid "Email login credentials to:"
-msgstr "Email login credentials to:"
-
-msgid "Common Account Settings"
-msgstr "Common Account Settings"
-
-msgid "Webmail"
-msgstr "Webmail"
-
-msgid "IMAP Settings"
-msgstr "IMAP Settings"
-
-msgid "Authentication"
-msgstr "Autentifikácia"
-
-msgid "Normal password"
-msgstr "Normálne heslo"
-
-msgid "No encryption"
-msgstr "Žiadne šifrovanie"
-
-msgid "POP3 Settings"
-msgstr "POP3 Settings"
-
-msgid "SMTP Settings"
-msgstr "SMTP Settings"
-
-msgid "Install %s"
-msgstr "Inštalovať %s"
-
-msgid "Data Loss Warning!"
-msgstr "Data Loss Warning!"
-
-msgid ""
-"Your web folder already has files uploaded to it. The installer will"
-" overwrite your files and/or the installation might fail."
-msgstr ""
-"Your web folder already has files uploaded to it. The installer will"
-" overwrite your files and/or the installation might fail."
-
-msgid "Please make sure ~/web/%s/public_html is empty!"
-msgstr "Uistite sa, že ~/web/%s/public_html je prázdny!"
-
-msgid "Add SSH Key"
-msgstr "Pridať SSH kľúč"
-
-msgid "SSH ID"
-msgstr "SSH ID"
-
-msgid "SSH Key"
-msgstr "SSH Key"
-
-msgid "Are you sure you want to delete SSH key %s?"
-msgstr "Are you sure you want to delete SSH key %s?"
-
-msgid "%d SSH key"
-msgid_plural "%d SSH keys"
-msgstr[0] "%d SSH key"
-msgstr[1] "%d SSH keys"
-msgstr[2] "%d SSH keys"
-msgstr[3] "%d SSH keys"
+msgid "%d mail account"
+msgid_plural "%d mail accounts"
+msgstr[0] "%d email účet"
+msgstr[1] "%d email účty"
+msgstr[2] "%d email účtov"
+msgstr[3] "%d mail accounts"
 
 msgid "Hestia Control Panel"
 msgstr "Ovládací panel Hestia"
@@ -1443,11 +1129,356 @@ msgstr "RAM"
 msgid "Network"
 msgstr "Sieť"
 
+msgid "Web"
+msgstr "Web"
+
+msgid "DNS"
+msgstr "DNS"
+
+msgid "Mail"
+msgstr "Email"
+
+msgid "DB"
+msgstr "DB"
+
+msgid "Refresh"
+msgstr "Obnoviť"
+
 msgid "Log out"
 msgstr "Odhlásiť"
 
-msgid "Top"
-msgstr "Hore"
+msgid "Login History"
+msgstr "Login History"
+
+msgid "Are you sure you want to delete the logs?"
+msgstr "Are you sure you want to delete the logs?"
+
+msgid "Logs"
+msgstr "Záznamy"
+
+msgid "Message"
+msgstr "Správa"
+
+msgid "Information"
+msgstr "Information"
+
+msgid "Warning"
+msgstr "Warning"
+
+msgid "Error"
+msgstr "Error"
+
+msgid "%d log record"
+msgid_plural "%d log records"
+msgstr[0] "%d log záznam"
+msgstr[1] "%d log záznamy"
+msgstr[2] "%d log záznamov"
+msgstr[3] "%d log records"
+
+msgid "Install %s"
+msgstr "Inštalovať %s"
+
+msgid "Data Loss Warning!"
+msgstr "Data Loss Warning!"
+
+msgid ""
+"Your web folder already has files uploaded to it. The installer will"
+" overwrite your files and/or the installation might fail."
+msgstr ""
+"Your web folder already has files uploaded to it. The installer will"
+" overwrite your files and/or the installation might fail."
+
+msgid "Please make sure ~/web/%s/public_html is empty!"
+msgstr "Uistite sa, že ~/web/%s/public_html je prázdny!"
+
+msgid "Your password must have at least"
+msgstr "Vaše heslo musí mať najmenej"
+
+msgid "8 characters long"
+msgstr "dĺžku 8 znakov"
+
+msgid "1 uppercase & 1 lowercase character"
+msgstr "1 veľké a 1 malé písmeno"
+
+msgid "1 number"
+msgstr "1 čislo"
+
+msgid "Do not allow user to log in to Control Panel"
+msgstr "Zakázať používateľovi prihlásenie sa do Administrácie"
+
+msgid "Send welcome email"
+msgstr "Odoslať uvítací e-mail"
+
+msgid "Language"
+msgstr "Jazyk"
+
+msgid "Role"
+msgstr "Rola"
+
+msgid "User"
+msgstr "Používateľ"
+
+msgid "Administrator"
+msgstr "Administrátor"
+
+msgid "DNS Sync User"
+msgstr "DNS Sync User"
+
+msgid "Email login credentials to:"
+msgstr "Email login credentials to:"
+
+msgid "Package Name"
+msgstr "Meno balíčku"
+
+msgid "in MB"
+msgstr "in MB"
+
+msgid "Unlimited"
+msgstr "Neobmedzené"
+
+msgid "WEB"
+msgstr "WEB"
+
+msgid "per domain"
+msgstr "Na doménu"
+
+msgid "Name Servers"
+msgstr "Name Servers"
+
+msgid "Add Name Server"
+msgstr "Pridanie menného servera"
+
+msgid "MAIL"
+msgstr "MAIL"
+
+msgid "per account / hour"
+msgstr "za účet / hodinu"
+
+msgid "SSH Access"
+msgstr "SSH prístup"
+
+msgid "Use local-part without domain name"
+msgstr "Use local-part without domain name"
+
+msgid "Discard all mail"
+msgstr "Zahodiť všetky emaily"
+
+msgid "Do not store forwarded mail"
+msgstr "Neukladať preposlaný email"
+
+msgid "Forward to"
+msgstr "Preposlať na"
+
+msgid "one or more email addresses"
+msgstr "jedna alebo viac email adries"
+
+msgid "email / hour"
+msgstr "email / hour"
+
+msgid "Common Account Settings"
+msgstr "Common Account Settings"
+
+msgid "Webmail"
+msgstr "Webmail"
+
+msgid "Hostname"
+msgstr "Meno hostiteľa"
+
+msgid "IMAP Settings"
+msgstr "IMAP Settings"
+
+msgid "Authentication"
+msgstr "Autentifikácia"
+
+msgid "Normal password"
+msgstr "Normálne heslo"
+
+msgid "No encryption"
+msgstr "Žiadne šifrovanie"
+
+msgid "POP3 Settings"
+msgstr "POP3 Settings"
+
+msgid "SMTP Settings"
+msgstr "SMTP Settings"
+
+msgid "Configure"
+msgstr "Konfigurovať"
+
+msgid "Advanced Options"
+msgstr "Pokročilé nastavenia"
+
+msgid "Basic Options"
+msgstr "Basic Options"
+
+msgid "Add SSH Key"
+msgstr "Pridať SSH kľúč"
+
+msgid "SSH Keys"
+msgstr "SSH Keys"
+
+msgid "SSH ID"
+msgstr "SSH ID"
+
+msgid "Are you sure you want to delete SSH key %s?"
+msgstr "Are you sure you want to delete SSH key %s?"
+
+msgid "%d SSH key"
+msgid_plural "%d SSH keys"
+msgstr[0] "%d SSH key"
+msgstr[1] "%d SSH keys"
+msgstr[2] "%d SSH keys"
+msgstr[3] "%d SSH keys"
+
+msgid "Manage SSH Keys"
+msgstr "Manage SSH Keys"
+
+msgid "Access Keys"
+msgstr "Prístupové kľúče"
+
+msgid "Enable two-factor authentication"
+msgstr "Enable two-factor authentication"
+
+msgid "Account Recovery Code"
+msgstr "Account Recovery Code"
+
+msgid "Please scan the code below in your 2FA application"
+msgstr "Please scan the code below in your 2FA application"
+
+msgid "2FA QR Code"
+msgstr "2FA QR kód"
+
+msgid "Use IP address allow list for login attempts"
+msgstr "Prihlásenie cez zoznam povolených IP"
+
+msgid "For example"
+msgstr "For example"
+
+msgid "Theme"
+msgstr "Téma"
+
+msgid "Default List Sort Order"
+msgstr "Default List Sort Order"
+
+msgid "PHP CLI Version"
+msgstr "PHP CLI verzia"
+
+msgid "Default Name Servers"
+msgstr "Predvolené menné servery"
+
+msgid "Add Rule"
+msgstr "Pridať pravidlo"
+
+msgid "Fail2ban Banlists"
+msgstr "Fail2ban Banlists"
+
+msgid "Firewall Rules"
+msgstr "Firewall Rules"
+
+msgid "Are you sure you want to unsuspend rule #%s?"
+msgstr "Are you sure you want to unsuspend rule #%s?"
+
+msgid "Are you sure you want to suspend rule #%s?"
+msgstr "Are you sure you want to suspend rule #%s?"
+
+msgid "Are you sure you want to delete rule %s"
+msgstr "Are you sure you want to delete rule %s"
+
+msgid "%d firewall rule"
+msgid_plural "%d firewall rules"
+msgstr[0] "%d firewall pravidlo"
+msgstr[1] "%d firewall pravidlá"
+msgstr[2] "%d firewall pravidiel"
+msgstr[3] "%d firewall rules"
+
+msgid "Add Record"
+msgstr "Pridať záznam"
+
+msgid "Edit DNS Domain"
+msgstr "Edit DNS Domain"
+
+msgid "Edit DNS Record"
+msgstr "Edit DNS Record"
+
+msgid "Are you sure you want to delete record %s?"
+msgstr "Are you sure you want to delete record %s?"
+
+msgid "%d DNS record"
+msgid_plural "%d DNS records"
+msgstr[0] "%d DNS záznam"
+msgstr[1] "%d DNS záznamy"
+msgstr[2] "%d DNS záznamov"
+msgstr[3] "%d DNS records"
+
+msgid "Restore All"
+msgstr "Obnoviť všetko"
+
+msgid "Backup Details"
+msgstr "Backup Details"
+
+msgid "Details"
+msgstr "Detaily"
+
+msgid "Web Domain"
+msgstr "Web Domain"
+
+msgid "Mail Domain"
+msgstr "Mail Domain"
+
+msgid "DNS Zone"
+msgstr "DNS zóna"
+
+msgid "Jobs"
+msgstr "Úlohy"
+
+msgid "User Directory"
+msgstr "User Directory"
+
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d položka"
+msgstr[1] "%d položky"
+msgstr[2] "%d položiek"
+msgstr[3] "%d items"
+
+msgid "Add IP Address to Banlist"
+msgstr "Add IP Address to Banlist"
+
+msgid "SSH"
+msgstr "SSH"
+
+msgid "FTP"
+msgstr "FTP"
+
+msgid "HESTIA"
+msgstr "HESTIA"
+
+msgid "Add DNS Domain"
+msgstr "Pridať DNS doménu"
+
+msgid "View Public DNSSEC Key"
+msgstr "View Public DNSSEC Key"
+
+msgid "DNSKEY Record"
+msgstr "DNSKEY Record"
+
+msgid "DS Record"
+msgstr "DS Record"
+
+msgid "Public Key"
+msgstr "Public Key"
+
+msgid "Key Type / Flag"
+msgstr "Key Type / Flag"
+
+msgid "Key Tag"
+msgstr "Key Tag"
+
+msgid "Flag"
+msgstr "Flag"
+
+msgid "Algorithm"
+msgstr "Algoritmus"
 
 msgid "Add DNS Zone"
 msgstr "Add DNS Zone"
@@ -1455,11 +1486,113 @@ msgstr "Add DNS Zone"
 msgid "a dns domain"
 msgstr "a dns domain"
 
+msgid "Template"
+msgstr "Šablóna"
+
+msgid "Enable DNSSEC"
+msgstr "Zapnúť DNSSEC"
+
+msgid "Expiration Date"
+msgstr "Dátum expirácie"
+
+msgid "YYYY-MM-DD"
+msgstr "YYYY-MM-DD"
+
+msgid "Add Database"
+msgstr "Pridať databázu"
+
+msgid "a database"
+msgstr "a database"
+
+msgid ""
+"Prefix %s will be automatically added to database name and database "
+"user"
+msgstr ""
+"Predpona %s sa automaticky pridá k názvu databázy a používateľovi da"
+"tabázy"
+
+msgid "Maximum %s characters length, including prefix"
+msgstr "Maximum %s characters length, including prefix"
+
+msgid "Block Malicious IPs"
+msgstr "Block Malicious IPs"
+
+msgid "Add IPset IP List for Firewall"
+msgstr "Add IPset IP List for Firewall"
+
+msgid "url, script or file"
+msgstr "url, skript alebo súbor"
+
+msgid "Auth Log"
+msgstr "Auth Log"
+
+msgid "Browser"
+msgstr "Prehliadač"
+
+msgid "Success"
+msgstr "Success"
+
+msgid "Failed"
+msgstr "Failed"
+
+msgid "Suspend All"
+msgstr "Suspend All"
+
+msgid "Unsuspend All"
+msgstr "Unsuspend All"
+
+msgid "Are you sure you want to unsuspend database %s?"
+msgstr "Are you sure you want to unsuspend database %s?"
+
+msgid "Are you sure you want to suspend database %s?"
+msgstr "Are you sure you want to suspend database %s?"
+
+msgid "Edit Database"
+msgstr "Edit Database"
+
+msgid "Download Database"
+msgstr "Download Database"
+
+msgid "Are you sure you want to delete database %s?"
+msgstr "Are you sure you want to delete database %s?"
+
+msgid "%d database"
+msgid_plural "%d databases"
+msgstr[0] "%d database"
+msgstr[1] "%d databases"
+msgstr[2] "%d databases"
+msgstr[3] "%d databases"
+
+msgid "Advanced Details"
+msgstr "Advanced Details"
+
+msgid "Yearly"
+msgstr "Ročne"
+
+msgid "Biennially"
+msgstr "Biennially"
+
+msgid "Triennially"
+msgstr "Triennially"
+
+msgid "Add Package"
+msgstr "Pridať balíček"
+
+msgid "Duplicate"
+msgstr "Duplicate"
+
+msgid "Are you sure you want to delete package %s?"
+msgstr "Are you sure you want to delete package %s?"
+
+msgid "%d package"
+msgid_plural "%d packages"
+msgstr[0] "%d balíček"
+msgstr[1] "%d balíčky"
+msgstr[2] "%d balíčkov"
+msgstr[3] "%d packages"
+
 msgid "Task Monitor"
 msgstr "Task Monitor"
-
-msgid "Updates"
-msgstr "Aktualizácie"
 
 msgid "Firewall"
 msgstr "Firewall"
@@ -1485,14 +1618,17 @@ msgstr "Priemerná záťaž"
 msgid "Uptime"
 msgstr "Doba behu"
 
+msgid "Services"
+msgstr "Services"
+
 msgid "Service"
 msgstr "Služba"
 
-msgid "Description"
-msgstr "Popis"
-
 msgid "Memory"
 msgstr "Pamäť"
+
+msgid "Edit"
+msgstr "Upraviť"
 
 msgid "Are you sure you want to stop service %s?"
 msgstr "Are you sure you want to stop service %s?"
@@ -1502,6 +1638,49 @@ msgstr "Are you sure you want to start service %s?"
 
 msgid "MB"
 msgstr "MB"
+
+msgid "Add Cron Job"
+msgstr "Pridať Cron úlohu"
+
+msgid "Disable Notifications"
+msgstr "Disable Notifications"
+
+msgid "Enable Notifications"
+msgstr "Enable Notifications"
+
+msgid "Are you sure you want to unsuspend this cron job?"
+msgstr "Are you sure you want to unsuspend this cron job?"
+
+msgid "Are you sure you want to suspend this cron job?"
+msgstr "Are you sure you want to suspend this cron job?"
+
+msgid "Are you sure you want to delete this cron job?"
+msgstr "Are you sure you want to delete this cron job?"
+
+msgid "%d cron job"
+msgid_plural "%d cron jobs"
+msgstr[0] "%d cron úloha"
+msgstr[1] "%d cron úlohy"
+msgstr[2] "%d cron úloh"
+msgstr[3] "%d cron jobs"
+
+msgid "SSL CSR"
+msgstr "Žiadost o certifikát SSL"
+
+msgid "SOA"
+msgstr "SOA"
+
+msgid "Access Key"
+msgstr "Prístupový kľúč"
+
+msgid "Access Key ID"
+msgstr "Access Key ID"
+
+msgid "Secret Key"
+msgstr "Tajný kľúč"
+
+msgid "Warning! Last chance to save secret key!"
+msgstr "Warning! Last chance to save secret key!"
 
 msgid "Purge NGINX Cache"
 msgstr "Purge NGINX Cache"
@@ -1585,43 +1764,11 @@ msgstr "Odoslať FTP prihlasovacie údaje na email"
 msgid "Add FTP account"
 msgstr "Add FTP account"
 
-msgid "Are you sure you want to delete access key %s?"
-msgstr "Are you sure you want to delete access key %s?"
+msgid "Add DNS Record"
+msgstr "Pridať DNS záznam"
 
-msgid "%d access key"
-msgid_plural "%d access keys"
-msgstr[0] "%d access key"
-msgstr[1] "%d access keys"
-msgstr[2] "%d access keys"
-msgstr[3] "%d access keys"
-
-msgid "Send welcome email"
-msgstr "Odoslať uvítací e-mail"
-
-msgid "a database"
-msgstr "a database"
-
-msgid ""
-"Prefix %s will be automatically added to database name and database "
-"user"
-msgstr ""
-"Predpona %s sa automaticky pridá k názvu databázy a používateľovi da"
-"tabázy"
-
-msgid "Edit DNS Record"
-msgstr "Edit DNS Record"
-
-msgid "Browser"
-msgstr "Prehliadač"
-
-msgid "Success"
-msgstr "Success"
-
-msgid "Failed"
-msgstr "Failed"
-
-msgid "SSL"
-msgstr "SSL"
+msgid "Rebuild"
+msgstr "Rebuild"
 
 msgid "Statistics"
 msgstr "Štatistika"
@@ -1641,6 +1788,82 @@ msgstr[0] "%d web doména"
 msgstr[1] "%d web domény"
 msgstr[2] "%d web domén"
 msgstr[3] "%d web domains"
+
+msgid "Add Access Key"
+msgstr "Pridať prístupový kľúč"
+
+msgid "One or more email addresses"
+msgstr "One or more email addresses"
+
+msgid "Two-factor Authentication"
+msgstr "Two-factor Authentication"
+
+msgid "2FA Token"
+msgstr "Overovací kód"
+
+msgid "Forgot Token"
+msgstr "Forgot Token"
+
+msgid "Login"
+msgstr "Prihlásiť"
+
+msgid "Forgot Password"
+msgstr "Zabudnuté heslo"
+
+msgid "Password reset code has been sent to your email address"
+msgstr "Password reset code has been sent to your email address"
+
+msgid "Reset Code"
+msgstr "Kód obnovenia"
+
+msgid "Confirm"
+msgstr "Potvrdiť"
+
+msgid "Next"
+msgstr "Ďalej"
+
+msgid "Account Unlocked"
+msgstr "Account Unlocked"
+
+msgid ""
+"Two-factor authentication is now turned off for your account.<br><br"
+">You may now proceed to log in."
+msgstr ""
+"Two-factor authentication is now turned off for your account.<br><br"
+">You may now proceed to log in."
+
+msgid "Log in"
+msgstr "Prihlásiť"
+
+msgid "Unlock Account"
+msgstr "Unlock Account"
+
+msgid "2FA Reset Code"
+msgstr "Kód pre obnovenie účtu"
+
+msgid "Submit"
+msgstr "Odoslať"
+
+msgid "Welcome"
+msgstr "Vitajte"
+
+msgid "New Password"
+msgstr "Nové heslo"
+
+msgid "Confirm Password"
+msgstr "Potvrdiť heslo"
+
+msgid "Reset"
+msgstr "Resetovať"
+
+msgid "ISO 3166-1 alpha-2 two-letter code"
+msgstr "ISO 3166-1 alpha-2 two-letter code"
+
+msgid "State / Province"
+msgstr "Štát / Kraj"
+
+msgid "City / Locality"
+msgstr "Mesto / Lokalita"
 
 msgid "White Label"
 msgstr "White Label"
@@ -1814,12 +2037,6 @@ msgstr "Nepovoliť ostatným správcom prístup k nastaveniam servera"
 msgid "Policies"
 msgstr "Pravidlá"
 
-msgid "Users"
-msgstr "Používatelia"
-
-msgid "Preview"
-msgstr "Náhľad"
-
 msgid "Allow users to edit their account details"
 msgstr "Povoliť používateľom editovať detaily vlastného účtu"
 
@@ -1829,17 +2046,26 @@ msgstr "Povoliť používateľom meniť šablóny počas úpravy web domén"
 msgid "Allow users to change templates when editing DNS zones"
 msgstr "Povoliť používateľom meniť šablónu počas editácie DNS zón"
 
+msgid "Allow users to view action and login history logs"
+msgstr "Povoliť používateľom zobraziť logy histórie prihlásení a aktivitu"
+
+msgid "Allow users to delete log history"
+msgstr "Povoliť používateľom vymazať históriu logov"
+
+msgid "Preview"
+msgstr "Náhľad"
+
+msgid "Allow suspended users to create new backups"
+msgstr "Allow suspended users to create new backups"
+
 msgid "Sync Error document templates on user rebuild"
 msgstr "Sync Error document templates on user rebuild"
 
 msgid "Sync Skeleton templates"
 msgstr "Sync Skeleton templates"
 
-msgid "Allow users to view action and login history logs"
-msgstr "Povoliť používateľom zobraziť logy histórie prihlásení a aktivitu"
-
-msgid "Allow users to delete log history"
-msgstr "Povoliť používateľom vymazať históriu logov"
+msgid "Domains"
+msgstr "Domény"
 
 msgid "Enforce subdomain ownership"
 msgstr "Vynútiť práva pre subdoménu"
@@ -1856,49 +2082,94 @@ msgstr "File Manager"
 msgid "File System Disk Quota"
 msgstr "File System Disk Quota"
 
-msgid "one or more email addresses"
-msgstr "jedna alebo viac email adries"
+msgid ""
+"Type domain name, one per line. To exclude all domains use *. To exc"
+"lude specific dirs use following format: domain.tld:public_html/cach"
+"e:public_html/tmp"
+msgstr ""
+"Type domain name, one per line. To exclude all domains use *. To exc"
+"lude specific dirs use following format: domain.tld:public_html/cach"
+"e:public_html/tmp"
 
-msgid "Error Log"
-msgstr "Protokol chýb"
+msgid ""
+"Type domain name, one per line. To exclude all domains use *. To exc"
+"lude specific accounts use following format: domain.tld:info:support"
+":postmaster"
+msgstr ""
+"Type domain name, one per line. To exclude all domains use *. To exc"
+"lude specific accounts use following format: domain.tld:info:support"
+":postmaster"
 
-msgid "Last 70 lines of %s.%s.log"
-msgstr "Posledných 70 riadkov %s.%s.log"
+msgid ""
+"Type full database name, one per line. To exclude all databases use "
+"*"
+msgstr ""
+"Type full database name, one per line. To exclude all databases use "
+"*"
 
-msgid "Accounts"
-msgstr "Účty"
+msgid "Type directory name, one per line. To exlude all dirs use *"
+msgstr "Type directory name, one per line. To exlude all dirs use *"
 
-msgid "DKIM"
-msgstr "DKIM"
+msgid "Are you sure you want to delete access key %s?"
+msgstr "Are you sure you want to delete access key %s?"
 
-msgid "%d mail domain"
-msgid_plural "%d mail domains"
-msgstr[0] "%d email doména"
-msgstr[1] "%d email domény"
-msgstr[2] "%d email domén"
-msgstr[3] "%d mail domains"
+msgid "%d access key"
+msgid_plural "%d access keys"
+msgstr[0] "%d access key"
+msgstr[1] "%d access keys"
+msgstr[2] "%d access keys"
+msgstr[3] "%d access keys"
 
-msgid "Add Record"
-msgstr "Pridať záznam"
+msgid "Ban IP Address"
+msgstr "Zablokovať IP adresu"
 
-msgid "Are you sure you want to delete record %s?"
-msgstr "Are you sure you want to delete record %s?"
+msgid "Banned IP Addresses"
+msgstr "Banned IP Addresses"
 
-msgid "%d DNS record"
-msgid_plural "%d DNS records"
-msgstr[0] "%d DNS záznam"
-msgstr[1] "%d DNS záznamy"
-msgstr[2] "%d DNS záznamov"
-msgstr[3] "%d DNS records"
+msgid "Are you sure you want to delete IP address %s?"
+msgstr "Are you sure you want to delete IP address %s?"
 
-msgid "Disable Automatic Updates"
-msgstr "Disable Automatic Updates"
+msgid "There are currently no banned IP addresses."
+msgstr "V súčasnosti neexistujú žiadne zakázané IP adresy."
 
-msgid "Enable Automatic Updates"
-msgstr "Enable Automatic Updates"
+msgid "%d banned IP address"
+msgid_plural "%d banned IP addresses"
+msgstr[0] "%d zablokovaná IP adresa"
+msgstr[1] "%d zablokované IP adresy"
+msgstr[2] "%d zablokovaných IP adries"
+msgstr[3] "%d banned IP addresses"
 
-msgid "Package Names"
-msgstr "Package Names"
+msgid "Owner"
+msgstr "Vlastník"
+
+msgid "Refresh IP Addresses"
+msgstr "Refresh IP Addresses"
+
+msgid "IP Addresses"
+msgstr "IP Addresses"
+
+msgid "%d IP address"
+msgid_plural "%d IP addresses"
+msgstr[0] "%d IP adresa"
+msgstr[1] "%d IP adresy"
+msgstr[2] "%d IP adries"
+msgstr[3] "%d IP addresses"
+
+msgid "Overall Statistics"
+msgstr "Zobraziť štatistiky"
+
+msgid "Show Per User"
+msgstr "Show Per User"
+
+msgid "SSL Domains"
+msgstr "SSL Domény"
+
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d mesiac"
+msgstr[1] "%d mesiace"
+msgstr[2] "%d mesiacov"
+msgstr[3] "%d months"
 
 msgid "Search Results"
 msgstr "Výsledky vyhľadávania"
@@ -1910,71 +2181,27 @@ msgstr[1] "%d objekty"
 msgstr[2] "%d objektov"
 msgstr[3] "%d objects"
 
-msgid "Shortcuts"
-msgstr "Odkaz"
+msgid "Expire"
+msgstr "Expirácia"
 
-msgid "Add new object"
-msgstr "Add new object"
+msgid "Records"
+msgstr "Záznamy"
 
-msgid "Save form"
-msgstr "Save form"
+msgid "DNSSEC"
+msgstr "DNSSEC"
 
-msgid "Unsave form"
-msgstr "Unsave form"
+msgid "%d DNS zone"
+msgid_plural "%d DNS zones"
+msgstr[0] "%d DNS zóna"
+msgstr[1] "%d DNS zóny"
+msgstr[2] "%d DNS zón"
+msgstr[3] "%d DNS zones"
 
-msgid "Go to WEB list"
-msgstr "Prejsť na WEB zoznam"
+msgid "Error Log"
+msgstr "Protokol chýb"
 
-msgid "Go to DNS list"
-msgstr "Prejsť na DNS zoznam"
-
-msgid "Go to MAIL list"
-msgstr "Prejsť na EMAIL zoznam"
-
-msgid "Go to DB list"
-msgstr "Prejsť na DB zoznam"
-
-msgid "Go to CRON list"
-msgstr "Prejsť na CRON zoznam"
-
-msgid "Go to BACKUP list"
-msgstr "Prejsť na ZÁLOHA zoznam"
-
-msgid "Focus on search"
-msgstr "Zameranie sa na vyhľadávanie"
-
-msgid "Display / Hide shortcuts"
-msgstr "Display / Hide shortcuts"
-
-msgid "Move backward through top menu"
-msgstr "Posun späť cez horné menu"
-
-msgid "Move forward through top menu"
-msgstr "Posun dopredu cez horné menu"
-
-msgid "Enter focused element"
-msgstr "Zadajte cielený prvok"
-
-msgid "Move up through elements list"
-msgstr "Posun v zozname prvkov smerom nahor"
-
-msgid "Move down through elements list"
-msgstr "Posun v zozname prvkov smerom nadol"
-
-msgid "No notifications"
-msgstr "No notifications"
-
-msgid "Delete all notifications"
-msgstr "Zmazať všetky notifikácie"
-
-msgid "Are you sure you want to leave the page?"
-msgstr "Are you sure you want to leave the page?"
-
-msgid "BLACKLIST"
-msgstr "ČIERNA LISTINA"
-
-msgid "IPVERSE"
-msgstr "IPVERSE"
+msgid "Last 70 lines of %s.%s.log"
+msgstr "Posledných 70 riadkov %s.%s.log"
 
 msgid "Logged in as"
 msgstr "Prihlásený ako"
@@ -1982,8 +2209,17 @@ msgstr "Prihlásený ako"
 msgid "Notifications"
 msgstr "Notifikácie"
 
+msgid "Loading..."
+msgstr "Loading..."
+
+msgid "No notifications"
+msgstr "No notifications"
+
 msgid "Delete notification"
 msgstr "Zmazať notifikáciu"
+
+msgid "Delete all notifications"
+msgstr "Zmazať všetky notifikácie"
 
 msgid "File manager"
 msgstr "Správca súborov"
@@ -2018,99 +2254,14 @@ msgstr "CRON"
 msgid "BACKUP"
 msgstr "ZÁLOHY"
 
-msgid "Error: %s update failed."
-msgstr "Error: %s update failed."
+msgid "Are you sure you want to leave the page?"
+msgstr "Are you sure you want to leave the page?"
 
-msgid "NGINX cache has been purged successfully."
-msgstr "NGINX cache has been purged successfully."
+msgid "BLACKLIST"
+msgstr "ČIERNA LISTINA"
 
-msgid "The system is going down for reboot NOW!"
-msgstr "Systém sa vypína kvôli reštartovaniu práve TERAZ!"
-
-msgid "Cron job email reporting has been successfully disabled."
-msgstr "Cron job email reporting has been successfully disabled."
-
-msgid "Cron job email reporting has been successfully enabled."
-msgstr "Cron job email reporting has been successfully enabled."
-
-msgid "Error: unable to copy package."
-msgstr "Error: unable to copy package."
-
-msgid "State"
-msgstr "Štát"
-
-msgid "City"
-msgstr "Mesto"
-
-msgid "Field \"%s\" can not be blank."
-msgstr "Pole \"%s\" nemôže byť prázdne."
-
-msgid "Error code: %s"
-msgstr "Error code: %s"
-
-msgid "Certificate has been generated successfully."
-msgstr "Certificate has been generated successfully."
-
-msgid "Password does not match the minimum requirements."
-msgstr "Password does not match the minimum requirements."
-
-msgid "Please enter a valid email address."
-msgstr "Please enter a valid email address."
-
-msgid "Please enter a valid contact name."
-msgstr "Please enter a valid contact name."
-
-msgid "Changes have been saved."
-msgstr "Changes have been saved."
-
-msgid "Nameserver 1"
-msgstr "Nameserver 1"
-
-msgid "Nameserver 2"
-msgstr "Nameserver 2"
-
-msgid ""
-"Mail account has been created.\\n\\nCommon Account Settings:\\nUsername: {"
-"{account}}@{{domain}}\\nPassword: {{password}}\\nWebmail: {{webmail}}\\nHo"
-"stname: {{hostname}}\\n\\nIMAP Settings\\nAuthentication: Normal Password\\n"
-"SSL/TLS: Port 993\\nSTARTTLS: Port 143\\nNo encryption: Port 143\\n\\nPOP3 S"
-"ettings\\nAuthentication: Normal Password\\nSSL/TLS: Port 995\\nSTARTTLS: "
-"Port 110\\nNo encryption: Port 110\\n\\nSMTP Settings\\nAuthentication: Norm"
-"al Password\\nSSL/TLS: Port 465\\nSTARTTLS: Port 587\\nNo encryption: Port"
-" 25\\n\\nBest regards,\\n\\n--\\n{{appname}}"
-msgstr ""
-"Mail account has been created.\\n\\nCommon Account Settings:\\nUsername: {"
-"{account}}@{{domain}}\\nPassword: {{password}}\\nWebmail: {{webmail}}\\nHo"
-"stname: {{hostname}}\\n\\nIMAP Settings\\nAuthentication: Normal Password\\n"
-"SSL/TLS: Port 993\\nSTARTTLS: Port 143\\nNo encryption: Port 143\\n\\nPOP3 S"
-"ettings\\nAuthentication: Normal Password\\nSSL/TLS: Port 995\\nSTARTTLS: "
-"Port 110\\nNo encryption: Port 110\\n\\nSMTP Settings\\nAuthentication: Norm"
-"al Password\\nSSL/TLS: Port 465\\nSTARTTLS: Port 587\\nNo encryption: Port"
-" 25\\n\\nBest regards,\\n\\n--\\n{{appname}}"
-
-msgid "Email Credentials: %s@%s"
-msgstr "Email Credentials: %s@%s"
-
-msgid "Error: unknown record ID."
-msgstr "Error: unknown record ID."
-
-msgid ""
-"FTP account has been created and ready to use.\\n\\nHostname: {{domain}}"
-"\\nUsername: {{username}}\\nPassword: {{password}}\\n\\nBest regards,\\n\\n--\\n{{"
-"appname}}"
-msgstr ""
-"FTP account has been created and ready to use.\\n\\nHostname: {{domain}}"
-"\\nUsername: {{username}}\\nPassword: {{password}}\\n\\nBest regards,\\n\\n--\\n{{"
-"appname}}"
-
-msgid "FTP Account Credentials: %s"
-msgstr "FTP Account Credentials: %s"
-
-msgid "Info (read-only mode): Crontab can only be edited via SSH."
-msgstr "Info (read-only mode): Crontab can only be edited via SSH."
-
-msgid "Inactive session timeout can not lower than 1 minute."
-msgstr "Inactive session timeout can not lower than 1 minute."
+msgid "IPVERSE"
+msgstr "IPVERSE"
 
 msgid "Account has been suspended"
 msgstr "Účet bol pozastavený"
@@ -2124,122 +2275,28 @@ msgstr "Nesprávne používateľské meno alebo heslo"
 msgid "Invalid or missing 2FA token"
 msgstr "Neplatný alebo chýbajúci 2FA token"
 
-msgid "Download of remote backup file has been scheduled."
-msgstr "Download of remote backup file has been scheduled."
-
-msgid "Unable to add database! Limit reached!"
-msgstr "Nie je možné pridať databázu! Dosiahnutý limit!"
-
-msgid "Unable to add database!"
-msgstr "Nie je možné pridať databázu!"
-
-msgid "You are logged out, please log in again."
-msgstr "You are logged out, please log in again."
-
-msgid "%d day"
-msgid_plural "%d days"
-msgstr[0] "%d deň"
-msgstr[1] "%d dni"
-msgstr[2] "%d dní"
-msgstr[3] "%d days"
-
-msgid "%d hour"
-msgid_plural "%d hours"
-msgstr[0] "%d hodina"
-msgstr[1] "%d hodiny"
-msgstr[2] "%d hodín"
-msgstr[3] "%d hours"
-
-msgid "%d minute"
-msgid_plural "%d minutes"
-msgstr[0] "%d minúta"
-msgstr[1] "%d minúty"
-msgstr[2] "%d minút"
-msgstr[3] "%d minutes"
-
 msgid "Start \"%s\" failed"
 msgstr "Spustenie \"%s\" zlyhalo"
 
-msgid "Restart \"%s\" failed"
-msgstr "Reštart \"%s\" zlyhal"
-
-msgid "SSH Key already exists."
-msgstr "SSH Key already exists."
-
-msgid "SSH Key has been created successfully."
-msgstr "SSH Key has been created successfully."
+msgid ""
+"Task has been added to the queue. You will receive an email notifica"
+"tion when your backup is ready for download."
+msgstr ""
+"Task has been added to the queue. You will receive an email notifica"
+"tion when your backup is ready for download."
 
 msgid ""
-"Hello {{name}},\\n\\nYour account has been created and ready to use.\\n\\nht"
-"tps://{{hostname}}/login/\\nUsername: {{user}}\\nPassword: {{password}}\\n"
-"\\nBest regards,\\n\\n--\\n{{appname}}"
+"An existing backup task is already running, please wait for it to co"
+"mplete."
 msgstr ""
-"Hello {{name}},\\n\\nYour account has been created and ready to use.\\n\\nht"
-"tps://{{hostname}}/login/\\nUsername: {{user}}\\nPassword: {{password}}\\n"
-"\\nBest regards,\\n\\n--\\n{{appname}}"
+"An existing backup task is already running, please wait for it to co"
+"mplete."
 
-msgid "User {%s} has been created successfully. / {Log in as %s}"
-msgstr "User {%s} has been created successfully. / {Log in as %s}"
+msgid "Error: %s update failed."
+msgstr "Error: %s update failed."
 
-msgid "Package {%s} has been created successfully."
-msgstr "Package {%s} has been created successfully."
-
-msgid "Mail domain {%s} has been created successfully."
-msgstr "Mail domain {%s} has been created successfully."
-
-msgid "Mail account {%s@%s} has been created successfully."
-msgstr "Mail account {%s@%s} has been created successfully."
-
-msgid "Access key {%s} has been created successfully."
-msgstr "Access key {%s} has been created successfully."
-
-msgid "DNS zone {%s} has been created successfully."
-msgstr "DNS zone {%s} has been created successfully."
-
-msgid "Record {%s.%s} has been created successfully."
-msgstr "Record {%s.%s} has been created successfully."
-
-msgid "Domain {%s} has been created successfully."
-msgstr "Domain {%s} has been created successfully."
-
-msgid "Rule has been created successfully."
-msgstr "Rule has been created successfully."
-
-msgid "IP address has been banned successfully."
-msgstr "IP address has been banned successfully."
-
-msgid "IP list has been created successfully."
-msgstr "IP list has been created successfully."
-
-msgid "Cron job has been created successfully."
-msgstr "Cron job has been created successfully."
-
-msgid "IP address {%s} has been created successfully."
-msgstr "IP address {%s} has been created successfully."
-
-msgid ""
-"Database has been created.\\n\\nDatabase: {{database}}\\nUsername: {{usern"
-"ame}}\\nPassword: {{password}}\\nSQL Manager: {{dbadmin}}\\n\\nBest regards,"
-"\\n\\n--\\n{{appname}}"
-msgstr ""
-"Database has been created.\\n\\nDatabase: {{database}}\\nUsername: {{usern"
-"ame}}\\nPassword: {{password}}\\nSQL Manager: {{dbadmin}}\\n\\nBest regards,"
-"\\n\\n--\\n{{appname}}"
-
-msgid "Database Credentials: %s"
-msgstr "Database Credentials: %s"
-
-msgid "Database {%s} has been created successfully. / {Open %s}"
-msgstr "Database {%s} has been created successfully. / {Open %s}"
-
-msgid "Unable to install %s, %s is not available."
-msgstr "Unable to install %s, %s is not available."
-
-msgid "%s installer missing."
-msgstr "%s installer missing."
-
-msgid "%s installed successfully."
-msgstr "%s installed successfully."
+msgid "Error: unable to copy package."
+msgstr "Error: unable to copy package."
 
 msgid "Hestia core package"
 msgstr "Hestia core package"
