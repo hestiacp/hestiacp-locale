@@ -1037,7 +1037,7 @@ msgid "TTL"
 msgstr "TTL"
 
 msgid "Preview Features"
-msgstr "Preview Features"
+msgstr "Visualizar recursos"
 
 msgid "Category"
 msgstr "Categoria"
@@ -1146,13 +1146,13 @@ msgid "Message"
 msgstr "Mensagem"
 
 msgid "Information"
-msgstr "Information"
+msgstr "Informação"
 
 msgid "Warning"
-msgstr "Warning"
+msgstr "Atenção"
 
 msgid "Error"
-msgstr "Error"
+msgstr "Erro"
 
 msgid "%d log record"
 msgid_plural "%d log records"
@@ -1299,7 +1299,7 @@ msgid "Add SSH Key"
 msgstr "Add SSH key"
 
 msgid "SSH Keys"
-msgstr "SSH Keys"
+msgstr "Chaves SSH"
 
 msgid "SSH ID"
 msgstr "SSH ID"
@@ -1355,7 +1355,7 @@ msgid "Fail2ban Banlists"
 msgstr "Listas de banimento do Fail2Ban"
 
 msgid "Firewall Rules"
-msgstr "Firewall Rules"
+msgstr "Regras do Firewall"
 
 msgid "Are you sure you want to unsuspend rule #%s?"
 msgstr "Você tem certeza que deseja remover a suspensão da regra #%s?"
@@ -1392,7 +1392,7 @@ msgid "Restore All"
 msgstr "Restaurar Tudo"
 
 msgid "Backup Details"
-msgstr "Backup Details"
+msgstr "Detalhes do backup"
 
 msgid "Details"
 msgstr "Detalhes"
@@ -1500,7 +1500,7 @@ msgid "url, script or file"
 msgstr "url, script ou arquivo"
 
 msgid "Auth Log"
-msgstr "Auth Log"
+msgstr "Log de Autenticação"
 
 msgid "Browser"
 msgstr "Navegador"
@@ -1544,10 +1544,10 @@ msgid "Yearly"
 msgstr "Anualmente"
 
 msgid "Biennially"
-msgstr "Biennially"
+msgstr "Bienalmente"
 
 msgid "Triennially"
-msgstr "Triennially"
+msgstr "Trienalmente"
 
 msgid "Add Package"
 msgstr "Adicionar Pacote"
@@ -1591,7 +1591,7 @@ msgid "Uptime"
 msgstr "Tempo em Atividade"
 
 msgid "Services"
-msgstr "Services"
+msgstr "Serviços"
 
 msgid "Service"
 msgstr "Serviço"
@@ -2028,7 +2028,7 @@ msgid "Preview"
 msgstr "Visualizar"
 
 msgid "Allow suspended users to create new backups"
-msgstr "Allow suspended users to create new backups"
+msgstr "Permitir que usuários suspensos criem backups"
 
 msgid "Sync Error document templates on user rebuild"
 msgstr "Erro de sincronização de modelos na recriação do usuário"
@@ -2096,7 +2096,7 @@ msgid "Ban IP Address"
 msgstr "Bloquear Endereço IP"
 
 msgid "Banned IP Addresses"
-msgstr "Banned IP Addresses"
+msgstr "Endereços de IP banidos"
 
 msgid "Are you sure you want to delete IP address %s?"
 msgstr "Você tem certeza que deseja remover o endereço de IP %s?"
@@ -2113,10 +2113,10 @@ msgid "Owner"
 msgstr "Proprietário"
 
 msgid "Refresh IP Addresses"
-msgstr "Refresh IP Addresses"
+msgstr "Atualizar endereços de IP"
 
 msgid "IP Addresses"
-msgstr "IP Addresses"
+msgstr "Endereços de IP"
 
 msgid "%d IP address"
 msgid_plural "%d IP addresses"
@@ -2172,7 +2172,7 @@ msgid "Notifications"
 msgstr "Notificações"
 
 msgid "Loading..."
-msgstr "Loading..."
+msgstr "Carregando..."
 
 msgid "No notifications"
 msgstr "Sem notificações"
@@ -2251,8 +2251,8 @@ msgid ""
 "An existing backup task is already running, please wait for it to co"
 "mplete."
 msgstr ""
-"An existing backup task is already running, please wait for it to co"
-"mplete."
+"Uma tarefa de backup existente já está em execução, por favor aguard"
+"e até ela ser concluída."
 
 msgid "Error: %s update failed."
 msgstr "Erro: atualização do %s falhou."
