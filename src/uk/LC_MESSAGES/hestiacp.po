@@ -1049,7 +1049,7 @@ msgid "TTL"
 msgstr "TTL"
 
 msgid "Preview Features"
-msgstr "Preview Features"
+msgstr "Перегляд"
 
 msgid "Category"
 msgstr "Категорія"
@@ -1088,10 +1088,10 @@ msgid "Are you sure you want to unsuspend %s?"
 msgstr "Ви дійсно хочете активувати %s?"
 
 msgid "No aliases"
-msgstr "No aliases"
+msgstr "Немає псевдонімів"
 
 msgid "Aliases used"
-msgstr "Aliases used"
+msgstr "Використані Аліаси"
 
 msgid "Are you sure you want to suspend %s?"
 msgstr "Ви дійсно хочете призупинити %s?"
@@ -1158,13 +1158,13 @@ msgid "Message"
 msgstr "Повідомлення"
 
 msgid "Information"
-msgstr "Information"
+msgstr "Інформація"
 
 msgid "Warning"
-msgstr "Warning"
+msgstr "Увага"
 
 msgid "Error"
-msgstr "Error"
+msgstr "Помилка"
 
 msgid "%d log record"
 msgid_plural "%d log records"
@@ -1313,7 +1313,7 @@ msgid "Add SSH Key"
 msgstr "Додати SSH ключ"
 
 msgid "SSH Keys"
-msgstr "SSH Keys"
+msgstr "Ключі SSH"
 
 msgid "SSH ID"
 msgstr "SSH ID"
@@ -1371,7 +1371,7 @@ msgid "Fail2ban Banlists"
 msgstr "Списки Fail2ban"
 
 msgid "Firewall Rules"
-msgstr "Firewall Rules"
+msgstr "Правил файрволу"
 
 msgid "Are you sure you want to unsuspend rule #%s?"
 msgstr "Ви дійсно хочете активувати правило #%s?"
@@ -1412,7 +1412,7 @@ msgid "Restore All"
 msgstr "Відновити Усе"
 
 msgid "Backup Details"
-msgstr "Backup Details"
+msgstr "Відомості про бекап"
 
 msgid "Details"
 msgstr "Деталі"
@@ -1467,13 +1467,13 @@ msgid "Public Key"
 msgstr "Відкритий ключ"
 
 msgid "Key Type / Flag"
-msgstr "Key Type / Flag"
+msgstr "Ключовий тег / Флаг"
 
 msgid "Key Tag"
-msgstr "Key Tag"
+msgstr "Тег ключа"
 
 msgid "Flag"
-msgstr "Flag"
+msgstr "Флаг"
 
 msgid "Algorithm"
 msgstr "Алгоритм"
@@ -1522,7 +1522,7 @@ msgid "url, script or file"
 msgstr "url, скрипт чи файл"
 
 msgid "Auth Log"
-msgstr "Auth Log"
+msgstr "Журнал авторизації"
 
 msgid "Browser"
 msgstr "Браузер"
@@ -1568,10 +1568,10 @@ msgid "Yearly"
 msgstr "Щорічний"
 
 msgid "Biennially"
-msgstr "Biennially"
+msgstr "Що 2 роки"
 
 msgid "Triennially"
-msgstr "Triennially"
+msgstr "Що 3 роки"
 
 msgid "Add Package"
 msgstr "Додати пакет"
@@ -1617,7 +1617,7 @@ msgid "Uptime"
 msgstr "Uptime"
 
 msgid "Services"
-msgstr "Services"
+msgstr "Сервіси"
 
 msgid "Service"
 msgstr "Сервіс"
@@ -2054,7 +2054,7 @@ msgid "Preview"
 msgstr "Прев'ю"
 
 msgid "Allow suspended users to create new backups"
-msgstr "Allow suspended users to create new backups"
+msgstr "Дозволити призупиненому користувачам створювати нові бекапи"
 
 msgid "Sync Error document templates on user rebuild"
 msgstr "Синхронізація шаблонів документів помилок при ребілді юзера"
@@ -2124,7 +2124,7 @@ msgid "Ban IP Address"
 msgstr "Заблокувати IP"
 
 msgid "Banned IP Addresses"
-msgstr "Banned IP Addresses"
+msgstr "Заблоковані IP адреси"
 
 msgid "Are you sure you want to delete IP address %s?"
 msgstr "Ви дійсно хочете видалити  IP адресу %s?"
@@ -2143,10 +2143,10 @@ msgid "Owner"
 msgstr "Власник"
 
 msgid "Refresh IP Addresses"
-msgstr "Refresh IP Addresses"
+msgstr "Оновити IP-адреси"
 
 msgid "IP Addresses"
-msgstr "IP Addresses"
+msgstr "IP-адреси"
 
 msgid "%d IP address"
 msgid_plural "%d IP addresses"
@@ -2210,7 +2210,7 @@ msgid "Notifications"
 msgstr "Сповіщення"
 
 msgid "Loading..."
-msgstr "Loading..."
+msgstr "Завантаження..."
 
 msgid "No notifications"
 msgstr "Немає сповіщень"
@@ -2289,8 +2289,8 @@ msgid ""
 "An existing backup task is already running, please wait for it to co"
 "mplete."
 msgstr ""
-"An existing backup task is already running, please wait for it to co"
-"mplete."
+"Поточне завдання зі створення бекапу вже запущене, будь ласка, зачек"
+"айте поки воно буде завершено."
 
 msgid "Error: %s update failed."
 msgstr "Помилка: %s оновлення невдале."
