@@ -1042,7 +1042,7 @@ msgid "TTL"
 msgstr "TTL"
 
 msgid "Preview Features"
-msgstr "Preview Features"
+msgstr "Previsualizar características"
 
 msgid "Category"
 msgstr "Categoría"
@@ -1081,10 +1081,10 @@ msgid "Are you sure you want to unsuspend %s?"
 msgstr "¿Estás seguro de quitar la suspensión a %s?"
 
 msgid "No aliases"
-msgstr "No aliases"
+msgstr "Ningún alias"
 
 msgid "Aliases used"
-msgstr "Aliases used"
+msgstr "Alias usados"
 
 msgid "Are you sure you want to suspend %s?"
 msgstr "¿Estás seguro de suspender a %s?"
@@ -1149,10 +1149,10 @@ msgid "Message"
 msgstr "Mensaje"
 
 msgid "Information"
-msgstr "Information"
+msgstr "Información"
 
 msgid "Warning"
-msgstr "Warning"
+msgstr "Advertencia"
 
 msgid "Error"
 msgstr "Error"
@@ -1302,7 +1302,7 @@ msgid "Add SSH Key"
 msgstr "Añadir clave SSH"
 
 msgid "SSH Keys"
-msgstr "SSH Keys"
+msgstr "Claves SSH"
 
 msgid "SSH ID"
 msgstr "ID de SSH"
@@ -1358,7 +1358,7 @@ msgid "Fail2ban Banlists"
 msgstr "Lista negra de Fail2ban"
 
 msgid "Firewall Rules"
-msgstr "Firewall Rules"
+msgstr "Reglas del Firewall"
 
 msgid "Are you sure you want to unsuspend rule #%s?"
 msgstr "¿Estás seguro de quitar la suspensión a la regla #%s?"
@@ -1395,7 +1395,7 @@ msgid "Restore All"
 msgstr "Restaurar Todos"
 
 msgid "Backup Details"
-msgstr "Backup Details"
+msgstr "Detalles de la Copia de Seguridad"
 
 msgid "Details"
 msgstr "Detalles"
@@ -1448,13 +1448,13 @@ msgid "Public Key"
 msgstr "Clave Pública"
 
 msgid "Key Type / Flag"
-msgstr "Key Type / Flag"
+msgstr "Tipo de Clave / Bandera"
 
 msgid "Key Tag"
-msgstr "Key Tag"
+msgstr "Etiqueta"
 
 msgid "Flag"
-msgstr "Flag"
+msgstr "Bandera"
 
 msgid "Algorithm"
 msgstr "Algoritmo"
@@ -1503,7 +1503,7 @@ msgid "url, script or file"
 msgstr "url, script o fichero"
 
 msgid "Auth Log"
-msgstr "Auth Log"
+msgstr "Registro de Autenticación"
 
 msgid "Browser"
 msgstr "Navegador"
@@ -1547,10 +1547,10 @@ msgid "Yearly"
 msgstr "Anualmente"
 
 msgid "Biennially"
-msgstr "Biennially"
+msgstr "Bianual"
 
 msgid "Triennially"
-msgstr "Triennially"
+msgstr "Trienal"
 
 msgid "Add Package"
 msgstr "Añadir Plan"
@@ -1594,7 +1594,7 @@ msgid "Uptime"
 msgstr "Tiempo Activo"
 
 msgid "Services"
-msgstr "Services"
+msgstr "Servicios"
 
 msgid "Service"
 msgstr "Servicio"
@@ -2037,7 +2037,7 @@ msgid "Preview"
 msgstr "Vista previa"
 
 msgid "Allow suspended users to create new backups"
-msgstr "Allow suspended users to create new backups"
+msgstr "Permitir a usuarios suspendidos crear nuevas copias de seguridad"
 
 msgid "Sync Error document templates on user rebuild"
 msgstr ""
@@ -2107,7 +2107,7 @@ msgid "Ban IP Address"
 msgstr "Banear dirección IP"
 
 msgid "Banned IP Addresses"
-msgstr "Banned IP Addresses"
+msgstr "Direcciones IP baneadas"
 
 msgid "Are you sure you want to delete IP address %s?"
 msgstr "¿Estás seguro de borrar la dirección IP %s?"
@@ -2124,10 +2124,10 @@ msgid "Owner"
 msgstr "Dueño"
 
 msgid "Refresh IP Addresses"
-msgstr "Refresh IP Addresses"
+msgstr "Actualizar direcciones IP"
 
 msgid "IP Addresses"
-msgstr "IP Addresses"
+msgstr "Direcciones IP"
 
 msgid "%d IP address"
 msgid_plural "%d IP addresses"
@@ -2183,7 +2183,7 @@ msgid "Notifications"
 msgstr "Notificaciones"
 
 msgid "Loading..."
-msgstr "Loading..."
+msgstr "Cargando..."
 
 msgid "No notifications"
 msgstr "Sin notificaciones"
