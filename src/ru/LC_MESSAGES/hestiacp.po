@@ -11,8 +11,35 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\\n"
 "X-Generator: Crowdin\\n"
 
-msgid "Error: Hestia did not return any output."
-msgstr "Ошибка: Hestia не вернула никакого ответа"
+msgid "Stop \"%s\" failed"
+msgstr "Остановка службы %s не удалась"
+
+msgid "Error code: %s"
+msgstr "Код ошибки: %s"
+
+msgid "You are logged out, please log in again."
+msgstr "Вы вышли из системы, пожалуйста, войдите снова."
+
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d день"
+msgstr[1] "%d дня"
+msgstr[2] "%d дней"
+msgstr[3] "%d дней"
+
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d час"
+msgstr[1] "%d часа"
+msgstr[2] "%d часов"
+msgstr[3] "%d часов"
+
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d минута"
+msgstr[1] "%d минуты"
+msgstr[2] "%d минут"
+msgstr[3] "%d минут"
 
 msgid ""
 "Hello {{name}},\\n\\nTo reset your {{appname}} password, please follow t"
@@ -57,8 +84,171 @@ msgstr "Неверный логин или код сброса пароля"
 msgid "Passwords do not match"
 msgstr "Пароли не совпадают"
 
-msgid "Stop \"%s\" failed"
-msgstr "Остановка службы %s не удалась"
+msgid "Download of remote backup file has been scheduled."
+msgstr "Загрузка файла удаленной резервной копии запланирована."
+
+msgid "Error: Hestia did not return any output."
+msgstr "Ошибка: Hestia не вернула никакого ответа"
+
+msgid "Changes have been saved."
+msgstr "Изменения были сохранены."
+
+msgid "Password does not match the minimum requirements."
+msgstr "Пароль не соответствует минимальным требованиям."
+
+msgid "Field \"%s\" can not be blank."
+msgstr "Поле \"%s\" не может быть пустым."
+
+msgid "Please enter a valid email address."
+msgstr "Пожалуйста, введите правильный адрес электронной почты."
+
+msgid ""
+"Mail account has been created.\\n\\nCommon Account Settings:\\nUsername: {"
+"{account}}@{{domain}}\\nPassword: {{password}}\\nWebmail: {{webmail}}\\nHo"
+"stname: {{hostname}}\\n\\nIMAP Settings\\nAuthentication: Normal Password\\n"
+"SSL/TLS: Port 993\\nSTARTTLS: Port 143\\nNo encryption: Port 143\\n\\nPOP3 S"
+"ettings\\nAuthentication: Normal Password\\nSSL/TLS: Port 995\\nSTARTTLS: "
+"Port 110\\nNo encryption: Port 110\\n\\nSMTP Settings\\nAuthentication: Norm"
+"al Password\\nSSL/TLS: Port 465\\nSTARTTLS: Port 587\\nNo encryption: Port"
+" 25\\n\\nBest regards,\\n\\n--\\n{{appname}}"
+msgstr ""
+"Учетная запись электронной почты создана.\\n\\nОбщие настройки учетной з"
+"аписи:\\nИмя пользователя: {{account}}@{{domain}}\\nПароль: {{password}}"
+"\\nВеб-почта: {{webmail}}\\nИмя хоста: {{hostname}}\\n\\nНастройки IMAP\\nАуте"
+"нтификация: Обычный пароль\\nSSL/TLS: Порт 993\\nSTARTTLS: Порт 143\\nБез "
+"шифрования: Порт 143\\n\\nНастройки POP3\\nАутентификация: Обычный пароль\\n"
+"SSL/TLS: Порт 995\\nSTARTTLS: Порт 110\\nБез шифрования: Порт 110\\n\\nНастр"
+"ойки SMTP\\nАутентификация: Обычный пароль\\nSSL/TLS: Порт 465\\nSTARTTLS:"
+" Порт 587\\nБез шифрования: Порт 25\\n\\nС уважением,\\n\\n--\\n{{appname}}"
+
+msgid "Email Credentials: %s@%s"
+msgstr "Учетные данные электронной почты: %s@%s"
+
+msgid "Error: unknown record ID."
+msgstr "Ошибка: неизвестный идентификатор записи"
+
+msgid "Username"
+msgstr "Аккаунт"
+
+msgid ""
+"FTP account has been created and ready to use.\\n\\nHostname: {{domain}}"
+"\\nUsername: {{username}}\\nPassword: {{password}}\\n\\nBest regards,\\n\\n--\\n{{"
+"appname}}"
+msgstr ""
+"Учетная запись FTP создана и готова к использованию.\\n\\nИмя хоста: {{d"
+"omain}}\\nИмя пользователя: {{username}}\\nПароль: {{password}}\\n\\nС уваже"
+"нием,\\n\\n--\\n{{appname}}"
+
+msgid "FTP Account Credentials: %s"
+msgstr "Учетные данные FTP-аккаунта: %s"
+
+msgid "Please enter a valid contact name."
+msgstr "Пожалуйста, введите корректное имя контакта"
+
+msgid "Action"
+msgstr "Действие"
+
+msgid "Protocol"
+msgstr "Протокол"
+
+msgid "Port"
+msgstr "Порт"
+
+msgid "IP Address"
+msgstr "IP адрес"
+
+msgid "Package"
+msgstr "Пакет"
+
+msgid "Web Template"
+msgstr "Шаблон Web"
+
+msgid "Backend Template"
+msgstr "Шаблон Backend"
+
+msgid "Proxy Template"
+msgstr "Шаблон Proxy"
+
+msgid "DNS Template"
+msgstr "Шаблон DNS"
+
+msgid "Shell"
+msgstr "Шелл"
+
+msgid "Web Domains"
+msgstr "Веб домены"
+
+msgid "Web Aliases"
+msgstr "Веб алиасы"
+
+msgid "DNS Zones"
+msgstr "Зоны DNS"
+
+msgid "DNS Records"
+msgstr "DNS Записи"
+
+msgid "Mail Domains"
+msgstr "Почтовые домены"
+
+msgid "Mail Accounts"
+msgstr "Почтовые аккаунты"
+
+msgid "Rate Limit"
+msgstr "Ограничение скорости"
+
+msgid "Databases"
+msgstr "Базы данных"
+
+msgid "Cron Jobs"
+msgstr "Cron задания"
+
+msgid "Backups"
+msgstr "Резервные копии"
+
+msgid "Quota"
+msgstr "Квота"
+
+msgid "Bandwidth"
+msgstr "Трафик"
+
+msgid "Nameserver 1"
+msgstr "сервер имён 1"
+
+msgid "Nameserver 2"
+msgstr "сервер имён 2"
+
+msgid "Info (read-only mode): Crontab can only be edited via SSH."
+msgstr ""
+"Информация (режим только для чтения): Crontab можно редактировать то"
+"лько через SSH."
+
+msgid "Inactive session timeout can not lower than 1 minute."
+msgstr "Длительность неактивной сессии не может быть меньше 1 минуты."
+
+msgid "NGINX cache has been purged successfully."
+msgstr "NGINX кэш памяти был успешно очищен."
+
+msgid "Unable to add database! Limit reached!"
+msgstr "Невозможно добавить базу данных! Достигнут лимит!"
+
+msgid "Unable to add database!"
+msgstr "Невозможно добавить базу данных!"
+
+msgid "Restart \"%s\" failed"
+msgstr "Перезапуск \"%s\" не удался"
+
+msgid "The system is going down for reboot NOW!"
+msgstr "Сейчас сервер будет перезагружен!"
+
+msgid "Cron job email reporting has been successfully disabled."
+msgstr ""
+"Рассылка отчётов по электронной почте о заданиях Cron успешно отключ"
+"ена."
+
+msgid "Cron job email reporting has been successfully enabled."
+msgstr ""
+"Рассылка отчётов по электронной почте о заданиях Cron успешно включе"
+"на."
 
 msgid ""
 "Task has been added to the queue. You will receive an email notifica"
@@ -74,147 +264,477 @@ msgstr ""
 "Одна из задач восстановления данных уже запущена. Пожалуйста, подожд"
 "ите, пока эта задача завершится, прежде чем запустить новую."
 
-msgid ""
-"Task has been added to the queue. You will receive an email notifica"
-"tion when your backup is ready for download."
-msgstr ""
-"Задача добавлена ​​в очередь. Вы получите уведомление по электронной"
-" почте, когда ваша резервная копия будет готова для загрузки."
+msgid "Minute"
+msgstr "Минуты"
+
+msgid "Hour"
+msgstr "Часы"
+
+msgid "Day"
+msgstr "День"
+
+msgid "Month"
+msgstr "Месяц"
+
+msgid "Day of Week"
+msgstr "День недели"
+
+msgid "Command"
+msgstr "Команда"
+
+msgid "Cron job has been created successfully."
+msgstr "Cron job успешно создан."
+
+msgid "Database"
+msgstr "База данных"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Type"
+msgstr "Тип"
+
+msgid "Host"
+msgstr "Хост"
+
+msgid "Charset"
+msgstr "Кодировка"
 
 msgid ""
-"An existing backup is already running. Please wait for that backup t"
-"o finish."
+"Database has been created.\\n\\nDatabase: {{database}}\\nUsername: {{usern"
+"ame}}\\nPassword: {{password}}\\nSQL Manager: {{dbadmin}}\\n\\nBest regards,"
+"\\n\\n--\\n{{appname}}"
 msgstr ""
-"Другое резервное копирование находится на стадии исполнения. Пожалуй"
-"ста, дождитесь завершения этого резервного копирования прежде чем ст"
-"артовать новое."
+"База данных создана.\\n\\nБаза данных: {{database}}\\nИмя пользователя: {{"
+"username}}\\nПароль: {{password}}\\nМенеджер SQL: {{dbadmin}}\\n\\nС уважени"
+"ем,\\n\\n--\\n{{appname}}"
 
-msgid "Overall Statistics"
-msgstr "Сводная статистика"
+msgid "Database Credentials: %s"
+msgstr "Учетные данные базы данных: %s"
 
-msgid "Show Per User"
-msgstr "Показать относительно каждого пользователя"
+msgid "Database {%s} has been created successfully. / {Open %s}"
+msgstr "База данных {%s} успешно создана. / {Открыть %s}"
 
-msgid "Apply to selected"
-msgstr "Применить к выбранному"
+msgid "Domain"
+msgstr "Домен"
 
-msgid "Search"
-msgstr "Поиск"
+msgid "Mail domain {%s} has been created successfully."
+msgstr "Почтовый домен {%s} успешно создан."
 
-msgid "Bandwidth"
-msgstr "Трафик"
+msgid "Account"
+msgstr "Аккаунт"
 
-msgid "IP Address"
-msgstr "IP адрес"
+msgid "Mail account {%s@%s} has been created successfully."
+msgstr "Учетная запись электронной почты {%s@%s} успешно создана."
 
-msgid "IPs"
-msgstr "IP адрес(а)"
+msgid "DNS zone {%s} has been created successfully."
+msgstr "Зона DNS {%s} успешно создана."
 
-msgid "Disk"
-msgstr "Диск"
+msgid "Record"
+msgstr "Запись"
 
-msgid "Web"
-msgstr "Веб"
+msgid "IP or Value"
+msgstr "IP адрес или значение"
 
-msgid "Databases"
-msgstr "Базы данных"
+msgid "Record {%s.%s} has been created successfully."
+msgstr "Запись {%s.%s} успешно создана."
 
-msgid "Mail"
-msgstr "Почта"
+msgid "Domain {%s} has been created successfully."
+msgstr "Домен {%s} успешно создан."
 
-msgid "User Directory"
-msgstr "Каталог пользователя"
+msgid "Permissions"
+msgstr "Разрешения"
 
-msgid "Web Domains"
-msgstr "Веб домены"
+msgid "Access key {%s} has been created successfully."
+msgstr "Ключ доступа {%s} успешно создан."
 
-msgid "Mail Domains"
-msgstr "Почтовые домены"
+msgid "Unable to install %s, %s is not available."
+msgstr "Не удалось установить приложение %s. Приложение %s недоступно."
 
-msgid "SSL Domains"
-msgstr "SSL Домены"
+msgid "%s installer missing."
+msgstr "Установщик приложения %s отсутствует."
 
-msgid "Mail Accounts"
-msgstr "Почтовые аккаунты"
+msgid "%s installed successfully."
+msgstr "%s успешно инсталлировано."
 
-msgid "Web Aliases"
-msgstr "Веб алиасы"
+msgid "Netmask"
+msgstr "Маска подсети"
 
-msgid "DNS Zones"
-msgstr "Зоны DNS"
+msgid "Interface"
+msgstr "Интерфейс"
 
-msgid "Cron Jobs"
-msgstr "Cron задания"
+msgid "Assigned User"
+msgstr "Закреплённый пользователь"
 
-msgid "DNS Records"
-msgstr "DNS Записи"
+msgid "IP address {%s} has been created successfully."
+msgstr "IP-адрес {%s} успешно создан."
 
-msgid "Backups"
-msgstr "Резервные копии"
+msgid "Email"
+msgstr "E-mail"
 
-msgid "%d month"
-msgid_plural "%d months"
-msgstr[0] "%d месяц"
-msgstr[1] "%d месяца"
-msgstr[2] "%d месяцев"
-msgstr[3] "%d месяцев"
+msgid "Contact Name"
+msgstr "Контактное лицо"
+
+msgid ""
+"Hello {{name}},\\n\\nYour account has been created and ready to use.\\n\\nht"
+"tps://{{hostname}}/login/\\nUsername: {{user}}\\nPassword: {{password}}\\n"
+"\\nBest regards,\\n\\n--\\n{{appname}}"
+msgstr ""
+"Привет {{name}},\\n\\nВаша учетная запись создана и готова к использован"
+"ию.\\n\\nhttps://{{hostname}}/login/\\nИмя пользователя: {{user}}\\nПароль: "
+"{{password}}\\n\\nС уважением,\\n\\n--\\n{{appname}}"
+
+msgid "Welcome to %s"
+msgstr "Добро пожаловать на %s"
+
+msgid "User {%s} has been created successfully. / {Log in as %s}"
+msgstr "Пользователь {%s} успешно создан. / {Войти как %s}"
+
+msgid "Name"
+msgstr "Имя"
+
+msgid "Data Source"
+msgstr "Источник данных"
+
+msgid "IP Version"
+msgstr "IP-версия"
+
+msgid "Auto Update"
+msgstr "Автоматическое обновление"
+
+msgid "IP list has been created successfully."
+msgstr "Список IP-адресов успешно создан."
+
+msgid "Rule has been created successfully."
+msgstr "Правило успешно создано."
+
+msgid "Banlist"
+msgstr "Черный список"
+
+msgid "IP address has been banned successfully."
+msgstr "IP-адрес успешно заблокирован."
+
+msgid "Package {%s} has been created successfully."
+msgstr "Пакет {%s} успешно создан."
+
+msgid "SSH Key"
+msgstr "SSH-ключ"
+
+msgid "SSH Key already exists."
+msgstr "Ключ SSH уже существует."
+
+msgid "SSH Key has been created successfully."
+msgstr "Ключ SSH успешно создан."
+
+msgid "Country"
+msgstr "Страна"
+
+msgid "State"
+msgstr "Область"
+
+msgid "City"
+msgstr "Город / Населенный пункт"
+
+msgid "Organization"
+msgstr "Организация"
+
+msgid "Certificate has been generated successfully."
+msgstr "Сертификат успешно сгенерирован."
+
+msgid "Shortcuts"
+msgstr "Hotkeys"
+
+msgid "Add new object"
+msgstr "Добавить новый объект"
+
+msgid "Save form"
+msgstr "Сохранить форму"
+
+msgid "Unsave form"
+msgstr "Удалить форму"
+
+msgid "Go to WEB list"
+msgstr "Перейти в WEB"
+
+msgid "Go to DNS list"
+msgstr "Перейти в DNS"
+
+msgid "Go to MAIL list"
+msgstr "Перейти в MAIL"
+
+msgid "Go to DB list"
+msgstr "Перейти в DB"
+
+msgid "Go to CRON list"
+msgstr "Перейти в CRON"
+
+msgid "Go to BACKUP list"
+msgstr "Перейти в BACKUP"
+
+msgid "Focus on search"
+msgstr "Фокус на форме поиска"
+
+msgid "Display / Hide shortcuts"
+msgstr "Показать / Скрыть шорткаты"
+
+msgid "Move backward through top menu"
+msgstr "Фокус на предыдущий пункт меню"
+
+msgid "Move forward through top menu"
+msgstr "Фокус на следующий пункт меню"
+
+msgid "Enter focused element"
+msgstr "Перейти в активный пункт меню"
+
+msgid "Move up through elements list"
+msgstr "Фокус на предыдущий элемент списка"
+
+msgid "Move down through elements list"
+msgstr "Фокус на следующий элемент списка"
+
+msgid "Top"
+msgstr "Вверх"
 
 msgid "Back"
 msgstr "Назад"
 
-msgid "Save"
-msgstr "Сохранить"
+msgid "Add IP list"
+msgstr "Добавить список IP"
 
-msgid "White Label Options"
-msgstr "Настройки \"Белой Этикетки\""
+msgid "Apply to selected"
+msgstr "Применить к выбранному"
 
-msgid "General"
-msgstr "Общий"
+msgid "Delete"
+msgstr "Удалить"
 
-msgid "Application Name"
-msgstr "Имя приложения"
+msgid "IPset IP Lists"
+msgstr "IP-адреса IPset"
 
-msgid "Title"
-msgstr "Заголовок"
+msgid "Select all"
+msgstr "Выбрать всё"
 
-msgid "Supported variables"
-msgstr "Поддерживаемые переменные"
+msgid "IP List Name"
+msgstr "Имя списка IP-адресов"
 
-msgid "Sender Name"
-msgstr "Имя отправителя"
+msgid "Date"
+msgstr "Дата"
 
-msgid "Default"
-msgstr "По умолчанию"
+msgid "Time"
+msgstr "Время"
 
-msgid "Sender Email Address"
-msgstr "Адрес электронной почты отправителя"
+msgid "Select"
+msgstr "Выбрать"
 
-msgid "Email Subject"
-msgstr "Тема электронного письма"
+msgid "Are you sure you want to delete IP list %s?"
+msgstr "Вы уверены, что хотите удалить список IP-адресов %s?"
 
-msgid "Hide link to Documentation"
-msgstr "Скрыть ссылку на документацию"
+msgid "Disabled"
+msgstr "Отключить"
 
-msgid "Yes"
-msgstr "Да"
+msgid "Enabled"
+msgstr "Включено"
+
+msgid "There are currently no IP lists defined."
+msgstr "В настоящее время списки IP-адресов не заданы."
+
+msgid "%d IP list"
+msgid_plural "%d IP lists"
+msgstr[0] "%d список IP-адресов"
+msgstr[1] "%d списка IP-адресов"
+msgstr[2] "%d списков IP-адресов"
+msgstr[3] "%d списков IP-адресов"
+
+msgid "Disable Automatic Updates"
+msgstr "Выключить автоматические обновления"
+
+msgid "Enable Automatic Updates"
+msgstr "Включить автоматические обновления"
+
+msgid "Updates"
+msgstr "Обновления"
+
+msgid "Package Names"
+msgstr "Имена пакетов"
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "Version"
+msgstr "Версия"
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "Add Mail Domain"
+msgstr "Добавить домен"
+
+msgid "Sort items"
+msgstr "Сортировать элементы"
+
+msgid "Sort by"
+msgstr "Сортировать по"
+
+msgid "Accounts"
+msgstr "Аккаунты"
+
+msgid "Disk"
+msgstr "Диск"
+
+msgid "Rebuild All"
+msgstr "Пересоздать все"
+
+msgid "Suspend"
+msgstr "Заблокировать"
+
+msgid "Unsuspend"
+msgstr "Разблокировать"
+
+msgid "Search"
+msgstr "Поиск"
+
+msgid "Anti-Virus"
+msgstr "Антивирус"
+
+msgid "Spam Filter"
+msgstr "Спам-фильтр"
+
+msgid "DKIM"
+msgstr "DKIM"
+
+msgid "SSL"
+msgstr "SSL"
+
+msgid "Are you sure you want to unsuspend domain %s?"
+msgstr "Вы уверены, что хотите восстановить действие домена %s?"
+
+msgid "Are you sure you want to suspend domain %s?"
+msgstr "Вы уверены, что хотите приостановить действие домена %s?"
+
+msgid "Open Webmail"
+msgstr "Открыть веб-почту"
+
+msgid "Add Mail Account"
+msgstr "Добавить аккаунт"
+
+msgid "Edit Mail Domain"
+msgstr "Изменить почтовый домен"
+
+msgid "Are you sure you want to delete domain %s?"
+msgstr "Вы уверены, что хотите удалить домен %s?"
+
+msgid "%d mail domain"
+msgid_plural "%d mail domains"
+msgstr[0] "%d почтовый домен"
+msgstr[1] "%d почтовых домена"
+msgstr[2] "%d почтовых доменов"
+msgstr[3] "%d почтовых доменов"
+
+msgid "Create Backup"
+msgstr "Создать Бэкап"
+
+msgid "Backup Exclusions"
+msgstr "Исключения резервного копирования"
+
+msgid "File Name"
+msgstr "Имя файла"
+
+msgid "Size"
+msgstr "Размер"
+
+msgid "Runtime"
+msgstr "Время выполенения"
 
 msgid "No"
 msgstr "Нет"
 
-msgid "Custom Logo"
-msgstr "Пользовательский логотип"
+msgid "Yes"
+msgstr "Да"
 
-msgid "Custom logo"
-msgstr "Пользовательский логотип"
+msgid "Restore"
+msgstr "Восстановить"
 
-msgid "Upload the files to %s"
-msgstr "Загрузить файлы на %s"
+msgid "Download"
+msgstr "Скачать"
 
-msgid "Update logo"
-msgstr "Обновить логотип"
+msgid "Are you sure you want to delete backup %s?"
+msgstr "Вы уверены, что хотите удалить резервную копию данных %s?"
 
-msgid "Add Mail Domain"
-msgstr "Добавить домен"
+msgid "%d backup"
+msgid_plural "%d backups"
+msgstr[0] "%d резервная копия"
+msgstr[1] "%d резервные копии"
+msgstr[2] "%d резервных копий"
+msgstr[3] "%d резервных копий"
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "Webmail Client"
+msgstr "Webmail клиент"
+
+msgid "Catch-All Email"
+msgstr "Универсальная электронная почта (Catch-All)"
+
+msgid "email / hour / account"
+msgstr "почта / час / учётная запись"
+
+msgid "Reject Spam"
+msgstr "Отклонить спам"
+
+msgid "DKIM Support"
+msgstr "DKIM"
+
+msgid "Enable SSL for this domain"
+msgstr "Включить SSL для этого домена"
+
+msgid "Use Let's Encrypt to obtain SSL certificate"
+msgstr "Использовать Let’s Encrypt для получения SSL-сертификата"
+
+msgid ""
+"To enable Let's Encrypt SSL, ensure that DNS records exist for mail."
+"%s and %s!"
+msgstr ""
+"Чтобы включить Let's Encrypt SSL, убедитесь, что записи DNS существу"
+"ют для mail.%s и %s!"
+
+msgid "SSL Certificate"
+msgstr "SSL сертификат"
+
+msgid "Generate Self-Signed SSL Certificate"
+msgstr "Создать самозаверяющий SSL-сертификат"
+
+msgid "SSL Private Key"
+msgstr "Закрытый ключ SSL"
+
+msgid "SSL Certificate Authority / Intermediate"
+msgstr "Центр сертификации SSL / Промежуточный"
+
+msgid "Optional"
+msgstr "Опционально"
+
+msgid "Issued To"
+msgstr "Адресован к"
+
+msgid "Alternate"
+msgstr "Альтернативный"
+
+msgid "Not Before"
+msgstr "действителен от"
+
+msgid "Not After"
+msgstr "действителен до"
+
+msgid "Signature"
+msgstr "Сигнатура"
+
+msgid "Key Size"
+msgstr "Размер ключа"
+
+msgid "Issued By"
+msgstr "Адресован от"
+
+msgid "SMTP Relay"
+msgstr "SMTP переадресовщик"
 
 msgid ""
 "It is strongly advised to {create a standard user account} before ad"
@@ -235,189 +755,38 @@ msgstr "Добавить пользователя"
 msgid "Continue"
 msgstr "Продолжить"
 
-msgid "Domain"
-msgstr "Домен"
+msgid "Add IP Address"
+msgstr "Добавить IP-адрес"
 
-msgid "Webmail Client"
-msgstr "Webmail клиент"
+msgid "Shared"
+msgstr "Общий"
 
-msgid "Disabled"
-msgstr "Отключить"
+msgid "Assigned Domain"
+msgstr "Закреплённый домен"
 
-msgid "Spam Filter"
-msgstr "Спам-фильтр"
+msgid "NAT IP Association"
+msgstr "Ассоциация NAT IP"
 
-msgid "Reject Spam"
-msgstr "Отклонить спам"
+msgid "Close debug panel"
+msgstr "Закрыть панель отладки"
 
-msgid "Anti-Virus"
-msgstr "Антивирус"
+msgid "Open debug panel"
+msgstr "Открыть панель отладки"
 
-msgid "DKIM Support"
-msgstr "DKIM"
+msgid "Add Web Domain"
+msgstr "Добавить домен"
 
-msgid "SMTP Relay"
-msgstr "SMTP переадресовщик"
+msgid "a web domain"
+msgstr "веб-домен"
 
-msgid "Host"
-msgstr "Хост"
+msgid "DNS Support"
+msgstr "Поддержка DNS"
 
-msgid "Port"
-msgstr "Порт"
+msgid "Mail Support"
+msgstr "Поддержка почты"
 
-msgid "Username"
-msgstr "Аккаунт"
-
-msgid "Password"
-msgstr "Пароль"
-
-msgid "Edit Database"
-msgstr "Редактировать базу данных"
-
-msgid "Database"
-msgstr "База данных"
-
-msgid "Maximum %s characters length, including prefix"
-msgstr "Максимальная длина символов: %s, включая префикс"
-
-msgid "Generate"
-msgstr "Сгенерировать"
-
-msgid "Your password must have at least"
-msgstr "Ваш пароль должен содержать как минимум"
-
-msgid "8 characters long"
-msgstr "8 символов"
-
-msgid "1 uppercase & 1 lowercase character"
-msgstr "1 заглавная и 1 строчная буква"
-
-msgid "1 number"
-msgstr "1 цифра"
-
-msgid "Type"
-msgstr "Тип"
-
-msgid "Charset"
-msgstr "Кодировка"
-
-msgid "Generate Self-Signed SSL Certificate"
-msgstr "Создать самозаверяющий SSL-сертификат"
-
-msgid "SSL Certificate"
-msgstr "SSL сертификат"
-
-msgid "SSL Private Key"
-msgstr "Закрытый ключ SSL"
-
-msgid "SSL CSR"
-msgstr "SSL CSR запрос"
-
-msgid "Packages"
-msgstr "Пакеты"
-
-msgid "Sort items"
-msgstr "Сортировать элементы"
-
-msgid "Sort by"
-msgstr "Сортировать по"
-
-msgid "Name"
-msgstr "Имя"
-
-msgid "Date"
-msgstr "Дата"
-
-msgid "Rebuild All"
-msgstr "Пересоздать все"
-
-msgid "Rebuild User Profile"
-msgstr "Восстановить профиль пользователя"
-
-msgid "Rebuild Web Domains"
-msgstr "Пересоздать веб-домены"
-
-msgid "Rebuild DNS Zones"
-msgstr "Обновить зоны DNS"
-
-msgid "Rebuild Mail Domains"
-msgstr "Пересоздать почтовые домены"
-
-msgid "Rebuild Databases"
-msgstr "Пересоздать базы данных"
-
-msgid "Rebuild Cron Jobs"
-msgstr "Пересоздать задания Cron"
-
-msgid "Update Usage Counters"
-msgstr "Обновление счетчиков использования"
-
-msgid "Suspend"
-msgstr "Заблокировать"
-
-msgid "Unsuspend"
-msgstr "Разблокировать"
-
-msgid "Delete"
-msgstr "Удалить"
-
-msgid "Select all"
-msgstr "Выбрать всё"
-
-msgid "Package"
-msgstr "Пакет"
-
-msgid "Are you sure you want to unsuspend user %s?"
-msgstr "Вы уверены, что хотите разблокировать пользователя %s?"
-
-msgid "Are you sure you want to suspend user %s?"
-msgstr "Вы уверены, что хотите приостановить действие пользователя %s?"
-
-msgid "Select"
-msgstr "Выбрать"
-
-msgid "Edit User"
-msgstr "Изменить пользователя"
-
-msgid "Log in as"
-msgstr "Войти как"
-
-msgid "Email"
-msgstr "E-mail"
-
-msgid "Are you sure you want to delete user %s?"
-msgstr "Вы уверены, что хотите удалить пользователя %s?"
-
-msgid "Edit Package"
-msgstr "Редактировать пакет"
-
-msgid "%d user account"
-msgid_plural "%d user accounts"
-msgstr[0] "%d учётная запись пользователя"
-msgstr[1] "%d учётные записи пользователя"
-msgstr[2] "%d учётных записей пользователя"
-msgstr[3] "%d учётных записей пользователя"
-
-msgid "Add Cron Job"
-msgstr "Добавить задание"
-
-msgid "Command"
-msgstr "Команда"
-
-msgid "Minute"
-msgstr "Минуты"
-
-msgid "Hour"
-msgstr "Часы"
-
-msgid "Day"
-msgstr "День"
-
-msgid "Month"
-msgstr "Месяц"
-
-msgid "Day of Week"
-msgstr "День недели"
+msgid "Edit Cron Job"
+msgstr "Изменить задание Cron"
 
 msgid "Minutes"
 msgstr "Минуты"
@@ -442,6 +811,9 @@ msgstr "Каждую минуту"
 
 msgid "Every %s minutes"
 msgstr "Каждые %s минут"
+
+msgid "Generate"
+msgstr "Сгенерировать"
 
 msgid "Every hour"
 msgstr "Каждый час"
@@ -536,318 +908,8 @@ msgstr "Ноя"
 msgid "Dec"
 msgstr "Дек"
 
-msgid "Country"
-msgstr "Страна"
-
-msgid "Block Malicious IPs"
-msgstr "Блокировать вредоносные IP-адреса"
-
-msgid "Add IPset IP List for Firewall"
-msgstr "Добавить список IP-адресов IPset для файрвол"
-
-msgid "IP List Name"
-msgstr "Имя списка IP-адресов"
-
-msgid "Data Source"
-msgstr "Источник данных"
-
-msgid "url, script or file"
-msgstr "url, файл или скрипт"
-
-msgid "Clear"
-msgstr "Очистить"
-
-msgid "IP Version"
-msgstr "IP-версия"
-
-msgid "Auto Update"
-msgstr "Автоматическое обновление"
-
-msgid "Advanced Details"
-msgstr "Дополнительные сведения"
-
-msgid "Yearly"
-msgstr "Год"
-
-msgid "Ban IP Address"
-msgstr "Заблокировать IP"
-
-msgid "Time"
-msgstr "Время"
-
-msgid "Comment"
-msgstr "Коментарий"
-
-msgid "Are you sure you want to delete IP address %s?"
-msgstr "Вы уверены, что хотите удалить IP-адрес %s?"
-
-msgid "There are currently no banned IP addresses."
-msgstr "Сейчас нет заблокированных IP-адресов."
-
-msgid "%d banned IP address"
-msgid_plural "%d banned IP addresses"
-msgstr[0] "%d заблокированный IP-адрес"
-msgstr[1] "%d заблокированных IP-адреса"
-msgstr[2] "%d заблокированных IP-адресов"
-msgstr[3] "%d заблокированных IP-адресов"
-
-msgid "Add Database"
-msgstr "Добавить БД"
-
-msgid "Suspend All"
-msgstr "Заблокировать все"
-
-msgid "Unsuspend All"
-msgstr "Разблокировать все"
-
-msgid "Hostname"
-msgstr "Имя Хоста"
-
-msgid "Are you sure you want to unsuspend database %s?"
-msgstr "Вы уверены, что хотите восстановить действие базы данных %s?"
-
-msgid "Are you sure you want to suspend database %s?"
-msgstr "Вы уверены, что хотите приостановить базу данных %s?"
-
-msgid "Download Database"
-msgstr "Скачать базу данных"
-
-msgid "Are you sure you want to delete database %s?"
-msgstr "Вы уверены, что хотите удалить базу данных %s?"
-
-msgid "%d database"
-msgid_plural "%d databases"
-msgstr[0] "%d база данных"
-msgstr[1] "%d базы данных"
-msgstr[2] "%d баз данных"
-msgstr[3] "%d баз данных"
-
-msgid "Configure Server"
-msgstr "Настроить сервер"
-
-msgid "Restart"
-msgstr "Перезапуск"
-
-msgid "Add Rule"
-msgstr "Добавить правило"
-
-msgid "Fail2ban Banlists"
-msgstr "Банлисты Fail2ban"
-
-msgid "IPset IP Lists"
-msgstr "IP-адреса IPset"
-
-msgid "Action"
-msgstr "Действие"
-
-msgid "Protocol"
-msgstr "Протокол"
-
-msgid "Are you sure you want to unsuspend rule #%s?"
-msgstr "Вы уверены, что хотите восстановить действие правила #%s?"
-
-msgid "Are you sure you want to suspend rule #%s?"
-msgstr "Вы уверены, что хотите приостановить действие правила #%s?"
-
-msgid "Edit Firewall Rule"
-msgstr "Изменить правило файрвол"
-
-msgid "Are you sure you want to delete rule %s"
-msgstr "Вы уверены, что хотите удалить правило %s?"
-
-msgid "%d firewall rule"
-msgid_plural "%d firewall rules"
-msgstr[0] "%d правило файрвол"
-msgstr[1] "%d правила файрвол"
-msgstr[2] "%d правил файрвол"
-msgstr[3] "%d правил файрвол"
-
-msgid "Restore All"
-msgstr "Восстановить все"
-
-msgid "Restore"
-msgstr "Восстановить"
-
-msgid "Details"
-msgstr "Подробнее"
-
-msgid "Web Domain"
-msgstr "Веб-домен"
-
-msgid "Mail Domain"
-msgstr "Почтовый домен"
-
-msgid "DNS Zone"
-msgstr "Зона DNS"
-
-msgid "Jobs"
-msgstr "Задачи"
-
-msgid "%d item"
-msgid_plural "%d items"
-msgstr[0] "%d элемент"
-msgstr[1] "%d элемента"
-msgstr[2] "%d элементов"
-msgstr[3] "%d элементов"
-
-msgid "Configure"
-msgstr "Настроить"
-
-msgid "Advanced Options"
-msgstr "Расширенные настройки"
-
-msgid "Basic Options"
-msgstr "Основные настройки"
-
-msgid "Edit DNS Domain"
-msgstr "Изменить DNS-домен"
-
-msgid "Template"
-msgstr "Шаблон"
-
-msgid "Enable DNSSEC"
-msgstr "Включить DNSSEC"
-
-msgid "Expiration Date"
-msgstr "Зарегистрирован до"
-
-msgid "YYYY-MM-DD"
-msgstr "ГГГГ-ММ-ДД"
-
-msgid "SOA"
-msgstr "SOA"
-
-msgid "TTL"
-msgstr "TTL"
-
-msgid "Add DNS Record"
-msgstr "Добавить DNS запись"
-
-msgid "Record"
-msgstr "Запись"
-
-msgid "IP or Value"
-msgstr "IP адрес или значение"
-
-msgid "Priority"
-msgstr "Приоритет"
-
-msgid "Optional"
-msgstr "Опционально"
-
-msgid "Add IP Address"
-msgstr "Добавить IP-адрес"
-
-msgid "Netmask"
-msgstr "Маска подсети"
-
-msgid "Interface"
-msgstr "Интерфейс"
-
-msgid "Shared"
-msgstr "Общий"
-
-msgid "Assigned User"
-msgstr "Закреплённый пользователь"
-
-msgid "Assigned Domain"
-msgstr "Закреплённый домен"
-
-msgid "NAT IP Association"
-msgstr "Ассоциация NAT IP"
-
-msgid "Edit Backup Exclusions"
-msgstr "Изменить исключения для резервного копирования"
-
-msgid ""
-"Type domain name, one per line. To exclude all domains use *. To exc"
-"lude specific dirs use following format: domain.tld:public_html/cach"
-"e:public_html/tmp"
-msgstr ""
-"Введите название доменов (по одному в строке). Чтобы исключить все д"
-"омены, используйте *. Чтобы исключить определенные каталоги, использ"
-"уйте следующий формат: domain.tld:public_html/cache:public_html/tmp."
-
-msgid ""
-"Type domain name, one per line. To exclude all domains use *. To exc"
-"lude specific accounts use following format: domain.tld:info:support"
-":postmaster"
-msgstr ""
-"Введите доменное имя (по одному в строке). Чтобы исключить все домен"
-"ы, используйте *. Чтобы исключить определенные учетные записи, испол"
-"ьзуйте следующий формат: domain.tld:info:support:postmaster."
-
-msgid ""
-"Type full database name, one per line. To exclude all databases use "
-"*"
-msgstr ""
-"Введите полное имя базы данных (по одному в строке). Чтобы исключить"
-" все базы данных, используйте *"
-
-msgid "Type directory name, one per line. To exlude all dirs use *"
-msgstr ""
-"Введите имя каталога (по одному в строке). Чтобы исключить все катал"
-"оги, используйте *"
-
-msgid "Category"
-msgstr "Категория"
-
-msgid "Status"
-msgstr "Статус"
-
-msgid "System"
-msgstr "Система"
-
-msgid "Policy"
-msgstr "Политика"
-
-msgid "Allow suspended users to log in with read-only access"
-msgstr ""
-"Разрешить заблокированным пользователям входить в режиме \"только чте"
-"ние\""
-
-msgid "Partially implemented"
-msgstr "Частично реализовано"
-
-msgid "Add Mail Account"
-msgstr "Добавить аккаунт"
-
-msgid "Edit Mail Domain"
-msgstr "Изменить почтовый домен"
-
-msgid "Quota"
-msgstr "Квота"
-
-msgid "Aliases"
-msgstr "Алиасы"
-
-msgid "Forwarding"
-msgstr "Пересылка"
-
-msgid "Auto Reply"
-msgstr "Автоответчик"
-
-msgid "Are you sure you want to unsuspend %s?"
-msgstr "Вы уверены, что хотите разблокировать %s?"
-
-msgid "Are you sure you want to suspend %s?"
-msgstr "Вы уверены, что хотите приостановить действие %s?"
-
-msgid "Edit Mail Account"
-msgstr "Изменить учетную запись почты"
-
-msgid "Open Webmail"
-msgstr "Открыть веб-почту"
-
-msgid "Are you sure you want to delete %s?"
-msgstr "Вы уверены, что хотите удалить %s?"
-
-msgid "%d mail account"
-msgid_plural "%d mail accounts"
-msgstr[0] "%d учётная запись электронной почты"
-msgstr[1] "%d учётные записи электронной почты"
-msgstr[2] "%d учётных записей электронной почты"
-msgstr[3] "%d учётных записей электронной почты"
+msgid "Add Firewall Rule"
+msgstr "Добавить правило файрвол"
 
 msgid "DROP"
 msgstr "ВЫБРОСИТЬ"
@@ -867,75 +929,312 @@ msgstr "IP-адрес / список IP-адресов IPset"
 msgid "Support CIDR format"
 msgstr "Поддержка формата CIDR"
 
+msgid "Clear"
+msgstr "Очистить"
+
+msgid "Comment"
+msgstr "Коментарий"
+
+msgid "Packages"
+msgstr "Пакеты"
+
+msgid "Rebuild User Profile"
+msgstr "Восстановить профиль пользователя"
+
+msgid "Rebuild Web Domains"
+msgstr "Пересоздать веб-домены"
+
+msgid "Rebuild DNS Zones"
+msgstr "Обновить зоны DNS"
+
+msgid "Rebuild Mail Domains"
+msgstr "Пересоздать почтовые домены"
+
+msgid "Rebuild Databases"
+msgstr "Пересоздать базы данных"
+
+msgid "Rebuild Cron Jobs"
+msgstr "Пересоздать задания Cron"
+
+msgid "Update Usage Counters"
+msgstr "Обновление счетчиков использования"
+
+msgid "Users"
+msgstr "Пользователи"
+
+msgid "IPs"
+msgstr "IP адрес(а)"
+
+msgid "Are you sure you want to unsuspend user %s?"
+msgstr "Вы уверены, что хотите разблокировать пользователя %s?"
+
+msgid "Are you sure you want to suspend user %s?"
+msgstr "Вы уверены, что хотите приостановить действие пользователя %s?"
+
+msgid "Edit User"
+msgstr "Изменить пользователя"
+
+msgid "Log in as"
+msgstr "Войти как"
+
+msgid "Are you sure you want to delete user %s?"
+msgstr "Вы уверены, что хотите удалить пользователя %s?"
+
+msgid "Edit Package"
+msgstr "Редактировать пакет"
+
+msgid "%d user account"
+msgid_plural "%d user accounts"
+msgstr[0] "%d учётная запись пользователя"
+msgstr[1] "%d учётные записи пользователя"
+msgstr[2] "%d учётных записей пользователя"
+msgstr[3] "%d учётных записей пользователя"
+
+msgid "Configure Server"
+msgstr "Настроить сервер"
+
+msgid "Restart"
+msgstr "Перезапуск"
+
+msgid "Edit Firewall Rule"
+msgstr "Изменить правило файрвол"
+
+msgid "Edit Backup Exclusions"
+msgstr "Изменить исключения для резервного копирования"
+
+msgid "Value"
+msgstr "Значение"
+
+msgid "No exclusions"
+msgstr "Без исключений"
+
+msgid "White Label Options"
+msgstr "Настройки \"Белой Этикетки\""
+
+msgid "General"
+msgstr "Общий"
+
+msgid "Application Name"
+msgstr "Имя приложения"
+
+msgid "Title"
+msgstr "Заголовок"
+
+msgid "Supported variables"
+msgstr "Поддерживаемые переменные"
+
+msgid "Sender Name"
+msgstr "Имя отправителя"
+
+msgid "Default"
+msgstr "По умолчанию"
+
+msgid "Sender Email Address"
+msgstr "Адрес электронной почты отправителя"
+
+msgid "Email Subject"
+msgstr "Тема электронного письма"
+
+msgid "Hide link to Documentation"
+msgstr "Скрыть ссылку на документацию"
+
+msgid "Custom Logo"
+msgstr "Пользовательский логотип"
+
+msgid "Custom logo"
+msgstr "Пользовательский логотип"
+
+msgid "Upload the files to %s"
+msgstr "Загрузить файлы на %s"
+
+msgid "Update logo"
+msgstr "Обновить логотип"
+
+msgid "Priority"
+msgstr "Приоритет"
+
+msgid "TTL"
+msgstr "TTL"
+
+msgid "Preview Features"
+msgstr "Preview Features"
+
+msgid "Category"
+msgstr "Категория"
+
+msgid "System"
+msgstr "Система"
+
+msgid "Policy"
+msgstr "Политика"
+
+msgid "Allow suspended users to log in with read-only access"
+msgstr ""
+"Разрешить заблокированным пользователям входить в режиме \"только чте"
+"ние\""
+
+msgid "Partially implemented"
+msgstr "Частично реализовано"
+
 msgid "Quick Install App"
 msgstr "Установить приложение"
-
-msgid "Version"
-msgstr "Версия"
 
 msgid "Setup"
 msgstr "Настроить"
 
-msgid "Add Firewall Rule"
-msgstr "Добавить правило файрвол"
+msgid "Edit IP Address"
+msgstr "Изменить IP-адрес"
 
-msgid "Add DNS Domain"
-msgstr "Добавить домен"
+msgid "Aliases"
+msgstr "Алиасы"
 
-msgid "Expire"
-msgstr "Истекает"
+msgid "Forwarding"
+msgstr "Пересылка"
 
-msgid "Records"
-msgstr "Записи"
+msgid "Auto Reply"
+msgstr "Автоответчик"
 
-msgid "Rebuild"
-msgstr "Пересоздать"
+msgid "Are you sure you want to unsuspend %s?"
+msgstr "Вы уверены, что хотите разблокировать %s?"
 
-msgid "DNSKEY Record"
-msgstr "Запись DNSKEY"
+msgid "No aliases"
+msgstr "No aliases"
 
-msgid "DS Record"
-msgstr "DS-запись"
+msgid "Aliases used"
+msgstr "Aliases used"
 
-msgid "Public Key"
-msgstr "Открытый ключ"
+msgid "Are you sure you want to suspend %s?"
+msgstr "Вы уверены, что хотите приостановить действие %s?"
 
-msgid "Key Tag / Flag"
-msgstr "Метка / Флаг"
+msgid "Edit Mail Account"
+msgstr "Изменить учетную запись почты"
 
-msgid "Algorithm"
-msgstr "Алгоритм"
+msgid "Are you sure you want to delete %s?"
+msgstr "Вы уверены, что хотите удалить %s?"
 
-msgid "Disable Notifications"
-msgstr "Отключить уведомления"
+msgid "%d mail account"
+msgid_plural "%d mail accounts"
+msgstr[0] "%d учётная запись электронной почты"
+msgstr[1] "%d учётные записи электронной почты"
+msgstr[2] "%d учётных записей электронной почты"
+msgstr[3] "%d учётных записей электронной почты"
 
-msgid "Enable Notifications"
-msgstr "Включить уведомления"
+msgid "Hestia Control Panel"
+msgstr "Панель управления Hestia"
 
-msgid "Are you sure you want to unsuspend this cron job?"
-msgstr "Вы уверены, что хотите восстановить действие данного правила?"
+msgid "Close menu"
+msgstr "Свернуть меню"
 
-msgid "Are you sure you want to suspend this cron job?"
-msgstr "Вы уверены, что хотите заморозить действие данного правила?"
+msgid "Open menu"
+msgstr "Развернуть меню"
 
-msgid "Edit Cron Job"
-msgstr "Изменить задание Cron"
+msgid "CPU"
+msgstr "Процессор"
 
-msgid "Edit"
-msgstr "Изменить"
+msgid "RAM"
+msgstr "ОЗУ"
 
-msgid "Are you sure you want to delete this cron job?"
-msgstr "Вы уверены, что хотите удалить данное правило?"
+msgid "Network"
+msgstr "Сеть"
 
-msgid "%d cron job"
-msgid_plural "%d cron jobs"
-msgstr[0] "%d задача cron"
-msgstr[1] "%d задачи cron"
-msgstr[2] "%d задач cron"
-msgstr[3] "%d задач cron"
+msgid "Web"
+msgstr "Веб"
 
-msgid "Add Package"
-msgstr "Добавить пакет"
+msgid "DNS"
+msgstr "DNS"
+
+msgid "Mail"
+msgstr "Почта"
+
+msgid "DB"
+msgstr "БД"
+
+msgid "Refresh"
+msgstr "Обновить"
+
+msgid "Log out"
+msgstr "Выйти"
+
+msgid "Login History"
+msgstr "История входов по учётной записи"
+
+msgid "Are you sure you want to delete the logs?"
+msgstr "Вы уверены, что хотите удалить журналы?"
+
+msgid "Logs"
+msgstr "Логи"
+
+msgid "Message"
+msgstr "Сообщение"
+
+msgid "Information"
+msgstr "Information"
+
+msgid "Warning"
+msgstr "Warning"
+
+msgid "Error"
+msgstr "Error"
+
+msgid "%d log record"
+msgid_plural "%d log records"
+msgstr[0] "%d запись журнала"
+msgstr[1] "%d записи журнала"
+msgstr[2] "%d записей журнала"
+msgstr[3] "%d записей журнала"
+
+msgid "Install %s"
+msgstr "Инсталляция %s"
+
+msgid "Data Loss Warning!"
+msgstr "Предупреждение о потере данных!"
+
+msgid ""
+"Your web folder already has files uploaded to it. The installer will"
+" overwrite your files and/or the installation might fail."
+msgstr ""
+"В Вашей веб-папке уже находятся загруженные файлы. Программа установ"
+"ки перезапишет эти файлы. Установка приложения может завершиться оши"
+"бкой."
+
+msgid "Please make sure ~/web/%s/public_html is empty!"
+msgstr "Убедитесь, что ~/web/%s/public_html пуста!"
+
+msgid "Your password must have at least"
+msgstr "Ваш пароль должен содержать как минимум"
+
+msgid "8 characters long"
+msgstr "8 символов"
+
+msgid "1 uppercase & 1 lowercase character"
+msgstr "1 заглавная и 1 строчная буква"
+
+msgid "1 number"
+msgstr "1 цифра"
+
+msgid "Do not allow user to log in to Control Panel"
+msgstr "Запретить пользователю вход в Панель"
+
+msgid "Send welcome email"
+msgstr "Отправить приветственное письмо"
+
+msgid "Language"
+msgstr "Язык"
+
+msgid "Role"
+msgstr "Роль"
+
+msgid "User"
+msgstr "Пользователь"
+
+msgid "Administrator"
+msgstr "Администратор"
+
+msgid "DNS Sync User"
+msgstr "Пользователь синхронизации DNS"
+
+msgid "Email login credentials to:"
+msgstr "Отправить учетные данные для входа на адрес электронной почты:"
 
 msgid "Package Name"
 msgstr "Имя пакета"
@@ -952,21 +1251,6 @@ msgstr "ВЕБ"
 msgid "per domain"
 msgstr "на домен"
 
-msgid "Web Template"
-msgstr "Шаблон Web"
-
-msgid "Backend Template"
-msgstr "Шаблон Backend"
-
-msgid "Proxy Template"
-msgstr "Шаблон Proxy"
-
-msgid "DNS"
-msgstr "DNS"
-
-msgid "DNS Template"
-msgstr "Шаблон DNS"
-
 msgid "Name Servers"
 msgstr "Серверы имен"
 
@@ -976,99 +1260,90 @@ msgstr "Добавить сервер имён"
 msgid "MAIL"
 msgstr "ПОЧТА"
 
-msgid "Rate Limit"
-msgstr "Ограничение скорости"
-
 msgid "per account / hour"
 msgstr "аккаунт / час"
-
-msgid "DB"
-msgstr "БД"
 
 msgid "SSH Access"
 msgstr "Доступ по SSH"
 
-msgid "Value"
-msgstr "Значение"
+msgid "Use local-part without domain name"
+msgstr "Использовать локальную часть без имени домена"
 
-msgid "No exclusions"
-msgstr "Без исключений"
+msgid "Discard all mail"
+msgstr "Отбрасывать всю почту"
 
-msgid "ISO 3166-1 alpha-2 two-letter code"
-msgstr "Двухбуквенный код ISO 3166-1 alpha-2"
+msgid "Do not store forwarded mail"
+msgstr "Не сохранять перенаправленные письма"
 
-msgid "State / Province"
-msgstr "Область"
+msgid "Forward to"
+msgstr "Пересылка"
 
-msgid "City / Locality"
-msgstr "Город / Населенный пункт"
+msgid "one or more email addresses"
+msgstr "один или несколько email-адресов"
 
-msgid "Organization"
-msgstr "Организация"
+msgid "email / hour"
+msgstr "почта / час"
 
-msgid "Add Access Key"
-msgstr "Добавить ключ доступа"
+msgid "Common Account Settings"
+msgstr "Общие настройки учетной записи"
 
-msgid "Permissions"
-msgstr "Разрешения"
+msgid "Webmail"
+msgstr "Веб-почта"
 
-msgid "Catch-All Email"
-msgstr "Универсальная электронная почта (Catch-All)"
+msgid "Hostname"
+msgstr "Имя Хоста"
 
-msgid "email / hour / account"
-msgstr "почта / час / учётная запись"
+msgid "IMAP Settings"
+msgstr "Настройки IMAP"
 
-msgid "Enable SSL for this domain"
-msgstr "Включить SSL для этого домена"
+msgid "Authentication"
+msgstr "Аутентификация"
 
-msgid "Use Let's Encrypt to obtain SSL certificate"
-msgstr "Использовать Let’s Encrypt для получения SSL-сертификата"
+msgid "Normal password"
+msgstr "Обычный пароль"
 
-msgid ""
-"To enable Let's Encrypt SSL, ensure that DNS records exist for mail."
-"%s and %s!"
-msgstr ""
-"Чтобы включить Let's Encrypt SSL, убедитесь, что записи DNS существу"
-"ют для mail.%s и %s!"
+msgid "No encryption"
+msgstr "Без шифрования"
 
-msgid "SSL Certificate Authority / Intermediate"
-msgstr "Центр сертификации SSL / Промежуточный"
+msgid "POP3 Settings"
+msgstr "Настройки POP3"
 
-msgid "Issued To"
-msgstr "Адресован к"
+msgid "SMTP Settings"
+msgstr "Настройки SMTP"
 
-msgid "Alternate"
-msgstr "Альтернативный"
+msgid "Configure"
+msgstr "Настроить"
 
-msgid "Not Before"
-msgstr "действителен от"
+msgid "Advanced Options"
+msgstr "Расширенные настройки"
 
-msgid "Not After"
-msgstr "действителен до"
+msgid "Basic Options"
+msgstr "Основные настройки"
 
-msgid "Signature"
-msgstr "Сигнатура"
+msgid "Add SSH Key"
+msgstr "Добавить SSH ключ"
 
-msgid "Key Size"
-msgstr "Размер ключа"
+msgid "SSH Keys"
+msgstr "SSH Keys"
 
-msgid "Issued By"
-msgstr "Адресован от"
+msgid "SSH ID"
+msgstr "SSH-идентификатор"
+
+msgid "Are you sure you want to delete SSH key %s?"
+msgstr "Вы уверены, что хотите удалить SSH-ключ %s?"
+
+msgid "%d SSH key"
+msgid_plural "%d SSH keys"
+msgstr[0] "%d SSH-ключ"
+msgstr[1] "%d SSH-ключа"
+msgstr[2] "%d SSH-ключей"
+msgstr[3] "%d SSH-ключей"
 
 msgid "Manage SSH Keys"
 msgstr "Управление ключами SSH"
 
-msgid "Logs"
-msgstr "Логи"
-
 msgid "Access Keys"
 msgstr "Ключи доступа"
-
-msgid "Contact Name"
-msgstr "Контактное лицо"
-
-msgid "Do not allow user to log in to Control Panel"
-msgstr "Запретить пользователю вход в Панель"
 
 msgid "Enable two-factor authentication"
 msgstr "Включить двухфакторную аутентификацию"
@@ -1090,21 +1365,6 @@ msgstr "Использовать список IP, разрешенных для 
 msgid "For example"
 msgstr "Например"
 
-msgid "Language"
-msgstr "Язык"
-
-msgid "Role"
-msgstr "Роль"
-
-msgid "User"
-msgstr "Пользователь"
-
-msgid "Administrator"
-msgstr "Администратор"
-
-msgid "DNS Sync User"
-msgstr "Пользователь синхронизации DNS"
-
 msgid "Theme"
 msgstr "Тема оформления"
 
@@ -1117,63 +1377,83 @@ msgstr "Версия PHP для CLI"
 msgid "Default Name Servers"
 msgstr "Серверы имен"
 
-msgid "Add Web Domain"
-msgstr "Добавить домен"
+msgid "Add Rule"
+msgstr "Добавить правило"
 
-msgid "a web domain"
-msgstr "веб-домен"
+msgid "Fail2ban Banlists"
+msgstr "Банлисты Fail2ban"
 
-msgid "DNS Support"
-msgstr "Поддержка DNS"
+msgid "Firewall Rules"
+msgstr "Firewall Rules"
 
-msgid "Mail Support"
-msgstr "Поддержка почты"
+msgid "Are you sure you want to unsuspend rule #%s?"
+msgstr "Вы уверены, что хотите восстановить действие правила #%s?"
 
-msgid "Access Key"
-msgstr "Ключ доступа"
+msgid "Are you sure you want to suspend rule #%s?"
+msgstr "Вы уверены, что хотите приостановить действие правила #%s?"
 
-msgid "Access Key ID"
-msgstr "Идентификатор ключа доступа"
+msgid "Are you sure you want to delete rule %s"
+msgstr "Вы уверены, что хотите удалить правило %s?"
 
-msgid "Secret Key"
-msgstr "Секретный ключ"
+msgid "%d firewall rule"
+msgid_plural "%d firewall rules"
+msgstr[0] "%d правило файрвол"
+msgstr[1] "%d правила файрвол"
+msgstr[2] "%d правил файрвол"
+msgstr[3] "%d правил файрвол"
 
-msgid "Warning! Last chance to save secret key!"
-msgstr "Предупреждение! Последний шанс сохранить секретный ключ!"
+msgid "Add Record"
+msgstr "Добавить запись"
 
-msgid "Edit IP Address"
-msgstr "Изменить IP-адрес"
+msgid "Edit DNS Domain"
+msgstr "Изменить DNS-домен"
 
-msgid "Login History"
-msgstr "История входов по учётной записи"
+msgid "Edit DNS Record"
+msgstr "Изменить DNS-запись"
 
-msgid "Refresh"
-msgstr "Обновить"
+msgid "Are you sure you want to delete record %s?"
+msgstr "Вы уверены, что хотите удалить запись %s?"
 
-msgid "Are you sure you want to delete the logs?"
-msgstr "Вы уверены, что хотите удалить журналы?"
+msgid "%d DNS record"
+msgid_plural "%d DNS records"
+msgstr[0] "%d DNS запись"
+msgstr[1] "%d DNS записи"
+msgstr[2] "%d DNS записей"
+msgstr[3] "%d DNS записей"
 
-msgid "Message"
-msgstr "Сообщение"
+msgid "Restore All"
+msgstr "Восстановить все"
 
-msgid "%d log record"
-msgid_plural "%d log records"
-msgstr[0] "%d запись журнала"
-msgstr[1] "%d записи журнала"
-msgstr[2] "%d записей журнала"
-msgstr[3] "%d записей журнала"
+msgid "Backup Details"
+msgstr "Backup Details"
 
-msgid "Close debug panel"
-msgstr "Закрыть панель отладки"
+msgid "Details"
+msgstr "Подробнее"
 
-msgid "Open debug panel"
-msgstr "Открыть панель отладки"
+msgid "Web Domain"
+msgstr "Веб-домен"
+
+msgid "Mail Domain"
+msgstr "Почтовый домен"
+
+msgid "DNS Zone"
+msgstr "Зона DNS"
+
+msgid "Jobs"
+msgstr "Задачи"
+
+msgid "User Directory"
+msgstr "Каталог пользователя"
+
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d элемент"
+msgstr[1] "%d элемента"
+msgstr[2] "%d элементов"
+msgstr[3] "%d элементов"
 
 msgid "Add IP Address to Banlist"
 msgstr "Добавить IP-адрес в банлист"
-
-msgid "Banlist"
-msgstr "Черный список"
 
 msgid "SSH"
 msgstr "SSH"
@@ -1184,141 +1464,128 @@ msgstr "FTP"
 msgid "HESTIA"
 msgstr "HESTIA"
 
-msgid "Domains"
-msgstr "Домены"
-
-msgid "Owner"
-msgstr "Владелец"
-
-msgid "Verify IP Address"
-msgstr "Проверить IP-адрес"
-
-msgid "%d IP address"
-msgid_plural "%d IP addresses"
-msgstr[0] "%d IP адрес"
-msgstr[1] "%d IP адреса"
-msgstr[2] "%d IP адресов"
-msgstr[3] "%d IP адресов"
-
-msgid "Create Backup"
-msgstr "Создать Бэкап"
-
-msgid "Backup Exclusions"
-msgstr "Исключения резервного копирования"
-
-msgid "File Name"
-msgstr "Имя файла"
-
-msgid "Size"
-msgstr "Размер"
-
-msgid "Runtime"
-msgstr "Время выполенения"
-
-msgid "Download"
-msgstr "Скачать"
-
-msgid "Are you sure you want to delete backup %s?"
-msgstr "Вы уверены, что хотите удалить резервную копию данных %s?"
-
-msgid "%d backup"
-msgid_plural "%d backups"
-msgstr[0] "%d резервная копия"
-msgstr[1] "%d резервные копии"
-msgstr[2] "%d резервных копий"
-msgstr[3] "%d резервных копий"
-
-msgid "Account Unlocked"
-msgstr "Учётная запись разблокирована"
-
-msgid ""
-"Two-factor authentication is now turned off for your account.<br><br"
-">You may now proceed to log in."
-msgstr ""
-"Двухфакторная аутентификация отключена для вашей учетной записи.<br>"
-"<br>Теперь вы можете войти в систему."
-
-msgid "Log in"
-msgstr "Войти"
-
-msgid "Unlock Account"
-msgstr "Разблокировать аккаунт"
-
-msgid "2FA Reset Code"
-msgstr "Код сброса ДФА"
-
-msgid "Submit"
-msgstr "Отправить"
-
-msgid "Welcome to %s"
-msgstr "Добро пожаловать на %s"
-
-msgid "Next"
-msgstr "Далее"
-
-msgid "Forgot Password"
-msgstr "Забыли пароль"
-
-msgid "New Password"
-msgstr "Новый пароль"
-
-msgid "Confirm Password"
-msgstr "Подтверждение пароля"
-
-msgid "Reset"
-msgstr "Сбросить"
-
-msgid "Two-factor Authentication"
-msgstr "Двухфакторная аутентификация"
-
-msgid "2FA Token"
-msgstr "ДФА токен"
-
-msgid "Forgot Token"
-msgstr "Забыл токен"
-
-msgid "Login"
-msgstr "Войти"
-
-msgid "Password reset code has been sent to your email address"
-msgstr "Код сброса пароля был отправлен на Ваш адрес электронной почты"
-
-msgid "Reset Code"
-msgstr "Код восстановления"
-
-msgid "Confirm"
-msgstr "Подтвердить"
-
-msgid "Welcome"
-msgstr "Добро пожаловать"
-
-msgid "DNSSEC"
-msgstr "DNSSEC"
-
-msgid "Are you sure you want to unsuspend domain %s?"
-msgstr "Вы уверены, что хотите восстановить действие домена %s?"
-
-msgid "Are you sure you want to suspend domain %s?"
-msgstr "Вы уверены, что хотите приостановить действие домена %s?"
-
-msgid "Enabled"
-msgstr "Включено"
+msgid "Add DNS Domain"
+msgstr "Добавить домен"
 
 msgid "View Public DNSSEC Key"
 msgstr "Просмотр общедоступного ключа DNSSEC"
 
-msgid "Are you sure you want to delete domain %s?"
-msgstr "Вы уверены, что хотите удалить домен %s?"
+msgid "DNSKEY Record"
+msgstr "Запись DNSKEY"
 
-msgid "%d DNS zone"
-msgid_plural "%d DNS zones"
-msgstr[0] "%d DNS зона"
-msgstr[1] "%d DNS зоны"
-msgstr[2] "%d DNS зон"
-msgstr[3] "%d DNS зон"
+msgid "DS Record"
+msgstr "DS-запись"
 
-msgid "Shell"
-msgstr "Шелл"
+msgid "Public Key"
+msgstr "Открытый ключ"
+
+msgid "Key Type / Flag"
+msgstr "Key Type / Flag"
+
+msgid "Key Tag"
+msgstr "Key Tag"
+
+msgid "Flag"
+msgstr "Flag"
+
+msgid "Algorithm"
+msgstr "Алгоритм"
+
+msgid "Add DNS Zone"
+msgstr "Добавить зону DNS"
+
+msgid "a dns domain"
+msgstr "DNS-домен"
+
+msgid "Template"
+msgstr "Шаблон"
+
+msgid "Enable DNSSEC"
+msgstr "Включить DNSSEC"
+
+msgid "Expiration Date"
+msgstr "Зарегистрирован до"
+
+msgid "YYYY-MM-DD"
+msgstr "ГГГГ-ММ-ДД"
+
+msgid "Add Database"
+msgstr "Добавить БД"
+
+msgid "a database"
+msgstr "база данных"
+
+msgid ""
+"Prefix %s will be automatically added to database name and database "
+"user"
+msgstr "Префикс %s будет автоматически добавлен к БД и пользователю БД"
+
+msgid "Maximum %s characters length, including prefix"
+msgstr "Максимальная длина символов: %s, включая префикс"
+
+msgid "Block Malicious IPs"
+msgstr "Блокировать вредоносные IP-адреса"
+
+msgid "Add IPset IP List for Firewall"
+msgstr "Добавить список IP-адресов IPset для файрвол"
+
+msgid "url, script or file"
+msgstr "url, файл или скрипт"
+
+msgid "Auth Log"
+msgstr "Auth Log"
+
+msgid "Browser"
+msgstr "Браузер"
+
+msgid "Success"
+msgstr "Успешно"
+
+msgid "Failed"
+msgstr "Не удалось"
+
+msgid "Suspend All"
+msgstr "Заблокировать все"
+
+msgid "Unsuspend All"
+msgstr "Разблокировать все"
+
+msgid "Are you sure you want to unsuspend database %s?"
+msgstr "Вы уверены, что хотите восстановить действие базы данных %s?"
+
+msgid "Are you sure you want to suspend database %s?"
+msgstr "Вы уверены, что хотите приостановить базу данных %s?"
+
+msgid "Edit Database"
+msgstr "Редактировать базу данных"
+
+msgid "Download Database"
+msgstr "Скачать базу данных"
+
+msgid "Are you sure you want to delete database %s?"
+msgstr "Вы уверены, что хотите удалить базу данных %s?"
+
+msgid "%d database"
+msgid_plural "%d databases"
+msgstr[0] "%d база данных"
+msgstr[1] "%d базы данных"
+msgstr[2] "%d баз данных"
+msgstr[3] "%d баз данных"
+
+msgid "Advanced Details"
+msgstr "Дополнительные сведения"
+
+msgid "Yearly"
+msgstr "Год"
+
+msgid "Biennially"
+msgstr "Biennially"
+
+msgid "Triennially"
+msgstr "Triennially"
+
+msgid "Add Package"
+msgstr "Добавить пакет"
 
 msgid "Duplicate"
 msgstr "Дубликат"
@@ -1333,141 +1600,8 @@ msgstr[1] "%d пакета"
 msgstr[2] "%d пакетов"
 msgstr[3] "%d пакетов"
 
-msgid "Add IP list"
-msgstr "Добавить список IP"
-
-msgid "Are you sure you want to delete IP list %s?"
-msgstr "Вы уверены, что хотите удалить список IP-адресов %s?"
-
-msgid "There are currently no IP lists defined."
-msgstr "В настоящее время списки IP-адресов не заданы."
-
-msgid "%d IP list"
-msgid_plural "%d IP lists"
-msgstr[0] "%d список IP-адресов"
-msgstr[1] "%d списка IP-адресов"
-msgstr[2] "%d списков IP-адресов"
-msgstr[3] "%d списков IP-адресов"
-
-msgid "Account"
-msgstr "Аккаунт"
-
-msgid "Use local-part without domain name"
-msgstr "Использовать локальную часть без имени домена"
-
-msgid "Forward to"
-msgstr "Пересылка"
-
-msgid "One or more email addresses"
-msgstr "Один или несколько адресов электронной почты"
-
-msgid "Discard all mail"
-msgstr "Отбрасывать всю почту"
-
-msgid "Do not store forwarded mail"
-msgstr "Не сохранять перенаправленные письма"
-
-msgid "email / hour"
-msgstr "почта / час"
-
-msgid "Email login credentials to:"
-msgstr "Отправить учетные данные для входа на адрес электронной почты:"
-
-msgid "Common Account Settings"
-msgstr "Общие настройки учетной записи"
-
-msgid "Webmail"
-msgstr "Веб-почта"
-
-msgid "IMAP Settings"
-msgstr "Настройки IMAP"
-
-msgid "Authentication"
-msgstr "Аутентификация"
-
-msgid "Normal password"
-msgstr "Обычный пароль"
-
-msgid "No encryption"
-msgstr "Без шифрования"
-
-msgid "POP3 Settings"
-msgstr "Настройки POP3"
-
-msgid "SMTP Settings"
-msgstr "Настройки SMTP"
-
-msgid "Install %s"
-msgstr "Инсталляция %s"
-
-msgid "Data Loss Warning!"
-msgstr "Предупреждение о потере данных!"
-
-msgid ""
-"Your web folder already has files uploaded to it. The installer will"
-" overwrite your files and/or the installation might fail."
-msgstr ""
-"В Вашей веб-папке уже находятся загруженные файлы. Программа установ"
-"ки перезапишет эти файлы. Установка приложения может завершиться оши"
-"бкой."
-
-msgid "Please make sure ~/web/%s/public_html is empty!"
-msgstr "Убедитесь, что ~/web/%s/public_html пуста!"
-
-msgid "Add SSH Key"
-msgstr "Добавить SSH ключ"
-
-msgid "SSH ID"
-msgstr "SSH-идентификатор"
-
-msgid "SSH Key"
-msgstr "SSH-ключ"
-
-msgid "Are you sure you want to delete SSH key %s?"
-msgstr "Вы уверены, что хотите удалить SSH-ключ %s?"
-
-msgid "%d SSH key"
-msgid_plural "%d SSH keys"
-msgstr[0] "%d SSH-ключ"
-msgstr[1] "%d SSH-ключа"
-msgstr[2] "%d SSH-ключей"
-msgstr[3] "%d SSH-ключей"
-
-msgid "Hestia Control Panel"
-msgstr "Панель управления Hestia"
-
-msgid "Close menu"
-msgstr "Свернуть меню"
-
-msgid "Open menu"
-msgstr "Развернуть меню"
-
-msgid "CPU"
-msgstr "Процессор"
-
-msgid "RAM"
-msgstr "ОЗУ"
-
-msgid "Network"
-msgstr "Сеть"
-
-msgid "Log out"
-msgstr "Выйти"
-
-msgid "Top"
-msgstr "Вверх"
-
-msgid "Add DNS Zone"
-msgstr "Добавить зону DNS"
-
-msgid "a dns domain"
-msgstr "DNS-домен"
-
 msgid "Task Monitor"
 msgstr "Монитор задач"
-
-msgid "Updates"
-msgstr "Обновления"
 
 msgid "Firewall"
 msgstr "Файрвол"
@@ -1493,14 +1627,17 @@ msgstr "Общая нагрузка"
 msgid "Uptime"
 msgstr "Запущен"
 
+msgid "Services"
+msgstr "Services"
+
 msgid "Service"
 msgstr "Службы"
 
-msgid "Description"
-msgstr "Описание"
-
 msgid "Memory"
 msgstr "Память"
+
+msgid "Edit"
+msgstr "Изменить"
 
 msgid "Are you sure you want to stop service %s?"
 msgstr "Вы уверены, что хотите остановить службу %s?"
@@ -1510,6 +1647,49 @@ msgstr "Вы уверены, что хотите запустить службу
 
 msgid "MB"
 msgstr "МБ"
+
+msgid "Add Cron Job"
+msgstr "Добавить задание"
+
+msgid "Disable Notifications"
+msgstr "Отключить уведомления"
+
+msgid "Enable Notifications"
+msgstr "Включить уведомления"
+
+msgid "Are you sure you want to unsuspend this cron job?"
+msgstr "Вы уверены, что хотите восстановить действие данного правила?"
+
+msgid "Are you sure you want to suspend this cron job?"
+msgstr "Вы уверены, что хотите заморозить действие данного правила?"
+
+msgid "Are you sure you want to delete this cron job?"
+msgstr "Вы уверены, что хотите удалить данное правило?"
+
+msgid "%d cron job"
+msgid_plural "%d cron jobs"
+msgstr[0] "%d задача cron"
+msgstr[1] "%d задачи cron"
+msgstr[2] "%d задач cron"
+msgstr[3] "%d задач cron"
+
+msgid "SSL CSR"
+msgstr "SSL CSR запрос"
+
+msgid "SOA"
+msgstr "SOA"
+
+msgid "Access Key"
+msgstr "Ключ доступа"
+
+msgid "Access Key ID"
+msgstr "Идентификатор ключа доступа"
+
+msgid "Secret Key"
+msgstr "Секретный ключ"
+
+msgid "Warning! Last chance to save secret key!"
+msgstr "Предупреждение! Последний шанс сохранить секретный ключ!"
 
 msgid "Purge NGINX Cache"
 msgstr "Очистить кэш памяти NGINX"
@@ -1593,41 +1773,11 @@ msgstr "Отправить данные FTP аккаунта на почту"
 msgid "Add FTP account"
 msgstr "Добавить учетную запись FTP"
 
-msgid "Are you sure you want to delete access key %s?"
-msgstr "Вы уверены, что хотите удалить ключ доступа %s?"
+msgid "Add DNS Record"
+msgstr "Добавить DNS запись"
 
-msgid "%d access key"
-msgid_plural "%d access keys"
-msgstr[0] "%d ключ доступа"
-msgstr[1] "%d ключа доступа"
-msgstr[2] "%d ключей доступа"
-msgstr[3] "%d ключей доступа"
-
-msgid "Send welcome email"
-msgstr "Отправить приветственное письмо"
-
-msgid "a database"
-msgstr "база данных"
-
-msgid ""
-"Prefix %s will be automatically added to database name and database "
-"user"
-msgstr "Префикс %s будет автоматически добавлен к БД и пользователю БД"
-
-msgid "Edit DNS Record"
-msgstr "Изменить DNS-запись"
-
-msgid "Browser"
-msgstr "Браузер"
-
-msgid "Success"
-msgstr "Успешно"
-
-msgid "Failed"
-msgstr "Не удалось"
-
-msgid "SSL"
-msgstr "SSL"
+msgid "Rebuild"
+msgstr "Пересоздать"
 
 msgid "Statistics"
 msgstr "Статистика"
@@ -1647,6 +1797,82 @@ msgstr[0] "%d веб-домен"
 msgstr[1] "%d веб-домена"
 msgstr[2] "%d веб-доменов"
 msgstr[3] "%d веб-доменов"
+
+msgid "Add Access Key"
+msgstr "Добавить ключ доступа"
+
+msgid "One or more email addresses"
+msgstr "Один или несколько адресов электронной почты"
+
+msgid "Two-factor Authentication"
+msgstr "Двухфакторная аутентификация"
+
+msgid "2FA Token"
+msgstr "ДФА токен"
+
+msgid "Forgot Token"
+msgstr "Забыл токен"
+
+msgid "Login"
+msgstr "Войти"
+
+msgid "Forgot Password"
+msgstr "Забыли пароль"
+
+msgid "Password reset code has been sent to your email address"
+msgstr "Код сброса пароля был отправлен на Ваш адрес электронной почты"
+
+msgid "Reset Code"
+msgstr "Код восстановления"
+
+msgid "Confirm"
+msgstr "Подтвердить"
+
+msgid "Next"
+msgstr "Далее"
+
+msgid "Account Unlocked"
+msgstr "Учётная запись разблокирована"
+
+msgid ""
+"Two-factor authentication is now turned off for your account.<br><br"
+">You may now proceed to log in."
+msgstr ""
+"Двухфакторная аутентификация отключена для вашей учетной записи.<br>"
+"<br>Теперь вы можете войти в систему."
+
+msgid "Log in"
+msgstr "Войти"
+
+msgid "Unlock Account"
+msgstr "Разблокировать аккаунт"
+
+msgid "2FA Reset Code"
+msgstr "Код сброса ДФА"
+
+msgid "Submit"
+msgstr "Отправить"
+
+msgid "Welcome"
+msgstr "Добро пожаловать"
+
+msgid "New Password"
+msgstr "Новый пароль"
+
+msgid "Confirm Password"
+msgstr "Подтверждение пароля"
+
+msgid "Reset"
+msgstr "Сбросить"
+
+msgid "ISO 3166-1 alpha-2 two-letter code"
+msgstr "Двухбуквенный код ISO 3166-1 alpha-2"
+
+msgid "State / Province"
+msgstr "Область"
+
+msgid "City / Locality"
+msgstr "Город / Населенный пункт"
 
 msgid "White Label"
 msgstr "Белая этикетка"
@@ -1822,12 +2048,6 @@ msgstr "Запретить администраторам доступ к Нас
 msgid "Policies"
 msgstr "Политики"
 
-msgid "Users"
-msgstr "Пользователи"
-
-msgid "Preview"
-msgstr "Предварительный просмотр"
-
 msgid "Allow users to edit their account details"
 msgstr "Разрешить пользователям изменять их аккаунт"
 
@@ -1837,6 +2057,18 @@ msgstr "Разрешить пользователям изменять шабл�
 msgid "Allow users to change templates when editing DNS zones"
 msgstr "Разрешить пользователям изменять шаблоны при правке DNS зон"
 
+msgid "Allow users to view action and login history logs"
+msgstr "Разрешить пользователям просматривать журналы входов и операций"
+
+msgid "Allow users to delete log history"
+msgstr "Разрешить пользователям удалять историю логов"
+
+msgid "Preview"
+msgstr "Предварительный просмотр"
+
+msgid "Allow suspended users to create new backups"
+msgstr "Allow suspended users to create new backups"
+
 msgid "Sync Error document templates on user rebuild"
 msgstr ""
 "Синхронизировать шаблоны документов ошибок при пересборке пользовате"
@@ -1845,11 +2077,8 @@ msgstr ""
 msgid "Sync Skeleton templates"
 msgstr "Синхронизировать шаблоны скелета"
 
-msgid "Allow users to view action and login history logs"
-msgstr "Разрешить пользователям просматривать журналы входов и операций"
-
-msgid "Allow users to delete log history"
-msgstr "Разрешить пользователям удалять историю логов"
+msgid "Domains"
+msgstr "Домены"
 
 msgid "Enforce subdomain ownership"
 msgstr "Владеть включая поддомены"
@@ -1866,49 +2095,96 @@ msgstr "Файловый менеджер"
 msgid "File System Disk Quota"
 msgstr "Квота размера памяти файловой системы"
 
-msgid "one or more email addresses"
-msgstr "один или несколько email-адресов"
+msgid ""
+"Type domain name, one per line. To exclude all domains use *. To exc"
+"lude specific dirs use following format: domain.tld:public_html/cach"
+"e:public_html/tmp"
+msgstr ""
+"Введите название доменов (по одному в строке). Чтобы исключить все д"
+"омены, используйте *. Чтобы исключить определенные каталоги, использ"
+"уйте следующий формат: domain.tld:public_html/cache:public_html/tmp."
 
-msgid "Error Log"
-msgstr "Журнал ошибок"
+msgid ""
+"Type domain name, one per line. To exclude all domains use *. To exc"
+"lude specific accounts use following format: domain.tld:info:support"
+":postmaster"
+msgstr ""
+"Введите доменное имя (по одному в строке). Чтобы исключить все домен"
+"ы, используйте *. Чтобы исключить определенные учетные записи, испол"
+"ьзуйте следующий формат: domain.tld:info:support:postmaster."
 
-msgid "Last 70 lines of %s.%s.log"
-msgstr "Последние 70 строк файла %s.%s.log"
+msgid ""
+"Type full database name, one per line. To exclude all databases use "
+"*"
+msgstr ""
+"Введите полное имя базы данных (по одному в строке). Чтобы исключить"
+" все базы данных, используйте *"
 
-msgid "Accounts"
-msgstr "Аккаунты"
+msgid "Type directory name, one per line. To exlude all dirs use *"
+msgstr ""
+"Введите имя каталога (по одному в строке). Чтобы исключить все катал"
+"оги, используйте *"
 
-msgid "DKIM"
-msgstr "DKIM"
+msgid "Are you sure you want to delete access key %s?"
+msgstr "Вы уверены, что хотите удалить ключ доступа %s?"
 
-msgid "%d mail domain"
-msgid_plural "%d mail domains"
-msgstr[0] "%d почтовый домен"
-msgstr[1] "%d почтовых домена"
-msgstr[2] "%d почтовых доменов"
-msgstr[3] "%d почтовых доменов"
+msgid "%d access key"
+msgid_plural "%d access keys"
+msgstr[0] "%d ключ доступа"
+msgstr[1] "%d ключа доступа"
+msgstr[2] "%d ключей доступа"
+msgstr[3] "%d ключей доступа"
 
-msgid "Add Record"
-msgstr "Добавить запись"
+msgid "Ban IP Address"
+msgstr "Заблокировать IP"
 
-msgid "Are you sure you want to delete record %s?"
-msgstr "Вы уверены, что хотите удалить запись %s?"
+msgid "Banned IP Addresses"
+msgstr "Banned IP Addresses"
 
-msgid "%d DNS record"
-msgid_plural "%d DNS records"
-msgstr[0] "%d DNS запись"
-msgstr[1] "%d DNS записи"
-msgstr[2] "%d DNS записей"
-msgstr[3] "%d DNS записей"
+msgid "Are you sure you want to delete IP address %s?"
+msgstr "Вы уверены, что хотите удалить IP-адрес %s?"
 
-msgid "Disable Automatic Updates"
-msgstr "Выключить автоматические обновления"
+msgid "There are currently no banned IP addresses."
+msgstr "Сейчас нет заблокированных IP-адресов."
 
-msgid "Enable Automatic Updates"
-msgstr "Включить автоматические обновления"
+msgid "%d banned IP address"
+msgid_plural "%d banned IP addresses"
+msgstr[0] "%d заблокированный IP-адрес"
+msgstr[1] "%d заблокированных IP-адреса"
+msgstr[2] "%d заблокированных IP-адресов"
+msgstr[3] "%d заблокированных IP-адресов"
 
-msgid "Package Names"
-msgstr "Имена пакетов"
+msgid "Owner"
+msgstr "Владелец"
+
+msgid "Refresh IP Addresses"
+msgstr "Refresh IP Addresses"
+
+msgid "IP Addresses"
+msgstr "IP Addresses"
+
+msgid "%d IP address"
+msgid_plural "%d IP addresses"
+msgstr[0] "%d IP адрес"
+msgstr[1] "%d IP адреса"
+msgstr[2] "%d IP адресов"
+msgstr[3] "%d IP адресов"
+
+msgid "Overall Statistics"
+msgstr "Сводная статистика"
+
+msgid "Show Per User"
+msgstr "Показать относительно каждого пользователя"
+
+msgid "SSL Domains"
+msgstr "SSL Домены"
+
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d месяц"
+msgstr[1] "%d месяца"
+msgstr[2] "%d месяцев"
+msgstr[3] "%d месяцев"
 
 msgid "Search Results"
 msgstr "Результаты поиска"
@@ -1920,71 +2196,27 @@ msgstr[1] "%d объекта"
 msgstr[2] "%d объектов"
 msgstr[3] "%d объектов"
 
-msgid "Shortcuts"
-msgstr "Hotkeys"
+msgid "Expire"
+msgstr "Истекает"
 
-msgid "Add new object"
-msgstr "Добавить новый объект"
+msgid "Records"
+msgstr "Записи"
 
-msgid "Save form"
-msgstr "Сохранить форму"
+msgid "DNSSEC"
+msgstr "DNSSEC"
 
-msgid "Unsave form"
-msgstr "Удалить форму"
+msgid "%d DNS zone"
+msgid_plural "%d DNS zones"
+msgstr[0] "%d DNS зона"
+msgstr[1] "%d DNS зоны"
+msgstr[2] "%d DNS зон"
+msgstr[3] "%d DNS зон"
 
-msgid "Go to WEB list"
-msgstr "Перейти в WEB"
+msgid "Error Log"
+msgstr "Журнал ошибок"
 
-msgid "Go to DNS list"
-msgstr "Перейти в DNS"
-
-msgid "Go to MAIL list"
-msgstr "Перейти в MAIL"
-
-msgid "Go to DB list"
-msgstr "Перейти в DB"
-
-msgid "Go to CRON list"
-msgstr "Перейти в CRON"
-
-msgid "Go to BACKUP list"
-msgstr "Перейти в BACKUP"
-
-msgid "Focus on search"
-msgstr "Фокус на форме поиска"
-
-msgid "Display / Hide shortcuts"
-msgstr "Показать / Скрыть шорткаты"
-
-msgid "Move backward through top menu"
-msgstr "Фокус на предыдущий пункт меню"
-
-msgid "Move forward through top menu"
-msgstr "Фокус на следующий пункт меню"
-
-msgid "Enter focused element"
-msgstr "Перейти в активный пункт меню"
-
-msgid "Move up through elements list"
-msgstr "Фокус на предыдущий элемент списка"
-
-msgid "Move down through elements list"
-msgstr "Фокус на следующий элемент списка"
-
-msgid "No notifications"
-msgstr "Нет уведомлений"
-
-msgid "Delete all notifications"
-msgstr "Удалить все уведомления"
-
-msgid "Are you sure you want to leave the page?"
-msgstr "Вы уверены, что хотите покинуть эту страницу?"
-
-msgid "BLACKLIST"
-msgstr "Чёрный список"
-
-msgid "IPVERSE"
-msgstr "IPVERSE"
+msgid "Last 70 lines of %s.%s.log"
+msgstr "Последние 70 строк файла %s.%s.log"
 
 msgid "Logged in as"
 msgstr "Вошел как"
@@ -1992,8 +2224,17 @@ msgstr "Вошел как"
 msgid "Notifications"
 msgstr "Уведомления"
 
+msgid "Loading..."
+msgstr "Loading..."
+
+msgid "No notifications"
+msgstr "Нет уведомлений"
+
 msgid "Delete notification"
 msgstr "Удалить уведомление"
+
+msgid "Delete all notifications"
+msgstr "Удалить все уведомления"
 
 msgid "File manager"
 msgstr "Менеджер файлов"
@@ -2028,105 +2269,14 @@ msgstr "CRON"
 msgid "BACKUP"
 msgstr "РЕЗЕРВНОЕ КОПИРОВАНИЕ"
 
-msgid "Error: %s update failed."
-msgstr "Ошибка: обновление %s не удалось."
+msgid "Are you sure you want to leave the page?"
+msgstr "Вы уверены, что хотите покинуть эту страницу?"
 
-msgid "NGINX cache has been purged successfully."
-msgstr "NGINX кэш памяти был успешно очищен."
+msgid "BLACKLIST"
+msgstr "Чёрный список"
 
-msgid "The system is going down for reboot NOW!"
-msgstr "Сейчас сервер будет перезагружен!"
-
-msgid "Cron job email reporting has been successfully disabled."
-msgstr ""
-"Рассылка отчётов по электронной почте о заданиях Cron успешно отключ"
-"ена."
-
-msgid "Cron job email reporting has been successfully enabled."
-msgstr ""
-"Рассылка отчётов по электронной почте о заданиях Cron успешно включе"
-"на."
-
-msgid "Error: unable to copy package."
-msgstr "Ошибка: невозможно скопировать пакет"
-
-msgid "State"
-msgstr "Область"
-
-msgid "City"
-msgstr "Город / Населенный пункт"
-
-msgid "Field \"%s\" can not be blank."
-msgstr "Поле \"%s\" не может быть пустым."
-
-msgid "Error code: %s"
-msgstr "Код ошибки: %s"
-
-msgid "Certificate has been generated successfully."
-msgstr "Сертификат успешно сгенерирован."
-
-msgid "Password does not match the minimum requirements."
-msgstr "Пароль не соответствует минимальным требованиям."
-
-msgid "Please enter a valid email address."
-msgstr "Пожалуйста, введите правильный адрес электронной почты."
-
-msgid "Please enter a valid contact name."
-msgstr "Пожалуйста, введите корректное имя контакта"
-
-msgid "Changes have been saved."
-msgstr "Изменения были сохранены."
-
-msgid "Nameserver 1"
-msgstr "сервер имён 1"
-
-msgid "Nameserver 2"
-msgstr "сервер имён 2"
-
-msgid ""
-"Mail account has been created.\\n\\nCommon Account Settings:\\nUsername: {"
-"{account}}@{{domain}}\\nPassword: {{password}}\\nWebmail: {{webmail}}\\nHo"
-"stname: {{hostname}}\\n\\nIMAP Settings\\nAuthentication: Normal Password\\n"
-"SSL/TLS: Port 993\\nSTARTTLS: Port 143\\nNo encryption: Port 143\\n\\nPOP3 S"
-"ettings\\nAuthentication: Normal Password\\nSSL/TLS: Port 995\\nSTARTTLS: "
-"Port 110\\nNo encryption: Port 110\\n\\nSMTP Settings\\nAuthentication: Norm"
-"al Password\\nSSL/TLS: Port 465\\nSTARTTLS: Port 587\\nNo encryption: Port"
-" 25\\n\\nBest regards,\\n\\n--\\n{{appname}}"
-msgstr ""
-"Учетная запись электронной почты создана.\\n\\nОбщие настройки учетной з"
-"аписи:\\nИмя пользователя: {{account}}@{{domain}}\\nПароль: {{password}}"
-"\\nВеб-почта: {{webmail}}\\nИмя хоста: {{hostname}}\\n\\nНастройки IMAP\\nАуте"
-"нтификация: Обычный пароль\\nSSL/TLS: Порт 993\\nSTARTTLS: Порт 143\\nБез "
-"шифрования: Порт 143\\n\\nНастройки POP3\\nАутентификация: Обычный пароль\\n"
-"SSL/TLS: Порт 995\\nSTARTTLS: Порт 110\\nБез шифрования: Порт 110\\n\\nНастр"
-"ойки SMTP\\nАутентификация: Обычный пароль\\nSSL/TLS: Порт 465\\nSTARTTLS:"
-" Порт 587\\nБез шифрования: Порт 25\\n\\nС уважением,\\n\\n--\\n{{appname}}"
-
-msgid "Email Credentials: %s@%s"
-msgstr "Учетные данные электронной почты: %s@%s"
-
-msgid "Error: unknown record ID."
-msgstr "Ошибка: неизвестный идентификатор записи"
-
-msgid ""
-"FTP account has been created and ready to use.\\n\\nHostname: {{domain}}"
-"\\nUsername: {{username}}\\nPassword: {{password}}\\n\\nBest regards,\\n\\n--\\n{{"
-"appname}}"
-msgstr ""
-"Учетная запись FTP создана и готова к использованию.\\n\\nИмя хоста: {{d"
-"omain}}\\nИмя пользователя: {{username}}\\nПароль: {{password}}\\n\\nС уваже"
-"нием,\\n\\n--\\n{{appname}}"
-
-msgid "FTP Account Credentials: %s"
-msgstr "Учетные данные FTP-аккаунта: %s"
-
-msgid "Info (read-only mode): Crontab can only be edited via SSH."
-msgstr ""
-"Информация (режим только для чтения): Crontab можно редактировать то"
-"лько через SSH."
-
-msgid "Inactive session timeout can not lower than 1 minute."
-msgstr "Длительность неактивной сессии не может быть меньше 1 минуты."
+msgid "IPVERSE"
+msgstr "IPVERSE"
 
 msgid "Account has been suspended"
 msgstr "Аккаунт отключён"
@@ -2140,122 +2290,28 @@ msgstr "Неверный логин или пароль"
 msgid "Invalid or missing 2FA token"
 msgstr "Неверный или отсутствующий токен ДФА"
 
-msgid "Download of remote backup file has been scheduled."
-msgstr "Загрузка файла удаленной резервной копии запланирована."
-
-msgid "Unable to add database! Limit reached!"
-msgstr "Невозможно добавить базу данных! Достигнут лимит!"
-
-msgid "Unable to add database!"
-msgstr "Невозможно добавить базу данных!"
-
-msgid "You are logged out, please log in again."
-msgstr "Вы вышли из системы, пожалуйста, войдите снова."
-
-msgid "%d day"
-msgid_plural "%d days"
-msgstr[0] "%d день"
-msgstr[1] "%d дня"
-msgstr[2] "%d дней"
-msgstr[3] "%d дней"
-
-msgid "%d hour"
-msgid_plural "%d hours"
-msgstr[0] "%d час"
-msgstr[1] "%d часа"
-msgstr[2] "%d часов"
-msgstr[3] "%d часов"
-
-msgid "%d minute"
-msgid_plural "%d minutes"
-msgstr[0] "%d минута"
-msgstr[1] "%d минуты"
-msgstr[2] "%d минут"
-msgstr[3] "%d минут"
-
 msgid "Start \"%s\" failed"
 msgstr "Запуск \"%s\" не удался"
 
-msgid "Restart \"%s\" failed"
-msgstr "Перезапуск \"%s\" не удался"
-
-msgid "SSH Key already exists."
-msgstr "Ключ SSH уже существует."
-
-msgid "SSH Key has been created successfully."
-msgstr "Ключ SSH успешно создан."
+msgid ""
+"Task has been added to the queue. You will receive an email notifica"
+"tion when your backup is ready for download."
+msgstr ""
+"Задача добавлена ​​в очередь. Вы получите уведомление по электронной"
+" почте, когда ваша резервная копия будет готова для загрузки."
 
 msgid ""
-"Hello {{name}},\\n\\nYour account has been created and ready to use.\\n\\nht"
-"tps://{{hostname}}/login/\\nUsername: {{user}}\\nPassword: {{password}}\\n"
-"\\nBest regards,\\n\\n--\\n{{appname}}"
+"An existing backup task is already running, please wait for it to co"
+"mplete."
 msgstr ""
-"Привет {{name}},\\n\\nВаша учетная запись создана и готова к использован"
-"ию.\\n\\nhttps://{{hostname}}/login/\\nИмя пользователя: {{user}}\\nПароль: "
-"{{password}}\\n\\nС уважением,\\n\\n--\\n{{appname}}"
+"An existing backup task is already running, please wait for it to co"
+"mplete."
 
-msgid "User {%s} has been created successfully. / {Log in as %s}"
-msgstr "Пользователь {%s} успешно создан. / {Войти как %s}"
+msgid "Error: %s update failed."
+msgstr "Ошибка: обновление %s не удалось."
 
-msgid "Package {%s} has been created successfully."
-msgstr "Пакет {%s} успешно создан."
-
-msgid "Mail domain {%s} has been created successfully."
-msgstr "Почтовый домен {%s} успешно создан."
-
-msgid "Mail account {%s@%s} has been created successfully."
-msgstr "Учетная запись электронной почты {%s@%s} успешно создана."
-
-msgid "Access key {%s} has been created successfully."
-msgstr "Ключ доступа {%s} успешно создан."
-
-msgid "DNS zone {%s} has been created successfully."
-msgstr "Зона DNS {%s} успешно создана."
-
-msgid "Record {%s.%s} has been created successfully."
-msgstr "Запись {%s.%s} успешно создана."
-
-msgid "Domain {%s} has been created successfully."
-msgstr "Домен {%s} успешно создан."
-
-msgid "Rule has been created successfully."
-msgstr "Правило успешно создано."
-
-msgid "IP address has been banned successfully."
-msgstr "IP-адрес успешно заблокирован."
-
-msgid "IP list has been created successfully."
-msgstr "Список IP-адресов успешно создан."
-
-msgid "Cron job has been created successfully."
-msgstr "Cron job успешно создан."
-
-msgid "IP address {%s} has been created successfully."
-msgstr "IP-адрес {%s} успешно создан."
-
-msgid ""
-"Database has been created.\\n\\nDatabase: {{database}}\\nUsername: {{usern"
-"ame}}\\nPassword: {{password}}\\nSQL Manager: {{dbadmin}}\\n\\nBest regards,"
-"\\n\\n--\\n{{appname}}"
-msgstr ""
-"База данных создана.\\n\\nБаза данных: {{database}}\\nИмя пользователя: {{"
-"username}}\\nПароль: {{password}}\\nМенеджер SQL: {{dbadmin}}\\n\\nС уважени"
-"ем,\\n\\n--\\n{{appname}}"
-
-msgid "Database Credentials: %s"
-msgstr "Учетные данные базы данных: %s"
-
-msgid "Database {%s} has been created successfully. / {Open %s}"
-msgstr "База данных {%s} успешно создана. / {Открыть %s}"
-
-msgid "Unable to install %s, %s is not available."
-msgstr "Не удалось установить приложение %s. Приложение %s недоступно."
-
-msgid "%s installer missing."
-msgstr "Установщик приложения %s отсутствует."
-
-msgid "%s installed successfully."
-msgstr "%s успешно инсталлировано."
+msgid "Error: unable to copy package."
+msgstr "Ошибка: невозможно скопировать пакет"
 
 msgid "Hestia core package"
 msgstr "Hestia пакет ядра"
