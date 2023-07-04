@@ -79,7 +79,7 @@ msgid "Changes have been saved."
 msgstr "Changes have been saved."
 
 msgid "Password does not match the minimum requirements."
-msgstr "Password does not match the minimum requirements."
+msgstr "密碼不符合最低需求."
 
 msgid "Field \"%s\" can not be blank."
 msgstr "\"%s\" 欄位不能空白"
@@ -966,22 +966,22 @@ msgid "Edit Firewall Rule"
 msgstr "編輯防火牆規則"
 
 msgid "Edit Backup Exclusions"
-msgstr "Edit Backup Exclusions"
+msgstr "編輯備份排除項"
 
 msgid "Value"
 msgstr "值"
 
 msgid "No exclusions"
-msgstr "No exclusions"
+msgstr "無排除項"
 
 msgid "White Label Options"
 msgstr "White Label Options"
 
 msgid "General"
-msgstr "General"
+msgstr "一般"
 
 msgid "Application Name"
-msgstr "Application Name"
+msgstr "應用程式名稱"
 
 msgid "Title"
 msgstr "標題"
@@ -999,7 +999,7 @@ msgid "Sender Email Address"
 msgstr "Sender Email Address"
 
 msgid "Email Subject"
-msgstr "Email Subject"
+msgstr "電子郵件主題"
 
 msgid "Hide link to Documentation"
 msgstr "Hide link to Documentation"
@@ -1056,7 +1056,7 @@ msgid "Forwarding"
 msgstr "轉寄"
 
 msgid "Auto Reply"
-msgstr "Auto Reply"
+msgstr "自動回覆"
 
 msgid "Are you sure you want to unsuspend %s?"
 msgstr "Are you sure you want to unsuspend %s?"
@@ -1142,7 +1142,7 @@ msgid_plural "%d log records"
 msgstr[0] "%d 條記錄"
 
 msgid "Install %s"
-msgstr "Install %s"
+msgstr "安裝 %s"
 
 msgid "Data Loss Warning!"
 msgstr "Data Loss Warning!"
@@ -1263,10 +1263,10 @@ msgid "No encryption"
 msgstr "不加密"
 
 msgid "POP3 Settings"
-msgstr "POP3 Settings"
+msgstr "POP3設定值"
 
 msgid "SMTP Settings"
-msgstr "SMTP Settings"
+msgstr "SMTP設定值"
 
 msgid "Configure"
 msgstr "設定"
