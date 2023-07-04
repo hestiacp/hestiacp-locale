@@ -15,7 +15,7 @@ msgid "Stop \"%s\" failed"
 msgstr "停止 \"%s\" 失敗"
 
 msgid "Error code: %s"
-msgstr "Error code: %s"
+msgstr "錯誤代號: %s"
 
 msgid "You are logged out, please log in again."
 msgstr "You are logged out, please log in again."
@@ -41,16 +41,13 @@ msgid ""
 "e this message and accept our apologies.\\n\\nBest regards,\\n\\n--\\n{{appnam"
 "e}}"
 msgstr ""
-"Hello {{name}},\\n\\nTo reset your {{appname}} password, please follow t"
-"his link:\\nhttps://{{hostname}}/reset/?action=confirm&user={{user}}&c"
-"ode={{resetcode}}\\n\\nAlternatively, you may go to https://{{hostname}}"
-"/reset/?action=code&user={{user}} and enter the following reset code"
-":\\n{{resetcode}}\\n\\nIf you did not request password reset, please ignor"
-"e this message and accept our apologies.\\n\\nBest regards,\\n\\n--\\n{{appnam"
-"e}}"
+"您好 {{name}},\\n\\n要初始化您的 {{appname}} 密碼, 請點擊此處的超連結:\\nhttps://{{hostname}}"
+"/reset/?action=confirm&user={{user}}&code={{resetcode}}\\n\\n或者, 您可以前往 h"
+"ttps://{{hostname}}/reset/?action=code&user={{user}} 並輸入以下初始化代號:\\n{{r"
+"esetcode}}\\n\\n如果您沒有要求密碼初始化時, 請無視此訊息並接受我們的道歉.\\n\\n最好的問候,\\n\\n--\\n{{appname}}"
 
 msgid "Password Reset at %s"
-msgstr "Password Reset at %s"
+msgstr "密碼初始化在 %s"
 
 msgid ""
 "Password reset instructions have been sent to the email address asso"
@@ -70,7 +67,7 @@ msgid "Invalid username or code"
 msgstr "無效的使用者名稱或驗證碼."
 
 msgid "Passwords do not match"
-msgstr "Passwords do not match"
+msgstr "密碼不符合"
 
 msgid "Download of remote backup file has been scheduled."
 msgstr "Download of remote backup file has been scheduled."
@@ -987,7 +984,7 @@ msgid "Application Name"
 msgstr "Application Name"
 
 msgid "Title"
-msgstr "Title"
+msgstr "標題"
 
 msgid "Supported variables"
 msgstr "Supported variables"
@@ -1026,7 +1023,7 @@ msgid "TTL"
 msgstr "TTL"
 
 msgid "Preview Features"
-msgstr "Preview Features"
+msgstr "預覽功能"
 
 msgid "Category"
 msgstr "類別"
@@ -1132,13 +1129,13 @@ msgid "Message"
 msgstr "訊息"
 
 msgid "Information"
-msgstr "Information"
+msgstr "資訊"
 
 msgid "Warning"
-msgstr "Warning"
+msgstr "警告"
 
 msgid "Error"
-msgstr "Error"
+msgstr "錯誤"
 
 msgid "%d log record"
 msgid_plural "%d log records"
@@ -1284,7 +1281,7 @@ msgid "Add SSH Key"
 msgstr "新增SSH金鑰"
 
 msgid "SSH Keys"
-msgstr "SSH Keys"
+msgstr "SSH金鑰"
 
 msgid "SSH ID"
 msgstr "SSH ID"
@@ -1339,7 +1336,7 @@ msgid "Fail2ban Banlists"
 msgstr "Fail2ban Banlists"
 
 msgid "Firewall Rules"
-msgstr "Firewall Rules"
+msgstr "防火牆規則"
 
 msgid "Are you sure you want to unsuspend rule #%s?"
 msgstr "Are you sure you want to unsuspend rule #%s?"
@@ -1374,7 +1371,7 @@ msgid "Restore All"
 msgstr "全部還原"
 
 msgid "Backup Details"
-msgstr "Backup Details"
+msgstr "備份細節"
 
 msgid "Details"
 msgstr "細節"
@@ -1570,7 +1567,7 @@ msgid "Uptime"
 msgstr "已啟動時間"
 
 msgid "Services"
-msgstr "Services"
+msgstr "服務"
 
 msgid "Service"
 msgstr "服務"
@@ -2066,7 +2063,7 @@ msgid "Ban IP Address"
 msgstr "封鎖 IP"
 
 msgid "Banned IP Addresses"
-msgstr "Banned IP Addresses"
+msgstr "已封鎖IP地址"
 
 msgid "Are you sure you want to delete IP address %s?"
 msgstr "Are you sure you want to delete IP address %s?"
@@ -2082,10 +2079,10 @@ msgid "Owner"
 msgstr "擁有者"
 
 msgid "Refresh IP Addresses"
-msgstr "Refresh IP Addresses"
+msgstr "重新整理IP地址"
 
 msgid "IP Addresses"
-msgstr "IP Addresses"
+msgstr "IP地址"
 
 msgid "%d IP address"
 msgid_plural "%d IP addresses"
@@ -2137,7 +2134,7 @@ msgid "Notifications"
 msgstr "通知"
 
 msgid "Loading..."
-msgstr "Loading..."
+msgstr "載入中..."
 
 msgid "No notifications"
 msgstr "No notifications"
