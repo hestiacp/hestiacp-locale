@@ -2141,7 +2141,7 @@ msgid "Ban IP Address"
 msgstr "Заблокировать IP"
 
 msgid "Banned IP Addresses"
-msgstr "Banned IP Addresses"
+msgstr "Заблокированные IP-адреса"
 
 msgid "Are you sure you want to delete IP address %s?"
 msgstr "Вы уверены, что хотите удалить IP-адрес %s?"
@@ -2160,10 +2160,10 @@ msgid "Owner"
 msgstr "Владелец"
 
 msgid "Refresh IP Addresses"
-msgstr "Refresh IP Addresses"
+msgstr "Обновить IP-адреса"
 
 msgid "IP Addresses"
-msgstr "IP Addresses"
+msgstr "IP-адреса"
 
 msgid "%d IP address"
 msgid_plural "%d IP addresses"
@@ -2227,7 +2227,7 @@ msgid "Notifications"
 msgstr "Уведомления"
 
 msgid "Loading..."
-msgstr "Loading..."
+msgstr "Загружается..."
 
 msgid "No notifications"
 msgstr "Нет уведомлений"
@@ -2306,8 +2306,8 @@ msgid ""
 "An existing backup task is already running, please wait for it to co"
 "mplete."
 msgstr ""
-"An existing backup task is already running, please wait for it to co"
-"mplete."
+"Текущая задача резервного копирования уже выполняется, пожалуйста, д"
+"ождитесь ее завершения."
 
 msgid "Error: %s update failed."
 msgstr "Ошибка: обновление %s не удалось."
