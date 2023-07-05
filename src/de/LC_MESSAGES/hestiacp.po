@@ -1053,7 +1053,7 @@ msgid "TTL"
 msgstr "TTL"
 
 msgid "Preview Features"
-msgstr "Preview Features"
+msgstr "Vorschau-Funktionen"
 
 msgid "Category"
 msgstr "Kategorie"
@@ -1094,10 +1094,10 @@ msgid "Are you sure you want to unsuspend %s?"
 msgstr "Sind Sie sicher, dass Sie %s entsperren möchten?"
 
 msgid "No aliases"
-msgstr "No aliases"
+msgstr "Keine Aliase"
 
 msgid "Aliases used"
-msgstr "Aliases used"
+msgstr "Verwendete Aliase"
 
 msgid "Are you sure you want to suspend %s?"
 msgstr "Sind Sie sicher, dass Sie %s sperren möchten?"
@@ -1165,10 +1165,10 @@ msgid "Information"
 msgstr "Information"
 
 msgid "Warning"
-msgstr "Warning"
+msgstr "Warnung"
 
 msgid "Error"
-msgstr "Error"
+msgstr "Fehler"
 
 msgid "%d log record"
 msgid_plural "%d log records"
@@ -1316,7 +1316,7 @@ msgid "Add SSH Key"
 msgstr "SSH-Schlüssel hinzufügen"
 
 msgid "SSH Keys"
-msgstr "SSH Keys"
+msgstr "SSH-Schlüssel"
 
 msgid "SSH ID"
 msgstr "SSH-ID"
@@ -1372,7 +1372,7 @@ msgid "Fail2ban Banlists"
 msgstr "Fail2Ban Sperrlisten"
 
 msgid "Firewall Rules"
-msgstr "Firewall Rules"
+msgstr "Firewall-Regeln"
 
 msgid "Are you sure you want to unsuspend rule #%s?"
 msgstr ""
@@ -1411,7 +1411,7 @@ msgid "Restore All"
 msgstr "Alles wiederherstellen"
 
 msgid "Backup Details"
-msgstr "Backup Details"
+msgstr "Sicherungsdetails"
 
 msgid "Details"
 msgstr "Detaillierte Informationen"
@@ -1464,13 +1464,13 @@ msgid "Public Key"
 msgstr "Öffentlicher Schlüssel"
 
 msgid "Key Type / Flag"
-msgstr "Key Type / Flag"
+msgstr "Schlüsseltag / Markierung"
 
 msgid "Key Tag"
-msgstr "Key Tag"
+msgstr "Schlüsseltag"
 
 msgid "Flag"
-msgstr "Flag"
+msgstr "Markierung"
 
 msgid "Algorithm"
 msgstr "Algorithmus"
@@ -1519,7 +1519,7 @@ msgid "url, script or file"
 msgstr "URL, Skript oder Datei"
 
 msgid "Auth Log"
-msgstr "Auth Log"
+msgstr "Authentifizierungsprotokoll"
 
 msgid "Browser"
 msgstr "Browser"
@@ -1563,10 +1563,10 @@ msgid "Yearly"
 msgstr "Jährlich"
 
 msgid "Biennially"
-msgstr "Biennially"
+msgstr "Alle zwei Jahre"
 
 msgid "Triennially"
-msgstr "Triennially"
+msgstr "Alle drei Jahre"
 
 msgid "Add Package"
 msgstr "Paket hinzufügen"
@@ -1610,7 +1610,7 @@ msgid "Uptime"
 msgstr "Betriebszeit"
 
 msgid "Services"
-msgstr "Services"
+msgstr "Dienste"
 
 msgid "Service"
 msgstr "Dienst"
@@ -2058,7 +2058,7 @@ msgid "Preview"
 msgstr "Vorschau"
 
 msgid "Allow suspended users to create new backups"
-msgstr "Allow suspended users to create new backups"
+msgstr "Gesperrte Benutzer dürfen neue Sicherungen erstellen"
 
 msgid "Sync Error document templates on user rebuild"
 msgstr ""
@@ -2129,7 +2129,7 @@ msgid "Ban IP Address"
 msgstr "IP blockieren"
 
 msgid "Banned IP Addresses"
-msgstr "Banned IP Addresses"
+msgstr "Gesperrte IP-Adressen"
 
 msgid "Are you sure you want to delete IP address %s?"
 msgstr "Sind Sie sicher, dass Sie die IP-Adresse %s entfernen möchten?"
@@ -2146,10 +2146,10 @@ msgid "Owner"
 msgstr "Besitzer"
 
 msgid "Refresh IP Addresses"
-msgstr "Refresh IP Addresses"
+msgstr "IP-Adressen aktualisieren"
 
 msgid "IP Addresses"
-msgstr "IP Addresses"
+msgstr "IP-Adressen"
 
 msgid "%d IP address"
 msgid_plural "%d IP addresses"
@@ -2205,7 +2205,7 @@ msgid "Notifications"
 msgstr "Benachrichtigungen"
 
 msgid "Loading..."
-msgstr "Loading..."
+msgstr "Wird geladen..."
 
 msgid "No notifications"
 msgstr "Keine Benachrichtigungen"
@@ -2284,8 +2284,8 @@ msgid ""
 "An existing backup task is already running, please wait for it to co"
 "mplete."
 msgstr ""
-"An existing backup task is already running, please wait for it to co"
-"mplete."
+"Eine vorhandene Sicherungsaufgabe wird bereits ausgeführt. Bitte war"
+"ten Sie, bis sie abgeschlossen ist."
 
 msgid "Error: %s update failed."
 msgstr "Fehler: Aktualisierung von %s fehlgeschlagen."
