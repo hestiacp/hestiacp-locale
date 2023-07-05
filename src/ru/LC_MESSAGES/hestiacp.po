@@ -1057,7 +1057,7 @@ msgid "TTL"
 msgstr "TTL"
 
 msgid "Preview Features"
-msgstr "Preview Features"
+msgstr "Функции предпросмотра"
 
 msgid "Category"
 msgstr "Категория"
@@ -1098,10 +1098,10 @@ msgid "Are you sure you want to unsuspend %s?"
 msgstr "Вы уверены, что хотите разблокировать %s?"
 
 msgid "No aliases"
-msgstr "No aliases"
+msgstr "Нет алиасов"
 
 msgid "Aliases used"
-msgstr "Aliases used"
+msgstr "Использовано алиасов"
 
 msgid "Are you sure you want to suspend %s?"
 msgstr "Вы уверены, что хотите приостановить действие %s?"
@@ -1168,13 +1168,13 @@ msgid "Message"
 msgstr "Сообщение"
 
 msgid "Information"
-msgstr "Information"
+msgstr "Информация"
 
 msgid "Warning"
-msgstr "Warning"
+msgstr "Предупреждение"
 
 msgid "Error"
-msgstr "Error"
+msgstr "Ошибка"
 
 msgid "%d log record"
 msgid_plural "%d log records"
@@ -1324,7 +1324,7 @@ msgid "Add SSH Key"
 msgstr "Добавить SSH ключ"
 
 msgid "SSH Keys"
-msgstr "SSH Keys"
+msgstr "Ключи SSH"
 
 msgid "SSH ID"
 msgstr "SSH-идентификатор"
@@ -1384,7 +1384,7 @@ msgid "Fail2ban Banlists"
 msgstr "Банлисты Fail2ban"
 
 msgid "Firewall Rules"
-msgstr "Firewall Rules"
+msgstr "Правила файрвол"
 
 msgid "Are you sure you want to unsuspend rule #%s?"
 msgstr "Вы уверены, что хотите восстановить действие правила #%s?"
@@ -1425,7 +1425,7 @@ msgid "Restore All"
 msgstr "Восстановить все"
 
 msgid "Backup Details"
-msgstr "Backup Details"
+msgstr "Параметры резервного копирования"
 
 msgid "Details"
 msgstr "Подробнее"
@@ -1480,13 +1480,13 @@ msgid "Public Key"
 msgstr "Открытый ключ"
 
 msgid "Key Type / Flag"
-msgstr "Key Type / Flag"
+msgstr "Тип ключа / Флаг"
 
 msgid "Key Tag"
-msgstr "Key Tag"
+msgstr "Метка ключа"
 
 msgid "Flag"
-msgstr "Flag"
+msgstr "Флаг"
 
 msgid "Algorithm"
 msgstr "Алгоритм"
@@ -1533,7 +1533,7 @@ msgid "url, script or file"
 msgstr "url, файл или скрипт"
 
 msgid "Auth Log"
-msgstr "Auth Log"
+msgstr "Журнал авторизации"
 
 msgid "Browser"
 msgstr "Браузер"
@@ -1579,10 +1579,10 @@ msgid "Yearly"
 msgstr "Год"
 
 msgid "Biennially"
-msgstr "Biennially"
+msgstr "Один раз в два года"
 
 msgid "Triennially"
-msgstr "Triennially"
+msgstr "Один раз в три года"
 
 msgid "Add Package"
 msgstr "Добавить пакет"
@@ -1628,7 +1628,7 @@ msgid "Uptime"
 msgstr "Запущен"
 
 msgid "Services"
-msgstr "Services"
+msgstr "Службы"
 
 msgid "Service"
 msgstr "Службы"
@@ -2067,7 +2067,9 @@ msgid "Preview"
 msgstr "Предварительный просмотр"
 
 msgid "Allow suspended users to create new backups"
-msgstr "Allow suspended users to create new backups"
+msgstr ""
+"Разрешить заблокированным пользователям создавать новые резервные ко"
+"пии"
 
 msgid "Sync Error document templates on user rebuild"
 msgstr ""
