@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-04 14:25+0000\n"
-"PO-Revision-Date: 2023-07-05 09:33\n"
+"POT-Creation-Date: 2023-07-06 11:24+0000\n"
+"PO-Revision-Date: 2023-07-06 11:26\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
@@ -1390,7 +1390,7 @@ msgid "Delete"
 msgstr "Törlés"
 
 #: ../../web/templates/pages/list_firewall_ipset.php:30
-#: ../../web/templates/pages/list_firewall.php:16
+#: ../../web/templates/pages/list_firewall.php:17
 msgid "IPset IP Lists"
 msgstr "IPSet Címlisták"
 
@@ -1499,8 +1499,8 @@ msgstr "Időpont"
 #: ../../web/templates/pages/list_db.php:156
 #: ../../web/templates/pages/list_packages.php:118
 #: ../../web/templates/pages/list_packages.php:119
-#: ../../web/templates/pages/list_services.php:141
-#: ../../web/templates/pages/list_services.php:142
+#: ../../web/templates/pages/list_services.php:143
+#: ../../web/templates/pages/list_services.php:144
 #: ../../web/templates/pages/list_cron.php:111
 #: ../../web/templates/pages/list_cron.php:112
 #: ../../web/templates/pages/list_web.php:194
@@ -1605,7 +1605,7 @@ msgstr "Csomag Neve"
 #: ../../web/templates/pages/list_updates.php:34
 #: ../../web/templates/pages/list_updates.php:58
 #: ../../web/templates/pages/list_services.php:101
-#: ../../web/templates/pages/list_services.php:190
+#: ../../web/templates/pages/list_services.php:192
 msgid "Description"
 msgstr "Leírás"
 
@@ -2253,19 +2253,19 @@ msgstr "Óránként"
 #: ../../web/templates/pages/list_rrd.php:13
 #: ../../web/templates/pages/add_cron.php:59
 msgid "Daily"
-msgstr "Nap"
+msgstr "Naponta"
 
 #: ../../web/templates/pages/edit_cron.php:60
 #: ../../web/templates/pages/list_rrd.php:14
 #: ../../web/templates/pages/add_cron.php:60
 msgid "Weekly"
-msgstr "Hét"
+msgstr "Hetente"
 
 #: ../../web/templates/pages/edit_cron.php:61
 #: ../../web/templates/pages/list_rrd.php:15
 #: ../../web/templates/pages/add_cron.php:61
 msgid "Monthly"
-msgstr "Hónap"
+msgstr "Havonta"
 
 #: ../../web/templates/pages/edit_cron.php:70
 #: ../../web/templates/pages/edit_cron.php:93
@@ -2662,9 +2662,9 @@ msgstr "Kiszolgáló Konfigurálása"
 #: ../../web/templates/pages/list_services.php:25
 #: ../../web/templates/pages/list_services.php:28
 #: ../../web/templates/pages/list_services.php:38
-#: ../../web/templates/pages/list_services.php:168
-#: ../../web/templates/pages/list_services.php:169
-#: ../../web/templates/pages/list_services.php:173
+#: ../../web/templates/pages/list_services.php:170
+#: ../../web/templates/pages/list_services.php:171
+#: ../../web/templates/pages/list_services.php:175
 #: ../../web/templates/pages/edit_server_php.php:75
 #: ../../web/templates/pages/edit_server_pgsql.php:38
 #: ../../web/templates/pages/edit_server_mysql.php:67
@@ -2788,7 +2788,7 @@ msgstr "TTL"
 
 #: ../../web/templates/pages/list_server_preview.php:15
 msgid "Preview Features"
-msgstr ""
+msgstr "Előnézeti Funkciók"
 
 #: ../../web/templates/pages/list_server_preview.php:20
 #: ../../web/templates/pages/list_server_preview.php:30
@@ -2863,12 +2863,12 @@ msgstr "Biztosan fel akarod oldani a felfüggesztését (%s)?"
 #: ../../web/templates/pages/list_mail_acc.php:107
 #: ../../web/templates/pages/list_mail_acc.php:135
 msgid "No aliases"
-msgstr ""
+msgstr "Nincsenek aliasok"
 
 #: ../../web/templates/pages/list_mail_acc.php:110
 #: ../../web/templates/pages/list_mail_acc.php:138
 msgid "Aliases used"
-msgstr ""
+msgstr "Használt aliasok"
 
 #: ../../web/templates/pages/list_mail_acc.php:132
 #, php-format
@@ -2916,7 +2916,7 @@ msgstr "Menü mutatása"
 
 #: ../../web/templates/pages/list_server_info.php:41
 #: ../../web/templates/pages/list_services.php:103
-#: ../../web/templates/pages/list_services.php:198
+#: ../../web/templates/pages/list_services.php:200
 msgid "CPU"
 msgstr "CPU"
 
@@ -3007,15 +3007,15 @@ msgstr "Üzenet"
 
 #: ../../web/templates/pages/list_log.php:90
 msgid "Information"
-msgstr ""
+msgstr "Információ"
 
 #: ../../web/templates/pages/list_log.php:94
 msgid "Warning"
-msgstr ""
+msgstr "Figyelmeztetés"
 
 #: ../../web/templates/pages/list_log.php:98
 msgid "Error"
-msgstr ""
+msgstr "Hiba"
 
 #: ../../web/templates/pages/list_log.php:134
 #: ../../web/templates/pages/list_log_auth.php:106
@@ -3329,7 +3329,7 @@ msgstr "Új SSH Kulcs"
 
 #: ../../web/templates/pages/list_key.php:24
 msgid "SSH Keys"
-msgstr ""
+msgstr "SSH Kulcsok"
 
 #: ../../web/templates/pages/list_key.php:28
 #: ../../web/templates/pages/list_key.php:41
@@ -3406,12 +3406,13 @@ msgid "Add Rule"
 msgstr "Új Szabály"
 
 #: ../../web/templates/pages/list_firewall.php:13
-msgid "Fail2ban Banlists"
-msgstr "Fail2ban"
+#: ../../web/templates/pages/list_firewall_banlist.php:30
+msgid "Banned IP Addresses"
+msgstr "Tiltott IP Címek"
 
 #: ../../web/templates/pages/list_firewall.php:63
 msgid "Firewall Rules"
-msgstr ""
+msgstr "Tűzfalszabályok"
 
 #: ../../web/templates/pages/list_firewall.php:88
 #, php-format
@@ -3471,7 +3472,7 @@ msgstr "Összes Visszaállítása"
 
 #: ../../web/templates/pages/list_backup_detail.php:36
 msgid "Backup Details"
-msgstr ""
+msgstr "Biztonsági Mentés Részletei"
 
 #: ../../web/templates/pages/list_backup_detail.php:44
 #: ../../web/templates/pages/list_backup_detail.php:68
@@ -3557,15 +3558,15 @@ msgstr "Publikus Kulcs"
 
 #: ../../web/templates/pages/list_dns_public.php:43
 msgid "Key Type / Flag"
-msgstr ""
+msgstr "Kulcscímke / Jelölő"
 
 #: ../../web/templates/pages/list_dns_public.php:47
 msgid "Key Tag"
-msgstr ""
+msgstr "Kulcscímke"
 
 #: ../../web/templates/pages/list_dns_public.php:51
 msgid "Flag"
-msgstr ""
+msgstr "Jelölő"
 
 #: ../../web/templates/pages/list_dns_public.php:55
 msgid "Algorithm"
@@ -3637,7 +3638,7 @@ msgstr "url, szkript vagy fájl"
 
 #: ../../web/templates/pages/list_log_auth.php:42
 msgid "Auth Log"
-msgstr ""
+msgstr "Hitelesítési Napló"
 
 #: ../../web/templates/pages/list_log_auth.php:50
 #: ../../web/templates/pages/list_log_auth.php:94
@@ -3700,15 +3701,15 @@ msgstr "Részletes Információk"
 
 #: ../../web/templates/pages/list_rrd.php:16
 msgid "Yearly"
-msgstr "Év"
+msgstr "Évente"
 
 #: ../../web/templates/pages/list_rrd.php:17
 msgid "Biennially"
-msgstr ""
+msgstr "Kétévente"
 
 #: ../../web/templates/pages/list_rrd.php:18
 msgid "Triennially"
-msgstr ""
+msgstr "Háromévente"
 
 #: ../../web/templates/pages/list_packages.php:9
 #: ../../web/templates/pages/add_package.php:36
@@ -3742,16 +3743,18 @@ msgid "Firewall"
 msgstr "Tűzfal"
 
 #: ../../web/templates/pages/list_services.php:26
-#: ../../web/templates/pages/list_services.php:170
+#: ../../web/templates/pages/list_services.php:172
 #, php-format
 msgid "Are you sure you want to restart %s?"
 msgstr "Biztosan újra akarod indítani a(z) %s folyamatot?"
 
 #: ../../web/templates/pages/list_services.php:36
+#: ../../web/templates/pages/list_services.php:114
 msgid "Stop"
 msgstr "Leállítás"
 
 #: ../../web/templates/pages/list_services.php:37
+#: ../../web/templates/pages/list_services.php:121
 msgid "Start"
 msgstr "Elindítás"
 
@@ -3769,43 +3772,43 @@ msgstr "Átlagos terhelés"
 
 #: ../../web/templates/pages/list_services.php:83
 #: ../../web/templates/pages/list_services.php:102
-#: ../../web/templates/pages/list_services.php:194
+#: ../../web/templates/pages/list_services.php:196
 msgid "Uptime"
 msgstr "Üzemidő"
 
 #: ../../web/templates/pages/list_services.php:92
 msgid "Services"
-msgstr ""
+msgstr "Szolgáltatások"
 
 #: ../../web/templates/pages/list_services.php:99
-#: ../../web/templates/pages/list_services.php:146
+#: ../../web/templates/pages/list_services.php:148
 msgid "Service"
 msgstr "Szolgáltatás"
 
 #: ../../web/templates/pages/list_services.php:104
-#: ../../web/templates/pages/list_services.php:202
+#: ../../web/templates/pages/list_services.php:204
 msgid "Memory"
 msgstr "Memória"
 
-#: ../../web/templates/pages/list_services.php:148
-#: ../../web/templates/pages/list_services.php:158
-#: ../../web/templates/pages/list_services.php:161
+#: ../../web/templates/pages/list_services.php:150
+#: ../../web/templates/pages/list_services.php:160
+#: ../../web/templates/pages/list_services.php:163
 #: ../../web/templates/pages/list_cron.php:133
 #: ../../web/templates/pages/list_cron.php:136
 msgid "Edit"
 msgstr "Szerkesztés"
 
-#: ../../web/templates/pages/list_services.php:181
+#: ../../web/templates/pages/list_services.php:183
 #, php-format
 msgid "Are you sure you want to stop service %s?"
 msgstr "Biztosan le akarod állítani a(z) %s folyamatot?"
 
-#: ../../web/templates/pages/list_services.php:181
+#: ../../web/templates/pages/list_services.php:183
 #, php-format
 msgid "Are you sure you want to start service %s?"
 msgstr "Biztosan el akarod indítani a(z) %s folyamatot?"
 
-#: ../../web/templates/pages/list_services.php:203
+#: ../../web/templates/pages/list_services.php:205
 msgid "MB"
 msgstr "MB"
 
@@ -4393,7 +4396,7 @@ msgstr "Előnézet"
 
 #: ../../web/templates/pages/edit_server.php:1289
 msgid "Allow suspended users to create new backups"
-msgstr ""
+msgstr "Biztonsági mentések készítésének engedélyezése a felfüggesztett felhasználók számára"
 
 #: ../../web/templates/pages/edit_server.php:1306
 msgid "Sync Error document templates on user rebuild"
@@ -4467,10 +4470,6 @@ msgstr[1] "%d hozzáférési kulcs"
 msgid "Ban IP Address"
 msgstr "IP Kitiltása"
 
-#: ../../web/templates/pages/list_firewall_banlist.php:30
-msgid "Banned IP Addresses"
-msgstr ""
-
 #: ../../web/templates/pages/list_firewall_banlist.php:69
 #: ../../web/templates/pages/list_ip.php:117
 #, php-format
@@ -4498,12 +4497,12 @@ msgstr "Tulajdonos"
 
 #: ../../web/templates/pages/list_ip.php:44
 msgid "Refresh IP Addresses"
-msgstr ""
+msgstr "IP Címek Frissítése"
 
 #: ../../web/templates/pages/list_ip.php:59
 #: ../../web/templates/pages/list_stats.php:81
 msgid "IP Addresses"
-msgstr ""
+msgstr "IP Címek"
 
 #: ../../web/templates/pages/list_ip.php:154
 #, php-format
@@ -4588,7 +4587,7 @@ msgstr "Értesítések"
 
 #: ../../web/templates/includes/panel.php:86
 msgid "Loading..."
-msgstr ""
+msgstr "Betöltés..."
 
 #: ../../web/templates/includes/panel.php:92
 #: ../../web/templates/includes/js.php:9
@@ -4703,7 +4702,7 @@ msgstr "A kért művelet hozzá lett adva a várólistához. Emailben értesít�
 
 #: ../../web/schedule/backup/index.php:22
 msgid "An existing backup task is already running, please wait for it to complete."
-msgstr ""
+msgstr "Egy biztonsági mentés már folyamatban van. Kérlek várd meg, hogy befejeződjön a művelet."
 
 #: ../../web/update/hestia/index.php:20
 #, php-format

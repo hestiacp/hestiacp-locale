@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-04 14:25+0000\n"
-"PO-Revision-Date: 2023-07-05 09:33\n"
+"POT-Creation-Date: 2023-07-06 11:24+0000\n"
+"PO-Revision-Date: 2023-07-06 11:25\n"
 "Last-Translator: \n"
 "Language-Team: Bulgarian\n"
 "Language: bg_BG\n"
@@ -1339,7 +1339,7 @@ msgid "Delete"
 msgstr "Изтрий"
 
 #: ../../web/templates/pages/list_firewall_ipset.php:30
-#: ../../web/templates/pages/list_firewall.php:16
+#: ../../web/templates/pages/list_firewall.php:17
 msgid "IPset IP Lists"
 msgstr ""
 
@@ -1448,8 +1448,8 @@ msgstr "Време"
 #: ../../web/templates/pages/list_db.php:156
 #: ../../web/templates/pages/list_packages.php:118
 #: ../../web/templates/pages/list_packages.php:119
-#: ../../web/templates/pages/list_services.php:141
-#: ../../web/templates/pages/list_services.php:142
+#: ../../web/templates/pages/list_services.php:143
+#: ../../web/templates/pages/list_services.php:144
 #: ../../web/templates/pages/list_cron.php:111
 #: ../../web/templates/pages/list_cron.php:112
 #: ../../web/templates/pages/list_web.php:194
@@ -1554,7 +1554,7 @@ msgstr ""
 #: ../../web/templates/pages/list_updates.php:34
 #: ../../web/templates/pages/list_updates.php:58
 #: ../../web/templates/pages/list_services.php:101
-#: ../../web/templates/pages/list_services.php:190
+#: ../../web/templates/pages/list_services.php:192
 msgid "Description"
 msgstr "описание"
 
@@ -2611,9 +2611,9 @@ msgstr ""
 #: ../../web/templates/pages/list_services.php:25
 #: ../../web/templates/pages/list_services.php:28
 #: ../../web/templates/pages/list_services.php:38
-#: ../../web/templates/pages/list_services.php:168
-#: ../../web/templates/pages/list_services.php:169
-#: ../../web/templates/pages/list_services.php:173
+#: ../../web/templates/pages/list_services.php:170
+#: ../../web/templates/pages/list_services.php:171
+#: ../../web/templates/pages/list_services.php:175
 #: ../../web/templates/pages/edit_server_php.php:75
 #: ../../web/templates/pages/edit_server_pgsql.php:38
 #: ../../web/templates/pages/edit_server_mysql.php:67
@@ -2865,7 +2865,7 @@ msgstr ""
 
 #: ../../web/templates/pages/list_server_info.php:41
 #: ../../web/templates/pages/list_services.php:103
-#: ../../web/templates/pages/list_services.php:198
+#: ../../web/templates/pages/list_services.php:200
 msgid "CPU"
 msgstr "Процесор"
 
@@ -3355,7 +3355,8 @@ msgid "Add Rule"
 msgstr "Добави правило"
 
 #: ../../web/templates/pages/list_firewall.php:13
-msgid "Fail2ban Banlists"
+#: ../../web/templates/pages/list_firewall_banlist.php:30
+msgid "Banned IP Addresses"
 msgstr ""
 
 #: ../../web/templates/pages/list_firewall.php:63
@@ -3691,16 +3692,18 @@ msgid "Firewall"
 msgstr "Защитна стена"
 
 #: ../../web/templates/pages/list_services.php:26
-#: ../../web/templates/pages/list_services.php:170
+#: ../../web/templates/pages/list_services.php:172
 #, php-format
 msgid "Are you sure you want to restart %s?"
 msgstr ""
 
 #: ../../web/templates/pages/list_services.php:36
+#: ../../web/templates/pages/list_services.php:114
 msgid "Stop"
 msgstr ""
 
 #: ../../web/templates/pages/list_services.php:37
+#: ../../web/templates/pages/list_services.php:121
 msgid "Start"
 msgstr ""
 
@@ -3718,7 +3721,7 @@ msgstr "Общи данни"
 
 #: ../../web/templates/pages/list_services.php:83
 #: ../../web/templates/pages/list_services.php:102
-#: ../../web/templates/pages/list_services.php:194
+#: ../../web/templates/pages/list_services.php:196
 msgid "Uptime"
 msgstr "Време на работа"
 
@@ -3727,34 +3730,34 @@ msgid "Services"
 msgstr ""
 
 #: ../../web/templates/pages/list_services.php:99
-#: ../../web/templates/pages/list_services.php:146
+#: ../../web/templates/pages/list_services.php:148
 msgid "Service"
 msgstr "Обслужване"
 
 #: ../../web/templates/pages/list_services.php:104
-#: ../../web/templates/pages/list_services.php:202
+#: ../../web/templates/pages/list_services.php:204
 msgid "Memory"
 msgstr "Памет"
 
-#: ../../web/templates/pages/list_services.php:148
-#: ../../web/templates/pages/list_services.php:158
-#: ../../web/templates/pages/list_services.php:161
+#: ../../web/templates/pages/list_services.php:150
+#: ../../web/templates/pages/list_services.php:160
+#: ../../web/templates/pages/list_services.php:163
 #: ../../web/templates/pages/list_cron.php:133
 #: ../../web/templates/pages/list_cron.php:136
 msgid "Edit"
 msgstr ""
 
-#: ../../web/templates/pages/list_services.php:181
+#: ../../web/templates/pages/list_services.php:183
 #, php-format
 msgid "Are you sure you want to stop service %s?"
 msgstr ""
 
-#: ../../web/templates/pages/list_services.php:181
+#: ../../web/templates/pages/list_services.php:183
 #, php-format
 msgid "Are you sure you want to start service %s?"
 msgstr ""
 
-#: ../../web/templates/pages/list_services.php:203
+#: ../../web/templates/pages/list_services.php:205
 msgid "MB"
 msgstr ""
 
@@ -4415,10 +4418,6 @@ msgstr[1] ""
 #: ../../web/templates/pages/list_firewall_banlist.php:9
 msgid "Ban IP Address"
 msgstr "Блокирай IP адрес"
-
-#: ../../web/templates/pages/list_firewall_banlist.php:30
-msgid "Banned IP Addresses"
-msgstr ""
 
 #: ../../web/templates/pages/list_firewall_banlist.php:69
 #: ../../web/templates/pages/list_ip.php:117
