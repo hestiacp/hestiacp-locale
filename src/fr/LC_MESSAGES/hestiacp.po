@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-06 11:24+0000\n"
-"PO-Revision-Date: 2023-07-06 11:26\n"
+"PO-Revision-Date: 2023-07-10 05:51\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -26,7 +26,7 @@ msgstr "L'arrêt de \"%s\" a échoué"
 #: ../../web/generate/ssl/index.php:121
 #, php-format
 msgid "Error code: %s"
-msgstr ""
+msgstr "Code d'erreur : %s"
 
 #: ../../web/inc/main.php:253 ../../web/inc/main.php:264
 msgid "You are logged out, please log in again."
