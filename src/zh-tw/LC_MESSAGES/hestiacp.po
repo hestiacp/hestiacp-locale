@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-06 11:24+0000\n"
-"PO-Revision-Date: 2023-07-06 11:26\n"
+"PO-Revision-Date: 2023-07-16 13:01\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -14,19 +14,19 @@ msgstr ""
 "X-Crowdin-Project: hestiacp\n"
 "X-Crowdin-Project-ID: 587405\n"
 "X-Crowdin-Language: zh-TW\n"
-"X-Crowdin-File: hestiacp.pot\n"
-"X-Crowdin-File-ID: 3\n"
+"X-Crowdin-File: /main/hestiacp.pot\n"
+"X-Crowdin-File-ID: 13\n"
 
 #: ../../web/stop/service/index.php:24
 #, php-format
 msgid "Stop \"%s\" failed"
-msgstr "停止 \"%s\" 失敗"
+msgstr ""
 
 #: ../../web/inc/main.php:166 ../../web/inc/main.php:175
 #: ../../web/generate/ssl/index.php:121
 #, php-format
 msgid "Error code: %s"
-msgstr "錯誤代號: %s"
+msgstr ""
 
 #: ../../web/inc/main.php:253 ../../web/inc/main.php:264
 msgid "You are logged out, please log in again."
@@ -36,19 +36,19 @@ msgstr ""
 #, php-format
 msgid "%d day"
 msgid_plural "%d days"
-msgstr[0] "%d 天"
+msgstr[0] ""
 
 #: ../../web/inc/main.php:329
 #, php-format
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] "%d 小時"
+msgstr[0] ""
 
 #: ../../web/inc/main.php:333
 #, php-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] "%d 分鐘"
+msgstr[0] ""
 
 #: ../../web/reset/index.php:60
 msgid "Hello {{name}},\n\n"
@@ -60,45 +60,37 @@ msgid "Hello {{name}},\n\n"
 "Best regards,\n\n"
 "--\n"
 "{{appname}}"
-msgstr "您好 {{name}},\n\n"
-"要初始化您的 {{appname}} 密碼, 請點擊此處的超連結:\n"
-"https://{{hostname}}/reset/?action=confirm&user={{user}}&code={{resetcode}}\n\n"
-"或者, 您可以前往 https://{{hostname}}/reset/?action=code&user={{user}} 並輸入以下初始化代號:\n"
-"{{resetcode}}\n\n"
-"如果您沒有要求密碼初始化時, 請無視此訊息並接受我們的道歉.\n\n"
-"最好的問候,\n\n"
-"--\n"
-"{{appname}}"
+msgstr ""
 
 #: ../../web/reset/index.php:84
 #, php-format
 msgid "Password Reset at %s"
-msgstr "密碼初始化在 %s"
+msgstr ""
 
 #: ../../web/reset/index.php:137 ../../web/reset/index.php:141
 #: ../../web/reset/index.php:146 ../../web/reset/index.php:155
 msgid "Password reset instructions have been sent to the email address associated with this account."
-msgstr "密碼重設說明已寄出到與此帳號關聯的電子郵件地址."
+msgstr ""
 
 #: ../../web/reset/index.php:150
 msgid "Please wait 15 minutes before sending a new request."
-msgstr "請等待 15 分鐘後再發送新請求。"
+msgstr ""
 
 #: ../../web/reset/index.php:187
 msgid "An internal error occurred"
-msgstr "發生內部錯誤"
+msgstr ""
 
 #: ../../web/reset/index.php:195
 msgid "Code has been expired"
-msgstr "代碼已過期"
+msgstr ""
 
 #: ../../web/reset/index.php:213 ../../web/reset/index.php:231
 msgid "Invalid username or code"
-msgstr "無效的使用者名稱或驗證碼."
+msgstr ""
 
 #: ../../web/reset/index.php:234
 msgid "Passwords do not match"
-msgstr "密碼不符合"
+msgstr ""
 
 #: ../../web/download/backup/index.php:20
 msgid "Download of remote backup file has been scheduled."
@@ -110,7 +102,7 @@ msgstr ""
 #: ../../web/schedule/restore/index.php:70
 #: ../../web/schedule/backup/index.php:17
 msgid "Error: Hestia did not return any output."
-msgstr "錯誤: Hestia 沒有返回任何輸出。"
+msgstr ""
 
 #: ../../web/edit/cron/index.php:89 ../../web/edit/db/index.php:100
 #: ../../web/edit/mail/index.php:736 ../../web/edit/mail/index.php:1166
@@ -149,7 +141,7 @@ msgstr ""
 #: ../../web/edit/user/index.php:159 ../../web/add/db/index.php:55
 #: ../../web/add/mail/index.php:246 ../../web/add/user/index.php:56
 msgid "Password does not match the minimum requirements."
-msgstr "密碼不符合最低需求."
+msgstr ""
 
 #: ../../web/edit/mail/index.php:598 ../../web/edit/web/index.php:860
 #: ../../web/edit/web/index.php:1081 ../../web/edit/web/index.php:1121
@@ -167,7 +159,7 @@ msgstr "密碼不符合最低需求."
 #: ../../web/generate/ssl/index.php:67
 #, php-format
 msgid "Field \"%s\" can not be blank."
-msgstr "\"%s\" 欄位不能空白"
+msgstr ""
 
 #: ../../web/edit/mail/index.php:748 ../../web/edit/web/index.php:1170
 #: ../../web/edit/user/index.php:402 ../../web/add/db/index.php:48
@@ -234,7 +226,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_server.php:458
 #: ../../web/templates/pages/edit_server.php:805
 msgid "Username"
-msgstr "使用者名稱"
+msgstr ""
 
 #: ../../web/edit/web/index.php:1242 ../../web/edit/web/index.php:1390
 msgid "FTP account has been created and ready to use.\n\n"
@@ -263,7 +255,7 @@ msgstr ""
 #: ../../web/templates/pages/list_firewall.php:70
 #: ../../web/templates/pages/list_firewall.php:111
 msgid "Action"
-msgstr "動作"
+msgstr ""
 
 #: ../../web/edit/firewall/index.php:73 ../../web/add/firewall/index.php:45
 #: ../../web/templates/pages/add_firewall.php:35
@@ -273,7 +265,7 @@ msgstr "動作"
 #: ../../web/templates/pages/list_firewall.php:165
 #: ../../web/templates/pages/edit_server.php:749
 msgid "Protocol"
-msgstr "協定"
+msgstr ""
 
 #: ../../web/edit/firewall/index.php:76 ../../web/add/firewall/index.php:48
 #: ../../web/templates/pages/edit_mail.php:184
@@ -304,7 +296,7 @@ msgstr "協定"
 #: ../../web/templates/pages/edit_server.php:446
 #: ../../web/templates/pages/edit_server.php:793
 msgid "Port"
-msgstr "連線埠"
+msgstr ""
 
 #: ../../web/edit/firewall/index.php:79 ../../web/add/dns/index.php:25
 #: ../../web/add/web/index.php:20 ../../web/add/ip/index.php:23
@@ -332,7 +324,7 @@ msgstr "連線埠"
 #: ../../web/templates/pages/list_ip.php:94
 #: ../../web/templates/pages/list_dns.php:28
 msgid "IP Address"
-msgstr "IP 位置"
+msgstr ""
 
 #: ../../web/edit/package/index.php:137 ../../web/add/user/index.php:29
 #: ../../web/add/package/index.php:23
@@ -344,34 +336,34 @@ msgstr "IP 位置"
 #: ../../web/templates/pages/list_packages.php:54
 #: ../../web/templates/pages/list_packages.php:123
 msgid "Package"
-msgstr "方案"
+msgstr ""
 
 #: ../../web/edit/package/index.php:140 ../../web/add/package/index.php:26
 #: ../../web/templates/pages/edit_package.php:100
 #: ../../web/templates/pages/add_package.php:98
 #: ../../web/templates/pages/edit_web.php:266
 msgid "Web Template"
-msgstr "Apache 範本"
+msgstr ""
 
 #: ../../web/edit/package/index.php:144 ../../web/add/package/index.php:30
 #: ../../web/templates/pages/edit_package.php:117
 #: ../../web/templates/pages/add_package.php:115
 #: ../../web/templates/pages/edit_web.php:303
 msgid "Backend Template"
-msgstr "Backend 範本"
+msgstr ""
 
 #: ../../web/edit/package/index.php:149 ../../web/add/package/index.php:38
 #: ../../web/templates/pages/edit_package.php:135
 #: ../../web/templates/pages/add_package.php:134
 #: ../../web/templates/pages/edit_web.php:333
 msgid "Proxy Template"
-msgstr "Proxy 範本"
+msgstr ""
 
 #: ../../web/edit/package/index.php:153 ../../web/add/package/index.php:45
 #: ../../web/templates/pages/edit_package.php:161
 #: ../../web/templates/pages/add_package.php:160
 msgid "DNS Template"
-msgstr "DNS 範本"
+msgstr ""
 
 #: ../../web/edit/package/index.php:156 ../../web/add/package/index.php:48
 #: ../../web/templates/pages/list_packages.php:57
@@ -394,7 +386,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_backup_exclusions.php:28
 #: ../../web/templates/pages/list_stats.php:145
 msgid "Web Domains"
-msgstr "網站網域"
+msgstr ""
 
 #: ../../web/edit/package/index.php:162 ../../web/add/package/index.php:54
 #: ../../web/templates/pages/edit_package.php:89
@@ -405,7 +397,7 @@ msgstr "網站網域"
 #: ../../web/templates/pages/add_package.php:87
 #: ../../web/templates/pages/list_stats.php:177
 msgid "Web Aliases"
-msgstr "網站子網域"
+msgstr ""
 
 #: ../../web/edit/package/index.php:165 ../../web/add/package/index.php:57
 #: ../../web/templates/pages/list_user.php:99
@@ -419,7 +411,7 @@ msgstr "網站子網域"
 #: ../../web/templates/pages/add_package.php:175
 #: ../../web/templates/pages/list_stats.php:193
 msgid "DNS Zones"
-msgstr "DNS區域"
+msgstr ""
 
 #: ../../web/edit/package/index.php:168 ../../web/add/package/index.php:60
 #: ../../web/templates/pages/list_mail.php:201
@@ -440,7 +432,7 @@ msgstr "DNS區域"
 #: ../../web/templates/pages/list_dns.php:182
 #: ../../web/templates/pages/list_dns.php:185
 msgid "DNS Records"
-msgstr "DNS紀錄"
+msgstr ""
 
 #: ../../web/edit/package/index.php:171 ../../web/add/package/index.php:63
 #: ../../web/templates/pages/list_mail.php:68
@@ -456,7 +448,7 @@ msgstr "DNS紀錄"
 #: ../../web/templates/pages/edit_backup_exclusions.php:32
 #: ../../web/templates/pages/list_stats.php:153
 msgid "Mail Domains"
-msgstr "信箱網域"
+msgstr ""
 
 #: ../../web/edit/package/index.php:174 ../../web/add/package/index.php:66
 #: ../../web/templates/pages/list_mail.php:180
@@ -471,7 +463,7 @@ msgstr "信箱網域"
 #: ../../web/templates/pages/add_package.php:264
 #: ../../web/templates/pages/list_stats.php:169
 msgid "Mail Accounts"
-msgstr "信箱使用者"
+msgstr ""
 
 #: ../../web/edit/package/index.php:177 ../../web/add/package/index.php:84
 #: ../../web/templates/pages/edit_mail.php:64
@@ -500,7 +492,7 @@ msgstr ""
 #: ../../web/templates/includes/panel.php:342
 #: ../../web/templates/includes/panel.php:346
 msgid "Databases"
-msgstr "資料庫"
+msgstr ""
 
 #: ../../web/edit/package/index.php:183 ../../web/add/package/index.php:72
 #: ../../web/templates/pages/edit_package.php:311
@@ -513,7 +505,7 @@ msgstr "資料庫"
 #: ../../web/templates/pages/list_cron.php:70
 #: ../../web/templates/pages/list_stats.php:201
 msgid "Cron Jobs"
-msgstr "任務排程"
+msgstr ""
 
 #: ../../web/edit/package/index.php:186 ../../web/add/package/index.php:75
 #: ../../web/templates/pages/list_backup.php:39
@@ -531,7 +523,7 @@ msgstr "任務排程"
 #: ../../web/templates/includes/panel.php:374
 #: ../../web/templates/includes/panel.php:378
 msgid "Backups"
-msgstr "備份"
+msgstr ""
 
 #: ../../web/edit/package/index.php:189 ../../web/add/package/index.php:78
 #: ../../web/templates/pages/list_mail_acc.php:43
@@ -546,7 +538,7 @@ msgstr "備份"
 #: ../../web/templates/pages/add_package.php:44
 #: ../../web/templates/pages/add_mail_acc.php:71
 msgid "Quota"
-msgstr "配額"
+msgstr ""
 
 #: ../../web/edit/package/index.php:192 ../../web/add/package/index.php:81
 #: ../../web/templates/pages/list_user.php:23
@@ -566,7 +558,7 @@ msgstr "配額"
 #: ../../web/templates/pages/list_stats.php:69
 #: ../../web/templates/includes/panel.php:42
 msgid "Bandwidth"
-msgstr "流量"
+msgstr ""
 
 #: ../../web/edit/package/index.php:198 ../../web/add/package/index.php:89
 msgid "Nameserver 1"
@@ -600,11 +592,11 @@ msgstr ""
 #: ../../web/restart/service/index.php:23
 #, php-format
 msgid "Restart \"%s\" failed"
-msgstr "重新啟動 \"%s\" 失敗"
+msgstr ""
 
 #: ../../web/restart/system/index.php:26 ../../web/bulk/service/index.php:31
 msgid "The system is going down for reboot NOW!"
-msgstr "系統要馬上重新啟動了！"
+msgstr ""
 
 #: ../../web/bulk/cron/index.php:27 ../../web/bulk/cron/index.php:52
 msgid "Cron job email reporting has been successfully disabled."
@@ -635,7 +627,7 @@ msgstr ""
 #: ../../web/templates/pages/add_cron.php:233
 #: ../../web/templates/pages/add_cron.php:345
 msgid "Minute"
-msgstr "分鐘"
+msgstr ""
 
 #: ../../web/add/cron/index.php:20 ../../web/templates/pages/edit_cron.php:38
 #: ../../web/templates/pages/edit_cron.php:134
@@ -648,7 +640,7 @@ msgstr "分鐘"
 #: ../../web/templates/pages/add_cron.php:206
 #: ../../web/templates/pages/add_cron.php:318
 msgid "Hour"
-msgstr "時"
+msgstr ""
 
 #: ../../web/add/cron/index.php:23 ../../web/templates/pages/edit_cron.php:42
 #: ../../web/templates/pages/edit_cron.php:284
@@ -657,21 +649,21 @@ msgstr "時"
 #: ../../web/templates/pages/add_cron.php:42
 #: ../../web/templates/pages/add_cron.php:284
 msgid "Day"
-msgstr "日"
+msgstr ""
 
 #: ../../web/add/cron/index.php:26 ../../web/templates/pages/edit_cron.php:46
 #: ../../web/templates/pages/list_cron.php:82
 #: ../../web/templates/pages/list_cron.php:180
 #: ../../web/templates/pages/add_cron.php:46
 msgid "Month"
-msgstr "月"
+msgstr ""
 
 #: ../../web/add/cron/index.php:29 ../../web/templates/pages/edit_cron.php:50
 #: ../../web/templates/pages/list_cron.php:83
 #: ../../web/templates/pages/list_cron.php:184
 #: ../../web/templates/pages/add_cron.php:50
 msgid "Day of Week"
-msgstr "星期幾"
+msgstr ""
 
 #: ../../web/add/cron/index.php:32 ../../web/templates/pages/edit_cron.php:28
 #: ../../web/templates/pages/list_cron.php:25
@@ -680,7 +672,7 @@ msgstr "星期幾"
 #: ../../web/templates/pages/list_cron.php:116
 #: ../../web/templates/pages/add_cron.php:28
 msgid "Command"
-msgstr "指令"
+msgstr ""
 
 #: ../../web/add/cron/index.php:80
 msgid "Cron job has been created successfully."
@@ -691,7 +683,7 @@ msgstr ""
 #: ../../web/templates/pages/add_db.php:51
 #: ../../web/templates/pages/edit_db.php:28
 msgid "Database"
-msgstr "資料庫"
+msgstr ""
 
 #: ../../web/add/db/index.php:23 ../../web/add/mail/index.php:222
 #: ../../web/add/user/index.php:26 ../../web/templates/pages/edit_mail.php:192
@@ -713,7 +705,7 @@ msgstr "資料庫"
 #: ../../web/templates/pages/edit_server.php:565
 #: ../../web/templates/pages/edit_server.php:817
 msgid "Password"
-msgstr "密碼"
+msgstr ""
 
 #: ../../web/add/db/index.php:26 ../../web/add/dns/index.php:226
 #: ../../web/templates/pages/list_backup.php:50
@@ -746,7 +738,7 @@ msgstr "密碼"
 #: ../../web/templates/pages/list_search.php:173
 #: ../../web/templates/pages/edit_dns_rec.php:39
 msgid "Type"
-msgstr "類型"
+msgstr ""
 
 #: ../../web/add/db/index.php:29 ../../web/templates/pages/edit_mail.php:180
 #: ../../web/templates/pages/add_mail.php:103
@@ -760,7 +752,7 @@ msgstr "類型"
 #: ../../web/templates/pages/edit_server.php:781
 #: ../../web/templates/pages/edit_server.php:883
 msgid "Host"
-msgstr "主機"
+msgstr ""
 
 #: ../../web/add/db/index.php:32 ../../web/templates/pages/add_db.php:120
 #: ../../web/templates/pages/list_db.php:50
@@ -768,7 +760,7 @@ msgstr "主機"
 #: ../../web/templates/pages/list_db.php:255
 #: ../../web/templates/pages/edit_db.php:69
 msgid "Charset"
-msgstr "編碼"
+msgstr ""
 
 #: ../../web/add/db/index.php:150
 msgid "Database has been created.\n\n"
@@ -805,7 +797,7 @@ msgstr ""
 #: ../../web/templates/pages/generate_ssl.php:18
 #: ../../web/templates/pages/edit_dns_rec.php:28
 msgid "Domain"
-msgstr "網域"
+msgstr ""
 
 #: ../../web/add/mail/index.php:189
 #, php-format
@@ -816,7 +808,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_mail_acc.php:38
 #: ../../web/templates/pages/add_mail_acc.php:42
 msgid "Account"
-msgstr "帳號"
+msgstr ""
 
 #: ../../web/add/mail/index.php:508
 #, php-format
@@ -843,7 +835,7 @@ msgstr ""
 #: ../../web/templates/pages/add_dns_rec.php:33
 #: ../../web/templates/pages/edit_dns_rec.php:33
 msgid "Record"
-msgstr "紀錄"
+msgstr ""
 
 #: ../../web/add/dns/index.php:229
 #: ../../web/templates/pages/list_mail_dns.php:28
@@ -859,7 +851,7 @@ msgstr "紀錄"
 #: ../../web/templates/pages/add_dns_rec.php:58
 #: ../../web/templates/pages/edit_dns_rec.php:59
 msgid "IP or Value"
-msgstr "IP 或值"
+msgstr ""
 
 #: ../../web/add/dns/index.php:280
 #, php-format
@@ -903,7 +895,7 @@ msgstr ""
 #: ../../web/templates/pages/list_ip.php:68
 #: ../../web/templates/pages/list_ip.php:126
 msgid "Netmask"
-msgstr "子網路遮罩"
+msgstr ""
 
 #: ../../web/add/ip/index.php:29 ../../web/templates/pages/add_ip.php:43
 #: ../../web/templates/pages/edit_ip.php:44
@@ -911,7 +903,7 @@ msgstr "子網路遮罩"
 #: ../../web/templates/pages/list_ip.php:69
 #: ../../web/templates/pages/list_ip.php:130
 msgid "Interface"
-msgstr "介面卡"
+msgstr ""
 
 #: ../../web/add/ip/index.php:32 ../../web/templates/pages/add_ip.php:62
 #: ../../web/templates/pages/edit_ip.php:55
@@ -929,7 +921,7 @@ msgstr ""
 #: ../../web/templates/pages/login/reset_1.php:18
 #: ../../web/templates/pages/generate_ssl.php:27
 msgid "Email"
-msgstr "電子信箱"
+msgstr ""
 
 #: ../../web/add/user/index.php:35 ../../web/templates/pages/add_user.php:39
 #: ../../web/templates/pages/edit_user.php:69
@@ -990,26 +982,26 @@ msgstr ""
 #: ../../web/templates/pages/list_dns.php:78
 #: ../../web/templates/pages/list_dns.php:135
 msgid "Name"
-msgstr "名稱"
+msgstr ""
 
 #: ../../web/add/firewall/ipset/index.php:26
 #: ../../web/templates/pages/add_firewall_ipset.php:76
 msgid "Data Source"
-msgstr "資料來源"
+msgstr ""
 
 #: ../../web/add/firewall/ipset/index.php:29
 #: ../../web/templates/pages/list_firewall_ipset.php:40
 #: ../../web/templates/pages/list_firewall_ipset.php:84
 #: ../../web/templates/pages/add_firewall_ipset.php:92
 msgid "IP Version"
-msgstr "IP版本"
+msgstr ""
 
 #: ../../web/add/firewall/ipset/index.php:32
 #: ../../web/templates/pages/list_firewall_ipset.php:39
 #: ../../web/templates/pages/list_firewall_ipset.php:76
 #: ../../web/templates/pages/add_firewall_ipset.php:99
 msgid "Auto Update"
-msgstr "自動更新"
+msgstr ""
 
 #: ../../web/add/firewall/ipset/index.php:72
 msgid "IP list has been created successfully."
@@ -1022,7 +1014,7 @@ msgstr ""
 #: ../../web/add/firewall/banlist/index.php:23
 #: ../../web/templates/pages/add_firewall_banlist.php:34
 msgid "Banlist"
-msgstr "封鎖清單"
+msgstr ""
 
 #: ../../web/add/firewall/banlist/index.php:52
 msgid "IP address has been banned successfully."
@@ -1051,20 +1043,20 @@ msgstr ""
 #: ../../web/templates/pages/add_firewall_ipset.php:49
 #: ../../web/templates/pages/generate_ssl.php:34
 msgid "Country"
-msgstr "國家"
+msgstr ""
 
 #: ../../web/generate/ssl/index.php:42
 msgid "State"
-msgstr "州(區)"
+msgstr ""
 
 #: ../../web/generate/ssl/index.php:45
 msgid "City"
-msgstr "城市"
+msgstr ""
 
 #: ../../web/generate/ssl/index.php:48
 #: ../../web/templates/pages/generate_ssl.php:53
 msgid "Organization"
-msgstr "組織名稱"
+msgstr ""
 
 #: ../../web/generate/ssl/index.php:130
 msgid "Certificate has been generated successfully."
@@ -1073,7 +1065,7 @@ msgstr ""
 #: ../../web/templates/footer.php:23 ../../web/templates/footer.php:59
 #: ../../web/templates/footer.php:62
 msgid "Shortcuts"
-msgstr "快捷鍵"
+msgstr ""
 
 #: ../../web/templates/footer.php:33
 msgid "Add new object"
@@ -1089,31 +1081,31 @@ msgstr ""
 
 #: ../../web/templates/footer.php:36
 msgid "Go to WEB list"
-msgstr "回到網站列表"
+msgstr ""
 
 #: ../../web/templates/footer.php:37
 msgid "Go to DNS list"
-msgstr "回到 DNS 列表"
+msgstr ""
 
 #: ../../web/templates/footer.php:38
 msgid "Go to MAIL list"
-msgstr "回到郵件列表"
+msgstr ""
 
 #: ../../web/templates/footer.php:39
 msgid "Go to DB list"
-msgstr "回到資料庫列表"
+msgstr ""
 
 #: ../../web/templates/footer.php:40
 msgid "Go to CRON list"
-msgstr "回到任務排程列表"
+msgstr ""
 
 #: ../../web/templates/footer.php:41
 msgid "Go to BACKUP list"
-msgstr "回到備份列表"
+msgstr ""
 
 #: ../../web/templates/footer.php:44
 msgid "Focus on search"
-msgstr "搜尋"
+msgstr ""
 
 #: ../../web/templates/footer.php:45
 msgid "Display / Hide shortcuts"
@@ -1121,23 +1113,23 @@ msgstr ""
 
 #: ../../web/templates/footer.php:46
 msgid "Move backward through top menu"
-msgstr "在頂部選單中向左移動"
+msgstr ""
 
 #: ../../web/templates/footer.php:47
 msgid "Move forward through top menu"
-msgstr "在頂部選單中向右移動"
+msgstr ""
 
 #: ../../web/templates/footer.php:48
 msgid "Enter focused element"
-msgstr "進入選擇的選項"
+msgstr ""
 
 #: ../../web/templates/footer.php:49
 msgid "Move up through elements list"
-msgstr "往上檢視列表"
+msgstr ""
 
 #: ../../web/templates/footer.php:50
 msgid "Move down through elements list"
-msgstr "往下檢視列表"
+msgstr ""
 
 #: ../../web/templates/footer.php:68 ../../web/templates/footer.php:71
 #: ../../web/templates/pages/list_server_info.php:116
@@ -1145,7 +1137,7 @@ msgstr "往下檢視列表"
 #: ../../web/templates/pages/list_weblog.php:90
 #: ../../web/templates/pages/list_weblog.php:93
 msgid "Top"
-msgstr "頂端"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:6
 #: ../../web/templates/pages/list_updates.php:6
@@ -1221,11 +1213,11 @@ msgstr "頂端"
 #: ../../web/templates/pages/list_weblog.php:35
 #: ../../web/templates/pages/edit_dns_rec.php:6
 msgid "Back"
-msgstr "返回"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:9
 msgid "Add IP list"
-msgstr "新增IP清單"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:16
 #: ../../web/templates/pages/list_firewall_ipset.php:19
@@ -1263,7 +1255,7 @@ msgstr "新增IP清單"
 #: ../../web/templates/pages/list_dns.php:41
 #: ../../web/templates/pages/list_dns.php:49
 msgid "Apply to selected"
-msgstr "套用至所選"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:17
 #: ../../web/templates/pages/list_firewall_ipset.php:65
@@ -1341,7 +1333,7 @@ msgstr "套用至所選"
 #: ../../web/templates/pages/list_dns.php:205
 #: ../../web/templates/pages/list_dns.php:209
 msgid "Delete"
-msgstr "刪除"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:30
 #: ../../web/templates/pages/list_firewall.php:17
@@ -1366,13 +1358,13 @@ msgstr ""
 #: ../../web/templates/pages/list_ip.php:64
 #: ../../web/templates/pages/list_dns.php:76
 msgid "Select all"
-msgstr "選擇全部"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:37
 #: ../../web/templates/pages/list_firewall_ipset.php:56
 #: ../../web/templates/pages/add_firewall_ipset.php:71
 msgid "IP List Name"
-msgstr "IP清單名稱"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:41
 #: ../../web/templates/pages/list_firewall_ipset.php:88
@@ -1414,7 +1406,7 @@ msgstr "IP清單名稱"
 #: ../../web/templates/pages/list_dns.php:16
 #: ../../web/templates/pages/list_dns.php:22
 msgid "Date"
-msgstr "日期"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:42
 #: ../../web/templates/pages/list_firewall_ipset.php:92
@@ -1427,7 +1419,7 @@ msgstr "日期"
 #: ../../web/templates/pages/list_firewall_banlist.php:40
 #: ../../web/templates/pages/list_firewall_banlist.php:82
 msgid "Time"
-msgstr "時間"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:51
 #: ../../web/templates/pages/list_firewall_ipset.php:52
@@ -1468,7 +1460,7 @@ msgstr "時間"
 #: ../../web/templates/pages/list_dns.php:130
 #: ../../web/templates/pages/list_dns.php:131
 msgid "Select"
-msgstr "選擇"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:67
 #, php-format
@@ -1500,7 +1492,7 @@ msgstr ""
 #: ../../web/templates/pages/list_dns.php:101
 #: ../../web/templates/pages/list_dns.php:115
 msgid "Disabled"
-msgstr "已停用"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:80
 #: ../../web/templates/pages/list_mail.php:104
@@ -1524,11 +1516,11 @@ msgstr "已停用"
 #: ../../web/templates/pages/list_dns.php:104
 #: ../../web/templates/pages/list_dns.php:118
 msgid "Enabled"
-msgstr "已啟動"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:106
 msgid "There are currently no IP lists defined."
-msgstr "目前沒有自訂IP清單。"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:108
 #, php-format
@@ -1548,26 +1540,26 @@ msgstr ""
 #: ../../web/templates/pages/list_services.php:12
 #: ../../web/templates/pages/edit_server.php:135
 msgid "Updates"
-msgstr "系統更新"
+msgstr ""
 
 #: ../../web/templates/pages/list_updates.php:33
 #: ../../web/templates/pages/list_updates.php:54
 msgid "Package Names"
-msgstr "方案名稱"
+msgstr ""
 
 #: ../../web/templates/pages/list_updates.php:34
 #: ../../web/templates/pages/list_updates.php:58
 #: ../../web/templates/pages/list_services.php:101
 #: ../../web/templates/pages/list_services.php:192
 msgid "Description"
-msgstr "描述"
+msgstr ""
 
 #: ../../web/templates/pages/list_updates.php:35
 #: ../../web/templates/pages/list_updates.php:62
 #: ../../web/templates/pages/list_webapps.php:27
 #: ../../web/templates/pages/edit_server.php:139
 msgid "Version"
-msgstr "版本"
+msgstr ""
 
 #: ../../web/templates/pages/list_updates.php:36
 #: ../../web/templates/pages/list_updates.php:66
@@ -1579,12 +1571,12 @@ msgstr "版本"
 #: ../../web/templates/pages/list_search.php:50
 #: ../../web/templates/pages/list_search.php:114
 msgid "Status"
-msgstr "狀態"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:7
 #: ../../web/templates/pages/add_mail.php:32
 msgid "Add Mail Domain"
-msgstr "新增信箱網域"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:13
 #: ../../web/templates/pages/list_user.php:14
@@ -1600,7 +1592,7 @@ msgstr "新增信箱網域"
 #: ../../web/templates/pages/list_search.php:14
 #: ../../web/templates/pages/list_dns.php:13
 msgid "Sort items"
-msgstr "排序"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:14
 #: ../../web/templates/pages/list_user.php:15
@@ -1623,7 +1615,7 @@ msgstr ""
 #: ../../web/templates/pages/list_mail.php:296
 #: ../../web/templates/includes/panel.php:330
 msgid "Accounts"
-msgstr "帳號"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:28
 #: ../../web/templates/pages/list_mail.php:78
@@ -1645,13 +1637,13 @@ msgstr "帳號"
 #: ../../web/templates/pages/list_stats.php:93
 #: ../../web/templates/includes/panel.php:35
 msgid "Disk"
-msgstr "磁碟空間"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:40
 #: ../../web/templates/pages/list_user.php:42
 #: ../../web/templates/pages/list_db.php:74
 msgid "Rebuild All"
-msgstr "重組所有"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:42
 #: ../../web/templates/pages/list_mail.php:130
@@ -1669,7 +1661,7 @@ msgstr "重組所有"
 #: ../../web/templates/pages/list_dns.php:45
 #: ../../web/templates/pages/list_dns.php:109
 msgid "Suspend"
-msgstr "中止"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:43
 #: ../../web/templates/pages/list_mail.php:95
@@ -1687,7 +1679,7 @@ msgstr "中止"
 #: ../../web/templates/pages/list_dns.php:46
 #: ../../web/templates/pages/list_dns.php:95
 msgid "Unsuspend"
-msgstr "解除中止"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:55
 #: ../../web/templates/pages/list_mail.php:56
@@ -1718,7 +1710,7 @@ msgstr "解除中止"
 #: ../../web/templates/pages/list_dns.php:58
 #: ../../web/templates/pages/list_dns.php:59
 msgid "Search"
-msgstr "搜尋"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:79
 #: ../../web/templates/pages/list_mail.php:316
@@ -1734,7 +1726,7 @@ msgstr ""
 #: ../../web/templates/pages/add_mail.php:71
 #: ../../web/templates/pages/edit_server.php:391
 msgid "Spam Filter"
-msgstr "垃圾郵件篩選器"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:81
 #: ../../web/templates/pages/list_mail.php:324
@@ -1779,7 +1771,7 @@ msgstr ""
 #: ../../web/templates/pages/list_mail_acc.php:16
 #: ../../web/templates/pages/add_mail_acc.php:32
 msgid "Add Mail Account"
-msgstr "新增信箱帳號"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:251
 #: ../../web/templates/pages/list_mail.php:254
@@ -1799,11 +1791,11 @@ msgstr ""
 #, php-format
 msgid "%d mail domain"
 msgid_plural "%d mail domains"
-msgstr[0] "%d 個信箱網域"
+msgstr[0] ""
 
 #: ../../web/templates/pages/list_backup.php:6
 msgid "Create Backup"
-msgstr "建立備份"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup.php:7
 #: ../../web/templates/pages/list_backup_exclusions.php:29
@@ -1813,17 +1805,17 @@ msgstr ""
 #: ../../web/templates/pages/list_backup.php:46
 #: ../../web/templates/pages/list_backup.php:80
 msgid "File Name"
-msgstr "檔案名稱"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup.php:49
 #: ../../web/templates/pages/list_backup.php:136
 msgid "Size"
-msgstr "大小"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup.php:51
 #: ../../web/templates/pages/list_backup.php:149
 msgid "Runtime"
-msgstr "執行時間"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup.php:58
 #: ../../web/templates/pages/list_backup.php:59
@@ -1857,7 +1849,7 @@ msgstr "執行時間"
 #: ../../web/templates/pages/edit_server.php:1400
 #: ../../web/templates/pages/edit_server.php:1413
 msgid "No"
-msgstr "否"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup.php:65
 #: ../../web/templates/pages/list_backup.php:66
@@ -1891,7 +1883,7 @@ msgstr "否"
 #: ../../web/templates/pages/edit_server.php:1403
 #: ../../web/templates/pages/edit_server.php:1416
 msgid "Yes"
-msgstr "是"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup.php:84
 #: ../../web/templates/pages/list_backup.php:107
@@ -1911,7 +1903,7 @@ msgstr "是"
 #: ../../web/templates/pages/list_backup_detail.php:264
 #: ../../web/templates/pages/list_backup_detail.php:267
 msgid "Restore"
-msgstr "還原"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup.php:96
 #: ../../web/templates/pages/list_backup.php:99
@@ -1926,7 +1918,7 @@ msgstr "還原"
 #: ../../web/templates/pages/list_weblog.php:57
 #: ../../web/templates/pages/list_weblog.php:59
 msgid "Download"
-msgstr "下載"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup.php:119
 #, php-format
@@ -1937,7 +1929,7 @@ msgstr ""
 #, php-format
 msgid "%d backup"
 msgid_plural "%d backups"
-msgstr[0] "%d 個備份"
+msgstr[0] ""
 
 #: ../../web/templates/pages/edit_mail.php:11
 #: ../../web/templates/pages/add_mail.php:11
@@ -1978,12 +1970,12 @@ msgstr[0] "%d 個備份"
 #: ../../web/templates/pages/add_cron.php:11
 #: ../../web/templates/pages/edit_dns_rec.php:11
 msgid "Save"
-msgstr "儲存"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:44
 #: ../../web/templates/pages/add_mail.php:53
 msgid "Webmail Client"
-msgstr "網路信箱系統"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:59
 msgid "Catch-All Email"
@@ -2001,7 +1993,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_mail.php:93
 #: ../../web/templates/pages/add_mail.php:92
 msgid "DKIM Support"
-msgstr "DKIM 支援"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:99
 #: ../../web/templates/pages/edit_web.php:169
@@ -2023,7 +2015,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_web.php:197
 #: ../../web/templates/pages/edit_server.php:918
 msgid "SSL Certificate"
-msgstr "SSL 憑證"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:122
 #: ../../web/templates/pages/list_ssl.php:16
@@ -2043,7 +2035,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_mail.php:132
 #: ../../web/templates/pages/edit_web.php:208
 msgid "SSL Certificate Authority / Intermediate"
-msgstr "SSL 中繼憑證"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:132
 #: ../../web/templates/pages/add_ip.php:76
@@ -2061,7 +2053,7 @@ msgstr "SSL 中繼憑證"
 #: ../../web/templates/pages/edit_dns_rec.php:75
 #: ../../web/templates/pages/edit_dns_rec.php:81
 msgid "Optional"
-msgstr "選項"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:140
 #: ../../web/templates/pages/edit_web.php:216
@@ -2129,24 +2121,24 @@ msgstr ""
 #: ../../web/templates/pages/add_dns.php:42
 #: ../../web/templates/pages/add_db.php:42
 msgid "Add User"
-msgstr "新增使用者"
+msgstr ""
 
 #: ../../web/templates/pages/add_mail.php:43
 #: ../../web/templates/pages/add_web.php:38
 #: ../../web/templates/pages/add_dns.php:43
 #: ../../web/templates/pages/add_db.php:43
 msgid "Continue"
-msgstr "繼續"
+msgstr ""
 
 #: ../../web/templates/pages/add_ip.php:32
 #: ../../web/templates/pages/list_ip.php:9
 msgid "Add IP Address"
-msgstr "新增IP地址"
+msgstr ""
 
 #: ../../web/templates/pages/add_ip.php:57
 #: ../../web/templates/pages/edit_ip.php:50
 msgid "Shared"
-msgstr "共享"
+msgstr ""
 
 #: ../../web/templates/pages/add_ip.php:76
 #: ../../web/templates/pages/edit_ip.php:69
@@ -2160,17 +2152,17 @@ msgstr ""
 
 #: ../../web/templates/pages/debug_panel.php:11
 msgid "Close debug panel"
-msgstr "關閉除蟲面板"
+msgstr ""
 
 #: ../../web/templates/pages/debug_panel.php:11
 #: ../../web/templates/pages/debug_panel.php:12
 msgid "Open debug panel"
-msgstr "打開除蟲面板"
+msgstr ""
 
 #: ../../web/templates/pages/add_web.php:27
 #: ../../web/templates/pages/list_web.php:7
 msgid "Add Web Domain"
-msgstr "新增網站網域"
+msgstr ""
 
 #: ../../web/templates/pages/add_web.php:32
 msgid "a web domain"
@@ -2178,45 +2170,45 @@ msgstr ""
 
 #: ../../web/templates/pages/add_web.php:63
 msgid "DNS Support"
-msgstr "DNS 支援"
+msgstr ""
 
 #: ../../web/templates/pages/add_web.php:73
 msgid "Mail Support"
-msgstr "信箱支援"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:25
 #: ../../web/templates/pages/list_cron.php:120
 msgid "Edit Cron Job"
-msgstr "編輯任務排程"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:57
 #: ../../web/templates/pages/edit_server.php:1078
 #: ../../web/templates/pages/add_cron.php:57
 msgid "Minutes"
-msgstr "分鐘"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:58
 #: ../../web/templates/pages/add_cron.php:58
 msgid "Hourly"
-msgstr "小時"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:59
 #: ../../web/templates/pages/list_rrd.php:13
 #: ../../web/templates/pages/add_cron.php:59
 msgid "Daily"
-msgstr "每天"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:60
 #: ../../web/templates/pages/list_rrd.php:14
 #: ../../web/templates/pages/add_cron.php:60
 msgid "Weekly"
-msgstr "每週"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:61
 #: ../../web/templates/pages/list_rrd.php:15
 #: ../../web/templates/pages/add_cron.php:61
 msgid "Monthly"
-msgstr "每月"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:70
 #: ../../web/templates/pages/edit_cron.php:93
@@ -2229,12 +2221,12 @@ msgstr "每月"
 #: ../../web/templates/pages/add_cron.php:191
 #: ../../web/templates/pages/add_cron.php:262
 msgid "Run Command"
-msgstr "執行指令"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:72
 #: ../../web/templates/pages/add_cron.php:72
 msgid "Every minute"
-msgstr "每分鐘"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:73
 #: ../../web/templates/pages/edit_cron.php:74
@@ -2248,7 +2240,7 @@ msgstr "每分鐘"
 #: ../../web/templates/pages/add_cron.php:77
 #, php-format
 msgid "Every %s minutes"
-msgstr "每%s分鐘"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:82
 #: ../../web/templates/pages/edit_cron.php:112
@@ -2277,7 +2269,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_cron.php:95
 #: ../../web/templates/pages/add_cron.php:95
 msgid "Every hour"
-msgstr "每小時"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:96
 #: ../../web/templates/pages/edit_cron.php:97
@@ -2287,24 +2279,24 @@ msgstr "每小時"
 #: ../../web/templates/pages/add_cron.php:98
 #, php-format
 msgid "Every %s hours"
-msgstr "每%s小時"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:124
 #: ../../web/templates/pages/edit_cron.php:193
 #: ../../web/templates/pages/add_cron.php:124
 #: ../../web/templates/pages/add_cron.php:193
 msgid "Every day"
-msgstr "每日"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:125
 #: ../../web/templates/pages/add_cron.php:125
 msgid "Every odd day"
-msgstr "每單數日"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:126
 #: ../../web/templates/pages/add_cron.php:126
 msgid "Every even day"
-msgstr "每偶數日"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:127
 #: ../../web/templates/pages/edit_cron.php:128
@@ -2316,67 +2308,67 @@ msgstr "每偶數日"
 #: ../../web/templates/pages/add_cron.php:130
 #, php-format
 msgid "Every %s days"
-msgstr "每%s天"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:194
 #: ../../web/templates/pages/add_cron.php:194
 msgid "Weekdays (5 days)"
-msgstr "平日 (5天)"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:195
 #: ../../web/templates/pages/add_cron.php:195
 msgid "Weekend (2 days)"
-msgstr "假日 (2天)"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:196
 #: ../../web/templates/pages/add_cron.php:196
 msgid "Monday"
-msgstr "星期一"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:197
 #: ../../web/templates/pages/add_cron.php:197
 msgid "Tuesday"
-msgstr "星期二"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:198
 #: ../../web/templates/pages/add_cron.php:198
 msgid "Wednesday"
-msgstr "星期三"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:199
 #: ../../web/templates/pages/add_cron.php:199
 msgid "Thursday"
-msgstr "星期四"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:200
 #: ../../web/templates/pages/add_cron.php:200
 msgid "Friday"
-msgstr "星期五"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:201
 #: ../../web/templates/pages/add_cron.php:201
 msgid "Saturday"
-msgstr "星期六"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:202
 #: ../../web/templates/pages/add_cron.php:202
 msgid "Sunday"
-msgstr "星期日"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:264
 #: ../../web/templates/pages/add_cron.php:264
 msgid "Every month"
-msgstr "每月"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:265
 #: ../../web/templates/pages/add_cron.php:265
 msgid "Every odd month"
-msgstr "每個單數月"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:266
 #: ../../web/templates/pages/add_cron.php:266
 msgid "Every even month"
-msgstr "每個偶數月"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:267
 #: ../../web/templates/pages/edit_cron.php:268
@@ -2384,71 +2376,71 @@ msgstr "每個偶數月"
 #: ../../web/templates/pages/add_cron.php:268
 #, php-format
 msgid "Every %s months"
-msgstr "每個%s月"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:269
 #: ../../web/templates/pages/add_cron.php:269
 msgid "Jan"
-msgstr "一月"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:270
 #: ../../web/templates/pages/add_cron.php:270
 msgid "Feb"
-msgstr "二月"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:271
 #: ../../web/templates/pages/add_cron.php:271
 msgid "Mar"
-msgstr "三月"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:272
 #: ../../web/templates/pages/add_cron.php:272
 msgid "Apr"
-msgstr "四月"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:273
 #: ../../web/templates/pages/add_cron.php:273
 msgid "May"
-msgstr "五月"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:274
 #: ../../web/templates/pages/add_cron.php:274
 msgid "Jun"
-msgstr "六月"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:275
 #: ../../web/templates/pages/add_cron.php:275
 msgid "Jul"
-msgstr "七月"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:276
 #: ../../web/templates/pages/add_cron.php:276
 msgid "Aug"
-msgstr "八月"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:277
 #: ../../web/templates/pages/add_cron.php:277
 msgid "Sep"
-msgstr "九月"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:278
 #: ../../web/templates/pages/add_cron.php:278
 msgid "Oct"
-msgstr "十月"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:279
 #: ../../web/templates/pages/add_cron.php:279
 msgid "Nov"
-msgstr "十一月"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:280
 #: ../../web/templates/pages/add_cron.php:280
 msgid "Dec"
-msgstr "十二月"
+msgstr ""
 
 #: ../../web/templates/pages/add_firewall.php:25
 msgid "Add Firewall Rule"
-msgstr "新增防火牆規則"
+msgstr ""
 
 #: ../../web/templates/pages/add_firewall.php:30
 #: ../../web/templates/pages/edit_firewall.php:30
@@ -2468,7 +2460,7 @@ msgstr ""
 #: ../../web/templates/pages/add_firewall.php:46
 #: ../../web/templates/pages/edit_firewall.php:46
 msgid "All ports: 0, Range: 80-82, List: 80,443,8080,8443"
-msgstr "所有連結埠: 0, 範圍: 80-82, 列表: 80,443,8080,8443"
+msgstr ""
 
 #: ../../web/templates/pages/add_firewall.php:50
 #: ../../web/templates/pages/edit_firewall.php:50
@@ -2479,13 +2471,13 @@ msgstr ""
 #: ../../web/templates/pages/edit_firewall.php:50
 #: ../../web/templates/pages/add_firewall_banlist.php:29
 msgid "Support CIDR format"
-msgstr "支援CIDR格式"
+msgstr ""
 
 #: ../../web/templates/pages/add_firewall.php:59
 #: ../../web/templates/pages/edit_firewall.php:59
 #: ../../web/templates/pages/add_firewall_ipset.php:86
 msgid "Clear"
-msgstr "清除"
+msgstr ""
 
 #: ../../web/templates/pages/add_firewall.php:66
 #: ../../web/templates/pages/edit_firewall.php:66
@@ -2500,36 +2492,36 @@ msgstr "清除"
 #: ../../web/templates/pages/list_firewall_banlist.php:41
 #: ../../web/templates/pages/list_firewall_banlist.php:86
 msgid "Comment"
-msgstr "備註"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:9
 #: ../../web/templates/pages/list_packages.php:47
 msgid "Packages"
-msgstr "方案設定"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:43
 msgid "Rebuild User Profile"
-msgstr "重組使用者簡介"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:44
 msgid "Rebuild Web Domains"
-msgstr "重組網站網域"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:45
 msgid "Rebuild DNS Zones"
-msgstr "重組DNS區域"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:46
 msgid "Rebuild Mail Domains"
-msgstr "重組郵件網域"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:47
 msgid "Rebuild Databases"
-msgstr "重組資料庫"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:48
 msgid "Rebuild Cron Jobs"
-msgstr "重組任務時間表"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:49
 msgid "Update Usage Counters"
@@ -2540,7 +2532,7 @@ msgstr ""
 #: ../../web/templates/includes/panel.php:267
 #: ../../web/templates/includes/panel.php:271
 msgid "Users"
-msgstr "使用者"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:85
 #: ../../web/templates/pages/list_user.php:240
@@ -2551,19 +2543,19 @@ msgstr ""
 #: ../../web/templates/pages/list_user.php:126
 #, php-format
 msgid "Are you sure you want to unsuspend user %s?"
-msgstr "確定要解除中止%s使用者嗎?"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:133
 #, php-format
 msgid "Are you sure you want to suspend user %s?"
-msgstr "確定要中止%s使用者嗎?"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:151
 #: ../../web/templates/pages/list_user.php:194
 #: ../../web/templates/pages/list_user.php:197
 #: ../../web/templates/pages/edit_user.php:61
 msgid "Edit User"
-msgstr "編輯使用者"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:158
 #: ../../web/templates/pages/list_user.php:182
@@ -2576,7 +2568,7 @@ msgstr ""
 #: ../../web/templates/pages/list_user.php:220
 #, php-format
 msgid "Are you sure you want to delete user %s?"
-msgstr "確定要刪除%s使用者嗎?"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:234
 #: ../../web/templates/pages/edit_package.php:37
@@ -2584,13 +2576,13 @@ msgstr "確定要刪除%s使用者嗎?"
 #: ../../web/templates/pages/list_packages.php:139
 #: ../../web/templates/pages/list_packages.php:142
 msgid "Edit Package"
-msgstr "編輯方案"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:312
 #, php-format
 msgid "%d user account"
 msgid_plural "%d user accounts"
-msgstr[0] "%d 個使用者帳號"
+msgstr[0] ""
 
 #: ../../web/templates/pages/edit_server_dovecot.php:25
 #: ../../web/templates/pages/edit_server_bind9.php:25
@@ -2619,28 +2611,28 @@ msgstr ""
 #: ../../web/templates/pages/edit_server_pgsql.php:38
 #: ../../web/templates/pages/edit_server_mysql.php:67
 msgid "Restart"
-msgstr "重新啟動"
+msgstr ""
 
 #: ../../web/templates/pages/edit_firewall.php:25
 #: ../../web/templates/pages/list_firewall.php:112
 #: ../../web/templates/pages/list_firewall.php:128
 #: ../../web/templates/pages/list_firewall.php:131
 msgid "Edit Firewall Rule"
-msgstr "編輯防火牆規則"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup_exclusions.php:9
 #: ../../web/templates/pages/edit_backup_exclusions.php:25
 msgid "Edit Backup Exclusions"
-msgstr "編輯備份排除項"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup_exclusions.php:34
 #: ../../web/templates/pages/list_backup_exclusions.php:45
 msgid "Value"
-msgstr "值"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup_exclusions.php:48
 msgid "No exclusions"
-msgstr "無排除項"
+msgstr ""
 
 #: ../../web/templates/pages/edit_whitelabel.php:33
 msgid "White Label Options"
@@ -2648,15 +2640,15 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_whitelabel.php:41
 msgid "General"
-msgstr "一般"
+msgstr ""
 
 #: ../../web/templates/pages/edit_whitelabel.php:46
 msgid "Application Name"
-msgstr "應用程式名稱"
+msgstr ""
 
 #: ../../web/templates/pages/edit_whitelabel.php:58
 msgid "Title"
-msgstr "標題"
+msgstr ""
 
 #: ../../web/templates/pages/edit_whitelabel.php:58
 #: ../../web/templates/pages/edit_whitelabel.php:95
@@ -2672,7 +2664,7 @@ msgstr ""
 #: ../../web/templates/pages/list_dns_rec.php:164
 #: ../../web/templates/pages/edit_server.php:1049
 msgid "Default"
-msgstr "預設"
+msgstr ""
 
 #: ../../web/templates/pages/edit_whitelabel.php:83
 msgid "Sender Email Address"
@@ -2680,7 +2672,7 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_whitelabel.php:95
 msgid "Email Subject"
-msgstr "電子郵件主題"
+msgstr ""
 
 #: ../../web/templates/pages/edit_whitelabel.php:107
 msgid "Hide link to Documentation"
@@ -2688,11 +2680,11 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_whitelabel.php:120
 msgid "Custom Logo"
-msgstr "自訂標誌"
+msgstr ""
 
 #: ../../web/templates/pages/edit_whitelabel.php:125
 msgid "Custom logo"
-msgstr "自訂標誌"
+msgstr ""
 
 #: ../../web/templates/pages/edit_whitelabel.php:129
 #, php-format
@@ -2701,7 +2693,7 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_whitelabel.php:141
 msgid "Update logo"
-msgstr "更新標誌"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail_dns.php:26
 #: ../../web/templates/pages/list_mail_dns.php:41
@@ -2715,7 +2707,7 @@ msgstr "更新標誌"
 #: ../../web/templates/pages/add_dns_rec.php:74
 #: ../../web/templates/pages/edit_dns_rec.php:75
 msgid "Priority"
-msgstr "優先順序"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail_dns.php:27
 #: ../../web/templates/pages/list_mail_dns.php:44
@@ -2734,34 +2726,34 @@ msgstr "優先順序"
 #: ../../web/templates/pages/list_dns.php:230
 #: ../../web/templates/pages/edit_dns_rec.php:81
 msgid "TTL"
-msgstr "TTL"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_preview.php:15
 msgid "Preview Features"
-msgstr "預覽功能"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_preview.php:20
 #: ../../web/templates/pages/list_server_preview.php:30
 #: ../../web/templates/pages/list_log.php:79
 #: ../../web/templates/pages/list_log.php:118
 msgid "Category"
-msgstr "類別"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_preview.php:31
 #: ../../web/templates/pages/edit_package.php:303
 #: ../../web/templates/pages/add_package.php:299
 #: ../../web/templates/pages/edit_server.php:988
 msgid "System"
-msgstr "系統"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_preview.php:35
 msgid "Policy"
-msgstr "規則"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_preview.php:35
 #: ../../web/templates/pages/edit_server.php:1270
 msgid "Allow suspended users to log in with read-only access"
-msgstr "允許已停用之使用者已無法修改的權限登入"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_preview.php:39
 msgid "Partially implemented"
@@ -2770,11 +2762,11 @@ msgstr ""
 #: ../../web/templates/pages/list_webapps.php:16
 #: ../../web/templates/pages/edit_web.php:15
 msgid "Quick Install App"
-msgstr "簡易安裝App"
+msgstr ""
 
 #: ../../web/templates/pages/list_webapps.php:29
 msgid "Setup"
-msgstr "建立"
+msgstr ""
 
 #: ../../web/templates/pages/edit_ip.php:32
 #: ../../web/templates/pages/list_ip.php:95
@@ -2792,18 +2784,18 @@ msgstr ""
 #: ../../web/templates/includes/panel.php:285
 #: ../../web/templates/includes/panel.php:292
 msgid "Aliases"
-msgstr "子網域"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail_acc.php:90
 #: ../../web/templates/pages/list_mail_acc.php:272
 msgid "Forwarding"
-msgstr "轉寄"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail_acc.php:91
 #: ../../web/templates/pages/list_mail_acc.php:276
 #: ../../web/templates/pages/edit_mail_acc.php:107
 msgid "Auto Reply"
-msgstr "自動回覆"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail_acc.php:104
 #, php-format
@@ -2841,7 +2833,7 @@ msgstr ""
 #, php-format
 msgid "%d mail account"
 msgid_plural "%d mail accounts"
-msgstr[0] "%d 個信箱帳號"
+msgstr[0] ""
 
 #: ../../web/templates/pages/list_server_info.php:16
 #: ../../web/templates/pages/list_server_info.php:17
@@ -2852,7 +2844,7 @@ msgstr ""
 #: ../../web/templates/pages/list_weblog.php:27
 #: ../../web/templates/includes/panel.php:147
 msgid "Close menu"
-msgstr "關閉選單"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_info.php:27
 #: ../../web/templates/pages/list_server_info.php:28
@@ -2861,27 +2853,27 @@ msgstr "關閉選單"
 #: ../../web/templates/includes/panel.php:147
 #: ../../web/templates/includes/panel.php:148
 msgid "Open menu"
-msgstr "打開選單"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_info.php:41
 #: ../../web/templates/pages/list_services.php:103
 #: ../../web/templates/pages/list_services.php:200
 msgid "CPU"
-msgstr "處理器負載"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_info.php:47
 msgid "RAM"
-msgstr "記憶體"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_info.php:59
 #: ../../web/templates/pages/edit_server.php:9
 msgid "Network"
-msgstr "網路"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_info.php:66
 #: ../../web/templates/pages/list_stats.php:105
 msgid "Web"
-msgstr "網站"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_info.php:74
 #: ../../web/templates/pages/edit_package.php:152
@@ -2889,12 +2881,12 @@ msgstr "網站"
 #: ../../web/templates/pages/add_package.php:151
 #: ../../web/templates/includes/panel.php:305
 msgid "DNS"
-msgstr "DNS 管理"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_info.php:82
 #: ../../web/templates/pages/list_stats.php:123
 msgid "Mail"
-msgstr "信箱"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_info.php:90
 #: ../../web/templates/pages/edit_package.php:285
@@ -2902,7 +2894,7 @@ msgstr "信箱"
 #: ../../web/templates/pages/add_package.php:281
 #: ../../web/templates/includes/panel.php:343
 msgid "DB"
-msgstr "資料庫"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_info.php:95
 #: ../../web/templates/pages/list_server_info.php:97
@@ -2912,7 +2904,7 @@ msgstr "資料庫"
 #: ../../web/templates/pages/list_weblog.php:63
 #: ../../web/templates/pages/list_weblog.php:65
 msgid "Refresh"
-msgstr "重新整理"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_info.php:101
 #: ../../web/templates/pages/list_server_info.php:103
@@ -2923,7 +2915,7 @@ msgstr "重新整理"
 #: ../../web/templates/includes/panel.php:229
 #: ../../web/templates/includes/panel.php:231
 msgid "Log out"
-msgstr "登出"
+msgstr ""
 
 #: ../../web/templates/pages/list_log.php:28
 #: ../../web/templates/pages/list_log.php:29
@@ -2946,37 +2938,37 @@ msgstr ""
 #: ../../web/templates/includes/panel.php:186
 #: ../../web/templates/includes/panel.php:188
 msgid "Logs"
-msgstr "紀錄"
+msgstr ""
 
 #: ../../web/templates/pages/list_log.php:80
 #: ../../web/templates/pages/list_log.php:122
 #: ../../web/templates/pages/edit_mail_acc.php:112
 msgid "Message"
-msgstr "訊息"
+msgstr ""
 
 #: ../../web/templates/pages/list_log.php:90
 msgid "Information"
-msgstr "資訊"
+msgstr ""
 
 #: ../../web/templates/pages/list_log.php:94
 msgid "Warning"
-msgstr "警告"
+msgstr ""
 
 #: ../../web/templates/pages/list_log.php:98
 msgid "Error"
-msgstr "錯誤"
+msgstr ""
 
 #: ../../web/templates/pages/list_log.php:134
 #: ../../web/templates/pages/list_log_auth.php:106
 #, php-format
 msgid "%d log record"
 msgid_plural "%d log records"
-msgstr[0] "%d 條記錄"
+msgstr[0] ""
 
 #: ../../web/templates/pages/setup_webapp.php:27
 #, php-format
 msgid "Install %s"
-msgstr "安裝 %s"
+msgstr ""
 
 #: ../../web/templates/pages/setup_webapp.php:33
 msgid "Data Loss Warning!"
@@ -2998,7 +2990,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_db.php:54
 #: ../../web/templates/pages/add_mail_acc.php:59
 msgid "Your password must have at least"
-msgstr "您的密碼須至少"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:62
 #: ../../web/templates/pages/edit_mail_acc.php:59
@@ -3007,7 +2999,7 @@ msgstr "您的密碼須至少"
 #: ../../web/templates/pages/edit_db.php:56
 #: ../../web/templates/pages/add_mail_acc.php:61
 msgid "8 characters long"
-msgstr "8 個字元"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:63
 #: ../../web/templates/pages/edit_mail_acc.php:60
@@ -3016,7 +3008,7 @@ msgstr "8 個字元"
 #: ../../web/templates/pages/edit_db.php:57
 #: ../../web/templates/pages/add_mail_acc.php:62
 msgid "1 uppercase & 1 lowercase character"
-msgstr "1 個大寫字母與 1 個小寫字母"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:64
 #: ../../web/templates/pages/edit_mail_acc.php:61
@@ -3025,36 +3017,36 @@ msgstr "1 個大寫字母與 1 個小寫字母"
 #: ../../web/templates/pages/edit_db.php:58
 #: ../../web/templates/pages/add_mail_acc.php:63
 msgid "1 number"
-msgstr "1 個數字"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:69
 #: ../../web/templates/pages/edit_user.php:107
 msgid "Do not allow user to log in to Control Panel"
-msgstr "禁止使用者登入控制台"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:76
 msgid "Send welcome email"
-msgstr "寄出歡迎電子郵件"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:81
 #: ../../web/templates/pages/edit_user.php:139
 msgid "Language"
-msgstr "語言"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:100
 #: ../../web/templates/pages/edit_user.php:158
 msgid "Role"
-msgstr "角色"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:102
 #: ../../web/templates/pages/edit_user.php:160
 msgid "User"
-msgstr "使用者"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:103
 #: ../../web/templates/pages/edit_user.php:161
 msgid "Administrator"
-msgstr "系統管理員"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:104
 #: ../../web/templates/pages/edit_user.php:162
@@ -3071,7 +3063,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_package.php:40
 #: ../../web/templates/pages/add_package.php:39
 msgid "Package Name"
-msgstr "方案名稱"
+msgstr ""
 
 #: ../../web/templates/pages/edit_package.php:46
 #: ../../web/templates/pages/edit_package.php:57
@@ -3106,14 +3098,14 @@ msgstr ""
 #: ../../web/templates/pages/add_mail_acc.php:75
 #: ../../web/templates/includes/js.php:8
 msgid "Unlimited"
-msgstr "無限"
+msgstr ""
 
 #: ../../web/templates/pages/edit_package.php:71
 #: ../../web/templates/pages/add_firewall_banlist.php:37
 #: ../../web/templates/pages/add_package.php:69
 #: ../../web/templates/includes/panel.php:286
 msgid "WEB"
-msgstr "網站管理"
+msgstr ""
 
 #: ../../web/templates/pages/edit_package.php:89
 #: ../../web/templates/pages/edit_package.php:189
@@ -3122,7 +3114,7 @@ msgstr "網站管理"
 #: ../../web/templates/pages/add_package.php:185
 #: ../../web/templates/pages/add_package.php:264
 msgid "per domain"
-msgstr "(每個網域)"
+msgstr ""
 
 #: ../../web/templates/pages/edit_package.php:199
 #: ../../web/templates/pages/add_dns.php:109
@@ -3135,14 +3127,14 @@ msgstr ""
 #: ../../web/templates/pages/add_dns.php:155
 #: ../../web/templates/pages/add_package.php:241
 msgid "Add Name Server"
-msgstr "新增Name Server"
+msgstr ""
 
 #: ../../web/templates/pages/edit_package.php:250
 #: ../../web/templates/pages/add_firewall_banlist.php:40
 #: ../../web/templates/pages/add_package.php:246
 #: ../../web/templates/includes/panel.php:324
 msgid "MAIL"
-msgstr "信箱管理"
+msgstr ""
 
 #: ../../web/templates/pages/edit_package.php:279
 #: ../../web/templates/pages/add_package.php:275
@@ -3154,7 +3146,7 @@ msgstr ""
 #: ../../web/templates/pages/list_packages.php:175
 #: ../../web/templates/pages/add_package.php:316
 msgid "SSH Access"
-msgstr "SSH 權限"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:82
 #: ../../web/templates/pages/add_mail_acc.php:82
@@ -3164,21 +3156,21 @@ msgstr ""
 #: ../../web/templates/pages/edit_mail_acc.php:89
 #: ../../web/templates/pages/add_mail_acc.php:95
 msgid "Discard all mail"
-msgstr "放棄所有郵件"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:95
 #: ../../web/templates/pages/add_mail_acc.php:101
 msgid "Do not store forwarded mail"
-msgstr "不保留已轉發的郵件"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:100
 #: ../../web/templates/pages/add_mail_acc.php:88
 msgid "Forward to"
-msgstr "轉寄到"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:100
 msgid "one or more email addresses"
-msgstr "一個或更多電子郵件信箱"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:118
 #: ../../web/templates/pages/add_mail_acc.php:106
@@ -3201,7 +3193,7 @@ msgstr ""
 #: ../../web/templates/pages/add_mail_acc.php:137
 #: ../../web/templates/pages/edit_server.php:62
 msgid "Hostname"
-msgstr "主機名稱"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:146
 #: ../../web/templates/pages/add_mail_acc.php:141
@@ -3224,7 +3216,7 @@ msgstr ""
 #: ../../web/templates/pages/add_mail_acc.php:164
 #: ../../web/templates/pages/add_mail_acc.php:183
 msgid "Normal password"
-msgstr "普通密碼"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:161
 #: ../../web/templates/pages/edit_mail_acc.php:180
@@ -3233,23 +3225,23 @@ msgstr "普通密碼"
 #: ../../web/templates/pages/add_mail_acc.php:175
 #: ../../web/templates/pages/add_mail_acc.php:194
 msgid "No encryption"
-msgstr "不加密"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:165
 #: ../../web/templates/pages/add_mail_acc.php:160
 msgid "POP3 Settings"
-msgstr "POP3設定值"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:184
 #: ../../web/templates/pages/add_mail_acc.php:179
 msgid "SMTP Settings"
-msgstr "SMTP設定值"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server_nginx.php:9
 #: ../../web/templates/pages/edit_server_httpd.php:9
 #: ../../web/templates/pages/list_services.php:6
 msgid "Configure"
-msgstr "設定"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server_nginx.php:73
 #: ../../web/templates/pages/edit_user.php:210
@@ -3273,11 +3265,11 @@ msgstr ""
 #: ../../web/templates/pages/list_key.php:14
 #: ../../web/templates/pages/add_key.php:31
 msgid "Add SSH Key"
-msgstr "新增SSH金鑰"
+msgstr ""
 
 #: ../../web/templates/pages/list_key.php:24
 msgid "SSH Keys"
-msgstr "SSH金鑰"
+msgstr ""
 
 #: ../../web/templates/pages/list_key.php:28
 #: ../../web/templates/pages/list_key.php:41
@@ -3320,11 +3312,11 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_user.php:122
 msgid "2FA QR Code"
-msgstr "雙重驗證QR碼"
+msgstr ""
 
 #: ../../web/templates/pages/edit_user.php:130
 msgid "Use IP address allow list for login attempts"
-msgstr "僅允許下列白名單中的IP登入"
+msgstr ""
 
 #: ../../web/templates/pages/edit_user.php:135
 #: ../../web/templates/pages/edit_web.php:294
@@ -3334,7 +3326,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_user.php:168
 #: ../../web/templates/pages/edit_server.php:86
 msgid "Theme"
-msgstr "主題風格"
+msgstr ""
 
 #: ../../web/templates/pages/edit_user.php:186
 msgid "Default List Sort Order"
@@ -3342,24 +3334,24 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_user.php:230
 msgid "PHP CLI Version"
-msgstr "PHP 命令列預設版本"
+msgstr ""
 
 #: ../../web/templates/pages/edit_user.php:249
 msgid "Default Name Servers"
-msgstr "預設域名伺服器"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall.php:9
 msgid "Add Rule"
-msgstr "新增規則"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall.php:13
 #: ../../web/templates/pages/list_firewall_banlist.php:30
 msgid "Banned IP Addresses"
-msgstr "已封鎖IP地址"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall.php:63
 msgid "Firewall Rules"
-msgstr "防火牆規則"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall.php:88
 #, php-format
@@ -3380,18 +3372,18 @@ msgstr ""
 #, php-format
 msgid "%d firewall rule"
 msgid_plural "%d firewall rules"
-msgstr[0] "%d 條防火牆規則"
+msgstr[0] ""
 
 #: ../../web/templates/pages/list_dns_rec.php:10
 msgid "Add Record"
-msgstr "新增紀錄"
+msgstr ""
 
 #: ../../web/templates/pages/list_dns_rec.php:13
 #: ../../web/templates/pages/edit_dns.php:25
 #: ../../web/templates/pages/list_dns.php:159
 #: ../../web/templates/pages/list_dns.php:162
 msgid "Edit DNS Domain"
-msgstr "編輯DNS網域"
+msgstr ""
 
 #: ../../web/templates/pages/list_dns_rec.php:117
 #: ../../web/templates/pages/list_dns_rec.php:131
@@ -3409,15 +3401,15 @@ msgstr ""
 #, php-format
 msgid "%d DNS record"
 msgid_plural "%d DNS records"
-msgstr[0] "%d 個DNS紀錄"
+msgstr[0] ""
 
 #: ../../web/templates/pages/list_backup_detail.php:6
 msgid "Restore All"
-msgstr "全部還原"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup_detail.php:36
 msgid "Backup Details"
-msgstr "備份細節"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup_detail.php:44
 #: ../../web/templates/pages/list_backup_detail.php:68
@@ -3427,25 +3419,25 @@ msgstr "備份細節"
 #: ../../web/templates/pages/list_backup_detail.php:217
 #: ../../web/templates/pages/list_backup_detail.php:255
 msgid "Details"
-msgstr "細節"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup_detail.php:65
 msgid "Web Domain"
-msgstr "網站網域"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup_detail.php:103
 msgid "Mail Domain"
-msgstr "郵件網域"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup_detail.php:141
 msgid "DNS Zone"
-msgstr "DNS區域"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup_detail.php:218
 #: ../../web/templates/includes/panel.php:358
 #: ../../web/templates/includes/panel.php:362
 msgid "Jobs"
-msgstr "任務"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup_detail.php:252
 #: ../../web/templates/pages/edit_backup_exclusions.php:40
@@ -3457,7 +3449,7 @@ msgstr ""
 #, php-format
 msgid "%d item"
 msgid_plural "%d items"
-msgstr[0] "%d 個項目"
+msgstr[0] ""
 
 #: ../../web/templates/pages/add_firewall_banlist.php:25
 msgid "Add IP Address to Banlist"
@@ -3480,7 +3472,7 @@ msgstr ""
 #: ../../web/templates/pages/list_dns_public.php:7
 #: ../../web/templates/pages/list_dns.php:7
 msgid "Add DNS Domain"
-msgstr "新增 DNS 網域"
+msgstr ""
 
 #: ../../web/templates/pages/list_dns_public.php:29
 #: ../../web/templates/pages/list_dns.php:170
@@ -3498,7 +3490,7 @@ msgstr ""
 
 #: ../../web/templates/pages/list_dns_public.php:39
 msgid "Public Key"
-msgstr "公開金鑰"
+msgstr ""
 
 #: ../../web/templates/pages/list_dns_public.php:43
 msgid "Key Type / Flag"
@@ -3529,29 +3521,29 @@ msgstr ""
 #: ../../web/templates/pages/list_dns.php:81
 #: ../../web/templates/pages/list_dns.php:224
 msgid "Template"
-msgstr "範本"
+msgstr ""
 
 #: ../../web/templates/pages/add_dns.php:95
 #: ../../web/templates/pages/edit_dns.php:71
 msgid "Enable DNSSEC"
-msgstr "允許DNSSEC"
+msgstr ""
 
 #: ../../web/templates/pages/add_dns.php:101
 #: ../../web/templates/pages/edit_dns.php:77
 #: ../../web/templates/pages/list_dns.php:85
 #: ../../web/templates/pages/list_dns.php:242
 msgid "Expiration Date"
-msgstr "到期日期"
+msgstr ""
 
 #: ../../web/templates/pages/add_dns.php:101
 #: ../../web/templates/pages/edit_dns.php:77
 msgid "YYYY-MM-DD"
-msgstr "YYYY-MM-DD"
+msgstr ""
 
 #: ../../web/templates/pages/add_db.php:32
 #: ../../web/templates/pages/list_db.php:20
 msgid "Add Database"
-msgstr "新增資料庫"
+msgstr ""
 
 #: ../../web/templates/pages/add_db.php:37
 msgid "a database"
@@ -3570,7 +3562,7 @@ msgstr ""
 
 #: ../../web/templates/pages/add_firewall_ipset.php:61
 msgid "Block Malicious IPs"
-msgstr "阻擋惡意IPs"
+msgstr ""
 
 #: ../../web/templates/pages/add_firewall_ipset.php:68
 msgid "Add IPset IP List for Firewall"
@@ -3578,7 +3570,7 @@ msgstr ""
 
 #: ../../web/templates/pages/add_firewall_ipset.php:76
 msgid "url, script or file"
-msgstr "超連結, 腳本或檔案"
+msgstr ""
 
 #: ../../web/templates/pages/list_log_auth.php:42
 msgid "Auth Log"
@@ -3587,7 +3579,7 @@ msgstr ""
 #: ../../web/templates/pages/list_log_auth.php:50
 #: ../../web/templates/pages/list_log_auth.php:94
 msgid "Browser"
-msgstr "瀏覽器"
+msgstr ""
 
 #: ../../web/templates/pages/list_log_auth.php:67
 msgid "Success"
@@ -3599,11 +3591,11 @@ msgstr ""
 
 #: ../../web/templates/pages/list_db.php:75
 msgid "Suspend All"
-msgstr "中止所有"
+msgstr ""
 
 #: ../../web/templates/pages/list_db.php:76
 msgid "Unsuspend All"
-msgstr "解除中止所有"
+msgstr ""
 
 #: ../../web/templates/pages/list_db.php:129
 #, php-format
@@ -3620,7 +3612,7 @@ msgstr ""
 #: ../../web/templates/pages/list_db.php:180
 #: ../../web/templates/pages/edit_db.php:25
 msgid "Edit Database"
-msgstr "編輯資料庫"
+msgstr ""
 
 #: ../../web/templates/pages/list_db.php:200
 #: ../../web/templates/pages/list_db.php:203
@@ -3644,7 +3636,7 @@ msgstr ""
 
 #: ../../web/templates/pages/list_rrd.php:16
 msgid "Yearly"
-msgstr "每年"
+msgstr ""
 
 #: ../../web/templates/pages/list_rrd.php:17
 msgid "Biennially"
@@ -3657,7 +3649,7 @@ msgstr ""
 #: ../../web/templates/pages/list_packages.php:9
 #: ../../web/templates/pages/add_package.php:36
 msgid "Add Package"
-msgstr "新增方案"
+msgstr ""
 
 #: ../../web/templates/pages/list_packages.php:150
 #: ../../web/templates/pages/list_packages.php:153
@@ -3667,13 +3659,13 @@ msgstr ""
 #: ../../web/templates/pages/list_packages.php:163
 #, php-format
 msgid "Are you sure you want to delete package %s?"
-msgstr "確定要刪除%s方案嗎?"
+msgstr ""
 
 #: ../../web/templates/pages/list_packages.php:313
 #, php-format
 msgid "%d package"
 msgid_plural "%d packages"
-msgstr[0] "%d個套件"
+msgstr[0] ""
 
 #: ../../web/templates/pages/list_services.php:9
 msgid "Task Monitor"
@@ -3682,7 +3674,7 @@ msgstr ""
 #: ../../web/templates/pages/list_services.php:16
 #: ../../web/templates/pages/edit_server.php:1409
 msgid "Firewall"
-msgstr "防火牆"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:26
 #: ../../web/templates/pages/list_services.php:172
@@ -3706,31 +3698,31 @@ msgstr ""
 
 #: ../../web/templates/pages/list_services.php:71
 msgid "Operating System"
-msgstr "操作系統"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:77
 msgid "Load Average"
-msgstr "平均負載量"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:83
 #: ../../web/templates/pages/list_services.php:102
 #: ../../web/templates/pages/list_services.php:196
 msgid "Uptime"
-msgstr "已啟動時間"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:92
 msgid "Services"
-msgstr "服務"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:99
 #: ../../web/templates/pages/list_services.php:148
 msgid "Service"
-msgstr "服務"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:104
 #: ../../web/templates/pages/list_services.php:204
 msgid "Memory"
-msgstr "記憶體"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:150
 #: ../../web/templates/pages/list_services.php:160
@@ -3738,7 +3730,7 @@ msgstr "記憶體"
 #: ../../web/templates/pages/list_cron.php:133
 #: ../../web/templates/pages/list_cron.php:136
 msgid "Edit"
-msgstr "編輯"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:183
 #, php-format
@@ -3757,17 +3749,17 @@ msgstr ""
 #: ../../web/templates/pages/list_cron.php:7
 #: ../../web/templates/pages/add_cron.php:25
 msgid "Add Cron Job"
-msgstr "新增任務排程"
+msgstr ""
 
 #: ../../web/templates/pages/list_cron.php:11
 #: ../../web/templates/pages/list_cron.php:42
 msgid "Disable Notifications"
-msgstr "停用通知"
+msgstr ""
 
 #: ../../web/templates/pages/list_cron.php:15
 #: ../../web/templates/pages/list_cron.php:43
 msgid "Enable Notifications"
-msgstr "允許通知"
+msgstr ""
 
 #: ../../web/templates/pages/list_cron.php:96
 msgid "Are you sure you want to unsuspend this cron job?"
@@ -3786,17 +3778,17 @@ msgstr ""
 #, php-format
 msgid "%d cron job"
 msgid_plural "%d cron jobs"
-msgstr[0] "%d 個任務排程"
+msgstr[0] ""
 
 #: ../../web/templates/pages/list_ssl.php:82
 msgid "SSL CSR"
-msgstr "SSL 憑證簽署請求 (CSR)"
+msgstr ""
 
 #: ../../web/templates/pages/edit_dns.php:82
 #: ../../web/templates/pages/list_dns.php:83
 #: ../../web/templates/pages/list_dns.php:234
 msgid "SOA"
-msgstr "SOA"
+msgstr ""
 
 #: ../../web/templates/pages/list_access_key.php:27
 #: ../../web/templates/pages/list_access_keys.php:25
@@ -3832,33 +3824,33 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:81
 msgid "Web Statistics"
-msgstr "網站統計"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:100
 msgid "Statistics Authorization"
-msgstr "統計授權"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:126
 msgid "Enable domain redirection"
-msgstr "啟用網域轉址"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:133
 #: ../../web/templates/pages/edit_web.php:139
 #, php-format
 msgid "Redirect visitors to %s"
-msgstr "將訪問者轉址至 %s"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:145
 msgid "Redirect visitors to a custom domain or web address"
-msgstr "將訪問者轉址至自定義的網域或網址"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:150
 msgid "Target domain or URL"
-msgstr "目標網域或網址"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:154
 msgid "Status code"
-msgstr "狀態碼"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:182
 msgid "Enable automatic HTTPS redirection"
@@ -3870,12 +3862,12 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:250
 msgid "Hide Certificate"
-msgstr "隱藏憑證"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:250
 #: ../../web/templates/pages/edit_web.php:251
 msgid "Show Certificate"
-msgstr "顯示憑證"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:285
 msgid "Enable FastCGI cache"
@@ -3883,30 +3875,30 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:294
 msgid "Cache Duration"
-msgstr "快取保留時間"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:327
 msgid "Proxy Support"
-msgstr "Proxy 支援"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:351
 msgid "Proxy Extensions"
-msgstr "Proxy 擴充"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:360
 msgid "Custom document root"
-msgstr "自訂網站目錄"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:365
 msgid "Point to"
-msgstr "指向"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:378
 #: ../../web/templates/pages/edit_server.php:716
 #: ../../web/templates/pages/edit_server.php:831
 #: ../../web/templates/pages/edit_server.php:895
 msgid "Directory"
-msgstr "路徑"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:388
 msgid "Additional FTP account(s)"
@@ -3916,17 +3908,17 @@ msgstr ""
 #: ../../web/templates/pages/edit_web.php:464
 #, php-format
 msgid "Prefix %s will be added to username automatically"
-msgstr "使用者名稱將自動新增 %s 前綴"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:426
 #: ../../web/templates/pages/edit_web.php:479
 msgid "Path"
-msgstr "路徑"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:434
 #: ../../web/templates/pages/edit_web.php:485
 msgid "Send FTP credentials to email"
-msgstr "將 FTP 登入資訊傳送到使用者信箱"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:443
 msgid "Add FTP account"
@@ -3936,12 +3928,12 @@ msgstr ""
 #: ../../web/templates/pages/list_dns.php:149
 #: ../../web/templates/pages/list_dns.php:152
 msgid "Add DNS Record"
-msgstr "新增 DNS 紀錄"
+msgstr ""
 
 #: ../../web/templates/pages/list_web.php:43
 #: ../../web/templates/pages/list_dns.php:43
 msgid "Rebuild"
-msgstr "重組"
+msgstr ""
 
 #: ../../web/templates/pages/list_web.php:84
 #: ../../web/templates/pages/list_web.php:231
@@ -3950,7 +3942,7 @@ msgstr "重組"
 #: ../../web/templates/includes/panel.php:204
 #: ../../web/templates/includes/panel.php:206
 msgid "Statistics"
-msgstr "統計資料"
+msgstr ""
 
 #: ../../web/templates/pages/list_web.php:211
 #: ../../web/templates/pages/list_web.php:256
@@ -3968,13 +3960,13 @@ msgstr ""
 #: ../../web/templates/pages/list_weblog.php:39
 #: ../../web/templates/pages/list_weblog.php:41
 msgid "Access Log"
-msgstr "訪問日誌"
+msgstr ""
 
 #: ../../web/templates/pages/list_web.php:339
 #, php-format
 msgid "%d web domain"
 msgid_plural "%d web domains"
-msgstr[0] "%d 個網站網域"
+msgstr[0] ""
 
 #: ../../web/templates/pages/add_access_key.php:24
 #: ../../web/templates/pages/list_access_keys.php:9
@@ -3991,7 +3983,7 @@ msgstr ""
 
 #: ../../web/templates/pages/login/login_2.php:15
 msgid "2FA Token"
-msgstr "雙重驗證碼"
+msgstr ""
 
 #: ../../web/templates/pages/login/login_2.php:17
 msgid "Forgot Token"
@@ -4001,7 +3993,7 @@ msgstr ""
 #: ../../web/templates/pages/login/login_1.php:23
 #: ../../web/templates/pages/edit_server.php:1041
 msgid "Login"
-msgstr "登入"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset_2.php:7
 #: ../../web/templates/pages/login/login_a.php:22
@@ -4009,7 +4001,7 @@ msgstr "登入"
 #: ../../web/templates/pages/login/reset_1.php:8
 #: ../../web/templates/pages/login/reset_3.php:7
 msgid "Forgot Password"
-msgstr "忘記密碼"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset_2.php:13
 msgid "Password reset code has been sent to your email address"
@@ -4017,16 +4009,16 @@ msgstr ""
 
 #: ../../web/templates/pages/login/reset_2.php:19
 msgid "Reset Code"
-msgstr "重設代碼"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset_2.php:24
 msgid "Confirm"
-msgstr "確認"
+msgstr ""
 
 #: ../../web/templates/pages/login/login_a.php:29
 #: ../../web/templates/pages/login/login.php:18
 msgid "Next"
-msgstr "下一步"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset2fa.php:8
 msgid "Account Unlocked"
@@ -4038,7 +4030,7 @@ msgstr ""
 
 #: ../../web/templates/pages/login/reset2fa.php:13
 msgid "Log in"
-msgstr "登入"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset2fa.php:21
 msgid "Unlock Account"
@@ -4046,28 +4038,28 @@ msgstr ""
 
 #: ../../web/templates/pages/login/reset2fa.php:31
 msgid "2FA Reset Code"
-msgstr "帳戶復原代碼"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset2fa.php:36
 #: ../../web/templates/pages/login/reset_1.php:23
 msgid "Submit"
-msgstr "送出"
+msgstr ""
 
 #: ../../web/templates/pages/login/login_1.php:8
 msgid "Welcome"
-msgstr "歡迎"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset_3.php:17
 msgid "New Password"
-msgstr "新密碼"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset_3.php:21
 msgid "Confirm Password"
-msgstr "確認密碼"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset_3.php:26
 msgid "Reset"
-msgstr "重設"
+msgstr ""
 
 #: ../../web/templates/pages/generate_ssl.php:35
 msgid "ISO 3166-1 alpha-2 two-letter code"
@@ -4075,11 +4067,11 @@ msgstr ""
 
 #: ../../web/templates/pages/generate_ssl.php:41
 msgid "State / Province"
-msgstr "州 / 省"
+msgstr ""
 
 #: ../../web/templates/pages/generate_ssl.php:47
 msgid "City / Locality"
-msgstr "市 / 地區"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:12
 msgid "White Label"
@@ -4087,39 +4079,39 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:74
 msgid "Time Zone"
-msgstr "時區"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:105
 msgid "Set as selected theme for all users"
-msgstr "設定為所有使用者的佈景主題"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:109
 msgid "Default Language"
-msgstr "預設語言"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:126
 msgid "Set as default language for all users"
-msgstr "設定為所有使用者的預設語言"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:146
 msgid "Release"
-msgstr "發佈號碼"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:153
 msgid "Options"
-msgstr "選項"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:164
 msgid "Enable debug mode"
-msgstr "啟動除錯模式"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:176
 msgid "Enable preview features"
-msgstr "啟動預覽功能"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:180
 msgid "View"
-msgstr "查看"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:193
 msgid "Send email notification when an update has been installed"
@@ -4132,19 +4124,19 @@ msgstr ""
 #: ../../web/templates/pages/edit_server.php:214
 #: ../../web/templates/pages/edit_server.php:230
 msgid "Web Server"
-msgstr "Web 伺服器"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:219
 msgid "Proxy Server"
-msgstr "Proxy 伺服器"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:241
 msgid "Backend Server"
-msgstr "Backend 伺服器"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:252
 msgid "Backend Pool Mode"
-msgstr "Backend Pool 模式"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:261
 msgid "Enabled PHP Versions"
@@ -4161,16 +4153,16 @@ msgstr ""
 #: ../../web/templates/pages/edit_server.php:321
 #: ../../web/templates/pages/edit_server.php:325
 msgid "DNS Server"
-msgstr "DNS 伺服器"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:334
 msgid "DNS Cluster"
-msgstr "DNS 叢集"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:366
 #: ../../web/templates/pages/edit_server.php:370
 msgid "Mail Server"
-msgstr "郵件伺服器"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:403
 msgid "Webmail Alias"
@@ -4182,7 +4174,7 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:495
 msgid "MySQL Support"
-msgstr "MySQL 支援"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:508
 msgid "phpMyAdmin Alias"
@@ -4190,11 +4182,11 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:520
 msgid "phpMyAdmin Single Sign On"
-msgstr "phpMyAdmin 單一簽入"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:526
 msgid "More info"
-msgstr "更多資訊"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:578
 #: ../../web/templates/pages/edit_server.php:636
@@ -4208,7 +4200,7 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:608
 msgid "PostgreSQL Support"
-msgstr "PostgreSQL 支援"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:619
 msgid "phpPgAdmin Alias"
@@ -4220,7 +4212,7 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:673
 msgid "Compression"
-msgstr "壓縮類型"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:693
 msgid "Compression Level"
@@ -4228,7 +4220,7 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:709
 msgid "zstd only"
-msgstr "僅支援 zstd"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:743
 msgid "Remote Backup"
@@ -4236,7 +4228,7 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:984
 msgid "Security"
-msgstr "安全性"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:996
 msgid "API"
@@ -4244,7 +4236,7 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1000
 msgid "Enable API access"
-msgstr "允許使用API"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1007
 msgid "Enabled for admin"
@@ -4260,79 +4252,79 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1030
 msgid "Allowed IP addresses for API"
-msgstr "允許存取API之IP列表"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1045
 msgid "Login screen style"
-msgstr "登入介面風格"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1052
 msgid "Old Style"
-msgstr "舊風格"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1058
 msgid "Allow users to reset their passwords"
-msgstr "允許使用者自行重設密碼"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1078
 msgid "Inactive session timeout"
-msgstr "閒置登入超時時間"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1090
 msgid "Prevent CSRF"
-msgstr "CSRF防範"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1104
 msgid "Strict"
-msgstr "嚴謹"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1112
 msgid "System Protection"
-msgstr "系統防護"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1120
 msgid "System Administrator account"
-msgstr "系統管理員帳號"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1124
 msgid "Restrict access to read-only for other administrators"
-msgstr "限制其他管理員之修改權限"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1141
 msgid "Hide account from other administrators"
-msgstr "限制其他管理員看到此帳號"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1158
 msgid "Do not allow other administrators to access Server Settings"
-msgstr "限制其他管理員存取伺服器設定"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1176
 msgid "Policies"
-msgstr "策略"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1188
 msgid "Allow users to edit their account details"
-msgstr "允許使用者編輯帳號詳細資料"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1205
 msgid "Allow users to change templates when editing web domains"
-msgstr "允許使用者自行編輯網站範本"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1218
 msgid "Allow users to change templates when editing DNS zones"
-msgstr "允許使用者自行編輯 DNS zones 範本"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1235
 msgid "Allow users to view action and login history logs"
-msgstr "允許使用者查看登入與作業紀錄"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1252
 msgid "Allow users to delete log history"
-msgstr "允許使用者刪除歷史紀錄"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1271
 msgid "Preview"
-msgstr "預覽"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1289
 msgid "Allow suspended users to create new backups"
@@ -4356,11 +4348,11 @@ msgstr ""
 #: ../../web/templates/includes/panel.php:323
 #: ../../web/templates/includes/panel.php:327
 msgid "Domains"
-msgstr "網域"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1343
 msgid "Enforce subdomain ownership"
-msgstr "確保子網域所有權"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1365
 msgid "Plugins"
@@ -4368,7 +4360,7 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1370
 msgid "Quick App Installer"
-msgstr "網站快速安裝器"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1383
 msgid "File Manager"
@@ -4407,7 +4399,7 @@ msgstr[0] ""
 
 #: ../../web/templates/pages/list_firewall_banlist.php:9
 msgid "Ban IP Address"
-msgstr "封鎖 IP"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_banlist.php:69
 #: ../../web/templates/pages/list_ip.php:117
@@ -4417,13 +4409,13 @@ msgstr ""
 
 #: ../../web/templates/pages/list_firewall_banlist.php:100
 msgid "There are currently no banned IP addresses."
-msgstr "目前沒有任何被禁止的IP地址。"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_banlist.php:102
 #, php-format
 msgid "%d banned IP address"
 msgid_plural "%d banned IP addresses"
-msgstr[0] "%d 條已禁止IP地址"
+msgstr[0] ""
 
 #: ../../web/templates/pages/list_ip.php:37
 #: ../../web/templates/pages/list_ip.php:72
@@ -4431,26 +4423,26 @@ msgstr[0] "%d 條已禁止IP地址"
 #: ../../web/templates/pages/list_search.php:53
 #: ../../web/templates/pages/list_search.php:161
 msgid "Owner"
-msgstr "擁有者"
+msgstr ""
 
 #: ../../web/templates/pages/list_ip.php:44
 msgid "Refresh IP Addresses"
-msgstr "重新整理IP地址"
+msgstr ""
 
 #: ../../web/templates/pages/list_ip.php:59
 #: ../../web/templates/pages/list_stats.php:81
 msgid "IP Addresses"
-msgstr "IP地址"
+msgstr ""
 
 #: ../../web/templates/pages/list_ip.php:154
 #, php-format
 msgid "%d IP address"
 msgid_plural "%d IP addresses"
-msgstr[0] "%d IP地址"
+msgstr[0] ""
 
 #: ../../web/templates/pages/list_stats.php:6
 msgid "Overall Statistics"
-msgstr "整理統計資料"
+msgstr ""
 
 #: ../../web/templates/pages/list_stats.php:14
 msgid "Show Per User"
@@ -4458,36 +4450,36 @@ msgstr ""
 
 #: ../../web/templates/pages/list_stats.php:161
 msgid "SSL Domains"
-msgstr "SSL 網域"
+msgstr ""
 
 #: ../../web/templates/pages/list_stats.php:235
 #, php-format
 msgid "%d month"
 msgid_plural "%d months"
-msgstr[0] "%d 個月"
+msgstr[0] ""
 
 #: ../../web/templates/pages/list_search.php:45
 #: ../../web/templates/pages/list_search.php:51
 #: ../../web/templates/pages/list_search.php:123
 msgid "Search Results"
-msgstr "搜尋結果"
+msgstr ""
 
 #: ../../web/templates/pages/list_search.php:185
 #, php-format
 msgid "%d object"
 msgid_plural "%d objects"
-msgstr[0] "%d 個結果"
+msgstr[0] ""
 
 #: ../../web/templates/pages/list_dns.php:25
 msgid "Expire"
-msgstr "過期"
+msgstr ""
 
 #: ../../web/templates/pages/list_dns.php:34
 #: ../../web/templates/pages/list_dns.php:80
 #: ../../web/templates/pages/list_dns.php:216
 #: ../../web/templates/includes/panel.php:311
 msgid "Records"
-msgstr "紀錄"
+msgstr ""
 
 #: ../../web/templates/pages/list_dns.php:84
 #: ../../web/templates/pages/list_dns.php:238
@@ -4498,30 +4490,30 @@ msgstr ""
 #, php-format
 msgid "%d DNS zone"
 msgid_plural "%d DNS zones"
-msgstr[0] "%d 個DNS網域"
+msgstr[0] ""
 
 #: ../../web/templates/pages/list_weblog.php:51
 #: ../../web/templates/pages/list_weblog.php:53
 msgid "Error Log"
-msgstr "錯誤日誌"
+msgstr ""
 
 #: ../../web/templates/pages/list_weblog.php:97
 #, php-format
 msgid "Last 70 lines of %s.%s.log"
-msgstr "%s.%s.log 的最後 70 行"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:29
 msgid "Logged in as"
-msgstr "目前登入身份"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:67
 #: ../../web/templates/includes/panel.php:75
 msgid "Notifications"
-msgstr "通知"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:86
 msgid "Loading..."
-msgstr "載入中..."
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:92
 #: ../../web/templates/includes/js.php:9
@@ -4530,22 +4522,22 @@ msgstr ""
 
 #: ../../web/templates/includes/panel.php:109
 msgid "Delete notification"
-msgstr "刪除通知"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:132
 #: ../../web/templates/includes/js.php:10
 msgid "Delete all notifications"
-msgstr "刪除所有通知"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:160
 #: ../../web/templates/includes/panel.php:162
 msgid "File manager"
-msgstr "檔案管理器"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:174
 #: ../../web/templates/includes/panel.php:176
 msgid "Server settings"
-msgstr "伺服器設定值"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:213
 #: ../../web/templates/includes/panel.php:215
@@ -4554,12 +4546,12 @@ msgstr ""
 
 #: ../../web/templates/includes/panel.php:249
 msgid "Collapse main menu"
-msgstr "收起主選單"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:249
 #: ../../web/templates/includes/panel.php:252
 msgid "Expand main menu"
-msgstr "展開主選單"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:267
 #: ../../web/templates/includes/panel.php:274
@@ -4569,11 +4561,11 @@ msgstr "展開主選單"
 #: ../../web/templates/includes/panel.php:342
 #: ../../web/templates/includes/panel.php:358
 msgid "Suspended"
-msgstr "停用"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:268
 msgid "USER"
-msgstr "使用者管理"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:285
 #: ../../web/templates/includes/panel.php:304
@@ -4582,7 +4574,7 @@ msgstr "使用者管理"
 #: ../../web/templates/includes/panel.php:358
 #: ../../web/templates/includes/panel.php:374
 msgid "Limit"
-msgstr "限額"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:308
 msgid "Zones"
@@ -4590,11 +4582,11 @@ msgstr ""
 
 #: ../../web/templates/includes/panel.php:359
 msgid "CRON"
-msgstr "任務排程"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:375
 msgid "BACKUP"
-msgstr "備份"
+msgstr ""
 
 #: ../../web/templates/includes/js.php:11
 msgid "Are you sure you want to leave the page?"
@@ -4602,7 +4594,7 @@ msgstr ""
 
 #: ../../web/templates/includes/js.php:13
 msgid "BLACKLIST"
-msgstr "黑名單"
+msgstr ""
 
 #: ../../web/templates/includes/js.php:14
 msgid "IPVERSE"
@@ -4619,16 +4611,16 @@ msgstr ""
 #: ../../web/login/index.php:142 ../../web/login/index.php:199
 #: ../../web/login/index.php:222 ../../web/login/index.php:246
 msgid "Invalid username or password"
-msgstr "無效的使用者名稱或密碼"
+msgstr ""
 
 #: ../../web/login/index.php:272 ../../web/login/index.php:287
 msgid "Invalid or missing 2FA token"
-msgstr "無效或缺少雙重驗證令牌"
+msgstr ""
 
 #: ../../web/start/service/index.php:23
 #, php-format
 msgid "Start \"%s\" failed"
-msgstr "啟動 \"%s\" 失敗"
+msgstr ""
 
 #: ../../web/schedule/backup/index.php:12
 msgid "Task has been added to the queue. You will receive an email notification when your backup is ready for download."
@@ -4649,7 +4641,7 @@ msgstr ""
 
 #: ../../bin/v-list-sys-hestia-updates:110
 msgid "Hestia core package"
-msgstr "Hestia核心方案"
+msgstr ""
 
 #: ../../bin/v-list-sys-hestia-updates:125
 msgid "Hestia internal php interpreter"
@@ -4661,23 +4653,23 @@ msgstr ""
 
 #: ../../bin/v-list-sys-services:161
 msgid "web server"
-msgstr "網站伺服器"
+msgstr ""
 
 #: ../../bin/v-list-sys-services:172
 msgid "backend server"
-msgstr "後端伺服器"
+msgstr ""
 
 #: ../../bin/v-list-sys-services:180
 msgid "reverse proxy"
-msgstr "反向代理"
+msgstr ""
 
 #: ../../bin/v-list-sys-services:189
 msgid "dns server"
-msgstr "dns伺服器"
+msgstr ""
 
 #: ../../bin/v-list-sys-services:196
 msgid "mail server"
-msgstr "郵件伺服器"
+msgstr ""
 
 #: ../../bin/v-list-sys-services:203
 msgid "imap/pop3 server"
@@ -4693,15 +4685,15 @@ msgstr ""
 
 #: ../../bin/v-list-sys-services:275
 msgid "database server"
-msgstr "資料庫伺服器"
+msgstr ""
 
 #: ../../bin/v-list-sys-services:284
 msgid "ftp server"
-msgstr "ftp伺服器"
+msgstr ""
 
 #: ../../bin/v-list-sys-services:291
 msgid "job scheduler"
-msgstr "任務排程"
+msgstr ""
 
 #: ../../bin/v-list-sys-services:298
 msgid "ssh server"
@@ -4709,7 +4701,7 @@ msgstr ""
 
 #: ../../bin/v-list-sys-services:308
 msgid "firewall"
-msgstr "防火牆"
+msgstr ""
 
 #: ../../bin/v-list-sys-services:323
 msgid "brute-force protection"
