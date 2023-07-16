@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-06 11:24+0000\n"
-"PO-Revision-Date: 2023-07-06 11:25\n"
+"PO-Revision-Date: 2023-07-16 13:00\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -14,56 +14,56 @@ msgstr ""
 "X-Crowdin-Project: hestiacp\n"
 "X-Crowdin-Project-ID: 587405\n"
 "X-Crowdin-Language: ar\n"
-"X-Crowdin-File: hestiacp.pot\n"
-"X-Crowdin-File-ID: 3\n"
+"X-Crowdin-File: /main/hestiacp.pot\n"
+"X-Crowdin-File-ID: 13\n"
 
 #: ../../web/stop/service/index.php:24
 #, php-format
 msgid "Stop \"%s\" failed"
-msgstr "فشل في إيقاف الخدمة \"%s\""
+msgstr ""
 
 #: ../../web/inc/main.php:166 ../../web/inc/main.php:175
 #: ../../web/generate/ssl/index.php:121
 #, php-format
 msgid "Error code: %s"
-msgstr "رمز الخطأ: %s"
+msgstr ""
 
 #: ../../web/inc/main.php:253 ../../web/inc/main.php:264
 msgid "You are logged out, please log in again."
-msgstr "لقد قمت بتسجيل الخروج ، يرجى تسجيل الدخول مرة أخرى."
+msgstr ""
 
 #: ../../web/inc/main.php:326
 #, php-format
 msgid "%d day"
 msgid_plural "%d days"
-msgstr[0] "%d يوم"
-msgstr[1] "%d يوم"
-msgstr[2] "%d يوم"
-msgstr[3] "%d يوم"
-msgstr[4] "%d يوم"
-msgstr[5] "%d يوم"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
 
 #: ../../web/inc/main.php:329
 #, php-format
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] "%d ساعة"
-msgstr[1] "%d ساعة"
-msgstr[2] "%d ساعة"
-msgstr[3] "%d ساعة"
-msgstr[4] "%d ساعة"
-msgstr[5] "%d ساعة"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
 
 #: ../../web/inc/main.php:333
 #, php-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] "%d دقيقة"
-msgstr[1] "%d دقيقة"
-msgstr[2] "%d دقيقة"
-msgstr[3] "%d دقائق"
-msgstr[4] "%d دقيقة"
-msgstr[5] "%d دقيقة"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
 
 #: ../../web/reset/index.php:60
 msgid "Hello {{name}},\n\n"
@@ -75,54 +75,41 @@ msgid "Hello {{name}},\n\n"
 "Best regards,\n\n"
 "--\n"
 "{{appname}}"
-msgstr "مرحبا {{name}},↵\n"
-"↵\n"
-"لإعادة تعيين كلمة مرور {{appname}}، يرجى اتباع هذا الرابط:↵\n"
-"https://{{hostname}}/reset/?action=confirm&user={{user}}&code={{resetcode}}↵\n"
-"↵\n"
-"بدلا من ذلك ، يمكنك الانتقال إلىhttps://{{hostname}}/reset/?action=code&user={{user}} وإدخال رمز إعادة التعيين التالي:↵\n"
-"{{resetcode}}↵\n"
-"↵\n"
-"إذا لم تطلب إعادة تعيين كلمة المرور، فيرجى تجاهل هذه الرسالة وقبول اعتذارنا.↵\n"
-"↵\n"
-"مع أطيب التحيات،↵\n"
-"↵\n"
-"--↵\n"
-"{{appname}}"
+msgstr ""
 
 #: ../../web/reset/index.php:84
 #, php-format
 msgid "Password Reset at %s"
-msgstr "إعادة تعيين كلمة المرور في %s"
+msgstr ""
 
 #: ../../web/reset/index.php:137 ../../web/reset/index.php:141
 #: ../../web/reset/index.php:146 ../../web/reset/index.php:155
 msgid "Password reset instructions have been sent to the email address associated with this account."
-msgstr "تم إرسال تعليمات إعادة تعيين كلمة المرور إلى عنوان البريد الإلكتروني المرتبط بهذا الحساب."
+msgstr ""
 
 #: ../../web/reset/index.php:150
 msgid "Please wait 15 minutes before sending a new request."
-msgstr "يرجى الانتظار لمدة 15 دقيقة قبل إرسال طلب جديد."
+msgstr ""
 
 #: ../../web/reset/index.php:187
 msgid "An internal error occurred"
-msgstr "حدث خطأ داخلي"
+msgstr ""
 
 #: ../../web/reset/index.php:195
 msgid "Code has been expired"
-msgstr "انتهت صلاحية الرمز"
+msgstr ""
 
 #: ../../web/reset/index.php:213 ../../web/reset/index.php:231
 msgid "Invalid username or code"
-msgstr "خطأ في اسم المستخدم أو في الكود"
+msgstr ""
 
 #: ../../web/reset/index.php:234
 msgid "Passwords do not match"
-msgstr "كلمات المرور غير متطابقة"
+msgstr ""
 
 #: ../../web/download/backup/index.php:20
 msgid "Download of remote backup file has been scheduled."
-msgstr "تمت جدولة تنزيل ملف النسخ الاحتياطي عن بعد."
+msgstr ""
 
 #: ../../web/download/backup/index.php:24 ../../web/unsuspend/mail/index.php:18
 #: ../../web/unsuspend/mail/index.php:45 ../../web/unsuspend/dns/index.php:18
@@ -130,7 +117,7 @@ msgstr "تمت جدولة تنزيل ملف النسخ الاحتياطي عن �
 #: ../../web/schedule/restore/index.php:70
 #: ../../web/schedule/backup/index.php:17
 msgid "Error: Hestia did not return any output."
-msgstr "خطأ: هيستيا لم يرجع أي إخراج."
+msgstr ""
 
 #: ../../web/edit/cron/index.php:89 ../../web/edit/db/index.php:100
 #: ../../web/edit/mail/index.php:736 ../../web/edit/mail/index.php:1166
@@ -163,13 +150,13 @@ msgstr "خطأ: هيستيا لم يرجع أي إخراج."
 #: ../../web/edit/server/httpd/index.php:44
 #: ../../web/edit/server/php-fpm/index.php:44
 msgid "Changes have been saved."
-msgstr "تم حفظ التغييرات."
+msgstr ""
 
 #: ../../web/edit/db/index.php:74 ../../web/edit/mail/index.php:775
 #: ../../web/edit/user/index.php:159 ../../web/add/db/index.php:55
 #: ../../web/add/mail/index.php:246 ../../web/add/user/index.php:56
 msgid "Password does not match the minimum requirements."
-msgstr "كلمة المرور لا تتطابق مع الحد الأدنى من المتطلبات."
+msgstr ""
 
 #: ../../web/edit/mail/index.php:598 ../../web/edit/web/index.php:860
 #: ../../web/edit/web/index.php:1081 ../../web/edit/web/index.php:1121
@@ -187,13 +174,13 @@ msgstr "كلمة المرور لا تتطابق مع الحد الأدنى من 
 #: ../../web/generate/ssl/index.php:67
 #, php-format
 msgid "Field \"%s\" can not be blank."
-msgstr "العنصر \"%s\" لا يمكن أن يبقى فارغا."
+msgstr ""
 
 #: ../../web/edit/mail/index.php:748 ../../web/edit/web/index.php:1170
 #: ../../web/edit/user/index.php:402 ../../web/add/db/index.php:48
 #: ../../web/add/mail/index.php:239 ../../web/add/user/index.php:50
 msgid "Please enter a valid email address."
-msgstr "الرجاء إدخال عنوان بريد إلكتروني صالح."
+msgstr ""
 
 #: ../../web/edit/mail/index.php:1098 ../../web/add/mail/index.php:438
 msgid "Mail account has been created.\n\n"
@@ -220,39 +207,16 @@ msgid "Mail account has been created.\n\n"
 "Best regards,\n\n"
 "--\n"
 "{{appname}}"
-msgstr "تم إنشاء حساب بريد.\n\n"
-"إعدادات الحساب الشائعة:\n"
-"اسم المستخدم: {{account}}@{{domain}}\n"
-"كلمة المرور:  {{password}}\n"
-"بريد الويب: {{webmail}}\n"
-"اسم المضيف: {{hostname}}\n\n"
-"إعدادات IMAP\n"
-"المصادقة: كلمة المرور العادية\n"
-"SSL/TLS: المنفذ 993\n"
-"ستارتلس: المنفذ 143 \n"
-"لا يوجد تشفير: المنفذ 143 \n\n"
-"إعدادات POP3\n"
-"المصادقة: كلمة المرور العادية\n"
-"SSL/TLS: المنفذ 995\n"
-"ستارتلس: المنفذ 110 \n"
-"لا يوجد تشفير: المنفذ 110 \n\n"
-"إعدادات SMTP\n"
-"المصادقة: كلمة المرور العادية\n"
-"SSL / TLS: المنفذ 465 \n"
-"STARTTLS: المنفذ 587 \n"
-"لا يوجد تشفير: المنفذ 25 \n\n"
-"مع أطيب التحيات،\n\n"
-"--\n"
-"{{appname}}"
+msgstr ""
 
 #: ../../web/edit/mail/index.php:1135 ../../web/add/mail/index.php:475
 #, php-format
 msgid "Email Credentials: %s@%s"
-msgstr "بيانات البريد الإلكتروني: %s@%s"
+msgstr ""
 
 #: ../../web/edit/dns/index.php:347
 msgid "Error: unknown record ID."
-msgstr "خطأ: معرف سجل غير معروف."
+msgstr ""
 
 #: ../../web/edit/web/index.php:1071 ../../web/edit/web/index.php:1111
 #: ../../web/edit/web/index.php:1327 ../../web/add/db/index.php:20
@@ -277,7 +241,7 @@ msgstr "خطأ: معرف سجل غير معروف."
 #: ../../web/templates/pages/edit_server.php:458
 #: ../../web/templates/pages/edit_server.php:805
 msgid "Username"
-msgstr "اسم المستخدم"
+msgstr ""
 
 #: ../../web/edit/web/index.php:1242 ../../web/edit/web/index.php:1390
 msgid "FTP account has been created and ready to use.\n\n"
@@ -287,22 +251,16 @@ msgid "FTP account has been created and ready to use.\n\n"
 "Best regards,\n\n"
 "--\n"
 "{{appname}}"
-msgstr "تم إنشاء حساب FTP وجاهز للاستخدام.\n\n"
-"اسم المضيف: {{domain}}\n"
-"اسم المستخدم: {{username}}\n"
-"كلمة المرور: {{password}}\n\n"
-"مع أطيب التحيات،\n\n"
-"--\n"
-"{{appname}}"
+msgstr ""
 
 #: ../../web/edit/web/index.php:1259 ../../web/edit/web/index.php:1407
 #, php-format
 msgid "FTP Account Credentials: %s"
-msgstr "بيانات اعتماد حساب FTP: %s"
+msgstr ""
 
 #: ../../web/edit/user/index.php:418
 msgid "Please enter a valid contact name."
-msgstr "الرجاء إدخال اسم جهة اتصال صالح."
+msgstr ""
 
 #: ../../web/edit/firewall/index.php:70 ../../web/add/firewall/index.php:42
 #: ../../web/templates/pages/add_firewall.php:28
@@ -312,7 +270,7 @@ msgstr "الرجاء إدخال اسم جهة اتصال صالح."
 #: ../../web/templates/pages/list_firewall.php:70
 #: ../../web/templates/pages/list_firewall.php:111
 msgid "Action"
-msgstr "إجراء"
+msgstr ""
 
 #: ../../web/edit/firewall/index.php:73 ../../web/add/firewall/index.php:45
 #: ../../web/templates/pages/add_firewall.php:35
@@ -322,7 +280,7 @@ msgstr "إجراء"
 #: ../../web/templates/pages/list_firewall.php:165
 #: ../../web/templates/pages/edit_server.php:749
 msgid "Protocol"
-msgstr "بروتوكول"
+msgstr ""
 
 #: ../../web/edit/firewall/index.php:76 ../../web/add/firewall/index.php:48
 #: ../../web/templates/pages/edit_mail.php:184
@@ -353,7 +311,7 @@ msgstr "بروتوكول"
 #: ../../web/templates/pages/edit_server.php:446
 #: ../../web/templates/pages/edit_server.php:793
 msgid "Port"
-msgstr "منفذ"
+msgstr ""
 
 #: ../../web/edit/firewall/index.php:79 ../../web/add/dns/index.php:25
 #: ../../web/add/web/index.php:20 ../../web/add/ip/index.php:23
@@ -381,7 +339,7 @@ msgstr "منفذ"
 #: ../../web/templates/pages/list_ip.php:94
 #: ../../web/templates/pages/list_dns.php:28
 msgid "IP Address"
-msgstr "عناوين الأي بي"
+msgstr ""
 
 #: ../../web/edit/package/index.php:137 ../../web/add/user/index.php:29
 #: ../../web/add/package/index.php:23
@@ -393,41 +351,41 @@ msgstr "عناوين الأي بي"
 #: ../../web/templates/pages/list_packages.php:54
 #: ../../web/templates/pages/list_packages.php:123
 msgid "Package"
-msgstr "حزمة الاستضافة"
+msgstr ""
 
 #: ../../web/edit/package/index.php:140 ../../web/add/package/index.php:26
 #: ../../web/templates/pages/edit_package.php:100
 #: ../../web/templates/pages/add_package.php:98
 #: ../../web/templates/pages/edit_web.php:266
 msgid "Web Template"
-msgstr "أباتشي نموذج"
+msgstr ""
 
 #: ../../web/edit/package/index.php:144 ../../web/add/package/index.php:30
 #: ../../web/templates/pages/edit_package.php:117
 #: ../../web/templates/pages/add_package.php:115
 #: ../../web/templates/pages/edit_web.php:303
 msgid "Backend Template"
-msgstr "Backend نموذج"
+msgstr ""
 
 #: ../../web/edit/package/index.php:149 ../../web/add/package/index.php:38
 #: ../../web/templates/pages/edit_package.php:135
 #: ../../web/templates/pages/add_package.php:134
 #: ../../web/templates/pages/edit_web.php:333
 msgid "Proxy Template"
-msgstr "Proxy نموذج"
+msgstr ""
 
 #: ../../web/edit/package/index.php:153 ../../web/add/package/index.php:45
 #: ../../web/templates/pages/edit_package.php:161
 #: ../../web/templates/pages/add_package.php:160
 msgid "DNS Template"
-msgstr "نموذج DNS"
+msgstr ""
 
 #: ../../web/edit/package/index.php:156 ../../web/add/package/index.php:48
 #: ../../web/templates/pages/list_packages.php:57
 #: ../../web/templates/pages/list_packages.php:58
 #: ../../web/templates/pages/list_packages.php:173
 msgid "Shell"
-msgstr "شل"
+msgstr ""
 
 #: ../../web/edit/package/index.php:159 ../../web/add/package/index.php:51
 #: ../../web/templates/pages/list_user.php:95
@@ -443,7 +401,7 @@ msgstr "شل"
 #: ../../web/templates/pages/edit_backup_exclusions.php:28
 #: ../../web/templates/pages/list_stats.php:145
 msgid "Web Domains"
-msgstr "نطاقات ويب"
+msgstr ""
 
 #: ../../web/edit/package/index.php:162 ../../web/add/package/index.php:54
 #: ../../web/templates/pages/edit_package.php:89
@@ -454,7 +412,7 @@ msgstr "نطاقات ويب"
 #: ../../web/templates/pages/add_package.php:87
 #: ../../web/templates/pages/list_stats.php:177
 msgid "Web Aliases"
-msgstr "الأسماء البديلة"
+msgstr ""
 
 #: ../../web/edit/package/index.php:165 ../../web/add/package/index.php:57
 #: ../../web/templates/pages/list_user.php:99
@@ -468,7 +426,7 @@ msgstr "الأسماء البديلة"
 #: ../../web/templates/pages/add_package.php:175
 #: ../../web/templates/pages/list_stats.php:193
 msgid "DNS Zones"
-msgstr "مناطق نظام أسماء النطاقات"
+msgstr ""
 
 #: ../../web/edit/package/index.php:168 ../../web/add/package/index.php:60
 #: ../../web/templates/pages/list_mail.php:201
@@ -489,7 +447,7 @@ msgstr "مناطق نظام أسماء النطاقات"
 #: ../../web/templates/pages/list_dns.php:182
 #: ../../web/templates/pages/list_dns.php:185
 msgid "DNS Records"
-msgstr "سجلات نظام أسماء النطاقات DNS"
+msgstr ""
 
 #: ../../web/edit/package/index.php:171 ../../web/add/package/index.php:63
 #: ../../web/templates/pages/list_mail.php:68
@@ -505,7 +463,7 @@ msgstr "سجلات نظام أسماء النطاقات DNS"
 #: ../../web/templates/pages/edit_backup_exclusions.php:32
 #: ../../web/templates/pages/list_stats.php:153
 msgid "Mail Domains"
-msgstr "نطاقات البريد"
+msgstr ""
 
 #: ../../web/edit/package/index.php:174 ../../web/add/package/index.php:66
 #: ../../web/templates/pages/list_mail.php:180
@@ -520,7 +478,7 @@ msgstr "نطاقات البريد"
 #: ../../web/templates/pages/add_package.php:264
 #: ../../web/templates/pages/list_stats.php:169
 msgid "Mail Accounts"
-msgstr "حسابات البريد"
+msgstr ""
 
 #: ../../web/edit/package/index.php:177 ../../web/add/package/index.php:84
 #: ../../web/templates/pages/edit_mail.php:64
@@ -529,7 +487,7 @@ msgstr "حسابات البريد"
 #: ../../web/templates/pages/add_package.php:275
 #: ../../web/templates/pages/add_mail_acc.php:106
 msgid "Rate Limit"
-msgstr "حد السرعة"
+msgstr ""
 
 #: ../../web/edit/package/index.php:180 ../../web/add/package/index.php:69
 #: ../../web/templates/pages/list_user.php:107
@@ -549,7 +507,7 @@ msgstr "حد السرعة"
 #: ../../web/templates/includes/panel.php:342
 #: ../../web/templates/includes/panel.php:346
 msgid "Databases"
-msgstr "قواعد البيانات"
+msgstr ""
 
 #: ../../web/edit/package/index.php:183 ../../web/add/package/index.php:72
 #: ../../web/templates/pages/edit_package.php:311
@@ -562,7 +520,7 @@ msgstr "قواعد البيانات"
 #: ../../web/templates/pages/list_cron.php:70
 #: ../../web/templates/pages/list_stats.php:201
 msgid "Cron Jobs"
-msgstr "الوظائق المجدولة"
+msgstr ""
 
 #: ../../web/edit/package/index.php:186 ../../web/add/package/index.php:75
 #: ../../web/templates/pages/list_backup.php:39
@@ -580,7 +538,7 @@ msgstr "الوظائق المجدولة"
 #: ../../web/templates/includes/panel.php:374
 #: ../../web/templates/includes/panel.php:378
 msgid "Backups"
-msgstr "نسخ احتياطية"
+msgstr ""
 
 #: ../../web/edit/package/index.php:189 ../../web/add/package/index.php:78
 #: ../../web/templates/pages/list_mail_acc.php:43
@@ -595,7 +553,7 @@ msgstr "نسخ احتياطية"
 #: ../../web/templates/pages/add_package.php:44
 #: ../../web/templates/pages/add_mail_acc.php:71
 msgid "Quota"
-msgstr "الحجم المخصص"
+msgstr ""
 
 #: ../../web/edit/package/index.php:192 ../../web/add/package/index.php:81
 #: ../../web/templates/pages/list_user.php:23
@@ -615,61 +573,61 @@ msgstr "الحجم المخصص"
 #: ../../web/templates/pages/list_stats.php:69
 #: ../../web/templates/includes/panel.php:42
 msgid "Bandwidth"
-msgstr "تبادل البيانات"
+msgstr ""
 
 #: ../../web/edit/package/index.php:198 ../../web/add/package/index.php:89
 msgid "Nameserver 1"
-msgstr "نيم سرفر 1"
+msgstr ""
 
 #: ../../web/edit/package/index.php:201 ../../web/add/package/index.php:92
 msgid "Nameserver 2"
-msgstr "نيم سرفر 2"
+msgstr ""
 
 #: ../../web/edit/server/cron/index.php:17
 #: ../../web/edit/server/crond/index.php:17
 msgid "Info (read-only mode): Crontab can only be edited via SSH."
-msgstr "المعلومات (وضع القراءة فقط): لا يمكن تحرير مجدول الأعمال Crontab إلا عبر SSH."
+msgstr ""
 
 #: ../../web/edit/server/index.php:1191
 msgid "Inactive session timeout can not lower than 1 minute."
-msgstr "مهلة الجلسة غير النشطة لا يمكن أن تقل عن دقيقة واحدة."
+msgstr ""
 
 #: ../../web/delete/web/cache/index.php:20
 msgid "NGINX cache has been purged successfully."
-msgstr "تم تنظيف ذاكرة التخزين المؤقت NGINX بنجاح."
+msgstr ""
 
 #: ../../web/src/app/WebApp/AppWizard.php:113
 msgid "Unable to add database! Limit reached!"
-msgstr "غير قادر على إضافة قاعدة بيانات! تم الوصول إلى حد حسابك!"
+msgstr ""
 
 #: ../../web/src/app/System/HestiaApp.php:218
 msgid "Unable to add database!"
-msgstr "غير قادر على إضافة قاعدة بيانات!"
+msgstr ""
 
 #: ../../web/restart/service/index.php:23
 #, php-format
 msgid "Restart \"%s\" failed"
-msgstr "فشل إعادة تشغيل \"%s\""
+msgstr ""
 
 #: ../../web/restart/system/index.php:26 ../../web/bulk/service/index.php:31
 msgid "The system is going down for reboot NOW!"
-msgstr "النظام سيتم إعادة تشغيلة الآن!"
+msgstr ""
 
 #: ../../web/bulk/cron/index.php:27 ../../web/bulk/cron/index.php:52
 msgid "Cron job email reporting has been successfully disabled."
-msgstr "تم تعطيل إعداد جدولة تقارير البريد الإلكتروني بنجاح."
+msgstr ""
 
 #: ../../web/bulk/cron/index.php:35 ../../web/bulk/cron/index.php:60
 msgid "Cron job email reporting has been successfully enabled."
-msgstr "تم تمكين إعداد جدولة تقارير البريد الإلكتروني بنجاح."
+msgstr ""
 
 #: ../../web/bulk/restore/index.php:64 ../../web/schedule/restore/index.php:65
 msgid "Task has been added to the queue. You will receive an email notification when your restore has been completed."
-msgstr "تمت إضافة المهمة إلى قائمة الانتظار. ستتلقى إشعارا بالبريد الإلكتروني عند اكتمال الاستعادة."
+msgstr ""
 
 #: ../../web/bulk/restore/index.php:73 ../../web/schedule/restore/index.php:74
 msgid "An existing restoration task is already running. Please wait for it to finish before launching it again."
-msgstr "مهمة استعادة البيانات قيد التشغيل. يرجى الانتظار حتى ينتهي قبل إطلاق مهمة استعادة مرة أخرى."
+msgstr ""
 
 #: ../../web/add/cron/index.php:17 ../../web/templates/pages/edit_cron.php:34
 #: ../../web/templates/pages/edit_cron.php:102
@@ -684,7 +642,7 @@ msgstr "مهمة استعادة البيانات قيد التشغيل. يرجى
 #: ../../web/templates/pages/add_cron.php:233
 #: ../../web/templates/pages/add_cron.php:345
 msgid "Minute"
-msgstr "دقيقة"
+msgstr ""
 
 #: ../../web/add/cron/index.php:20 ../../web/templates/pages/edit_cron.php:38
 #: ../../web/templates/pages/edit_cron.php:134
@@ -697,7 +655,7 @@ msgstr "دقيقة"
 #: ../../web/templates/pages/add_cron.php:206
 #: ../../web/templates/pages/add_cron.php:318
 msgid "Hour"
-msgstr "ساعة"
+msgstr ""
 
 #: ../../web/add/cron/index.php:23 ../../web/templates/pages/edit_cron.php:42
 #: ../../web/templates/pages/edit_cron.php:284
@@ -706,21 +664,21 @@ msgstr "ساعة"
 #: ../../web/templates/pages/add_cron.php:42
 #: ../../web/templates/pages/add_cron.php:284
 msgid "Day"
-msgstr "يوم"
+msgstr ""
 
 #: ../../web/add/cron/index.php:26 ../../web/templates/pages/edit_cron.php:46
 #: ../../web/templates/pages/list_cron.php:82
 #: ../../web/templates/pages/list_cron.php:180
 #: ../../web/templates/pages/add_cron.php:46
 msgid "Month"
-msgstr "شهر"
+msgstr ""
 
 #: ../../web/add/cron/index.php:29 ../../web/templates/pages/edit_cron.php:50
 #: ../../web/templates/pages/list_cron.php:83
 #: ../../web/templates/pages/list_cron.php:184
 #: ../../web/templates/pages/add_cron.php:50
 msgid "Day of Week"
-msgstr "يوم من أيام الأسبوع"
+msgstr ""
 
 #: ../../web/add/cron/index.php:32 ../../web/templates/pages/edit_cron.php:28
 #: ../../web/templates/pages/list_cron.php:25
@@ -729,18 +687,18 @@ msgstr "يوم من أيام الأسبوع"
 #: ../../web/templates/pages/list_cron.php:116
 #: ../../web/templates/pages/add_cron.php:28
 msgid "Command"
-msgstr "أمر"
+msgstr ""
 
 #: ../../web/add/cron/index.php:80
 msgid "Cron job has been created successfully."
-msgstr "تم إنشاء وظيفة Cron بنجاح."
+msgstr ""
 
 #: ../../web/add/db/index.php:17
 #: ../../web/templates/pages/list_backup_detail.php:179
 #: ../../web/templates/pages/add_db.php:51
 #: ../../web/templates/pages/edit_db.php:28
 msgid "Database"
-msgstr "قاعدة البيانات"
+msgstr ""
 
 #: ../../web/add/db/index.php:23 ../../web/add/mail/index.php:222
 #: ../../web/add/user/index.php:26 ../../web/templates/pages/edit_mail.php:192
@@ -762,7 +720,7 @@ msgstr "قاعدة البيانات"
 #: ../../web/templates/pages/edit_server.php:565
 #: ../../web/templates/pages/edit_server.php:817
 msgid "Password"
-msgstr "كلمة المرور"
+msgstr ""
 
 #: ../../web/add/db/index.php:26 ../../web/add/dns/index.php:226
 #: ../../web/templates/pages/list_backup.php:50
@@ -795,7 +753,7 @@ msgstr "كلمة المرور"
 #: ../../web/templates/pages/list_search.php:173
 #: ../../web/templates/pages/edit_dns_rec.php:39
 msgid "Type"
-msgstr "نوع"
+msgstr ""
 
 #: ../../web/add/db/index.php:29 ../../web/templates/pages/edit_mail.php:180
 #: ../../web/templates/pages/add_mail.php:103
@@ -809,7 +767,7 @@ msgstr "نوع"
 #: ../../web/templates/pages/edit_server.php:781
 #: ../../web/templates/pages/edit_server.php:883
 msgid "Host"
-msgstr "مضيف"
+msgstr ""
 
 #: ../../web/add/db/index.php:32 ../../web/templates/pages/add_db.php:120
 #: ../../web/templates/pages/list_db.php:50
@@ -817,7 +775,7 @@ msgstr "مضيف"
 #: ../../web/templates/pages/list_db.php:255
 #: ../../web/templates/pages/edit_db.php:69
 msgid "Charset"
-msgstr "تنسيق النص"
+msgstr ""
 
 #: ../../web/add/db/index.php:150
 msgid "Database has been created.\n\n"
@@ -833,12 +791,12 @@ msgstr ""
 #: ../../web/add/db/index.php:168
 #, php-format
 msgid "Database Credentials: %s"
-msgstr "بيانات الدخول لقاعدة البيانات: %s"
+msgstr ""
 
 #: ../../web/add/db/index.php:199
 #, php-format
 msgid "Database {%s} has been created successfully. / {Open %s}"
-msgstr "قاعدة البيانات {%s} تم إنشاؤها بنجاح.  / {Open %s}"
+msgstr ""
 
 #: ../../web/add/mail/index.php:39 ../../web/add/mail/index.php:215
 #: ../../web/add/dns/index.php:22 ../../web/add/dns/index.php:220
@@ -854,28 +812,28 @@ msgstr "قاعدة البيانات {%s} تم إنشاؤها بنجاح.  / {Ope
 #: ../../web/templates/pages/generate_ssl.php:18
 #: ../../web/templates/pages/edit_dns_rec.php:28
 msgid "Domain"
-msgstr "النطاق (الدومين)"
+msgstr ""
 
 #: ../../web/add/mail/index.php:189
 #, php-format
 msgid "Mail domain {%s} has been created successfully."
-msgstr "تم إنشاء مجال البريد {%s} بنجاح."
+msgstr ""
 
 #: ../../web/add/mail/index.php:218
 #: ../../web/templates/pages/edit_mail_acc.php:38
 #: ../../web/templates/pages/add_mail_acc.php:42
 msgid "Account"
-msgstr "حساب"
+msgstr ""
 
 #: ../../web/add/mail/index.php:508
 #, php-format
 msgid "Mail account {%s@%s} has been created successfully."
-msgstr "تم إنشاء حساب البريد {%s@%s} بنجاح."
+msgstr ""
 
 #: ../../web/add/dns/index.php:199
 #, php-format
 msgid "DNS zone {%s} has been created successfully."
-msgstr "تم إنشاء منطقة DNS {%s} بنجاح."
+msgstr ""
 
 #: ../../web/add/dns/index.php:223
 #: ../../web/templates/pages/list_mail_dns.php:24
@@ -892,7 +850,7 @@ msgstr "تم إنشاء منطقة DNS {%s} بنجاح."
 #: ../../web/templates/pages/add_dns_rec.php:33
 #: ../../web/templates/pages/edit_dns_rec.php:33
 msgid "Record"
-msgstr "سجل"
+msgstr ""
 
 #: ../../web/add/dns/index.php:229
 #: ../../web/templates/pages/list_mail_dns.php:28
@@ -908,43 +866,43 @@ msgstr "سجل"
 #: ../../web/templates/pages/add_dns_rec.php:58
 #: ../../web/templates/pages/edit_dns_rec.php:59
 msgid "IP or Value"
-msgstr "عنوان IP أو القيمة"
+msgstr ""
 
 #: ../../web/add/dns/index.php:280
 #, php-format
 msgid "Record {%s.%s} has been created successfully."
-msgstr "تم إنشاء السجل {%s.%s} بنجاح."
+msgstr ""
 
 #: ../../web/add/web/index.php:128
 #, php-format
 msgid "Domain {%s} has been created successfully."
-msgstr "تم إنشاء النطاق {%s} بنجاح."
+msgstr ""
 
 #: ../../web/add/access-key/index.php:40
 #: ../../web/templates/pages/list_access_key.php:46
 #: ../../web/templates/pages/add_access_key.php:26
 msgid "Permissions"
-msgstr "الصلاحيات"
+msgstr ""
 
 #: ../../web/add/access-key/index.php:79
 #, php-format
 msgid "Access key {%s} has been created successfully."
-msgstr "تم إنشاء مفتاح الوصول {%s} بنجاح."
+msgstr ""
 
 #: ../../web/add/webapp/index.php:58
 #, php-format
 msgid "Unable to install %s, %s is not available."
-msgstr "غير قادر على تثبيت %s ، %s غير متوفر."
+msgstr ""
 
 #: ../../web/add/webapp/index.php:73
 #, php-format
 msgid "%s installer missing."
-msgstr "%s المثبت مفقود."
+msgstr ""
 
 #: ../../web/add/webapp/index.php:91
 #, php-format
 msgid "%s installed successfully."
-msgstr "%s تم التثبيت بنجاح."
+msgstr ""
 
 #: ../../web/add/ip/index.php:26 ../../web/templates/pages/add_ip.php:39
 #: ../../web/templates/pages/edit_ip.php:40
@@ -952,7 +910,7 @@ msgstr "%s تم التثبيت بنجاح."
 #: ../../web/templates/pages/list_ip.php:68
 #: ../../web/templates/pages/list_ip.php:126
 msgid "Netmask"
-msgstr "قناع الشبكة"
+msgstr ""
 
 #: ../../web/add/ip/index.php:29 ../../web/templates/pages/add_ip.php:43
 #: ../../web/templates/pages/edit_ip.php:44
@@ -960,17 +918,17 @@ msgstr "قناع الشبكة"
 #: ../../web/templates/pages/list_ip.php:69
 #: ../../web/templates/pages/list_ip.php:130
 msgid "Interface"
-msgstr "واجهة"
+msgstr ""
 
 #: ../../web/add/ip/index.php:32 ../../web/templates/pages/add_ip.php:62
 #: ../../web/templates/pages/edit_ip.php:55
 msgid "Assigned User"
-msgstr "المستخدم المعين"
+msgstr ""
 
 #: ../../web/add/ip/index.php:93
 #, php-format
 msgid "IP address {%s} has been created successfully."
-msgstr "تم إنشاء عنوان IP {%s} بنجاح."
+msgstr ""
 
 #: ../../web/add/user/index.php:32 ../../web/templates/pages/list_user.php:166
 #: ../../web/templates/pages/add_user.php:43
@@ -978,12 +936,12 @@ msgstr "تم إنشاء عنوان IP {%s} بنجاح."
 #: ../../web/templates/pages/login/reset_1.php:18
 #: ../../web/templates/pages/generate_ssl.php:27
 msgid "Email"
-msgstr "البريد الالكتروني"
+msgstr ""
 
 #: ../../web/add/user/index.php:35 ../../web/templates/pages/add_user.php:39
 #: ../../web/templates/pages/edit_user.php:69
 msgid "Contact Name"
-msgstr "اسم جهة الاتصال"
+msgstr ""
 
 #: ../../web/add/user/index.php:156
 msgid "Hello {{name}},\n\n"
@@ -994,26 +952,19 @@ msgid "Hello {{name}},\n\n"
 "Best regards,\n\n"
 "--\n"
 "{{appname}}"
-msgstr "مرحبا {{name}} ،\n\n"
-"تم إنشاء حسابك وجاهز للاستخدام.\n\n"
-"https://{{hostname}}/login/\n"
-"اسم المستخدم: {{user}}\n"
-"كلمة المرور: {{password}}\n\n"
-"مع خالص تحياتي\n\n"
-"--\n"
-"{{appname}}"
+msgstr ""
 
 #: ../../web/add/user/index.php:175
 #: ../../web/templates/pages/login/login_a.php:8
 #: ../../web/templates/pages/login/login.php:8
 #, php-format
 msgid "Welcome to %s"
-msgstr "مرحبا بكم في %s"
+msgstr ""
 
 #: ../../web/add/user/index.php:227
 #, php-format
 msgid "User {%s} has been created successfully. / {Log in as %s}"
-msgstr "تم إنشاء المستخدم {%s} بنجاح.{تسجيل الدخول باسم%s}"
+msgstr ""
 
 #: ../../web/add/firewall/ipset/index.php:23
 #: ../../web/templates/pages/list_mail.php:16
@@ -1046,154 +997,154 @@ msgstr "تم إنشاء المستخدم {%s} بنجاح.{تسجيل الدخو�
 #: ../../web/templates/pages/list_dns.php:78
 #: ../../web/templates/pages/list_dns.php:135
 msgid "Name"
-msgstr "اسم"
+msgstr ""
 
 #: ../../web/add/firewall/ipset/index.php:26
 #: ../../web/templates/pages/add_firewall_ipset.php:76
 msgid "Data Source"
-msgstr "مصدر البيانات"
+msgstr ""
 
 #: ../../web/add/firewall/ipset/index.php:29
 #: ../../web/templates/pages/list_firewall_ipset.php:40
 #: ../../web/templates/pages/list_firewall_ipset.php:84
 #: ../../web/templates/pages/add_firewall_ipset.php:92
 msgid "IP Version"
-msgstr "نسخة IP"
+msgstr ""
 
 #: ../../web/add/firewall/ipset/index.php:32
 #: ../../web/templates/pages/list_firewall_ipset.php:39
 #: ../../web/templates/pages/list_firewall_ipset.php:76
 #: ../../web/templates/pages/add_firewall_ipset.php:99
 msgid "Auto Update"
-msgstr "التحديث التلقائي"
+msgstr ""
 
 #: ../../web/add/firewall/ipset/index.php:72
 msgid "IP list has been created successfully."
-msgstr "تم إنشاء قائمة IP بنجاح."
+msgstr ""
 
 #: ../../web/add/firewall/index.php:97
 msgid "Rule has been created successfully."
-msgstr "تم إنشاء القاعدة جدار الحماية بنجاح."
+msgstr ""
 
 #: ../../web/add/firewall/banlist/index.php:23
 #: ../../web/templates/pages/add_firewall_banlist.php:34
 msgid "Banlist"
-msgstr "قائمة الحجب"
+msgstr ""
 
 #: ../../web/add/firewall/banlist/index.php:52
 msgid "IP address has been banned successfully."
-msgstr "تم حظر عنوان بروتوكول الإنترنت IP بنجاح."
+msgstr ""
 
 #: ../../web/add/package/index.php:202
 #, php-format
 msgid "Package {%s} has been created successfully."
-msgstr "تم إنشاء الحزمة {%s} بنجاح."
+msgstr ""
 
 #: ../../web/add/key/index.php:18 ../../web/templates/pages/list_key.php:30
 #: ../../web/templates/pages/list_key.php:67
 #: ../../web/templates/pages/add_key.php:34
 msgid "SSH Key"
-msgstr "مفتاح بروتوكول النقل الآمن SSH"
+msgstr ""
 
 #: ../../web/add/key/index.php:58 ../../web/add/key/index.php:61
 msgid "SSH Key already exists."
-msgstr "مفتاح بروتوكول النقل الآمن SSH موجود بالفعل."
+msgstr ""
 
 #: ../../web/add/key/index.php:74
 msgid "SSH Key has been created successfully."
-msgstr "تم إنشاء مفتاح SSH بنجاح."
+msgstr ""
 
 #: ../../web/generate/ssl/index.php:39
 #: ../../web/templates/pages/add_firewall_ipset.php:49
 #: ../../web/templates/pages/generate_ssl.php:34
 msgid "Country"
-msgstr "البلد"
+msgstr ""
 
 #: ../../web/generate/ssl/index.php:42
 msgid "State"
-msgstr "الولاية"
+msgstr ""
 
 #: ../../web/generate/ssl/index.php:45
 msgid "City"
-msgstr "المدينة"
+msgstr ""
 
 #: ../../web/generate/ssl/index.php:48
 #: ../../web/templates/pages/generate_ssl.php:53
 msgid "Organization"
-msgstr "مؤسسة"
+msgstr ""
 
 #: ../../web/generate/ssl/index.php:130
 msgid "Certificate has been generated successfully."
-msgstr "تم إنشاء الشهادة بنجاح."
+msgstr ""
 
 #: ../../web/templates/footer.php:23 ../../web/templates/footer.php:59
 #: ../../web/templates/footer.php:62
 msgid "Shortcuts"
-msgstr "اختصارات"
+msgstr ""
 
 #: ../../web/templates/footer.php:33
 msgid "Add new object"
-msgstr "إضافة كائن جديد"
+msgstr ""
 
 #: ../../web/templates/footer.php:34
 msgid "Save form"
-msgstr "حفظ النموذج"
+msgstr ""
 
 #: ../../web/templates/footer.php:35
 msgid "Unsave form"
-msgstr "نموذج إلغاء الحفظ"
+msgstr ""
 
 #: ../../web/templates/footer.php:36
 msgid "Go to WEB list"
-msgstr "إذهب إلى قائمة الويب"
+msgstr ""
 
 #: ../../web/templates/footer.php:37
 msgid "Go to DNS list"
-msgstr "إذهب إلى قائمة DNS"
+msgstr ""
 
 #: ../../web/templates/footer.php:38
 msgid "Go to MAIL list"
-msgstr "إذهب إلى قائمة البريد"
+msgstr ""
 
 #: ../../web/templates/footer.php:39
 msgid "Go to DB list"
-msgstr "إذهب إلى قائمة قواعد البيانات"
+msgstr ""
 
 #: ../../web/templates/footer.php:40
 msgid "Go to CRON list"
-msgstr "إذهب إلى قائمة مجدول الأعمال"
+msgstr ""
 
 #: ../../web/templates/footer.php:41
 msgid "Go to BACKUP list"
-msgstr "إذهب إلى قائمة النسخ الاحتياطي"
+msgstr ""
 
 #: ../../web/templates/footer.php:44
 msgid "Focus on search"
-msgstr "ضع التحديد على البحث"
+msgstr ""
 
 #: ../../web/templates/footer.php:45
 msgid "Display / Hide shortcuts"
-msgstr "عرض أو إخفاء الاختصارات"
+msgstr ""
 
 #: ../../web/templates/footer.php:46
 msgid "Move backward through top menu"
-msgstr "التحرك للخلف في القائمة العلوية"
+msgstr ""
 
 #: ../../web/templates/footer.php:47
 msgid "Move forward through top menu"
-msgstr "التحرك للأمام في القائمة العلوية"
+msgstr ""
 
 #: ../../web/templates/footer.php:48
 msgid "Enter focused element"
-msgstr "إذهب إلى العنصر المحدد"
+msgstr ""
 
 #: ../../web/templates/footer.php:49
 msgid "Move up through elements list"
-msgstr "انتقل للأعلى خلال لائحة العناصر"
+msgstr ""
 
 #: ../../web/templates/footer.php:50
 msgid "Move down through elements list"
-msgstr "انتقل للأسفل خلال لائحة العناصر"
+msgstr ""
 
 #: ../../web/templates/footer.php:68 ../../web/templates/footer.php:71
 #: ../../web/templates/pages/list_server_info.php:116
@@ -1201,7 +1152,7 @@ msgstr "انتقل للأسفل خلال لائحة العناصر"
 #: ../../web/templates/pages/list_weblog.php:90
 #: ../../web/templates/pages/list_weblog.php:93
 msgid "Top"
-msgstr "العلوي"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:6
 #: ../../web/templates/pages/list_updates.php:6
@@ -1277,11 +1228,11 @@ msgstr "العلوي"
 #: ../../web/templates/pages/list_weblog.php:35
 #: ../../web/templates/pages/edit_dns_rec.php:6
 msgid "Back"
-msgstr "رجوع"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:9
 msgid "Add IP list"
-msgstr "أضف قائمة IP"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:16
 #: ../../web/templates/pages/list_firewall_ipset.php:19
@@ -1319,7 +1270,7 @@ msgstr "أضف قائمة IP"
 #: ../../web/templates/pages/list_dns.php:41
 #: ../../web/templates/pages/list_dns.php:49
 msgid "Apply to selected"
-msgstr "تنطبق على محدد"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:17
 #: ../../web/templates/pages/list_firewall_ipset.php:65
@@ -1397,12 +1348,12 @@ msgstr "تنطبق على محدد"
 #: ../../web/templates/pages/list_dns.php:205
 #: ../../web/templates/pages/list_dns.php:209
 msgid "Delete"
-msgstr "حذف"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:30
 #: ../../web/templates/pages/list_firewall.php:17
 msgid "IPset IP Lists"
-msgstr "قوائم بروتوكول الإنترنت IP"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:35
 #: ../../web/templates/pages/list_mail.php:73
@@ -1422,13 +1373,13 @@ msgstr "قوائم بروتوكول الإنترنت IP"
 #: ../../web/templates/pages/list_ip.php:64
 #: ../../web/templates/pages/list_dns.php:76
 msgid "Select all"
-msgstr "حدد الكل"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:37
 #: ../../web/templates/pages/list_firewall_ipset.php:56
 #: ../../web/templates/pages/add_firewall_ipset.php:71
 msgid "IP List Name"
-msgstr "اسم قائمة IP"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:41
 #: ../../web/templates/pages/list_firewall_ipset.php:88
@@ -1470,7 +1421,7 @@ msgstr "اسم قائمة IP"
 #: ../../web/templates/pages/list_dns.php:16
 #: ../../web/templates/pages/list_dns.php:22
 msgid "Date"
-msgstr "التاريخ"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:42
 #: ../../web/templates/pages/list_firewall_ipset.php:92
@@ -1483,7 +1434,7 @@ msgstr "التاريخ"
 #: ../../web/templates/pages/list_firewall_banlist.php:40
 #: ../../web/templates/pages/list_firewall_banlist.php:82
 msgid "Time"
-msgstr "زمن"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:51
 #: ../../web/templates/pages/list_firewall_ipset.php:52
@@ -1524,12 +1475,12 @@ msgstr "زمن"
 #: ../../web/templates/pages/list_dns.php:130
 #: ../../web/templates/pages/list_dns.php:131
 msgid "Select"
-msgstr "تحديد"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:67
 #, php-format
 msgid "Are you sure you want to delete IP list %s?"
-msgstr "هل أنت متأكد من أنك تريد حذف قائمة IP %s؟"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:78
 #: ../../web/templates/pages/list_mail.php:101
@@ -1556,7 +1507,7 @@ msgstr "هل أنت متأكد من أنك تريد حذف قائمة IP %s؟"
 #: ../../web/templates/pages/list_dns.php:101
 #: ../../web/templates/pages/list_dns.php:115
 msgid "Disabled"
-msgstr "تعطيل"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:80
 #: ../../web/templates/pages/list_mail.php:104
@@ -1580,55 +1531,55 @@ msgstr "تعطيل"
 #: ../../web/templates/pages/list_dns.php:104
 #: ../../web/templates/pages/list_dns.php:118
 msgid "Enabled"
-msgstr "تمكين"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:106
 msgid "There are currently no IP lists defined."
-msgstr "لا توجد قوائم IP محددة حاليًا."
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:108
 #, php-format
 msgid "%d IP list"
 msgid_plural "%d IP lists"
-msgstr[0] "%d قائمة بروتوكولات الإنترنت"
-msgstr[1] "قائمة بروتوكولات الإنترنت"
-msgstr[2] "قائمتا بروتوكولات الإنترنت"
-msgstr[3] "%d قوائم بروتوكولات الإنترنت"
-msgstr[4] "%d قائمة بروتوكولات الإنترنت"
-msgstr[5] "%d قائمة بروتوكولات الإنترنت"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
 
 #: ../../web/templates/pages/list_updates.php:12
 msgid "Disable Automatic Updates"
-msgstr "تعطيل التحديثات التلقائية"
+msgstr ""
 
 #: ../../web/templates/pages/list_updates.php:16
 msgid "Enable Automatic Updates"
-msgstr "تمكين التحديثات التلقائية"
+msgstr ""
 
 #: ../../web/templates/pages/list_updates.php:29
 #: ../../web/templates/pages/list_services.php:12
 #: ../../web/templates/pages/edit_server.php:135
 msgid "Updates"
-msgstr "تحديثات"
+msgstr ""
 
 #: ../../web/templates/pages/list_updates.php:33
 #: ../../web/templates/pages/list_updates.php:54
 msgid "Package Names"
-msgstr "أسماء الحزم"
+msgstr ""
 
 #: ../../web/templates/pages/list_updates.php:34
 #: ../../web/templates/pages/list_updates.php:58
 #: ../../web/templates/pages/list_services.php:101
 #: ../../web/templates/pages/list_services.php:192
 msgid "Description"
-msgstr "وصف"
+msgstr ""
 
 #: ../../web/templates/pages/list_updates.php:35
 #: ../../web/templates/pages/list_updates.php:62
 #: ../../web/templates/pages/list_webapps.php:27
 #: ../../web/templates/pages/edit_server.php:139
 msgid "Version"
-msgstr "إصدار"
+msgstr ""
 
 #: ../../web/templates/pages/list_updates.php:36
 #: ../../web/templates/pages/list_updates.php:66
@@ -1640,12 +1591,12 @@ msgstr "إصدار"
 #: ../../web/templates/pages/list_search.php:50
 #: ../../web/templates/pages/list_search.php:114
 msgid "Status"
-msgstr "حالة"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:7
 #: ../../web/templates/pages/add_mail.php:32
 msgid "Add Mail Domain"
-msgstr "إضافة نطاق للبريد"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:13
 #: ../../web/templates/pages/list_user.php:14
@@ -1661,7 +1612,7 @@ msgstr "إضافة نطاق للبريد"
 #: ../../web/templates/pages/list_search.php:14
 #: ../../web/templates/pages/list_dns.php:13
 msgid "Sort items"
-msgstr "فرز العناصر"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:14
 #: ../../web/templates/pages/list_user.php:15
@@ -1677,14 +1628,14 @@ msgstr "فرز العناصر"
 #: ../../web/templates/pages/list_search.php:15
 #: ../../web/templates/pages/list_dns.php:14
 msgid "Sort by"
-msgstr "ترتيب حسب"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:22
 #: ../../web/templates/pages/list_mail.php:77
 #: ../../web/templates/pages/list_mail.php:296
 #: ../../web/templates/includes/panel.php:330
 msgid "Accounts"
-msgstr "حسابات"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:28
 #: ../../web/templates/pages/list_mail.php:78
@@ -1706,13 +1657,13 @@ msgstr "حسابات"
 #: ../../web/templates/pages/list_stats.php:93
 #: ../../web/templates/includes/panel.php:35
 msgid "Disk"
-msgstr "التخزين"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:40
 #: ../../web/templates/pages/list_user.php:42
 #: ../../web/templates/pages/list_db.php:74
 msgid "Rebuild All"
-msgstr "إعادة بناء الكل"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:42
 #: ../../web/templates/pages/list_mail.php:130
@@ -1730,7 +1681,7 @@ msgstr "إعادة بناء الكل"
 #: ../../web/templates/pages/list_dns.php:45
 #: ../../web/templates/pages/list_dns.php:109
 msgid "Suspend"
-msgstr "تعليق"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:43
 #: ../../web/templates/pages/list_mail.php:95
@@ -1748,7 +1699,7 @@ msgstr "تعليق"
 #: ../../web/templates/pages/list_dns.php:46
 #: ../../web/templates/pages/list_dns.php:95
 msgid "Unsuspend"
-msgstr "إلغاء التعليق"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:55
 #: ../../web/templates/pages/list_mail.php:56
@@ -1779,7 +1730,7 @@ msgstr "إلغاء التعليق"
 #: ../../web/templates/pages/list_dns.php:58
 #: ../../web/templates/pages/list_dns.php:59
 msgid "Search"
-msgstr "بحث"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:79
 #: ../../web/templates/pages/list_mail.php:316
@@ -1787,7 +1738,7 @@ msgstr "بحث"
 #: ../../web/templates/pages/add_mail.php:85
 #: ../../web/templates/pages/edit_server.php:380
 msgid "Anti-Virus"
-msgstr "مكافحة الفيروسات"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:80
 #: ../../web/templates/pages/list_mail.php:320
@@ -1795,7 +1746,7 @@ msgstr "مكافحة الفيروسات"
 #: ../../web/templates/pages/add_mail.php:71
 #: ../../web/templates/pages/edit_server.php:391
 msgid "Spam Filter"
-msgstr "تصفية البريد العشوائي"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:81
 #: ../../web/templates/pages/list_mail.php:324
@@ -1808,21 +1759,21 @@ msgstr ""
 #: ../../web/templates/pages/list_web.php:323
 #: ../../web/templates/pages/edit_server.php:913
 msgid "SSL"
-msgstr "بروتوكول طبقة المقابس الآمنة"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:98
 #: ../../web/templates/pages/list_web.php:97
 #: ../../web/templates/pages/list_dns.php:98
 #, php-format
 msgid "Are you sure you want to unsuspend domain %s?"
-msgstr "هل أنت متأكد من أنك تريد إلغاء تعليق المجال %s؟"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:133
 #: ../../web/templates/pages/list_web.php:104
 #: ../../web/templates/pages/list_dns.php:112
 #, php-format
 msgid "Are you sure you want to suspend domain %s?"
-msgstr "هل أنت متأكد من رغبتك في تعليق المجال %s ؟"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:213
 #: ../../web/templates/pages/list_mail.php:216
@@ -1833,63 +1784,63 @@ msgstr "هل أنت متأكد من رغبتك في تعليق المجال %s �
 #: ../../web/templates/pages/list_mail_acc.php:203
 #: ../../web/templates/pages/list_mail_acc.php:206
 msgid "Open Webmail"
-msgstr "فتح عميل بريد الويب"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:226
 #: ../../web/templates/pages/list_mail.php:229
 #: ../../web/templates/pages/list_mail_acc.php:16
 #: ../../web/templates/pages/add_mail_acc.php:32
 msgid "Add Mail Account"
-msgstr "إضافة حساب بريدي"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:251
 #: ../../web/templates/pages/list_mail.php:254
 #: ../../web/templates/pages/edit_mail.php:35
 #: ../../web/templates/pages/list_mail_acc.php:19
 msgid "Edit Mail Domain"
-msgstr "تحرير مجال البريد"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:286
 #: ../../web/templates/pages/list_web.php:291
 #: ../../web/templates/pages/list_dns.php:206
 #, php-format
 msgid "Are you sure you want to delete domain %s?"
-msgstr "هل أنت متأكد من أنك تريد حذف النطاق %s؟"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:340
 #, php-format
 msgid "%d mail domain"
 msgid_plural "%d mail domains"
-msgstr[0] "%d مجال البريد"
-msgstr[1] "%d مجال البريد"
-msgstr[2] "%d مجال البريد"
-msgstr[3] "%d مجال البريد"
-msgstr[4] "%d مجال البريد"
-msgstr[5] "%d مجال البريد"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
 
 #: ../../web/templates/pages/list_backup.php:6
 msgid "Create Backup"
-msgstr "إنشاء نسخة احتياطية"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup.php:7
 #: ../../web/templates/pages/list_backup_exclusions.php:29
 msgid "Backup Exclusions"
-msgstr "استثناءات النسخ الاحتياطي"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup.php:46
 #: ../../web/templates/pages/list_backup.php:80
 msgid "File Name"
-msgstr "اسم الملف"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup.php:49
 #: ../../web/templates/pages/list_backup.php:136
 msgid "Size"
-msgstr "بحجم"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup.php:51
 #: ../../web/templates/pages/list_backup.php:149
 msgid "Runtime"
-msgstr "المدة الزمنية"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup.php:58
 #: ../../web/templates/pages/list_backup.php:59
@@ -1923,7 +1874,7 @@ msgstr "المدة الزمنية"
 #: ../../web/templates/pages/edit_server.php:1400
 #: ../../web/templates/pages/edit_server.php:1413
 msgid "No"
-msgstr "لا"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup.php:65
 #: ../../web/templates/pages/list_backup.php:66
@@ -1957,7 +1908,7 @@ msgstr "لا"
 #: ../../web/templates/pages/edit_server.php:1403
 #: ../../web/templates/pages/edit_server.php:1416
 msgid "Yes"
-msgstr "نعم"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup.php:84
 #: ../../web/templates/pages/list_backup.php:107
@@ -1977,7 +1928,7 @@ msgstr "نعم"
 #: ../../web/templates/pages/list_backup_detail.php:264
 #: ../../web/templates/pages/list_backup_detail.php:267
 msgid "Restore"
-msgstr "اﻹستعادة"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup.php:96
 #: ../../web/templates/pages/list_backup.php:99
@@ -1992,23 +1943,23 @@ msgstr "اﻹستعادة"
 #: ../../web/templates/pages/list_weblog.php:57
 #: ../../web/templates/pages/list_weblog.php:59
 msgid "Download"
-msgstr "تحميل"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup.php:119
 #, php-format
 msgid "Are you sure you want to delete backup %s?"
-msgstr "هل أنت متأكد من أنك تريد حذف النسخة الاحتياطية%s ؟"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup.php:161
 #, php-format
 msgid "%d backup"
 msgid_plural "%d backups"
-msgstr[0] "%s نسخ احتياطية"
-msgstr[1] "نسخة احتياطية واحدة"
-msgstr[2] "%s نسخ احتياطية"
-msgstr[3] "%s نسخ احتياطية"
-msgstr[4] "%s نسخة احتياطية"
-msgstr[5] "%s نسخة احتياطية"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
 
 #: ../../web/templates/pages/edit_mail.php:11
 #: ../../web/templates/pages/add_mail.php:11
@@ -2049,16 +2000,16 @@ msgstr[5] "%s نسخة احتياطية"
 #: ../../web/templates/pages/add_cron.php:11
 #: ../../web/templates/pages/edit_dns_rec.php:11
 msgid "Save"
-msgstr "حفظ"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:44
 #: ../../web/templates/pages/add_mail.php:53
 msgid "Webmail Client"
-msgstr "عميل بريد الويب"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:59
 msgid "Catch-All Email"
-msgstr "البريد الإلكتروني الشامل"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:64
 msgid "email / hour / account"
@@ -2067,34 +2018,34 @@ msgstr ""
 #: ../../web/templates/pages/edit_mail.php:78
 #: ../../web/templates/pages/add_mail.php:77
 msgid "Reject Spam"
-msgstr "رفض البريد العشوائي"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:93
 #: ../../web/templates/pages/add_mail.php:92
 msgid "DKIM Support"
-msgstr "دعم مفاتيح DKIM لمحاربة السبام"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:99
 #: ../../web/templates/pages/edit_web.php:169
 msgid "Enable SSL for this domain"
-msgstr "تمكين طبقة المقابس الآمنة لهذا المجال"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:106
 #: ../../web/templates/pages/edit_web.php:176
 msgid "Use Let's Encrypt to obtain SSL certificate"
-msgstr "استخدم Let's Encrypt للحصول على شهادة SSL"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:114
 #, php-format
 msgid "To enable Let's Encrypt SSL, ensure that DNS records exist for mail.%s and %s!"
-msgstr "لتمكين Let's Encrypt SSL ، تأكد من وجود سجلات DNS للبريد.%s و %s!"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:121
 #: ../../web/templates/pages/list_ssl.php:28
 #: ../../web/templates/pages/edit_web.php:197
 #: ../../web/templates/pages/edit_server.php:918
 msgid "SSL Certificate"
-msgstr "شهادة أمان SSL"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:122
 #: ../../web/templates/pages/list_ssl.php:16
@@ -2102,19 +2053,19 @@ msgstr "شهادة أمان SSL"
 #: ../../web/templates/pages/generate_ssl.php:16
 #: ../../web/templates/pages/edit_server.php:926
 msgid "Generate Self-Signed SSL Certificate"
-msgstr "إنشاء شهادة بروتوكول طبقة المقابس الآمنة SSL موقعة ذاتيا"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:127
 #: ../../web/templates/pages/list_ssl.php:55
 #: ../../web/templates/pages/edit_web.php:203
 #: ../../web/templates/pages/edit_server.php:938
 msgid "SSL Private Key"
-msgstr "مفتاح بروتوكول طبقة المقابس الآمنة SSL الخاص"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:132
 #: ../../web/templates/pages/edit_web.php:208
 msgid "SSL Certificate Authority / Intermediate"
-msgstr "سلطة / متوسط شهادة شهادة أمان SSL "
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:132
 #: ../../web/templates/pages/add_ip.php:76
@@ -2132,54 +2083,54 @@ msgstr "سلطة / متوسط شهادة شهادة أمان SSL "
 #: ../../web/templates/pages/edit_dns_rec.php:75
 #: ../../web/templates/pages/edit_dns_rec.php:81
 msgid "Optional"
-msgstr "اختياري"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:140
 #: ../../web/templates/pages/edit_web.php:216
 #: ../../web/templates/pages/edit_server.php:948
 msgid "Issued To"
-msgstr "تم إصداره لـ"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:145
 #: ../../web/templates/pages/edit_web.php:221
 #: ../../web/templates/pages/edit_server.php:953
 msgid "Alternate"
-msgstr "البديل"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:150
 #: ../../web/templates/pages/edit_web.php:226
 #: ../../web/templates/pages/edit_server.php:958
 msgid "Not Before"
-msgstr "ليس قبل"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:154
 #: ../../web/templates/pages/edit_web.php:230
 #: ../../web/templates/pages/edit_server.php:962
 msgid "Not After"
-msgstr "ليس بعد"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:158
 #: ../../web/templates/pages/edit_web.php:234
 #: ../../web/templates/pages/edit_server.php:966
 msgid "Signature"
-msgstr "التوقيع"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:162
 #: ../../web/templates/pages/edit_web.php:238
 #: ../../web/templates/pages/edit_server.php:970
 msgid "Key Size"
-msgstr "حجم المفتاح"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:166
 #: ../../web/templates/pages/edit_web.php:242
 #: ../../web/templates/pages/edit_server.php:974
 msgid "Issued By"
-msgstr "صادر من"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:175
 #: ../../web/templates/pages/add_mail.php:98
 msgid "SMTP Relay"
-msgstr "مرحل SMTP"
+msgstr ""
 
 #: ../../web/templates/pages/add_mail.php:37
 #: ../../web/templates/pages/add_web.php:32
@@ -2187,11 +2138,11 @@ msgstr "مرحل SMTP"
 #: ../../web/templates/pages/add_db.php:37
 #, php-format
 msgid "It is strongly advised to {create a standard user account} before adding %s to the server due to the increased privileges the admin account possesses and potential security risks."
-msgstr "ينصح بشدة {إنشاء حساب مستخدم قياسي} قبل إضافة %s إلى الخادم بسبب الامتيازات المتزايدة التي يمتلكها حساب المسؤول والمخاطر الأمنية المحتملة."
+msgstr ""
 
 #: ../../web/templates/pages/add_mail.php:37
 msgid "a mail domain"
-msgstr "مجال البريد"
+msgstr ""
 
 #: ../../web/templates/pages/add_mail.php:42
 #: ../../web/templates/pages/add_web.php:37
@@ -2200,94 +2151,94 @@ msgstr "مجال البريد"
 #: ../../web/templates/pages/add_dns.php:42
 #: ../../web/templates/pages/add_db.php:42
 msgid "Add User"
-msgstr "إضافة مستخدم"
+msgstr ""
 
 #: ../../web/templates/pages/add_mail.php:43
 #: ../../web/templates/pages/add_web.php:38
 #: ../../web/templates/pages/add_dns.php:43
 #: ../../web/templates/pages/add_db.php:43
 msgid "Continue"
-msgstr "استمر"
+msgstr ""
 
 #: ../../web/templates/pages/add_ip.php:32
 #: ../../web/templates/pages/list_ip.php:9
 msgid "Add IP Address"
-msgstr "إضافة عنوان بروتوكول الإنترنت IP"
+msgstr ""
 
 #: ../../web/templates/pages/add_ip.php:57
 #: ../../web/templates/pages/edit_ip.php:50
 msgid "Shared"
-msgstr "مشارَك"
+msgstr ""
 
 #: ../../web/templates/pages/add_ip.php:76
 #: ../../web/templates/pages/edit_ip.php:69
 msgid "Assigned Domain"
-msgstr "المجال المخصص"
+msgstr ""
 
 #: ../../web/templates/pages/add_ip.php:82
 #: ../../web/templates/pages/edit_ip.php:75
 msgid "NAT IP Association"
-msgstr "ربط ترجمة عنوان الشبكةNAT مع بروتوكول الإنترنت IP"
+msgstr ""
 
 #: ../../web/templates/pages/debug_panel.php:11
 msgid "Close debug panel"
-msgstr "إغلاق لوحة التصحيح"
+msgstr ""
 
 #: ../../web/templates/pages/debug_panel.php:11
 #: ../../web/templates/pages/debug_panel.php:12
 msgid "Open debug panel"
-msgstr "افتح لوحة التصحيح"
+msgstr ""
 
 #: ../../web/templates/pages/add_web.php:27
 #: ../../web/templates/pages/list_web.php:7
 msgid "Add Web Domain"
-msgstr "إضافة نطاق"
+msgstr ""
 
 #: ../../web/templates/pages/add_web.php:32
 msgid "a web domain"
-msgstr "مجال الويب"
+msgstr ""
 
 #: ../../web/templates/pages/add_web.php:63
 msgid "DNS Support"
-msgstr "إضافةإلى  بيانات DNS (افتراضي)"
+msgstr ""
 
 #: ../../web/templates/pages/add_web.php:73
 msgid "Mail Support"
-msgstr "إضافة إلى نطاقات البريد (افتراضي)"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:25
 #: ../../web/templates/pages/list_cron.php:120
 msgid "Edit Cron Job"
-msgstr "تحرير أعمال مجدول الأعمال"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:57
 #: ../../web/templates/pages/edit_server.php:1078
 #: ../../web/templates/pages/add_cron.php:57
 msgid "Minutes"
-msgstr "دقائق"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:58
 #: ../../web/templates/pages/add_cron.php:58
 msgid "Hourly"
-msgstr "ساعي"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:59
 #: ../../web/templates/pages/list_rrd.php:13
 #: ../../web/templates/pages/add_cron.php:59
 msgid "Daily"
-msgstr "يومي"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:60
 #: ../../web/templates/pages/list_rrd.php:14
 #: ../../web/templates/pages/add_cron.php:60
 msgid "Weekly"
-msgstr "اسبوعي"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:61
 #: ../../web/templates/pages/list_rrd.php:15
 #: ../../web/templates/pages/add_cron.php:61
 msgid "Monthly"
-msgstr "شهري"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:70
 #: ../../web/templates/pages/edit_cron.php:93
@@ -2300,12 +2251,12 @@ msgstr "شهري"
 #: ../../web/templates/pages/add_cron.php:191
 #: ../../web/templates/pages/add_cron.php:262
 msgid "Run Command"
-msgstr "أمر التنفيذ"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:72
 #: ../../web/templates/pages/add_cron.php:72
 msgid "Every minute"
-msgstr "كل دقيقة"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:73
 #: ../../web/templates/pages/edit_cron.php:74
@@ -2319,7 +2270,7 @@ msgstr "كل دقيقة"
 #: ../../web/templates/pages/add_cron.php:77
 #, php-format
 msgid "Every %s minutes"
-msgstr "كل %s دقيقة"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:82
 #: ../../web/templates/pages/edit_cron.php:112
@@ -2343,12 +2294,12 @@ msgstr "كل %s دقيقة"
 #: ../../web/templates/pages/add_cron.php:253
 #: ../../web/templates/pages/add_cron.php:365
 msgid "Generate"
-msgstr "ولًد"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:95
 #: ../../web/templates/pages/add_cron.php:95
 msgid "Every hour"
-msgstr "كل ساعة"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:96
 #: ../../web/templates/pages/edit_cron.php:97
@@ -2358,24 +2309,24 @@ msgstr "كل ساعة"
 #: ../../web/templates/pages/add_cron.php:98
 #, php-format
 msgid "Every %s hours"
-msgstr "كل %s ساعة"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:124
 #: ../../web/templates/pages/edit_cron.php:193
 #: ../../web/templates/pages/add_cron.php:124
 #: ../../web/templates/pages/add_cron.php:193
 msgid "Every day"
-msgstr "كل يوم"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:125
 #: ../../web/templates/pages/add_cron.php:125
 msgid "Every odd day"
-msgstr "كل يوم فردي"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:126
 #: ../../web/templates/pages/add_cron.php:126
 msgid "Every even day"
-msgstr "كل يوم زوجي"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:127
 #: ../../web/templates/pages/edit_cron.php:128
@@ -2387,67 +2338,67 @@ msgstr "كل يوم زوجي"
 #: ../../web/templates/pages/add_cron.php:130
 #, php-format
 msgid "Every %s days"
-msgstr "كل %s يوم"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:194
 #: ../../web/templates/pages/add_cron.php:194
 msgid "Weekdays (5 days)"
-msgstr "أيام الأسبوع (5 أيام)"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:195
 #: ../../web/templates/pages/add_cron.php:195
 msgid "Weekend (2 days)"
-msgstr "نهاية الأسبوع (2 أيام)"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:196
 #: ../../web/templates/pages/add_cron.php:196
 msgid "Monday"
-msgstr "الإثنين"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:197
 #: ../../web/templates/pages/add_cron.php:197
 msgid "Tuesday"
-msgstr "الثلاثاء"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:198
 #: ../../web/templates/pages/add_cron.php:198
 msgid "Wednesday"
-msgstr "الأربعاء"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:199
 #: ../../web/templates/pages/add_cron.php:199
 msgid "Thursday"
-msgstr "الخميس"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:200
 #: ../../web/templates/pages/add_cron.php:200
 msgid "Friday"
-msgstr "الجمعة"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:201
 #: ../../web/templates/pages/add_cron.php:201
 msgid "Saturday"
-msgstr "السبت"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:202
 #: ../../web/templates/pages/add_cron.php:202
 msgid "Sunday"
-msgstr "الأحد"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:264
 #: ../../web/templates/pages/add_cron.php:264
 msgid "Every month"
-msgstr "كل شهر"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:265
 #: ../../web/templates/pages/add_cron.php:265
 msgid "Every odd month"
-msgstr "كل شهر فردي"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:266
 #: ../../web/templates/pages/add_cron.php:266
 msgid "Every even month"
-msgstr "كل شهر زوجي"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:267
 #: ../../web/templates/pages/edit_cron.php:268
@@ -2455,108 +2406,108 @@ msgstr "كل شهر زوجي"
 #: ../../web/templates/pages/add_cron.php:268
 #, php-format
 msgid "Every %s months"
-msgstr "كل %s شهر"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:269
 #: ../../web/templates/pages/add_cron.php:269
 msgid "Jan"
-msgstr "كانون الثاني"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:270
 #: ../../web/templates/pages/add_cron.php:270
 msgid "Feb"
-msgstr "شباط"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:271
 #: ../../web/templates/pages/add_cron.php:271
 msgid "Mar"
-msgstr "آذار"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:272
 #: ../../web/templates/pages/add_cron.php:272
 msgid "Apr"
-msgstr "نيسان"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:273
 #: ../../web/templates/pages/add_cron.php:273
 msgid "May"
-msgstr "أيار"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:274
 #: ../../web/templates/pages/add_cron.php:274
 msgid "Jun"
-msgstr "حزيران"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:275
 #: ../../web/templates/pages/add_cron.php:275
 msgid "Jul"
-msgstr "تموز"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:276
 #: ../../web/templates/pages/add_cron.php:276
 msgid "Aug"
-msgstr "آب"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:277
 #: ../../web/templates/pages/add_cron.php:277
 msgid "Sep"
-msgstr "أيلول"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:278
 #: ../../web/templates/pages/add_cron.php:278
 msgid "Oct"
-msgstr "تشرين الأول"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:279
 #: ../../web/templates/pages/add_cron.php:279
 msgid "Nov"
-msgstr "تشرين الثاني"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:280
 #: ../../web/templates/pages/add_cron.php:280
 msgid "Dec"
-msgstr "كانون الأول"
+msgstr ""
 
 #: ../../web/templates/pages/add_firewall.php:25
 msgid "Add Firewall Rule"
-msgstr "إضافة قاعدة جدار الحماية"
+msgstr ""
 
 #: ../../web/templates/pages/add_firewall.php:30
 #: ../../web/templates/pages/edit_firewall.php:30
 msgid "DROP"
-msgstr "حذف"
+msgstr ""
 
 #: ../../web/templates/pages/add_firewall.php:31
 #: ../../web/templates/pages/edit_firewall.php:31
 msgid "ACCEPT"
-msgstr "موافق"
+msgstr ""
 
 #: ../../web/templates/pages/add_firewall.php:44
 #: ../../web/templates/pages/edit_firewall.php:44
 msgid "Ranges and lists are acceptable"
-msgstr "النطاقات والقوائم مقبولة"
+msgstr ""
 
 #: ../../web/templates/pages/add_firewall.php:46
 #: ../../web/templates/pages/edit_firewall.php:46
 msgid "All ports: 0, Range: 80-82, List: 80,443,8080,8443"
-msgstr "جميع المنافذ: 0 أومدى: 80-82 أوقائمة: 80,443,8080,8443"
+msgstr ""
 
 #: ../../web/templates/pages/add_firewall.php:50
 #: ../../web/templates/pages/edit_firewall.php:50
 msgid "IP Address / IPset IP List"
-msgstr "عنوان بروتوكول الإنترنت IP أو قائمة بروتوكولات الإنترنت IPset"
+msgstr ""
 
 #: ../../web/templates/pages/add_firewall.php:50
 #: ../../web/templates/pages/edit_firewall.php:50
 #: ../../web/templates/pages/add_firewall_banlist.php:29
 msgid "Support CIDR format"
-msgstr "دعم تنسيق  التوجيه غير الصنفي بين النطاقات CIDR"
+msgstr ""
 
 #: ../../web/templates/pages/add_firewall.php:59
 #: ../../web/templates/pages/edit_firewall.php:59
 #: ../../web/templates/pages/add_firewall_ipset.php:86
 msgid "Clear"
-msgstr "مسح"
+msgstr ""
 
 #: ../../web/templates/pages/add_firewall.php:66
 #: ../../web/templates/pages/edit_firewall.php:66
@@ -2571,70 +2522,70 @@ msgstr "مسح"
 #: ../../web/templates/pages/list_firewall_banlist.php:41
 #: ../../web/templates/pages/list_firewall_banlist.php:86
 msgid "Comment"
-msgstr "تعليق"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:9
 #: ../../web/templates/pages/list_packages.php:47
 msgid "Packages"
-msgstr "حزم الاستضافة"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:43
 msgid "Rebuild User Profile"
-msgstr "إعادة بناء ملف تعريف المستخدم"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:44
 msgid "Rebuild Web Domains"
-msgstr "إعادة بناء نطاقات الويب"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:45
 msgid "Rebuild DNS Zones"
-msgstr "إعادة بناء مناطق نظام أسماء النطاقاتDNS"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:46
 msgid "Rebuild Mail Domains"
-msgstr "إعادة إنشاء مجالات البريد"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:47
 msgid "Rebuild Databases"
-msgstr "إعادة إنشاء قواعد البيانات"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:48
 msgid "Rebuild Cron Jobs"
-msgstr "إعادة بناء وظائف مجدول الأعمال كرون"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:49
 msgid "Update Usage Counters"
-msgstr "تحديث عدادات الاستخدام"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:75
 #: ../../web/templates/pages/edit_server.php:1184
 #: ../../web/templates/includes/panel.php:267
 #: ../../web/templates/includes/panel.php:271
 msgid "Users"
-msgstr "المستخدمين"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:85
 #: ../../web/templates/pages/list_user.php:240
 #: ../../web/templates/pages/list_stats.php:86
 msgid "IPs"
-msgstr "عناوين أي بي IP"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:126
 #, php-format
 msgid "Are you sure you want to unsuspend user %s?"
-msgstr "هل أنت متأكد من أنك تريد إلغاء تعليق %s للمستخدم؟"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:133
 #, php-format
 msgid "Are you sure you want to suspend user %s?"
-msgstr "هل أنت متأكد من أنك تريد تعليق المستخدم %s ؟"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:151
 #: ../../web/templates/pages/list_user.php:194
 #: ../../web/templates/pages/list_user.php:197
 #: ../../web/templates/pages/edit_user.php:61
 msgid "Edit User"
-msgstr "تحرير المستخدم"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:158
 #: ../../web/templates/pages/list_user.php:182
@@ -2642,12 +2593,12 @@ msgstr "تحرير المستخدم"
 #: ../../web/templates/pages/list_search.php:166
 #: ../../web/templates/pages/list_search.php:168
 msgid "Log in as"
-msgstr "تسجيل الدخول باسم"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:220
 #, php-format
 msgid "Are you sure you want to delete user %s?"
-msgstr "هل أنت متأكد من أنك تريد حذف المستخدم %s؟"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:234
 #: ../../web/templates/pages/edit_package.php:37
@@ -2655,18 +2606,18 @@ msgstr "هل أنت متأكد من أنك تريد حذف المستخدم %s؟
 #: ../../web/templates/pages/list_packages.php:139
 #: ../../web/templates/pages/list_packages.php:142
 msgid "Edit Package"
-msgstr "تحرير الحزمة"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:312
 #, php-format
 msgid "%d user account"
 msgid_plural "%d user accounts"
-msgstr[0] "%d حساب"
-msgstr[1] "%d حساب"
-msgstr[2] "%d حساب"
-msgstr[3] "%d حسابات"
-msgstr[4] "%d حساب"
-msgstr[5] "%d حساب"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
 
 #: ../../web/templates/pages/edit_server_dovecot.php:25
 #: ../../web/templates/pages/edit_server_bind9.php:25
@@ -2678,7 +2629,7 @@ msgstr[5] "%d حساب"
 #: ../../web/templates/pages/edit_server_pgsql.php:25
 #: ../../web/templates/pages/edit_server_mysql.php:25
 msgid "Configure Server"
-msgstr "تكوين الخادم"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server_dovecot.php:68
 #: ../../web/templates/pages/edit_server_bind9.php:38
@@ -2695,72 +2646,72 @@ msgstr "تكوين الخادم"
 #: ../../web/templates/pages/edit_server_pgsql.php:38
 #: ../../web/templates/pages/edit_server_mysql.php:67
 msgid "Restart"
-msgstr "اعادة البدء"
+msgstr ""
 
 #: ../../web/templates/pages/edit_firewall.php:25
 #: ../../web/templates/pages/list_firewall.php:112
 #: ../../web/templates/pages/list_firewall.php:128
 #: ../../web/templates/pages/list_firewall.php:131
 msgid "Edit Firewall Rule"
-msgstr "تحرير قاعدة جدار الحماية"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup_exclusions.php:9
 #: ../../web/templates/pages/edit_backup_exclusions.php:25
 msgid "Edit Backup Exclusions"
-msgstr "تحرير استثناءات النسخ الاحتياطي"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup_exclusions.php:34
 #: ../../web/templates/pages/list_backup_exclusions.php:45
 msgid "Value"
-msgstr "القيمة"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup_exclusions.php:48
 msgid "No exclusions"
-msgstr "لا استثناءات"
+msgstr ""
 
 #: ../../web/templates/pages/edit_whitelabel.php:33
 msgid "White Label Options"
-msgstr "خيارات العلامة البيضاء (العلامة التجارية)"
+msgstr ""
 
 #: ../../web/templates/pages/edit_whitelabel.php:41
 msgid "General"
-msgstr "عام"
+msgstr ""
 
 #: ../../web/templates/pages/edit_whitelabel.php:46
 msgid "Application Name"
-msgstr "اسم التطبيق"
+msgstr ""
 
 #: ../../web/templates/pages/edit_whitelabel.php:58
 msgid "Title"
-msgstr "العنوان"
+msgstr ""
 
 #: ../../web/templates/pages/edit_whitelabel.php:58
 #: ../../web/templates/pages/edit_whitelabel.php:95
 msgid "Supported variables"
-msgstr "المتغيرات المدعومة"
+msgstr ""
 
 #: ../../web/templates/pages/edit_whitelabel.php:70
 msgid "Sender Name"
-msgstr "اسم المرسل"
+msgstr ""
 
 #: ../../web/templates/pages/edit_whitelabel.php:70
 #: ../../web/templates/pages/edit_whitelabel.php:83
 #: ../../web/templates/pages/list_dns_rec.php:164
 #: ../../web/templates/pages/edit_server.php:1049
 msgid "Default"
-msgstr "الافتراضي"
+msgstr ""
 
 #: ../../web/templates/pages/edit_whitelabel.php:83
 msgid "Sender Email Address"
-msgstr "عنوان البريد الإلكتروني للمرسل"
+msgstr ""
 
 #: ../../web/templates/pages/edit_whitelabel.php:95
 msgid "Email Subject"
-msgstr "موضوع البريد الإلكتروني"
+msgstr ""
 
 #: ../../web/templates/pages/edit_whitelabel.php:107
 msgid "Hide link to Documentation"
-msgstr "إخفاء الرابط إلى الوثائق"
+msgstr ""
 
 #: ../../web/templates/pages/edit_whitelabel.php:120
 msgid "Custom Logo"
@@ -2791,7 +2742,7 @@ msgstr ""
 #: ../../web/templates/pages/add_dns_rec.php:74
 #: ../../web/templates/pages/edit_dns_rec.php:75
 msgid "Priority"
-msgstr "أولوية"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail_dns.php:27
 #: ../../web/templates/pages/list_mail_dns.php:44
@@ -2821,43 +2772,43 @@ msgstr ""
 #: ../../web/templates/pages/list_log.php:79
 #: ../../web/templates/pages/list_log.php:118
 msgid "Category"
-msgstr "فئة"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_preview.php:31
 #: ../../web/templates/pages/edit_package.php:303
 #: ../../web/templates/pages/add_package.php:299
 #: ../../web/templates/pages/edit_server.php:988
 msgid "System"
-msgstr "نظام"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_preview.php:35
 msgid "Policy"
-msgstr "السياسات"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_preview.php:35
 #: ../../web/templates/pages/edit_server.php:1270
 msgid "Allow suspended users to log in with read-only access"
-msgstr "السماح للمستخدمين المعلقين بتسجيل الدخول باستخدام حق الوصول للقراءة فقط"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_preview.php:39
 msgid "Partially implemented"
-msgstr "نُِفَذت جزئيا"
+msgstr ""
 
 #: ../../web/templates/pages/list_webapps.php:16
 #: ../../web/templates/pages/edit_web.php:15
 msgid "Quick Install App"
-msgstr "ثبّت تطبيقًا"
+msgstr ""
 
 #: ../../web/templates/pages/list_webapps.php:29
 msgid "Setup"
-msgstr "اقامة"
+msgstr ""
 
 #: ../../web/templates/pages/edit_ip.php:32
 #: ../../web/templates/pages/list_ip.php:95
 #: ../../web/templates/pages/list_ip.php:105
 #: ../../web/templates/pages/list_ip.php:108
 msgid "Edit IP Address"
-msgstr "تحرير عنوان IP"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail_acc.php:89
 #: ../../web/templates/pages/list_mail_acc.php:268
@@ -2868,23 +2819,23 @@ msgstr "تحرير عنوان IP"
 #: ../../web/templates/includes/panel.php:285
 #: ../../web/templates/includes/panel.php:292
 msgid "Aliases"
-msgstr "الأسماء البديلة (تعمل عمل الاسم الرئيسي)"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail_acc.php:90
 #: ../../web/templates/pages/list_mail_acc.php:272
 msgid "Forwarding"
-msgstr "الشحن"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail_acc.php:91
 #: ../../web/templates/pages/list_mail_acc.php:276
 #: ../../web/templates/pages/edit_mail_acc.php:107
 msgid "Auto Reply"
-msgstr "الرد التلقائي"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail_acc.php:104
 #, php-format
 msgid "Are you sure you want to unsuspend %s?"
-msgstr "هل أنت متأكد من أنك تريد إلغاء تعليق %s؟"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail_acc.php:107
 #: ../../web/templates/pages/list_mail_acc.php:135
@@ -2899,30 +2850,30 @@ msgstr ""
 #: ../../web/templates/pages/list_mail_acc.php:132
 #, php-format
 msgid "Are you sure you want to suspend %s?"
-msgstr "هل أنت متأكد من أنك تريد تعليق %s؟"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail_acc.php:172
 #: ../../web/templates/pages/list_mail_acc.php:215
 #: ../../web/templates/pages/list_mail_acc.php:218
 #: ../../web/templates/pages/edit_mail_acc.php:33
 msgid "Edit Mail Account"
-msgstr "تحرير حساب البريد"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail_acc.php:240
 #, php-format
 msgid "Are you sure you want to delete %s?"
-msgstr "هل أنت متأكد من أنك تريد حذف %s؟"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail_acc.php:288
 #, php-format
 msgid "%d mail account"
 msgid_plural "%d mail accounts"
-msgstr[0] "%d حساب البريد"
-msgstr[1] "%d حساب البريد"
-msgstr[2] "%d حساب البريد"
-msgstr[3] "%d حساب البريد"
-msgstr[4] "%d حساب البريد"
-msgstr[5] "%d حساب البريد"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
 
 #: ../../web/templates/pages/list_server_info.php:16
 #: ../../web/templates/pages/list_server_info.php:17
@@ -2933,7 +2884,7 @@ msgstr ""
 #: ../../web/templates/pages/list_weblog.php:27
 #: ../../web/templates/includes/panel.php:147
 msgid "Close menu"
-msgstr "إغلاق القائمة"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_info.php:27
 #: ../../web/templates/pages/list_server_info.php:28
@@ -2942,27 +2893,27 @@ msgstr "إغلاق القائمة"
 #: ../../web/templates/includes/panel.php:147
 #: ../../web/templates/includes/panel.php:148
 msgid "Open menu"
-msgstr "افتح القائمة"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_info.php:41
 #: ../../web/templates/pages/list_services.php:103
 #: ../../web/templates/pages/list_services.php:200
 msgid "CPU"
-msgstr "المعالج"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_info.php:47
 msgid "RAM"
-msgstr "ذاكرة الوصول العشوائي"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_info.php:59
 #: ../../web/templates/pages/edit_server.php:9
 msgid "Network"
-msgstr "الشبكة"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_info.php:66
 #: ../../web/templates/pages/list_stats.php:105
 msgid "Web"
-msgstr "الويب"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_info.php:74
 #: ../../web/templates/pages/edit_package.php:152
@@ -2970,12 +2921,12 @@ msgstr "الويب"
 #: ../../web/templates/pages/add_package.php:151
 #: ../../web/templates/includes/panel.php:305
 msgid "DNS"
-msgstr "بيانات DNS"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_info.php:82
 #: ../../web/templates/pages/list_stats.php:123
 msgid "Mail"
-msgstr "البريد"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_info.php:90
 #: ../../web/templates/pages/edit_package.php:285
@@ -2983,7 +2934,7 @@ msgstr "البريد"
 #: ../../web/templates/pages/add_package.php:281
 #: ../../web/templates/includes/panel.php:343
 msgid "DB"
-msgstr "قواعد بيانات"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_info.php:95
 #: ../../web/templates/pages/list_server_info.php:97
@@ -2993,7 +2944,7 @@ msgstr "قواعد بيانات"
 #: ../../web/templates/pages/list_weblog.php:63
 #: ../../web/templates/pages/list_weblog.php:65
 msgid "Refresh"
-msgstr "تحديث"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_info.php:101
 #: ../../web/templates/pages/list_server_info.php:103
@@ -3004,7 +2955,7 @@ msgstr "تحديث"
 #: ../../web/templates/includes/panel.php:229
 #: ../../web/templates/includes/panel.php:231
 msgid "Log out"
-msgstr "تسجيل الخروج"
+msgstr ""
 
 #: ../../web/templates/pages/list_log.php:28
 #: ../../web/templates/pages/list_log.php:29
@@ -3013,12 +2964,12 @@ msgstr "تسجيل الخروج"
 #: ../../web/templates/pages/list_log.php:39
 #: ../../web/templates/pages/list_log.php:40
 msgid "Login History"
-msgstr "سجل تسجيل الدخول"
+msgstr ""
 
 #: ../../web/templates/pages/list_log.php:59
 #: ../../web/templates/pages/list_log_auth.php:29
 msgid "Are you sure you want to delete the logs?"
-msgstr "هل أنت متأكد من أنك تريد حذف السجلات؟"
+msgstr ""
 
 #: ../../web/templates/pages/list_log.php:72
 #: ../../web/templates/pages/edit_user.php:23
@@ -3027,13 +2978,13 @@ msgstr "هل أنت متأكد من أنك تريد حذف السجلات؟"
 #: ../../web/templates/includes/panel.php:186
 #: ../../web/templates/includes/panel.php:188
 msgid "Logs"
-msgstr "السجلات"
+msgstr ""
 
 #: ../../web/templates/pages/list_log.php:80
 #: ../../web/templates/pages/list_log.php:122
 #: ../../web/templates/pages/edit_mail_acc.php:112
 msgid "Message"
-msgstr "رسالة"
+msgstr ""
 
 #: ../../web/templates/pages/list_log.php:90
 msgid "Information"
@@ -3052,30 +3003,30 @@ msgstr ""
 #, php-format
 msgid "%d log record"
 msgid_plural "%d log records"
-msgstr[0] "%d سجل السجل"
-msgstr[1] "%d سجل السجل"
-msgstr[2] "%d سجل السجل"
-msgstr[3] "%d سجل السجل"
-msgstr[4] "%d سجل السجل"
-msgstr[5] "%d سجل السجل"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
 
 #: ../../web/templates/pages/setup_webapp.php:27
 #, php-format
 msgid "Install %s"
-msgstr "تركيب %s"
+msgstr ""
 
 #: ../../web/templates/pages/setup_webapp.php:33
 msgid "Data Loss Warning!"
-msgstr "تحذير فقدان البيانات!"
+msgstr ""
 
 #: ../../web/templates/pages/setup_webapp.php:34
 msgid "Your web folder already has files uploaded to it. The installer will overwrite your files and/or the installation might fail."
-msgstr "يحتوي مجلد الويب الخاص بك بالفعل على ملفات تم تحميلها إليه. سيقوم المثبت بالكتابة فوق ملفاتك أو قد يفشل التثبيت."
+msgstr ""
 
 #: ../../web/templates/pages/setup_webapp.php:35
 #, php-format
 msgid "Please make sure ~/web/%s/public_html is empty!"
-msgstr "يرجى التأكد من أن المجلد ~/web/%s/public_html فارغ!"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:60
 #: ../../web/templates/pages/edit_mail_acc.php:57
@@ -3084,7 +3035,7 @@ msgstr "يرجى التأكد من أن المجلد ~/web/%s/public_html فار
 #: ../../web/templates/pages/edit_db.php:54
 #: ../../web/templates/pages/add_mail_acc.php:59
 msgid "Your password must have at least"
-msgstr "يجب أن تحتوي كلمة المرور الخاصة بك على الأقل"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:62
 #: ../../web/templates/pages/edit_mail_acc.php:59
@@ -3093,7 +3044,7 @@ msgstr "يجب أن تحتوي كلمة المرور الخاصة بك على ا
 #: ../../web/templates/pages/edit_db.php:56
 #: ../../web/templates/pages/add_mail_acc.php:61
 msgid "8 characters long"
-msgstr "الطول 8 أحرف"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:63
 #: ../../web/templates/pages/edit_mail_acc.php:60
@@ -3102,7 +3053,7 @@ msgstr "الطول 8 أحرف"
 #: ../../web/templates/pages/edit_db.php:57
 #: ../../web/templates/pages/add_mail_acc.php:62
 msgid "1 uppercase & 1 lowercase character"
-msgstr "حرف 1 كبير و حرف 1 صغير"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:64
 #: ../../web/templates/pages/edit_mail_acc.php:61
@@ -3111,53 +3062,53 @@ msgstr "حرف 1 كبير و حرف 1 صغير"
 #: ../../web/templates/pages/edit_db.php:58
 #: ../../web/templates/pages/add_mail_acc.php:63
 msgid "1 number"
-msgstr "رقم 1"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:69
 #: ../../web/templates/pages/edit_user.php:107
 msgid "Do not allow user to log in to Control Panel"
-msgstr "لا تسمح للمستخدم بتسجيل الدخول إلى لوحة التحكم"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:76
 msgid "Send welcome email"
-msgstr "إرسال بريد إلكتروني ترحيبي"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:81
 #: ../../web/templates/pages/edit_user.php:139
 msgid "Language"
-msgstr "اللغة"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:100
 #: ../../web/templates/pages/edit_user.php:158
 msgid "Role"
-msgstr "دور"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:102
 #: ../../web/templates/pages/edit_user.php:160
 msgid "User"
-msgstr "المستخدم"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:103
 #: ../../web/templates/pages/edit_user.php:161
 msgid "Administrator"
-msgstr "المسؤول"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:104
 #: ../../web/templates/pages/edit_user.php:162
 msgid "DNS Sync User"
-msgstr "مستخدم مزامنة نظام أسماء النطاقات DNS"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:127
 #: ../../web/templates/pages/edit_mail_acc.php:65
 #: ../../web/templates/pages/add_db.php:97
 #: ../../web/templates/pages/add_mail_acc.php:113
 msgid "Email login credentials to:"
-msgstr "إرسال بيانات اعتماد تسجيل الدخول بالبريد الإلكتروني إلى:"
+msgstr ""
 
 #: ../../web/templates/pages/edit_package.php:40
 #: ../../web/templates/pages/add_package.php:39
 msgid "Package Name"
-msgstr "إسم الحزمة"
+msgstr ""
 
 #: ../../web/templates/pages/edit_package.php:46
 #: ../../web/templates/pages/edit_package.php:57
@@ -3166,7 +3117,7 @@ msgstr "إسم الحزمة"
 #: ../../web/templates/pages/add_package.php:55
 #: ../../web/templates/pages/add_mail_acc.php:71
 msgid "in MB"
-msgstr "بالميجابايت"
+msgstr ""
 
 #: ../../web/templates/pages/edit_package.php:50
 #: ../../web/templates/pages/edit_package.php:61
@@ -3192,14 +3143,14 @@ msgstr "بالميجابايت"
 #: ../../web/templates/pages/add_mail_acc.php:75
 #: ../../web/templates/includes/js.php:8
 msgid "Unlimited"
-msgstr "مطلق"
+msgstr ""
 
 #: ../../web/templates/pages/edit_package.php:71
 #: ../../web/templates/pages/add_firewall_banlist.php:37
 #: ../../web/templates/pages/add_package.php:69
 #: ../../web/templates/includes/panel.php:286
 msgid "WEB"
-msgstr "نطاقات الويب"
+msgstr ""
 
 #: ../../web/templates/pages/edit_package.php:89
 #: ../../web/templates/pages/edit_package.php:189
@@ -3208,63 +3159,63 @@ msgstr "نطاقات الويب"
 #: ../../web/templates/pages/add_package.php:185
 #: ../../web/templates/pages/add_package.php:264
 msgid "per domain"
-msgstr "لكل نطاق"
+msgstr ""
 
 #: ../../web/templates/pages/edit_package.php:199
 #: ../../web/templates/pages/add_dns.php:109
 #: ../../web/templates/pages/add_package.php:195
 msgid "Name Servers"
-msgstr "خوادم أسماء النطاقات"
+msgstr ""
 
 #: ../../web/templates/pages/edit_package.php:245
 #: ../../web/templates/pages/edit_user.php:295
 #: ../../web/templates/pages/add_dns.php:155
 #: ../../web/templates/pages/add_package.php:241
 msgid "Add Name Server"
-msgstr "إضافة اسم الخادم"
+msgstr ""
 
 #: ../../web/templates/pages/edit_package.php:250
 #: ../../web/templates/pages/add_firewall_banlist.php:40
 #: ../../web/templates/pages/add_package.php:246
 #: ../../web/templates/includes/panel.php:324
 msgid "MAIL"
-msgstr "البريد"
+msgstr ""
 
 #: ../../web/templates/pages/edit_package.php:279
 #: ../../web/templates/pages/add_package.php:275
 msgid "per account / hour"
-msgstr "لكل حساب / ساعة"
+msgstr ""
 
 #: ../../web/templates/pages/edit_package.php:320
 #: ../../web/templates/pages/edit_user.php:215
 #: ../../web/templates/pages/list_packages.php:175
 #: ../../web/templates/pages/add_package.php:316
 msgid "SSH Access"
-msgstr "دخول SSH"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:82
 #: ../../web/templates/pages/add_mail_acc.php:82
 msgid "Use local-part without domain name"
-msgstr "استخدم الجزء المحلي بدون اسم المجال"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:89
 #: ../../web/templates/pages/add_mail_acc.php:95
 msgid "Discard all mail"
-msgstr "تجاهل كل البريد"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:95
 #: ../../web/templates/pages/add_mail_acc.php:101
 msgid "Do not store forwarded mail"
-msgstr "عدم الاحتفاظ بنسخة البريد المعاد توجيهه"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:100
 #: ../../web/templates/pages/add_mail_acc.php:88
 msgid "Forward to"
-msgstr "إعادة توجيه إلى"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:100
 msgid "one or more email addresses"
-msgstr "عنوان بريدي واحد أو أكثر"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:118
 #: ../../web/templates/pages/add_mail_acc.php:106
@@ -3274,12 +3225,12 @@ msgstr ""
 #: ../../web/templates/pages/edit_mail_acc.php:125
 #: ../../web/templates/pages/add_mail_acc.php:120
 msgid "Common Account Settings"
-msgstr "إعدادات الحساب الشائعة"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:137
 #: ../../web/templates/pages/add_mail_acc.php:132
 msgid "Webmail"
-msgstr "مستعض ويب البريد الإلكتروني"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:142
 #: ../../web/templates/pages/list_db.php:114
@@ -3287,12 +3238,12 @@ msgstr "مستعض ويب البريد الإلكتروني"
 #: ../../web/templates/pages/add_mail_acc.php:137
 #: ../../web/templates/pages/edit_server.php:62
 msgid "Hostname"
-msgstr "اسم المضيف (host)"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:146
 #: ../../web/templates/pages/add_mail_acc.php:141
 msgid "IMAP Settings"
-msgstr "إعدادات بروتوكول الوصول إلى رسائل الإنترنت IMAP"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:149
 #: ../../web/templates/pages/edit_mail_acc.php:168
@@ -3301,7 +3252,7 @@ msgstr "إعدادات بروتوكول الوصول إلى رسائل الإن�
 #: ../../web/templates/pages/add_mail_acc.php:163
 #: ../../web/templates/pages/add_mail_acc.php:182
 msgid "Authentication"
-msgstr "المصادقه"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:150
 #: ../../web/templates/pages/edit_mail_acc.php:169
@@ -3310,7 +3261,7 @@ msgstr "المصادقه"
 #: ../../web/templates/pages/add_mail_acc.php:164
 #: ../../web/templates/pages/add_mail_acc.php:183
 msgid "Normal password"
-msgstr "كلمة مرور طبيعية"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:161
 #: ../../web/templates/pages/edit_mail_acc.php:180
@@ -3319,23 +3270,23 @@ msgstr "كلمة مرور طبيعية"
 #: ../../web/templates/pages/add_mail_acc.php:175
 #: ../../web/templates/pages/add_mail_acc.php:194
 msgid "No encryption"
-msgstr "بلا تشفير"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:165
 #: ../../web/templates/pages/add_mail_acc.php:160
 msgid "POP3 Settings"
-msgstr "إعدادات بروتوكول مكتب البريد3 POP3"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:184
 #: ../../web/templates/pages/add_mail_acc.php:179
 msgid "SMTP Settings"
-msgstr "إعدادات SMTP"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server_nginx.php:9
 #: ../../web/templates/pages/edit_server_httpd.php:9
 #: ../../web/templates/pages/list_services.php:6
 msgid "Configure"
-msgstr "إعداد"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server_nginx.php:73
 #: ../../web/templates/pages/edit_user.php:210
@@ -3346,20 +3297,20 @@ msgstr "إعداد"
 #: ../../web/templates/pages/edit_server_php.php:58
 #: ../../web/templates/pages/edit_server_mysql.php:50
 msgid "Advanced Options"
-msgstr "الخيارات المتقدمة"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server_nginx.php:80
 #: ../../web/templates/pages/edit_server_php.php:65
 #: ../../web/templates/pages/edit_server.php:57
 #: ../../web/templates/pages/edit_server_mysql.php:57
 msgid "Basic Options"
-msgstr "الخيارات الأساسية"
+msgstr ""
 
 #: ../../web/templates/pages/list_key.php:10
 #: ../../web/templates/pages/list_key.php:14
 #: ../../web/templates/pages/add_key.php:31
 msgid "Add SSH Key"
-msgstr "تمت إضافة مفتاح SSH"
+msgstr ""
 
 #: ../../web/templates/pages/list_key.php:24
 msgid "SSH Keys"
@@ -3368,80 +3319,80 @@ msgstr ""
 #: ../../web/templates/pages/list_key.php:28
 #: ../../web/templates/pages/list_key.php:41
 msgid "SSH ID"
-msgstr "معرف بروتوكول النقل الآمنSSH"
+msgstr ""
 
 #: ../../web/templates/pages/list_key.php:58
 #, php-format
 msgid "Are you sure you want to delete SSH key %s?"
-msgstr "هل أنت متأكد من أنك تريد حذف مفتاح بروتوكول النقل الآمن SSH ؟"
+msgstr ""
 
 #: ../../web/templates/pages/list_key.php:81
 #, php-format
 msgid "%d SSH key"
 msgid_plural "%d SSH keys"
-msgstr[0] "%d مفتاح بروتوكول النقل الآمن"
-msgstr[1] "%d مفتاح بروتوكول النقل الآمن"
-msgstr[2] "%d مفتاح بروتوكول النقل الآمن"
-msgstr[3] "%d مفاتيح بروتوكول النقل الآمن"
-msgstr[4] "%d مفتاح بروتوكول النقل الآمن"
-msgstr[5] "%d مفتاح بروتوكول النقل الآمن"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
 
 #: ../../web/templates/pages/edit_user.php:19
 #: ../../web/templates/pages/edit_user.php:20
 msgid "Manage SSH Keys"
-msgstr "إدارة مفاتيح بروتوكول النقل الآمن SSH"
+msgstr ""
 
 #: ../../web/templates/pages/edit_user.php:30
 #: ../../web/templates/pages/edit_user.php:31
 #: ../../web/templates/pages/list_access_keys.php:49
 msgid "Access Keys"
-msgstr "مفاتيح الوصول"
+msgstr ""
 
 #: ../../web/templates/pages/edit_user.php:115
 msgid "Enable two-factor authentication"
-msgstr "تمكين المصادقة الثنائية"
+msgstr ""
 
 #: ../../web/templates/pages/edit_user.php:119
 msgid "Account Recovery Code"
-msgstr "رمز استرداد الحساب"
+msgstr ""
 
 #: ../../web/templates/pages/edit_user.php:120
 msgid "Please scan the code below in your 2FA application"
-msgstr "يرجى مسح الرمز أدناه في تطبيق المصادقة الثنائية (2FA) الخاص بك"
+msgstr ""
 
 #: ../../web/templates/pages/edit_user.php:122
 msgid "2FA QR Code"
-msgstr "2FA رمز الاستجابة السريعة"
+msgstr ""
 
 #: ../../web/templates/pages/edit_user.php:130
 msgid "Use IP address allow list for login attempts"
-msgstr "استخدام قائمة السماح بعنوان IP لمحاولات تسجيل الدخول"
+msgstr ""
 
 #: ../../web/templates/pages/edit_user.php:135
 #: ../../web/templates/pages/edit_web.php:294
 msgid "For example"
-msgstr "على سبيل المثال"
+msgstr ""
 
 #: ../../web/templates/pages/edit_user.php:168
 #: ../../web/templates/pages/edit_server.php:86
 msgid "Theme"
-msgstr "مظهر"
+msgstr ""
 
 #: ../../web/templates/pages/edit_user.php:186
 msgid "Default List Sort Order"
-msgstr "ترتيب فرز القائمة الافتراضي"
+msgstr ""
 
 #: ../../web/templates/pages/edit_user.php:230
 msgid "PHP CLI Version"
-msgstr "إصدار سطر أوامر PHP"
+msgstr ""
 
 #: ../../web/templates/pages/edit_user.php:249
 msgid "Default Name Servers"
-msgstr "أسماء خوادم(NS) الافتراضية"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall.php:9
 msgid "Add Rule"
-msgstr "إضافة قاعدة"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall.php:13
 #: ../../web/templates/pages/list_firewall_banlist.php:30
@@ -3455,66 +3406,66 @@ msgstr ""
 #: ../../web/templates/pages/list_firewall.php:88
 #, php-format
 msgid "Are you sure you want to unsuspend rule #%s?"
-msgstr "هل أنت متأكد من أنك تريد إلغاء تعليق قاعدة الجدار الناري  #%s ؟"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall.php:95
 #, php-format
 msgid "Are you sure you want to suspend rule #%s?"
-msgstr "هل أنت متأكد من أنك تريد تعليق قاعدة الجدار الناري #%s ؟"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall.php:152
 #, php-format
 msgid "Are you sure you want to delete rule %s"
-msgstr "هل أنت متأكد من أنك تريد حذف القاعدة %s"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall.php:185
 #, php-format
 msgid "%d firewall rule"
 msgid_plural "%d firewall rules"
-msgstr[0] "%d  قاعدة جدار الحماية"
-msgstr[1] "%d  قاعدة جدار الحماية"
-msgstr[2] "%d  قاعدة جدار الحماية"
-msgstr[3] "%d  قاعدة جدار الحماية"
-msgstr[4] "%d  قاعدة جدار الحماية"
-msgstr[5] "%d  قاعدة جدار الحماية"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
 
 #: ../../web/templates/pages/list_dns_rec.php:10
 msgid "Add Record"
-msgstr "قم بإضافة سجل"
+msgstr ""
 
 #: ../../web/templates/pages/list_dns_rec.php:13
 #: ../../web/templates/pages/edit_dns.php:25
 #: ../../web/templates/pages/list_dns.php:159
 #: ../../web/templates/pages/list_dns.php:162
 msgid "Edit DNS Domain"
-msgstr "تحرير مجال نظام أسماء النطاقات DNS"
+msgstr ""
 
 #: ../../web/templates/pages/list_dns_rec.php:117
 #: ../../web/templates/pages/list_dns_rec.php:131
 #: ../../web/templates/pages/list_dns_rec.php:134
 #: ../../web/templates/pages/edit_dns_rec.php:25
 msgid "Edit DNS Record"
-msgstr "تحرير سجل DNS"
+msgstr ""
 
 #: ../../web/templates/pages/list_dns_rec.php:144
 #, php-format
 msgid "Are you sure you want to delete record %s?"
-msgstr "هل أنت متأكد من أنك تريد حذف السجل %s؟"
+msgstr ""
 
 #: ../../web/templates/pages/list_dns_rec.php:181
 #, php-format
 msgid "%d DNS record"
 msgid_plural "%d DNS records"
-msgstr[0] "%d سجل نظام أسماء النطاقات"
-msgstr[1] "%d سجل نظام أسماء النطاقات"
-msgstr[2] "%d سجل نظام أسماء النطاقات"
-msgstr[3] "%d سجل نظام أسماء النطاقات"
-msgstr[4] "%d سجل نظام أسماء النطاقات"
-msgstr[5] "%d سجل نظام أسماء النطاقات"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
 
 #: ../../web/templates/pages/list_backup_detail.php:6
 msgid "Restore All"
-msgstr "استرجاع الكل"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup_detail.php:36
 msgid "Backup Details"
@@ -3528,46 +3479,46 @@ msgstr ""
 #: ../../web/templates/pages/list_backup_detail.php:217
 #: ../../web/templates/pages/list_backup_detail.php:255
 msgid "Details"
-msgstr "التفاصيل"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup_detail.php:65
 msgid "Web Domain"
-msgstr "نطاق الويب"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup_detail.php:103
 msgid "Mail Domain"
-msgstr "مجال البريد"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup_detail.php:141
 msgid "DNS Zone"
-msgstr "مناطق نظام أسماء النطاقاتDNS"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup_detail.php:218
 #: ../../web/templates/includes/panel.php:358
 #: ../../web/templates/includes/panel.php:362
 msgid "Jobs"
-msgstr "الوظائف"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup_detail.php:252
 #: ../../web/templates/pages/edit_backup_exclusions.php:40
 #: ../../web/templates/pages/list_stats.php:132
 msgid "User Directory"
-msgstr "دليل المستخدم"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup_detail.php:281
 #, php-format
 msgid "%d item"
 msgid_plural "%d items"
-msgstr[0] "%d عنصر"
-msgstr[1] "%d عنصر"
-msgstr[2] "%d عنصر"
-msgstr[3] "%d عناصر"
-msgstr[4] "%d عنصر"
-msgstr[5] "%d عنصر"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
 
 #: ../../web/templates/pages/add_firewall_banlist.php:25
 msgid "Add IP Address to Banlist"
-msgstr "إضافة عنوان IP إلى قائمة الحظر"
+msgstr ""
 
 #: ../../web/templates/pages/add_firewall_banlist.php:36
 msgid "SSH"
@@ -3581,30 +3532,30 @@ msgstr ""
 
 #: ../../web/templates/pages/add_firewall_banlist.php:42
 msgid "HESTIA"
-msgstr "فيستا"
+msgstr ""
 
 #: ../../web/templates/pages/list_dns_public.php:7
 #: ../../web/templates/pages/list_dns.php:7
 msgid "Add DNS Domain"
-msgstr "تسجيل نطاق في DNS"
+msgstr ""
 
 #: ../../web/templates/pages/list_dns_public.php:29
 #: ../../web/templates/pages/list_dns.php:170
 #: ../../web/templates/pages/list_dns.php:173
 msgid "View Public DNSSEC Key"
-msgstr "عرض مفتاح الامتداد الآمن لنظام أسماء النطاقات (DNSSEC) العام"
+msgstr ""
 
 #: ../../web/templates/pages/list_dns_public.php:31
 msgid "DNSKEY Record"
-msgstr "سجل DNSKEY"
+msgstr ""
 
 #: ../../web/templates/pages/list_dns_public.php:35
 msgid "DS Record"
-msgstr "سجل DS"
+msgstr ""
 
 #: ../../web/templates/pages/list_dns_public.php:39
 msgid "Public Key"
-msgstr "المفتاح العام"
+msgstr ""
 
 #: ../../web/templates/pages/list_dns_public.php:43
 msgid "Key Type / Flag"
@@ -3620,34 +3571,34 @@ msgstr ""
 
 #: ../../web/templates/pages/list_dns_public.php:55
 msgid "Algorithm"
-msgstr "الخوارزمية"
+msgstr ""
 
 #: ../../web/templates/pages/add_dns.php:32
 msgid "Add DNS Zone"
-msgstr "إضافة منطقة DNS"
+msgstr ""
 
 #: ../../web/templates/pages/add_dns.php:37
 msgid "a dns domain"
-msgstr "مجال نظام أسماء النطاقات DNS"
+msgstr ""
 
 #: ../../web/templates/pages/add_dns.php:69
 #: ../../web/templates/pages/edit_dns.php:51
 #: ../../web/templates/pages/list_dns.php:81
 #: ../../web/templates/pages/list_dns.php:224
 msgid "Template"
-msgstr "نموذج"
+msgstr ""
 
 #: ../../web/templates/pages/add_dns.php:95
 #: ../../web/templates/pages/edit_dns.php:71
 msgid "Enable DNSSEC"
-msgstr "تفيل الامتداد الآمن لنظام أسماء النطاقات (DNSSEC)"
+msgstr ""
 
 #: ../../web/templates/pages/add_dns.php:101
 #: ../../web/templates/pages/edit_dns.php:77
 #: ../../web/templates/pages/list_dns.php:85
 #: ../../web/templates/pages/list_dns.php:242
 msgid "Expiration Date"
-msgstr "تاريخ الانتهاء"
+msgstr ""
 
 #: ../../web/templates/pages/add_dns.php:101
 #: ../../web/templates/pages/edit_dns.php:77
@@ -3657,34 +3608,34 @@ msgstr ""
 #: ../../web/templates/pages/add_db.php:32
 #: ../../web/templates/pages/list_db.php:20
 msgid "Add Database"
-msgstr "إضافة قاعدة بيانات"
+msgstr ""
 
 #: ../../web/templates/pages/add_db.php:37
 msgid "a database"
-msgstr "قاعدة بيانات"
+msgstr ""
 
 #: ../../web/templates/pages/add_db.php:48
 #, php-format
 msgid "Prefix %s will be automatically added to database name and database user"
-msgstr "ستتم إضافة البادئة %s تلقائيا إلى اسم قاعدة البيانات ومستخدم قاعدة البيانات"
+msgstr ""
 
 #: ../../web/templates/pages/add_db.php:70
 #: ../../web/templates/pages/edit_db.php:35
 #, php-format
 msgid "Maximum %s characters length, including prefix"
-msgstr "الحد الأقصى لطول الأحرف %s ، بما في ذلك البادئة"
+msgstr ""
 
 #: ../../web/templates/pages/add_firewall_ipset.php:61
 msgid "Block Malicious IPs"
-msgstr "حظر عناوين بروتوكولات الإنترنت IP الضارة"
+msgstr ""
 
 #: ../../web/templates/pages/add_firewall_ipset.php:68
 msgid "Add IPset IP List for Firewall"
-msgstr "إضافة قائمة بروتوكولات الإنترنت IPset لجدار الحماية"
+msgstr ""
 
 #: ../../web/templates/pages/add_firewall_ipset.php:76
 msgid "url, script or file"
-msgstr "عنوان URL أو برنامج نصي أو ملف"
+msgstr ""
 
 #: ../../web/templates/pages/list_log_auth.php:42
 msgid "Auth Log"
@@ -3693,40 +3644,40 @@ msgstr ""
 #: ../../web/templates/pages/list_log_auth.php:50
 #: ../../web/templates/pages/list_log_auth.php:94
 msgid "Browser"
-msgstr "المستعرض"
+msgstr ""
 
 #: ../../web/templates/pages/list_log_auth.php:67
 msgid "Success"
-msgstr "نجاح"
+msgstr ""
 
 #: ../../web/templates/pages/list_log_auth.php:70
 msgid "Failed"
-msgstr "فشل"
+msgstr ""
 
 #: ../../web/templates/pages/list_db.php:75
 msgid "Suspend All"
-msgstr "تعليق الكل"
+msgstr ""
 
 #: ../../web/templates/pages/list_db.php:76
 msgid "Unsuspend All"
-msgstr "إلغاء تعليق الكل"
+msgstr ""
 
 #: ../../web/templates/pages/list_db.php:129
 #, php-format
 msgid "Are you sure you want to unsuspend database %s?"
-msgstr "هل أنت متأكد من أنك تريد إلغاء تعليق قاعدة البيانات %s ؟"
+msgstr ""
 
 #: ../../web/templates/pages/list_db.php:136
 #, php-format
 msgid "Are you sure you want to suspend database %s?"
-msgstr "هل أنت متأكد من أنك تريد تعليق قاعدة البيانات %s ؟"
+msgstr ""
 
 #: ../../web/templates/pages/list_db.php:164
 #: ../../web/templates/pages/list_db.php:177
 #: ../../web/templates/pages/list_db.php:180
 #: ../../web/templates/pages/edit_db.php:25
 msgid "Edit Database"
-msgstr "تحرير قاعدة البيانات"
+msgstr ""
 
 #: ../../web/templates/pages/list_db.php:200
 #: ../../web/templates/pages/list_db.php:203
@@ -3736,26 +3687,26 @@ msgstr ""
 #: ../../web/templates/pages/list_db.php:224
 #, php-format
 msgid "Are you sure you want to delete database %s?"
-msgstr "هل أنت متأكد من أنك تريد حذف قاعدة البيانات %s ؟"
+msgstr ""
 
 #: ../../web/templates/pages/list_db.php:267
 #, php-format
 msgid "%d database"
 msgid_plural "%d databases"
-msgstr[0] "%d قاعدة بيانات"
-msgstr[1] "%d قاعدة بيانات"
-msgstr[2] "%d قاعدة بيانات"
-msgstr[3] "%d قواعد بيانات"
-msgstr[4] "%d قاعدة بيانات"
-msgstr[5] "%d قاعدة بيانات"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
 
 #: ../../web/templates/pages/list_rrd.php:9
 msgid "Advanced Details"
-msgstr "تفاصيل متقدمة"
+msgstr ""
 
 #: ../../web/templates/pages/list_rrd.php:16
 msgid "Yearly"
-msgstr "سنوي"
+msgstr ""
 
 #: ../../web/templates/pages/list_rrd.php:17
 msgid "Biennially"
@@ -3768,71 +3719,71 @@ msgstr ""
 #: ../../web/templates/pages/list_packages.php:9
 #: ../../web/templates/pages/add_package.php:36
 msgid "Add Package"
-msgstr "إضافة حزمة"
+msgstr ""
 
 #: ../../web/templates/pages/list_packages.php:150
 #: ../../web/templates/pages/list_packages.php:153
 msgid "Duplicate"
-msgstr "كَرر"
+msgstr ""
 
 #: ../../web/templates/pages/list_packages.php:163
 #, php-format
 msgid "Are you sure you want to delete package %s?"
-msgstr "هل أنت متأكد من أنك تريد حذف الحزمة %s ؟"
+msgstr ""
 
 #: ../../web/templates/pages/list_packages.php:313
 #, php-format
 msgid "%d package"
 msgid_plural "%d packages"
-msgstr[0] "%d حزمة"
-msgstr[1] "%d حزمة"
-msgstr[2] "%d حزمة"
-msgstr[3] "%d حزمة"
-msgstr[4] "%d حزمة"
-msgstr[5] "%d حزمة"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
 
 #: ../../web/templates/pages/list_services.php:9
 msgid "Task Monitor"
-msgstr "مراقب المهام"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:16
 #: ../../web/templates/pages/edit_server.php:1409
 msgid "Firewall"
-msgstr "جدار الحماية"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:26
 #: ../../web/templates/pages/list_services.php:172
 #, php-format
 msgid "Are you sure you want to restart %s?"
-msgstr "هل أنت متأكد من أنك تريد إعادة تشغيل %s؟"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:36
 #: ../../web/templates/pages/list_services.php:114
 msgid "Stop"
-msgstr "وقف"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:37
 #: ../../web/templates/pages/list_services.php:121
 msgid "Start"
-msgstr "بدء"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:65
 msgid "Production Release"
-msgstr "الإصدار"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:71
 msgid "Operating System"
-msgstr "نظام التشغيل"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:77
 msgid "Load Average"
-msgstr "متوسط التحميل"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:83
 #: ../../web/templates/pages/list_services.php:102
 #: ../../web/templates/pages/list_services.php:196
 msgid "Uptime"
-msgstr "وقت التشغيل"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:92
 msgid "Services"
@@ -3841,12 +3792,12 @@ msgstr ""
 #: ../../web/templates/pages/list_services.php:99
 #: ../../web/templates/pages/list_services.php:148
 msgid "Service"
-msgstr "اسم الخدمة"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:104
 #: ../../web/templates/pages/list_services.php:204
 msgid "Memory"
-msgstr "الذاكرة"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:150
 #: ../../web/templates/pages/list_services.php:160
@@ -3854,36 +3805,36 @@ msgstr "الذاكرة"
 #: ../../web/templates/pages/list_cron.php:133
 #: ../../web/templates/pages/list_cron.php:136
 msgid "Edit"
-msgstr "التحرير"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:183
 #, php-format
 msgid "Are you sure you want to stop service %s?"
-msgstr "هل أنت متأكد من أنك تريد إيقاف الخدمة %s ؟"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:183
 #, php-format
 msgid "Are you sure you want to start service %s?"
-msgstr "هل أنت متأكد من أنك تريد بدء الخدمة %s؟"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:205
 msgid "MB"
-msgstr "ميجابايت"
+msgstr ""
 
 #: ../../web/templates/pages/list_cron.php:7
 #: ../../web/templates/pages/add_cron.php:25
 msgid "Add Cron Job"
-msgstr "إضافة وظيفة مجدولة"
+msgstr ""
 
 #: ../../web/templates/pages/list_cron.php:11
 #: ../../web/templates/pages/list_cron.php:42
 msgid "Disable Notifications"
-msgstr "تعطيل اﻹشعارات"
+msgstr ""
 
 #: ../../web/templates/pages/list_cron.php:15
 #: ../../web/templates/pages/list_cron.php:43
 msgid "Enable Notifications"
-msgstr "تمكين الإشعارات"
+msgstr ""
 
 #: ../../web/templates/pages/list_cron.php:96
 msgid "Are you sure you want to unsuspend this cron job?"
@@ -3902,16 +3853,16 @@ msgstr ""
 #, php-format
 msgid "%d cron job"
 msgid_plural "%d cron jobs"
-msgstr[0] "%d وظيفة كرون"
-msgstr[1] "%d وظيفة كرون"
-msgstr[2] "%d وظيفة كرون"
-msgstr[3] "%d وظائف كرون"
-msgstr[4] "%d وظائف كرون"
-msgstr[5] "%d وظائف كرون"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
 
 #: ../../web/templates/pages/list_ssl.php:82
 msgid "SSL CSR"
-msgstr "طلب توقيع شهادة باستخدام شهادة أمان SSL"
+msgstr ""
 
 #: ../../web/templates/pages/edit_dns.php:82
 #: ../../web/templates/pages/list_dns.php:83
@@ -3925,144 +3876,144 @@ msgstr ""
 #: ../../web/templates/pages/list_access_keys.php:84
 #: ../../web/templates/pages/list_access_keys.php:85
 msgid "Access Key"
-msgstr "مفتاح الوصول"
+msgstr ""
 
 #: ../../web/templates/pages/list_access_key.php:31
 msgid "Access Key ID"
-msgstr "معرف مفتاح الوصول"
+msgstr ""
 
 #: ../../web/templates/pages/list_access_key.php:39
 msgid "Secret Key"
-msgstr "المفتاح السري"
+msgstr ""
 
 #: ../../web/templates/pages/list_access_key.php:40
 msgid "Warning! Last chance to save secret key!"
-msgstr "تحذير! آخر فرصة لحفظ المفتاح السري!"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:11
 msgid "Purge NGINX Cache"
-msgstr "حذف ذاكرة التخزين المؤقت لـNGINX"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:49
 msgid "Edit Web Domain"
-msgstr "تحرير مجال الويب"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:64
 msgid "If the aliases changes, Let's Encrypt will obtain a new SSL certificate."
-msgstr "إذا تغيرت الأسماء المستعارة ، فسيحصل Let's Encrypt على شهادة SSL جديدة."
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:81
 msgid "Web Statistics"
-msgstr "إحصائيات الوب"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:100
 msgid "Statistics Authorization"
-msgstr "الدخول للإحصائيات بكلمة مرور"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:126
 msgid "Enable domain redirection"
-msgstr "تمكين إعادة توجيه المجال"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:133
 #: ../../web/templates/pages/edit_web.php:139
 #, php-format
 msgid "Redirect visitors to %s"
-msgstr "إعادة توجيه الزوار إلى %s"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:145
 msgid "Redirect visitors to a custom domain or web address"
-msgstr "إعادة توجيه الزوار إلى مجال مخصص أو عنوان ويب"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:150
 msgid "Target domain or URL"
-msgstr "النطاق أو عنوان محدد موقع الموارد الموحد URL المستهدف"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:154
 msgid "Status code"
-msgstr "رمز الحالة"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:182
 msgid "Enable automatic HTTPS redirection"
-msgstr "تمكين إعادة توجيه لبروتوكول نقل النص الفائق الآمن HTTPS التلقائي"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:188
 msgid "Enable HTTP Strict Transport Security (HSTS)"
-msgstr "تمكين أمان النقل المشدد لبروتوكول نقل النص الفائق HTTP (HSTS)"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:250
 msgid "Hide Certificate"
-msgstr "إخفاء الشهادة"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:250
 #: ../../web/templates/pages/edit_web.php:251
 msgid "Show Certificate"
-msgstr "إظهار الشهادة"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:285
 msgid "Enable FastCGI cache"
-msgstr "تمكين ذاكرة التخزين المؤقت FastCGI"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:294
 msgid "Cache Duration"
-msgstr "مدة ذاكرة التخزين المؤقت"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:327
 msgid "Proxy Support"
-msgstr "دغم بروكسي"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:351
 msgid "Proxy Extensions"
-msgstr "توسعات بروكسي"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:360
 msgid "Custom document root"
-msgstr "جذر المستند المخصص"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:365
 msgid "Point to"
-msgstr "يشير إلى"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:378
 #: ../../web/templates/pages/edit_server.php:716
 #: ../../web/templates/pages/edit_server.php:831
 #: ../../web/templates/pages/edit_server.php:895
 msgid "Directory"
-msgstr "المجلد"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:388
 msgid "Additional FTP account(s)"
-msgstr "حساب بروتوكول نقل الملفات FTP إضافية"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:410
 #: ../../web/templates/pages/edit_web.php:464
 #, php-format
 msgid "Prefix %s will be added to username automatically"
-msgstr "ستتم إضافة %s إلى اسم المستخدم تلقائيا"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:426
 #: ../../web/templates/pages/edit_web.php:479
 msgid "Path"
-msgstr "المسار"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:434
 #: ../../web/templates/pages/edit_web.php:485
 msgid "Send FTP credentials to email"
-msgstr "إرسال معلومات اعتماد FTP للبريد الالكتروني"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:443
 msgid "Add FTP account"
-msgstr "إضافة حساب بروتوكول نقل الملفات FTP"
+msgstr ""
 
 #: ../../web/templates/pages/add_dns_rec.php:25
 #: ../../web/templates/pages/list_dns.php:149
 #: ../../web/templates/pages/list_dns.php:152
 msgid "Add DNS Record"
-msgstr "إضافة سجل DNS"
+msgstr ""
 
 #: ../../web/templates/pages/list_web.php:43
 #: ../../web/templates/pages/list_dns.php:43
 msgid "Rebuild"
-msgstr "اعاده"
+msgstr ""
 
 #: ../../web/templates/pages/list_web.php:84
 #: ../../web/templates/pages/list_web.php:231
@@ -4071,13 +4022,13 @@ msgstr "اعاده"
 #: ../../web/templates/includes/panel.php:204
 #: ../../web/templates/includes/panel.php:206
 msgid "Statistics"
-msgstr "إحصائيات"
+msgstr ""
 
 #: ../../web/templates/pages/list_web.php:211
 #: ../../web/templates/pages/list_web.php:256
 #: ../../web/templates/pages/list_web.php:259
 msgid "Edit Domain"
-msgstr "تعديل أسماء النطاقات"
+msgstr ""
 
 #: ../../web/templates/pages/list_web.php:244
 #: ../../web/templates/pages/list_web.php:247
@@ -4089,45 +4040,45 @@ msgstr ""
 #: ../../web/templates/pages/list_weblog.php:39
 #: ../../web/templates/pages/list_weblog.php:41
 msgid "Access Log"
-msgstr "سجل الوصول"
+msgstr ""
 
 #: ../../web/templates/pages/list_web.php:339
 #, php-format
 msgid "%d web domain"
 msgid_plural "%d web domains"
-msgstr[0] "%d نطاق ويب"
-msgstr[1] "%d نطاق ويب"
-msgstr[2] "%d نطاق ويب"
-msgstr[3] "%d نطاق ويب"
-msgstr[4] "%d نطاق ويب"
-msgstr[5] "%d نطاق ويب"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
 
 #: ../../web/templates/pages/add_access_key.php:24
 #: ../../web/templates/pages/list_access_keys.php:9
 msgid "Add Access Key"
-msgstr "إضافة مفتاح وصول"
+msgstr ""
 
 #: ../../web/templates/pages/add_mail_acc.php:88
 msgid "One or more email addresses"
-msgstr "عنوان بريد إلكتروني واحد أو أكثر"
+msgstr ""
 
 #: ../../web/templates/pages/login/login_2.php:8
 msgid "Two-factor Authentication"
-msgstr "المصادقة الثنائية"
+msgstr ""
 
 #: ../../web/templates/pages/login/login_2.php:15
 msgid "2FA Token"
-msgstr "PIN OTP"
+msgstr ""
 
 #: ../../web/templates/pages/login/login_2.php:17
 msgid "Forgot Token"
-msgstr "نسيت الرمز المميز"
+msgstr ""
 
 #: ../../web/templates/pages/login/login_2.php:24
 #: ../../web/templates/pages/login/login_1.php:23
 #: ../../web/templates/pages/edit_server.php:1041
 msgid "Login"
-msgstr "تسجيل الدخول "
+msgstr ""
 
 #: ../../web/templates/pages/login/reset_2.php:7
 #: ../../web/templates/pages/login/login_a.php:22
@@ -4135,330 +4086,330 @@ msgstr "تسجيل الدخول "
 #: ../../web/templates/pages/login/reset_1.php:8
 #: ../../web/templates/pages/login/reset_3.php:7
 msgid "Forgot Password"
-msgstr "لقد نسيت كلمة المرور"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset_2.php:13
 msgid "Password reset code has been sent to your email address"
-msgstr "تم إرسال رمز إعادة تعيين كلمة المرور إلى عنوان بريدك الإلكتروني"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset_2.php:19
 msgid "Reset Code"
-msgstr "كود إعادة تعيين"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset_2.php:24
 msgid "Confirm"
-msgstr "تأكيد"
+msgstr ""
 
 #: ../../web/templates/pages/login/login_a.php:29
 #: ../../web/templates/pages/login/login.php:18
 msgid "Next"
-msgstr "التالي"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset2fa.php:8
 msgid "Account Unlocked"
-msgstr "الحساب مفتوح"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset2fa.php:11
 msgid "Two-factor authentication is now turned off for your account.<br><br>You may now proceed to log in."
-msgstr "تم الآن إيقاف تشغيل المصادقة ذات العاملين لحسابك.<br><br> يمكنك الآن المتابعة لتسجيل الدخول."
+msgstr ""
 
 #: ../../web/templates/pages/login/reset2fa.php:13
 msgid "Log in"
-msgstr "تسجيل الدخول"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset2fa.php:21
 msgid "Unlock Account"
-msgstr "فتح الحساب"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset2fa.php:31
 msgid "2FA Reset Code"
-msgstr "رمز استعادة الحساب"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset2fa.php:36
 #: ../../web/templates/pages/login/reset_1.php:23
 msgid "Submit"
-msgstr "موافق"
+msgstr ""
 
 #: ../../web/templates/pages/login/login_1.php:8
 msgid "Welcome"
-msgstr "أهلا وسهلا"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset_3.php:17
 msgid "New Password"
-msgstr "كلمة مرور جديدة"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset_3.php:21
 msgid "Confirm Password"
-msgstr "تأكيد كلمة المرور"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset_3.php:26
 msgid "Reset"
-msgstr "إعادة تعيين"
+msgstr ""
 
 #: ../../web/templates/pages/generate_ssl.php:35
 msgid "ISO 3166-1 alpha-2 two-letter code"
-msgstr "ISO 3166-1 alpha-2 رمز مكون من حرفين"
+msgstr ""
 
 #: ../../web/templates/pages/generate_ssl.php:41
 msgid "State / Province"
-msgstr "ولاية / مقاطعة"
+msgstr ""
 
 #: ../../web/templates/pages/generate_ssl.php:47
 msgid "City / Locality"
-msgstr "المدينة / المنطقة"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:12
 msgid "White Label"
-msgstr "العلامة البيضاء (العلامة التجارية)"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:74
 msgid "Time Zone"
-msgstr "المنطقة الزمنية"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:105
 msgid "Set as selected theme for all users"
-msgstr "تعيين النسق كنسق لجميع المستخدمين"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:109
 msgid "Default Language"
-msgstr "اللغة الافتراضية"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:126
 msgid "Set as default language for all users"
-msgstr "تعيين كلغة افتراضية لجميع المستخدمين"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:146
 msgid "Release"
-msgstr "نسخة"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:153
 msgid "Options"
-msgstr "الخيارات"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:164
 msgid "Enable debug mode"
-msgstr "تمكين وضع التصحيح"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:176
 msgid "Enable preview features"
-msgstr "تمكين ميزات المعاينة"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:180
 msgid "View"
-msgstr "طريقة العرض"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:193
 msgid "Send email notification when an update has been installed"
-msgstr "إرسال إشعار بالبريد الإلكتروني عند تثبيت تحديث"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:205
 msgid "Send update installation log by email"
-msgstr "إرسال سجل تثبيت التحديث عبر البريد الإلكتروني"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:214
 #: ../../web/templates/pages/edit_server.php:230
 msgid "Web Server"
-msgstr "مخدم الويب"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:219
 msgid "Proxy Server"
-msgstr "المخدم الوكيل (بروكسي)"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:241
 msgid "Backend Server"
-msgstr "المخدم النهائي"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:252
 msgid "Backend Pool Mode"
-msgstr "نمط المخدم النهائي"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:261
 msgid "Enabled PHP Versions"
-msgstr "إصدارات PHP الممكّنة"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:265
 msgid "It may take a few minutes to save your changes. Please wait until the process has completed and do not refresh the page."
-msgstr "قد يستغرق حفظ التغييرات بضع دقائق. يرجى الانتظار حتى تكتمل العملية وعدم تحديث الصفحة."
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:298
 msgid "System PHP Version"
-msgstr "إصدار بي إتش بي للنظام"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:321
 #: ../../web/templates/pages/edit_server.php:325
 msgid "DNS Server"
-msgstr "مخدم DNS"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:334
 msgid "DNS Cluster"
-msgstr "عناقيد DNS"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:366
 #: ../../web/templates/pages/edit_server.php:370
 msgid "Mail Server"
-msgstr "خادم البريد"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:403
 msgid "Webmail Alias"
-msgstr "الاسم المستعار لبريد الويب"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:424
 msgid "Global SMTP Relay"
-msgstr "وسيط بروتوكول نقل البريد البسيط SMTP العام"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:495
 msgid "MySQL Support"
-msgstr "دعم MySQL"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:508
 msgid "phpMyAdmin Alias"
-msgstr "الاسم المستعار لبي إتش بي ماي آدمن"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:520
 msgid "phpMyAdmin Single Sign On"
-msgstr "تسجيل الدخول الأحادي لبي إتش بي ماي آدمن"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:526
 msgid "More info"
-msgstr "المزيد"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:578
 #: ../../web/templates/pages/edit_server.php:636
 msgid "Maximum Number of Databases"
-msgstr "الحد الأقصى لعدد قواعد البيانات"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:591
 #: ../../web/templates/pages/edit_server.php:642
 msgid "Current Number of Databases"
-msgstr "العدد الحالي لقواعد البيانات"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:608
 msgid "PostgreSQL Support"
-msgstr "دعم PostgreSQL"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:619
 msgid "phpPgAdmin Alias"
-msgstr "الاسم المستعار لـphpPgAdmin"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:660
 msgid "Local Backup"
-msgstr "النسخ الاحتياطي المحلي"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:673
 msgid "Compression"
-msgstr "الضغط "
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:693
 msgid "Compression Level"
-msgstr "مستوى الضغط"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:709
 msgid "zstd only"
-msgstr "الضغط بصيغة ZSTD فقط"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:743
 msgid "Remote Backup"
-msgstr "النسخ الاحتياطي عن بعد"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:984
 msgid "Security"
-msgstr "أمن"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:996
 msgid "API"
-msgstr "واجهة برمجة التطبيقات"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1000
 msgid "Enable API access"
-msgstr "تمكين الوصول إلى واجهة برمجة التطبيقات"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1007
 msgid "Enabled for admin"
-msgstr "مفعل للمسؤول"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1010
 msgid "Enabled for all users"
-msgstr "مفعل لجميع المستخدمين"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1016
 msgid "Enable legacy API access"
-msgstr "تمكين الوصول إلى واجهة برمجة التطبيقات API القديمة "
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1030
 msgid "Allowed IP addresses for API"
-msgstr "عناوين بروتوكول الإنترنت IP المسموح بها لواجهة برمجة التطبيقات API"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1045
 msgid "Login screen style"
-msgstr "نمط شاشة تسجيل الدخول"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1052
 msgid "Old Style"
-msgstr "الطراز القديم"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1058
 msgid "Allow users to reset their passwords"
-msgstr "السماح للمستخدمين بإعادة ضبط كلمات المرور الخاصة بهم"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1078
 msgid "Inactive session timeout"
-msgstr "مهلة الجلسة غير النشطة"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1090
 msgid "Prevent CSRF"
-msgstr "منع التلاعب بملفات تعريف الارتباط CSRF"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1104
 msgid "Strict"
-msgstr "صارم"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1112
 msgid "System Protection"
-msgstr "حماية النظام"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1120
 msgid "System Administrator account"
-msgstr "حساب مسؤول النظام"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1124
 msgid "Restrict access to read-only for other administrators"
-msgstr "تقييد الوصول للقراءة فقط للمسؤولين الآخرين"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1141
 msgid "Hide account from other administrators"
-msgstr "إخفاء الحساب عن المسؤولين الآخرين"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1158
 msgid "Do not allow other administrators to access Server Settings"
-msgstr "عدم السماح للمسؤولين الآخرين بالوصول إلى إعدادات الخادم"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1176
 msgid "Policies"
-msgstr "السياسات"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1188
 msgid "Allow users to edit their account details"
-msgstr "السماح للمستخدمين بتعديل تفاصيل حساباتهم"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1205
 msgid "Allow users to change templates when editing web domains"
-msgstr "السماح للمستخدمين بتغيير القوالب عند تعديل نطاقات الويب"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1218
 msgid "Allow users to change templates when editing DNS zones"
-msgstr "السماح للمستخدمين بتغيير القوالب عند تعديل مناطق نظام أسماء النطاقات"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1235
 msgid "Allow users to view action and login history logs"
-msgstr "السماح للمستخدمين بعرض سجلات سجل الإجراءات وتسجيل الدخول"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1252
 msgid "Allow users to delete log history"
-msgstr "السماح للمستخدمين بحذف سجل السجلات القديمة"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1271
 msgid "Preview"
-msgstr "معاينه"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1289
 msgid "Allow suspended users to create new backups"
@@ -4482,84 +4433,84 @@ msgstr ""
 #: ../../web/templates/includes/panel.php:323
 #: ../../web/templates/includes/panel.php:327
 msgid "Domains"
-msgstr "نطاقات"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1343
 msgid "Enforce subdomain ownership"
-msgstr "فرض ملكية النطاق الفرعي"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1365
 msgid "Plugins"
-msgstr "الإضافات"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1370
 msgid "Quick App Installer"
-msgstr "مثبت التطبيق السريع"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1383
 msgid "File Manager"
-msgstr "مدير الملفات"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1396
 msgid "File System Disk Quota"
-msgstr "حصة مساحة نظام الملفات"
+msgstr ""
 
 #: ../../web/templates/pages/edit_backup_exclusions.php:29
 msgid "Type domain name, one per line. To exclude all domains use *. To exclude specific dirs use following format: domain.tld:public_html/cache:public_html/tmp"
-msgstr "اكتب اسم المجال ، واحد لكل سطر. لاستبعاد جميع النطاقات ، استخدم *. لاستبعاد مجلدات معينة ، استخدم التنسيق التالي: domain.tld: public_html / cache: public_html / tmp"
+msgstr ""
 
 #: ../../web/templates/pages/edit_backup_exclusions.php:33
 msgid "Type domain name, one per line. To exclude all domains use *. To exclude specific accounts use following format: domain.tld:info:support:postmaster"
-msgstr "اكتب اسم المجال ، واحد لكل سطر. لاستبعاد جميع النطاقات ، استخدم *. لاستبعاد حسابات محددة، استخدم التنسيق التالي: domain.tld:info:support:postmaster"
+msgstr ""
 
 #: ../../web/templates/pages/edit_backup_exclusions.php:37
 msgid "Type full database name, one per line. To exclude all databases use *"
-msgstr "اكتب اسم قاعدة البيانات الكامل، اسما واحدا لكل سطر. لاستبعاد جميع قواعد البيانات ، استخدم *"
+msgstr ""
 
 #: ../../web/templates/pages/edit_backup_exclusions.php:41
 msgid "Type directory name, one per line. To exlude all dirs use *"
-msgstr "اكتب اسم الدليل ، واحد لكل سطر. لاستبعاد جميع اﻷدلة استخدم *"
+msgstr ""
 
 #: ../../web/templates/pages/list_access_keys.php:97
 #, php-format
 msgid "Are you sure you want to delete access key %s?"
-msgstr "هل أنت متأكد من أنك تريد حذف مفتاح الوصول %s ؟"
+msgstr ""
 
 #: ../../web/templates/pages/list_access_keys.php:126
 #, php-format
 msgid "%d access key"
 msgid_plural "%d access keys"
-msgstr[0] "%d مفتاح الوصول"
-msgstr[1] "%d مفتاح الوصول"
-msgstr[2] "%d مفتاح الوصول"
-msgstr[3] "%d مفتاح الوصول"
-msgstr[4] "%d مفتاح الوصول"
-msgstr[5] "%d مفتاح الوصول"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
 
 #: ../../web/templates/pages/list_firewall_banlist.php:9
 msgid "Ban IP Address"
-msgstr "العناوين المحجوبة"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_banlist.php:69
 #: ../../web/templates/pages/list_ip.php:117
 #, php-format
 msgid "Are you sure you want to delete IP address %s?"
-msgstr "هل أنت متأكد من أنك تريد حذف عنوان IP %s؟"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_banlist.php:100
 msgid "There are currently no banned IP addresses."
-msgstr "لا توجد حاليا عناوين IP محظورة."
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_banlist.php:102
 #, php-format
 msgid "%d banned IP address"
 msgid_plural "%d banned IP addresses"
-msgstr[0] "%d عنوان IP المحظور"
-msgstr[1] "%d عنوان IP المحظور"
-msgstr[2] "%d عنوان IP المحظور"
-msgstr[3] "%d عنوان IP المحظور"
-msgstr[4] "%d عنوان IP المحظور"
-msgstr[5] "%d عنوان IP المحظور"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
 
 #: ../../web/templates/pages/list_ip.php:37
 #: ../../web/templates/pages/list_ip.php:72
@@ -4567,7 +4518,7 @@ msgstr[5] "%d عنوان IP المحظور"
 #: ../../web/templates/pages/list_search.php:53
 #: ../../web/templates/pages/list_search.php:161
 msgid "Owner"
-msgstr "مالك"
+msgstr ""
 
 #: ../../web/templates/pages/list_ip.php:44
 msgid "Refresh IP Addresses"
@@ -4582,98 +4533,98 @@ msgstr ""
 #, php-format
 msgid "%d IP address"
 msgid_plural "%d IP addresses"
-msgstr[0] "%d عنوان بروتوكول الإنترنت"
-msgstr[1] "%d عنوان بروتوكول الإنترنت"
-msgstr[2] "%d عنوان بروتوكول الإنترنت"
-msgstr[3] "%d عنوان بروتوكول الإنترنت"
-msgstr[4] "%d عنوان بروتوكول الإنترنت"
-msgstr[5] "%d عنوان بروتوكول الإنترنت"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
 
 #: ../../web/templates/pages/list_stats.php:6
 msgid "Overall Statistics"
-msgstr "إحصائيات عامة"
+msgstr ""
 
 #: ../../web/templates/pages/list_stats.php:14
 msgid "Show Per User"
-msgstr "عرض لكل مستخدم"
+msgstr ""
 
 #: ../../web/templates/pages/list_stats.php:161
 msgid "SSL Domains"
-msgstr "نطاقات بروتوكول طبقة المقابس الآمنة SSL"
+msgstr ""
 
 #: ../../web/templates/pages/list_stats.php:235
 #, php-format
 msgid "%d month"
 msgid_plural "%d months"
-msgstr[0] "%d شهر"
-msgstr[1] "%d شهر"
-msgstr[2] "%d شهر"
-msgstr[3] "%d شهر"
-msgstr[4] "%d شهر"
-msgstr[5] "%d شهر"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
 
 #: ../../web/templates/pages/list_search.php:45
 #: ../../web/templates/pages/list_search.php:51
 #: ../../web/templates/pages/list_search.php:123
 msgid "Search Results"
-msgstr "نتائج البحث"
+msgstr ""
 
 #: ../../web/templates/pages/list_search.php:185
 #, php-format
 msgid "%d object"
 msgid_plural "%d objects"
-msgstr[0] "%d كائن"
-msgstr[1] "%d كائن"
-msgstr[2] "%d كائن"
-msgstr[3] "%d كائن"
-msgstr[4] "%d كائن"
-msgstr[5] "%d كائن"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
 
 #: ../../web/templates/pages/list_dns.php:25
 msgid "Expire"
-msgstr "تنقضي"
+msgstr ""
 
 #: ../../web/templates/pages/list_dns.php:34
 #: ../../web/templates/pages/list_dns.php:80
 #: ../../web/templates/pages/list_dns.php:216
 #: ../../web/templates/includes/panel.php:311
 msgid "Records"
-msgstr "سجلات"
+msgstr ""
 
 #: ../../web/templates/pages/list_dns.php:84
 #: ../../web/templates/pages/list_dns.php:238
 msgid "DNSSEC"
-msgstr "الامتداد الآمن لنظام أسماء النطاقات (DNSSEC)"
+msgstr ""
 
 #: ../../web/templates/pages/list_dns.php:256
 #, php-format
 msgid "%d DNS zone"
 msgid_plural "%d DNS zones"
-msgstr[0] "%d منطقة نظام أسماء النطاقات"
-msgstr[1] "%d منطقة نظام أسماء النطاقات"
-msgstr[2] "%d منطقة نظام أسماء النطاقات"
-msgstr[3] "%d منطقة نظام أسماء النطاقات"
-msgstr[4] "%d منطقة نظام أسماء النطاقات"
-msgstr[5] "%d منطقة نظام أسماء النطاقات"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
 
 #: ../../web/templates/pages/list_weblog.php:51
 #: ../../web/templates/pages/list_weblog.php:53
 msgid "Error Log"
-msgstr "سجل الأخطاء"
+msgstr ""
 
 #: ../../web/templates/pages/list_weblog.php:97
 #, php-format
 msgid "Last 70 lines of %s.%s.log"
-msgstr "آخر 70 سطر في %s.%s.log"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:29
 msgid "Logged in as"
-msgstr "تم تسجيل الدخول باسم"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:67
 #: ../../web/templates/includes/panel.php:75
 msgid "Notifications"
-msgstr "إشعارات"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:86
 msgid "Loading..."
@@ -4682,26 +4633,26 @@ msgstr ""
 #: ../../web/templates/includes/panel.php:92
 #: ../../web/templates/includes/js.php:9
 msgid "No notifications"
-msgstr "لا توجد إشعارات"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:109
 msgid "Delete notification"
-msgstr "حذف الإشعار"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:132
 #: ../../web/templates/includes/js.php:10
 msgid "Delete all notifications"
-msgstr "حذف جميع الإشعارات"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:160
 #: ../../web/templates/includes/panel.php:162
 msgid "File manager"
-msgstr "مدير الملفات"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:174
 #: ../../web/templates/includes/panel.php:176
 msgid "Server settings"
-msgstr "إعدادات الخادم"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:213
 #: ../../web/templates/includes/panel.php:215
@@ -4710,12 +4661,12 @@ msgstr ""
 
 #: ../../web/templates/includes/panel.php:249
 msgid "Collapse main menu"
-msgstr "طي القائمة الرئيسية"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:249
 #: ../../web/templates/includes/panel.php:252
 msgid "Expand main menu"
-msgstr "توسيع القائمة الرئيسية"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:267
 #: ../../web/templates/includes/panel.php:274
@@ -4725,11 +4676,11 @@ msgstr "توسيع القائمة الرئيسية"
 #: ../../web/templates/includes/panel.php:342
 #: ../../web/templates/includes/panel.php:358
 msgid "Suspended"
-msgstr "معلق"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:268
 msgid "USER"
-msgstr "المستخدم"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:285
 #: ../../web/templates/includes/panel.php:304
@@ -4738,23 +4689,23 @@ msgstr "المستخدم"
 #: ../../web/templates/includes/panel.php:358
 #: ../../web/templates/includes/panel.php:374
 msgid "Limit"
-msgstr "حد"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:308
 msgid "Zones"
-msgstr "المناطق"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:359
 msgid "CRON"
-msgstr "مجدول الوظائف"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:375
 msgid "BACKUP"
-msgstr "النسخ الإحتياطية"
+msgstr ""
 
 #: ../../web/templates/includes/js.php:11
 msgid "Are you sure you want to leave the page?"
-msgstr "هل أنت متأكد أنك تريد مغادرة الصفحة؟"
+msgstr ""
 
 #: ../../web/templates/includes/js.php:13
 msgid "BLACKLIST"
@@ -4766,29 +4717,29 @@ msgstr ""
 
 #: ../../web/login/index.php:138
 msgid "Account has been suspended"
-msgstr "تم تعليق الحساب"
+msgstr ""
 
 #: ../../web/login/index.php:140
 msgid "Unsupported hash method"
-msgstr "طريقة تجزئة غير مدعومة"
+msgstr ""
 
 #: ../../web/login/index.php:142 ../../web/login/index.php:199
 #: ../../web/login/index.php:222 ../../web/login/index.php:246
 msgid "Invalid username or password"
-msgstr "خطأ في اسم المستخدم أو كلمة المرور"
+msgstr ""
 
 #: ../../web/login/index.php:272 ../../web/login/index.php:287
 msgid "Invalid or missing 2FA token"
-msgstr "رمز المصادقة الثنائية (2FA) غير صالح أو مفقود"
+msgstr ""
 
 #: ../../web/start/service/index.php:23
 #, php-format
 msgid "Start \"%s\" failed"
-msgstr "فشل بدء تشغيل خدمة \"%s\""
+msgstr ""
 
 #: ../../web/schedule/backup/index.php:12
 msgid "Task has been added to the queue. You will receive an email notification when your backup is ready for download."
-msgstr "تمت إضافة المهمة إلى قائمة الانتظار. ستتلقى إشعارا بالبريد الإلكتروني عندما تكون النسخة الاحتياطية جاهزة للتنزيل."
+msgstr ""
 
 #: ../../web/schedule/backup/index.php:22
 msgid "An existing backup task is already running, please wait for it to complete."
@@ -4797,77 +4748,77 @@ msgstr ""
 #: ../../web/update/hestia/index.php:20
 #, php-format
 msgid "Error: %s update failed."
-msgstr "خطأ : %s فشل التحديث."
+msgstr ""
 
 #: ../../web/copy/package/index.php:35
 msgid "Error: unable to copy package."
-msgstr "خطأ: غير قادر على نسخ الحزمة."
+msgstr ""
 
 #: ../../bin/v-list-sys-hestia-updates:110
 msgid "Hestia core package"
-msgstr "حزمة هيستيا الأساسية"
+msgstr ""
 
 #: ../../bin/v-list-sys-hestia-updates:125
 msgid "Hestia internal php interpreter"
-msgstr "معالج بي إتش بي الداخلي لهيستيا "
+msgstr ""
 
 #: ../../bin/v-list-sys-hestia-updates:141
 msgid "Hestia internal web server"
-msgstr "خادم الويب الداخلي لهيستيا"
+msgstr ""
 
 #: ../../bin/v-list-sys-services:161
 msgid "web server"
-msgstr "خادم الويب"
+msgstr ""
 
 #: ../../bin/v-list-sys-services:172
 msgid "backend server"
-msgstr "خادم الواجهة الخلفية"
+msgstr ""
 
 #: ../../bin/v-list-sys-services:180
 msgid "reverse proxy"
-msgstr "الوكيل المعاكس"
+msgstr ""
 
 #: ../../bin/v-list-sys-services:189
 msgid "dns server"
-msgstr "خادم نظام أسماء النطاقات DNS"
+msgstr ""
 
 #: ../../bin/v-list-sys-services:196
 msgid "mail server"
-msgstr "خادم البريد"
+msgstr ""
 
 #: ../../bin/v-list-sys-services:203
 msgid "imap/pop3 server"
-msgstr "خادم بروتوكول الوصول إلى رسائل الإنترنت أو بروتوكول مكتب البريد imap/pop3"
+msgstr ""
 
 #: ../../bin/v-list-sys-services:220
 msgid "email anti-virus"
-msgstr "مكافحة فيروسات البريد الإلكتروني"
+msgstr ""
 
 #: ../../bin/v-list-sys-services:228
 msgid "email spam filter"
-msgstr "تصفية البريد الإلكتروني العشوائي"
+msgstr ""
 
 #: ../../bin/v-list-sys-services:275
 msgid "database server"
-msgstr "خادم قاعدة البيانات"
+msgstr ""
 
 #: ../../bin/v-list-sys-services:284
 msgid "ftp server"
-msgstr "خادم بروتوكول نقل الملفات FTP"
+msgstr ""
 
 #: ../../bin/v-list-sys-services:291
 msgid "job scheduler"
-msgstr "مجدول الأعمال"
+msgstr ""
 
 #: ../../bin/v-list-sys-services:298
 msgid "ssh server"
-msgstr "خدمة بروتوكول النقل الآمن SSH"
+msgstr ""
 
 #: ../../bin/v-list-sys-services:308
 msgid "firewall"
-msgstr "جدار الحمايه"
+msgstr ""
 
 #: ../../bin/v-list-sys-services:323
 msgid "brute-force protection"
-msgstr "الحماية من هجوم القوة العمياء"
+msgstr ""
 
