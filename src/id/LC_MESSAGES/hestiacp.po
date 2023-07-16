@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-06 11:24+0000\n"
-"PO-Revision-Date: 2023-07-06 11:26\n"
+"PO-Revision-Date: 2023-07-16 13:01\n"
 "Last-Translator: \n"
 "Language-Team: Indonesian\n"
 "Language: id_ID\n"
@@ -14,13 +14,13 @@ msgstr ""
 "X-Crowdin-Project: hestiacp\n"
 "X-Crowdin-Project-ID: 587405\n"
 "X-Crowdin-Language: id\n"
-"X-Crowdin-File: hestiacp.pot\n"
-"X-Crowdin-File-ID: 3\n"
+"X-Crowdin-File: /main/hestiacp.pot\n"
+"X-Crowdin-File-ID: 13\n"
 
 #: ../../web/stop/service/index.php:24
 #, php-format
 msgid "Stop \"%s\" failed"
-msgstr "Berhenti \"%s\" gagal"
+msgstr ""
 
 #: ../../web/inc/main.php:166 ../../web/inc/main.php:175
 #: ../../web/generate/ssl/index.php:121
@@ -60,45 +60,37 @@ msgid "Hello {{name}},\n\n"
 "Best regards,\n\n"
 "--\n"
 "{{appname}}"
-msgstr "Hello {{name}},\n\n"
-"Untuk reset {{appname}} password anda, silakan klik link ini:\n"
-"https://{{hostname}}/reset/?action=confirm&user={{user}}&code={{resetcode}}\n\n"
-"Alternatif lain, silakan menuju https://{{hostname}}/reset/?action=code&user={{user}} dan masukkan reset code berikut:\n"
-"{{resetcode}}\n\n"
-"Jika anda tidak mengajukan reset password, silakan abaikan pesan ini dan maaf atas ketidaknyamanannya.\n\n"
-"Salam,\n\n"
-"--\n"
-"{{appname}}"
+msgstr ""
 
 #: ../../web/reset/index.php:84
 #, php-format
 msgid "Password Reset at %s"
-msgstr "Reset Password di %s"
+msgstr ""
 
 #: ../../web/reset/index.php:137 ../../web/reset/index.php:141
 #: ../../web/reset/index.php:146 ../../web/reset/index.php:155
 msgid "Password reset instructions have been sent to the email address associated with this account."
-msgstr "Instruksi reset password telah dikirimkan ke email yang terdaftar pada akun ini."
+msgstr ""
 
 #: ../../web/reset/index.php:150
 msgid "Please wait 15 minutes before sending a new request."
-msgstr "Mohon tunggu 15 menit sebelum mengajukan permintaan baru."
+msgstr ""
 
 #: ../../web/reset/index.php:187
 msgid "An internal error occurred"
-msgstr "Terjadi kesalahan internal"
+msgstr ""
 
 #: ../../web/reset/index.php:195
 msgid "Code has been expired"
-msgstr "Code telah kedaluwarsa"
+msgstr ""
 
 #: ../../web/reset/index.php:213 ../../web/reset/index.php:231
 msgid "Invalid username or code"
-msgstr "Kode atau nama pengguna salah"
+msgstr ""
 
 #: ../../web/reset/index.php:234
 msgid "Passwords do not match"
-msgstr "Kata sandi tidak cocok"
+msgstr ""
 
 #: ../../web/download/backup/index.php:20
 msgid "Download of remote backup file has been scheduled."
@@ -167,7 +159,7 @@ msgstr ""
 #: ../../web/generate/ssl/index.php:67
 #, php-format
 msgid "Field \"%s\" can not be blank."
-msgstr "Field \"%s\" tidak boleh kosong."
+msgstr ""
 
 #: ../../web/edit/mail/index.php:748 ../../web/edit/web/index.php:1170
 #: ../../web/edit/user/index.php:402 ../../web/add/db/index.php:48
@@ -234,7 +226,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_server.php:458
 #: ../../web/templates/pages/edit_server.php:805
 msgid "Username"
-msgstr "Nama Pengguna"
+msgstr ""
 
 #: ../../web/edit/web/index.php:1242 ../../web/edit/web/index.php:1390
 msgid "FTP account has been created and ready to use.\n\n"
@@ -263,7 +255,7 @@ msgstr ""
 #: ../../web/templates/pages/list_firewall.php:70
 #: ../../web/templates/pages/list_firewall.php:111
 msgid "Action"
-msgstr "Aksi"
+msgstr ""
 
 #: ../../web/edit/firewall/index.php:73 ../../web/add/firewall/index.php:45
 #: ../../web/templates/pages/add_firewall.php:35
@@ -273,7 +265,7 @@ msgstr "Aksi"
 #: ../../web/templates/pages/list_firewall.php:165
 #: ../../web/templates/pages/edit_server.php:749
 msgid "Protocol"
-msgstr "Protokol"
+msgstr ""
 
 #: ../../web/edit/firewall/index.php:76 ../../web/add/firewall/index.php:48
 #: ../../web/templates/pages/edit_mail.php:184
@@ -332,7 +324,7 @@ msgstr ""
 #: ../../web/templates/pages/list_ip.php:94
 #: ../../web/templates/pages/list_dns.php:28
 msgid "IP Address"
-msgstr "Alamat IP"
+msgstr ""
 
 #: ../../web/edit/package/index.php:137 ../../web/add/user/index.php:29
 #: ../../web/add/package/index.php:23
@@ -344,34 +336,34 @@ msgstr "Alamat IP"
 #: ../../web/templates/pages/list_packages.php:54
 #: ../../web/templates/pages/list_packages.php:123
 msgid "Package"
-msgstr "Paket"
+msgstr ""
 
 #: ../../web/edit/package/index.php:140 ../../web/add/package/index.php:26
 #: ../../web/templates/pages/edit_package.php:100
 #: ../../web/templates/pages/add_package.php:98
 #: ../../web/templates/pages/edit_web.php:266
 msgid "Web Template"
-msgstr "Template Web"
+msgstr ""
 
 #: ../../web/edit/package/index.php:144 ../../web/add/package/index.php:30
 #: ../../web/templates/pages/edit_package.php:117
 #: ../../web/templates/pages/add_package.php:115
 #: ../../web/templates/pages/edit_web.php:303
 msgid "Backend Template"
-msgstr "Template Backend"
+msgstr ""
 
 #: ../../web/edit/package/index.php:149 ../../web/add/package/index.php:38
 #: ../../web/templates/pages/edit_package.php:135
 #: ../../web/templates/pages/add_package.php:134
 #: ../../web/templates/pages/edit_web.php:333
 msgid "Proxy Template"
-msgstr "Template Proxy"
+msgstr ""
 
 #: ../../web/edit/package/index.php:153 ../../web/add/package/index.php:45
 #: ../../web/templates/pages/edit_package.php:161
 #: ../../web/templates/pages/add_package.php:160
 msgid "DNS Template"
-msgstr "Template DNS"
+msgstr ""
 
 #: ../../web/edit/package/index.php:156 ../../web/add/package/index.php:48
 #: ../../web/templates/pages/list_packages.php:57
@@ -471,7 +463,7 @@ msgstr ""
 #: ../../web/templates/pages/add_package.php:264
 #: ../../web/templates/pages/list_stats.php:169
 msgid "Mail Accounts"
-msgstr "Akun mail"
+msgstr ""
 
 #: ../../web/edit/package/index.php:177 ../../web/add/package/index.php:84
 #: ../../web/templates/pages/edit_mail.php:64
@@ -500,7 +492,7 @@ msgstr ""
 #: ../../web/templates/includes/panel.php:342
 #: ../../web/templates/includes/panel.php:346
 msgid "Databases"
-msgstr "Basis Data"
+msgstr ""
 
 #: ../../web/edit/package/index.php:183 ../../web/add/package/index.php:72
 #: ../../web/templates/pages/edit_package.php:311
@@ -531,7 +523,7 @@ msgstr ""
 #: ../../web/templates/includes/panel.php:374
 #: ../../web/templates/includes/panel.php:378
 msgid "Backups"
-msgstr "Cadangkan"
+msgstr ""
 
 #: ../../web/edit/package/index.php:189 ../../web/add/package/index.php:78
 #: ../../web/templates/pages/list_mail_acc.php:43
@@ -546,7 +538,7 @@ msgstr "Cadangkan"
 #: ../../web/templates/pages/add_package.php:44
 #: ../../web/templates/pages/add_mail_acc.php:71
 msgid "Quota"
-msgstr "Kuota"
+msgstr ""
 
 #: ../../web/edit/package/index.php:192 ../../web/add/package/index.php:81
 #: ../../web/templates/pages/list_user.php:23
@@ -616,7 +608,7 @@ msgstr ""
 
 #: ../../web/bulk/restore/index.php:64 ../../web/schedule/restore/index.php:65
 msgid "Task has been added to the queue. You will receive an email notification when your restore has been completed."
-msgstr "Task telah ditambahkan dalam antrian. Anda akan menerima email notifikasi apabila proses restore telah selesai."
+msgstr ""
 
 #: ../../web/bulk/restore/index.php:73 ../../web/schedule/restore/index.php:74
 msgid "An existing restoration task is already running. Please wait for it to finish before launching it again."
@@ -635,7 +627,7 @@ msgstr ""
 #: ../../web/templates/pages/add_cron.php:233
 #: ../../web/templates/pages/add_cron.php:345
 msgid "Minute"
-msgstr "Menit"
+msgstr ""
 
 #: ../../web/add/cron/index.php:20 ../../web/templates/pages/edit_cron.php:38
 #: ../../web/templates/pages/edit_cron.php:134
@@ -648,7 +640,7 @@ msgstr "Menit"
 #: ../../web/templates/pages/add_cron.php:206
 #: ../../web/templates/pages/add_cron.php:318
 msgid "Hour"
-msgstr "Jam"
+msgstr ""
 
 #: ../../web/add/cron/index.php:23 ../../web/templates/pages/edit_cron.php:42
 #: ../../web/templates/pages/edit_cron.php:284
@@ -657,14 +649,14 @@ msgstr "Jam"
 #: ../../web/templates/pages/add_cron.php:42
 #: ../../web/templates/pages/add_cron.php:284
 msgid "Day"
-msgstr "Hari"
+msgstr ""
 
 #: ../../web/add/cron/index.php:26 ../../web/templates/pages/edit_cron.php:46
 #: ../../web/templates/pages/list_cron.php:82
 #: ../../web/templates/pages/list_cron.php:180
 #: ../../web/templates/pages/add_cron.php:46
 msgid "Month"
-msgstr "Bulan"
+msgstr ""
 
 #: ../../web/add/cron/index.php:29 ../../web/templates/pages/edit_cron.php:50
 #: ../../web/templates/pages/list_cron.php:83
@@ -680,7 +672,7 @@ msgstr ""
 #: ../../web/templates/pages/list_cron.php:116
 #: ../../web/templates/pages/add_cron.php:28
 msgid "Command"
-msgstr "Perintah"
+msgstr ""
 
 #: ../../web/add/cron/index.php:80
 msgid "Cron job has been created successfully."
@@ -691,7 +683,7 @@ msgstr ""
 #: ../../web/templates/pages/add_db.php:51
 #: ../../web/templates/pages/edit_db.php:28
 msgid "Database"
-msgstr "Basis Data"
+msgstr ""
 
 #: ../../web/add/db/index.php:23 ../../web/add/mail/index.php:222
 #: ../../web/add/user/index.php:26 ../../web/templates/pages/edit_mail.php:192
@@ -713,7 +705,7 @@ msgstr "Basis Data"
 #: ../../web/templates/pages/edit_server.php:565
 #: ../../web/templates/pages/edit_server.php:817
 msgid "Password"
-msgstr "Kata sandi"
+msgstr ""
 
 #: ../../web/add/db/index.php:26 ../../web/add/dns/index.php:226
 #: ../../web/templates/pages/list_backup.php:50
@@ -746,7 +738,7 @@ msgstr "Kata sandi"
 #: ../../web/templates/pages/list_search.php:173
 #: ../../web/templates/pages/edit_dns_rec.php:39
 msgid "Type"
-msgstr "Jenis"
+msgstr ""
 
 #: ../../web/add/db/index.php:29 ../../web/templates/pages/edit_mail.php:180
 #: ../../web/templates/pages/add_mail.php:103
@@ -816,7 +808,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_mail_acc.php:38
 #: ../../web/templates/pages/add_mail_acc.php:42
 msgid "Account"
-msgstr "Pengguna"
+msgstr ""
 
 #: ../../web/add/mail/index.php:508
 #, php-format
@@ -859,7 +851,7 @@ msgstr ""
 #: ../../web/templates/pages/add_dns_rec.php:58
 #: ../../web/templates/pages/edit_dns_rec.php:59
 msgid "IP or Value"
-msgstr "Alamat IP atau Nilai"
+msgstr ""
 
 #: ../../web/add/dns/index.php:280
 #, php-format
@@ -911,7 +903,7 @@ msgstr ""
 #: ../../web/templates/pages/list_ip.php:69
 #: ../../web/templates/pages/list_ip.php:130
 msgid "Interface"
-msgstr "Antarmuka"
+msgstr ""
 
 #: ../../web/add/ip/index.php:32 ../../web/templates/pages/add_ip.php:62
 #: ../../web/templates/pages/edit_ip.php:55
@@ -1022,7 +1014,7 @@ msgstr ""
 #: ../../web/add/firewall/banlist/index.php:23
 #: ../../web/templates/pages/add_firewall_banlist.php:34
 msgid "Banlist"
-msgstr "list blokir"
+msgstr ""
 
 #: ../../web/add/firewall/banlist/index.php:52
 msgid "IP address has been banned successfully."
@@ -1051,7 +1043,7 @@ msgstr ""
 #: ../../web/templates/pages/add_firewall_ipset.php:49
 #: ../../web/templates/pages/generate_ssl.php:34
 msgid "Country"
-msgstr "Negara"
+msgstr ""
 
 #: ../../web/generate/ssl/index.php:42
 msgid "State"
@@ -1064,7 +1056,7 @@ msgstr ""
 #: ../../web/generate/ssl/index.php:48
 #: ../../web/templates/pages/generate_ssl.php:53
 msgid "Organization"
-msgstr "Organisasi"
+msgstr ""
 
 #: ../../web/generate/ssl/index.php:130
 msgid "Certificate has been generated successfully."
@@ -1073,7 +1065,7 @@ msgstr ""
 #: ../../web/templates/footer.php:23 ../../web/templates/footer.php:59
 #: ../../web/templates/footer.php:62
 msgid "Shortcuts"
-msgstr "Pintasan"
+msgstr ""
 
 #: ../../web/templates/footer.php:33
 msgid "Add new object"
@@ -1089,31 +1081,31 @@ msgstr ""
 
 #: ../../web/templates/footer.php:36
 msgid "Go to WEB list"
-msgstr "Ke WEB list"
+msgstr ""
 
 #: ../../web/templates/footer.php:37
 msgid "Go to DNS list"
-msgstr "Ke DNS list"
+msgstr ""
 
 #: ../../web/templates/footer.php:38
 msgid "Go to MAIL list"
-msgstr "Ke MAIL list"
+msgstr ""
 
 #: ../../web/templates/footer.php:39
 msgid "Go to DB list"
-msgstr "Ke DB list"
+msgstr ""
 
 #: ../../web/templates/footer.php:40
 msgid "Go to CRON list"
-msgstr "Ke CRON list"
+msgstr ""
 
 #: ../../web/templates/footer.php:41
 msgid "Go to BACKUP list"
-msgstr "Ke BACKUP list"
+msgstr ""
 
 #: ../../web/templates/footer.php:44
 msgid "Focus on search"
-msgstr "Fokus di pencarian"
+msgstr ""
 
 #: ../../web/templates/footer.php:45
 msgid "Display / Hide shortcuts"
@@ -1121,15 +1113,15 @@ msgstr ""
 
 #: ../../web/templates/footer.php:46
 msgid "Move backward through top menu"
-msgstr "Pindah ke sebelumnya lewat menu atas"
+msgstr ""
 
 #: ../../web/templates/footer.php:47
 msgid "Move forward through top menu"
-msgstr "Pindah ke setelahnya lewat menu atas"
+msgstr ""
 
 #: ../../web/templates/footer.php:48
 msgid "Enter focused element"
-msgstr "Masuk ke fokus elemen"
+msgstr ""
 
 #: ../../web/templates/footer.php:49
 msgid "Move up through elements list"
@@ -1221,7 +1213,7 @@ msgstr ""
 #: ../../web/templates/pages/list_weblog.php:35
 #: ../../web/templates/pages/edit_dns_rec.php:6
 msgid "Back"
-msgstr "Kembali"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:9
 msgid "Add IP list"
@@ -1263,7 +1255,7 @@ msgstr ""
 #: ../../web/templates/pages/list_dns.php:41
 #: ../../web/templates/pages/list_dns.php:49
 msgid "Apply to selected"
-msgstr "Terapkan untuk yang sudah dipilih"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:17
 #: ../../web/templates/pages/list_firewall_ipset.php:65
@@ -1341,7 +1333,7 @@ msgstr "Terapkan untuk yang sudah dipilih"
 #: ../../web/templates/pages/list_dns.php:205
 #: ../../web/templates/pages/list_dns.php:209
 msgid "Delete"
-msgstr "Hapus"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:30
 #: ../../web/templates/pages/list_firewall.php:17
@@ -1414,7 +1406,7 @@ msgstr ""
 #: ../../web/templates/pages/list_dns.php:16
 #: ../../web/templates/pages/list_dns.php:22
 msgid "Date"
-msgstr "Tanggal"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:42
 #: ../../web/templates/pages/list_firewall_ipset.php:92
@@ -1548,7 +1540,7 @@ msgstr ""
 #: ../../web/templates/pages/list_services.php:12
 #: ../../web/templates/pages/edit_server.php:135
 msgid "Updates"
-msgstr "Perbarui"
+msgstr ""
 
 #: ../../web/templates/pages/list_updates.php:33
 #: ../../web/templates/pages/list_updates.php:54
@@ -1567,7 +1559,7 @@ msgstr ""
 #: ../../web/templates/pages/list_webapps.php:27
 #: ../../web/templates/pages/edit_server.php:139
 msgid "Version"
-msgstr "Versi"
+msgstr ""
 
 #: ../../web/templates/pages/list_updates.php:36
 #: ../../web/templates/pages/list_updates.php:66
@@ -1584,7 +1576,7 @@ msgstr ""
 #: ../../web/templates/pages/list_mail.php:7
 #: ../../web/templates/pages/add_mail.php:32
 msgid "Add Mail Domain"
-msgstr "Tambah Domain Mail"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:13
 #: ../../web/templates/pages/list_user.php:14
@@ -1623,7 +1615,7 @@ msgstr ""
 #: ../../web/templates/pages/list_mail.php:296
 #: ../../web/templates/includes/panel.php:330
 msgid "Accounts"
-msgstr "Akun"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:28
 #: ../../web/templates/pages/list_mail.php:78
@@ -1645,7 +1637,7 @@ msgstr "Akun"
 #: ../../web/templates/pages/list_stats.php:93
 #: ../../web/templates/includes/panel.php:35
 msgid "Disk"
-msgstr "Diska"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:40
 #: ../../web/templates/pages/list_user.php:42
@@ -1718,7 +1710,7 @@ msgstr ""
 #: ../../web/templates/pages/list_dns.php:58
 #: ../../web/templates/pages/list_dns.php:59
 msgid "Search"
-msgstr "Cari"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:79
 #: ../../web/templates/pages/list_mail.php:316
@@ -1779,7 +1771,7 @@ msgstr ""
 #: ../../web/templates/pages/list_mail_acc.php:16
 #: ../../web/templates/pages/add_mail_acc.php:32
 msgid "Add Mail Account"
-msgstr "Tambah Pengguna Mail"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:251
 #: ../../web/templates/pages/list_mail.php:254
@@ -1803,7 +1795,7 @@ msgstr[0] ""
 
 #: ../../web/templates/pages/list_backup.php:6
 msgid "Create Backup"
-msgstr "Buat Cadangan"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup.php:7
 #: ../../web/templates/pages/list_backup_exclusions.php:29
@@ -1857,7 +1849,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_server.php:1400
 #: ../../web/templates/pages/edit_server.php:1413
 msgid "No"
-msgstr "Tidak"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup.php:65
 #: ../../web/templates/pages/list_backup.php:66
@@ -1891,7 +1883,7 @@ msgstr "Tidak"
 #: ../../web/templates/pages/edit_server.php:1403
 #: ../../web/templates/pages/edit_server.php:1416
 msgid "Yes"
-msgstr "Ya"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup.php:84
 #: ../../web/templates/pages/list_backup.php:107
@@ -1978,7 +1970,7 @@ msgstr[0] ""
 #: ../../web/templates/pages/add_cron.php:11
 #: ../../web/templates/pages/edit_dns_rec.php:11
 msgid "Save"
-msgstr "Simpan"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:44
 #: ../../web/templates/pages/add_mail.php:53
@@ -2001,7 +1993,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_mail.php:93
 #: ../../web/templates/pages/add_mail.php:92
 msgid "DKIM Support"
-msgstr "Dukungan DKIM"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:99
 #: ../../web/templates/pages/edit_web.php:169
@@ -2023,7 +2015,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_web.php:197
 #: ../../web/templates/pages/edit_server.php:918
 msgid "SSL Certificate"
-msgstr "Sertifikat SSL"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:122
 #: ../../web/templates/pages/list_ssl.php:16
@@ -2043,7 +2035,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_mail.php:132
 #: ../../web/templates/pages/edit_web.php:208
 msgid "SSL Certificate Authority / Intermediate"
-msgstr "Otoritas Sertifikat SSL / Menengah"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:132
 #: ../../web/templates/pages/add_ip.php:76
@@ -2129,14 +2121,14 @@ msgstr ""
 #: ../../web/templates/pages/add_dns.php:42
 #: ../../web/templates/pages/add_db.php:42
 msgid "Add User"
-msgstr "Tambah Pengguna"
+msgstr ""
 
 #: ../../web/templates/pages/add_mail.php:43
 #: ../../web/templates/pages/add_web.php:38
 #: ../../web/templates/pages/add_dns.php:43
 #: ../../web/templates/pages/add_db.php:43
 msgid "Continue"
-msgstr "Lanjut"
+msgstr ""
 
 #: ../../web/templates/pages/add_ip.php:32
 #: ../../web/templates/pages/list_ip.php:9
@@ -2170,7 +2162,7 @@ msgstr ""
 #: ../../web/templates/pages/add_web.php:27
 #: ../../web/templates/pages/list_web.php:7
 msgid "Add Web Domain"
-msgstr "Tambah Domain Web"
+msgstr ""
 
 #: ../../web/templates/pages/add_web.php:32
 msgid "a web domain"
@@ -2178,11 +2170,11 @@ msgstr ""
 
 #: ../../web/templates/pages/add_web.php:63
 msgid "DNS Support"
-msgstr "Dukungan DNS"
+msgstr ""
 
 #: ../../web/templates/pages/add_web.php:73
 msgid "Mail Support"
-msgstr "Dukungan Mail"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:25
 #: ../../web/templates/pages/list_cron.php:120
@@ -2193,30 +2185,30 @@ msgstr ""
 #: ../../web/templates/pages/edit_server.php:1078
 #: ../../web/templates/pages/add_cron.php:57
 msgid "Minutes"
-msgstr "Permenit"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:58
 #: ../../web/templates/pages/add_cron.php:58
 msgid "Hourly"
-msgstr "Perhari"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:59
 #: ../../web/templates/pages/list_rrd.php:13
 #: ../../web/templates/pages/add_cron.php:59
 msgid "Daily"
-msgstr "Harian"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:60
 #: ../../web/templates/pages/list_rrd.php:14
 #: ../../web/templates/pages/add_cron.php:60
 msgid "Weekly"
-msgstr "Mingguan"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:61
 #: ../../web/templates/pages/list_rrd.php:15
 #: ../../web/templates/pages/add_cron.php:61
 msgid "Monthly"
-msgstr "Bulanan"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:70
 #: ../../web/templates/pages/edit_cron.php:93
@@ -2229,7 +2221,7 @@ msgstr "Bulanan"
 #: ../../web/templates/pages/add_cron.php:191
 #: ../../web/templates/pages/add_cron.php:262
 msgid "Run Command"
-msgstr "Jalankan Perintah"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:72
 #: ../../web/templates/pages/add_cron.php:72
@@ -2331,37 +2323,37 @@ msgstr ""
 #: ../../web/templates/pages/edit_cron.php:196
 #: ../../web/templates/pages/add_cron.php:196
 msgid "Monday"
-msgstr "Senin"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:197
 #: ../../web/templates/pages/add_cron.php:197
 msgid "Tuesday"
-msgstr "Selasa"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:198
 #: ../../web/templates/pages/add_cron.php:198
 msgid "Wednesday"
-msgstr "Rabu"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:199
 #: ../../web/templates/pages/add_cron.php:199
 msgid "Thursday"
-msgstr "Kamis"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:200
 #: ../../web/templates/pages/add_cron.php:200
 msgid "Friday"
-msgstr "Jumat"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:201
 #: ../../web/templates/pages/add_cron.php:201
 msgid "Saturday"
-msgstr "Sabtu"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:202
 #: ../../web/templates/pages/add_cron.php:202
 msgid "Sunday"
-msgstr "Minggu"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:264
 #: ../../web/templates/pages/add_cron.php:264
@@ -2409,7 +2401,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_cron.php:273
 #: ../../web/templates/pages/add_cron.php:273
 msgid "May"
-msgstr "Mei"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:274
 #: ../../web/templates/pages/add_cron.php:274
@@ -2424,7 +2416,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_cron.php:276
 #: ../../web/templates/pages/add_cron.php:276
 msgid "Aug"
-msgstr "Agu"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:277
 #: ../../web/templates/pages/add_cron.php:277
@@ -2434,7 +2426,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_cron.php:278
 #: ../../web/templates/pages/add_cron.php:278
 msgid "Oct"
-msgstr "Okt"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:279
 #: ../../web/templates/pages/add_cron.php:279
@@ -2444,7 +2436,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_cron.php:280
 #: ../../web/templates/pages/add_cron.php:280
 msgid "Dec"
-msgstr "Des"
+msgstr ""
 
 #: ../../web/templates/pages/add_firewall.php:25
 msgid "Add Firewall Rule"
@@ -2453,12 +2445,12 @@ msgstr ""
 #: ../../web/templates/pages/add_firewall.php:30
 #: ../../web/templates/pages/edit_firewall.php:30
 msgid "DROP"
-msgstr "BLOKIR"
+msgstr ""
 
 #: ../../web/templates/pages/add_firewall.php:31
 #: ../../web/templates/pages/edit_firewall.php:31
 msgid "ACCEPT"
-msgstr "TERIMA"
+msgstr ""
 
 #: ../../web/templates/pages/add_firewall.php:44
 #: ../../web/templates/pages/edit_firewall.php:44
@@ -2500,12 +2492,12 @@ msgstr ""
 #: ../../web/templates/pages/list_firewall_banlist.php:41
 #: ../../web/templates/pages/list_firewall_banlist.php:86
 msgid "Comment"
-msgstr "Komentar"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:9
 #: ../../web/templates/pages/list_packages.php:47
 msgid "Packages"
-msgstr "Paket"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:43
 msgid "Rebuild User Profile"
@@ -2648,39 +2640,39 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_whitelabel.php:41
 msgid "General"
-msgstr "Umum"
+msgstr ""
 
 #: ../../web/templates/pages/edit_whitelabel.php:46
 msgid "Application Name"
-msgstr "Nama Aplikasi"
+msgstr ""
 
 #: ../../web/templates/pages/edit_whitelabel.php:58
 msgid "Title"
-msgstr "Judul"
+msgstr ""
 
 #: ../../web/templates/pages/edit_whitelabel.php:58
 #: ../../web/templates/pages/edit_whitelabel.php:95
 msgid "Supported variables"
-msgstr "Variabel yang didukung"
+msgstr ""
 
 #: ../../web/templates/pages/edit_whitelabel.php:70
 msgid "Sender Name"
-msgstr "Nama Pengirim"
+msgstr ""
 
 #: ../../web/templates/pages/edit_whitelabel.php:70
 #: ../../web/templates/pages/edit_whitelabel.php:83
 #: ../../web/templates/pages/list_dns_rec.php:164
 #: ../../web/templates/pages/edit_server.php:1049
 msgid "Default"
-msgstr "Default"
+msgstr ""
 
 #: ../../web/templates/pages/edit_whitelabel.php:83
 msgid "Sender Email Address"
-msgstr "Alamat Email Pengirim"
+msgstr ""
 
 #: ../../web/templates/pages/edit_whitelabel.php:95
 msgid "Email Subject"
-msgstr "Subyek Email"
+msgstr ""
 
 #: ../../web/templates/pages/edit_whitelabel.php:107
 msgid "Hide link to Documentation"
@@ -2715,7 +2707,7 @@ msgstr ""
 #: ../../web/templates/pages/add_dns_rec.php:74
 #: ../../web/templates/pages/edit_dns_rec.php:75
 msgid "Priority"
-msgstr "Prioritas"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail_dns.php:27
 #: ../../web/templates/pages/list_mail_dns.php:44
@@ -2792,7 +2784,7 @@ msgstr ""
 #: ../../web/templates/includes/panel.php:285
 #: ../../web/templates/includes/panel.php:292
 msgid "Aliases"
-msgstr "Alias"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail_acc.php:90
 #: ../../web/templates/pages/list_mail_acc.php:272
@@ -2923,7 +2915,7 @@ msgstr ""
 #: ../../web/templates/includes/panel.php:229
 #: ../../web/templates/includes/panel.php:231
 msgid "Log out"
-msgstr "Keluar"
+msgstr ""
 
 #: ../../web/templates/pages/list_log.php:28
 #: ../../web/templates/pages/list_log.php:29
@@ -2952,7 +2944,7 @@ msgstr ""
 #: ../../web/templates/pages/list_log.php:122
 #: ../../web/templates/pages/edit_mail_acc.php:112
 msgid "Message"
-msgstr "Pesan"
+msgstr ""
 
 #: ../../web/templates/pages/list_log.php:90
 msgid "Information"
@@ -3039,7 +3031,7 @@ msgstr ""
 #: ../../web/templates/pages/add_user.php:81
 #: ../../web/templates/pages/edit_user.php:139
 msgid "Language"
-msgstr "Bahasa"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:100
 #: ../../web/templates/pages/edit_user.php:158
@@ -3049,7 +3041,7 @@ msgstr ""
 #: ../../web/templates/pages/add_user.php:102
 #: ../../web/templates/pages/edit_user.php:160
 msgid "User"
-msgstr "Pengguna"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:103
 #: ../../web/templates/pages/edit_user.php:161
@@ -3071,7 +3063,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_package.php:40
 #: ../../web/templates/pages/add_package.php:39
 msgid "Package Name"
-msgstr "Nama Paket"
+msgstr ""
 
 #: ../../web/templates/pages/edit_package.php:46
 #: ../../web/templates/pages/edit_package.php:57
@@ -3154,7 +3146,7 @@ msgstr ""
 #: ../../web/templates/pages/list_packages.php:175
 #: ../../web/templates/pages/add_package.php:316
 msgid "SSH Access"
-msgstr "Akses SSH"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:82
 #: ../../web/templates/pages/add_mail_acc.php:82
@@ -3169,16 +3161,16 @@ msgstr ""
 #: ../../web/templates/pages/edit_mail_acc.php:95
 #: ../../web/templates/pages/add_mail_acc.php:101
 msgid "Do not store forwarded mail"
-msgstr "Jangan simpan terusan surel"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:100
 #: ../../web/templates/pages/add_mail_acc.php:88
 msgid "Forward to"
-msgstr "Teruskan ke"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:100
 msgid "one or more email addresses"
-msgstr "satu atau lebih alamat email"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:118
 #: ../../web/templates/pages/add_mail_acc.php:106
@@ -3201,7 +3193,7 @@ msgstr ""
 #: ../../web/templates/pages/add_mail_acc.php:137
 #: ../../web/templates/pages/edit_server.php:62
 msgid "Hostname"
-msgstr "Nama Host"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:146
 #: ../../web/templates/pages/add_mail_acc.php:141
@@ -3224,7 +3216,7 @@ msgstr ""
 #: ../../web/templates/pages/add_mail_acc.php:164
 #: ../../web/templates/pages/add_mail_acc.php:183
 msgid "Normal password"
-msgstr "kata sandi"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:161
 #: ../../web/templates/pages/edit_mail_acc.php:180
@@ -3233,7 +3225,7 @@ msgstr "kata sandi"
 #: ../../web/templates/pages/add_mail_acc.php:175
 #: ../../web/templates/pages/add_mail_acc.php:194
 msgid "No encryption"
-msgstr "tidak ada enkripsi"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:165
 #: ../../web/templates/pages/add_mail_acc.php:160
@@ -3249,7 +3241,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_server_httpd.php:9
 #: ../../web/templates/pages/list_services.php:6
 msgid "Configure"
-msgstr "Konfigurasi"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server_nginx.php:73
 #: ../../web/templates/pages/edit_user.php:210
@@ -3273,7 +3265,7 @@ msgstr ""
 #: ../../web/templates/pages/list_key.php:14
 #: ../../web/templates/pages/add_key.php:31
 msgid "Add SSH Key"
-msgstr "Add SSH key"
+msgstr ""
 
 #: ../../web/templates/pages/list_key.php:24
 msgid "SSH Keys"
@@ -3334,7 +3326,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_user.php:168
 #: ../../web/templates/pages/edit_server.php:86
 msgid "Theme"
-msgstr "Penampilan"
+msgstr ""
 
 #: ../../web/templates/pages/edit_user.php:186
 msgid "Default List Sort Order"
@@ -3346,11 +3338,11 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_user.php:249
 msgid "Default Name Servers"
-msgstr "Name Servers Standar"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall.php:9
 msgid "Add Rule"
-msgstr "Tambah Aturan"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall.php:13
 #: ../../web/templates/pages/list_firewall_banlist.php:30
@@ -3413,7 +3405,7 @@ msgstr[0] ""
 
 #: ../../web/templates/pages/list_backup_detail.php:6
 msgid "Restore All"
-msgstr "Kembalikan Semua"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup_detail.php:36
 msgid "Backup Details"
@@ -3480,7 +3472,7 @@ msgstr ""
 #: ../../web/templates/pages/list_dns_public.php:7
 #: ../../web/templates/pages/list_dns.php:7
 msgid "Add DNS Domain"
-msgstr "Tambah Domain DNS "
+msgstr ""
 
 #: ../../web/templates/pages/list_dns_public.php:29
 #: ../../web/templates/pages/list_dns.php:170
@@ -3541,7 +3533,7 @@ msgstr ""
 #: ../../web/templates/pages/list_dns.php:85
 #: ../../web/templates/pages/list_dns.php:242
 msgid "Expiration Date"
-msgstr "Tanggal Kadaluarsa"
+msgstr ""
 
 #: ../../web/templates/pages/add_dns.php:101
 #: ../../web/templates/pages/edit_dns.php:77
@@ -3551,7 +3543,7 @@ msgstr ""
 #: ../../web/templates/pages/add_db.php:32
 #: ../../web/templates/pages/list_db.php:20
 msgid "Add Database"
-msgstr "Tambah Basis Data"
+msgstr ""
 
 #: ../../web/templates/pages/add_db.php:37
 msgid "a database"
@@ -3644,7 +3636,7 @@ msgstr ""
 
 #: ../../web/templates/pages/list_rrd.php:16
 msgid "Yearly"
-msgstr "Tahunan"
+msgstr ""
 
 #: ../../web/templates/pages/list_rrd.php:17
 msgid "Biennially"
@@ -3657,7 +3649,7 @@ msgstr ""
 #: ../../web/templates/pages/list_packages.php:9
 #: ../../web/templates/pages/add_package.php:36
 msgid "Add Package"
-msgstr "Tambah Paket"
+msgstr ""
 
 #: ../../web/templates/pages/list_packages.php:150
 #: ../../web/templates/pages/list_packages.php:153
@@ -3706,11 +3698,11 @@ msgstr ""
 
 #: ../../web/templates/pages/list_services.php:71
 msgid "Operating System"
-msgstr "Sistem operasi"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:77
 msgid "Load Average"
-msgstr "Rata2 Pemuatan"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:83
 #: ../../web/templates/pages/list_services.php:102
@@ -3730,7 +3722,7 @@ msgstr ""
 #: ../../web/templates/pages/list_services.php:104
 #: ../../web/templates/pages/list_services.php:204
 msgid "Memory"
-msgstr "Memori"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:150
 #: ../../web/templates/pages/list_services.php:160
@@ -3757,7 +3749,7 @@ msgstr ""
 #: ../../web/templates/pages/list_cron.php:7
 #: ../../web/templates/pages/add_cron.php:25
 msgid "Add Cron Job"
-msgstr "Tambah Cron Job"
+msgstr ""
 
 #: ../../web/templates/pages/list_cron.php:11
 #: ../../web/templates/pages/list_cron.php:42
@@ -3832,11 +3824,11 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:81
 msgid "Web Statistics"
-msgstr "Statistik Web"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:100
 msgid "Statistics Authorization"
-msgstr "Statistik Otoritas"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:126
 msgid "Enable domain redirection"
@@ -3887,11 +3879,11 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:327
 msgid "Proxy Support"
-msgstr "Dukungan Proxy"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:351
 msgid "Proxy Extensions"
-msgstr "Ekstensi Proxy"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:360
 msgid "Custom document root"
@@ -3906,7 +3898,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_server.php:831
 #: ../../web/templates/pages/edit_server.php:895
 msgid "Directory"
-msgstr "Direktori"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:388
 msgid "Additional FTP account(s)"
@@ -3926,7 +3918,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_web.php:434
 #: ../../web/templates/pages/edit_web.php:485
 msgid "Send FTP credentials to email"
-msgstr "Kirim kredensial FTP ke email"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:443
 msgid "Add FTP account"
@@ -3936,7 +3928,7 @@ msgstr ""
 #: ../../web/templates/pages/list_dns.php:149
 #: ../../web/templates/pages/list_dns.php:152
 msgid "Add DNS Record"
-msgstr "Tambah Record DNS"
+msgstr ""
 
 #: ../../web/templates/pages/list_web.php:43
 #: ../../web/templates/pages/list_dns.php:43
@@ -3950,7 +3942,7 @@ msgstr ""
 #: ../../web/templates/includes/panel.php:204
 #: ../../web/templates/includes/panel.php:206
 msgid "Statistics"
-msgstr "Statistik"
+msgstr ""
 
 #: ../../web/templates/pages/list_web.php:211
 #: ../../web/templates/pages/list_web.php:256
@@ -3991,7 +3983,7 @@ msgstr ""
 
 #: ../../web/templates/pages/login/login_2.php:15
 msgid "2FA Token"
-msgstr "OTP PIN"
+msgstr ""
 
 #: ../../web/templates/pages/login/login_2.php:17
 msgid "Forgot Token"
@@ -4017,11 +4009,11 @@ msgstr ""
 
 #: ../../web/templates/pages/login/reset_2.php:19
 msgid "Reset Code"
-msgstr "Reset Kode"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset_2.php:24
 msgid "Confirm"
-msgstr "Konfirmasi"
+msgstr ""
 
 #: ../../web/templates/pages/login/login_a.php:29
 #: ../../web/templates/pages/login/login.php:18
@@ -4038,7 +4030,7 @@ msgstr ""
 
 #: ../../web/templates/pages/login/reset2fa.php:13
 msgid "Log in"
-msgstr "Masuk"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset2fa.php:21
 msgid "Unlock Account"
@@ -4046,7 +4038,7 @@ msgstr ""
 
 #: ../../web/templates/pages/login/reset2fa.php:31
 msgid "2FA Reset Code"
-msgstr "Account Recovery Code"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset2fa.php:36
 #: ../../web/templates/pages/login/reset_1.php:23
@@ -4055,15 +4047,15 @@ msgstr ""
 
 #: ../../web/templates/pages/login/login_1.php:8
 msgid "Welcome"
-msgstr "Selamat Datang"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset_3.php:17
 msgid "New Password"
-msgstr "Kata Sandi Baru"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset_3.php:21
 msgid "Confirm Password"
-msgstr "Konfirmasi Kata Sandi"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset_3.php:26
 msgid "Reset"
@@ -4075,11 +4067,11 @@ msgstr ""
 
 #: ../../web/templates/pages/generate_ssl.php:41
 msgid "State / Province"
-msgstr "Provinsi"
+msgstr ""
 
 #: ../../web/templates/pages/generate_ssl.php:47
 msgid "City / Locality"
-msgstr "Kota"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:12
 msgid "White Label"
@@ -4087,7 +4079,7 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:74
 msgid "Time Zone"
-msgstr "Zona Waktu"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:105
 msgid "Set as selected theme for all users"
@@ -4095,7 +4087,7 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:109
 msgid "Default Language"
-msgstr "Standar Bahasa"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:126
 msgid "Set as default language for all users"
@@ -4103,7 +4095,7 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:146
 msgid "Release"
-msgstr "Rilis"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:153
 msgid "Options"
@@ -4144,7 +4136,7 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:252
 msgid "Backend Pool Mode"
-msgstr "Mode Backend Pool"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:261
 msgid "Enabled PHP Versions"
@@ -4407,7 +4399,7 @@ msgstr[0] ""
 
 #: ../../web/templates/pages/list_firewall_banlist.php:9
 msgid "Ban IP Address"
-msgstr "Blokir Alamat IP"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_banlist.php:69
 #: ../../web/templates/pages/list_ip.php:117
@@ -4431,7 +4423,7 @@ msgstr[0] ""
 #: ../../web/templates/pages/list_search.php:53
 #: ../../web/templates/pages/list_search.php:161
 msgid "Owner"
-msgstr "Pemilik"
+msgstr ""
 
 #: ../../web/templates/pages/list_ip.php:44
 msgid "Refresh IP Addresses"
@@ -4450,11 +4442,11 @@ msgstr[0] ""
 
 #: ../../web/templates/pages/list_stats.php:6
 msgid "Overall Statistics"
-msgstr "Seluruh Statistik"
+msgstr ""
 
 #: ../../web/templates/pages/list_stats.php:14
 msgid "Show Per User"
-msgstr "Tampilkan tiap User"
+msgstr ""
 
 #: ../../web/templates/pages/list_stats.php:161
 msgid "SSL Domains"
@@ -4470,7 +4462,7 @@ msgstr[0] ""
 #: ../../web/templates/pages/list_search.php:51
 #: ../../web/templates/pages/list_search.php:123
 msgid "Search Results"
-msgstr "Hasil Pencarian"
+msgstr ""
 
 #: ../../web/templates/pages/list_search.php:185
 #, php-format
@@ -4508,7 +4500,7 @@ msgstr ""
 #: ../../web/templates/pages/list_weblog.php:97
 #, php-format
 msgid "Last 70 lines of %s.%s.log"
-msgstr "70 baris terakhir dari %s.%s.log"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:29
 msgid "Logged in as"
@@ -4573,7 +4565,7 @@ msgstr ""
 
 #: ../../web/templates/includes/panel.php:268
 msgid "USER"
-msgstr "PENGGUNA"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:285
 #: ../../web/templates/includes/panel.php:304
@@ -4594,7 +4586,7 @@ msgstr ""
 
 #: ../../web/templates/includes/panel.php:375
 msgid "BACKUP"
-msgstr "CADANGAN"
+msgstr ""
 
 #: ../../web/templates/includes/js.php:11
 msgid "Are you sure you want to leave the page?"
@@ -4619,7 +4611,7 @@ msgstr ""
 #: ../../web/login/index.php:142 ../../web/login/index.php:199
 #: ../../web/login/index.php:222 ../../web/login/index.php:246
 msgid "Invalid username or password"
-msgstr "Nama pengguna atau kata sandi salah"
+msgstr ""
 
 #: ../../web/login/index.php:272 ../../web/login/index.php:287
 msgid "Invalid or missing 2FA token"
@@ -4632,7 +4624,7 @@ msgstr ""
 
 #: ../../web/schedule/backup/index.php:12
 msgid "Task has been added to the queue. You will receive an email notification when your backup is ready for download."
-msgstr "Task telah ditambahkan dalam antrian. Anda akan menerima email notifikasi apabila proses backup telah siap untuk diunduh."
+msgstr ""
 
 #: ../../web/schedule/backup/index.php:22
 msgid "An existing backup task is already running, please wait for it to complete."
