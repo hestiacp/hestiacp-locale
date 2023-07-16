@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-06 11:24+0000\n"
-"PO-Revision-Date: 2023-07-06 11:25\n"
+"PO-Revision-Date: 2023-07-16 13:01\n"
 "Last-Translator: \n"
 "Language-Team: Bengali\n"
 "Language: bn_BD\n"
@@ -14,13 +14,13 @@ msgstr ""
 "X-Crowdin-Project: hestiacp\n"
 "X-Crowdin-Project-ID: 587405\n"
 "X-Crowdin-Language: bn\n"
-"X-Crowdin-File: hestiacp.pot\n"
-"X-Crowdin-File-ID: 3\n"
+"X-Crowdin-File: /main/hestiacp.pot\n"
+"X-Crowdin-File-ID: 13\n"
 
 #: ../../web/stop/service/index.php:24
 #, php-format
 msgid "Stop \"%s\" failed"
-msgstr "থামুন \"%s\" ব্যর্থ হয়েছে৷"
+msgstr ""
 
 #: ../../web/inc/main.php:166 ../../web/inc/main.php:175
 #: ../../web/generate/ssl/index.php:121
@@ -36,22 +36,22 @@ msgstr ""
 #, php-format
 msgid "%d day"
 msgid_plural "%d days"
-msgstr[0] "%d দিন"
-msgstr[1] "%d দিন"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../../web/inc/main.php:329
 #, php-format
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] "%d ঘন্টা"
-msgstr[1] "%d ঘন্টা"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../../web/inc/main.php:333
 #, php-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] "%d মিনিট"
-msgstr[1] "%d মিনিট"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../../web/reset/index.php:60
 msgid "Hello {{name}},\n\n"
@@ -73,7 +73,7 @@ msgstr ""
 #: ../../web/reset/index.php:137 ../../web/reset/index.php:141
 #: ../../web/reset/index.php:146 ../../web/reset/index.php:155
 msgid "Password reset instructions have been sent to the email address associated with this account."
-msgstr "পাসওয়ার্ড রিসেট নির্দেশাবলী এই অ্যাকাউন্টের সাথে যুক্ত ইমেল ঠিকানায় পাঠানো হয়েছে।"
+msgstr ""
 
 #: ../../web/reset/index.php:150
 msgid "Please wait 15 minutes before sending a new request."
@@ -81,15 +81,15 @@ msgstr ""
 
 #: ../../web/reset/index.php:187
 msgid "An internal error occurred"
-msgstr "একটি অভ্যন্তরীণ ত্রুটি (error) ঘটেছে"
+msgstr ""
 
 #: ../../web/reset/index.php:195
 msgid "Code has been expired"
-msgstr "কোডের মেয়াদ শেষ হয়ে গেছে"
+msgstr ""
 
 #: ../../web/reset/index.php:213 ../../web/reset/index.php:231
 msgid "Invalid username or code"
-msgstr "অকেজো ব্যবহারকারীর নাম বা কোড"
+msgstr ""
 
 #: ../../web/reset/index.php:234
 msgid "Passwords do not match"
@@ -105,7 +105,7 @@ msgstr ""
 #: ../../web/schedule/restore/index.php:70
 #: ../../web/schedule/backup/index.php:17
 msgid "Error: Hestia did not return any output."
-msgstr "ত্রুটি: হেস্টিয়া কোনো আউটপুট ফেরত দেয়নি।"
+msgstr ""
 
 #: ../../web/edit/cron/index.php:89 ../../web/edit/db/index.php:100
 #: ../../web/edit/mail/index.php:736 ../../web/edit/mail/index.php:1166
@@ -162,7 +162,7 @@ msgstr ""
 #: ../../web/generate/ssl/index.php:67
 #, php-format
 msgid "Field \"%s\" can not be blank."
-msgstr "\"%s\" ঘরটি ফাঁকা রাখা যাবে না।"
+msgstr ""
 
 #: ../../web/edit/mail/index.php:748 ../../web/edit/web/index.php:1170
 #: ../../web/edit/user/index.php:402 ../../web/add/db/index.php:48
@@ -229,7 +229,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_server.php:458
 #: ../../web/templates/pages/edit_server.php:805
 msgid "Username"
-msgstr "ব্যবহারকারীর নাম"
+msgstr ""
 
 #: ../../web/edit/web/index.php:1242 ../../web/edit/web/index.php:1390
 msgid "FTP account has been created and ready to use.\n\n"
@@ -258,7 +258,7 @@ msgstr ""
 #: ../../web/templates/pages/list_firewall.php:70
 #: ../../web/templates/pages/list_firewall.php:111
 msgid "Action"
-msgstr "ক্রিয়া"
+msgstr ""
 
 #: ../../web/edit/firewall/index.php:73 ../../web/add/firewall/index.php:45
 #: ../../web/templates/pages/add_firewall.php:35
@@ -268,7 +268,7 @@ msgstr "ক্রিয়া"
 #: ../../web/templates/pages/list_firewall.php:165
 #: ../../web/templates/pages/edit_server.php:749
 msgid "Protocol"
-msgstr "প্রোটোকল"
+msgstr ""
 
 #: ../../web/edit/firewall/index.php:76 ../../web/add/firewall/index.php:48
 #: ../../web/templates/pages/edit_mail.php:184
@@ -299,7 +299,7 @@ msgstr "প্রোটোকল"
 #: ../../web/templates/pages/edit_server.php:446
 #: ../../web/templates/pages/edit_server.php:793
 msgid "Port"
-msgstr "পোর্ট (Port)"
+msgstr ""
 
 #: ../../web/edit/firewall/index.php:79 ../../web/add/dns/index.php:25
 #: ../../web/add/web/index.php:20 ../../web/add/ip/index.php:23
@@ -327,7 +327,7 @@ msgstr "পোর্ট (Port)"
 #: ../../web/templates/pages/list_ip.php:94
 #: ../../web/templates/pages/list_dns.php:28
 msgid "IP Address"
-msgstr "আইপি ঠিকানা"
+msgstr ""
 
 #: ../../web/edit/package/index.php:137 ../../web/add/user/index.php:29
 #: ../../web/add/package/index.php:23
@@ -339,41 +339,41 @@ msgstr "আইপি ঠিকানা"
 #: ../../web/templates/pages/list_packages.php:54
 #: ../../web/templates/pages/list_packages.php:123
 msgid "Package"
-msgstr "প্যাকেজ"
+msgstr ""
 
 #: ../../web/edit/package/index.php:140 ../../web/add/package/index.php:26
 #: ../../web/templates/pages/edit_package.php:100
 #: ../../web/templates/pages/add_package.php:98
 #: ../../web/templates/pages/edit_web.php:266
 msgid "Web Template"
-msgstr "ওয়েব টেমপ্লেট"
+msgstr ""
 
 #: ../../web/edit/package/index.php:144 ../../web/add/package/index.php:30
 #: ../../web/templates/pages/edit_package.php:117
 #: ../../web/templates/pages/add_package.php:115
 #: ../../web/templates/pages/edit_web.php:303
 msgid "Backend Template"
-msgstr "ব্যাকএন্ড টেমপ্লেট"
+msgstr ""
 
 #: ../../web/edit/package/index.php:149 ../../web/add/package/index.php:38
 #: ../../web/templates/pages/edit_package.php:135
 #: ../../web/templates/pages/add_package.php:134
 #: ../../web/templates/pages/edit_web.php:333
 msgid "Proxy Template"
-msgstr "প্রক্সি টেমপ্লেট"
+msgstr ""
 
 #: ../../web/edit/package/index.php:153 ../../web/add/package/index.php:45
 #: ../../web/templates/pages/edit_package.php:161
 #: ../../web/templates/pages/add_package.php:160
 msgid "DNS Template"
-msgstr "DNS টেমপ্লেট"
+msgstr ""
 
 #: ../../web/edit/package/index.php:156 ../../web/add/package/index.php:48
 #: ../../web/templates/pages/list_packages.php:57
 #: ../../web/templates/pages/list_packages.php:58
 #: ../../web/templates/pages/list_packages.php:173
 msgid "Shell"
-msgstr "শেল"
+msgstr ""
 
 #: ../../web/edit/package/index.php:159 ../../web/add/package/index.php:51
 #: ../../web/templates/pages/list_user.php:95
@@ -389,7 +389,7 @@ msgstr "শেল"
 #: ../../web/templates/pages/edit_backup_exclusions.php:28
 #: ../../web/templates/pages/list_stats.php:145
 msgid "Web Domains"
-msgstr "ওয়েব ডোমেইন"
+msgstr ""
 
 #: ../../web/edit/package/index.php:162 ../../web/add/package/index.php:54
 #: ../../web/templates/pages/edit_package.php:89
@@ -400,7 +400,7 @@ msgstr "ওয়েব ডোমেইন"
 #: ../../web/templates/pages/add_package.php:87
 #: ../../web/templates/pages/list_stats.php:177
 msgid "Web Aliases"
-msgstr "ওয়েব উপনাম"
+msgstr ""
 
 #: ../../web/edit/package/index.php:165 ../../web/add/package/index.php:57
 #: ../../web/templates/pages/list_user.php:99
@@ -435,7 +435,7 @@ msgstr ""
 #: ../../web/templates/pages/list_dns.php:182
 #: ../../web/templates/pages/list_dns.php:185
 msgid "DNS Records"
-msgstr "DNS রেকর্ডস"
+msgstr ""
 
 #: ../../web/edit/package/index.php:171 ../../web/add/package/index.php:63
 #: ../../web/templates/pages/list_mail.php:68
@@ -451,7 +451,7 @@ msgstr "DNS রেকর্ডস"
 #: ../../web/templates/pages/edit_backup_exclusions.php:32
 #: ../../web/templates/pages/list_stats.php:153
 msgid "Mail Domains"
-msgstr "মেইল ডোমেন"
+msgstr ""
 
 #: ../../web/edit/package/index.php:174 ../../web/add/package/index.php:66
 #: ../../web/templates/pages/list_mail.php:180
@@ -466,7 +466,7 @@ msgstr "মেইল ডোমেন"
 #: ../../web/templates/pages/add_package.php:264
 #: ../../web/templates/pages/list_stats.php:169
 msgid "Mail Accounts"
-msgstr "মেইল অ্যাকাউন্ট"
+msgstr ""
 
 #: ../../web/edit/package/index.php:177 ../../web/add/package/index.php:84
 #: ../../web/templates/pages/edit_mail.php:64
@@ -495,7 +495,7 @@ msgstr ""
 #: ../../web/templates/includes/panel.php:342
 #: ../../web/templates/includes/panel.php:346
 msgid "Databases"
-msgstr "ডেটাবেস"
+msgstr ""
 
 #: ../../web/edit/package/index.php:183 ../../web/add/package/index.php:72
 #: ../../web/templates/pages/edit_package.php:311
@@ -508,7 +508,7 @@ msgstr "ডেটাবেস"
 #: ../../web/templates/pages/list_cron.php:70
 #: ../../web/templates/pages/list_stats.php:201
 msgid "Cron Jobs"
-msgstr "ক্রোন জবস"
+msgstr ""
 
 #: ../../web/edit/package/index.php:186 ../../web/add/package/index.php:75
 #: ../../web/templates/pages/list_backup.php:39
@@ -526,7 +526,7 @@ msgstr "ক্রোন জবস"
 #: ../../web/templates/includes/panel.php:374
 #: ../../web/templates/includes/panel.php:378
 msgid "Backups"
-msgstr "ব্যাকআপ"
+msgstr ""
 
 #: ../../web/edit/package/index.php:189 ../../web/add/package/index.php:78
 #: ../../web/templates/pages/list_mail_acc.php:43
@@ -541,7 +541,7 @@ msgstr "ব্যাকআপ"
 #: ../../web/templates/pages/add_package.php:44
 #: ../../web/templates/pages/add_mail_acc.php:71
 msgid "Quota"
-msgstr "কোটা"
+msgstr ""
 
 #: ../../web/edit/package/index.php:192 ../../web/add/package/index.php:81
 #: ../../web/templates/pages/list_user.php:23
@@ -561,7 +561,7 @@ msgstr "কোটা"
 #: ../../web/templates/pages/list_stats.php:69
 #: ../../web/templates/includes/panel.php:42
 msgid "Bandwidth"
-msgstr "ব্যান্ডউইথ"
+msgstr ""
 
 #: ../../web/edit/package/index.php:198 ../../web/add/package/index.php:89
 msgid "Nameserver 1"
@@ -586,20 +586,20 @@ msgstr ""
 
 #: ../../web/src/app/WebApp/AppWizard.php:113
 msgid "Unable to add database! Limit reached!"
-msgstr "ডাটাবেস যোগ করতে অক্ষম! সীমা অতিক্রম!"
+msgstr ""
 
 #: ../../web/src/app/System/HestiaApp.php:218
 msgid "Unable to add database!"
-msgstr "ডাটাবেস যোগ করতে অক্ষম!"
+msgstr ""
 
 #: ../../web/restart/service/index.php:23
 #, php-format
 msgid "Restart \"%s\" failed"
-msgstr "\"%s\" ব্যর্থ হয়েছে৷"
+msgstr ""
 
 #: ../../web/restart/system/index.php:26 ../../web/bulk/service/index.php:31
 msgid "The system is going down for reboot NOW!"
-msgstr "সিস্টেম এখন রিবুট করার জন্য বন্ধ হচ্ছে!"
+msgstr ""
 
 #: ../../web/bulk/cron/index.php:27 ../../web/bulk/cron/index.php:52
 msgid "Cron job email reporting has been successfully disabled."
@@ -630,7 +630,7 @@ msgstr ""
 #: ../../web/templates/pages/add_cron.php:233
 #: ../../web/templates/pages/add_cron.php:345
 msgid "Minute"
-msgstr "মিনিট"
+msgstr ""
 
 #: ../../web/add/cron/index.php:20 ../../web/templates/pages/edit_cron.php:38
 #: ../../web/templates/pages/edit_cron.php:134
@@ -643,7 +643,7 @@ msgstr "মিনিট"
 #: ../../web/templates/pages/add_cron.php:206
 #: ../../web/templates/pages/add_cron.php:318
 msgid "Hour"
-msgstr "ঘন্টা"
+msgstr ""
 
 #: ../../web/add/cron/index.php:23 ../../web/templates/pages/edit_cron.php:42
 #: ../../web/templates/pages/edit_cron.php:284
@@ -652,14 +652,14 @@ msgstr "ঘন্টা"
 #: ../../web/templates/pages/add_cron.php:42
 #: ../../web/templates/pages/add_cron.php:284
 msgid "Day"
-msgstr "দিন"
+msgstr ""
 
 #: ../../web/add/cron/index.php:26 ../../web/templates/pages/edit_cron.php:46
 #: ../../web/templates/pages/list_cron.php:82
 #: ../../web/templates/pages/list_cron.php:180
 #: ../../web/templates/pages/add_cron.php:46
 msgid "Month"
-msgstr "মাস"
+msgstr ""
 
 #: ../../web/add/cron/index.php:29 ../../web/templates/pages/edit_cron.php:50
 #: ../../web/templates/pages/list_cron.php:83
@@ -675,7 +675,7 @@ msgstr ""
 #: ../../web/templates/pages/list_cron.php:116
 #: ../../web/templates/pages/add_cron.php:28
 msgid "Command"
-msgstr "আদেশ"
+msgstr ""
 
 #: ../../web/add/cron/index.php:80
 msgid "Cron job has been created successfully."
@@ -686,7 +686,7 @@ msgstr ""
 #: ../../web/templates/pages/add_db.php:51
 #: ../../web/templates/pages/edit_db.php:28
 msgid "Database"
-msgstr "ডাটাবেস"
+msgstr ""
 
 #: ../../web/add/db/index.php:23 ../../web/add/mail/index.php:222
 #: ../../web/add/user/index.php:26 ../../web/templates/pages/edit_mail.php:192
@@ -708,7 +708,7 @@ msgstr "ডাটাবেস"
 #: ../../web/templates/pages/edit_server.php:565
 #: ../../web/templates/pages/edit_server.php:817
 msgid "Password"
-msgstr "পাসওয়ার্ড"
+msgstr ""
 
 #: ../../web/add/db/index.php:26 ../../web/add/dns/index.php:226
 #: ../../web/templates/pages/list_backup.php:50
@@ -741,7 +741,7 @@ msgstr "পাসওয়ার্ড"
 #: ../../web/templates/pages/list_search.php:173
 #: ../../web/templates/pages/edit_dns_rec.php:39
 msgid "Type"
-msgstr "টাইপ"
+msgstr ""
 
 #: ../../web/add/db/index.php:29 ../../web/templates/pages/edit_mail.php:180
 #: ../../web/templates/pages/add_mail.php:103
@@ -755,7 +755,7 @@ msgstr "টাইপ"
 #: ../../web/templates/pages/edit_server.php:781
 #: ../../web/templates/pages/edit_server.php:883
 msgid "Host"
-msgstr "হোস্ট"
+msgstr ""
 
 #: ../../web/add/db/index.php:32 ../../web/templates/pages/add_db.php:120
 #: ../../web/templates/pages/list_db.php:50
@@ -800,7 +800,7 @@ msgstr ""
 #: ../../web/templates/pages/generate_ssl.php:18
 #: ../../web/templates/pages/edit_dns_rec.php:28
 msgid "Domain"
-msgstr "ডোমেইন"
+msgstr ""
 
 #: ../../web/add/mail/index.php:189
 #, php-format
@@ -811,7 +811,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_mail_acc.php:38
 #: ../../web/templates/pages/add_mail_acc.php:42
 msgid "Account"
-msgstr "হিসাব"
+msgstr ""
 
 #: ../../web/add/mail/index.php:508
 #, php-format
@@ -838,7 +838,7 @@ msgstr ""
 #: ../../web/templates/pages/add_dns_rec.php:33
 #: ../../web/templates/pages/edit_dns_rec.php:33
 msgid "Record"
-msgstr "রেকর্ড"
+msgstr ""
 
 #: ../../web/add/dns/index.php:229
 #: ../../web/templates/pages/list_mail_dns.php:28
@@ -854,7 +854,7 @@ msgstr "রেকর্ড"
 #: ../../web/templates/pages/add_dns_rec.php:58
 #: ../../web/templates/pages/edit_dns_rec.php:59
 msgid "IP or Value"
-msgstr "আইপি অথবা মান (Value)"
+msgstr ""
 
 #: ../../web/add/dns/index.php:280
 #, php-format
@@ -870,7 +870,7 @@ msgstr ""
 #: ../../web/templates/pages/list_access_key.php:46
 #: ../../web/templates/pages/add_access_key.php:26
 msgid "Permissions"
-msgstr "অনুমতি"
+msgstr ""
 
 #: ../../web/add/access-key/index.php:79
 #, php-format
@@ -898,7 +898,7 @@ msgstr ""
 #: ../../web/templates/pages/list_ip.php:68
 #: ../../web/templates/pages/list_ip.php:126
 msgid "Netmask"
-msgstr "নেটমাস্ক"
+msgstr ""
 
 #: ../../web/add/ip/index.php:29 ../../web/templates/pages/add_ip.php:43
 #: ../../web/templates/pages/edit_ip.php:44
@@ -906,7 +906,7 @@ msgstr "নেটমাস্ক"
 #: ../../web/templates/pages/list_ip.php:69
 #: ../../web/templates/pages/list_ip.php:130
 msgid "Interface"
-msgstr "ইন্টারফেস"
+msgstr ""
 
 #: ../../web/add/ip/index.php:32 ../../web/templates/pages/add_ip.php:62
 #: ../../web/templates/pages/edit_ip.php:55
@@ -924,7 +924,7 @@ msgstr ""
 #: ../../web/templates/pages/login/reset_1.php:18
 #: ../../web/templates/pages/generate_ssl.php:27
 msgid "Email"
-msgstr "ইমেইল"
+msgstr ""
 
 #: ../../web/add/user/index.php:35 ../../web/templates/pages/add_user.php:39
 #: ../../web/templates/pages/edit_user.php:69
@@ -985,12 +985,12 @@ msgstr ""
 #: ../../web/templates/pages/list_dns.php:78
 #: ../../web/templates/pages/list_dns.php:135
 msgid "Name"
-msgstr "নাম"
+msgstr ""
 
 #: ../../web/add/firewall/ipset/index.php:26
 #: ../../web/templates/pages/add_firewall_ipset.php:76
 msgid "Data Source"
-msgstr "তথ্যের উৎস"
+msgstr ""
 
 #: ../../web/add/firewall/ipset/index.php:29
 #: ../../web/templates/pages/list_firewall_ipset.php:40
@@ -1017,7 +1017,7 @@ msgstr ""
 #: ../../web/add/firewall/banlist/index.php:23
 #: ../../web/templates/pages/add_firewall_banlist.php:34
 msgid "Banlist"
-msgstr "ব্যানলিস্ট"
+msgstr ""
 
 #: ../../web/add/firewall/banlist/index.php:52
 msgid "IP address has been banned successfully."
@@ -1046,20 +1046,20 @@ msgstr ""
 #: ../../web/templates/pages/add_firewall_ipset.php:49
 #: ../../web/templates/pages/generate_ssl.php:34
 msgid "Country"
-msgstr "দেশ"
+msgstr ""
 
 #: ../../web/generate/ssl/index.php:42
 msgid "State"
-msgstr "বিভাগ"
+msgstr ""
 
 #: ../../web/generate/ssl/index.php:45
 msgid "City"
-msgstr "শহর"
+msgstr ""
 
 #: ../../web/generate/ssl/index.php:48
 #: ../../web/templates/pages/generate_ssl.php:53
 msgid "Organization"
-msgstr "সংগঠন"
+msgstr ""
 
 #: ../../web/generate/ssl/index.php:130
 msgid "Certificate has been generated successfully."
@@ -1068,7 +1068,7 @@ msgstr ""
 #: ../../web/templates/footer.php:23 ../../web/templates/footer.php:59
 #: ../../web/templates/footer.php:62
 msgid "Shortcuts"
-msgstr "শর্টকাট"
+msgstr ""
 
 #: ../../web/templates/footer.php:33
 msgid "Add new object"
@@ -1084,31 +1084,31 @@ msgstr ""
 
 #: ../../web/templates/footer.php:36
 msgid "Go to WEB list"
-msgstr "ওয়েব তালিকায় যান"
+msgstr ""
 
 #: ../../web/templates/footer.php:37
 msgid "Go to DNS list"
-msgstr "DNS তালিকায় যান"
+msgstr ""
 
 #: ../../web/templates/footer.php:38
 msgid "Go to MAIL list"
-msgstr "মেইল  তালিকায় যান"
+msgstr ""
 
 #: ../../web/templates/footer.php:39
 msgid "Go to DB list"
-msgstr "ডিবি তালিকায় যান"
+msgstr ""
 
 #: ../../web/templates/footer.php:40
 msgid "Go to CRON list"
-msgstr "CRON তালিকায় যান"
+msgstr ""
 
 #: ../../web/templates/footer.php:41
 msgid "Go to BACKUP list"
-msgstr "ব্যাকআপ তালিকাতে যান"
+msgstr ""
 
 #: ../../web/templates/footer.php:44
 msgid "Focus on search"
-msgstr "অনুসন্ধানে মনোযোগ দিন"
+msgstr ""
 
 #: ../../web/templates/footer.php:45
 msgid "Display / Hide shortcuts"
@@ -1116,23 +1116,23 @@ msgstr ""
 
 #: ../../web/templates/footer.php:46
 msgid "Move backward through top menu"
-msgstr "শীর্ষ মেনু পিছনে সরান"
+msgstr ""
 
 #: ../../web/templates/footer.php:47
 msgid "Move forward through top menu"
-msgstr "শীর্ষ মেনু সম্মুখে সরান"
+msgstr ""
 
 #: ../../web/templates/footer.php:48
 msgid "Enter focused element"
-msgstr "ফোকাস করা উপাদান লিখুন"
+msgstr ""
 
 #: ../../web/templates/footer.php:49
 msgid "Move up through elements list"
-msgstr "উপাদান তালিকার মাধ্যমে উপরে যান"
+msgstr ""
 
 #: ../../web/templates/footer.php:50
 msgid "Move down through elements list"
-msgstr "উপাদান তালিকা মাধ্যমে নিচে সরান"
+msgstr ""
 
 #: ../../web/templates/footer.php:68 ../../web/templates/footer.php:71
 #: ../../web/templates/pages/list_server_info.php:116
@@ -1140,7 +1140,7 @@ msgstr "উপাদান তালিকা মাধ্যমে নিচে
 #: ../../web/templates/pages/list_weblog.php:90
 #: ../../web/templates/pages/list_weblog.php:93
 msgid "Top"
-msgstr "চূড়া"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:6
 #: ../../web/templates/pages/list_updates.php:6
@@ -1216,11 +1216,11 @@ msgstr "চূড়া"
 #: ../../web/templates/pages/list_weblog.php:35
 #: ../../web/templates/pages/edit_dns_rec.php:6
 msgid "Back"
-msgstr "ফিরুন"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:9
 msgid "Add IP list"
-msgstr "আইপি তালিকা যোগ করুন"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:16
 #: ../../web/templates/pages/list_firewall_ipset.php:19
@@ -1336,7 +1336,7 @@ msgstr ""
 #: ../../web/templates/pages/list_dns.php:205
 #: ../../web/templates/pages/list_dns.php:209
 msgid "Delete"
-msgstr "মুছুন"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:30
 #: ../../web/templates/pages/list_firewall.php:17
@@ -1361,7 +1361,7 @@ msgstr ""
 #: ../../web/templates/pages/list_ip.php:64
 #: ../../web/templates/pages/list_dns.php:76
 msgid "Select all"
-msgstr "সব নির্বাচন করুন"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:37
 #: ../../web/templates/pages/list_firewall_ipset.php:56
@@ -1409,7 +1409,7 @@ msgstr ""
 #: ../../web/templates/pages/list_dns.php:16
 #: ../../web/templates/pages/list_dns.php:22
 msgid "Date"
-msgstr "তারিখ"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:42
 #: ../../web/templates/pages/list_firewall_ipset.php:92
@@ -1422,7 +1422,7 @@ msgstr "তারিখ"
 #: ../../web/templates/pages/list_firewall_banlist.php:40
 #: ../../web/templates/pages/list_firewall_banlist.php:82
 msgid "Time"
-msgstr "সময়"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:51
 #: ../../web/templates/pages/list_firewall_ipset.php:52
@@ -1463,7 +1463,7 @@ msgstr "সময়"
 #: ../../web/templates/pages/list_dns.php:130
 #: ../../web/templates/pages/list_dns.php:131
 msgid "Select"
-msgstr "নির্বাচন করুন"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:67
 #, php-format
@@ -1495,7 +1495,7 @@ msgstr ""
 #: ../../web/templates/pages/list_dns.php:101
 #: ../../web/templates/pages/list_dns.php:115
 msgid "Disabled"
-msgstr "অক্ষম"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:80
 #: ../../web/templates/pages/list_mail.php:104
@@ -1519,11 +1519,11 @@ msgstr "অক্ষম"
 #: ../../web/templates/pages/list_dns.php:104
 #: ../../web/templates/pages/list_dns.php:118
 msgid "Enabled"
-msgstr "সক্রিয়"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:106
 msgid "There are currently no IP lists defined."
-msgstr "বর্তমানে কোন আইপি তালিকা নির্ধারিত নেই।"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:108
 #, php-format
@@ -1544,7 +1544,7 @@ msgstr ""
 #: ../../web/templates/pages/list_services.php:12
 #: ../../web/templates/pages/edit_server.php:135
 msgid "Updates"
-msgstr "হাল নাগাদ করা"
+msgstr ""
 
 #: ../../web/templates/pages/list_updates.php:33
 #: ../../web/templates/pages/list_updates.php:54
@@ -1556,14 +1556,14 @@ msgstr ""
 #: ../../web/templates/pages/list_services.php:101
 #: ../../web/templates/pages/list_services.php:192
 msgid "Description"
-msgstr "বর্ণনা"
+msgstr ""
 
 #: ../../web/templates/pages/list_updates.php:35
 #: ../../web/templates/pages/list_updates.php:62
 #: ../../web/templates/pages/list_webapps.php:27
 #: ../../web/templates/pages/edit_server.php:139
 msgid "Version"
-msgstr "সংস্করণ"
+msgstr ""
 
 #: ../../web/templates/pages/list_updates.php:36
 #: ../../web/templates/pages/list_updates.php:66
@@ -1575,12 +1575,12 @@ msgstr "সংস্করণ"
 #: ../../web/templates/pages/list_search.php:50
 #: ../../web/templates/pages/list_search.php:114
 msgid "Status"
-msgstr "স্ট্যাটাস"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:7
 #: ../../web/templates/pages/add_mail.php:32
 msgid "Add Mail Domain"
-msgstr "মেইল ডোমেইন যোগ করুন"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:13
 #: ../../web/templates/pages/list_user.php:14
@@ -1596,7 +1596,7 @@ msgstr "মেইল ডোমেইন যোগ করুন"
 #: ../../web/templates/pages/list_search.php:14
 #: ../../web/templates/pages/list_dns.php:13
 msgid "Sort items"
-msgstr "সর্ট আইটেম"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:14
 #: ../../web/templates/pages/list_user.php:15
@@ -1619,7 +1619,7 @@ msgstr ""
 #: ../../web/templates/pages/list_mail.php:296
 #: ../../web/templates/includes/panel.php:330
 msgid "Accounts"
-msgstr "হিসাব"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:28
 #: ../../web/templates/pages/list_mail.php:78
@@ -1641,7 +1641,7 @@ msgstr "হিসাব"
 #: ../../web/templates/pages/list_stats.php:93
 #: ../../web/templates/includes/panel.php:35
 msgid "Disk"
-msgstr "ডিস্ক"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:40
 #: ../../web/templates/pages/list_user.php:42
@@ -1714,7 +1714,7 @@ msgstr ""
 #: ../../web/templates/pages/list_dns.php:58
 #: ../../web/templates/pages/list_dns.php:59
 msgid "Search"
-msgstr "অনুসন্ধান করুন"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:79
 #: ../../web/templates/pages/list_mail.php:316
@@ -1775,7 +1775,7 @@ msgstr ""
 #: ../../web/templates/pages/list_mail_acc.php:16
 #: ../../web/templates/pages/add_mail_acc.php:32
 msgid "Add Mail Account"
-msgstr "মেইল অ্যাকাউন্ট যোগ করুন"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:251
 #: ../../web/templates/pages/list_mail.php:254
@@ -1795,12 +1795,12 @@ msgstr ""
 #, php-format
 msgid "%d mail domain"
 msgid_plural "%d mail domains"
-msgstr[0] "%d টি মেইল ডোমেইন"
-msgstr[1] "%d টি মেইল ডোমেইন"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../../web/templates/pages/list_backup.php:6
 msgid "Create Backup"
-msgstr "ব্যাকআপ তৈরি"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup.php:7
 #: ../../web/templates/pages/list_backup_exclusions.php:29
@@ -1810,17 +1810,17 @@ msgstr ""
 #: ../../web/templates/pages/list_backup.php:46
 #: ../../web/templates/pages/list_backup.php:80
 msgid "File Name"
-msgstr "ফাইলের নাম"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup.php:49
 #: ../../web/templates/pages/list_backup.php:136
 msgid "Size"
-msgstr "আকার"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup.php:51
 #: ../../web/templates/pages/list_backup.php:149
 msgid "Runtime"
-msgstr "রানটাইম"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup.php:58
 #: ../../web/templates/pages/list_backup.php:59
@@ -1854,7 +1854,7 @@ msgstr "রানটাইম"
 #: ../../web/templates/pages/edit_server.php:1400
 #: ../../web/templates/pages/edit_server.php:1413
 msgid "No"
-msgstr "না"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup.php:65
 #: ../../web/templates/pages/list_backup.php:66
@@ -1888,7 +1888,7 @@ msgstr "না"
 #: ../../web/templates/pages/edit_server.php:1403
 #: ../../web/templates/pages/edit_server.php:1416
 msgid "Yes"
-msgstr "হ্যাঁ"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup.php:84
 #: ../../web/templates/pages/list_backup.php:107
@@ -1908,7 +1908,7 @@ msgstr "হ্যাঁ"
 #: ../../web/templates/pages/list_backup_detail.php:264
 #: ../../web/templates/pages/list_backup_detail.php:267
 msgid "Restore"
-msgstr "পুনরুদ্ধার"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup.php:96
 #: ../../web/templates/pages/list_backup.php:99
@@ -1923,7 +1923,7 @@ msgstr "পুনরুদ্ধার"
 #: ../../web/templates/pages/list_weblog.php:57
 #: ../../web/templates/pages/list_weblog.php:59
 msgid "Download"
-msgstr "ডাউনলোড"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup.php:119
 #, php-format
@@ -1934,8 +1934,8 @@ msgstr ""
 #, php-format
 msgid "%d backup"
 msgid_plural "%d backups"
-msgstr[0] "%d টি ব্যাকআপ"
-msgstr[1] "%d টি ব্যাকআপ"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../../web/templates/pages/edit_mail.php:11
 #: ../../web/templates/pages/add_mail.php:11
@@ -1976,12 +1976,12 @@ msgstr[1] "%d টি ব্যাকআপ"
 #: ../../web/templates/pages/add_cron.php:11
 #: ../../web/templates/pages/edit_dns_rec.php:11
 msgid "Save"
-msgstr "সংরক্ষণ"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:44
 #: ../../web/templates/pages/add_mail.php:53
 msgid "Webmail Client"
-msgstr "ওয়েবমেইল ক্লায়েন্ট"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:59
 msgid "Catch-All Email"
@@ -1999,7 +1999,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_mail.php:93
 #: ../../web/templates/pages/add_mail.php:92
 msgid "DKIM Support"
-msgstr "DKIM সমর্থন"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:99
 #: ../../web/templates/pages/edit_web.php:169
@@ -2014,14 +2014,14 @@ msgstr ""
 #: ../../web/templates/pages/edit_mail.php:114
 #, php-format
 msgid "To enable Let's Encrypt SSL, ensure that DNS records exist for mail.%s and %s!"
-msgstr "লেটস এনক্রিপ্ট এসএসএল সক্ষম করতে, নিশ্চিত করুন যে মেইল %s এবং %s এর জন্য DNS রেকর্ড রয়েছে!"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:121
 #: ../../web/templates/pages/list_ssl.php:28
 #: ../../web/templates/pages/edit_web.php:197
 #: ../../web/templates/pages/edit_server.php:918
 msgid "SSL Certificate"
-msgstr "SSL সার্টিফিকেট"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:122
 #: ../../web/templates/pages/list_ssl.php:16
@@ -2041,7 +2041,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_mail.php:132
 #: ../../web/templates/pages/edit_web.php:208
 msgid "SSL Certificate Authority / Intermediate"
-msgstr "SSL সার্টিফিকেট অথরিটি/ ইন্টারমিডিয়েট"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:132
 #: ../../web/templates/pages/add_ip.php:76
@@ -2106,7 +2106,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_mail.php:175
 #: ../../web/templates/pages/add_mail.php:98
 msgid "SMTP Relay"
-msgstr "SMTP রিলে"
+msgstr ""
 
 #: ../../web/templates/pages/add_mail.php:37
 #: ../../web/templates/pages/add_web.php:32
@@ -2127,14 +2127,14 @@ msgstr ""
 #: ../../web/templates/pages/add_dns.php:42
 #: ../../web/templates/pages/add_db.php:42
 msgid "Add User"
-msgstr "ব্যবহারকারী যোগ করুন"
+msgstr ""
 
 #: ../../web/templates/pages/add_mail.php:43
 #: ../../web/templates/pages/add_web.php:38
 #: ../../web/templates/pages/add_dns.php:43
 #: ../../web/templates/pages/add_db.php:43
 msgid "Continue"
-msgstr "চালিয়ে যান"
+msgstr ""
 
 #: ../../web/templates/pages/add_ip.php:32
 #: ../../web/templates/pages/list_ip.php:9
@@ -2144,7 +2144,7 @@ msgstr ""
 #: ../../web/templates/pages/add_ip.php:57
 #: ../../web/templates/pages/edit_ip.php:50
 msgid "Shared"
-msgstr "শেয়ার করা হয়েছে"
+msgstr ""
 
 #: ../../web/templates/pages/add_ip.php:76
 #: ../../web/templates/pages/edit_ip.php:69
@@ -2158,17 +2158,17 @@ msgstr ""
 
 #: ../../web/templates/pages/debug_panel.php:11
 msgid "Close debug panel"
-msgstr "ডিবাগ প্যানেল বন্ধ করুন"
+msgstr ""
 
 #: ../../web/templates/pages/debug_panel.php:11
 #: ../../web/templates/pages/debug_panel.php:12
 msgid "Open debug panel"
-msgstr "ডিবাগ প্যানেল খুলুন"
+msgstr ""
 
 #: ../../web/templates/pages/add_web.php:27
 #: ../../web/templates/pages/list_web.php:7
 msgid "Add Web Domain"
-msgstr "ওয়েব ডোমেইন যোগ করুন"
+msgstr ""
 
 #: ../../web/templates/pages/add_web.php:32
 msgid "a web domain"
@@ -2176,11 +2176,11 @@ msgstr ""
 
 #: ../../web/templates/pages/add_web.php:63
 msgid "DNS Support"
-msgstr "DNS সমর্থন"
+msgstr ""
 
 #: ../../web/templates/pages/add_web.php:73
 msgid "Mail Support"
-msgstr "মেইল সাপোর্ট"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:25
 #: ../../web/templates/pages/list_cron.php:120
@@ -2191,30 +2191,30 @@ msgstr ""
 #: ../../web/templates/pages/edit_server.php:1078
 #: ../../web/templates/pages/add_cron.php:57
 msgid "Minutes"
-msgstr "মিনিট"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:58
 #: ../../web/templates/pages/add_cron.php:58
 msgid "Hourly"
-msgstr "ঘণ্টায়"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:59
 #: ../../web/templates/pages/list_rrd.php:13
 #: ../../web/templates/pages/add_cron.php:59
 msgid "Daily"
-msgstr "দৈনিক"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:60
 #: ../../web/templates/pages/list_rrd.php:14
 #: ../../web/templates/pages/add_cron.php:60
 msgid "Weekly"
-msgstr "সাপ্তাহিক"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:61
 #: ../../web/templates/pages/list_rrd.php:15
 #: ../../web/templates/pages/add_cron.php:61
 msgid "Monthly"
-msgstr "মাসিক"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:70
 #: ../../web/templates/pages/edit_cron.php:93
@@ -2227,7 +2227,7 @@ msgstr "মাসিক"
 #: ../../web/templates/pages/add_cron.php:191
 #: ../../web/templates/pages/add_cron.php:262
 msgid "Run Command"
-msgstr "আপনার আদেশ প্রদান করুন"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:72
 #: ../../web/templates/pages/add_cron.php:72
@@ -2329,37 +2329,37 @@ msgstr ""
 #: ../../web/templates/pages/edit_cron.php:196
 #: ../../web/templates/pages/add_cron.php:196
 msgid "Monday"
-msgstr "সোমবার"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:197
 #: ../../web/templates/pages/add_cron.php:197
 msgid "Tuesday"
-msgstr "মঙ্গলবার"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:198
 #: ../../web/templates/pages/add_cron.php:198
 msgid "Wednesday"
-msgstr "বুধবার"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:199
 #: ../../web/templates/pages/add_cron.php:199
 msgid "Thursday"
-msgstr "বৃহস্পতিবার"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:200
 #: ../../web/templates/pages/add_cron.php:200
 msgid "Friday"
-msgstr "শুক্রবার"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:201
 #: ../../web/templates/pages/add_cron.php:201
 msgid "Saturday"
-msgstr "শনিবার"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:202
 #: ../../web/templates/pages/add_cron.php:202
 msgid "Sunday"
-msgstr "রবিবার"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:264
 #: ../../web/templates/pages/add_cron.php:264
@@ -2387,62 +2387,62 @@ msgstr ""
 #: ../../web/templates/pages/edit_cron.php:269
 #: ../../web/templates/pages/add_cron.php:269
 msgid "Jan"
-msgstr "জানুয়ারী"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:270
 #: ../../web/templates/pages/add_cron.php:270
 msgid "Feb"
-msgstr "ফেব্রুয়ারী"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:271
 #: ../../web/templates/pages/add_cron.php:271
 msgid "Mar"
-msgstr "মার্চ"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:272
 #: ../../web/templates/pages/add_cron.php:272
 msgid "Apr"
-msgstr "এপ্রিল"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:273
 #: ../../web/templates/pages/add_cron.php:273
 msgid "May"
-msgstr "মে"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:274
 #: ../../web/templates/pages/add_cron.php:274
 msgid "Jun"
-msgstr "জুন"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:275
 #: ../../web/templates/pages/add_cron.php:275
 msgid "Jul"
-msgstr "জুলাই"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:276
 #: ../../web/templates/pages/add_cron.php:276
 msgid "Aug"
-msgstr "আগস্ট"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:277
 #: ../../web/templates/pages/add_cron.php:277
 msgid "Sep"
-msgstr "সেপ্টেম্বর"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:278
 #: ../../web/templates/pages/add_cron.php:278
 msgid "Oct"
-msgstr "অক্টোবর"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:279
 #: ../../web/templates/pages/add_cron.php:279
 msgid "Nov"
-msgstr "নভেম্বর"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:280
 #: ../../web/templates/pages/add_cron.php:280
 msgid "Dec"
-msgstr "ডিসেম্বর"
+msgstr ""
 
 #: ../../web/templates/pages/add_firewall.php:25
 msgid "Add Firewall Rule"
@@ -2466,7 +2466,7 @@ msgstr ""
 #: ../../web/templates/pages/add_firewall.php:46
 #: ../../web/templates/pages/edit_firewall.php:46
 msgid "All ports: 0, Range: 80-82, List: 80,443,8080,8443"
-msgstr "সমস্ত পোর্ট: 0, পরিসর: 80-82, তালিকা: 80,443,8080,8443"
+msgstr ""
 
 #: ../../web/templates/pages/add_firewall.php:50
 #: ../../web/templates/pages/edit_firewall.php:50
@@ -2483,7 +2483,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_firewall.php:59
 #: ../../web/templates/pages/add_firewall_ipset.php:86
 msgid "Clear"
-msgstr "সাফ"
+msgstr ""
 
 #: ../../web/templates/pages/add_firewall.php:66
 #: ../../web/templates/pages/edit_firewall.php:66
@@ -2498,12 +2498,12 @@ msgstr "সাফ"
 #: ../../web/templates/pages/list_firewall_banlist.php:41
 #: ../../web/templates/pages/list_firewall_banlist.php:86
 msgid "Comment"
-msgstr "মন্তব্য করুন"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:9
 #: ../../web/templates/pages/list_packages.php:47
 msgid "Packages"
-msgstr "প্যাকেজ"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:43
 msgid "Rebuild User Profile"
@@ -2538,13 +2538,13 @@ msgstr ""
 #: ../../web/templates/includes/panel.php:267
 #: ../../web/templates/includes/panel.php:271
 msgid "Users"
-msgstr "ব্যবহারকারীরা"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:85
 #: ../../web/templates/pages/list_user.php:240
 #: ../../web/templates/pages/list_stats.php:86
 msgid "IPs"
-msgstr "আইপি গুলি"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:126
 #, php-format
@@ -2582,14 +2582,14 @@ msgstr ""
 #: ../../web/templates/pages/list_packages.php:139
 #: ../../web/templates/pages/list_packages.php:142
 msgid "Edit Package"
-msgstr "প্যাকেজ সম্পাদনা করুন"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:312
 #, php-format
 msgid "%d user account"
 msgid_plural "%d user accounts"
-msgstr[0] "%d টি ব্যবহারকারীর অ্যাকাউন্ট"
-msgstr[1] "%d টি ব্যবহারকারীর অ্যাকাউন্ট"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../../web/templates/pages/edit_server_dovecot.php:25
 #: ../../web/templates/pages/edit_server_bind9.php:25
@@ -2618,7 +2618,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_server_pgsql.php:38
 #: ../../web/templates/pages/edit_server_mysql.php:67
 msgid "Restart"
-msgstr "রিস্টার্ট"
+msgstr ""
 
 #: ../../web/templates/pages/edit_firewall.php:25
 #: ../../web/templates/pages/list_firewall.php:112
@@ -2635,7 +2635,7 @@ msgstr ""
 #: ../../web/templates/pages/list_backup_exclusions.php:34
 #: ../../web/templates/pages/list_backup_exclusions.php:45
 msgid "Value"
-msgstr "মান"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup_exclusions.php:48
 msgid "No exclusions"
@@ -2671,7 +2671,7 @@ msgstr ""
 #: ../../web/templates/pages/list_dns_rec.php:164
 #: ../../web/templates/pages/edit_server.php:1049
 msgid "Default"
-msgstr "ডিফল্ট"
+msgstr ""
 
 #: ../../web/templates/pages/edit_whitelabel.php:83
 msgid "Sender Email Address"
@@ -2714,7 +2714,7 @@ msgstr ""
 #: ../../web/templates/pages/add_dns_rec.php:74
 #: ../../web/templates/pages/edit_dns_rec.php:75
 msgid "Priority"
-msgstr "অগ্রাধিকার"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail_dns.php:27
 #: ../../web/templates/pages/list_mail_dns.php:44
@@ -2744,23 +2744,23 @@ msgstr ""
 #: ../../web/templates/pages/list_log.php:79
 #: ../../web/templates/pages/list_log.php:118
 msgid "Category"
-msgstr "ক্যাটাগরি (বিভাগ)"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_preview.php:31
 #: ../../web/templates/pages/edit_package.php:303
 #: ../../web/templates/pages/add_package.php:299
 #: ../../web/templates/pages/edit_server.php:988
 msgid "System"
-msgstr "সিস্টেম"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_preview.php:35
 msgid "Policy"
-msgstr "নীতি"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_preview.php:35
 #: ../../web/templates/pages/edit_server.php:1270
 msgid "Allow suspended users to log in with read-only access"
-msgstr "স্থগিত ব্যবহারকারীদের শুধুমাত্র-পঠন অ্যাক্সেস দিয়ে লগ ইন করার অনুমতি দিন"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_preview.php:39
 msgid "Partially implemented"
@@ -2769,11 +2769,11 @@ msgstr ""
 #: ../../web/templates/pages/list_webapps.php:16
 #: ../../web/templates/pages/edit_web.php:15
 msgid "Quick Install App"
-msgstr "দ্রুত অ্যাপ ইনস্টল করুন"
+msgstr ""
 
 #: ../../web/templates/pages/list_webapps.php:29
 msgid "Setup"
-msgstr "সেটআপ"
+msgstr ""
 
 #: ../../web/templates/pages/edit_ip.php:32
 #: ../../web/templates/pages/list_ip.php:95
@@ -2791,12 +2791,12 @@ msgstr ""
 #: ../../web/templates/includes/panel.php:285
 #: ../../web/templates/includes/panel.php:292
 msgid "Aliases"
-msgstr "উপনাম"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail_acc.php:90
 #: ../../web/templates/pages/list_mail_acc.php:272
 msgid "Forwarding"
-msgstr "ফরোয়ার্ডিং"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail_acc.php:91
 #: ../../web/templates/pages/list_mail_acc.php:276
@@ -2840,19 +2840,19 @@ msgstr ""
 #, php-format
 msgid "%d mail account"
 msgid_plural "%d mail accounts"
-msgstr[0] "%d টি মেইল অ্যাকাউন্ট"
-msgstr[1] "%d টি মেইল অ্যাকাউন্ট"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../../web/templates/pages/list_server_info.php:16
 #: ../../web/templates/pages/list_server_info.php:17
 msgid "Hestia Control Panel"
-msgstr "হেস্টিয়া কন্ট্রোল প্যানেল"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_info.php:27
 #: ../../web/templates/pages/list_weblog.php:27
 #: ../../web/templates/includes/panel.php:147
 msgid "Close menu"
-msgstr "মেনু বন্ধ করুন"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_info.php:27
 #: ../../web/templates/pages/list_server_info.php:28
@@ -2861,27 +2861,27 @@ msgstr "মেনু বন্ধ করুন"
 #: ../../web/templates/includes/panel.php:147
 #: ../../web/templates/includes/panel.php:148
 msgid "Open menu"
-msgstr "মেনু খুলুন"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_info.php:41
 #: ../../web/templates/pages/list_services.php:103
 #: ../../web/templates/pages/list_services.php:200
 msgid "CPU"
-msgstr "Процесор"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_info.php:47
 msgid "RAM"
-msgstr "Рам Памет"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_info.php:59
 #: ../../web/templates/pages/edit_server.php:9
 msgid "Network"
-msgstr "নেটওয়ার্ক"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_info.php:66
 #: ../../web/templates/pages/list_stats.php:105
 msgid "Web"
-msgstr "ওয়েব"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_info.php:74
 #: ../../web/templates/pages/edit_package.php:152
@@ -2894,7 +2894,7 @@ msgstr ""
 #: ../../web/templates/pages/list_server_info.php:82
 #: ../../web/templates/pages/list_stats.php:123
 msgid "Mail"
-msgstr "মেইল"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_info.php:90
 #: ../../web/templates/pages/edit_package.php:285
@@ -2912,7 +2912,7 @@ msgstr ""
 #: ../../web/templates/pages/list_weblog.php:63
 #: ../../web/templates/pages/list_weblog.php:65
 msgid "Refresh"
-msgstr "রিফ্রেশ"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_info.php:101
 #: ../../web/templates/pages/list_server_info.php:103
@@ -2923,7 +2923,7 @@ msgstr "রিফ্রেশ"
 #: ../../web/templates/includes/panel.php:229
 #: ../../web/templates/includes/panel.php:231
 msgid "Log out"
-msgstr "প্রস্থান"
+msgstr ""
 
 #: ../../web/templates/pages/list_log.php:28
 #: ../../web/templates/pages/list_log.php:29
@@ -2946,13 +2946,13 @@ msgstr ""
 #: ../../web/templates/includes/panel.php:186
 #: ../../web/templates/includes/panel.php:188
 msgid "Logs"
-msgstr "লগগুলি"
+msgstr ""
 
 #: ../../web/templates/pages/list_log.php:80
 #: ../../web/templates/pages/list_log.php:122
 #: ../../web/templates/pages/edit_mail_acc.php:112
 msgid "Message"
-msgstr "বার্তা"
+msgstr ""
 
 #: ../../web/templates/pages/list_log.php:90
 msgid "Information"
@@ -2971,13 +2971,13 @@ msgstr ""
 #, php-format
 msgid "%d log record"
 msgid_plural "%d log records"
-msgstr[0] "%d টি লগ রেকর্ড"
-msgstr[1] "%d টি লগ রেকর্ড"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../../web/templates/pages/setup_webapp.php:27
 #, php-format
 msgid "Install %s"
-msgstr "%s ইনস্টল করুন"
+msgstr ""
 
 #: ../../web/templates/pages/setup_webapp.php:33
 msgid "Data Loss Warning!"
@@ -2990,7 +2990,7 @@ msgstr ""
 #: ../../web/templates/pages/setup_webapp.php:35
 #, php-format
 msgid "Please make sure ~/web/%s/public_html is empty!"
-msgstr "দয়া করে নিশ্চিত করুন ~/web/%s/public_html ফোল্ডার  ফাঁকা!"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:60
 #: ../../web/templates/pages/edit_mail_acc.php:57
@@ -2999,7 +2999,7 @@ msgstr "দয়া করে নিশ্চিত করুন ~/web/%s/publi
 #: ../../web/templates/pages/edit_db.php:54
 #: ../../web/templates/pages/add_mail_acc.php:59
 msgid "Your password must have at least"
-msgstr "আপনার পাসওয়ার্ড তালিকায় সবচেয়ে বেশি আছে"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:62
 #: ../../web/templates/pages/edit_mail_acc.php:59
@@ -3008,7 +3008,7 @@ msgstr "আপনার পাসওয়ার্ড তালিকায় 
 #: ../../web/templates/pages/edit_db.php:56
 #: ../../web/templates/pages/add_mail_acc.php:61
 msgid "8 characters long"
-msgstr "8 অক্ষর দীর্ঘ"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:63
 #: ../../web/templates/pages/edit_mail_acc.php:60
@@ -3017,7 +3017,7 @@ msgstr "8 অক্ষর দীর্ঘ"
 #: ../../web/templates/pages/edit_db.php:57
 #: ../../web/templates/pages/add_mail_acc.php:62
 msgid "1 uppercase & 1 lowercase character"
-msgstr "১ টি বড় হাতের এবং ১ টি ছোট হাতের অক্ষর৷"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:64
 #: ../../web/templates/pages/edit_mail_acc.php:61
@@ -3026,36 +3026,36 @@ msgstr "১ টি বড় হাতের এবং ১ টি ছোট হ�
 #: ../../web/templates/pages/edit_db.php:58
 #: ../../web/templates/pages/add_mail_acc.php:63
 msgid "1 number"
-msgstr "১ টি সংখ্যা"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:69
 #: ../../web/templates/pages/edit_user.php:107
 msgid "Do not allow user to log in to Control Panel"
-msgstr "ব্যবহারকারীকে কন্ট্রোল প্যানেলে লগ ইন করতে দেবেন না"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:76
 msgid "Send welcome email"
-msgstr "স্বাগত ইমেইল পাঠান"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:81
 #: ../../web/templates/pages/edit_user.php:139
 msgid "Language"
-msgstr "ভাষা"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:100
 #: ../../web/templates/pages/edit_user.php:158
 msgid "Role"
-msgstr "ভূমিকা (রোল)"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:102
 #: ../../web/templates/pages/edit_user.php:160
 msgid "User"
-msgstr "ব্যবহারকারী"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:103
 #: ../../web/templates/pages/edit_user.php:161
 msgid "Administrator"
-msgstr "প্রশাসক"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:104
 #: ../../web/templates/pages/edit_user.php:162
@@ -3072,7 +3072,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_package.php:40
 #: ../../web/templates/pages/add_package.php:39
 msgid "Package Name"
-msgstr "প্যাকেজের নাম"
+msgstr ""
 
 #: ../../web/templates/pages/edit_package.php:46
 #: ../../web/templates/pages/edit_package.php:57
@@ -3107,7 +3107,7 @@ msgstr ""
 #: ../../web/templates/pages/add_mail_acc.php:75
 #: ../../web/templates/includes/js.php:8
 msgid "Unlimited"
-msgstr "আনলিমিটেড"
+msgstr ""
 
 #: ../../web/templates/pages/edit_package.php:71
 #: ../../web/templates/pages/add_firewall_banlist.php:37
@@ -3123,7 +3123,7 @@ msgstr ""
 #: ../../web/templates/pages/add_package.php:185
 #: ../../web/templates/pages/add_package.php:264
 msgid "per domain"
-msgstr "প্রতি ডোমেইন"
+msgstr ""
 
 #: ../../web/templates/pages/edit_package.php:199
 #: ../../web/templates/pages/add_dns.php:109
@@ -3136,7 +3136,7 @@ msgstr ""
 #: ../../web/templates/pages/add_dns.php:155
 #: ../../web/templates/pages/add_package.php:241
 msgid "Add Name Server"
-msgstr "নাম সার্ভার যোগ করুন"
+msgstr ""
 
 #: ../../web/templates/pages/edit_package.php:250
 #: ../../web/templates/pages/add_firewall_banlist.php:40
@@ -3148,14 +3148,14 @@ msgstr ""
 #: ../../web/templates/pages/edit_package.php:279
 #: ../../web/templates/pages/add_package.php:275
 msgid "per account / hour"
-msgstr "প্রতি অ্যাকাউন্ট / ঘন্টা"
+msgstr ""
 
 #: ../../web/templates/pages/edit_package.php:320
 #: ../../web/templates/pages/edit_user.php:215
 #: ../../web/templates/pages/list_packages.php:175
 #: ../../web/templates/pages/add_package.php:316
 msgid "SSH Access"
-msgstr "SSH অ্যাক্সেস"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:82
 #: ../../web/templates/pages/add_mail_acc.php:82
@@ -3165,21 +3165,21 @@ msgstr ""
 #: ../../web/templates/pages/edit_mail_acc.php:89
 #: ../../web/templates/pages/add_mail_acc.php:95
 msgid "Discard all mail"
-msgstr "সমস্ত মেল বাতিল করুন"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:95
 #: ../../web/templates/pages/add_mail_acc.php:101
 msgid "Do not store forwarded mail"
-msgstr "ফরোয়ার্ড করা মেইল সংরক্ষণ করবেন না"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:100
 #: ../../web/templates/pages/add_mail_acc.php:88
 msgid "Forward to"
-msgstr "অগ্রবর্তীকরণ"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:100
 msgid "one or more email addresses"
-msgstr "এক বা একাধিক ইমেইল ঠিকানা"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:118
 #: ../../web/templates/pages/add_mail_acc.php:106
@@ -3194,7 +3194,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_mail_acc.php:137
 #: ../../web/templates/pages/add_mail_acc.php:132
 msgid "Webmail"
-msgstr "ওয়েবমেইল"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:142
 #: ../../web/templates/pages/list_db.php:114
@@ -3202,7 +3202,7 @@ msgstr "ওয়েবমেইল"
 #: ../../web/templates/pages/add_mail_acc.php:137
 #: ../../web/templates/pages/edit_server.php:62
 msgid "Hostname"
-msgstr "হোস্টনেম"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:146
 #: ../../web/templates/pages/add_mail_acc.php:141
@@ -3216,7 +3216,7 @@ msgstr ""
 #: ../../web/templates/pages/add_mail_acc.php:163
 #: ../../web/templates/pages/add_mail_acc.php:182
 msgid "Authentication"
-msgstr "প্রমাণীকরণ"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:150
 #: ../../web/templates/pages/edit_mail_acc.php:169
@@ -3225,7 +3225,7 @@ msgstr "প্রমাণীকরণ"
 #: ../../web/templates/pages/add_mail_acc.php:164
 #: ../../web/templates/pages/add_mail_acc.php:183
 msgid "Normal password"
-msgstr "সাধারণ পাসওয়ার্ড"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:161
 #: ../../web/templates/pages/edit_mail_acc.php:180
@@ -3234,7 +3234,7 @@ msgstr "সাধারণ পাসওয়ার্ড"
 #: ../../web/templates/pages/add_mail_acc.php:175
 #: ../../web/templates/pages/add_mail_acc.php:194
 msgid "No encryption"
-msgstr "কোনো এনক্রিপশন নেই"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:165
 #: ../../web/templates/pages/add_mail_acc.php:160
@@ -3250,7 +3250,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_server_httpd.php:9
 #: ../../web/templates/pages/list_services.php:6
 msgid "Configure"
-msgstr "সজ্জিত করা"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server_nginx.php:73
 #: ../../web/templates/pages/edit_user.php:210
@@ -3274,7 +3274,7 @@ msgstr ""
 #: ../../web/templates/pages/list_key.php:14
 #: ../../web/templates/pages/add_key.php:31
 msgid "Add SSH Key"
-msgstr "SSH কী যোগ করুন"
+msgstr ""
 
 #: ../../web/templates/pages/list_key.php:24
 msgid "SSH Keys"
@@ -3306,7 +3306,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_user.php:31
 #: ../../web/templates/pages/list_access_keys.php:49
 msgid "Access Keys"
-msgstr "অ্যাক্সেস কী"
+msgstr ""
 
 #: ../../web/templates/pages/edit_user.php:115
 msgid "Enable two-factor authentication"
@@ -3322,11 +3322,11 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_user.php:122
 msgid "2FA QR Code"
-msgstr "2FA কিউআর কোড"
+msgstr ""
 
 #: ../../web/templates/pages/edit_user.php:130
 msgid "Use IP address allow list for login attempts"
-msgstr "লগইন প্রচেষ্টার জন্য IP ঠিকানা অনুমতি তালিকা ব্যবহার করুন"
+msgstr ""
 
 #: ../../web/templates/pages/edit_user.php:135
 #: ../../web/templates/pages/edit_web.php:294
@@ -3336,7 +3336,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_user.php:168
 #: ../../web/templates/pages/edit_server.php:86
 msgid "Theme"
-msgstr "থিম"
+msgstr ""
 
 #: ../../web/templates/pages/edit_user.php:186
 msgid "Default List Sort Order"
@@ -3344,15 +3344,15 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_user.php:230
 msgid "PHP CLI Version"
-msgstr "PHP CLI সংস্করণ"
+msgstr ""
 
 #: ../../web/templates/pages/edit_user.php:249
 msgid "Default Name Servers"
-msgstr "ডিফল্ট নেম সার্ভার"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall.php:9
 msgid "Add Rule"
-msgstr "নিয়ম যোগ করুন"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall.php:13
 #: ../../web/templates/pages/list_firewall_banlist.php:30
@@ -3382,12 +3382,12 @@ msgstr ""
 #, php-format
 msgid "%d firewall rule"
 msgid_plural "%d firewall rules"
-msgstr[0] "%d টি ফায়ারওয়ালের নিয়ম"
-msgstr[1] "%d টি ফায়ারওয়ালের নিয়ম"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../../web/templates/pages/list_dns_rec.php:10
 msgid "Add Record"
-msgstr "রেকর্ড যোগ করুন"
+msgstr ""
 
 #: ../../web/templates/pages/list_dns_rec.php:13
 #: ../../web/templates/pages/edit_dns.php:25
@@ -3412,12 +3412,12 @@ msgstr ""
 #, php-format
 msgid "%d DNS record"
 msgid_plural "%d DNS records"
-msgstr[0] "%d টি DNS রেকর্ড"
-msgstr[1] "%d টি DNS রেকর্ড"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../../web/templates/pages/list_backup_detail.php:6
 msgid "Restore All"
-msgstr "সমস্ত পুনরুদ্ধার করুন"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup_detail.php:36
 msgid "Backup Details"
@@ -3431,7 +3431,7 @@ msgstr ""
 #: ../../web/templates/pages/list_backup_detail.php:217
 #: ../../web/templates/pages/list_backup_detail.php:255
 msgid "Details"
-msgstr "বিস্তারিত"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup_detail.php:65
 msgid "Web Domain"
@@ -3449,7 +3449,7 @@ msgstr ""
 #: ../../web/templates/includes/panel.php:358
 #: ../../web/templates/includes/panel.php:362
 msgid "Jobs"
-msgstr "জবস"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup_detail.php:252
 #: ../../web/templates/pages/edit_backup_exclusions.php:40
@@ -3461,8 +3461,8 @@ msgstr ""
 #, php-format
 msgid "%d item"
 msgid_plural "%d items"
-msgstr[0] "%d টি আইটেম"
-msgstr[1] "%d টি আইটেম"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../../web/templates/pages/add_firewall_banlist.php:25
 msgid "Add IP Address to Banlist"
@@ -3485,7 +3485,7 @@ msgstr ""
 #: ../../web/templates/pages/list_dns_public.php:7
 #: ../../web/templates/pages/list_dns.php:7
 msgid "Add DNS Domain"
-msgstr "DNS ডোমেইন যোগ করুন"
+msgstr ""
 
 #: ../../web/templates/pages/list_dns_public.php:29
 #: ../../web/templates/pages/list_dns.php:170
@@ -3519,7 +3519,7 @@ msgstr ""
 
 #: ../../web/templates/pages/list_dns_public.php:55
 msgid "Algorithm"
-msgstr "অ্যালগরিদম"
+msgstr ""
 
 #: ../../web/templates/pages/add_dns.php:32
 msgid "Add DNS Zone"
@@ -3534,29 +3534,29 @@ msgstr ""
 #: ../../web/templates/pages/list_dns.php:81
 #: ../../web/templates/pages/list_dns.php:224
 msgid "Template"
-msgstr "টেমপ্লেট"
+msgstr ""
 
 #: ../../web/templates/pages/add_dns.php:95
 #: ../../web/templates/pages/edit_dns.php:71
 msgid "Enable DNSSEC"
-msgstr "DNSSEC সক্ষম করুন৷"
+msgstr ""
 
 #: ../../web/templates/pages/add_dns.php:101
 #: ../../web/templates/pages/edit_dns.php:77
 #: ../../web/templates/pages/list_dns.php:85
 #: ../../web/templates/pages/list_dns.php:242
 msgid "Expiration Date"
-msgstr "মেয়াদ উত্তীর্ণের তারিখ"
+msgstr ""
 
 #: ../../web/templates/pages/add_dns.php:101
 #: ../../web/templates/pages/edit_dns.php:77
 msgid "YYYY-MM-DD"
-msgstr "বছর-মাস-দিন"
+msgstr ""
 
 #: ../../web/templates/pages/add_db.php:32
 #: ../../web/templates/pages/list_db.php:20
 msgid "Add Database"
-msgstr "ডাটাবেস যোগ করুন"
+msgstr ""
 
 #: ../../web/templates/pages/add_db.php:37
 msgid "a database"
@@ -3565,7 +3565,7 @@ msgstr ""
 #: ../../web/templates/pages/add_db.php:48
 #, php-format
 msgid "Prefix %s will be automatically added to database name and database user"
-msgstr "উপসর্গ (Prefix) %s স্বয়ংক্রিয়ভাবে ডাটাবেসের নাম এবং ডাটাবেস ব্যবহারকারীর সাথে যুক্ত হবে"
+msgstr ""
 
 #: ../../web/templates/pages/add_db.php:70
 #: ../../web/templates/pages/edit_db.php:35
@@ -3583,7 +3583,7 @@ msgstr ""
 
 #: ../../web/templates/pages/add_firewall_ipset.php:76
 msgid "url, script or file"
-msgstr "ইউআরএল, স্ক্রিপ্ট অথবা ফাইল"
+msgstr ""
 
 #: ../../web/templates/pages/list_log_auth.php:42
 msgid "Auth Log"
@@ -3592,7 +3592,7 @@ msgstr ""
 #: ../../web/templates/pages/list_log_auth.php:50
 #: ../../web/templates/pages/list_log_auth.php:94
 msgid "Browser"
-msgstr "ব্রাউজার"
+msgstr ""
 
 #: ../../web/templates/pages/list_log_auth.php:67
 msgid "Success"
@@ -3650,7 +3650,7 @@ msgstr ""
 
 #: ../../web/templates/pages/list_rrd.php:16
 msgid "Yearly"
-msgstr "বার্ষিক"
+msgstr ""
 
 #: ../../web/templates/pages/list_rrd.php:17
 msgid "Biennially"
@@ -3663,7 +3663,7 @@ msgstr ""
 #: ../../web/templates/pages/list_packages.php:9
 #: ../../web/templates/pages/add_package.php:36
 msgid "Add Package"
-msgstr "প্যাকেজ যোগ করুন"
+msgstr ""
 
 #: ../../web/templates/pages/list_packages.php:150
 #: ../../web/templates/pages/list_packages.php:153
@@ -3679,8 +3679,8 @@ msgstr ""
 #, php-format
 msgid "%d package"
 msgid_plural "%d packages"
-msgstr[0] "%d টি প্যাকেজ"
-msgstr[1] "%d টি প্যাকেজ"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../../web/templates/pages/list_services.php:9
 msgid "Task Monitor"
@@ -3689,7 +3689,7 @@ msgstr ""
 #: ../../web/templates/pages/list_services.php:16
 #: ../../web/templates/pages/edit_server.php:1409
 msgid "Firewall"
-msgstr "ফায়ারওয়াল"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:26
 #: ../../web/templates/pages/list_services.php:172
@@ -3713,17 +3713,17 @@ msgstr ""
 
 #: ../../web/templates/pages/list_services.php:71
 msgid "Operating System"
-msgstr "অপারেটিং সিস্টেম"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:77
 msgid "Load Average"
-msgstr "গড় লোড"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:83
 #: ../../web/templates/pages/list_services.php:102
 #: ../../web/templates/pages/list_services.php:196
 msgid "Uptime"
-msgstr "আপটাইম"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:92
 msgid "Services"
@@ -3732,12 +3732,12 @@ msgstr ""
 #: ../../web/templates/pages/list_services.php:99
 #: ../../web/templates/pages/list_services.php:148
 msgid "Service"
-msgstr "সেবা"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:104
 #: ../../web/templates/pages/list_services.php:204
 msgid "Memory"
-msgstr "মেমরি"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:150
 #: ../../web/templates/pages/list_services.php:160
@@ -3764,7 +3764,7 @@ msgstr ""
 #: ../../web/templates/pages/list_cron.php:7
 #: ../../web/templates/pages/add_cron.php:25
 msgid "Add Cron Job"
-msgstr "ক্রোন জব যোগ করুন"
+msgstr ""
 
 #: ../../web/templates/pages/list_cron.php:11
 #: ../../web/templates/pages/list_cron.php:42
@@ -3793,8 +3793,8 @@ msgstr ""
 #, php-format
 msgid "%d cron job"
 msgid_plural "%d cron jobs"
-msgstr[0] "%d টি ক্রোন জব"
-msgstr[1] "%d টি ক্রোন জব"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../../web/templates/pages/list_ssl.php:82
 msgid "SSL CSR"
@@ -3812,7 +3812,7 @@ msgstr ""
 #: ../../web/templates/pages/list_access_keys.php:84
 #: ../../web/templates/pages/list_access_keys.php:85
 msgid "Access Key"
-msgstr "অ্যাক্সেস কী"
+msgstr ""
 
 #: ../../web/templates/pages/list_access_key.php:31
 msgid "Access Key ID"
@@ -3820,7 +3820,7 @@ msgstr ""
 
 #: ../../web/templates/pages/list_access_key.php:39
 msgid "Secret Key"
-msgstr "গোপন চাবি"
+msgstr ""
 
 #: ../../web/templates/pages/list_access_key.php:40
 msgid "Warning! Last chance to save secret key!"
@@ -3840,33 +3840,33 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:81
 msgid "Web Statistics"
-msgstr "ওয়েব পরিসংখ্যান"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:100
 msgid "Statistics Authorization"
-msgstr "পরিসংখ্যান অনুমোদন"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:126
 msgid "Enable domain redirection"
-msgstr "ডোমেন পুনঃনির্দেশ সক্রিয় করুন"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:133
 #: ../../web/templates/pages/edit_web.php:139
 #, php-format
 msgid "Redirect visitors to %s"
-msgstr "দর্শকদের %s-এ পুনঃনির্দেশিত করুন"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:145
 msgid "Redirect visitors to a custom domain or web address"
-msgstr "একটি কাস্টম ডোমেন বা ওয়েব ঠিকানায় দর্শকদের পুনর্নির্দেশ করুন৷"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:150
 msgid "Target domain or URL"
-msgstr "টার্গেট ডোমেইন বা URL"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:154
 msgid "Status code"
-msgstr "স্ট্যাটাস কোড"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:182
 msgid "Enable automatic HTTPS redirection"
@@ -3878,12 +3878,12 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:250
 msgid "Hide Certificate"
-msgstr "শংসাপত্র লুকান"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:250
 #: ../../web/templates/pages/edit_web.php:251
 msgid "Show Certificate"
-msgstr "সার্টিফিকেট দেখাও"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:285
 msgid "Enable FastCGI cache"
@@ -3891,30 +3891,30 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:294
 msgid "Cache Duration"
-msgstr "ক্যাশ সময়কাল"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:327
 msgid "Proxy Support"
-msgstr "প্রক্সি সমর্থন"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:351
 msgid "Proxy Extensions"
-msgstr "প্রক্সি এক্সটেনশন"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:360
 msgid "Custom document root"
-msgstr "কাস্টম ডকুমেন্ট রুট (root)"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:365
 msgid "Point to"
-msgstr "নির্দেশ করা (Point to)"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:378
 #: ../../web/templates/pages/edit_server.php:716
 #: ../../web/templates/pages/edit_server.php:831
 #: ../../web/templates/pages/edit_server.php:895
 msgid "Directory"
-msgstr "ডিরেক্টরি"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:388
 msgid "Additional FTP account(s)"
@@ -3924,17 +3924,17 @@ msgstr ""
 #: ../../web/templates/pages/edit_web.php:464
 #, php-format
 msgid "Prefix %s will be added to username automatically"
-msgstr "উপসর্গ %s স্বয়ংক্রিয়ভাবে ব্যবহারকারীর নামের সাথে যুক্ত হবে"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:426
 #: ../../web/templates/pages/edit_web.php:479
 msgid "Path"
-msgstr "পথ (Path)"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:434
 #: ../../web/templates/pages/edit_web.php:485
 msgid "Send FTP credentials to email"
-msgstr "FTP পরিচয়-পত্র ইমেইলে পাঠান"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:443
 msgid "Add FTP account"
@@ -3944,7 +3944,7 @@ msgstr ""
 #: ../../web/templates/pages/list_dns.php:149
 #: ../../web/templates/pages/list_dns.php:152
 msgid "Add DNS Record"
-msgstr "DNS রেকর্ড যোগ করুন"
+msgstr ""
 
 #: ../../web/templates/pages/list_web.php:43
 #: ../../web/templates/pages/list_dns.php:43
@@ -3958,7 +3958,7 @@ msgstr ""
 #: ../../web/templates/includes/panel.php:204
 #: ../../web/templates/includes/panel.php:206
 msgid "Statistics"
-msgstr "পরিসংখ্যান"
+msgstr ""
 
 #: ../../web/templates/pages/list_web.php:211
 #: ../../web/templates/pages/list_web.php:256
@@ -3976,19 +3976,19 @@ msgstr ""
 #: ../../web/templates/pages/list_weblog.php:39
 #: ../../web/templates/pages/list_weblog.php:41
 msgid "Access Log"
-msgstr "প্রবেশ লগ"
+msgstr ""
 
 #: ../../web/templates/pages/list_web.php:339
 #, php-format
 msgid "%d web domain"
 msgid_plural "%d web domains"
-msgstr[0] "%d টি ওয়েব ডোমেইন"
-msgstr[1] "%d টি ওয়েব ডোমেইন"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../../web/templates/pages/add_access_key.php:24
 #: ../../web/templates/pages/list_access_keys.php:9
 msgid "Add Access Key"
-msgstr "অ্যাক্সেস কী যোগ করুন"
+msgstr ""
 
 #: ../../web/templates/pages/add_mail_acc.php:88
 msgid "One or more email addresses"
@@ -4000,7 +4000,7 @@ msgstr ""
 
 #: ../../web/templates/pages/login/login_2.php:15
 msgid "2FA Token"
-msgstr "2FA টোকেন"
+msgstr ""
 
 #: ../../web/templates/pages/login/login_2.php:17
 msgid "Forgot Token"
@@ -4010,7 +4010,7 @@ msgstr ""
 #: ../../web/templates/pages/login/login_1.php:23
 #: ../../web/templates/pages/edit_server.php:1041
 msgid "Login"
-msgstr "প্রবেশ করুন"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset_2.php:7
 #: ../../web/templates/pages/login/login_a.php:22
@@ -4018,7 +4018,7 @@ msgstr "প্রবেশ করুন"
 #: ../../web/templates/pages/login/reset_1.php:8
 #: ../../web/templates/pages/login/reset_3.php:7
 msgid "Forgot Password"
-msgstr "পাসওয়ার্ড ভুলে গেছেন"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset_2.php:13
 msgid "Password reset code has been sent to your email address"
@@ -4026,16 +4026,16 @@ msgstr ""
 
 #: ../../web/templates/pages/login/reset_2.php:19
 msgid "Reset Code"
-msgstr "কোড পুন:স্থাপন করুন"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset_2.php:24
 msgid "Confirm"
-msgstr "নিশ্চিত করুন"
+msgstr ""
 
 #: ../../web/templates/pages/login/login_a.php:29
 #: ../../web/templates/pages/login/login.php:18
 msgid "Next"
-msgstr "পরবর্তী"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset2fa.php:8
 msgid "Account Unlocked"
@@ -4047,7 +4047,7 @@ msgstr ""
 
 #: ../../web/templates/pages/login/reset2fa.php:13
 msgid "Log in"
-msgstr "প্রবেশ করুন"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset2fa.php:21
 msgid "Unlock Account"
@@ -4055,28 +4055,28 @@ msgstr ""
 
 #: ../../web/templates/pages/login/reset2fa.php:31
 msgid "2FA Reset Code"
-msgstr "2FA রিসেট কোড"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset2fa.php:36
 #: ../../web/templates/pages/login/reset_1.php:23
 msgid "Submit"
-msgstr "জমা দিন"
+msgstr ""
 
 #: ../../web/templates/pages/login/login_1.php:8
 msgid "Welcome"
-msgstr "স্বাগত"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset_3.php:17
 msgid "New Password"
-msgstr "নতুন পাসওয়ার্ড"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset_3.php:21
 msgid "Confirm Password"
-msgstr "পাসওয়ার্ড নিশ্চিত করুন"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset_3.php:26
 msgid "Reset"
-msgstr "পুন:স্থাপন করা"
+msgstr ""
 
 #: ../../web/templates/pages/generate_ssl.php:35
 msgid "ISO 3166-1 alpha-2 two-letter code"
@@ -4084,11 +4084,11 @@ msgstr ""
 
 #: ../../web/templates/pages/generate_ssl.php:41
 msgid "State / Province"
-msgstr "রাজ্য/প্রদেশ/বিভাগ"
+msgstr ""
 
 #: ../../web/templates/pages/generate_ssl.php:47
 msgid "City / Locality"
-msgstr "শহর / এলাকা"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:12
 msgid "White Label"
@@ -4096,39 +4096,39 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:74
 msgid "Time Zone"
-msgstr "টাইম জোন"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:105
 msgid "Set as selected theme for all users"
-msgstr "সমস্ত ব্যবহারকারীদের জন্য নির্বাচিত থিম হিসাবে সেট করুন"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:109
 msgid "Default Language"
-msgstr "নির্ধারিত ভাষা"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:126
 msgid "Set as default language for all users"
-msgstr "সমস্ত ব্যবহারকারীর জন্য ডিফল্ট ভাষা হিসাবে সেট করুন"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:146
 msgid "Release"
-msgstr "বিমুক্ত"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:153
 msgid "Options"
-msgstr "অপশন"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:164
 msgid "Enable debug mode"
-msgstr "ডিবাগ মোড সক্ষম করুন"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:176
 msgid "Enable preview features"
-msgstr "পূর্বরূপ বৈশিষ্ট্য সক্রিয় করুন"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:180
 msgid "View"
-msgstr "দেখা"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:193
 msgid "Send email notification when an update has been installed"
@@ -4141,19 +4141,19 @@ msgstr ""
 #: ../../web/templates/pages/edit_server.php:214
 #: ../../web/templates/pages/edit_server.php:230
 msgid "Web Server"
-msgstr "ওয়েব সার্ভার"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:219
 msgid "Proxy Server"
-msgstr "প্রক্সি সার্ভার"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:241
 msgid "Backend Server"
-msgstr "ব্যাকএন্ড সার্ভার"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:252
 msgid "Backend Pool Mode"
-msgstr "ব্যাকএন্ড পুল মোড"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:261
 msgid "Enabled PHP Versions"
@@ -4170,16 +4170,16 @@ msgstr ""
 #: ../../web/templates/pages/edit_server.php:321
 #: ../../web/templates/pages/edit_server.php:325
 msgid "DNS Server"
-msgstr "DNS সার্ভার"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:334
 msgid "DNS Cluster"
-msgstr "DNS ক্লাস্টার"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:366
 #: ../../web/templates/pages/edit_server.php:370
 msgid "Mail Server"
-msgstr "মেইল সার্ভার"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:403
 msgid "Webmail Alias"
@@ -4187,11 +4187,11 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:424
 msgid "Global SMTP Relay"
-msgstr "গ্লোবাল SMTP রিলে"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:495
 msgid "MySQL Support"
-msgstr "মাইএসকিউএল (MySQL) সাপোর্ট"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:508
 msgid "phpMyAdmin Alias"
@@ -4199,11 +4199,11 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:520
 msgid "phpMyAdmin Single Sign On"
-msgstr "phpMyAdmin একক সাইন অন"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:526
 msgid "More info"
-msgstr "আরো তথ্য"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:578
 #: ../../web/templates/pages/edit_server.php:636
@@ -4217,7 +4217,7 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:608
 msgid "PostgreSQL Support"
-msgstr "PostgreSQL সাপোর্ট"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:619
 msgid "phpPgAdmin Alias"
@@ -4229,7 +4229,7 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:673
 msgid "Compression"
-msgstr "কম্প্রেশন"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:693
 msgid "Compression Level"
@@ -4237,7 +4237,7 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:709
 msgid "zstd only"
-msgstr "শুধুমাত্র zstd"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:743
 msgid "Remote Backup"
@@ -4245,7 +4245,7 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:984
 msgid "Security"
-msgstr "নিরাপত্তা"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:996
 msgid "API"
@@ -4253,95 +4253,95 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1000
 msgid "Enable API access"
-msgstr "API অ্যাক্সেস সক্ষম / সক্রিয় করুন"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1007
 msgid "Enabled for admin"
-msgstr "অ্যাডমিনের জন্য সক্ষম"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1010
 msgid "Enabled for all users"
-msgstr "সমস্ত ব্যবহারকারীদের জন্য সক্রিয়"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1016
 msgid "Enable legacy API access"
-msgstr "লিগ্যাসি API অ্যাক্সেস সক্ষম করুন"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1030
 msgid "Allowed IP addresses for API"
-msgstr "API-এর জন্য অনুমোদিত আইপি ঠিকানা"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1045
 msgid "Login screen style"
-msgstr "লগইন পর্দা শৈলী"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1052
 msgid "Old Style"
-msgstr "পুরানো শৈলী"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1058
 msgid "Allow users to reset their passwords"
-msgstr "ব্যবহারকারীদের তাদের পাসওয়ার্ড রিসেট করার অনুমতি দিন"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1078
 msgid "Inactive session timeout"
-msgstr "নিষ্ক্রিয় সেশনের সময়সীমা"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1090
 msgid "Prevent CSRF"
-msgstr "CSRF প্রতিরোধ করুন"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1104
 msgid "Strict"
-msgstr "কঠোর"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1112
 msgid "System Protection"
-msgstr "সিস্টেম সুরক্ষা"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1120
 msgid "System Administrator account"
-msgstr "সিস্টেম অ্যাডমিনিস্ট্রেটর অ্যাকাউন্ট"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1124
 msgid "Restrict access to read-only for other administrators"
-msgstr "অন্যান্য প্রশাসকদের জন্য শুধুমাত্র-পঠন অ্যাক্সেস সীমাবদ্ধ করুন"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1141
 msgid "Hide account from other administrators"
-msgstr "অন্যান্য প্রশাসকদের থেকে অ্যাকাউন্ট লুকান"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1158
 msgid "Do not allow other administrators to access Server Settings"
-msgstr "অন্যান্য প্রশাসকদের সার্ভার সেটিংস অ্যাক্সেস করার অনুমতি দেবেন না"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1176
 msgid "Policies"
-msgstr "নীতিমালা"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1188
 msgid "Allow users to edit their account details"
-msgstr "ব্যবহারকারীদের তাদের অ্যাকাউন্টের বিবরণ সম্পাদনা করার অনুমতি দিন"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1205
 msgid "Allow users to change templates when editing web domains"
-msgstr "ওয়েব ডোমেন সম্পাদনা করার সময় ব্যবহারকারীদের টেমপ্লেট পরিবর্তন করার অনুমতি দিন"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1218
 msgid "Allow users to change templates when editing DNS zones"
-msgstr "DNS জোন সম্পাদনা করার সময় ব্যবহারকারীদের টেমপ্লেট পরিবর্তন করার অনুমতি দিন"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1235
 msgid "Allow users to view action and login history logs"
-msgstr "ব্যবহারকারীদের কর্ম এবং লগইন ইতিহাস লগ দেখতে অনুমতি দিন"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1252
 msgid "Allow users to delete log history"
-msgstr "ব্যবহারকারীদের লগের ইতিহাস মুছে ফেলার অনুমতি দিন"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1271
 msgid "Preview"
-msgstr "পূর্বরূপ"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1289
 msgid "Allow suspended users to create new backups"
@@ -4365,11 +4365,11 @@ msgstr ""
 #: ../../web/templates/includes/panel.php:323
 #: ../../web/templates/includes/panel.php:327
 msgid "Domains"
-msgstr "ডোমেইন"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1343
 msgid "Enforce subdomain ownership"
-msgstr "সাবডোমেন মালিকানা প্রয়োগ করুন"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1365
 msgid "Plugins"
@@ -4377,7 +4377,7 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1370
 msgid "Quick App Installer"
-msgstr "দ্রুত অ্যাপ ইনস্টলার"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1383
 msgid "File Manager"
@@ -4417,7 +4417,7 @@ msgstr[1] ""
 
 #: ../../web/templates/pages/list_firewall_banlist.php:9
 msgid "Ban IP Address"
-msgstr "আইপি ঠিকানা নিষিদ্ধ করুন"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_banlist.php:69
 #: ../../web/templates/pages/list_ip.php:117
@@ -4427,14 +4427,14 @@ msgstr ""
 
 #: ../../web/templates/pages/list_firewall_banlist.php:100
 msgid "There are currently no banned IP addresses."
-msgstr "বর্তমানে কোনো নিষিদ্ধ আইপি ঠিকানা নেই।"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_banlist.php:102
 #, php-format
 msgid "%d banned IP address"
 msgid_plural "%d banned IP addresses"
-msgstr[0] "%d টি নিষিদ্ধ আইপি ঠিকানা"
-msgstr[1] "%d টি নিষিদ্ধ আইপি ঠিকানা"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../../web/templates/pages/list_ip.php:37
 #: ../../web/templates/pages/list_ip.php:72
@@ -4442,7 +4442,7 @@ msgstr[1] "%d টি নিষিদ্ধ আইপি ঠিকানা"
 #: ../../web/templates/pages/list_search.php:53
 #: ../../web/templates/pages/list_search.php:161
 msgid "Owner"
-msgstr "মালিক"
+msgstr ""
 
 #: ../../web/templates/pages/list_ip.php:44
 msgid "Refresh IP Addresses"
@@ -4457,12 +4457,12 @@ msgstr ""
 #, php-format
 msgid "%d IP address"
 msgid_plural "%d IP addresses"
-msgstr[0] "%d টি আইপি ঠিকানা"
-msgstr[1] "%d টি আইপি ঠিকানা"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../../web/templates/pages/list_stats.php:6
 msgid "Overall Statistics"
-msgstr "সামগ্রিক পরিসংখ্যান"
+msgstr ""
 
 #: ../../web/templates/pages/list_stats.php:14
 msgid "Show Per User"
@@ -4470,38 +4470,38 @@ msgstr ""
 
 #: ../../web/templates/pages/list_stats.php:161
 msgid "SSL Domains"
-msgstr "SSL ডোমেইন"
+msgstr ""
 
 #: ../../web/templates/pages/list_stats.php:235
 #, php-format
 msgid "%d month"
 msgid_plural "%d months"
-msgstr[0] "%d মাস"
-msgstr[1] "%d মাস"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../../web/templates/pages/list_search.php:45
 #: ../../web/templates/pages/list_search.php:51
 #: ../../web/templates/pages/list_search.php:123
 msgid "Search Results"
-msgstr "অনুসন্ধানের ফলাফল"
+msgstr ""
 
 #: ../../web/templates/pages/list_search.php:185
 #, php-format
 msgid "%d object"
 msgid_plural "%d objects"
-msgstr[0] "%d টি অবজেক্ট"
-msgstr[1] "%d টি অবজেক্ট"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../../web/templates/pages/list_dns.php:25
 msgid "Expire"
-msgstr "মেয়াদ উত্তীর্ণ"
+msgstr ""
 
 #: ../../web/templates/pages/list_dns.php:34
 #: ../../web/templates/pages/list_dns.php:80
 #: ../../web/templates/pages/list_dns.php:216
 #: ../../web/templates/includes/panel.php:311
 msgid "Records"
-msgstr "রেকর্ড"
+msgstr ""
 
 #: ../../web/templates/pages/list_dns.php:84
 #: ../../web/templates/pages/list_dns.php:238
@@ -4512,27 +4512,27 @@ msgstr ""
 #, php-format
 msgid "%d DNS zone"
 msgid_plural "%d DNS zones"
-msgstr[0] "%d টি ডিএনএস জোন"
-msgstr[1] "%d টি ডিএনএস জোন"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../../web/templates/pages/list_weblog.php:51
 #: ../../web/templates/pages/list_weblog.php:53
 msgid "Error Log"
-msgstr "ত্রুটি লগ"
+msgstr ""
 
 #: ../../web/templates/pages/list_weblog.php:97
 #, php-format
 msgid "Last 70 lines of %s.%s.log"
-msgstr "%s.%s.log-এর শেষ ৭০টি লাইন"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:29
 msgid "Logged in as"
-msgstr "হিসাবে লগ ইন করা হয়েছে"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:67
 #: ../../web/templates/includes/panel.php:75
 msgid "Notifications"
-msgstr "বিজ্ঞপ্তি"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:86
 msgid "Loading..."
@@ -4545,36 +4545,36 @@ msgstr ""
 
 #: ../../web/templates/includes/panel.php:109
 msgid "Delete notification"
-msgstr "বিজ্ঞপ্তি মুছুন"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:132
 #: ../../web/templates/includes/js.php:10
 msgid "Delete all notifications"
-msgstr "সমস্ত বিজ্ঞপ্তি মুছুন"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:160
 #: ../../web/templates/includes/panel.php:162
 msgid "File manager"
-msgstr "নথি ব্যবস্থাপক"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:174
 #: ../../web/templates/includes/panel.php:176
 msgid "Server settings"
-msgstr "সার্ভার সেটিংস"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:213
 #: ../../web/templates/includes/panel.php:215
 msgid "Help"
-msgstr "সাহায্য"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:249
 msgid "Collapse main menu"
-msgstr "প্রধান মেনু সঙ্কুচিত করুন"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:249
 #: ../../web/templates/includes/panel.php:252
 msgid "Expand main menu"
-msgstr "প্রধান মেনু প্রসারিত করুন"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:267
 #: ../../web/templates/includes/panel.php:274
@@ -4584,7 +4584,7 @@ msgstr "প্রধান মেনু প্রসারিত করুন"
 #: ../../web/templates/includes/panel.php:342
 #: ../../web/templates/includes/panel.php:358
 msgid "Suspended"
-msgstr "স্থগিত"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:268
 msgid "USER"
@@ -4597,7 +4597,7 @@ msgstr ""
 #: ../../web/templates/includes/panel.php:358
 #: ../../web/templates/includes/panel.php:374
 msgid "Limit"
-msgstr "লিমিট"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:308
 msgid "Zones"
@@ -4625,25 +4625,25 @@ msgstr ""
 
 #: ../../web/login/index.php:138
 msgid "Account has been suspended"
-msgstr "অ্যাকাউন্ট স্থগিত করা হয়েছে"
+msgstr ""
 
 #: ../../web/login/index.php:140
 msgid "Unsupported hash method"
-msgstr "অসমর্থিত হ্যাশ পদ্ধতি"
+msgstr ""
 
 #: ../../web/login/index.php:142 ../../web/login/index.php:199
 #: ../../web/login/index.php:222 ../../web/login/index.php:246
 msgid "Invalid username or password"
-msgstr "অবৈধ ব্যবহারকারীর নাম বা পাসওয়ার্ড"
+msgstr ""
 
 #: ../../web/login/index.php:272 ../../web/login/index.php:287
 msgid "Invalid or missing 2FA token"
-msgstr "অবৈধ বা অনুপস্থিত 2FA টোকেন"
+msgstr ""
 
 #: ../../web/start/service/index.php:23
 #, php-format
 msgid "Start \"%s\" failed"
-msgstr "\"%s\" শুরু করতে ব্যর্থ হয়েছে৷"
+msgstr ""
 
 #: ../../web/schedule/backup/index.php:12
 msgid "Task has been added to the queue. You will receive an email notification when your backup is ready for download."
@@ -4676,23 +4676,23 @@ msgstr ""
 
 #: ../../bin/v-list-sys-services:161
 msgid "web server"
-msgstr "ওয়েব সার্ভার"
+msgstr ""
 
 #: ../../bin/v-list-sys-services:172
 msgid "backend server"
-msgstr "ব্যাকএন্ড সার্ভার"
+msgstr ""
 
 #: ../../bin/v-list-sys-services:180
 msgid "reverse proxy"
-msgstr "রিভার্স প্রক্সি"
+msgstr ""
 
 #: ../../bin/v-list-sys-services:189
 msgid "dns server"
-msgstr "dns সার্ভার"
+msgstr ""
 
 #: ../../bin/v-list-sys-services:196
 msgid "mail server"
-msgstr "মেইল সার্ভার"
+msgstr ""
 
 #: ../../bin/v-list-sys-services:203
 msgid "imap/pop3 server"
@@ -4708,15 +4708,15 @@ msgstr ""
 
 #: ../../bin/v-list-sys-services:275
 msgid "database server"
-msgstr "ডাটাবেস সার্ভার"
+msgstr ""
 
 #: ../../bin/v-list-sys-services:284
 msgid "ftp server"
-msgstr "এফটিপি সার্ভার"
+msgstr ""
 
 #: ../../bin/v-list-sys-services:291
 msgid "job scheduler"
-msgstr "কাজের সময়সূচী"
+msgstr ""
 
 #: ../../bin/v-list-sys-services:298
 msgid "ssh server"
@@ -4724,7 +4724,7 @@ msgstr ""
 
 #: ../../bin/v-list-sys-services:308
 msgid "firewall"
-msgstr "ফায়ারওয়াল"
+msgstr ""
 
 #: ../../bin/v-list-sys-services:323
 msgid "brute-force protection"
