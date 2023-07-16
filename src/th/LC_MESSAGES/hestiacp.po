@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-06 11:24+0000\n"
-"PO-Revision-Date: 2023-07-06 11:26\n"
+"PO-Revision-Date: 2023-07-16 13:01\n"
 "Last-Translator: \n"
 "Language-Team: Thai\n"
 "Language: th_TH\n"
@@ -14,8 +14,8 @@ msgstr ""
 "X-Crowdin-Project: hestiacp\n"
 "X-Crowdin-Project-ID: 587405\n"
 "X-Crowdin-Language: th\n"
-"X-Crowdin-File: hestiacp.pot\n"
-"X-Crowdin-File-ID: 3\n"
+"X-Crowdin-File: /main/hestiacp.pot\n"
+"X-Crowdin-File-ID: 13\n"
 
 #: ../../web/stop/service/index.php:24
 #, php-format
@@ -86,7 +86,7 @@ msgstr ""
 
 #: ../../web/reset/index.php:213 ../../web/reset/index.php:231
 msgid "Invalid username or code"
-msgstr "ชื่อผู้ใช้หรือรหัสไม่ถูกต้อง"
+msgstr ""
 
 #: ../../web/reset/index.php:234
 msgid "Passwords do not match"
@@ -159,7 +159,7 @@ msgstr ""
 #: ../../web/generate/ssl/index.php:67
 #, php-format
 msgid "Field \"%s\" can not be blank."
-msgstr "ช่อง \"%s\" ไม่สามารถเว้นว่างไว้"
+msgstr ""
 
 #: ../../web/edit/mail/index.php:748 ../../web/edit/web/index.php:1170
 #: ../../web/edit/user/index.php:402 ../../web/add/db/index.php:48
@@ -226,7 +226,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_server.php:458
 #: ../../web/templates/pages/edit_server.php:805
 msgid "Username"
-msgstr "ชื่อผู้ใช้"
+msgstr ""
 
 #: ../../web/edit/web/index.php:1242 ../../web/edit/web/index.php:1390
 msgid "FTP account has been created and ready to use.\n\n"
@@ -255,7 +255,7 @@ msgstr ""
 #: ../../web/templates/pages/list_firewall.php:70
 #: ../../web/templates/pages/list_firewall.php:111
 msgid "Action"
-msgstr "ดำเนินการ"
+msgstr ""
 
 #: ../../web/edit/firewall/index.php:73 ../../web/add/firewall/index.php:45
 #: ../../web/templates/pages/add_firewall.php:35
@@ -265,7 +265,7 @@ msgstr "ดำเนินการ"
 #: ../../web/templates/pages/list_firewall.php:165
 #: ../../web/templates/pages/edit_server.php:749
 msgid "Protocol"
-msgstr "โปรโตคอล"
+msgstr ""
 
 #: ../../web/edit/firewall/index.php:76 ../../web/add/firewall/index.php:48
 #: ../../web/templates/pages/edit_mail.php:184
@@ -324,7 +324,7 @@ msgstr ""
 #: ../../web/templates/pages/list_ip.php:94
 #: ../../web/templates/pages/list_dns.php:28
 msgid "IP Address"
-msgstr "ที่อยู่ IP"
+msgstr ""
 
 #: ../../web/edit/package/index.php:137 ../../web/add/user/index.php:29
 #: ../../web/add/package/index.php:23
@@ -336,34 +336,34 @@ msgstr "ที่อยู่ IP"
 #: ../../web/templates/pages/list_packages.php:54
 #: ../../web/templates/pages/list_packages.php:123
 msgid "Package"
-msgstr "แพ็กเกจ"
+msgstr ""
 
 #: ../../web/edit/package/index.php:140 ../../web/add/package/index.php:26
 #: ../../web/templates/pages/edit_package.php:100
 #: ../../web/templates/pages/add_package.php:98
 #: ../../web/templates/pages/edit_web.php:266
 msgid "Web Template"
-msgstr "ตัวแบบเว็บ"
+msgstr ""
 
 #: ../../web/edit/package/index.php:144 ../../web/add/package/index.php:30
 #: ../../web/templates/pages/edit_package.php:117
 #: ../../web/templates/pages/add_package.php:115
 #: ../../web/templates/pages/edit_web.php:303
 msgid "Backend Template"
-msgstr "ตัวเแบบ Backend"
+msgstr ""
 
 #: ../../web/edit/package/index.php:149 ../../web/add/package/index.php:38
 #: ../../web/templates/pages/edit_package.php:135
 #: ../../web/templates/pages/add_package.php:134
 #: ../../web/templates/pages/edit_web.php:333
 msgid "Proxy Template"
-msgstr "ตัวแบบ Proxy"
+msgstr ""
 
 #: ../../web/edit/package/index.php:153 ../../web/add/package/index.php:45
 #: ../../web/templates/pages/edit_package.php:161
 #: ../../web/templates/pages/add_package.php:160
 msgid "DNS Template"
-msgstr "ตัวแบบ DNS"
+msgstr ""
 
 #: ../../web/edit/package/index.php:156 ../../web/add/package/index.php:48
 #: ../../web/templates/pages/list_packages.php:57
@@ -386,7 +386,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_backup_exclusions.php:28
 #: ../../web/templates/pages/list_stats.php:145
 msgid "Web Domains"
-msgstr "โดเมนสำหรับเว็บ"
+msgstr ""
 
 #: ../../web/edit/package/index.php:162 ../../web/add/package/index.php:54
 #: ../../web/templates/pages/edit_package.php:89
@@ -397,7 +397,7 @@ msgstr "โดเมนสำหรับเว็บ"
 #: ../../web/templates/pages/add_package.php:87
 #: ../../web/templates/pages/list_stats.php:177
 msgid "Web Aliases"
-msgstr "ชื่อแทนเว็บ"
+msgstr ""
 
 #: ../../web/edit/package/index.php:165 ../../web/add/package/index.php:57
 #: ../../web/templates/pages/list_user.php:99
@@ -448,7 +448,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_backup_exclusions.php:32
 #: ../../web/templates/pages/list_stats.php:153
 msgid "Mail Domains"
-msgstr "โดเมนสำหรับเมล"
+msgstr ""
 
 #: ../../web/edit/package/index.php:174 ../../web/add/package/index.php:66
 #: ../../web/templates/pages/list_mail.php:180
@@ -463,7 +463,7 @@ msgstr "โดเมนสำหรับเมล"
 #: ../../web/templates/pages/add_package.php:264
 #: ../../web/templates/pages/list_stats.php:169
 msgid "Mail Accounts"
-msgstr "บัญชีเมล"
+msgstr ""
 
 #: ../../web/edit/package/index.php:177 ../../web/add/package/index.php:84
 #: ../../web/templates/pages/edit_mail.php:64
@@ -492,7 +492,7 @@ msgstr ""
 #: ../../web/templates/includes/panel.php:342
 #: ../../web/templates/includes/panel.php:346
 msgid "Databases"
-msgstr "ฐานข้อมูล"
+msgstr ""
 
 #: ../../web/edit/package/index.php:183 ../../web/add/package/index.php:72
 #: ../../web/templates/pages/edit_package.php:311
@@ -505,7 +505,7 @@ msgstr "ฐานข้อมูล"
 #: ../../web/templates/pages/list_cron.php:70
 #: ../../web/templates/pages/list_stats.php:201
 msgid "Cron Jobs"
-msgstr "งาน CRON"
+msgstr ""
 
 #: ../../web/edit/package/index.php:186 ../../web/add/package/index.php:75
 #: ../../web/templates/pages/list_backup.php:39
@@ -523,7 +523,7 @@ msgstr "งาน CRON"
 #: ../../web/templates/includes/panel.php:374
 #: ../../web/templates/includes/panel.php:378
 msgid "Backups"
-msgstr "สำรองข้อมูล"
+msgstr ""
 
 #: ../../web/edit/package/index.php:189 ../../web/add/package/index.php:78
 #: ../../web/templates/pages/list_mail_acc.php:43
@@ -538,7 +538,7 @@ msgstr "สำรองข้อมูล"
 #: ../../web/templates/pages/add_package.php:44
 #: ../../web/templates/pages/add_mail_acc.php:71
 msgid "Quota"
-msgstr "โควตา"
+msgstr ""
 
 #: ../../web/edit/package/index.php:192 ../../web/add/package/index.php:81
 #: ../../web/templates/pages/list_user.php:23
@@ -558,7 +558,7 @@ msgstr "โควตา"
 #: ../../web/templates/pages/list_stats.php:69
 #: ../../web/templates/includes/panel.php:42
 msgid "Bandwidth"
-msgstr "ปริมาณรับส่งข้อมูล"
+msgstr ""
 
 #: ../../web/edit/package/index.php:198 ../../web/add/package/index.php:89
 msgid "Nameserver 1"
@@ -627,7 +627,7 @@ msgstr ""
 #: ../../web/templates/pages/add_cron.php:233
 #: ../../web/templates/pages/add_cron.php:345
 msgid "Minute"
-msgstr "นาที"
+msgstr ""
 
 #: ../../web/add/cron/index.php:20 ../../web/templates/pages/edit_cron.php:38
 #: ../../web/templates/pages/edit_cron.php:134
@@ -640,7 +640,7 @@ msgstr "นาที"
 #: ../../web/templates/pages/add_cron.php:206
 #: ../../web/templates/pages/add_cron.php:318
 msgid "Hour"
-msgstr "ชั่วโมง"
+msgstr ""
 
 #: ../../web/add/cron/index.php:23 ../../web/templates/pages/edit_cron.php:42
 #: ../../web/templates/pages/edit_cron.php:284
@@ -649,14 +649,14 @@ msgstr "ชั่วโมง"
 #: ../../web/templates/pages/add_cron.php:42
 #: ../../web/templates/pages/add_cron.php:284
 msgid "Day"
-msgstr "วัน"
+msgstr ""
 
 #: ../../web/add/cron/index.php:26 ../../web/templates/pages/edit_cron.php:46
 #: ../../web/templates/pages/list_cron.php:82
 #: ../../web/templates/pages/list_cron.php:180
 #: ../../web/templates/pages/add_cron.php:46
 msgid "Month"
-msgstr "เดือน"
+msgstr ""
 
 #: ../../web/add/cron/index.php:29 ../../web/templates/pages/edit_cron.php:50
 #: ../../web/templates/pages/list_cron.php:83
@@ -672,7 +672,7 @@ msgstr ""
 #: ../../web/templates/pages/list_cron.php:116
 #: ../../web/templates/pages/add_cron.php:28
 msgid "Command"
-msgstr "คำสั่ง"
+msgstr ""
 
 #: ../../web/add/cron/index.php:80
 msgid "Cron job has been created successfully."
@@ -683,7 +683,7 @@ msgstr ""
 #: ../../web/templates/pages/add_db.php:51
 #: ../../web/templates/pages/edit_db.php:28
 msgid "Database"
-msgstr "ฐานข้อมูล"
+msgstr ""
 
 #: ../../web/add/db/index.php:23 ../../web/add/mail/index.php:222
 #: ../../web/add/user/index.php:26 ../../web/templates/pages/edit_mail.php:192
@@ -705,7 +705,7 @@ msgstr "ฐานข้อมูล"
 #: ../../web/templates/pages/edit_server.php:565
 #: ../../web/templates/pages/edit_server.php:817
 msgid "Password"
-msgstr "รหัสผ่าน"
+msgstr ""
 
 #: ../../web/add/db/index.php:26 ../../web/add/dns/index.php:226
 #: ../../web/templates/pages/list_backup.php:50
@@ -738,7 +738,7 @@ msgstr "รหัสผ่าน"
 #: ../../web/templates/pages/list_search.php:173
 #: ../../web/templates/pages/edit_dns_rec.php:39
 msgid "Type"
-msgstr "ชนิด"
+msgstr ""
 
 #: ../../web/add/db/index.php:29 ../../web/templates/pages/edit_mail.php:180
 #: ../../web/templates/pages/add_mail.php:103
@@ -797,7 +797,7 @@ msgstr ""
 #: ../../web/templates/pages/generate_ssl.php:18
 #: ../../web/templates/pages/edit_dns_rec.php:28
 msgid "Domain"
-msgstr "โดเมน"
+msgstr ""
 
 #: ../../web/add/mail/index.php:189
 #, php-format
@@ -808,7 +808,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_mail_acc.php:38
 #: ../../web/templates/pages/add_mail_acc.php:42
 msgid "Account"
-msgstr "บัญชี"
+msgstr ""
 
 #: ../../web/add/mail/index.php:508
 #, php-format
@@ -835,7 +835,7 @@ msgstr ""
 #: ../../web/templates/pages/add_dns_rec.php:33
 #: ../../web/templates/pages/edit_dns_rec.php:33
 msgid "Record"
-msgstr "รายการ"
+msgstr ""
 
 #: ../../web/add/dns/index.php:229
 #: ../../web/templates/pages/list_mail_dns.php:28
@@ -851,7 +851,7 @@ msgstr "รายการ"
 #: ../../web/templates/pages/add_dns_rec.php:58
 #: ../../web/templates/pages/edit_dns_rec.php:59
 msgid "IP or Value"
-msgstr "IP หรือ ค่า"
+msgstr ""
 
 #: ../../web/add/dns/index.php:280
 #, php-format
@@ -921,7 +921,7 @@ msgstr ""
 #: ../../web/templates/pages/login/reset_1.php:18
 #: ../../web/templates/pages/generate_ssl.php:27
 msgid "Email"
-msgstr "อีเมล"
+msgstr ""
 
 #: ../../web/add/user/index.php:35 ../../web/templates/pages/add_user.php:39
 #: ../../web/templates/pages/edit_user.php:69
@@ -1014,7 +1014,7 @@ msgstr ""
 #: ../../web/add/firewall/banlist/index.php:23
 #: ../../web/templates/pages/add_firewall_banlist.php:34
 msgid "Banlist"
-msgstr "รายชื่อที่โดนแบน"
+msgstr ""
 
 #: ../../web/add/firewall/banlist/index.php:52
 msgid "IP address has been banned successfully."
@@ -1043,7 +1043,7 @@ msgstr ""
 #: ../../web/templates/pages/add_firewall_ipset.php:49
 #: ../../web/templates/pages/generate_ssl.php:34
 msgid "Country"
-msgstr "ประเทศ"
+msgstr ""
 
 #: ../../web/generate/ssl/index.php:42
 msgid "State"
@@ -1056,7 +1056,7 @@ msgstr ""
 #: ../../web/generate/ssl/index.php:48
 #: ../../web/templates/pages/generate_ssl.php:53
 msgid "Organization"
-msgstr "องค์กร"
+msgstr ""
 
 #: ../../web/generate/ssl/index.php:130
 msgid "Certificate has been generated successfully."
@@ -1065,7 +1065,7 @@ msgstr ""
 #: ../../web/templates/footer.php:23 ../../web/templates/footer.php:59
 #: ../../web/templates/footer.php:62
 msgid "Shortcuts"
-msgstr "ทางลัด"
+msgstr ""
 
 #: ../../web/templates/footer.php:33
 msgid "Add new object"
@@ -1081,31 +1081,31 @@ msgstr ""
 
 #: ../../web/templates/footer.php:36
 msgid "Go to WEB list"
-msgstr "ไปที่รายการ เว็บ"
+msgstr ""
 
 #: ../../web/templates/footer.php:37
 msgid "Go to DNS list"
-msgstr "ไปที่รายการ DNS"
+msgstr ""
 
 #: ../../web/templates/footer.php:38
 msgid "Go to MAIL list"
-msgstr "ไปที่รายการ เมล์"
+msgstr ""
 
 #: ../../web/templates/footer.php:39
 msgid "Go to DB list"
-msgstr "ไปที่รายการ ฐานข้อมูล"
+msgstr ""
 
 #: ../../web/templates/footer.php:40
 msgid "Go to CRON list"
-msgstr "ไปที่รายการ CRON"
+msgstr ""
 
 #: ../../web/templates/footer.php:41
 msgid "Go to BACKUP list"
-msgstr "ไปที่รายการ สำรองข้อมูล"
+msgstr ""
 
 #: ../../web/templates/footer.php:44
 msgid "Focus on search"
-msgstr "มุ่งเน้นการค้นหา"
+msgstr ""
 
 #: ../../web/templates/footer.php:45
 msgid "Display / Hide shortcuts"
@@ -1113,23 +1113,23 @@ msgstr ""
 
 #: ../../web/templates/footer.php:46
 msgid "Move backward through top menu"
-msgstr "เลื่อนกลับไปที่เมนูด้านบน"
+msgstr ""
 
 #: ../../web/templates/footer.php:47
 msgid "Move forward through top menu"
-msgstr "เลื่อนไปข้างหน้าผ่านเมนูด้านบน"
+msgstr ""
 
 #: ../../web/templates/footer.php:48
 msgid "Enter focused element"
-msgstr "ใส่องค์ประกอบที่เน้น"
+msgstr ""
 
 #: ../../web/templates/footer.php:49
 msgid "Move up through elements list"
-msgstr "เลื่อนขึ้นไปผ่านรายการองค์ประกอบ"
+msgstr ""
 
 #: ../../web/templates/footer.php:50
 msgid "Move down through elements list"
-msgstr "เลื่อนลงมาผ่านรายการองค์ประกอบ"
+msgstr ""
 
 #: ../../web/templates/footer.php:68 ../../web/templates/footer.php:71
 #: ../../web/templates/pages/list_server_info.php:116
@@ -1213,7 +1213,7 @@ msgstr ""
 #: ../../web/templates/pages/list_weblog.php:35
 #: ../../web/templates/pages/edit_dns_rec.php:6
 msgid "Back"
-msgstr "กลับ"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:9
 msgid "Add IP list"
@@ -1333,7 +1333,7 @@ msgstr ""
 #: ../../web/templates/pages/list_dns.php:205
 #: ../../web/templates/pages/list_dns.php:209
 msgid "Delete"
-msgstr "ลบ"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:30
 #: ../../web/templates/pages/list_firewall.php:17
@@ -1406,7 +1406,7 @@ msgstr ""
 #: ../../web/templates/pages/list_dns.php:16
 #: ../../web/templates/pages/list_dns.php:22
 msgid "Date"
-msgstr "วันที่"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:42
 #: ../../web/templates/pages/list_firewall_ipset.php:92
@@ -1540,7 +1540,7 @@ msgstr ""
 #: ../../web/templates/pages/list_services.php:12
 #: ../../web/templates/pages/edit_server.php:135
 msgid "Updates"
-msgstr "อัพเดท"
+msgstr ""
 
 #: ../../web/templates/pages/list_updates.php:33
 #: ../../web/templates/pages/list_updates.php:54
@@ -1559,7 +1559,7 @@ msgstr ""
 #: ../../web/templates/pages/list_webapps.php:27
 #: ../../web/templates/pages/edit_server.php:139
 msgid "Version"
-msgstr "เวอร์ชั่น"
+msgstr ""
 
 #: ../../web/templates/pages/list_updates.php:36
 #: ../../web/templates/pages/list_updates.php:66
@@ -1571,12 +1571,12 @@ msgstr "เวอร์ชั่น"
 #: ../../web/templates/pages/list_search.php:50
 #: ../../web/templates/pages/list_search.php:114
 msgid "Status"
-msgstr "สถานะ"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:7
 #: ../../web/templates/pages/add_mail.php:32
 msgid "Add Mail Domain"
-msgstr "เพิ่มโดเมนสำหรับเมล"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:13
 #: ../../web/templates/pages/list_user.php:14
@@ -1615,7 +1615,7 @@ msgstr ""
 #: ../../web/templates/pages/list_mail.php:296
 #: ../../web/templates/includes/panel.php:330
 msgid "Accounts"
-msgstr "บัญชี"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:28
 #: ../../web/templates/pages/list_mail.php:78
@@ -1771,7 +1771,7 @@ msgstr ""
 #: ../../web/templates/pages/list_mail_acc.php:16
 #: ../../web/templates/pages/add_mail_acc.php:32
 msgid "Add Mail Account"
-msgstr "เพิ่มบัญชีเมล"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:251
 #: ../../web/templates/pages/list_mail.php:254
@@ -1795,7 +1795,7 @@ msgstr[0] ""
 
 #: ../../web/templates/pages/list_backup.php:6
 msgid "Create Backup"
-msgstr "สร้างข้อมูลสำรอง"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup.php:7
 #: ../../web/templates/pages/list_backup_exclusions.php:29
@@ -1970,7 +1970,7 @@ msgstr[0] ""
 #: ../../web/templates/pages/add_cron.php:11
 #: ../../web/templates/pages/edit_dns_rec.php:11
 msgid "Save"
-msgstr "บันทึก"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:44
 #: ../../web/templates/pages/add_mail.php:53
@@ -1993,7 +1993,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_mail.php:93
 #: ../../web/templates/pages/add_mail.php:92
 msgid "DKIM Support"
-msgstr "สนับสนุน DKIM"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:99
 #: ../../web/templates/pages/edit_web.php:169
@@ -2121,7 +2121,7 @@ msgstr ""
 #: ../../web/templates/pages/add_dns.php:42
 #: ../../web/templates/pages/add_db.php:42
 msgid "Add User"
-msgstr "เพิ่มผู้ใช้"
+msgstr ""
 
 #: ../../web/templates/pages/add_mail.php:43
 #: ../../web/templates/pages/add_web.php:38
@@ -2138,7 +2138,7 @@ msgstr ""
 #: ../../web/templates/pages/add_ip.php:57
 #: ../../web/templates/pages/edit_ip.php:50
 msgid "Shared"
-msgstr "แชร์"
+msgstr ""
 
 #: ../../web/templates/pages/add_ip.php:76
 #: ../../web/templates/pages/edit_ip.php:69
@@ -2162,7 +2162,7 @@ msgstr ""
 #: ../../web/templates/pages/add_web.php:27
 #: ../../web/templates/pages/list_web.php:7
 msgid "Add Web Domain"
-msgstr "เพิ่มโดเมนสำหรับเว็บ"
+msgstr ""
 
 #: ../../web/templates/pages/add_web.php:32
 msgid "a web domain"
@@ -2170,11 +2170,11 @@ msgstr ""
 
 #: ../../web/templates/pages/add_web.php:63
 msgid "DNS Support"
-msgstr "สนับสนุน DNS"
+msgstr ""
 
 #: ../../web/templates/pages/add_web.php:73
 msgid "Mail Support"
-msgstr "สนับสนุนเมล"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:25
 #: ../../web/templates/pages/list_cron.php:120
@@ -2185,30 +2185,30 @@ msgstr ""
 #: ../../web/templates/pages/edit_server.php:1078
 #: ../../web/templates/pages/add_cron.php:57
 msgid "Minutes"
-msgstr "นาที"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:58
 #: ../../web/templates/pages/add_cron.php:58
 msgid "Hourly"
-msgstr "รายชั่วโมง"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:59
 #: ../../web/templates/pages/list_rrd.php:13
 #: ../../web/templates/pages/add_cron.php:59
 msgid "Daily"
-msgstr "รายวัน"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:60
 #: ../../web/templates/pages/list_rrd.php:14
 #: ../../web/templates/pages/add_cron.php:60
 msgid "Weekly"
-msgstr "รายสัปดาห์"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:61
 #: ../../web/templates/pages/list_rrd.php:15
 #: ../../web/templates/pages/add_cron.php:61
 msgid "Monthly"
-msgstr "รายเดือน"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:70
 #: ../../web/templates/pages/edit_cron.php:93
@@ -2221,7 +2221,7 @@ msgstr "รายเดือน"
 #: ../../web/templates/pages/add_cron.php:191
 #: ../../web/templates/pages/add_cron.php:262
 msgid "Run Command"
-msgstr "รันคำสั่ง"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:72
 #: ../../web/templates/pages/add_cron.php:72
@@ -2323,37 +2323,37 @@ msgstr ""
 #: ../../web/templates/pages/edit_cron.php:196
 #: ../../web/templates/pages/add_cron.php:196
 msgid "Monday"
-msgstr "วันจันทร์"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:197
 #: ../../web/templates/pages/add_cron.php:197
 msgid "Tuesday"
-msgstr "วันอังคาร"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:198
 #: ../../web/templates/pages/add_cron.php:198
 msgid "Wednesday"
-msgstr "วันพุธ"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:199
 #: ../../web/templates/pages/add_cron.php:199
 msgid "Thursday"
-msgstr "วันพฤหัสบดี"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:200
 #: ../../web/templates/pages/add_cron.php:200
 msgid "Friday"
-msgstr "วันศุกร์"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:201
 #: ../../web/templates/pages/add_cron.php:201
 msgid "Saturday"
-msgstr "วันเสาร์"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:202
 #: ../../web/templates/pages/add_cron.php:202
 msgid "Sunday"
-msgstr "วันอาทิตย์"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:264
 #: ../../web/templates/pages/add_cron.php:264
@@ -2381,62 +2381,62 @@ msgstr ""
 #: ../../web/templates/pages/edit_cron.php:269
 #: ../../web/templates/pages/add_cron.php:269
 msgid "Jan"
-msgstr "ม.ค."
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:270
 #: ../../web/templates/pages/add_cron.php:270
 msgid "Feb"
-msgstr "ก.พ."
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:271
 #: ../../web/templates/pages/add_cron.php:271
 msgid "Mar"
-msgstr "มี.ค."
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:272
 #: ../../web/templates/pages/add_cron.php:272
 msgid "Apr"
-msgstr "เม.ย."
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:273
 #: ../../web/templates/pages/add_cron.php:273
 msgid "May"
-msgstr "พ.ค."
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:274
 #: ../../web/templates/pages/add_cron.php:274
 msgid "Jun"
-msgstr "มิ.ย."
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:275
 #: ../../web/templates/pages/add_cron.php:275
 msgid "Jul"
-msgstr "ก.ค."
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:276
 #: ../../web/templates/pages/add_cron.php:276
 msgid "Aug"
-msgstr "ส.ค."
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:277
 #: ../../web/templates/pages/add_cron.php:277
 msgid "Sep"
-msgstr "ก.ย."
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:278
 #: ../../web/templates/pages/add_cron.php:278
 msgid "Oct"
-msgstr "ต.ค."
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:279
 #: ../../web/templates/pages/add_cron.php:279
 msgid "Nov"
-msgstr "พ.ย."
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:280
 #: ../../web/templates/pages/add_cron.php:280
 msgid "Dec"
-msgstr "ธ.ค."
+msgstr ""
 
 #: ../../web/templates/pages/add_firewall.php:25
 msgid "Add Firewall Rule"
@@ -2445,12 +2445,12 @@ msgstr ""
 #: ../../web/templates/pages/add_firewall.php:30
 #: ../../web/templates/pages/edit_firewall.php:30
 msgid "DROP"
-msgstr "บล็อค"
+msgstr ""
 
 #: ../../web/templates/pages/add_firewall.php:31
 #: ../../web/templates/pages/edit_firewall.php:31
 msgid "ACCEPT"
-msgstr "ยอมรับ"
+msgstr ""
 
 #: ../../web/templates/pages/add_firewall.php:44
 #: ../../web/templates/pages/edit_firewall.php:44
@@ -2492,12 +2492,12 @@ msgstr ""
 #: ../../web/templates/pages/list_firewall_banlist.php:41
 #: ../../web/templates/pages/list_firewall_banlist.php:86
 msgid "Comment"
-msgstr "หมายเหตุ"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:9
 #: ../../web/templates/pages/list_packages.php:47
 msgid "Packages"
-msgstr "แพ็กเกจ"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:43
 msgid "Rebuild User Profile"
@@ -2707,7 +2707,7 @@ msgstr ""
 #: ../../web/templates/pages/add_dns_rec.php:74
 #: ../../web/templates/pages/edit_dns_rec.php:75
 msgid "Priority"
-msgstr "ลำดับความสำคัญ"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail_dns.php:27
 #: ../../web/templates/pages/list_mail_dns.php:44
@@ -2784,7 +2784,7 @@ msgstr ""
 #: ../../web/templates/includes/panel.php:285
 #: ../../web/templates/includes/panel.php:292
 msgid "Aliases"
-msgstr "ชื่อแทน"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail_acc.php:90
 #: ../../web/templates/pages/list_mail_acc.php:272
@@ -2873,7 +2873,7 @@ msgstr ""
 #: ../../web/templates/pages/list_server_info.php:66
 #: ../../web/templates/pages/list_stats.php:105
 msgid "Web"
-msgstr "เว็บ"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_info.php:74
 #: ../../web/templates/pages/edit_package.php:152
@@ -2886,7 +2886,7 @@ msgstr ""
 #: ../../web/templates/pages/list_server_info.php:82
 #: ../../web/templates/pages/list_stats.php:123
 msgid "Mail"
-msgstr "เมล"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_info.php:90
 #: ../../web/templates/pages/edit_package.php:285
@@ -2894,7 +2894,7 @@ msgstr "เมล"
 #: ../../web/templates/pages/add_package.php:281
 #: ../../web/templates/includes/panel.php:343
 msgid "DB"
-msgstr "ฐานข้อมูล"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_info.php:95
 #: ../../web/templates/pages/list_server_info.php:97
@@ -2915,7 +2915,7 @@ msgstr ""
 #: ../../web/templates/includes/panel.php:229
 #: ../../web/templates/includes/panel.php:231
 msgid "Log out"
-msgstr "ออกจากระบบ"
+msgstr ""
 
 #: ../../web/templates/pages/list_log.php:28
 #: ../../web/templates/pages/list_log.php:29
@@ -2944,7 +2944,7 @@ msgstr ""
 #: ../../web/templates/pages/list_log.php:122
 #: ../../web/templates/pages/edit_mail_acc.php:112
 msgid "Message"
-msgstr "ข้อความ"
+msgstr ""
 
 #: ../../web/templates/pages/list_log.php:90
 msgid "Information"
@@ -3031,7 +3031,7 @@ msgstr ""
 #: ../../web/templates/pages/add_user.php:81
 #: ../../web/templates/pages/edit_user.php:139
 msgid "Language"
-msgstr "ภาษา"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:100
 #: ../../web/templates/pages/edit_user.php:158
@@ -3041,7 +3041,7 @@ msgstr ""
 #: ../../web/templates/pages/add_user.php:102
 #: ../../web/templates/pages/edit_user.php:160
 msgid "User"
-msgstr "ผู้ใช้"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:103
 #: ../../web/templates/pages/edit_user.php:161
@@ -3063,7 +3063,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_package.php:40
 #: ../../web/templates/pages/add_package.php:39
 msgid "Package Name"
-msgstr "ชื่อแพ็กเกจ"
+msgstr ""
 
 #: ../../web/templates/pages/edit_package.php:46
 #: ../../web/templates/pages/edit_package.php:57
@@ -3105,7 +3105,7 @@ msgstr ""
 #: ../../web/templates/pages/add_package.php:69
 #: ../../web/templates/includes/panel.php:286
 msgid "WEB"
-msgstr "เว็บ"
+msgstr ""
 
 #: ../../web/templates/pages/edit_package.php:89
 #: ../../web/templates/pages/edit_package.php:189
@@ -3114,7 +3114,7 @@ msgstr "เว็บ"
 #: ../../web/templates/pages/add_package.php:185
 #: ../../web/templates/pages/add_package.php:264
 msgid "per domain"
-msgstr "ต่อโดเมน"
+msgstr ""
 
 #: ../../web/templates/pages/edit_package.php:199
 #: ../../web/templates/pages/add_dns.php:109
@@ -3134,7 +3134,7 @@ msgstr ""
 #: ../../web/templates/pages/add_package.php:246
 #: ../../web/templates/includes/panel.php:324
 msgid "MAIL"
-msgstr "เมล"
+msgstr ""
 
 #: ../../web/templates/pages/edit_package.php:279
 #: ../../web/templates/pages/add_package.php:275
@@ -3146,7 +3146,7 @@ msgstr ""
 #: ../../web/templates/pages/list_packages.php:175
 #: ../../web/templates/pages/add_package.php:316
 msgid "SSH Access"
-msgstr "การเข้าใช้ SSH"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:82
 #: ../../web/templates/pages/add_mail_acc.php:82
@@ -3161,16 +3161,16 @@ msgstr ""
 #: ../../web/templates/pages/edit_mail_acc.php:95
 #: ../../web/templates/pages/add_mail_acc.php:101
 msgid "Do not store forwarded mail"
-msgstr "ไม่เก็บเมลที่ส่งต่อแล้วไว้"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:100
 #: ../../web/templates/pages/add_mail_acc.php:88
 msgid "Forward to"
-msgstr "ส่งต่อไปยัง"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:100
 msgid "one or more email addresses"
-msgstr "อย่างน้อย 1 ที่อยู่อีเมล์"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:118
 #: ../../web/templates/pages/add_mail_acc.php:106
@@ -3216,7 +3216,7 @@ msgstr ""
 #: ../../web/templates/pages/add_mail_acc.php:164
 #: ../../web/templates/pages/add_mail_acc.php:183
 msgid "Normal password"
-msgstr "รหัสผ่านธรรมดา"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:161
 #: ../../web/templates/pages/edit_mail_acc.php:180
@@ -3225,7 +3225,7 @@ msgstr "รหัสผ่านธรรมดา"
 #: ../../web/templates/pages/add_mail_acc.php:175
 #: ../../web/templates/pages/add_mail_acc.php:194
 msgid "No encryption"
-msgstr "ไม่มีการเข้ารหัส"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:165
 #: ../../web/templates/pages/add_mail_acc.php:160
@@ -3241,7 +3241,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_server_httpd.php:9
 #: ../../web/templates/pages/list_services.php:6
 msgid "Configure"
-msgstr "ตั้งค่า"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server_nginx.php:73
 #: ../../web/templates/pages/edit_user.php:210
@@ -3265,7 +3265,7 @@ msgstr ""
 #: ../../web/templates/pages/list_key.php:14
 #: ../../web/templates/pages/add_key.php:31
 msgid "Add SSH Key"
-msgstr "Add SSH key"
+msgstr ""
 
 #: ../../web/templates/pages/list_key.php:24
 msgid "SSH Keys"
@@ -3326,7 +3326,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_user.php:168
 #: ../../web/templates/pages/edit_server.php:86
 msgid "Theme"
-msgstr "ลักษณะ"
+msgstr ""
 
 #: ../../web/templates/pages/edit_user.php:186
 msgid "Default List Sort Order"
@@ -3338,11 +3338,11 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_user.php:249
 msgid "Default Name Servers"
-msgstr "Name Servers เริ่มต้น"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall.php:9
 msgid "Add Rule"
-msgstr "เพิ่มกฎ"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall.php:13
 #: ../../web/templates/pages/list_firewall_banlist.php:30
@@ -3405,7 +3405,7 @@ msgstr[0] ""
 
 #: ../../web/templates/pages/list_backup_detail.php:6
 msgid "Restore All"
-msgstr "คืนค่าทั้งหมด"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup_detail.php:36
 msgid "Backup Details"
@@ -3472,7 +3472,7 @@ msgstr ""
 #: ../../web/templates/pages/list_dns_public.php:7
 #: ../../web/templates/pages/list_dns.php:7
 msgid "Add DNS Domain"
-msgstr "เพิ่มโดเมนสำหรับ DNS"
+msgstr ""
 
 #: ../../web/templates/pages/list_dns_public.php:29
 #: ../../web/templates/pages/list_dns.php:170
@@ -3521,7 +3521,7 @@ msgstr ""
 #: ../../web/templates/pages/list_dns.php:81
 #: ../../web/templates/pages/list_dns.php:224
 msgid "Template"
-msgstr "ตัวแบบ"
+msgstr ""
 
 #: ../../web/templates/pages/add_dns.php:95
 #: ../../web/templates/pages/edit_dns.php:71
@@ -3533,17 +3533,17 @@ msgstr ""
 #: ../../web/templates/pages/list_dns.php:85
 #: ../../web/templates/pages/list_dns.php:242
 msgid "Expiration Date"
-msgstr "วันหมดอายุ"
+msgstr ""
 
 #: ../../web/templates/pages/add_dns.php:101
 #: ../../web/templates/pages/edit_dns.php:77
 msgid "YYYY-MM-DD"
-msgstr "ปี-เดือน-วัน"
+msgstr ""
 
 #: ../../web/templates/pages/add_db.php:32
 #: ../../web/templates/pages/list_db.php:20
 msgid "Add Database"
-msgstr "เพิ่มฐานข้อมูล"
+msgstr ""
 
 #: ../../web/templates/pages/add_db.php:37
 msgid "a database"
@@ -3636,7 +3636,7 @@ msgstr ""
 
 #: ../../web/templates/pages/list_rrd.php:16
 msgid "Yearly"
-msgstr "รายปี"
+msgstr ""
 
 #: ../../web/templates/pages/list_rrd.php:17
 msgid "Biennially"
@@ -3649,7 +3649,7 @@ msgstr ""
 #: ../../web/templates/pages/list_packages.php:9
 #: ../../web/templates/pages/add_package.php:36
 msgid "Add Package"
-msgstr "เพิ่มแพ็กเกจ"
+msgstr ""
 
 #: ../../web/templates/pages/list_packages.php:150
 #: ../../web/templates/pages/list_packages.php:153
@@ -3698,17 +3698,17 @@ msgstr ""
 
 #: ../../web/templates/pages/list_services.php:71
 msgid "Operating System"
-msgstr "ระบบปฏิบัติการ"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:77
 msgid "Load Average"
-msgstr "โหลดเฉลี่ย"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:83
 #: ../../web/templates/pages/list_services.php:102
 #: ../../web/templates/pages/list_services.php:196
 msgid "Uptime"
-msgstr "ระบบทำงานมาแล้ว"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:92
 msgid "Services"
@@ -3722,7 +3722,7 @@ msgstr ""
 #: ../../web/templates/pages/list_services.php:104
 #: ../../web/templates/pages/list_services.php:204
 msgid "Memory"
-msgstr "หน่วยความจำ"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:150
 #: ../../web/templates/pages/list_services.php:160
@@ -3749,7 +3749,7 @@ msgstr ""
 #: ../../web/templates/pages/list_cron.php:7
 #: ../../web/templates/pages/add_cron.php:25
 msgid "Add Cron Job"
-msgstr "เพิ่มงาน CRON"
+msgstr ""
 
 #: ../../web/templates/pages/list_cron.php:11
 #: ../../web/templates/pages/list_cron.php:42
@@ -3824,11 +3824,11 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:81
 msgid "Web Statistics"
-msgstr "สถิติของเว็บไซต์"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:100
 msgid "Statistics Authorization"
-msgstr "กำหนดสิทธิการเข้าดูสถิติ"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:126
 msgid "Enable domain redirection"
@@ -3879,11 +3879,11 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:327
 msgid "Proxy Support"
-msgstr "สนับสนุน Proxy"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:351
 msgid "Proxy Extensions"
-msgstr "ส่วนขยาย Proxy"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:360
 msgid "Custom document root"
@@ -3898,7 +3898,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_server.php:831
 #: ../../web/templates/pages/edit_server.php:895
 msgid "Directory"
-msgstr "ไดเร็กทอรี่"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:388
 msgid "Additional FTP account(s)"
@@ -3913,12 +3913,12 @@ msgstr ""
 #: ../../web/templates/pages/edit_web.php:426
 #: ../../web/templates/pages/edit_web.php:479
 msgid "Path"
-msgstr "เส้นทาง"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:434
 #: ../../web/templates/pages/edit_web.php:485
 msgid "Send FTP credentials to email"
-msgstr "ชื่ออีเมล์สำหรับส่งรหัสผ่าน FTP"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:443
 msgid "Add FTP account"
@@ -3928,7 +3928,7 @@ msgstr ""
 #: ../../web/templates/pages/list_dns.php:149
 #: ../../web/templates/pages/list_dns.php:152
 msgid "Add DNS Record"
-msgstr "เพิ่มรายการ DNS"
+msgstr ""
 
 #: ../../web/templates/pages/list_web.php:43
 #: ../../web/templates/pages/list_dns.php:43
@@ -3942,7 +3942,7 @@ msgstr ""
 #: ../../web/templates/includes/panel.php:204
 #: ../../web/templates/includes/panel.php:206
 msgid "Statistics"
-msgstr "สถิติ"
+msgstr ""
 
 #: ../../web/templates/pages/list_web.php:211
 #: ../../web/templates/pages/list_web.php:256
@@ -3983,7 +3983,7 @@ msgstr ""
 
 #: ../../web/templates/pages/login/login_2.php:15
 msgid "2FA Token"
-msgstr "OTP PIN"
+msgstr ""
 
 #: ../../web/templates/pages/login/login_2.php:17
 msgid "Forgot Token"
@@ -4009,11 +4009,11 @@ msgstr ""
 
 #: ../../web/templates/pages/login/reset_2.php:19
 msgid "Reset Code"
-msgstr "รหัสสำหรับรีเซ็ต"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset_2.php:24
 msgid "Confirm"
-msgstr "ยืนยัน"
+msgstr ""
 
 #: ../../web/templates/pages/login/login_a.php:29
 #: ../../web/templates/pages/login/login.php:18
@@ -4030,7 +4030,7 @@ msgstr ""
 
 #: ../../web/templates/pages/login/reset2fa.php:13
 msgid "Log in"
-msgstr "เข้าสู่ระบบ"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset2fa.php:21
 msgid "Unlock Account"
@@ -4038,28 +4038,28 @@ msgstr ""
 
 #: ../../web/templates/pages/login/reset2fa.php:31
 msgid "2FA Reset Code"
-msgstr "Account Recovery Code"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset2fa.php:36
 #: ../../web/templates/pages/login/reset_1.php:23
 msgid "Submit"
-msgstr "ส่งข้อมูล"
+msgstr ""
 
 #: ../../web/templates/pages/login/login_1.php:8
 msgid "Welcome"
-msgstr "ยินดีต้อนรับ"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset_3.php:17
 msgid "New Password"
-msgstr "รหัสผ่านใหม่"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset_3.php:21
 msgid "Confirm Password"
-msgstr "ยืนยันรหัสผ่าน"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset_3.php:26
 msgid "Reset"
-msgstr "รีเซ็ต"
+msgstr ""
 
 #: ../../web/templates/pages/generate_ssl.php:35
 msgid "ISO 3166-1 alpha-2 two-letter code"
@@ -4067,11 +4067,11 @@ msgstr ""
 
 #: ../../web/templates/pages/generate_ssl.php:41
 msgid "State / Province"
-msgstr "ถนน / แขวง"
+msgstr ""
 
 #: ../../web/templates/pages/generate_ssl.php:47
 msgid "City / Locality"
-msgstr "เมือง / ท้องถิ่น"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:12
 msgid "White Label"
@@ -4079,7 +4079,7 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:74
 msgid "Time Zone"
-msgstr "เขตเวลา"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:105
 msgid "Set as selected theme for all users"
@@ -4087,7 +4087,7 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:109
 msgid "Default Language"
-msgstr "ภาษาเริ่มต้น"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:126
 msgid "Set as default language for all users"
@@ -4095,7 +4095,7 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:146
 msgid "Release"
-msgstr "ลำดับที่"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:153
 msgid "Options"
@@ -4124,19 +4124,19 @@ msgstr ""
 #: ../../web/templates/pages/edit_server.php:214
 #: ../../web/templates/pages/edit_server.php:230
 msgid "Web Server"
-msgstr "เซิร์ฟเวอร์เว็บ"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:219
 msgid "Proxy Server"
-msgstr "เซิร์ฟเวอร์ Proxy"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:241
 msgid "Backend Server"
-msgstr "เซิร์ฟเวอร์ Backend"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:252
 msgid "Backend Pool Mode"
-msgstr "โหมด Backend Pool"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:261
 msgid "Enabled PHP Versions"
@@ -4153,7 +4153,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_server.php:321
 #: ../../web/templates/pages/edit_server.php:325
 msgid "DNS Server"
-msgstr "เซิร์ฟเวอร์ DNS"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:334
 msgid "DNS Cluster"
@@ -4174,7 +4174,7 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:495
 msgid "MySQL Support"
-msgstr "สนับสนุน MySQL"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:508
 msgid "phpMyAdmin Alias"
@@ -4200,7 +4200,7 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:608
 msgid "PostgreSQL Support"
-msgstr "สนับสนุน PostgreSQL"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:619
 msgid "phpPgAdmin Alias"
@@ -4348,7 +4348,7 @@ msgstr ""
 #: ../../web/templates/includes/panel.php:323
 #: ../../web/templates/includes/panel.php:327
 msgid "Domains"
-msgstr "โดเมน"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1343
 msgid "Enforce subdomain ownership"
@@ -4399,7 +4399,7 @@ msgstr[0] ""
 
 #: ../../web/templates/pages/list_firewall_banlist.php:9
 msgid "Ban IP Address"
-msgstr "แบนหมายเลข IP"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_banlist.php:69
 #: ../../web/templates/pages/list_ip.php:117
@@ -4423,7 +4423,7 @@ msgstr[0] ""
 #: ../../web/templates/pages/list_search.php:53
 #: ../../web/templates/pages/list_search.php:161
 msgid "Owner"
-msgstr "เจ้าของ"
+msgstr ""
 
 #: ../../web/templates/pages/list_ip.php:44
 msgid "Refresh IP Addresses"
@@ -4442,7 +4442,7 @@ msgstr[0] ""
 
 #: ../../web/templates/pages/list_stats.php:6
 msgid "Overall Statistics"
-msgstr "สถิติภาพรวม"
+msgstr ""
 
 #: ../../web/templates/pages/list_stats.php:14
 msgid "Show Per User"
@@ -4462,7 +4462,7 @@ msgstr[0] ""
 #: ../../web/templates/pages/list_search.php:51
 #: ../../web/templates/pages/list_search.php:123
 msgid "Search Results"
-msgstr "ผลลัพธ์การค้นหา"
+msgstr ""
 
 #: ../../web/templates/pages/list_search.php:185
 #, php-format
@@ -4472,14 +4472,14 @@ msgstr[0] ""
 
 #: ../../web/templates/pages/list_dns.php:25
 msgid "Expire"
-msgstr "หมดอายุ"
+msgstr ""
 
 #: ../../web/templates/pages/list_dns.php:34
 #: ../../web/templates/pages/list_dns.php:80
 #: ../../web/templates/pages/list_dns.php:216
 #: ../../web/templates/includes/panel.php:311
 msgid "Records"
-msgstr "รายการ"
+msgstr ""
 
 #: ../../web/templates/pages/list_dns.php:84
 #: ../../web/templates/pages/list_dns.php:238
@@ -4500,7 +4500,7 @@ msgstr ""
 #: ../../web/templates/pages/list_weblog.php:97
 #, php-format
 msgid "Last 70 lines of %s.%s.log"
-msgstr "70 บรรทัดสุดท้ายของ %s.%s.log"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:29
 msgid "Logged in as"
@@ -4565,7 +4565,7 @@ msgstr ""
 
 #: ../../web/templates/includes/panel.php:268
 msgid "USER"
-msgstr "ผู้ใช้"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:285
 #: ../../web/templates/includes/panel.php:304
@@ -4586,7 +4586,7 @@ msgstr ""
 
 #: ../../web/templates/includes/panel.php:375
 msgid "BACKUP"
-msgstr "สำรองข้อมูล"
+msgstr ""
 
 #: ../../web/templates/includes/js.php:11
 msgid "Are you sure you want to leave the page?"
@@ -4611,7 +4611,7 @@ msgstr ""
 #: ../../web/login/index.php:142 ../../web/login/index.php:199
 #: ../../web/login/index.php:222 ../../web/login/index.php:246
 msgid "Invalid username or password"
-msgstr "ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง"
+msgstr ""
 
 #: ../../web/login/index.php:272 ../../web/login/index.php:287
 msgid "Invalid or missing 2FA token"
