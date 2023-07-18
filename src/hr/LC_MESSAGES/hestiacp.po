@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-06 11:24+0000\n"
-"PO-Revision-Date: 2023-07-06 11:26\n"
+"PO-Revision-Date: 2023-07-18 14:20\n"
 "Last-Translator: \n"
 "Language-Team: Croatian\n"
 "Language: hr_HR\n"
@@ -4423,15 +4423,15 @@ msgstr ""
 #: ../../web/templates/pages/list_access_keys.php:97
 #, php-format
 msgid "Are you sure you want to delete access key %s?"
-msgstr ""
+msgstr "Želite li izbrisati pristupni ključ %s?"
 
 #: ../../web/templates/pages/list_access_keys.php:126
 #, php-format
 msgid "%d access key"
 msgid_plural "%d access keys"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d pristupni ključ"
+msgstr[1] "%d pristupni ključevi"
+msgstr[2] "%d pristupni ključevi"
 
 #: ../../web/templates/pages/list_firewall_banlist.php:9
 msgid "Ban IP Address"
@@ -4465,20 +4465,20 @@ msgstr "Vlasnik"
 
 #: ../../web/templates/pages/list_ip.php:44
 msgid "Refresh IP Addresses"
-msgstr ""
+msgstr "Osvježi IP adrese"
 
 #: ../../web/templates/pages/list_ip.php:59
 #: ../../web/templates/pages/list_stats.php:81
 msgid "IP Addresses"
-msgstr ""
+msgstr "IP adresa"
 
 #: ../../web/templates/pages/list_ip.php:154
 #, php-format
 msgid "%d IP address"
 msgid_plural "%d IP addresses"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d IP adresa"
+msgstr[1] "%d IP adrese"
+msgstr[2] "%d IP adresa"
 
 #: ../../web/templates/pages/list_stats.php:6
 msgid "Overall Statistics"
@@ -4486,7 +4486,7 @@ msgstr "Pogledajte svu statistiku"
 
 #: ../../web/templates/pages/list_stats.php:14
 msgid "Show Per User"
-msgstr ""
+msgstr "Prikaži po korisniku"
 
 #: ../../web/templates/pages/list_stats.php:161
 msgid "SSL Domains"
@@ -4528,7 +4528,7 @@ msgstr "Zapisi"
 #: ../../web/templates/pages/list_dns.php:84
 #: ../../web/templates/pages/list_dns.php:238
 msgid "DNSSEC"
-msgstr ""
+msgstr "DNSSEC"
 
 #: ../../web/templates/pages/list_dns.php:256
 #, php-format
@@ -4555,25 +4555,25 @@ msgstr "Prijavljeni kao"
 #: ../../web/templates/includes/panel.php:67
 #: ../../web/templates/includes/panel.php:75
 msgid "Notifications"
-msgstr ""
+msgstr "Obavijesti"
 
 #: ../../web/templates/includes/panel.php:86
 msgid "Loading..."
-msgstr ""
+msgstr "Učitavam..."
 
 #: ../../web/templates/includes/panel.php:92
 #: ../../web/templates/includes/js.php:9
 msgid "No notifications"
-msgstr ""
+msgstr "Nema obavijesti"
 
 #: ../../web/templates/includes/panel.php:109
 msgid "Delete notification"
-msgstr ""
+msgstr "Obriši obavijest"
 
 #: ../../web/templates/includes/panel.php:132
 #: ../../web/templates/includes/js.php:10
 msgid "Delete all notifications"
-msgstr ""
+msgstr "Obriši sve obavijesti"
 
 #: ../../web/templates/includes/panel.php:160
 #: ../../web/templates/includes/panel.php:162
@@ -4588,7 +4588,7 @@ msgstr ""
 #: ../../web/templates/includes/panel.php:213
 #: ../../web/templates/includes/panel.php:215
 msgid "Help"
-msgstr ""
+msgstr "Pomoć"
 
 #: ../../web/templates/includes/panel.php:249
 msgid "Collapse main menu"
@@ -4624,11 +4624,11 @@ msgstr "Ograničenje"
 
 #: ../../web/templates/includes/panel.php:308
 msgid "Zones"
-msgstr ""
+msgstr "Zone"
 
 #: ../../web/templates/includes/panel.php:359
 msgid "CRON"
-msgstr ""
+msgstr "CRON"
 
 #: ../../web/templates/includes/panel.php:375
 msgid "BACKUP"
@@ -4636,19 +4636,19 @@ msgstr "SIG. KOPIJE"
 
 #: ../../web/templates/includes/js.php:11
 msgid "Are you sure you want to leave the page?"
-msgstr ""
+msgstr "Želite li uistinu napustiti ovu web stranicu?"
 
 #: ../../web/templates/includes/js.php:13
 msgid "BLACKLIST"
-msgstr ""
+msgstr "BLACKLIST"
 
 #: ../../web/templates/includes/js.php:14
 msgid "IPVERSE"
-msgstr ""
+msgstr "IPVERSE"
 
 #: ../../web/login/index.php:138
 msgid "Account has been suspended"
-msgstr ""
+msgstr "Korisnički račun je suspendiran"
 
 #: ../../web/login/index.php:140
 msgid "Unsupported hash method"
@@ -4661,95 +4661,95 @@ msgstr "Neispravno korisničko ime ili zaporka."
 
 #: ../../web/login/index.php:272 ../../web/login/index.php:287
 msgid "Invalid or missing 2FA token"
-msgstr ""
+msgstr "Nevažeći ili nedostajući 2FA token"
 
 #: ../../web/start/service/index.php:23
 #, php-format
 msgid "Start \"%s\" failed"
-msgstr ""
+msgstr "Pokretanje \"%s\" neuspješno"
 
 #: ../../web/schedule/backup/index.php:12
 msgid "Task has been added to the queue. You will receive an email notification when your backup is ready for download."
-msgstr ""
+msgstr "Zadatak je dodan u red čekanja. Primit ćete obavijest e-poštom kada vaša sigurnosna kopija bude spremna za preuzimanje."
 
 #: ../../web/schedule/backup/index.php:22
 msgid "An existing backup task is already running, please wait for it to complete."
-msgstr ""
+msgstr "Postojeći zadatak sigurnosne kopije već je pokrenut, pričekajte da završi."
 
 #: ../../web/update/hestia/index.php:20
 #, php-format
 msgid "Error: %s update failed."
-msgstr ""
+msgstr "Greška: ažuriranje %s nije uspjelo."
 
 #: ../../web/copy/package/index.php:35
 msgid "Error: unable to copy package."
-msgstr ""
+msgstr "Greška: ne mogu kopirati paket."
 
 #: ../../bin/v-list-sys-hestia-updates:110
 msgid "Hestia core package"
-msgstr ""
+msgstr "Hestia osnovni paket"
 
 #: ../../bin/v-list-sys-hestia-updates:125
 msgid "Hestia internal php interpreter"
-msgstr ""
+msgstr "Hestia interni php interpreter"
 
 #: ../../bin/v-list-sys-hestia-updates:141
 msgid "Hestia internal web server"
-msgstr ""
+msgstr "Hestia interni web poslužitelj"
 
 #: ../../bin/v-list-sys-services:161
 msgid "web server"
-msgstr ""
+msgstr "web poslužitelj"
 
 #: ../../bin/v-list-sys-services:172
 msgid "backend server"
-msgstr ""
+msgstr "poslužitelj pozadinskog sustava"
 
 #: ../../bin/v-list-sys-services:180
 msgid "reverse proxy"
-msgstr ""
+msgstr "reverse proxy"
 
 #: ../../bin/v-list-sys-services:189
 msgid "dns server"
-msgstr ""
+msgstr "dns poslužitelj"
 
 #: ../../bin/v-list-sys-services:196
 msgid "mail server"
-msgstr ""
+msgstr "mail poslužitelj"
 
 #: ../../bin/v-list-sys-services:203
 msgid "imap/pop3 server"
-msgstr ""
+msgstr "imap/pop3 poslužitelj"
 
 #: ../../bin/v-list-sys-services:220
 msgid "email anti-virus"
-msgstr ""
+msgstr "email anti-virus"
 
 #: ../../bin/v-list-sys-services:228
 msgid "email spam filter"
-msgstr ""
+msgstr "email spam filter"
 
 #: ../../bin/v-list-sys-services:275
 msgid "database server"
-msgstr ""
+msgstr "poslužitelj baze podataka"
 
 #: ../../bin/v-list-sys-services:284
 msgid "ftp server"
-msgstr ""
+msgstr "ftp poslužitelj"
 
 #: ../../bin/v-list-sys-services:291
 msgid "job scheduler"
-msgstr ""
+msgstr "job scheduler"
 
 #: ../../bin/v-list-sys-services:298
 msgid "ssh server"
-msgstr ""
+msgstr "ssh poslužitelj"
 
 #: ../../bin/v-list-sys-services:308
 msgid "firewall"
-msgstr ""
+msgstr "vatrozid"
 
 #: ../../bin/v-list-sys-services:323
 msgid "brute-force protection"
-msgstr ""
+msgstr "Brute force zaštita"
 

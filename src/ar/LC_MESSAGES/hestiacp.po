@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-06 11:24+0000\n"
-"PO-Revision-Date: 2023-07-06 11:25\n"
+"PO-Revision-Date: 2023-07-18 14:20\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -828,7 +828,14 @@ msgid "Database has been created.\n\n"
 "Best regards,\n\n"
 "--\n"
 "{{appname}}"
-msgstr ""
+msgstr "تم إنشاء قاعدة البيانات.\n\n"
+"قاعدة البيانات: {{database}}\n"
+"اسم المستخدم: {{username}}\n"
+"كلمة المرور: {{password}}\n"
+"مدير SQL: {{dbadmin}}\n\n"
+"مع خالص تحياتي\n\n"
+"--\n"
+"{{appname}}"
 
 #: ../../web/add/db/index.php:168
 #, php-format
@@ -2003,12 +2010,12 @@ msgstr "هل أنت متأكد من أنك تريد حذف النسخة الاح
 #, php-format
 msgid "%d backup"
 msgid_plural "%d backups"
-msgstr[0] "%s نسخ احتياطية"
-msgstr[1] "نسخة احتياطية واحدة"
-msgstr[2] "%s نسخ احتياطية"
-msgstr[3] "%s نسخ احتياطية"
-msgstr[4] "%s نسخة احتياطية"
-msgstr[5] "%s نسخة احتياطية"
+msgstr[0] "%d نسخ احتياطية"
+msgstr[1] "%d نسخة احتياطية"
+msgstr[2] "%d نسخة احتياطية"
+msgstr[3] "%d نسخ احتياطية"
+msgstr[4] "%d نسخة احتياطية"
+msgstr[5] "%d نسخة احتياطية"
 
 #: ../../web/templates/pages/edit_mail.php:11
 #: ../../web/templates/pages/add_mail.php:11
@@ -2764,20 +2771,20 @@ msgstr "إخفاء الرابط إلى الوثائق"
 
 #: ../../web/templates/pages/edit_whitelabel.php:120
 msgid "Custom Logo"
-msgstr ""
+msgstr "شعار مخصص"
 
 #: ../../web/templates/pages/edit_whitelabel.php:125
 msgid "Custom logo"
-msgstr ""
+msgstr "شعار مخصص"
 
 #: ../../web/templates/pages/edit_whitelabel.php:129
 #, php-format
 msgid "Upload the files to %s"
-msgstr ""
+msgstr "قم بتحميل الملفات إلى %s"
 
 #: ../../web/templates/pages/edit_whitelabel.php:141
 msgid "Update logo"
-msgstr ""
+msgstr "تحديث الشعار"
 
 #: ../../web/templates/pages/list_mail_dns.php:26
 #: ../../web/templates/pages/list_mail_dns.php:41
@@ -3037,15 +3044,15 @@ msgstr "رسالة"
 
 #: ../../web/templates/pages/list_log.php:90
 msgid "Information"
-msgstr ""
+msgstr "معلومات"
 
 #: ../../web/templates/pages/list_log.php:94
 msgid "Warning"
-msgstr ""
+msgstr "تحذير"
 
 #: ../../web/templates/pages/list_log.php:98
 msgid "Error"
-msgstr ""
+msgstr "خطأ"
 
 #: ../../web/templates/pages/list_log.php:134
 #: ../../web/templates/pages/list_log_auth.php:106
@@ -3269,7 +3276,7 @@ msgstr "عنوان بريدي واحد أو أكثر"
 #: ../../web/templates/pages/edit_mail_acc.php:118
 #: ../../web/templates/pages/add_mail_acc.php:106
 msgid "email / hour"
-msgstr ""
+msgstr "البريد الإلكتروني / الساعة"
 
 #: ../../web/templates/pages/edit_mail_acc.php:125
 #: ../../web/templates/pages/add_mail_acc.php:120
@@ -3363,7 +3370,7 @@ msgstr "تمت إضافة مفتاح SSH"
 
 #: ../../web/templates/pages/list_key.php:24
 msgid "SSH Keys"
-msgstr ""
+msgstr "مفاتيح SSH"
 
 #: ../../web/templates/pages/list_key.php:28
 #: ../../web/templates/pages/list_key.php:41
@@ -3373,7 +3380,7 @@ msgstr "معرف بروتوكول النقل الآمنSSH"
 #: ../../web/templates/pages/list_key.php:58
 #, php-format
 msgid "Are you sure you want to delete SSH key %s?"
-msgstr "هل أنت متأكد من أنك تريد حذف مفتاح بروتوكول النقل الآمن SSH ؟"
+msgstr "هل أنت متأكد من أنك تريد حذف مفتاح بروتوكول النقل الآمن SSH %s؟"
 
 #: ../../web/templates/pages/list_key.php:81
 #, php-format
@@ -3446,11 +3453,11 @@ msgstr "إضافة قاعدة"
 #: ../../web/templates/pages/list_firewall.php:13
 #: ../../web/templates/pages/list_firewall_banlist.php:30
 msgid "Banned IP Addresses"
-msgstr ""
+msgstr "عناوين IP المحظورة"
 
 #: ../../web/templates/pages/list_firewall.php:63
 msgid "Firewall Rules"
-msgstr ""
+msgstr "قواعد جدار الحماية (Firewall )"
 
 #: ../../web/templates/pages/list_firewall.php:88
 #, php-format
@@ -3518,7 +3525,7 @@ msgstr "استرجاع الكل"
 
 #: ../../web/templates/pages/list_backup_detail.php:36
 msgid "Backup Details"
-msgstr ""
+msgstr "تفاصيل النسخ الاحتياطي"
 
 #: ../../web/templates/pages/list_backup_detail.php:44
 #: ../../web/templates/pages/list_backup_detail.php:68
@@ -3731,7 +3738,7 @@ msgstr "تحرير قاعدة البيانات"
 #: ../../web/templates/pages/list_db.php:200
 #: ../../web/templates/pages/list_db.php:203
 msgid "Download Database"
-msgstr ""
+msgstr "تحميل قاعدة البيانات"
 
 #: ../../web/templates/pages/list_db.php:224
 #, php-format
@@ -3759,11 +3766,11 @@ msgstr "سنوي"
 
 #: ../../web/templates/pages/list_rrd.php:17
 msgid "Biennially"
-msgstr ""
+msgstr "كل سنتين"
 
 #: ../../web/templates/pages/list_rrd.php:18
 msgid "Triennially"
-msgstr ""
+msgstr "كل ثلاث سنوات"
 
 #: ../../web/templates/pages/list_packages.php:9
 #: ../../web/templates/pages/add_package.php:36
@@ -3836,7 +3843,7 @@ msgstr "وقت التشغيل"
 
 #: ../../web/templates/pages/list_services.php:92
 msgid "Services"
-msgstr ""
+msgstr "خدمات"
 
 #: ../../web/templates/pages/list_services.php:99
 #: ../../web/templates/pages/list_services.php:148
@@ -3887,16 +3894,16 @@ msgstr "تمكين الإشعارات"
 
 #: ../../web/templates/pages/list_cron.php:96
 msgid "Are you sure you want to unsuspend this cron job?"
-msgstr ""
+msgstr "هل أنت متأكد من أنك تريد إلغاء تعليق وظيفة cron هذه؟"
 
 #: ../../web/templates/pages/list_cron.php:103
 msgid "Are you sure you want to suspend this cron job?"
-msgstr ""
+msgstr "هل أنت متأكد من أنك تريد تعليق وظيفة كرون هذه؟"
 
 #: ../../web/templates/pages/list_cron.php:158
 #, php-format
 msgid "Are you sure you want to delete this cron job?"
-msgstr ""
+msgstr "هل أنت متأكد من أنك تريد حذف وظيفة cron هذه؟"
 
 #: ../../web/templates/pages/list_cron.php:196
 #, php-format
@@ -4117,7 +4124,7 @@ msgstr "المصادقة الثنائية"
 
 #: ../../web/templates/pages/login/login_2.php:15
 msgid "2FA Token"
-msgstr "PIN OTP"
+msgstr "رمز المصادقة الثنائية (2FA)"
 
 #: ../../web/templates/pages/login/login_2.php:17
 msgid "Forgot Token"
@@ -4462,7 +4469,7 @@ msgstr "معاينه"
 
 #: ../../web/templates/pages/edit_server.php:1289
 msgid "Allow suspended users to create new backups"
-msgstr ""
+msgstr "السماح للمستخدمين المعلقين بإنشاء نسخ احتياطية جديدة"
 
 #: ../../web/templates/pages/edit_server.php:1306
 msgid "Sync Error document templates on user rebuild"
@@ -4571,12 +4578,12 @@ msgstr "مالك"
 
 #: ../../web/templates/pages/list_ip.php:44
 msgid "Refresh IP Addresses"
-msgstr ""
+msgstr "تحديث عناوين IP"
 
 #: ../../web/templates/pages/list_ip.php:59
 #: ../../web/templates/pages/list_stats.php:81
 msgid "IP Addresses"
-msgstr ""
+msgstr "عناوين IP"
 
 #: ../../web/templates/pages/list_ip.php:154
 #, php-format
@@ -4677,7 +4684,7 @@ msgstr "إشعارات"
 
 #: ../../web/templates/includes/panel.php:86
 msgid "Loading..."
-msgstr ""
+msgstr "جاري التحميل..."
 
 #: ../../web/templates/includes/panel.php:92
 #: ../../web/templates/includes/js.php:9
@@ -4706,7 +4713,7 @@ msgstr "إعدادات الخادم"
 #: ../../web/templates/includes/panel.php:213
 #: ../../web/templates/includes/panel.php:215
 msgid "Help"
-msgstr ""
+msgstr "مساعدة"
 
 #: ../../web/templates/includes/panel.php:249
 msgid "Collapse main menu"
@@ -4758,7 +4765,7 @@ msgstr "هل أنت متأكد أنك تريد مغادرة الصفحة؟"
 
 #: ../../web/templates/includes/js.php:13
 msgid "BLACKLIST"
-msgstr ""
+msgstr "القائمة السوداء"
 
 #: ../../web/templates/includes/js.php:14
 msgid "IPVERSE"
@@ -4792,7 +4799,7 @@ msgstr "تمت إضافة المهمة إلى قائمة الانتظار. ست�
 
 #: ../../web/schedule/backup/index.php:22
 msgid "An existing backup task is already running, please wait for it to complete."
-msgstr ""
+msgstr "مهمة النسخ الاحتياطي الحالية قيد التشغيل بالفعل ، يرجى الانتظار حتى تكتمل."
 
 #: ../../web/update/hestia/index.php:20
 #, php-format
