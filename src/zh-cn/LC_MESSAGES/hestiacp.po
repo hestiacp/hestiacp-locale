@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-06 11:24+0000\n"
-"PO-Revision-Date: 2023-07-18 14:20\n"
+"POT-Creation-Date: 2023-07-30 05:47+0000\n"
+"PO-Revision-Date: 2023-07-30 05:51\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -22,29 +22,29 @@ msgstr ""
 msgid "Stop \"%s\" failed"
 msgstr "停止 \"%s\" 失败"
 
-#: ../../web/inc/main.php:166 ../../web/inc/main.php:175
-#: ../../web/generate/ssl/index.php:121
+#: ../../web/inc/main.php:169 ../../web/inc/main.php:178
+#: ../../web/generate/ssl/index.php:123
 #, php-format
 msgid "Error code: %s"
 msgstr "错误代码：%s"
 
-#: ../../web/inc/main.php:253 ../../web/inc/main.php:264
+#: ../../web/inc/main.php:256 ../../web/inc/main.php:267
 msgid "You are logged out, please log in again."
 msgstr "您已注销，请重新登录。"
 
-#: ../../web/inc/main.php:326
+#: ../../web/inc/main.php:329
 #, php-format
 msgid "%d day"
 msgid_plural "%d days"
 msgstr[0] "%d 天"
 
-#: ../../web/inc/main.php:329
+#: ../../web/inc/main.php:332
 #, php-format
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "%d 小时"
 
-#: ../../web/inc/main.php:333
+#: ../../web/inc/main.php:336
 #, php-format
 msgid "%d minute"
 msgid_plural "%d minutes"
@@ -66,7 +66,7 @@ msgstr "您好 {{name}},\n\n"
 "或者，您可以访问 https://{{hostname}}/reset/？ ction=code&user={{user}} 并输入以下重置代码：\n"
 "{{resetcode}}\n\n"
 "如果您没有请求重置密码， 请忽略此消息并接受我们的道歉。\n\n"
-"最好的问候，\n\n"
+"此致\n\n"
 "--\n"
 "{{appname}}"
 
@@ -106,7 +106,7 @@ msgstr "已安排下载远程备份文件。"
 
 #: ../../web/download/backup/index.php:24 ../../web/unsuspend/mail/index.php:18
 #: ../../web/unsuspend/mail/index.php:45 ../../web/unsuspend/dns/index.php:18
-#: ../../web/unsuspend/dns/index.php:44 ../../web/bulk/restore/index.php:69
+#: ../../web/unsuspend/dns/index.php:44 ../../web/bulk/restore/index.php:78
 #: ../../web/schedule/restore/index.php:70
 #: ../../web/schedule/backup/index.php:17
 msgid "Error: Hestia did not return any output."
@@ -115,10 +115,10 @@ msgstr "错误: Hestia 没有返回任何输出"
 #: ../../web/edit/cron/index.php:89 ../../web/edit/db/index.php:100
 #: ../../web/edit/mail/index.php:736 ../../web/edit/mail/index.php:1166
 #: ../../web/edit/dns/index.php:234 ../../web/edit/dns/index.php:325
-#: ../../web/edit/web/index.php:1600 ../../web/edit/ip/index.php:97
-#: ../../web/edit/user/index.php:544
-#: ../../web/edit/backup/exclusions/index.php:132
-#: ../../web/edit/firewall/index.php:134 ../../web/edit/package/index.php:323
+#: ../../web/edit/web/index.php:1603 ../../web/edit/ip/index.php:97
+#: ../../web/edit/user/index.php:558
+#: ../../web/edit/backup/exclusions/index.php:124
+#: ../../web/edit/firewall/index.php:134 ../../web/edit/package/index.php:327
 #: ../../web/edit/server/spamassassin/index.php:44
 #: ../../web/edit/server/nginx/index.php:44
 #: ../../web/edit/server/clamav-daemon/index.php:44
@@ -129,7 +129,7 @@ msgstr "错误: Hestia 没有返回任何输出"
 #: ../../web/edit/server/spamd/index.php:44
 #: ../../web/edit/server/bind9/index.php:61
 #: ../../web/edit/server/exim4/index.php:44
-#: ../../web/edit/server/index.php:1714 ../../web/edit/server/index.php:1718
+#: ../../web/edit/server/index.php:1726 ../../web/edit/server/index.php:1730
 #: ../../web/edit/server/php/index.php:44
 #: ../../web/edit/server/ssh/index.php:44
 #: ../../web/edit/server/mysqld/index.php:44
@@ -145,15 +145,15 @@ msgstr "错误: Hestia 没有返回任何输出"
 msgid "Changes have been saved."
 msgstr "更改已保存。"
 
-#: ../../web/edit/db/index.php:74 ../../web/edit/mail/index.php:775
+#: ../../web/edit/db/index.php:74 ../../web/edit/mail/index.php:774
 #: ../../web/edit/user/index.php:159 ../../web/add/db/index.php:55
 #: ../../web/add/mail/index.php:246 ../../web/add/user/index.php:56
 msgid "Password does not match the minimum requirements."
 msgstr "密码不符合最低要求。"
 
-#: ../../web/edit/mail/index.php:598 ../../web/edit/web/index.php:860
-#: ../../web/edit/web/index.php:1081 ../../web/edit/web/index.php:1121
-#: ../../web/edit/web/index.php:1183 ../../web/edit/web/index.php:1337
+#: ../../web/edit/mail/index.php:598 ../../web/edit/web/index.php:863
+#: ../../web/edit/web/index.php:1084 ../../web/edit/web/index.php:1124
+#: ../../web/edit/web/index.php:1186 ../../web/edit/web/index.php:1340
 #: ../../web/edit/firewall/index.php:89 ../../web/edit/package/index.php:213
 #: ../../web/add/cron/index.php:42 ../../web/add/db/index.php:42
 #: ../../web/add/mail/index.php:49 ../../web/add/mail/index.php:233
@@ -163,14 +163,14 @@ msgstr "密码不符合最低要求。"
 #: ../../web/add/firewall/ipset/index.php:43
 #: ../../web/add/firewall/index.php:61
 #: ../../web/add/firewall/banlist/index.php:36
-#: ../../web/add/package/index.php:103 ../../web/add/key/index.php:28
-#: ../../web/generate/ssl/index.php:67
+#: ../../web/add/package/index.php:103 ../../web/add/key/index.php:27
+#: ../../web/generate/ssl/index.php:69
 #, php-format
 msgid "Field \"%s\" can not be blank."
 msgstr "\"%s\" 不能为空"
 
-#: ../../web/edit/mail/index.php:748 ../../web/edit/web/index.php:1170
-#: ../../web/edit/user/index.php:402 ../../web/add/db/index.php:48
+#: ../../web/edit/mail/index.php:748 ../../web/edit/web/index.php:1173
+#: ../../web/edit/user/index.php:411 ../../web/add/db/index.php:48
 #: ../../web/add/mail/index.php:239 ../../web/add/user/index.php:50
 msgid "Please enter a valid email address."
 msgstr "请输入一个有效的电子邮件地址。"
@@ -221,7 +221,7 @@ msgstr "邮件帐户已创建。\n\n"
 "SSL/TLS：端口 465\n"
 "STARTLS：端口587\n"
 "无加密：端口25\n\n"
-"致以最诚挚的问候，\n\n"
+"此致\n\n"
 "--\n"
 "{{appname}}"
 
@@ -234,14 +234,14 @@ msgstr "电子邮件凭据： %s@%s"
 msgid "Error: unknown record ID."
 msgstr "错误：未知记录 ID。"
 
-#: ../../web/edit/web/index.php:1071 ../../web/edit/web/index.php:1111
-#: ../../web/edit/web/index.php:1327 ../../web/add/db/index.php:20
+#: ../../web/edit/web/index.php:1074 ../../web/edit/web/index.php:1114
+#: ../../web/edit/web/index.php:1330 ../../web/add/db/index.php:20
 #: ../../web/add/user/index.php:23 ../../web/templates/pages/edit_mail.php:188
-#: ../../web/templates/pages/add_mail.php:111
+#: ../../web/templates/pages/add_mail.php:113
 #: ../../web/templates/pages/add_user.php:35
 #: ../../web/templates/pages/edit_mail_acc.php:128
 #: ../../web/templates/pages/edit_user.php:64
-#: ../../web/templates/pages/add_db.php:69
+#: ../../web/templates/pages/add_db.php:71
 #: ../../web/templates/pages/list_db.php:65
 #: ../../web/templates/pages/list_db.php:113
 #: ../../web/templates/pages/list_db.php:247
@@ -259,7 +259,7 @@ msgstr "错误：未知记录 ID。"
 msgid "Username"
 msgstr "用户名称"
 
-#: ../../web/edit/web/index.php:1242 ../../web/edit/web/index.php:1390
+#: ../../web/edit/web/index.php:1245 ../../web/edit/web/index.php:1393
 msgid "FTP account has been created and ready to use.\n\n"
 "Hostname: {{domain}}\n"
 "Username: {{username}}\n"
@@ -271,16 +271,16 @@ msgstr "FTP 帐户已创建并可供使用。\n\n"
 "主机名： {{domain}}\n"
 "用户名： {{username}}\n"
 "密码：{{password}}\n\n"
-"此致敬意\n\n"
+"此致\n\n"
 "--\n"
 "{{appname}}"
 
-#: ../../web/edit/web/index.php:1259 ../../web/edit/web/index.php:1407
+#: ../../web/edit/web/index.php:1262 ../../web/edit/web/index.php:1410
 #, php-format
 msgid "FTP Account Credentials: %s"
 msgstr "FTP 帐户凭据: %s"
 
-#: ../../web/edit/user/index.php:418
+#: ../../web/edit/user/index.php:427
 msgid "Please enter a valid contact name."
 msgstr "请输入有效的联系人姓名。"
 
@@ -306,7 +306,7 @@ msgstr "协议"
 
 #: ../../web/edit/firewall/index.php:76 ../../web/add/firewall/index.php:48
 #: ../../web/templates/pages/edit_mail.php:184
-#: ../../web/templates/pages/add_mail.php:107
+#: ../../web/templates/pages/add_mail.php:109
 #: ../../web/templates/pages/add_firewall.php:44
 #: ../../web/templates/pages/edit_firewall.php:44
 #: ../../web/templates/pages/edit_mail_acc.php:154
@@ -346,7 +346,7 @@ msgstr "端口"
 #: ../../web/templates/pages/list_firewall.php:75
 #: ../../web/templates/pages/list_firewall.php:173
 #: ../../web/templates/pages/add_firewall_banlist.php:29
-#: ../../web/templates/pages/add_dns.php:52
+#: ../../web/templates/pages/add_dns.php:54
 #: ../../web/templates/pages/list_log_auth.php:49
 #: ../../web/templates/pages/list_log_auth.php:90
 #: ../../web/templates/pages/edit_dns.php:33
@@ -526,8 +526,8 @@ msgstr "速率限制"
 #: ../../web/templates/pages/edit_backup_exclusions.php:36
 #: ../../web/templates/pages/list_stats.php:114
 #: ../../web/templates/pages/list_stats.php:185
-#: ../../web/templates/includes/panel.php:342
-#: ../../web/templates/includes/panel.php:346
+#: ../../web/templates/includes/panel.php:344
+#: ../../web/templates/includes/panel.php:348
 msgid "Databases"
 msgstr "数据库"
 
@@ -557,8 +557,8 @@ msgstr "定时任务"
 #: ../../web/templates/pages/add_package.php:65
 #: ../../web/templates/pages/edit_server.php:655
 #: ../../web/templates/pages/list_stats.php:217
-#: ../../web/templates/includes/panel.php:374
-#: ../../web/templates/includes/panel.php:378
+#: ../../web/templates/includes/panel.php:376
+#: ../../web/templates/includes/panel.php:380
 msgid "Backups"
 msgstr "数据备份"
 
@@ -610,13 +610,13 @@ msgstr "域名服务器2"
 msgid "Info (read-only mode): Crontab can only be edited via SSH."
 msgstr "信息 (只读模式)：Crontab 只能通过 SSH 编辑。"
 
-#: ../../web/edit/server/index.php:1191
+#: ../../web/edit/server/index.php:1203
 msgid "Inactive session timeout can not lower than 1 minute."
 msgstr "非活动会话超时不能低于1分钟。"
 
 #: ../../web/delete/web/cache/index.php:20
 msgid "NGINX cache has been purged successfully."
-msgstr "NGINX 缓存已成功清除。"
+msgstr "已成功清除NGINX缓存。"
 
 #: ../../web/src/app/WebApp/AppWizard.php:113
 msgid "Unable to add database! Limit reached!"
@@ -629,27 +629,27 @@ msgstr "无法添加数据库！ "
 #: ../../web/restart/service/index.php:23
 #, php-format
 msgid "Restart \"%s\" failed"
-msgstr "重新启动 \"%s\" 失败"
+msgstr "重启 \"%s\" 失败"
 
-#: ../../web/restart/system/index.php:26 ../../web/bulk/service/index.php:31
+#: ../../web/restart/system/index.php:26 ../../web/bulk/service/index.php:40
 msgid "The system is going down for reboot NOW!"
 msgstr "系统正在关闭以立即重新启动！"
 
-#: ../../web/bulk/cron/index.php:27 ../../web/bulk/cron/index.php:52
+#: ../../web/bulk/cron/index.php:36 ../../web/bulk/cron/index.php:61
 msgid "Cron job email reporting has been successfully disabled."
-msgstr "Cron 作业电子邮件报告已成功禁用。"
+msgstr "已禁用定时任务电邮报告。"
 
-#: ../../web/bulk/cron/index.php:35 ../../web/bulk/cron/index.php:60
+#: ../../web/bulk/cron/index.php:44 ../../web/bulk/cron/index.php:69
 msgid "Cron job email reporting has been successfully enabled."
-msgstr "Cron 作业电子邮件报告已成功启用。"
+msgstr "已启用定时任务的电邮报告。"
 
-#: ../../web/bulk/restore/index.php:64 ../../web/schedule/restore/index.php:65
+#: ../../web/bulk/restore/index.php:73 ../../web/schedule/restore/index.php:65
 msgid "Task has been added to the queue. You will receive an email notification when your restore has been completed."
 msgstr "任务已添加到队列。当恢复完成后，您将收到电子邮件通知。"
 
-#: ../../web/bulk/restore/index.php:73 ../../web/schedule/restore/index.php:74
+#: ../../web/bulk/restore/index.php:82 ../../web/schedule/restore/index.php:74
 msgid "An existing restoration task is already running. Please wait for it to finish before launching it again."
-msgstr "一个现有的恢复任务已在运行。请等待它完成后再重新启动。"
+msgstr "当前已存在正在运行的恢复任务，请等待它完成后再重新启动。"
 
 #: ../../web/add/cron/index.php:17 ../../web/templates/pages/edit_cron.php:34
 #: ../../web/templates/pages/edit_cron.php:102
@@ -713,23 +713,23 @@ msgstr "指令"
 
 #: ../../web/add/cron/index.php:80
 msgid "Cron job has been created successfully."
-msgstr "Cron 作业已成功创建。"
+msgstr "已成功创建定时任务。"
 
 #: ../../web/add/db/index.php:17
 #: ../../web/templates/pages/list_backup_detail.php:179
-#: ../../web/templates/pages/add_db.php:51
+#: ../../web/templates/pages/add_db.php:53
 #: ../../web/templates/pages/edit_db.php:28
 msgid "Database"
 msgstr "数据库名称"
 
 #: ../../web/add/db/index.php:23 ../../web/add/mail/index.php:222
 #: ../../web/add/user/index.php:26 ../../web/templates/pages/edit_mail.php:192
-#: ../../web/templates/pages/add_mail.php:115
+#: ../../web/templates/pages/add_mail.php:117
 #: ../../web/templates/pages/add_user.php:48
 #: ../../web/templates/pages/edit_mail_acc.php:45
 #: ../../web/templates/pages/edit_mail_acc.php:132
 #: ../../web/templates/pages/edit_user.php:84
-#: ../../web/templates/pages/add_db.php:77
+#: ../../web/templates/pages/add_db.php:79
 #: ../../web/templates/pages/edit_web.php:112
 #: ../../web/templates/pages/edit_web.php:418
 #: ../../web/templates/pages/edit_web.php:471
@@ -766,7 +766,7 @@ msgstr "密码"
 #: ../../web/templates/pages/list_backup_detail.php:178
 #: ../../web/templates/pages/list_backup_detail.php:213
 #: ../../web/templates/pages/list_backup_detail.php:251
-#: ../../web/templates/pages/add_db.php:56
+#: ../../web/templates/pages/add_db.php:58
 #: ../../web/templates/pages/list_db.php:112
 #: ../../web/templates/pages/list_db.php:243
 #: ../../web/templates/pages/add_dns_rec.php:38
@@ -778,8 +778,8 @@ msgid "Type"
 msgstr "类型"
 
 #: ../../web/add/db/index.php:29 ../../web/templates/pages/edit_mail.php:180
-#: ../../web/templates/pages/add_mail.php:103
-#: ../../web/templates/pages/add_db.php:108
+#: ../../web/templates/pages/add_mail.php:105
+#: ../../web/templates/pages/add_db.php:110
 #: ../../web/templates/pages/list_db.php:62
 #: ../../web/templates/pages/edit_db.php:65
 #: ../../web/templates/pages/edit_server.php:346
@@ -791,7 +791,7 @@ msgstr "类型"
 msgid "Host"
 msgstr "主机名称"
 
-#: ../../web/add/db/index.php:32 ../../web/templates/pages/add_db.php:120
+#: ../../web/add/db/index.php:32 ../../web/templates/pages/add_db.php:122
 #: ../../web/templates/pages/list_db.php:50
 #: ../../web/templates/pages/list_db.php:115
 #: ../../web/templates/pages/list_db.php:255
@@ -813,7 +813,7 @@ msgstr "数据库已创建。\n\n"
 "用户名： {{username}}\n"
 "密码：{{password}}\n"
 "SQL Manager： {{dbadmin}}\n\n"
-"此致敬意\n\n"
+"此致\n\n"
 "--\n"
 "{{appname}}"
 
@@ -829,11 +829,11 @@ msgstr "数据库 {%s} 创建成功。/ {打开%s｝"
 
 #: ../../web/add/mail/index.php:39 ../../web/add/mail/index.php:215
 #: ../../web/add/dns/index.php:22 ../../web/add/dns/index.php:220
-#: ../../web/add/web/index.php:17 ../../web/generate/ssl/index.php:36
+#: ../../web/add/web/index.php:17 ../../web/generate/ssl/index.php:38
 #: ../../web/templates/pages/edit_mail.php:38
-#: ../../web/templates/pages/add_mail.php:48
+#: ../../web/templates/pages/add_mail.php:50
 #: ../../web/templates/pages/add_web.php:43
-#: ../../web/templates/pages/add_dns.php:48
+#: ../../web/templates/pages/add_dns.php:50
 #: ../../web/templates/pages/edit_dns.php:28
 #: ../../web/templates/pages/edit_web.php:52
 #: ../../web/templates/pages/add_dns_rec.php:28
@@ -857,12 +857,12 @@ msgstr "账户"
 #: ../../web/add/mail/index.php:508
 #, php-format
 msgid "Mail account {%s@%s} has been created successfully."
-msgstr "邮件帐户{%s@%s} 已成功创建。"
+msgstr "已成功创建邮件帐户{%s@%s} 。"
 
 #: ../../web/add/dns/index.php:199
 #, php-format
 msgid "DNS zone {%s} has been created successfully."
-msgstr "DNS 区域 {%s} 已成功创建。"
+msgstr "已成功创建DNS域 {%s} 。"
 
 #: ../../web/add/dns/index.php:223
 #: ../../web/templates/pages/list_mail_dns.php:24
@@ -900,12 +900,12 @@ msgstr "IP或值"
 #: ../../web/add/dns/index.php:280
 #, php-format
 msgid "Record {%s.%s} has been created successfully."
-msgstr "记录 {%s.%s} 已成功创建。"
+msgstr "已成功创建记录 {%s.%s} 。"
 
 #: ../../web/add/web/index.php:128
 #, php-format
 msgid "Domain {%s} has been created successfully."
-msgstr "域名{%s} 已成功创建。"
+msgstr "已成功创建域{%s} 。"
 
 #: ../../web/add/access-key/index.php:40
 #: ../../web/templates/pages/list_access_key.php:46
@@ -916,7 +916,7 @@ msgstr "权限"
 #: ../../web/add/access-key/index.php:79
 #, php-format
 msgid "Access key {%s} has been created successfully."
-msgstr "访问密钥 {%s} 已成功创建。"
+msgstr "已成功创建访问密钥 {%s} 。"
 
 #: ../../web/add/webapp/index.php:58
 #, php-format
@@ -931,7 +931,7 @@ msgstr "缺少 %s 安装程序。"
 #: ../../web/add/webapp/index.php:91
 #, php-format
 msgid "%s installed successfully."
-msgstr "%s 安装成功。"
+msgstr "已安装成功%s 。"
 
 #: ../../web/add/ip/index.php:26 ../../web/templates/pages/add_ip.php:39
 #: ../../web/templates/pages/edit_ip.php:40
@@ -957,7 +957,7 @@ msgstr "指定用户"
 #: ../../web/add/ip/index.php:93
 #, php-format
 msgid "IP address {%s} has been created successfully."
-msgstr "IP地址{%s} 已成功创建。"
+msgstr "已成功创建IP地址{%s} 。"
 
 #: ../../web/add/user/index.php:32 ../../web/templates/pages/list_user.php:166
 #: ../../web/templates/pages/add_user.php:43
@@ -986,7 +986,7 @@ msgstr "您好 {{name}},\n\n"
 "https://{{hostname}}/login/\n\n"
 "用户名: {{user}}\n\n"
 "密码: {{password}}\n\n\n"
-"此致敬意\n\n"
+"此致\n\n"
 "--\n\n"
 "{{appname}}"
 
@@ -997,10 +997,10 @@ msgstr "您好 {{name}},\n\n"
 msgid "Welcome to %s"
 msgstr "欢迎访问 %s"
 
-#: ../../web/add/user/index.php:227
+#: ../../web/add/user/index.php:225
 #, php-format
 msgid "User {%s} has been created successfully. / {Log in as %s}"
-msgstr "用户{%s} 已成功创建。/ {以%s身份登录｝"
+msgstr "已成功创建用户{%s} 。/ {以%s身份登录｝"
 
 #: ../../web/add/firewall/ipset/index.php:23
 #: ../../web/templates/pages/list_mail.php:16
@@ -1042,76 +1042,76 @@ msgstr "数据来源"
 
 #: ../../web/add/firewall/ipset/index.php:29
 #: ../../web/templates/pages/list_firewall_ipset.php:40
-#: ../../web/templates/pages/list_firewall_ipset.php:84
+#: ../../web/templates/pages/list_firewall_ipset.php:87
 #: ../../web/templates/pages/add_firewall_ipset.php:92
 msgid "IP Version"
 msgstr "IP 版本"
 
 #: ../../web/add/firewall/ipset/index.php:32
 #: ../../web/templates/pages/list_firewall_ipset.php:39
-#: ../../web/templates/pages/list_firewall_ipset.php:76
+#: ../../web/templates/pages/list_firewall_ipset.php:79
 #: ../../web/templates/pages/add_firewall_ipset.php:99
 msgid "Auto Update"
 msgstr "自动更新"
 
 #: ../../web/add/firewall/ipset/index.php:72
 msgid "IP list has been created successfully."
-msgstr "IP列表已成功创建。"
+msgstr "已成功创建IP列表。"
 
 #: ../../web/add/firewall/index.php:97
 msgid "Rule has been created successfully."
-msgstr "规则已成功创建。"
+msgstr "已成功创建规则。"
 
 #: ../../web/add/firewall/banlist/index.php:23
 #: ../../web/templates/pages/add_firewall_banlist.php:34
 msgid "Banlist"
-msgstr "需封锁"
+msgstr "禁止访问"
 
 #: ../../web/add/firewall/banlist/index.php:52
 msgid "IP address has been banned successfully."
-msgstr "IP地址已被成功禁止。"
+msgstr "已成功禁止IP地址。"
 
-#: ../../web/add/package/index.php:202
+#: ../../web/add/package/index.php:203
 #, php-format
 msgid "Package {%s} has been created successfully."
-msgstr "包 {%s} 已成功创建。"
+msgstr "已成功创建用户方案 {%s} 。"
 
-#: ../../web/add/key/index.php:18 ../../web/templates/pages/list_key.php:30
-#: ../../web/templates/pages/list_key.php:67
+#: ../../web/add/key/index.php:17 ../../web/templates/pages/list_key.php:37
+#: ../../web/templates/pages/list_key.php:74
 #: ../../web/templates/pages/add_key.php:34
 msgid "SSH Key"
 msgstr "SSH密钥"
 
-#: ../../web/add/key/index.php:58 ../../web/add/key/index.php:61
+#: ../../web/add/key/index.php:57 ../../web/add/key/index.php:60
 msgid "SSH Key already exists."
 msgstr "SSH 密钥已经存在。"
 
-#: ../../web/add/key/index.php:74
+#: ../../web/add/key/index.php:73
 msgid "SSH Key has been created successfully."
-msgstr "SSH 密钥已成功创建。"
+msgstr "已成功创建SSH 密钥。"
 
-#: ../../web/generate/ssl/index.php:39
+#: ../../web/generate/ssl/index.php:41
 #: ../../web/templates/pages/add_firewall_ipset.php:49
 #: ../../web/templates/pages/generate_ssl.php:34
 msgid "Country"
 msgstr "国家地区"
 
-#: ../../web/generate/ssl/index.php:42
+#: ../../web/generate/ssl/index.php:44
 msgid "State"
 msgstr "州"
 
-#: ../../web/generate/ssl/index.php:45
+#: ../../web/generate/ssl/index.php:47
 msgid "City"
 msgstr "市"
 
-#: ../../web/generate/ssl/index.php:48
+#: ../../web/generate/ssl/index.php:50
 #: ../../web/templates/pages/generate_ssl.php:53
 msgid "Organization"
 msgstr "组织名称"
 
-#: ../../web/generate/ssl/index.php:130
+#: ../../web/generate/ssl/index.php:132
 msgid "Certificate has been generated successfully."
-msgstr "证书已成功生成。"
+msgstr "已成功生成证书。"
 
 #: ../../web/templates/footer.php:23 ../../web/templates/footer.php:59
 #: ../../web/templates/footer.php:62
@@ -1183,10 +1183,10 @@ msgid "Move down through elements list"
 msgstr "在当前列表向下移动光标"
 
 #: ../../web/templates/footer.php:68 ../../web/templates/footer.php:71
-#: ../../web/templates/pages/list_server_info.php:116
-#: ../../web/templates/pages/list_server_info.php:119
-#: ../../web/templates/pages/list_weblog.php:90
-#: ../../web/templates/pages/list_weblog.php:93
+#: ../../web/templates/pages/list_server_info.php:118
+#: ../../web/templates/pages/list_server_info.php:121
+#: ../../web/templates/pages/list_weblog.php:92
+#: ../../web/templates/pages/list_weblog.php:95
 msgid "Top"
 msgstr "回到顶部"
 
@@ -1209,8 +1209,8 @@ msgstr "回到顶部"
 #: ../../web/templates/pages/edit_ip.php:6
 #: ../../web/templates/pages/edit_server_service.php:6
 #: ../../web/templates/pages/list_mail_acc.php:12
-#: ../../web/templates/pages/list_server_info.php:33
-#: ../../web/templates/pages/list_server_info.php:35
+#: ../../web/templates/pages/list_server_info.php:34
+#: ../../web/templates/pages/list_server_info.php:36
 #: ../../web/templates/pages/list_log.php:7
 #: ../../web/templates/pages/list_log.php:11
 #: ../../web/templates/pages/list_log.php:16
@@ -1220,7 +1220,8 @@ msgstr "回到顶部"
 #: ../../web/templates/pages/edit_package.php:6
 #: ../../web/templates/pages/edit_mail_acc.php:6
 #: ../../web/templates/pages/edit_server_nginx.php:6
-#: ../../web/templates/pages/list_key.php:6
+#: ../../web/templates/pages/list_key.php:7
+#: ../../web/templates/pages/list_key.php:11
 #: ../../web/templates/pages/edit_user.php:6
 #: ../../web/templates/pages/edit_server_httpd.php:6
 #: ../../web/templates/pages/list_firewall.php:6
@@ -1253,15 +1254,16 @@ msgstr "回到顶部"
 #: ../../web/templates/pages/edit_server_php.php:6
 #: ../../web/templates/pages/edit_server.php:6
 #: ../../web/templates/pages/edit_backup_exclusions.php:6
-#: ../../web/templates/pages/list_access_keys.php:6
+#: ../../web/templates/pages/list_access_keys.php:7
+#: ../../web/templates/pages/list_access_keys.php:11
 #: ../../web/templates/pages/list_firewall_banlist.php:6
 #: ../../web/templates/pages/list_ip.php:6
 #: ../../web/templates/pages/edit_server_pgsql.php:6
 #: ../../web/templates/pages/edit_server_mysql.php:6
 #: ../../web/templates/pages/add_cron.php:6
 #: ../../web/templates/pages/list_search.php:6
-#: ../../web/templates/pages/list_weblog.php:33
-#: ../../web/templates/pages/list_weblog.php:35
+#: ../../web/templates/pages/list_weblog.php:34
+#: ../../web/templates/pages/list_weblog.php:36
 #: ../../web/templates/pages/edit_dns_rec.php:6
 msgid "Back"
 msgstr "返回"
@@ -1296,8 +1298,8 @@ msgstr "添加IP列表"
 #: ../../web/templates/pages/list_cron.php:48
 #: ../../web/templates/pages/list_web.php:41
 #: ../../web/templates/pages/list_web.php:49
-#: ../../web/templates/pages/list_access_keys.php:34
-#: ../../web/templates/pages/list_access_keys.php:37
+#: ../../web/templates/pages/list_access_keys.php:40
+#: ../../web/templates/pages/list_access_keys.php:43
 #: ../../web/templates/pages/list_firewall_banlist.php:16
 #: ../../web/templates/pages/list_firewall_banlist.php:19
 #: ../../web/templates/pages/list_ip.php:43
@@ -1306,12 +1308,12 @@ msgstr "添加IP列表"
 #: ../../web/templates/pages/list_dns.php:41
 #: ../../web/templates/pages/list_dns.php:49
 msgid "Apply to selected"
-msgstr "应用到所选的"
+msgstr "批量操作"
 
 #: ../../web/templates/pages/list_firewall_ipset.php:17
-#: ../../web/templates/pages/list_firewall_ipset.php:65
-#: ../../web/templates/pages/list_firewall_ipset.php:66
-#: ../../web/templates/pages/list_firewall_ipset.php:70
+#: ../../web/templates/pages/list_firewall_ipset.php:68
+#: ../../web/templates/pages/list_firewall_ipset.php:69
+#: ../../web/templates/pages/list_firewall_ipset.php:73
 #: ../../web/templates/pages/list_mail.php:44
 #: ../../web/templates/pages/list_mail.php:284
 #: ../../web/templates/pages/list_mail.php:285
@@ -1330,9 +1332,9 @@ msgstr "应用到所选的"
 #: ../../web/templates/pages/list_mail_acc.php:243
 #: ../../web/templates/pages/list_log.php:58
 #: ../../web/templates/pages/list_log.php:61
-#: ../../web/templates/pages/list_key.php:56
-#: ../../web/templates/pages/list_key.php:57
-#: ../../web/templates/pages/list_key.php:61
+#: ../../web/templates/pages/list_key.php:63
+#: ../../web/templates/pages/list_key.php:64
+#: ../../web/templates/pages/list_key.php:68
 #: ../../web/templates/pages/list_firewall.php:49
 #: ../../web/templates/pages/list_firewall.php:150
 #: ../../web/templates/pages/list_firewall.php:151
@@ -1341,12 +1343,12 @@ msgstr "应用到所选的"
 #: ../../web/templates/pages/list_dns_rec.php:142
 #: ../../web/templates/pages/list_dns_rec.php:143
 #: ../../web/templates/pages/list_dns_rec.php:147
-#: ../../web/templates/pages/add_dns.php:120
-#: ../../web/templates/pages/add_dns.php:126
-#: ../../web/templates/pages/add_dns.php:132
-#: ../../web/templates/pages/add_dns.php:138
-#: ../../web/templates/pages/add_dns.php:144
-#: ../../web/templates/pages/add_dns.php:150
+#: ../../web/templates/pages/add_dns.php:122
+#: ../../web/templates/pages/add_dns.php:128
+#: ../../web/templates/pages/add_dns.php:134
+#: ../../web/templates/pages/add_dns.php:140
+#: ../../web/templates/pages/add_dns.php:146
+#: ../../web/templates/pages/add_dns.php:152
 #: ../../web/templates/pages/list_log_auth.php:28
 #: ../../web/templates/pages/list_log_auth.php:31
 #: ../../web/templates/pages/list_db.php:78
@@ -1367,10 +1369,10 @@ msgstr "应用到所选的"
 #: ../../web/templates/pages/list_web.php:289
 #: ../../web/templates/pages/list_web.php:290
 #: ../../web/templates/pages/list_web.php:294
-#: ../../web/templates/pages/list_access_keys.php:35
-#: ../../web/templates/pages/list_access_keys.php:95
-#: ../../web/templates/pages/list_access_keys.php:96
-#: ../../web/templates/pages/list_access_keys.php:100
+#: ../../web/templates/pages/list_access_keys.php:41
+#: ../../web/templates/pages/list_access_keys.php:101
+#: ../../web/templates/pages/list_access_keys.php:102
+#: ../../web/templates/pages/list_access_keys.php:106
 #: ../../web/templates/pages/list_firewall_banlist.php:17
 #: ../../web/templates/pages/list_firewall_banlist.php:67
 #: ../../web/templates/pages/list_firewall_banlist.php:68
@@ -1404,7 +1406,7 @@ msgstr "IPset IP 列表"
 #: ../../web/templates/pages/list_services.php:97
 #: ../../web/templates/pages/list_cron.php:75
 #: ../../web/templates/pages/list_web.php:76
-#: ../../web/templates/pages/list_access_keys.php:54
+#: ../../web/templates/pages/list_access_keys.php:60
 #: ../../web/templates/pages/list_firewall_banlist.php:35
 #: ../../web/templates/pages/list_ip.php:64
 #: ../../web/templates/pages/list_dns.php:76
@@ -1412,13 +1414,13 @@ msgid "Select all"
 msgstr "全选"
 
 #: ../../web/templates/pages/list_firewall_ipset.php:37
-#: ../../web/templates/pages/list_firewall_ipset.php:56
+#: ../../web/templates/pages/list_firewall_ipset.php:59
 #: ../../web/templates/pages/add_firewall_ipset.php:71
 msgid "IP List Name"
 msgstr "IP列表名称"
 
 #: ../../web/templates/pages/list_firewall_ipset.php:41
-#: ../../web/templates/pages/list_firewall_ipset.php:88
+#: ../../web/templates/pages/list_firewall_ipset.php:91
 #: ../../web/templates/pages/list_mail.php:16
 #: ../../web/templates/pages/list_mail.php:25
 #: ../../web/templates/pages/list_backup.php:48
@@ -1442,10 +1444,10 @@ msgstr "IP列表名称"
 #: ../../web/templates/pages/list_cron.php:34
 #: ../../web/templates/pages/list_web.php:16
 #: ../../web/templates/pages/list_web.php:25
-#: ../../web/templates/pages/list_access_keys.php:17
-#: ../../web/templates/pages/list_access_keys.php:22
-#: ../../web/templates/pages/list_access_keys.php:59
-#: ../../web/templates/pages/list_access_keys.php:110
+#: ../../web/templates/pages/list_access_keys.php:23
+#: ../../web/templates/pages/list_access_keys.php:28
+#: ../../web/templates/pages/list_access_keys.php:65
+#: ../../web/templates/pages/list_access_keys.php:116
 #: ../../web/templates/pages/list_firewall_banlist.php:39
 #: ../../web/templates/pages/list_firewall_banlist.php:78
 #: ../../web/templates/pages/list_ip.php:17
@@ -1460,20 +1462,20 @@ msgid "Date"
 msgstr "日期"
 
 #: ../../web/templates/pages/list_firewall_ipset.php:42
-#: ../../web/templates/pages/list_firewall_ipset.php:92
+#: ../../web/templates/pages/list_firewall_ipset.php:95
 #: ../../web/templates/pages/list_log.php:78
 #: ../../web/templates/pages/list_log.php:112
 #: ../../web/templates/pages/list_log_auth.php:48
 #: ../../web/templates/pages/list_log_auth.php:84
-#: ../../web/templates/pages/list_access_keys.php:60
-#: ../../web/templates/pages/list_access_keys.php:114
+#: ../../web/templates/pages/list_access_keys.php:66
+#: ../../web/templates/pages/list_access_keys.php:120
 #: ../../web/templates/pages/list_firewall_banlist.php:40
 #: ../../web/templates/pages/list_firewall_banlist.php:82
 msgid "Time"
 msgstr "时间"
 
-#: ../../web/templates/pages/list_firewall_ipset.php:51
-#: ../../web/templates/pages/list_firewall_ipset.php:52
+#: ../../web/templates/pages/list_firewall_ipset.php:54
+#: ../../web/templates/pages/list_firewall_ipset.php:55
 #: ../../web/templates/pages/list_mail.php:174
 #: ../../web/templates/pages/list_mail.php:175
 #: ../../web/templates/pages/list_backup.php:75
@@ -1502,8 +1504,8 @@ msgstr "时间"
 #: ../../web/templates/pages/list_cron.php:112
 #: ../../web/templates/pages/list_web.php:194
 #: ../../web/templates/pages/list_web.php:195
-#: ../../web/templates/pages/list_access_keys.php:79
-#: ../../web/templates/pages/list_access_keys.php:80
+#: ../../web/templates/pages/list_access_keys.php:85
+#: ../../web/templates/pages/list_access_keys.php:86
 #: ../../web/templates/pages/list_firewall_banlist.php:53
 #: ../../web/templates/pages/list_firewall_banlist.php:54
 #: ../../web/templates/pages/list_ip.php:89
@@ -1513,12 +1515,12 @@ msgstr "时间"
 msgid "Select"
 msgstr "选中"
 
-#: ../../web/templates/pages/list_firewall_ipset.php:67
+#: ../../web/templates/pages/list_firewall_ipset.php:70
 #, php-format
 msgid "Are you sure you want to delete IP list %s?"
 msgstr "您确定要删除 IP 列表 %s？"
 
-#: ../../web/templates/pages/list_firewall_ipset.php:78
+#: ../../web/templates/pages/list_firewall_ipset.php:81
 #: ../../web/templates/pages/list_mail.php:101
 #: ../../web/templates/pages/list_mail.php:108
 #: ../../web/templates/pages/list_mail.php:115
@@ -1528,7 +1530,7 @@ msgstr "您确定要删除 IP 列表 %s？"
 #: ../../web/templates/pages/list_mail.php:150
 #: ../../web/templates/pages/list_mail.php:157
 #: ../../web/templates/pages/edit_mail.php:54
-#: ../../web/templates/pages/add_mail.php:63
+#: ../../web/templates/pages/add_mail.php:65
 #: ../../web/templates/pages/list_mail_acc.php:114
 #: ../../web/templates/pages/list_mail_acc.php:121
 #: ../../web/templates/pages/list_mail_acc.php:142
@@ -1545,7 +1547,7 @@ msgstr "您确定要删除 IP 列表 %s？"
 msgid "Disabled"
 msgstr "停用"
 
-#: ../../web/templates/pages/list_firewall_ipset.php:80
+#: ../../web/templates/pages/list_firewall_ipset.php:83
 #: ../../web/templates/pages/list_mail.php:104
 #: ../../web/templates/pages/list_mail.php:111
 #: ../../web/templates/pages/list_mail.php:118
@@ -1569,18 +1571,15 @@ msgstr "停用"
 msgid "Enabled"
 msgstr "启用"
 
-#: ../../web/templates/pages/list_firewall_ipset.php:106
+#: ../../web/templates/pages/list_firewall_ipset.php:109
 msgid "There are currently no IP lists defined."
 msgstr "目前没有定义IP列表"
 
-#: ../../web/templates/pages/list_firewall_ipset.php:108
+#: ../../web/templates/pages/list_firewall_ipset.php:111
 #, php-format
 msgid "%d IP list"
 msgid_plural "%d IP lists"
-msgstr[0] "One\n"
-"%d IP 列表\n"
-"Other\n"
-"%d IP 列表"
+msgstr[0] "%d 个IP列表"
 
 #: ../../web/templates/pages/list_updates.php:12
 msgid "Disable Automatic Updates"
@@ -1592,7 +1591,7 @@ msgstr "启用自动更新"
 
 #: ../../web/templates/pages/list_updates.php:29
 #: ../../web/templates/pages/list_services.php:12
-#: ../../web/templates/pages/edit_server.php:135
+#: ../../web/templates/pages/edit_server.php:147
 msgid "Updates"
 msgstr "系统更新"
 
@@ -1611,7 +1610,7 @@ msgstr "描述"
 #: ../../web/templates/pages/list_updates.php:35
 #: ../../web/templates/pages/list_updates.php:62
 #: ../../web/templates/pages/list_webapps.php:27
-#: ../../web/templates/pages/edit_server.php:139
+#: ../../web/templates/pages/edit_server.php:151
 msgid "Version"
 msgstr "版本"
 
@@ -1628,7 +1627,7 @@ msgid "Status"
 msgstr "状态"
 
 #: ../../web/templates/pages/list_mail.php:7
-#: ../../web/templates/pages/add_mail.php:32
+#: ../../web/templates/pages/add_mail.php:34
 msgid "Add Mail Domain"
 msgstr "添加邮箱域名"
 
@@ -1641,7 +1640,7 @@ msgstr "添加邮箱域名"
 #: ../../web/templates/pages/list_packages.php:14
 #: ../../web/templates/pages/list_cron.php:22
 #: ../../web/templates/pages/list_web.php:13
-#: ../../web/templates/pages/list_access_keys.php:14
+#: ../../web/templates/pages/list_access_keys.php:20
 #: ../../web/templates/pages/list_ip.php:14
 #: ../../web/templates/pages/list_search.php:14
 #: ../../web/templates/pages/list_dns.php:13
@@ -1657,7 +1656,7 @@ msgstr "项目排序"
 #: ../../web/templates/pages/list_packages.php:15
 #: ../../web/templates/pages/list_cron.php:23
 #: ../../web/templates/pages/list_web.php:14
-#: ../../web/templates/pages/list_access_keys.php:15
+#: ../../web/templates/pages/list_access_keys.php:21
 #: ../../web/templates/pages/list_ip.php:15
 #: ../../web/templates/pages/list_search.php:15
 #: ../../web/templates/pages/list_dns.php:14
@@ -1667,7 +1666,7 @@ msgstr "排序"
 #: ../../web/templates/pages/list_mail.php:22
 #: ../../web/templates/pages/list_mail.php:77
 #: ../../web/templates/pages/list_mail.php:296
-#: ../../web/templates/includes/panel.php:330
+#: ../../web/templates/includes/panel.php:332
 msgid "Accounts"
 msgstr "账户"
 
@@ -1681,7 +1680,7 @@ msgstr "账户"
 #: ../../web/templates/pages/list_mail_acc.php:37
 #: ../../web/templates/pages/list_mail_acc.php:87
 #: ../../web/templates/pages/list_mail_acc.php:250
-#: ../../web/templates/pages/list_server_info.php:53
+#: ../../web/templates/pages/list_server_info.php:54
 #: ../../web/templates/pages/list_db.php:56
 #: ../../web/templates/pages/list_db.php:111
 #: ../../web/templates/pages/list_db.php:234
@@ -1733,7 +1732,7 @@ msgstr "暂停"
 #: ../../web/templates/pages/list_dns.php:46
 #: ../../web/templates/pages/list_dns.php:95
 msgid "Unsuspend"
-msgstr "取消暂停"
+msgstr "取消禁用"
 
 #: ../../web/templates/pages/list_mail.php:55
 #: ../../web/templates/pages/list_mail.php:56
@@ -1769,7 +1768,7 @@ msgstr "搜索"
 #: ../../web/templates/pages/list_mail.php:79
 #: ../../web/templates/pages/list_mail.php:316
 #: ../../web/templates/pages/edit_mail.php:86
-#: ../../web/templates/pages/add_mail.php:85
+#: ../../web/templates/pages/add_mail.php:87
 #: ../../web/templates/pages/edit_server.php:380
 msgid "Anti-Virus"
 msgstr "病毒防护"
@@ -1777,7 +1776,7 @@ msgstr "病毒防护"
 #: ../../web/templates/pages/list_mail.php:80
 #: ../../web/templates/pages/list_mail.php:320
 #: ../../web/templates/pages/edit_mail.php:72
-#: ../../web/templates/pages/add_mail.php:71
+#: ../../web/templates/pages/add_mail.php:73
 #: ../../web/templates/pages/edit_server.php:391
 msgid "Spam Filter"
 msgstr "垃圾邮件过滤"
@@ -1800,7 +1799,7 @@ msgstr "SSL"
 #: ../../web/templates/pages/list_dns.php:98
 #, php-format
 msgid "Are you sure you want to unsuspend domain %s?"
-msgstr "您确定要取消暂停域%s？"
+msgstr "您确定要启用域 %s 吗？"
 
 #: ../../web/templates/pages/list_mail.php:133
 #: ../../web/templates/pages/list_web.php:104
@@ -1818,7 +1817,7 @@ msgstr "您确定要暂停域%s？"
 #: ../../web/templates/pages/list_mail_acc.php:203
 #: ../../web/templates/pages/list_mail_acc.php:206
 msgid "Open Webmail"
-msgstr "打开网络邮件"
+msgstr "邮箱登录"
 
 #: ../../web/templates/pages/list_mail.php:226
 #: ../../web/templates/pages/list_mail.php:229
@@ -1967,17 +1966,17 @@ msgstr "恢复"
 #: ../../web/templates/pages/list_ssl.php:62
 #: ../../web/templates/pages/list_ssl.php:86
 #: ../../web/templates/pages/list_ssl.php:89
-#: ../../web/templates/pages/list_weblog.php:45
-#: ../../web/templates/pages/list_weblog.php:47
-#: ../../web/templates/pages/list_weblog.php:57
-#: ../../web/templates/pages/list_weblog.php:59
+#: ../../web/templates/pages/list_weblog.php:46
+#: ../../web/templates/pages/list_weblog.php:48
+#: ../../web/templates/pages/list_weblog.php:58
+#: ../../web/templates/pages/list_weblog.php:60
 msgid "Download"
 msgstr "下载"
 
 #: ../../web/templates/pages/list_backup.php:119
 #, php-format
 msgid "Are you sure you want to delete backup %s?"
-msgstr "您确定要删除备份%s？"
+msgstr "您确定要删除备份 %s 吗？"
 
 #: ../../web/templates/pages/list_backup.php:161
 #, php-format
@@ -1986,7 +1985,7 @@ msgid_plural "%d backups"
 msgstr[0] "%d 个数据备份"
 
 #: ../../web/templates/pages/edit_mail.php:11
-#: ../../web/templates/pages/add_mail.php:11
+#: ../../web/templates/pages/add_mail.php:12
 #: ../../web/templates/pages/add_ip.php:11
 #: ../../web/templates/pages/add_web.php:12
 #: ../../web/templates/pages/edit_cron.php:11
@@ -2005,8 +2004,8 @@ msgstr[0] "%d 个数据备份"
 #: ../../web/templates/pages/edit_user.php:37
 #: ../../web/templates/pages/edit_server_httpd.php:14
 #: ../../web/templates/pages/add_firewall_banlist.php:11
-#: ../../web/templates/pages/add_dns.php:11
-#: ../../web/templates/pages/add_db.php:11
+#: ../../web/templates/pages/add_dns.php:12
+#: ../../web/templates/pages/add_db.php:12
 #: ../../web/templates/pages/add_firewall_ipset.php:11
 #: ../../web/templates/pages/add_package.php:11
 #: ../../web/templates/pages/add_key.php:17
@@ -2027,7 +2026,7 @@ msgid "Save"
 msgstr "保存"
 
 #: ../../web/templates/pages/edit_mail.php:44
-#: ../../web/templates/pages/add_mail.php:53
+#: ../../web/templates/pages/add_mail.php:55
 msgid "Webmail Client"
 msgstr "网页邮箱客户端"
 
@@ -2040,12 +2039,12 @@ msgid "email / hour / account"
 msgstr "邮件 / 小时 / 帐户"
 
 #: ../../web/templates/pages/edit_mail.php:78
-#: ../../web/templates/pages/add_mail.php:77
+#: ../../web/templates/pages/add_mail.php:79
 msgid "Reject Spam"
 msgstr "拒绝垃圾邮件"
 
 #: ../../web/templates/pages/edit_mail.php:93
-#: ../../web/templates/pages/add_mail.php:92
+#: ../../web/templates/pages/add_mail.php:94
 msgid "DKIM Support"
 msgstr "DKIM支持"
 
@@ -2089,7 +2088,7 @@ msgstr "SSL 私钥"
 #: ../../web/templates/pages/edit_mail.php:132
 #: ../../web/templates/pages/edit_web.php:208
 msgid "SSL Certificate Authority / Intermediate"
-msgstr "SSL CA证书 / 中级证书"
+msgstr "SSL CA证书 / 中间证书"
 
 #: ../../web/templates/pages/edit_mail.php:132
 #: ../../web/templates/pages/add_ip.php:76
@@ -2125,13 +2124,13 @@ msgstr "备用"
 #: ../../web/templates/pages/edit_web.php:226
 #: ../../web/templates/pages/edit_server.php:958
 msgid "Not Before"
-msgstr "以前没有"
+msgstr "不早于"
 
 #: ../../web/templates/pages/edit_mail.php:154
 #: ../../web/templates/pages/edit_web.php:230
 #: ../../web/templates/pages/edit_server.php:962
 msgid "Not After"
-msgstr ""
+msgstr "不晚于"
 
 #: ../../web/templates/pages/edit_mail.php:158
 #: ../../web/templates/pages/edit_web.php:234
@@ -2152,35 +2151,35 @@ msgid "Issued By"
 msgstr "签发者"
 
 #: ../../web/templates/pages/edit_mail.php:175
-#: ../../web/templates/pages/add_mail.php:98
+#: ../../web/templates/pages/add_mail.php:100
 msgid "SMTP Relay"
 msgstr "SMTP中继"
 
-#: ../../web/templates/pages/add_mail.php:37
+#: ../../web/templates/pages/add_mail.php:39
 #: ../../web/templates/pages/add_web.php:32
-#: ../../web/templates/pages/add_dns.php:37
-#: ../../web/templates/pages/add_db.php:37
+#: ../../web/templates/pages/add_dns.php:39
+#: ../../web/templates/pages/add_db.php:39
 #, php-format
 msgid "It is strongly advised to {create a standard user account} before adding %s to the server due to the increased privileges the admin account possesses and potential security risks."
 msgstr "由于管理员帐户拥有更多的权限和潜在的安全风险，在将 %s 添加到服务器之前强烈建议 {create a standard user account}。"
 
-#: ../../web/templates/pages/add_mail.php:37
+#: ../../web/templates/pages/add_mail.php:39
 msgid "a mail domain"
 msgstr "邮箱域名"
 
-#: ../../web/templates/pages/add_mail.php:42
+#: ../../web/templates/pages/add_mail.php:44
 #: ../../web/templates/pages/add_web.php:37
 #: ../../web/templates/pages/list_user.php:6
 #: ../../web/templates/pages/add_user.php:32
-#: ../../web/templates/pages/add_dns.php:42
-#: ../../web/templates/pages/add_db.php:42
+#: ../../web/templates/pages/add_dns.php:44
+#: ../../web/templates/pages/add_db.php:44
 msgid "Add User"
 msgstr "添加用户账户"
 
-#: ../../web/templates/pages/add_mail.php:43
+#: ../../web/templates/pages/add_mail.php:45
 #: ../../web/templates/pages/add_web.php:38
-#: ../../web/templates/pages/add_dns.php:43
-#: ../../web/templates/pages/add_db.php:43
+#: ../../web/templates/pages/add_dns.php:45
+#: ../../web/templates/pages/add_db.php:45
 msgid "Continue"
 msgstr "继续"
 
@@ -2202,7 +2201,7 @@ msgstr "已分配域"
 #: ../../web/templates/pages/add_ip.php:82
 #: ../../web/templates/pages/edit_ip.php:75
 msgid "NAT IP Association"
-msgstr "NAT IP Association"
+msgstr "NAT IP关联"
 
 #: ../../web/templates/pages/debug_panel.php:11
 msgid "Close debug panel"
@@ -2305,7 +2304,7 @@ msgstr "每 %s 分钟"
 #: ../../web/templates/pages/add_user.php:49
 #: ../../web/templates/pages/edit_mail_acc.php:46
 #: ../../web/templates/pages/edit_user.php:85
-#: ../../web/templates/pages/add_db.php:78
+#: ../../web/templates/pages/add_db.php:80
 #: ../../web/templates/pages/edit_web.php:113
 #: ../../web/templates/pages/edit_web.php:419
 #: ../../web/templates/pages/edit_web.php:472
@@ -2377,37 +2376,37 @@ msgstr "周末(2天)"
 #: ../../web/templates/pages/edit_cron.php:196
 #: ../../web/templates/pages/add_cron.php:196
 msgid "Monday"
-msgstr "周一 "
+msgstr "周一"
 
 #: ../../web/templates/pages/edit_cron.php:197
 #: ../../web/templates/pages/add_cron.php:197
 msgid "Tuesday"
-msgstr "周二 "
+msgstr "周二"
 
 #: ../../web/templates/pages/edit_cron.php:198
 #: ../../web/templates/pages/add_cron.php:198
 msgid "Wednesday"
-msgstr "周三 "
+msgstr "周三"
 
 #: ../../web/templates/pages/edit_cron.php:199
 #: ../../web/templates/pages/add_cron.php:199
 msgid "Thursday"
-msgstr "周四 "
+msgstr "周四"
 
 #: ../../web/templates/pages/edit_cron.php:200
 #: ../../web/templates/pages/add_cron.php:200
 msgid "Friday"
-msgstr "周五 "
+msgstr "周五"
 
 #: ../../web/templates/pages/edit_cron.php:201
 #: ../../web/templates/pages/add_cron.php:201
 msgid "Saturday"
-msgstr "周六 "
+msgstr "周六"
 
 #: ../../web/templates/pages/edit_cron.php:202
 #: ../../web/templates/pages/add_cron.php:202
 msgid "Sunday"
-msgstr "周日 "
+msgstr "周日"
 
 #: ../../web/templates/pages/edit_cron.php:264
 #: ../../web/templates/pages/add_cron.php:264
@@ -2509,12 +2508,12 @@ msgstr "放行"
 #: ../../web/templates/pages/add_firewall.php:44
 #: ../../web/templates/pages/edit_firewall.php:44
 msgid "Ranges and lists are acceptable"
-msgstr ""
+msgstr "可以设置端口范围和列表"
 
 #: ../../web/templates/pages/add_firewall.php:46
 #: ../../web/templates/pages/edit_firewall.php:46
 msgid "All ports: 0, Range: 80-82, List: 80,443,8080,8443"
-msgstr "所有端口: 0, 范围: 80-82, 列表: 80,443,8080,8443"
+msgstr "所有端口: 0, 端口范围: 80-82, 端口列表: 80,443,8080,8443"
 
 #: ../../web/templates/pages/add_firewall.php:50
 #: ../../web/templates/pages/edit_firewall.php:50
@@ -2540,9 +2539,9 @@ msgstr "清除"
 #: ../../web/templates/pages/list_firewall.php:161
 #: ../../web/templates/pages/list_access_key.php:53
 #: ../../web/templates/pages/add_access_key.php:37
-#: ../../web/templates/pages/list_access_keys.php:28
-#: ../../web/templates/pages/list_access_keys.php:58
-#: ../../web/templates/pages/list_access_keys.php:106
+#: ../../web/templates/pages/list_access_keys.php:34
+#: ../../web/templates/pages/list_access_keys.php:64
+#: ../../web/templates/pages/list_access_keys.php:112
 #: ../../web/templates/pages/list_firewall_banlist.php:41
 #: ../../web/templates/pages/list_firewall_banlist.php:86
 msgid "Comment"
@@ -2583,8 +2582,8 @@ msgstr "更新使用情况统计表"
 
 #: ../../web/templates/pages/list_user.php:75
 #: ../../web/templates/pages/edit_server.php:1184
-#: ../../web/templates/includes/panel.php:267
-#: ../../web/templates/includes/panel.php:271
+#: ../../web/templates/includes/panel.php:269
+#: ../../web/templates/includes/panel.php:273
 msgid "Users"
 msgstr "用户"
 
@@ -2597,12 +2596,12 @@ msgstr "IP"
 #: ../../web/templates/pages/list_user.php:126
 #, php-format
 msgid "Are you sure you want to unsuspend user %s?"
-msgstr "您确定要取消对用户 %s 的暂停？"
+msgstr "您确定要启用用户 %s 吗？"
 
 #: ../../web/templates/pages/list_user.php:133
 #, php-format
 msgid "Are you sure you want to suspend user %s?"
-msgstr "您确定要暂停用户 %s？"
+msgstr "您确定要禁用用户 %s吗？"
 
 #: ../../web/templates/pages/list_user.php:151
 #: ../../web/templates/pages/list_user.php:194
@@ -2690,7 +2689,7 @@ msgstr "没有排除项"
 
 #: ../../web/templates/pages/edit_whitelabel.php:33
 msgid "White Label Options"
-msgstr "白色标签选项"
+msgstr "白标选项"
 
 #: ../../web/templates/pages/edit_whitelabel.php:41
 msgid "General"
@@ -2773,7 +2772,7 @@ msgstr "优先级"
 #: ../../web/templates/pages/list_dns_rec.php:37
 #: ../../web/templates/pages/list_dns_rec.php:86
 #: ../../web/templates/pages/list_dns_rec.php:163
-#: ../../web/templates/pages/add_dns.php:106
+#: ../../web/templates/pages/add_dns.php:108
 #: ../../web/templates/pages/edit_dns.php:86
 #: ../../web/templates/pages/add_dns_rec.php:80
 #: ../../web/templates/pages/list_dns.php:82
@@ -2807,7 +2806,7 @@ msgstr "策略"
 #: ../../web/templates/pages/list_server_preview.php:35
 #: ../../web/templates/pages/edit_server.php:1270
 msgid "Allow suspended users to log in with read-only access"
-msgstr "允许已暂停的用户以只读权限登录"
+msgstr "允许已被禁用的用户以只读权限登录"
 
 #: ../../web/templates/pages/list_server_preview.php:39
 msgid "Partially implemented"
@@ -2835,8 +2834,8 @@ msgstr "编辑 IP 地址"
 #: ../../web/templates/pages/edit_web.php:57
 #: ../../web/templates/pages/add_mail_acc.php:82
 #: ../../web/templates/pages/generate_ssl.php:22
-#: ../../web/templates/includes/panel.php:285
-#: ../../web/templates/includes/panel.php:292
+#: ../../web/templates/includes/panel.php:287
+#: ../../web/templates/includes/panel.php:294
 msgid "Aliases"
 msgstr "别名"
 
@@ -2854,7 +2853,7 @@ msgstr "自动回复"
 #: ../../web/templates/pages/list_mail_acc.php:104
 #, php-format
 msgid "Are you sure you want to unsuspend %s?"
-msgstr "您确定要取消暂停 %s?"
+msgstr "您确定要启用 %s 吗？"
 
 #: ../../web/templates/pages/list_mail_acc.php:107
 #: ../../web/templates/pages/list_mail_acc.php:135
@@ -2909,65 +2908,65 @@ msgstr "关闭菜单"
 msgid "Open menu"
 msgstr "打开菜单"
 
-#: ../../web/templates/pages/list_server_info.php:41
+#: ../../web/templates/pages/list_server_info.php:42
 #: ../../web/templates/pages/list_services.php:103
 #: ../../web/templates/pages/list_services.php:200
 msgid "CPU"
 msgstr "CPU"
 
-#: ../../web/templates/pages/list_server_info.php:47
+#: ../../web/templates/pages/list_server_info.php:48
 msgid "RAM"
 msgstr "内存"
 
-#: ../../web/templates/pages/list_server_info.php:59
+#: ../../web/templates/pages/list_server_info.php:60
 #: ../../web/templates/pages/edit_server.php:9
 msgid "Network"
 msgstr "网络"
 
-#: ../../web/templates/pages/list_server_info.php:66
+#: ../../web/templates/pages/list_server_info.php:67
 #: ../../web/templates/pages/list_stats.php:105
 msgid "Web"
 msgstr "网站"
 
-#: ../../web/templates/pages/list_server_info.php:74
+#: ../../web/templates/pages/list_server_info.php:75
 #: ../../web/templates/pages/edit_package.php:152
 #: ../../web/templates/pages/add_firewall_banlist.php:39
 #: ../../web/templates/pages/add_package.php:151
-#: ../../web/templates/includes/panel.php:305
+#: ../../web/templates/includes/panel.php:307
 msgid "DNS"
 msgstr "DNS 服务"
 
-#: ../../web/templates/pages/list_server_info.php:82
+#: ../../web/templates/pages/list_server_info.php:83
 #: ../../web/templates/pages/list_stats.php:123
 msgid "Mail"
 msgstr "邮箱"
 
-#: ../../web/templates/pages/list_server_info.php:90
+#: ../../web/templates/pages/list_server_info.php:91
 #: ../../web/templates/pages/edit_package.php:285
 #: ../../web/templates/pages/add_firewall_banlist.php:41
 #: ../../web/templates/pages/add_package.php:281
-#: ../../web/templates/includes/panel.php:343
+#: ../../web/templates/includes/panel.php:345
 msgid "DB"
 msgstr "数据库"
 
-#: ../../web/templates/pages/list_server_info.php:95
-#: ../../web/templates/pages/list_server_info.php:97
+#: ../../web/templates/pages/list_server_info.php:96
+#: ../../web/templates/pages/list_server_info.php:98
 #: ../../web/templates/pages/list_log.php:46
 #: ../../web/templates/pages/list_log_auth.php:16
 #: ../../web/templates/pages/list_search.php:9
-#: ../../web/templates/pages/list_weblog.php:63
-#: ../../web/templates/pages/list_weblog.php:65
+#: ../../web/templates/pages/list_weblog.php:64
+#: ../../web/templates/pages/list_weblog.php:66
 msgid "Refresh"
 msgstr "刷新"
 
-#: ../../web/templates/pages/list_server_info.php:101
-#: ../../web/templates/pages/list_server_info.php:103
-#: ../../web/templates/pages/list_weblog.php:75
-#: ../../web/templates/pages/list_weblog.php:77
-#: ../../web/templates/includes/panel.php:222
-#: ../../web/templates/includes/panel.php:224
-#: ../../web/templates/includes/panel.php:229
-#: ../../web/templates/includes/panel.php:231
+#: ../../web/templates/pages/list_server_info.php:102
+#: ../../web/templates/pages/list_server_info.php:104
+#: ../../web/templates/pages/list_weblog.php:76
+#: ../../web/templates/pages/list_weblog.php:78
+#: ../../web/templates/includes/panel.php:223
+#: ../../web/templates/includes/panel.php:225
+#: ../../web/templates/includes/panel.php:230
+#: ../../web/templates/includes/panel.php:232
 msgid "Log out"
 msgstr "登出"
 
@@ -2989,8 +2988,8 @@ msgstr "您确定要删除日志？"
 #: ../../web/templates/pages/edit_user.php:23
 #: ../../web/templates/pages/edit_user.php:24
 #: ../../web/templates/pages/list_services.php:20
-#: ../../web/templates/includes/panel.php:186
-#: ../../web/templates/includes/panel.php:188
+#: ../../web/templates/includes/panel.php:187
+#: ../../web/templates/includes/panel.php:189
 msgid "Logs"
 msgstr "日志"
 
@@ -3030,17 +3029,17 @@ msgstr "数据丢失警告！"
 
 #: ../../web/templates/pages/setup_webapp.php:34
 msgid "Your web folder already has files uploaded to it. The installer will overwrite your files and/or the installation might fail."
-msgstr ""
+msgstr "您的Web目录已经存在上传的文件。安装程序将覆盖您的文件，并且安装可能失败。"
 
 #: ../../web/templates/pages/setup_webapp.php:35
 #, php-format
 msgid "Please make sure ~/web/%s/public_html is empty!"
-msgstr "请确保 Web 目录为空 ~/web/%s/public_html"
+msgstr "请确保 Web 目录 ~/web/%s/public_html 为空！"
 
 #: ../../web/templates/pages/add_user.php:60
 #: ../../web/templates/pages/edit_mail_acc.php:57
 #: ../../web/templates/pages/edit_user.php:97
-#: ../../web/templates/pages/add_db.php:89
+#: ../../web/templates/pages/add_db.php:91
 #: ../../web/templates/pages/edit_db.php:54
 #: ../../web/templates/pages/add_mail_acc.php:59
 msgid "Your password must have at least"
@@ -3049,7 +3048,7 @@ msgstr "你的密码必须包含"
 #: ../../web/templates/pages/add_user.php:62
 #: ../../web/templates/pages/edit_mail_acc.php:59
 #: ../../web/templates/pages/edit_user.php:99
-#: ../../web/templates/pages/add_db.php:91
+#: ../../web/templates/pages/add_db.php:93
 #: ../../web/templates/pages/edit_db.php:56
 #: ../../web/templates/pages/add_mail_acc.php:61
 msgid "8 characters long"
@@ -3058,7 +3057,7 @@ msgstr "字符至少8个"
 #: ../../web/templates/pages/add_user.php:63
 #: ../../web/templates/pages/edit_mail_acc.php:60
 #: ../../web/templates/pages/edit_user.php:100
-#: ../../web/templates/pages/add_db.php:92
+#: ../../web/templates/pages/add_db.php:94
 #: ../../web/templates/pages/edit_db.php:57
 #: ../../web/templates/pages/add_mail_acc.php:62
 msgid "1 uppercase & 1 lowercase character"
@@ -3067,7 +3066,7 @@ msgstr "大小写字母至少各1个"
 #: ../../web/templates/pages/add_user.php:64
 #: ../../web/templates/pages/edit_mail_acc.php:61
 #: ../../web/templates/pages/edit_user.php:101
-#: ../../web/templates/pages/add_db.php:93
+#: ../../web/templates/pages/add_db.php:95
 #: ../../web/templates/pages/edit_db.php:58
 #: ../../web/templates/pages/add_mail_acc.php:63
 msgid "1 number"
@@ -3105,11 +3104,11 @@ msgstr "管理员"
 #: ../../web/templates/pages/add_user.php:104
 #: ../../web/templates/pages/edit_user.php:162
 msgid "DNS Sync User"
-msgstr ""
+msgstr "DNS Sync 用户"
 
 #: ../../web/templates/pages/add_user.php:127
 #: ../../web/templates/pages/edit_mail_acc.php:65
-#: ../../web/templates/pages/add_db.php:97
+#: ../../web/templates/pages/add_db.php:99
 #: ../../web/templates/pages/add_mail_acc.php:113
 msgid "Email login credentials to:"
 msgstr "将登录凭据发送到："
@@ -3157,7 +3156,7 @@ msgstr "无限"
 #: ../../web/templates/pages/edit_package.php:71
 #: ../../web/templates/pages/add_firewall_banlist.php:37
 #: ../../web/templates/pages/add_package.php:69
-#: ../../web/templates/includes/panel.php:286
+#: ../../web/templates/includes/panel.php:288
 msgid "WEB"
 msgstr "Web 服务"
 
@@ -3171,14 +3170,14 @@ msgid "per domain"
 msgstr "每域名"
 
 #: ../../web/templates/pages/edit_package.php:199
-#: ../../web/templates/pages/add_dns.php:109
+#: ../../web/templates/pages/add_dns.php:111
 #: ../../web/templates/pages/add_package.php:195
 msgid "Name Servers"
 msgstr "名称服务器"
 
 #: ../../web/templates/pages/edit_package.php:245
 #: ../../web/templates/pages/edit_user.php:295
-#: ../../web/templates/pages/add_dns.php:155
+#: ../../web/templates/pages/add_dns.php:157
 #: ../../web/templates/pages/add_package.php:241
 msgid "Add Name Server"
 msgstr "增加DNS服务器"
@@ -3186,7 +3185,7 @@ msgstr "增加DNS服务器"
 #: ../../web/templates/pages/edit_package.php:250
 #: ../../web/templates/pages/add_firewall_banlist.php:40
 #: ../../web/templates/pages/add_package.php:246
-#: ../../web/templates/includes/panel.php:324
+#: ../../web/templates/includes/panel.php:326
 msgid "MAIL"
 msgstr "邮箱服务"
 
@@ -3205,7 +3204,7 @@ msgstr "SSH访问控制"
 #: ../../web/templates/pages/edit_mail_acc.php:82
 #: ../../web/templates/pages/add_mail_acc.php:82
 msgid "Use local-part without domain name"
-msgstr ""
+msgstr "使用不带域名的本地部分"
 
 #: ../../web/templates/pages/edit_mail_acc.php:89
 #: ../../web/templates/pages/add_mail_acc.php:95
@@ -3299,8 +3298,8 @@ msgstr "配置"
 
 #: ../../web/templates/pages/edit_server_nginx.php:73
 #: ../../web/templates/pages/edit_user.php:210
-#: ../../web/templates/pages/add_dns.php:87
-#: ../../web/templates/pages/add_db.php:103
+#: ../../web/templates/pages/add_dns.php:89
+#: ../../web/templates/pages/add_db.php:105
 #: ../../web/templates/pages/edit_web.php:259
 #: ../../web/templates/pages/add_mail_acc.php:66
 #: ../../web/templates/pages/edit_server_php.php:58
@@ -3315,27 +3314,27 @@ msgstr "高级选项"
 msgid "Basic Options"
 msgstr "基本选项"
 
-#: ../../web/templates/pages/list_key.php:10
-#: ../../web/templates/pages/list_key.php:14
+#: ../../web/templates/pages/list_key.php:17
+#: ../../web/templates/pages/list_key.php:21
 #: ../../web/templates/pages/add_key.php:31
 msgid "Add SSH Key"
 msgstr "添加SSH密钥"
 
-#: ../../web/templates/pages/list_key.php:24
+#: ../../web/templates/pages/list_key.php:31
 msgid "SSH Keys"
 msgstr "SSH 密钥"
 
-#: ../../web/templates/pages/list_key.php:28
-#: ../../web/templates/pages/list_key.php:41
+#: ../../web/templates/pages/list_key.php:35
+#: ../../web/templates/pages/list_key.php:48
 msgid "SSH ID"
 msgstr "SSH ID"
 
-#: ../../web/templates/pages/list_key.php:58
+#: ../../web/templates/pages/list_key.php:65
 #, php-format
 msgid "Are you sure you want to delete SSH key %s?"
 msgstr "您确定要删除SSH密钥 %s 吗？"
 
-#: ../../web/templates/pages/list_key.php:81
+#: ../../web/templates/pages/list_key.php:88
 #, php-format
 msgid "%d SSH key"
 msgid_plural "%d SSH keys"
@@ -3348,7 +3347,7 @@ msgstr "管理 SSH 密钥"
 
 #: ../../web/templates/pages/edit_user.php:30
 #: ../../web/templates/pages/edit_user.php:31
-#: ../../web/templates/pages/list_access_keys.php:49
+#: ../../web/templates/pages/list_access_keys.php:55
 msgid "Access Keys"
 msgstr "API访问密钥"
 
@@ -3410,7 +3409,7 @@ msgstr "防火墙规则"
 #: ../../web/templates/pages/list_firewall.php:88
 #, php-format
 msgid "Are you sure you want to unsuspend rule #%s?"
-msgstr "你确定你想要取消暂停规则 #%s?"
+msgstr "您确定要启用规则 #%s 吗?"
 
 #: ../../web/templates/pages/list_firewall.php:95
 #, php-format
@@ -3488,8 +3487,8 @@ msgid "DNS Zone"
 msgstr "DNS 区域"
 
 #: ../../web/templates/pages/list_backup_detail.php:218
-#: ../../web/templates/includes/panel.php:358
-#: ../../web/templates/includes/panel.php:362
+#: ../../web/templates/includes/panel.php:360
+#: ../../web/templates/includes/panel.php:364
 msgid "Jobs"
 msgstr "任务"
 
@@ -3562,53 +3561,53 @@ msgstr "标志"
 msgid "Algorithm"
 msgstr "算法"
 
-#: ../../web/templates/pages/add_dns.php:32
+#: ../../web/templates/pages/add_dns.php:34
 msgid "Add DNS Zone"
-msgstr ""
+msgstr "新增DNS区域"
 
-#: ../../web/templates/pages/add_dns.php:37
+#: ../../web/templates/pages/add_dns.php:39
 msgid "a dns domain"
-msgstr ""
+msgstr "一个DNS域"
 
-#: ../../web/templates/pages/add_dns.php:69
+#: ../../web/templates/pages/add_dns.php:71
 #: ../../web/templates/pages/edit_dns.php:51
 #: ../../web/templates/pages/list_dns.php:81
 #: ../../web/templates/pages/list_dns.php:224
 msgid "Template"
 msgstr "模板"
 
-#: ../../web/templates/pages/add_dns.php:95
+#: ../../web/templates/pages/add_dns.php:97
 #: ../../web/templates/pages/edit_dns.php:71
 msgid "Enable DNSSEC"
 msgstr "启用 DNSSEC"
 
-#: ../../web/templates/pages/add_dns.php:101
+#: ../../web/templates/pages/add_dns.php:103
 #: ../../web/templates/pages/edit_dns.php:77
 #: ../../web/templates/pages/list_dns.php:85
 #: ../../web/templates/pages/list_dns.php:242
 msgid "Expiration Date"
 msgstr "到期日期"
 
-#: ../../web/templates/pages/add_dns.php:101
+#: ../../web/templates/pages/add_dns.php:103
 #: ../../web/templates/pages/edit_dns.php:77
 msgid "YYYY-MM-DD"
 msgstr "YYYY-MM-DD"
 
-#: ../../web/templates/pages/add_db.php:32
+#: ../../web/templates/pages/add_db.php:34
 #: ../../web/templates/pages/list_db.php:20
 msgid "Add Database"
 msgstr "添加数据库"
 
-#: ../../web/templates/pages/add_db.php:37
+#: ../../web/templates/pages/add_db.php:39
 msgid "a database"
-msgstr ""
+msgstr "一个数据库"
 
-#: ../../web/templates/pages/add_db.php:48
+#: ../../web/templates/pages/add_db.php:50
 #, php-format
 msgid "Prefix %s will be automatically added to database name and database user"
 msgstr "数据库名称及用户名称将自动添加 %s 前缀"
 
-#: ../../web/templates/pages/add_db.php:70
+#: ../../web/templates/pages/add_db.php:72
 #: ../../web/templates/pages/edit_db.php:35
 #, php-format
 msgid "Maximum %s characters length, including prefix"
@@ -3620,7 +3619,7 @@ msgstr "屏蔽恶意IP"
 
 #: ../../web/templates/pages/add_firewall_ipset.php:68
 msgid "Add IPset IP List for Firewall"
-msgstr ""
+msgstr "添加防火墙的IPset IP列表"
 
 #: ../../web/templates/pages/add_firewall_ipset.php:76
 msgid "url, script or file"
@@ -3637,11 +3636,11 @@ msgstr "浏览器"
 
 #: ../../web/templates/pages/list_log_auth.php:67
 msgid "Success"
-msgstr ""
+msgstr "成功"
 
 #: ../../web/templates/pages/list_log_auth.php:70
 msgid "Failed"
-msgstr ""
+msgstr "失败"
 
 #: ../../web/templates/pages/list_db.php:75
 msgid "Suspend All"
@@ -3649,12 +3648,12 @@ msgstr "全部暂停"
 
 #: ../../web/templates/pages/list_db.php:76
 msgid "Unsuspend All"
-msgstr "取消所有暂停"
+msgstr "取消所有禁用"
 
 #: ../../web/templates/pages/list_db.php:129
 #, php-format
 msgid "Are you sure you want to unsuspend database %s?"
-msgstr "您确定要取消暂停数据库 %s？"
+msgstr "您确定要启用数据库 %s 吗？"
 
 #: ../../web/templates/pages/list_db.php:136
 #, php-format
@@ -3682,7 +3681,7 @@ msgstr "您确定要删除数据库 %s？"
 #, php-format
 msgid "%d database"
 msgid_plural "%d databases"
-msgstr[0] "%d 数据库"
+msgstr[0] "%d 个数据库"
 
 #: ../../web/templates/pages/list_rrd.php:9
 msgid "Advanced Details"
@@ -3708,12 +3707,12 @@ msgstr "添加用户方案"
 #: ../../web/templates/pages/list_packages.php:150
 #: ../../web/templates/pages/list_packages.php:153
 msgid "Duplicate"
-msgstr ""
+msgstr "复制"
 
 #: ../../web/templates/pages/list_packages.php:163
 #, php-format
 msgid "Are you sure you want to delete package %s?"
-msgstr ""
+msgstr "您确定要删除用户方案 %s吗？"
 
 #: ../../web/templates/pages/list_packages.php:313
 #, php-format
@@ -3723,7 +3722,7 @@ msgstr[0] "%d 个用户方案"
 
 #: ../../web/templates/pages/list_services.php:9
 msgid "Task Monitor"
-msgstr ""
+msgstr "任务监视器"
 
 #: ../../web/templates/pages/list_services.php:16
 #: ../../web/templates/pages/edit_server.php:1409
@@ -3734,21 +3733,21 @@ msgstr "防火墙"
 #: ../../web/templates/pages/list_services.php:172
 #, php-format
 msgid "Are you sure you want to restart %s?"
-msgstr ""
+msgstr "确定要重新启动%s吗？"
 
 #: ../../web/templates/pages/list_services.php:36
 #: ../../web/templates/pages/list_services.php:114
 msgid "Stop"
-msgstr ""
+msgstr "停止"
 
 #: ../../web/templates/pages/list_services.php:37
 #: ../../web/templates/pages/list_services.php:121
 msgid "Start"
-msgstr ""
+msgstr "启动"
 
 #: ../../web/templates/pages/list_services.php:65
 msgid "Production Release"
-msgstr ""
+msgstr "生产版本发布"
 
 #: ../../web/templates/pages/list_services.php:71
 msgid "Operating System"
@@ -3789,16 +3788,16 @@ msgstr "编辑"
 #: ../../web/templates/pages/list_services.php:183
 #, php-format
 msgid "Are you sure you want to stop service %s?"
-msgstr ""
+msgstr "您确定要停止 %s 服务吗？"
 
 #: ../../web/templates/pages/list_services.php:183
 #, php-format
 msgid "Are you sure you want to start service %s?"
-msgstr ""
+msgstr "您确定要启动 %s 服务吗？"
 
 #: ../../web/templates/pages/list_services.php:205
 msgid "MB"
-msgstr ""
+msgstr "MB"
 
 #: ../../web/templates/pages/list_cron.php:7
 #: ../../web/templates/pages/add_cron.php:25
@@ -3817,16 +3816,16 @@ msgstr "启用通知"
 
 #: ../../web/templates/pages/list_cron.php:96
 msgid "Are you sure you want to unsuspend this cron job?"
-msgstr ""
+msgstr "您确定要启用该定时任务吗？"
 
 #: ../../web/templates/pages/list_cron.php:103
 msgid "Are you sure you want to suspend this cron job?"
-msgstr ""
+msgstr "您确定要暂停该定时任务吗？"
 
 #: ../../web/templates/pages/list_cron.php:158
 #, php-format
 msgid "Are you sure you want to delete this cron job?"
-msgstr ""
+msgstr "您确定要删除该定时任务吗？"
 
 #: ../../web/templates/pages/list_cron.php:196
 #, php-format
@@ -3845,16 +3844,16 @@ msgid "SOA"
 msgstr "SOA"
 
 #: ../../web/templates/pages/list_access_key.php:27
-#: ../../web/templates/pages/list_access_keys.php:25
-#: ../../web/templates/pages/list_access_keys.php:56
-#: ../../web/templates/pages/list_access_keys.php:84
-#: ../../web/templates/pages/list_access_keys.php:85
+#: ../../web/templates/pages/list_access_keys.php:31
+#: ../../web/templates/pages/list_access_keys.php:62
+#: ../../web/templates/pages/list_access_keys.php:90
+#: ../../web/templates/pages/list_access_keys.php:91
 msgid "Access Key"
 msgstr "API访问密钥"
 
 #: ../../web/templates/pages/list_access_key.php:31
 msgid "Access Key ID"
-msgstr ""
+msgstr "访问密钥ID"
 
 #: ../../web/templates/pages/list_access_key.php:39
 msgid "Secret Key"
@@ -3866,15 +3865,15 @@ msgstr "警告! 保存密匙的最后机会!"
 
 #: ../../web/templates/pages/edit_web.php:11
 msgid "Purge NGINX Cache"
-msgstr ""
+msgstr "清除NGINX缓存"
 
 #: ../../web/templates/pages/edit_web.php:49
 msgid "Edit Web Domain"
-msgstr ""
+msgstr "添加Web域名"
 
 #: ../../web/templates/pages/edit_web.php:64
 msgid "If the aliases changes, Let's Encrypt will obtain a new SSL certificate."
-msgstr ""
+msgstr "如果别名更改，Let's Encrypt将签发一个新的SSL证书。"
 
 #: ../../web/templates/pages/edit_web.php:81
 msgid "Web Statistics"
@@ -3908,11 +3907,11 @@ msgstr "状态码"
 
 #: ../../web/templates/pages/edit_web.php:182
 msgid "Enable automatic HTTPS redirection"
-msgstr ""
+msgstr "启用 HTTPS 自动重定向"
 
 #: ../../web/templates/pages/edit_web.php:188
 msgid "Enable HTTP Strict Transport Security (HSTS)"
-msgstr ""
+msgstr "启用 HTTP 严格传输安全性 (HSTS)"
 
 #: ../../web/templates/pages/edit_web.php:250
 msgid "Hide Certificate"
@@ -3925,7 +3924,7 @@ msgstr "显示证书"
 
 #: ../../web/templates/pages/edit_web.php:285
 msgid "Enable FastCGI cache"
-msgstr ""
+msgstr "启用 FastCGI 缓存"
 
 #: ../../web/templates/pages/edit_web.php:294
 msgid "Cache Duration"
@@ -3956,7 +3955,7 @@ msgstr "目录"
 
 #: ../../web/templates/pages/edit_web.php:388
 msgid "Additional FTP account(s)"
-msgstr ""
+msgstr "额外的 FTP 账户"
 
 #: ../../web/templates/pages/edit_web.php:410
 #: ../../web/templates/pages/edit_web.php:464
@@ -3993,8 +3992,8 @@ msgstr "重建"
 #: ../../web/templates/pages/list_web.php:231
 #: ../../web/templates/pages/list_web.php:234
 #: ../../web/templates/pages/list_web.php:327
-#: ../../web/templates/includes/panel.php:204
-#: ../../web/templates/includes/panel.php:206
+#: ../../web/templates/includes/panel.php:205
+#: ../../web/templates/includes/panel.php:207
 msgid "Statistics"
 msgstr "统计信息"
 
@@ -4002,17 +4001,17 @@ msgstr "统计信息"
 #: ../../web/templates/pages/list_web.php:256
 #: ../../web/templates/pages/list_web.php:259
 msgid "Edit Domain"
-msgstr ""
+msgstr "编辑域设置"
 
 #: ../../web/templates/pages/list_web.php:244
 #: ../../web/templates/pages/list_web.php:247
 msgid "Visit"
-msgstr ""
+msgstr "访问"
 
 #: ../../web/templates/pages/list_web.php:267
 #: ../../web/templates/pages/list_web.php:270
-#: ../../web/templates/pages/list_weblog.php:39
-#: ../../web/templates/pages/list_weblog.php:41
+#: ../../web/templates/pages/list_weblog.php:40
+#: ../../web/templates/pages/list_weblog.php:42
 msgid "Access Log"
 msgstr "访问日志"
 
@@ -4023,25 +4022,25 @@ msgid_plural "%d web domains"
 msgstr[0] "%d 个网站域名"
 
 #: ../../web/templates/pages/add_access_key.php:24
-#: ../../web/templates/pages/list_access_keys.php:9
+#: ../../web/templates/pages/list_access_keys.php:15
 msgid "Add Access Key"
 msgstr "添加API访问密钥"
 
 #: ../../web/templates/pages/add_mail_acc.php:88
 msgid "One or more email addresses"
-msgstr ""
+msgstr "一个或多个邮箱"
 
 #: ../../web/templates/pages/login/login_2.php:8
 msgid "Two-factor Authentication"
-msgstr ""
+msgstr "双重认证"
 
 #: ../../web/templates/pages/login/login_2.php:15
 msgid "2FA Token"
-msgstr "OTP 验证码"
+msgstr "双重认证令牌"
 
 #: ../../web/templates/pages/login/login_2.php:17
 msgid "Forgot Token"
-msgstr ""
+msgstr "遗忘令牌"
 
 #: ../../web/templates/pages/login/login_2.php:24
 #: ../../web/templates/pages/login/login_1.php:23
@@ -4059,7 +4058,7 @@ msgstr "忘记密码"
 
 #: ../../web/templates/pages/login/reset_2.php:13
 msgid "Password reset code has been sent to your email address"
-msgstr ""
+msgstr "密码重置代码已发送至您的电子邮件地址"
 
 #: ../../web/templates/pages/login/reset_2.php:19
 msgid "Reset Code"
@@ -4076,11 +4075,11 @@ msgstr "下一步"
 
 #: ../../web/templates/pages/login/reset2fa.php:8
 msgid "Account Unlocked"
-msgstr ""
+msgstr "帐户已解锁"
 
 #: ../../web/templates/pages/login/reset2fa.php:11
 msgid "Two-factor authentication is now turned off for your account.<br><br>You may now proceed to log in."
-msgstr ""
+msgstr "您账户的双重认证已关闭。<br><br>请继续登录。"
 
 #: ../../web/templates/pages/login/reset2fa.php:13
 msgid "Log in"
@@ -4088,11 +4087,11 @@ msgstr "登录"
 
 #: ../../web/templates/pages/login/reset2fa.php:21
 msgid "Unlock Account"
-msgstr ""
+msgstr "解锁帐户"
 
 #: ../../web/templates/pages/login/reset2fa.php:31
 msgid "2FA Reset Code"
-msgstr "恢复代码"
+msgstr "双重认证恢复代码"
 
 #: ../../web/templates/pages/login/reset2fa.php:36
 #: ../../web/templates/pages/login/reset_1.php:23
@@ -4117,11 +4116,11 @@ msgstr "重置"
 
 #: ../../web/templates/pages/generate_ssl.php:35
 msgid "ISO 3166-1 alpha-2 two-letter code"
-msgstr ""
+msgstr "ISO 3166-1 alpha-2 双字母代码"
 
 #: ../../web/templates/pages/generate_ssl.php:41
 msgid "State / Province"
-msgstr "州 / 省级"
+msgstr "州 / 省"
 
 #: ../../web/templates/pages/generate_ssl.php:47
 msgid "City / Locality"
@@ -4129,7 +4128,7 @@ msgstr "市 / 地区"
 
 #: ../../web/templates/pages/edit_server.php:12
 msgid "White Label"
-msgstr ""
+msgstr "白标"
 
 #: ../../web/templates/pages/edit_server.php:74
 msgid "Time Zone"
@@ -4147,17 +4146,17 @@ msgstr "默认语言"
 msgid "Set as default language for all users"
 msgstr "设置为所有用户的默认语言"
 
-#: ../../web/templates/pages/edit_server.php:146
+#: ../../web/templates/pages/edit_server.php:138
+msgid "Enable debug mode"
+msgstr "启用调试模式"
+
+#: ../../web/templates/pages/edit_server.php:158
 msgid "Release"
 msgstr "发行分支"
 
-#: ../../web/templates/pages/edit_server.php:153
+#: ../../web/templates/pages/edit_server.php:165
 msgid "Options"
 msgstr "选项"
-
-#: ../../web/templates/pages/edit_server.php:164
-msgid "Enable debug mode"
-msgstr "启用调试模式"
 
 #: ../../web/templates/pages/edit_server.php:176
 msgid "Enable preview features"
@@ -4169,11 +4168,11 @@ msgstr "查看"
 
 #: ../../web/templates/pages/edit_server.php:193
 msgid "Send email notification when an update has been installed"
-msgstr ""
+msgstr "完成安装更新后发送电子邮件通知"
 
 #: ../../web/templates/pages/edit_server.php:205
 msgid "Send update installation log by email"
-msgstr ""
+msgstr "通过电子邮件发送更新日志"
 
 #: ../../web/templates/pages/edit_server.php:214
 #: ../../web/templates/pages/edit_server.php:230
@@ -4194,15 +4193,15 @@ msgstr "后端池模式"
 
 #: ../../web/templates/pages/edit_server.php:261
 msgid "Enabled PHP Versions"
-msgstr ""
+msgstr "启用多PHP版本"
 
 #: ../../web/templates/pages/edit_server.php:265
 msgid "It may take a few minutes to save your changes. Please wait until the process has completed and do not refresh the page."
-msgstr ""
+msgstr "可能需要几分钟时间保存设置。请等待进程完成，不要刷新页面。"
 
 #: ../../web/templates/pages/edit_server.php:298
 msgid "System PHP Version"
-msgstr ""
+msgstr "系统PHP版本"
 
 #: ../../web/templates/pages/edit_server.php:321
 #: ../../web/templates/pages/edit_server.php:325
@@ -4220,7 +4219,7 @@ msgstr "邮箱服务器"
 
 #: ../../web/templates/pages/edit_server.php:403
 msgid "Webmail Alias"
-msgstr ""
+msgstr "Webmai别名"
 
 #: ../../web/templates/pages/edit_server.php:424
 msgid "Global SMTP Relay"
@@ -4232,7 +4231,7 @@ msgstr "MySQL 支持"
 
 #: ../../web/templates/pages/edit_server.php:508
 msgid "phpMyAdmin Alias"
-msgstr ""
+msgstr "phpMyAdmin别名"
 
 #: ../../web/templates/pages/edit_server.php:520
 msgid "phpMyAdmin Single Sign On"
@@ -4245,12 +4244,12 @@ msgstr "更多信息"
 #: ../../web/templates/pages/edit_server.php:578
 #: ../../web/templates/pages/edit_server.php:636
 msgid "Maximum Number of Databases"
-msgstr ""
+msgstr "数据库数量上限"
 
 #: ../../web/templates/pages/edit_server.php:591
 #: ../../web/templates/pages/edit_server.php:642
 msgid "Current Number of Databases"
-msgstr ""
+msgstr "当前数据库数量"
 
 #: ../../web/templates/pages/edit_server.php:608
 msgid "PostgreSQL Support"
@@ -4258,11 +4257,11 @@ msgstr "PostgreSQL 支持"
 
 #: ../../web/templates/pages/edit_server.php:619
 msgid "phpPgAdmin Alias"
-msgstr ""
+msgstr "phpPgAdmin别名"
 
 #: ../../web/templates/pages/edit_server.php:660
 msgid "Local Backup"
-msgstr ""
+msgstr "本地备份"
 
 #: ../../web/templates/pages/edit_server.php:673
 msgid "Compression"
@@ -4270,7 +4269,7 @@ msgstr "压缩类型"
 
 #: ../../web/templates/pages/edit_server.php:693
 msgid "Compression Level"
-msgstr ""
+msgstr "压缩级别"
 
 #: ../../web/templates/pages/edit_server.php:709
 msgid "zstd only"
@@ -4278,7 +4277,7 @@ msgstr "仅限ZSTD"
 
 #: ../../web/templates/pages/edit_server.php:743
 msgid "Remote Backup"
-msgstr ""
+msgstr "远程备份"
 
 #: ../../web/templates/pages/edit_server.php:984
 msgid "Security"
@@ -4286,7 +4285,7 @@ msgstr "Hestia 安全"
 
 #: ../../web/templates/pages/edit_server.php:996
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #: ../../web/templates/pages/edit_server.php:1000
 msgid "Enable API access"
@@ -4342,7 +4341,7 @@ msgstr "系统管理员帐户"
 
 #: ../../web/templates/pages/edit_server.php:1124
 msgid "Restrict access to read-only for other administrators"
-msgstr "对其他管理员限制只读 admin 账户"
+msgstr "限制其他管理员的只读访问权限"
 
 #: ../../web/templates/pages/edit_server.php:1141
 msgid "Hide account from other administrators"
@@ -4382,25 +4381,25 @@ msgstr "预览"
 
 #: ../../web/templates/pages/edit_server.php:1289
 msgid "Allow suspended users to create new backups"
-msgstr "允许暂停用户创建新备份"
+msgstr "允许被禁停的用户创建新备份"
 
 #: ../../web/templates/pages/edit_server.php:1306
 msgid "Sync Error document templates on user rebuild"
-msgstr ""
+msgstr "在用户重建时同步错误文档模板"
 
 #: ../../web/templates/pages/edit_server.php:1323
 msgid "Sync Skeleton templates"
-msgstr ""
+msgstr "同步 Skeleton 模板"
 
 #: ../../web/templates/pages/edit_server.php:1339
 #: ../../web/templates/pages/list_ip.php:34
 #: ../../web/templates/pages/list_ip.php:71
 #: ../../web/templates/pages/list_ip.php:138
-#: ../../web/templates/includes/panel.php:285
-#: ../../web/templates/includes/panel.php:289
-#: ../../web/templates/includes/panel.php:304
-#: ../../web/templates/includes/panel.php:323
-#: ../../web/templates/includes/panel.php:327
+#: ../../web/templates/includes/panel.php:287
+#: ../../web/templates/includes/panel.php:291
+#: ../../web/templates/includes/panel.php:306
+#: ../../web/templates/includes/panel.php:325
+#: ../../web/templates/includes/panel.php:329
 msgid "Domains"
 msgstr "域名"
 
@@ -4410,19 +4409,19 @@ msgstr "强制子域名所有权"
 
 #: ../../web/templates/pages/edit_server.php:1365
 msgid "Plugins"
-msgstr ""
+msgstr "插件"
 
 #: ../../web/templates/pages/edit_server.php:1370
 msgid "Quick App Installer"
-msgstr "快捷安装应用"
+msgstr "快捷应用安装器"
 
 #: ../../web/templates/pages/edit_server.php:1383
 msgid "File Manager"
-msgstr ""
+msgstr "文件管理器"
 
 #: ../../web/templates/pages/edit_server.php:1396
 msgid "File System Disk Quota"
-msgstr ""
+msgstr "文件系统磁盘配额："
 
 #: ../../web/templates/pages/edit_backup_exclusions.php:29
 msgid "Type domain name, one per line. To exclude all domains use *. To exclude specific dirs use following format: domain.tld:public_html/cache:public_html/tmp"
@@ -4430,7 +4429,7 @@ msgstr "输入域名，每行一个。要排除所有域名，请使用*。要�
 
 #: ../../web/templates/pages/edit_backup_exclusions.php:33
 msgid "Type domain name, one per line. To exclude all domains use *. To exclude specific accounts use following format: domain.tld:info:support:postmaster"
-msgstr "输入域名，每行一个。要排除所有域名，请使用*。要排除特定的目录，请使用以下格式：domain.tld:info:support:postmaster"
+msgstr "输入域名，每行一个。要排除所有域名，请使用*。要排除特定的账号，请使用以下格式：domain.tld:info:support:postmaster"
 
 #: ../../web/templates/pages/edit_backup_exclusions.php:37
 msgid "Type full database name, one per line. To exclude all databases use *"
@@ -4440,20 +4439,20 @@ msgstr "输入完整的数据库名称，每行一个。要排除所有数据库
 msgid "Type directory name, one per line. To exlude all dirs use *"
 msgstr "输入目录名称，每行一个。要提取所有目录，请使用*"
 
-#: ../../web/templates/pages/list_access_keys.php:97
+#: ../../web/templates/pages/list_access_keys.php:103
 #, php-format
 msgid "Are you sure you want to delete access key %s?"
-msgstr ""
+msgstr "您确定要删除访问密钥 %s 吗？"
 
-#: ../../web/templates/pages/list_access_keys.php:126
+#: ../../web/templates/pages/list_access_keys.php:132
 #, php-format
 msgid "%d access key"
 msgid_plural "%d access keys"
-msgstr[0] ""
+msgstr[0] "%d 访问密钥"
 
 #: ../../web/templates/pages/list_firewall_banlist.php:9
 msgid "Ban IP Address"
-msgstr "封锁IP地址"
+msgstr "禁止IP地址访问"
 
 #: ../../web/templates/pages/list_firewall_banlist.php:69
 #: ../../web/templates/pages/list_ip.php:117
@@ -4463,13 +4462,13 @@ msgstr "您确定要删除IP地址 %s？"
 
 #: ../../web/templates/pages/list_firewall_banlist.php:100
 msgid "There are currently no banned IP addresses."
-msgstr "目前没有被封锁的IP地址"
+msgstr "目前没有被禁止访问的IP地址"
 
 #: ../../web/templates/pages/list_firewall_banlist.php:102
 #, php-format
 msgid "%d banned IP address"
 msgid_plural "%d banned IP addresses"
-msgstr[0] "%d 个IP地址被封锁"
+msgstr[0] "%d 个IP地址被禁止访问"
 
 #: ../../web/templates/pages/list_ip.php:37
 #: ../../web/templates/pages/list_ip.php:72
@@ -4531,27 +4530,27 @@ msgstr "过期"
 #: ../../web/templates/pages/list_dns.php:34
 #: ../../web/templates/pages/list_dns.php:80
 #: ../../web/templates/pages/list_dns.php:216
-#: ../../web/templates/includes/panel.php:311
+#: ../../web/templates/includes/panel.php:313
 msgid "Records"
 msgstr "记录"
 
 #: ../../web/templates/pages/list_dns.php:84
 #: ../../web/templates/pages/list_dns.php:238
 msgid "DNSSEC"
-msgstr ""
+msgstr "DNSSEC"
 
 #: ../../web/templates/pages/list_dns.php:256
 #, php-format
 msgid "%d DNS zone"
 msgid_plural "%d DNS zones"
-msgstr[0] "%d 个DNS域名"
+msgstr[0] "%d 个DNS域"
 
-#: ../../web/templates/pages/list_weblog.php:51
-#: ../../web/templates/pages/list_weblog.php:53
+#: ../../web/templates/pages/list_weblog.php:52
+#: ../../web/templates/pages/list_weblog.php:54
 msgid "Error Log"
 msgstr "错误日志"
 
-#: ../../web/templates/pages/list_weblog.php:97
+#: ../../web/templates/pages/list_weblog.php:99
 #, php-format
 msgid "Last 70 lines of %s.%s.log"
 msgstr "%s.%s.log 的最新 70 行记录"
@@ -4572,7 +4571,7 @@ msgstr "正在加载..."
 #: ../../web/templates/includes/panel.php:92
 #: ../../web/templates/includes/js.php:9
 msgid "No notifications"
-msgstr ""
+msgstr "暂无通知"
 
 #: ../../web/templates/includes/panel.php:109
 msgid "Delete notification"
@@ -4583,68 +4582,68 @@ msgstr "删除通知"
 msgid "Delete all notifications"
 msgstr "删除所有通知"
 
-#: ../../web/templates/includes/panel.php:160
-#: ../../web/templates/includes/panel.php:162
+#: ../../web/templates/includes/panel.php:161
+#: ../../web/templates/includes/panel.php:163
 msgid "File manager"
 msgstr "文件管理器"
 
-#: ../../web/templates/includes/panel.php:174
-#: ../../web/templates/includes/panel.php:176
+#: ../../web/templates/includes/panel.php:175
+#: ../../web/templates/includes/panel.php:177
 msgid "Server settings"
 msgstr "服务器设置"
 
-#: ../../web/templates/includes/panel.php:213
-#: ../../web/templates/includes/panel.php:215
+#: ../../web/templates/includes/panel.php:214
+#: ../../web/templates/includes/panel.php:216
 msgid "Help"
 msgstr "寻求帮助"
 
-#: ../../web/templates/includes/panel.php:249
+#: ../../web/templates/includes/panel.php:251
 msgid "Collapse main menu"
 msgstr "收起主菜单"
 
-#: ../../web/templates/includes/panel.php:249
-#: ../../web/templates/includes/panel.php:252
+#: ../../web/templates/includes/panel.php:251
+#: ../../web/templates/includes/panel.php:254
 msgid "Expand main menu"
 msgstr "展开主菜单"
 
-#: ../../web/templates/includes/panel.php:267
-#: ../../web/templates/includes/panel.php:274
-#: ../../web/templates/includes/panel.php:285
-#: ../../web/templates/includes/panel.php:304
-#: ../../web/templates/includes/panel.php:323
-#: ../../web/templates/includes/panel.php:342
-#: ../../web/templates/includes/panel.php:358
+#: ../../web/templates/includes/panel.php:269
+#: ../../web/templates/includes/panel.php:276
+#: ../../web/templates/includes/panel.php:287
+#: ../../web/templates/includes/panel.php:306
+#: ../../web/templates/includes/panel.php:325
+#: ../../web/templates/includes/panel.php:344
+#: ../../web/templates/includes/panel.php:360
 msgid "Suspended"
 msgstr "暂停"
 
-#: ../../web/templates/includes/panel.php:268
+#: ../../web/templates/includes/panel.php:270
 msgid "USER"
 msgstr "用户账户"
 
-#: ../../web/templates/includes/panel.php:285
-#: ../../web/templates/includes/panel.php:304
-#: ../../web/templates/includes/panel.php:323
-#: ../../web/templates/includes/panel.php:342
-#: ../../web/templates/includes/panel.php:358
-#: ../../web/templates/includes/panel.php:374
+#: ../../web/templates/includes/panel.php:287
+#: ../../web/templates/includes/panel.php:306
+#: ../../web/templates/includes/panel.php:325
+#: ../../web/templates/includes/panel.php:344
+#: ../../web/templates/includes/panel.php:360
+#: ../../web/templates/includes/panel.php:376
 msgid "Limit"
 msgstr "限制"
 
-#: ../../web/templates/includes/panel.php:308
+#: ../../web/templates/includes/panel.php:310
 msgid "Zones"
-msgstr ""
+msgstr "区域"
 
-#: ../../web/templates/includes/panel.php:359
+#: ../../web/templates/includes/panel.php:361
 msgid "CRON"
 msgstr "定时任务"
 
-#: ../../web/templates/includes/panel.php:375
+#: ../../web/templates/includes/panel.php:377
 msgid "BACKUP"
 msgstr "数据备份"
 
 #: ../../web/templates/includes/js.php:11
 msgid "Are you sure you want to leave the page?"
-msgstr ""
+msgstr "您确定要离开此页面吗？"
 
 #: ../../web/templates/includes/js.php:13
 msgid "BLACKLIST"
@@ -4674,7 +4673,7 @@ msgstr "无效或缺少 OTP 验证码"
 #: ../../web/start/service/index.php:23
 #, php-format
 msgid "Start \"%s\" failed"
-msgstr "启动 \"%s\" 失败"
+msgstr "无法启动 \"%s\""
 
 #: ../../web/schedule/backup/index.php:12
 msgid "Task has been added to the queue. You will receive an email notification when your backup is ready for download."
@@ -4687,27 +4686,27 @@ msgstr "现有备份任务已在运行，请等待完成。"
 #: ../../web/update/hestia/index.php:20
 #, php-format
 msgid "Error: %s update failed."
-msgstr ""
+msgstr "错误: %s 更新失败。"
 
 #: ../../web/copy/package/index.php:35
 msgid "Error: unable to copy package."
-msgstr ""
+msgstr "错误：无法复制软件包。"
 
 #: ../../bin/v-list-sys-hestia-updates:110
 msgid "Hestia core package"
-msgstr ""
+msgstr "Hestia核心软件包"
 
 #: ../../bin/v-list-sys-hestia-updates:125
 msgid "Hestia internal php interpreter"
-msgstr ""
+msgstr "Hestia内部PHP服务器"
 
 #: ../../bin/v-list-sys-hestia-updates:141
 msgid "Hestia internal web server"
-msgstr ""
+msgstr "Hestia内部Web服务器"
 
 #: ../../bin/v-list-sys-services:161
 msgid "web server"
-msgstr "Web服务"
+msgstr "Web服务器"
 
 #: ../../bin/v-list-sys-services:172
 msgid "backend server"
@@ -4715,49 +4714,49 @@ msgstr "后端服务"
 
 #: ../../bin/v-list-sys-services:180
 msgid "reverse proxy"
-msgstr "反向代理"
+msgstr "网页/反向代理服务器"
 
 #: ../../bin/v-list-sys-services:189
 msgid "dns server"
-msgstr "DNS服务"
+msgstr "DNS服务器"
 
 #: ../../bin/v-list-sys-services:196
 msgid "mail server"
-msgstr "邮箱服务"
+msgstr "邮件服务器"
 
 #: ../../bin/v-list-sys-services:203
 msgid "imap/pop3 server"
-msgstr ""
+msgstr "IMAP/POP3服务器"
 
 #: ../../bin/v-list-sys-services:220
 msgid "email anti-virus"
-msgstr ""
+msgstr "病毒邮件防护"
 
 #: ../../bin/v-list-sys-services:228
 msgid "email spam filter"
-msgstr ""
+msgstr "垃圾邮件过滤器"
 
 #: ../../bin/v-list-sys-services:275
 msgid "database server"
-msgstr "数据库服务"
+msgstr "数据库服务器"
 
 #: ../../bin/v-list-sys-services:284
 msgid "ftp server"
-msgstr "FTP服务"
+msgstr "FTP服务器"
 
 #: ../../bin/v-list-sys-services:291
 msgid "job scheduler"
-msgstr "执行定时任务"
+msgstr "定时任务"
 
 #: ../../bin/v-list-sys-services:298
 msgid "ssh server"
-msgstr ""
+msgstr "SSH服务器"
 
 #: ../../bin/v-list-sys-services:308
 msgid "firewall"
-msgstr "防火墙服务"
+msgstr "防火墙"
 
 #: ../../bin/v-list-sys-services:323
 msgid "brute-force protection"
-msgstr ""
+msgstr "暴力破解防护"
 
