@@ -3,58 +3,55 @@ msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-07 11:19+0000\n"
-"PO-Revision-Date: 2023-08-07 11:24\n"
+"PO-Revision-Date: 2023-08-07 11:56\n"
 "Last-Translator: \n"
-"Language-Team: Romanian\n"
-"Language: ro_RO\n"
+"Language-Team: Albanian\n"
+"Language: sq_AL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && n%100<20)) ? 1 : 2);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: hestiacp\n"
 "X-Crowdin-Project-ID: 587405\n"
-"X-Crowdin-Language: ro\n"
+"X-Crowdin-Language: sq\n"
 "X-Crowdin-File: hestiacp.pot\n"
 "X-Crowdin-File-ID: 3\n"
 
 #: ../../web/stop/service/index.php:24
 #, php-format
 msgid "Stop \"%s\" failed"
-msgstr ""
+msgstr "Ndalo \"%s\" dështoi"
 
 #: ../../web/inc/main.php:179 ../../web/inc/main.php:188
 #: ../../web/generate/ssl/index.php:123
 #, php-format
 msgid "Error code: %s"
-msgstr ""
+msgstr "Kodi i gabimit: %s"
 
 #: ../../web/inc/main.php:266 ../../web/inc/main.php:277
 msgid "You are logged out, please log in again."
-msgstr ""
+msgstr "Jeni dalë nga llogaria, ju lutemi identifikohuni përsëri."
 
 #: ../../web/inc/main.php:339
 #, php-format
 msgid "%d day"
 msgid_plural "%d days"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d ditë"
+msgstr[1] "%d ditë"
 
 #: ../../web/inc/main.php:342
 #, php-format
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d ore"
+msgstr[1] "%d orë"
 
 #: ../../web/inc/main.php:346
 #, php-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d minutë"
+msgstr[1] "%d minuta"
 
 #: ../../web/reset/index.php:60
 msgid "Hello {{name}},\n\n"
@@ -66,41 +63,49 @@ msgid "Hello {{name}},\n\n"
 "Best regards,\n\n"
 "--\n"
 "{{appname}}"
-msgstr ""
+msgstr "Përshëndetje {{name}},\n\n"
+"Për të rivendosur fjalëkalimin tuaj të {{appname}}, ju lutemi ndiqni këtë lidhje:\n"
+"https://{{hostname}}/reset/?action=confirm&user={{user}}&code={{resetcode}}\n\n"
+"Përndryshe, mund të shkoni te https://{{hostname}}/reset/?action=code&user={{user}} dhe të futni kodin e mëposhtëm të rivendosjes:\n"
+"{{resetcode}}\n\n"
+"Nëse nuk keni kërkuar rivendosjen e fjalëkalimit, ju lutemi shpërfilleni këtë mesazh dhe pranoni faljen tonë.\n\n"
+"Përshëndetjet më të mira,\n\n"
+"--\n"
+"{{appname}}"
 
 #: ../../web/reset/index.php:84
 #, php-format
 msgid "Password Reset at %s"
-msgstr ""
+msgstr "Rivendosja e fjalëkalimit në %s"
 
 #: ../../web/reset/index.php:137 ../../web/reset/index.php:141
 #: ../../web/reset/index.php:146 ../../web/reset/index.php:155
 msgid "Password reset instructions have been sent to the email address associated with this account."
-msgstr ""
+msgstr "Udhëzimet e rivendosjes së fjalëkalimit janë dërguar në adresën e emailit të lidhur me këtë llogari."
 
 #: ../../web/reset/index.php:150
 msgid "Please wait 15 minutes before sending a new request."
-msgstr ""
+msgstr "Ju lutemi prisni 15 minuta përpara se të dërgoni një kërkesë të re."
 
 #: ../../web/reset/index.php:187
 msgid "An internal error occurred"
-msgstr ""
+msgstr "Ndodhi një gabim i brendshëm"
 
 #: ../../web/reset/index.php:195
 msgid "Code has been expired"
-msgstr ""
+msgstr "Kodi ka skaduar"
 
 #: ../../web/reset/index.php:213 ../../web/reset/index.php:231
 msgid "Invalid username or code"
-msgstr "Numele de utilizator sau cod greșit"
+msgstr "Emër përdoruesi ose kod i pavlefshëm"
 
 #: ../../web/reset/index.php:234
 msgid "Passwords do not match"
-msgstr ""
+msgstr "Fjalëkalimet nuk përputhen"
 
 #: ../../web/download/backup/index.php:20
 msgid "Download of remote backup file has been scheduled."
-msgstr ""
+msgstr "Shkarkimi i skedarit Backup në distancë është planifikuar."
 
 #: ../../web/download/backup/index.php:24 ../../web/unsuspend/mail/index.php:18
 #: ../../web/unsuspend/mail/index.php:45 ../../web/unsuspend/dns/index.php:18
@@ -108,7 +113,7 @@ msgstr ""
 #: ../../web/schedule/restore/index.php:70
 #: ../../web/schedule/backup/index.php:17
 msgid "Error: Hestia did not return any output."
-msgstr ""
+msgstr "Gabim: Hestia nuk ktheu asnjë dalje."
 
 #: ../../web/edit/cron/index.php:89 ../../web/edit/db/index.php:100
 #: ../../web/edit/mail/index.php:736 ../../web/edit/mail/index.php:1166
@@ -141,13 +146,13 @@ msgstr ""
 #: ../../web/edit/server/httpd/index.php:44
 #: ../../web/edit/server/php-fpm/index.php:44
 msgid "Changes have been saved."
-msgstr ""
+msgstr "Ndryshimet janë ruajtur."
 
 #: ../../web/edit/db/index.php:74 ../../web/edit/mail/index.php:774
 #: ../../web/edit/user/index.php:159 ../../web/add/db/index.php:55
 #: ../../web/add/mail/index.php:246 ../../web/add/user/index.php:56
 msgid "Password does not match the minimum requirements."
-msgstr ""
+msgstr "Fjalëkalimi nuk përputhet me kërkesat minimale."
 
 #: ../../web/edit/mail/index.php:598 ../../web/edit/web/index.php:863
 #: ../../web/edit/web/index.php:1084 ../../web/edit/web/index.php:1124
@@ -165,13 +170,13 @@ msgstr ""
 #: ../../web/generate/ssl/index.php:69
 #, php-format
 msgid "Field \"%s\" can not be blank."
-msgstr "Câmpul \"%s\" nu poate fi gol."
+msgstr "Fusha \"%s\" nuk mund të jetë bosh."
 
 #: ../../web/edit/mail/index.php:748 ../../web/edit/web/index.php:1173
 #: ../../web/edit/user/index.php:411 ../../web/add/db/index.php:48
 #: ../../web/add/mail/index.php:239 ../../web/add/user/index.php:50
 msgid "Please enter a valid email address."
-msgstr ""
+msgstr "Ju lutemi shkruani një adresë të vlefshme emaili."
 
 #: ../../web/edit/mail/index.php:1098 ../../web/add/mail/index.php:438
 msgid "Mail account has been created.\n\n"
@@ -198,16 +203,39 @@ msgid "Mail account has been created.\n\n"
 "Best regards,\n\n"
 "--\n"
 "{{appname}}"
-msgstr ""
+msgstr "Llogaria e postës është krijuar.\n\n"
+"Cilësimet e zakonshme të llogarisë:\n"
+"Emri i përdoruesit: {{account}}@{{domain}}\n"
+"Fjalëkalimi: {{password}}\n"
+"Posta në internet: {{webmail}}\n"
+"Emri i hostit: {{hostname}}\n\n"
+"Cilësimet IMAP\n"
+"Vërtetimi: Fjalëkalim normal\n"
+"SSL/TLS: Porta 993\n"
+"STARTTLS: Porti 143\n"
+"Pa kriptim: Porta 143\n\n"
+"Cilësimet e POP3\n"
+"Vërtetimi: Fjalëkalim normal\n"
+"SSL/TLS: Porta 995\n"
+"STARTTLS: Porta 110\n"
+"Pa kriptim: Porta 110\n\n"
+"Cilësimet SMTP\n"
+"Vërtetimi: Fjalëkalim normal\n"
+"SSL/TLS: Porta 465\n"
+"STARTTLS: Porta 587\n"
+"Pa enkriptim: Porta 25\n\n"
+"Përshëndetjet më të mira,\n\n"
+"--\n"
+"{{appname}}"
 
 #: ../../web/edit/mail/index.php:1135 ../../web/add/mail/index.php:475
 #, php-format
 msgid "Email Credentials: %s@%s"
-msgstr ""
+msgstr "Kredencialet e emailit: %s@%s"
 
 #: ../../web/edit/dns/index.php:347
 msgid "Error: unknown record ID."
-msgstr ""
+msgstr "Gabim: ID e panjohur e regjistrimit."
 
 #: ../../web/edit/web/index.php:1074 ../../web/edit/web/index.php:1114
 #: ../../web/edit/web/index.php:1330 ../../web/add/db/index.php:20
@@ -232,7 +260,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_server.php:458
 #: ../../web/templates/pages/edit_server.php:805
 msgid "Username"
-msgstr "Nume utilizator"
+msgstr "Emri i përdoruesit"
 
 #: ../../web/edit/web/index.php:1245 ../../web/edit/web/index.php:1393
 msgid "FTP account has been created and ready to use.\n\n"
@@ -242,16 +270,22 @@ msgid "FTP account has been created and ready to use.\n\n"
 "Best regards,\n\n"
 "--\n"
 "{{appname}}"
-msgstr ""
+msgstr "Llogaria FTP është krijuar dhe gati për t'u përdorur.\n\n"
+"Emri i hostit: {{domain}}\n"
+"Emri i përdoruesit: {{username}}\n"
+"Fjalëkalimi: {{password}}\n\n"
+"Përshëndetjet më të mira,\n\n"
+"--\n"
+"{{appname}}"
 
 #: ../../web/edit/web/index.php:1262 ../../web/edit/web/index.php:1410
 #, php-format
 msgid "FTP Account Credentials: %s"
-msgstr ""
+msgstr "Kredencialet e llogarisë FTP: %s"
 
 #: ../../web/edit/user/index.php:427
 msgid "Please enter a valid contact name."
-msgstr ""
+msgstr "Ju lutemi shkruani një emër kontakti të vlefshëm."
 
 #: ../../web/edit/firewall/index.php:70 ../../web/add/firewall/index.php:42
 #: ../../web/templates/pages/add_firewall.php:28
@@ -261,7 +295,7 @@ msgstr ""
 #: ../../web/templates/pages/list_firewall.php:70
 #: ../../web/templates/pages/list_firewall.php:111
 msgid "Action"
-msgstr "Acțiune"
+msgstr "Veprim"
 
 #: ../../web/edit/firewall/index.php:73 ../../web/add/firewall/index.php:45
 #: ../../web/templates/pages/add_firewall.php:35
@@ -271,7 +305,7 @@ msgstr "Acțiune"
 #: ../../web/templates/pages/list_firewall.php:165
 #: ../../web/templates/pages/edit_server.php:749
 msgid "Protocol"
-msgstr ""
+msgstr "Protokoll"
 
 #: ../../web/edit/firewall/index.php:76 ../../web/add/firewall/index.php:48
 #: ../../web/templates/pages/edit_mail.php:182
@@ -302,7 +336,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_server.php:446
 #: ../../web/templates/pages/edit_server.php:793
 msgid "Port"
-msgstr ""
+msgstr "Port"
 
 #: ../../web/edit/firewall/index.php:79 ../../web/add/dns/index.php:25
 #: ../../web/add/web/index.php:20 ../../web/add/ip/index.php:23
@@ -330,7 +364,7 @@ msgstr ""
 #: ../../web/templates/pages/list_ip.php:94
 #: ../../web/templates/pages/list_dns.php:28
 msgid "IP Address"
-msgstr "Adresă IP"
+msgstr "IP adresa"
 
 #: ../../web/edit/package/index.php:137 ../../web/add/user/index.php:29
 #: ../../web/add/package/index.php:23
@@ -342,41 +376,41 @@ msgstr "Adresă IP"
 #: ../../web/templates/pages/list_packages.php:54
 #: ../../web/templates/pages/list_packages.php:123
 msgid "Package"
-msgstr "Pachet"
+msgstr "Paketa"
 
 #: ../../web/edit/package/index.php:140 ../../web/add/package/index.php:26
 #: ../../web/templates/pages/edit_package.php:100
 #: ../../web/templates/pages/add_package.php:98
 #: ../../web/templates/pages/edit_web.php:264
 msgid "Web Template"
-msgstr "Șablon Web"
+msgstr "Web Template"
 
 #: ../../web/edit/package/index.php:144 ../../web/add/package/index.php:30
 #: ../../web/templates/pages/edit_package.php:117
 #: ../../web/templates/pages/add_package.php:115
 #: ../../web/templates/pages/edit_web.php:301
 msgid "Backend Template"
-msgstr "Șablo Backend"
+msgstr "Shablloni i Backend-it"
 
 #: ../../web/edit/package/index.php:149 ../../web/add/package/index.php:38
 #: ../../web/templates/pages/edit_package.php:135
 #: ../../web/templates/pages/add_package.php:134
 #: ../../web/templates/pages/edit_web.php:331
 msgid "Proxy Template"
-msgstr "Șablon Proxy"
+msgstr "Proxy Template"
 
 #: ../../web/edit/package/index.php:153 ../../web/add/package/index.php:45
 #: ../../web/templates/pages/edit_package.php:161
 #: ../../web/templates/pages/add_package.php:160
 msgid "DNS Template"
-msgstr "Șablon DNS"
+msgstr "DNS Template"
 
 #: ../../web/edit/package/index.php:156 ../../web/add/package/index.php:48
 #: ../../web/templates/pages/list_packages.php:57
 #: ../../web/templates/pages/list_packages.php:58
 #: ../../web/templates/pages/list_packages.php:173
 msgid "Shell"
-msgstr ""
+msgstr "Shell"
 
 #: ../../web/edit/package/index.php:159 ../../web/add/package/index.php:51
 #: ../../web/templates/pages/list_user.php:95
@@ -392,7 +426,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_backup_exclusions.php:28
 #: ../../web/templates/pages/list_stats.php:145
 msgid "Web Domains"
-msgstr "Domenii web"
+msgstr "Web Domains"
 
 #: ../../web/edit/package/index.php:162 ../../web/add/package/index.php:54
 #: ../../web/templates/pages/edit_package.php:89
@@ -403,7 +437,7 @@ msgstr "Domenii web"
 #: ../../web/templates/pages/add_package.php:87
 #: ../../web/templates/pages/list_stats.php:177
 msgid "Web Aliases"
-msgstr "Aliasuri web"
+msgstr "Web Pseudonimet"
 
 #: ../../web/edit/package/index.php:165 ../../web/add/package/index.php:57
 #: ../../web/templates/pages/list_user.php:99
@@ -417,7 +451,7 @@ msgstr "Aliasuri web"
 #: ../../web/templates/pages/add_package.php:175
 #: ../../web/templates/pages/list_stats.php:193
 msgid "DNS Zones"
-msgstr ""
+msgstr "DNS Zona"
 
 #: ../../web/edit/package/index.php:168 ../../web/add/package/index.php:60
 #: ../../web/templates/pages/list_mail.php:201
@@ -438,7 +472,7 @@ msgstr ""
 #: ../../web/templates/pages/list_dns.php:182
 #: ../../web/templates/pages/list_dns.php:185
 msgid "DNS Records"
-msgstr ""
+msgstr "Të dhënat DNS"
 
 #: ../../web/edit/package/index.php:171 ../../web/add/package/index.php:63
 #: ../../web/templates/pages/list_mail.php:68
@@ -454,7 +488,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_backup_exclusions.php:32
 #: ../../web/templates/pages/list_stats.php:153
 msgid "Mail Domains"
-msgstr "Domenii de mail"
+msgstr "Mail Domenit"
 
 #: ../../web/edit/package/index.php:174 ../../web/add/package/index.php:66
 #: ../../web/templates/pages/list_mail.php:180
@@ -469,7 +503,7 @@ msgstr "Domenii de mail"
 #: ../../web/templates/pages/add_package.php:264
 #: ../../web/templates/pages/list_stats.php:169
 msgid "Mail Accounts"
-msgstr "Conturi de mail"
+msgstr "Llogaritë e Mail"
 
 #: ../../web/edit/package/index.php:177 ../../web/add/package/index.php:84
 #: ../../web/templates/pages/edit_mail.php:64
@@ -478,7 +512,7 @@ msgstr "Conturi de mail"
 #: ../../web/templates/pages/add_package.php:275
 #: ../../web/templates/pages/add_mail_acc.php:106
 msgid "Rate Limit"
-msgstr ""
+msgstr "Kufiri i normës"
 
 #: ../../web/edit/package/index.php:180 ../../web/add/package/index.php:69
 #: ../../web/templates/pages/list_user.php:107
@@ -498,7 +532,7 @@ msgstr ""
 #: ../../web/templates/includes/panel.php:358
 #: ../../web/templates/includes/panel.php:362
 msgid "Databases"
-msgstr "Baze de date"
+msgstr "Bazat e të dhënave"
 
 #: ../../web/edit/package/index.php:183 ../../web/add/package/index.php:72
 #: ../../web/templates/pages/edit_package.php:311
@@ -511,7 +545,7 @@ msgstr "Baze de date"
 #: ../../web/templates/pages/list_cron.php:70
 #: ../../web/templates/pages/list_stats.php:201
 msgid "Cron Jobs"
-msgstr ""
+msgstr "Cron Jobs"
 
 #: ../../web/edit/package/index.php:186 ../../web/add/package/index.php:75
 #: ../../web/templates/pages/list_backup.php:39
@@ -529,7 +563,7 @@ msgstr ""
 #: ../../web/templates/includes/panel.php:390
 #: ../../web/templates/includes/panel.php:394
 msgid "Backups"
-msgstr "Copii de siguranță"
+msgstr "Backups"
 
 #: ../../web/edit/package/index.php:189 ../../web/add/package/index.php:78
 #: ../../web/templates/pages/list_mail_acc.php:43
@@ -544,7 +578,7 @@ msgstr "Copii de siguranță"
 #: ../../web/templates/pages/add_package.php:44
 #: ../../web/templates/pages/add_mail_acc.php:71
 msgid "Quota"
-msgstr "cotă"
+msgstr "Kuota"
 
 #: ../../web/edit/package/index.php:192 ../../web/add/package/index.php:81
 #: ../../web/templates/pages/list_user.php:23
@@ -564,24 +598,24 @@ msgstr "cotă"
 #: ../../web/templates/pages/list_stats.php:69
 #: ../../web/templates/includes/panel.php:42
 msgid "Bandwidth"
-msgstr "Trafic"
+msgstr "Bandwidth"
 
 #: ../../web/edit/package/index.php:198 ../../web/add/package/index.php:89
 msgid "Nameserver 1"
-msgstr ""
+msgstr "Nameserver 1"
 
 #: ../../web/edit/package/index.php:201 ../../web/add/package/index.php:92
 msgid "Nameserver 2"
-msgstr ""
+msgstr "Nameserver 2"
 
 #: ../../web/edit/server/cron/index.php:17
 #: ../../web/edit/server/crond/index.php:17
 msgid "Info (read-only mode): Crontab can only be edited via SSH."
-msgstr ""
+msgstr "Informacion (modaliteti vetëm për lexim): Crontab mund të modifikohet vetëm nëpërmjet SSH."
 
 #: ../../web/edit/server/index.php:1229
 msgid "Inactive session timeout can not lower than 1 minute."
-msgstr ""
+msgstr "Koha e seancës joaktive nuk mund të jetë më e vogël se 1 minutë."
 
 #: ../../web/delete/web/cache/index.php:20
 msgid "NGINX cache has been purged successfully."
@@ -598,7 +632,7 @@ msgstr ""
 #: ../../web/restart/service/index.php:23
 #, php-format
 msgid "Restart \"%s\" failed"
-msgstr "Repornire \"%s\" nereușită"
+msgstr ""
 
 #: ../../web/restart/system/index.php:26 ../../web/bulk/service/index.php:40
 msgid "The system is going down for reboot NOW!"
@@ -633,7 +667,7 @@ msgstr ""
 #: ../../web/templates/pages/add_cron.php:233
 #: ../../web/templates/pages/add_cron.php:345
 msgid "Minute"
-msgstr "Minut"
+msgstr "Minutë"
 
 #: ../../web/add/cron/index.php:20 ../../web/templates/pages/edit_cron.php:38
 #: ../../web/templates/pages/edit_cron.php:134
@@ -646,7 +680,7 @@ msgstr "Minut"
 #: ../../web/templates/pages/add_cron.php:206
 #: ../../web/templates/pages/add_cron.php:318
 msgid "Hour"
-msgstr "Oră"
+msgstr "Orë"
 
 #: ../../web/add/cron/index.php:23 ../../web/templates/pages/edit_cron.php:42
 #: ../../web/templates/pages/edit_cron.php:284
@@ -655,21 +689,21 @@ msgstr "Oră"
 #: ../../web/templates/pages/add_cron.php:42
 #: ../../web/templates/pages/add_cron.php:284
 msgid "Day"
-msgstr "Zi"
+msgstr "Ditë"
 
 #: ../../web/add/cron/index.php:26 ../../web/templates/pages/edit_cron.php:46
 #: ../../web/templates/pages/list_cron.php:82
 #: ../../web/templates/pages/list_cron.php:180
 #: ../../web/templates/pages/add_cron.php:46
 msgid "Month"
-msgstr "Lună"
+msgstr "Muaji"
 
 #: ../../web/add/cron/index.php:29 ../../web/templates/pages/edit_cron.php:50
 #: ../../web/templates/pages/list_cron.php:83
 #: ../../web/templates/pages/list_cron.php:184
 #: ../../web/templates/pages/add_cron.php:50
 msgid "Day of Week"
-msgstr ""
+msgstr "Ditë të javës"
 
 #: ../../web/add/cron/index.php:32 ../../web/templates/pages/edit_cron.php:28
 #: ../../web/templates/pages/list_cron.php:25
@@ -678,18 +712,18 @@ msgstr ""
 #: ../../web/templates/pages/list_cron.php:116
 #: ../../web/templates/pages/add_cron.php:28
 msgid "Command"
-msgstr "Comandă"
+msgstr "Komanda"
 
 #: ../../web/add/cron/index.php:80
 msgid "Cron job has been created successfully."
-msgstr ""
+msgstr "Cron job është krijuar me sukses."
 
 #: ../../web/add/db/index.php:17
 #: ../../web/templates/pages/list_backup_detail.php:179
 #: ../../web/templates/pages/add_db.php:53
 #: ../../web/templates/pages/edit_db.php:28
 msgid "Database"
-msgstr "Bază de date"
+msgstr "Baza e të dhënave"
 
 #: ../../web/add/db/index.php:23 ../../web/add/mail/index.php:222
 #: ../../web/add/user/index.php:26 ../../web/templates/pages/edit_mail.php:190
@@ -711,7 +745,7 @@ msgstr "Bază de date"
 #: ../../web/templates/pages/edit_server.php:565
 #: ../../web/templates/pages/edit_server.php:817
 msgid "Password"
-msgstr "Parolă"
+msgstr "Fjalkalimi"
 
 #: ../../web/add/db/index.php:26 ../../web/add/dns/index.php:226
 #: ../../web/templates/pages/list_backup.php:50
@@ -744,7 +778,7 @@ msgstr "Parolă"
 #: ../../web/templates/pages/list_search.php:173
 #: ../../web/templates/pages/edit_dns_rec.php:39
 msgid "Type"
-msgstr "Tip"
+msgstr "Tipi"
 
 #: ../../web/add/db/index.php:29 ../../web/templates/pages/edit_mail.php:178
 #: ../../web/templates/pages/add_mail.php:105
@@ -758,7 +792,7 @@ msgstr "Tip"
 #: ../../web/templates/pages/edit_server.php:781
 #: ../../web/templates/pages/edit_server.php:883
 msgid "Host"
-msgstr ""
+msgstr "Host"
 
 #: ../../web/add/db/index.php:32 ../../web/templates/pages/add_db.php:122
 #: ../../web/templates/pages/list_db.php:50
@@ -766,7 +800,7 @@ msgstr ""
 #: ../../web/templates/pages/list_db.php:255
 #: ../../web/templates/pages/edit_db.php:69
 msgid "Charset"
-msgstr "Set de caractere"
+msgstr "Set Karakteresh"
 
 #: ../../web/add/db/index.php:150
 msgid "Database has been created.\n\n"
@@ -803,7 +837,7 @@ msgstr ""
 #: ../../web/templates/pages/generate_ssl.php:18
 #: ../../web/templates/pages/edit_dns_rec.php:28
 msgid "Domain"
-msgstr "Domeniu"
+msgstr ""
 
 #: ../../web/add/mail/index.php:189
 #, php-format
@@ -814,7 +848,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_mail_acc.php:38
 #: ../../web/templates/pages/add_mail_acc.php:42
 msgid "Account"
-msgstr "Cont"
+msgstr ""
 
 #: ../../web/add/mail/index.php:508
 #, php-format
@@ -841,7 +875,7 @@ msgstr ""
 #: ../../web/templates/pages/add_dns_rec.php:33
 #: ../../web/templates/pages/edit_dns_rec.php:33
 msgid "Record"
-msgstr "Registru"
+msgstr ""
 
 #: ../../web/add/dns/index.php:229
 #: ../../web/templates/pages/list_mail_dns.php:28
@@ -857,7 +891,7 @@ msgstr "Registru"
 #: ../../web/templates/pages/add_dns_rec.php:58
 #: ../../web/templates/pages/edit_dns_rec.php:59
 msgid "IP or Value"
-msgstr "IP sau valoare"
+msgstr ""
 
 #: ../../web/add/dns/index.php:280
 #, php-format
@@ -873,27 +907,27 @@ msgstr ""
 #: ../../web/templates/pages/list_access_key.php:46
 #: ../../web/templates/pages/add_access_key.php:26
 msgid "Permissions"
-msgstr ""
+msgstr "Lejet"
 
 #: ../../web/add/access-key/index.php:79
 #, php-format
 msgid "Access key {%s} has been created successfully."
-msgstr ""
+msgstr "Çelësi i hyrjes {%s} është krijuar me sukses."
 
 #: ../../web/add/webapp/index.php:58
 #, php-format
 msgid "Unable to install %s, %s is not available."
-msgstr ""
+msgstr "%s nuk mund të instalohet, %s nuk disponohet."
 
 #: ../../web/add/webapp/index.php:73
 #, php-format
 msgid "%s installer missing."
-msgstr ""
+msgstr "Mungon instaluesi %s."
 
 #: ../../web/add/webapp/index.php:91
 #, php-format
 msgid "%s installed successfully."
-msgstr ""
+msgstr "%s u instalua me sukses."
 
 #: ../../web/add/ip/index.php:26 ../../web/templates/pages/add_ip.php:39
 #: ../../web/templates/pages/edit_ip.php:40
@@ -901,7 +935,7 @@ msgstr ""
 #: ../../web/templates/pages/list_ip.php:68
 #: ../../web/templates/pages/list_ip.php:126
 msgid "Netmask"
-msgstr "Mască rețea"
+msgstr "Netmask"
 
 #: ../../web/add/ip/index.php:29 ../../web/templates/pages/add_ip.php:43
 #: ../../web/templates/pages/edit_ip.php:44
@@ -909,17 +943,17 @@ msgstr "Mască rețea"
 #: ../../web/templates/pages/list_ip.php:69
 #: ../../web/templates/pages/list_ip.php:130
 msgid "Interface"
-msgstr "Interfață"
+msgstr "Interface"
 
 #: ../../web/add/ip/index.php:32 ../../web/templates/pages/add_ip.php:62
 #: ../../web/templates/pages/edit_ip.php:55
 msgid "Assigned User"
-msgstr ""
+msgstr "Përdorues i caktuar"
 
 #: ../../web/add/ip/index.php:93
 #, php-format
 msgid "IP address {%s} has been created successfully."
-msgstr ""
+msgstr "Adresa IP {%s} është krijuar me sukses."
 
 #: ../../web/add/user/index.php:32 ../../web/templates/pages/list_user.php:166
 #: ../../web/templates/pages/add_user.php:43
@@ -927,12 +961,12 @@ msgstr ""
 #: ../../web/templates/pages/login/reset_1.php:18
 #: ../../web/templates/pages/generate_ssl.php:27
 msgid "Email"
-msgstr "E-mail"
+msgstr "Email"
 
 #: ../../web/add/user/index.php:35 ../../web/templates/pages/add_user.php:39
 #: ../../web/templates/pages/edit_user.php:69
 msgid "Contact Name"
-msgstr ""
+msgstr "Emri i kontaktit"
 
 #: ../../web/add/user/index.php:156
 msgid "Hello {{name}},\n\n"
@@ -943,19 +977,26 @@ msgid "Hello {{name}},\n\n"
 "Best regards,\n\n"
 "--\n"
 "{{appname}}"
-msgstr ""
+msgstr "Përshëndetje {{name}},\n\n"
+"Llogaria juaj është krijuar dhe gati për t'u përdorur.\n\n"
+"https://{{hostname}}/login/\n"
+"Emri i përdoruesit: {{user}}\n"
+"Fjalëkalimi: {{password}}\n\n"
+"Përshëndetjet më të mira,\n\n"
+"--\n"
+"{{appname}}"
 
 #: ../../web/add/user/index.php:175
 #: ../../web/templates/pages/login/login_a.php:8
 #: ../../web/templates/pages/login/login.php:8
 #, php-format
 msgid "Welcome to %s"
-msgstr ""
+msgstr "Mirë se vini në %s"
 
 #: ../../web/add/user/index.php:225
 #, php-format
 msgid "User {%s} has been created successfully. / {Log in as %s}"
-msgstr ""
+msgstr "Përdoruesi {%s} është krijuar me sukses. / {Identifikohu si %s}"
 
 #: ../../web/add/firewall/ipset/index.php:23
 #: ../../web/templates/pages/list_mail.php:16
@@ -988,58 +1029,58 @@ msgstr ""
 #: ../../web/templates/pages/list_dns.php:78
 #: ../../web/templates/pages/list_dns.php:135
 msgid "Name"
-msgstr ""
+msgstr "Emri"
 
 #: ../../web/add/firewall/ipset/index.php:26
 #: ../../web/templates/pages/add_firewall_ipset.php:76
 msgid "Data Source"
-msgstr ""
+msgstr "Burim i të dhënave"
 
 #: ../../web/add/firewall/ipset/index.php:29
 #: ../../web/templates/pages/list_firewall_ipset.php:40
 #: ../../web/templates/pages/list_firewall_ipset.php:87
 #: ../../web/templates/pages/add_firewall_ipset.php:92
 msgid "IP Version"
-msgstr ""
+msgstr "Versioni IP"
 
 #: ../../web/add/firewall/ipset/index.php:32
 #: ../../web/templates/pages/list_firewall_ipset.php:39
 #: ../../web/templates/pages/list_firewall_ipset.php:79
 #: ../../web/templates/pages/add_firewall_ipset.php:99
 msgid "Auto Update"
-msgstr ""
+msgstr "Përditësim automatik"
 
 #: ../../web/add/firewall/ipset/index.php:72
 msgid "IP list has been created successfully."
-msgstr ""
+msgstr "Adresa IP {} është krijuar me sukses."
 
 #: ../../web/add/firewall/index.php:97
 msgid "Rule has been created successfully."
-msgstr ""
+msgstr "Rregulli është krijuar me sukses."
 
 #: ../../web/add/firewall/banlist/index.php:23
 #: ../../web/templates/pages/add_firewall_banlist.php:34
 msgid "Banlist"
-msgstr ""
+msgstr "Banlist"
 
 #: ../../web/add/firewall/banlist/index.php:52
 msgid "IP address has been banned successfully."
-msgstr ""
+msgstr "Adresa IP është ndaluar me sukses."
 
 #: ../../web/add/package/index.php:203
 #, php-format
 msgid "Package {%s} has been created successfully."
-msgstr ""
+msgstr "Paketa {%s} është krijuar me sukses."
 
 #: ../../web/add/key/index.php:17 ../../web/templates/pages/list_key.php:37
 #: ../../web/templates/pages/list_key.php:74
 #: ../../web/templates/pages/add_key.php:34
 msgid "SSH Key"
-msgstr ""
+msgstr "SSH Key"
 
 #: ../../web/add/key/index.php:57 ../../web/add/key/index.php:60
 msgid "SSH Key already exists."
-msgstr ""
+msgstr "SSH Key tashmë ekziston."
 
 #: ../../web/add/key/index.php:73
 msgid "SSH Key has been created successfully."
@@ -1049,69 +1090,69 @@ msgstr ""
 #: ../../web/templates/pages/add_firewall_ipset.php:49
 #: ../../web/templates/pages/generate_ssl.php:34
 msgid "Country"
-msgstr "Țară"
+msgstr "Vendi"
 
 #: ../../web/generate/ssl/index.php:44
 msgid "State"
-msgstr ""
+msgstr "Shtet"
 
 #: ../../web/generate/ssl/index.php:47
 msgid "City"
-msgstr ""
+msgstr "Qyteti"
 
 #: ../../web/generate/ssl/index.php:50
 #: ../../web/templates/pages/generate_ssl.php:53
 msgid "Organization"
-msgstr "Organizație"
+msgstr "Organizata"
 
 #: ../../web/generate/ssl/index.php:132
 msgid "Certificate has been generated successfully."
-msgstr ""
+msgstr "Certifikata është krijuar me sukses."
 
 #: ../../web/templates/footer.php:23 ../../web/templates/footer.php:59
 #: ../../web/templates/footer.php:62
 msgid "Shortcuts"
-msgstr "Scurtături"
+msgstr "Shortcuts"
 
 #: ../../web/templates/footer.php:33
 msgid "Add new object"
-msgstr ""
+msgstr "Shto objekt të ri"
 
 #: ../../web/templates/footer.php:34
 msgid "Save form"
-msgstr ""
+msgstr "Ruaj formularin"
 
 #: ../../web/templates/footer.php:35
 msgid "Unsave form"
-msgstr ""
+msgstr "Zhvendos formularin"
 
 #: ../../web/templates/footer.php:36
 msgid "Go to WEB list"
-msgstr "Mergi la lista WEB"
+msgstr "Shkoni te lista WEB"
 
 #: ../../web/templates/footer.php:37
 msgid "Go to DNS list"
-msgstr "Mergi la lista DNS"
+msgstr "Shkoni te lista DNS"
 
 #: ../../web/templates/footer.php:38
 msgid "Go to MAIL list"
-msgstr "Mergi la lista MAIL"
+msgstr "Shkoni te lista MAIL"
 
 #: ../../web/templates/footer.php:39
 msgid "Go to DB list"
-msgstr "Mergi la lista DB"
+msgstr "Shkoni te lista DB"
 
 #: ../../web/templates/footer.php:40
 msgid "Go to CRON list"
-msgstr "Mergi la lista CRON"
+msgstr "Shkoni te lista CRON"
 
 #: ../../web/templates/footer.php:41
 msgid "Go to BACKUP list"
-msgstr "Mergi la lista BACKUP"
+msgstr "Shkoni te lista BACKUP"
 
 #: ../../web/templates/footer.php:44
 msgid "Focus on search"
-msgstr "Focalizare pe căutare"
+msgstr ""
 
 #: ../../web/templates/footer.php:45
 msgid "Display / Hide shortcuts"
@@ -1119,23 +1160,23 @@ msgstr ""
 
 #: ../../web/templates/footer.php:46
 msgid "Move backward through top menu"
-msgstr "Deplasare înapoi prin meniul principal"
+msgstr ""
 
 #: ../../web/templates/footer.php:47
 msgid "Move forward through top menu"
-msgstr "Deplasare înainte prin meniul principal"
+msgstr ""
 
 #: ../../web/templates/footer.php:48
 msgid "Enter focused element"
-msgstr "Intrare în elementul focalizat "
+msgstr ""
 
 #: ../../web/templates/footer.php:49
 msgid "Move up through elements list"
-msgstr "Deplasare în sus prin lista de elemente"
+msgstr ""
 
 #: ../../web/templates/footer.php:50
 msgid "Move down through elements list"
-msgstr "Deplasare în jos prin lista de elemente"
+msgstr ""
 
 #: ../../web/templates/footer.php:68 ../../web/templates/footer.php:71
 #: ../../web/templates/pages/list_server_info.php:118
@@ -1222,7 +1263,7 @@ msgstr ""
 #: ../../web/templates/pages/list_weblog.php:36
 #: ../../web/templates/pages/edit_dns_rec.php:6
 msgid "Back"
-msgstr "Înapoi"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:9
 msgid "Add IP list"
@@ -1342,7 +1383,7 @@ msgstr ""
 #: ../../web/templates/pages/list_dns.php:205
 #: ../../web/templates/pages/list_dns.php:209
 msgid "Delete"
-msgstr "Ștergere"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:30
 #: ../../web/templates/pages/list_firewall.php:17
@@ -1367,7 +1408,7 @@ msgstr ""
 #: ../../web/templates/pages/list_ip.php:64
 #: ../../web/templates/pages/list_dns.php:76
 msgid "Select all"
-msgstr "Selectează tot"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:37
 #: ../../web/templates/pages/list_firewall_ipset.php:59
@@ -1415,7 +1456,7 @@ msgstr ""
 #: ../../web/templates/pages/list_dns.php:16
 #: ../../web/templates/pages/list_dns.php:22
 msgid "Date"
-msgstr "Dată"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:42
 #: ../../web/templates/pages/list_firewall_ipset.php:95
@@ -1469,7 +1510,7 @@ msgstr ""
 #: ../../web/templates/pages/list_dns.php:130
 #: ../../web/templates/pages/list_dns.php:131
 msgid "Select"
-msgstr "Selectează"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:70
 #, php-format
@@ -1501,7 +1542,7 @@ msgstr ""
 #: ../../web/templates/pages/list_dns.php:101
 #: ../../web/templates/pages/list_dns.php:115
 msgid "Disabled"
-msgstr "Dezactivat"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:83
 #: ../../web/templates/pages/list_mail.php:104
@@ -1525,7 +1566,7 @@ msgstr "Dezactivat"
 #: ../../web/templates/pages/list_dns.php:104
 #: ../../web/templates/pages/list_dns.php:118
 msgid "Enabled"
-msgstr "Activat"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_ipset.php:109
 msgid "There are currently no IP lists defined."
@@ -1537,7 +1578,6 @@ msgid "%d IP list"
 msgid_plural "%d IP lists"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
 
 #: ../../web/templates/pages/list_updates.php:12
 msgid "Disable Automatic Updates"
@@ -1551,7 +1591,7 @@ msgstr ""
 #: ../../web/templates/pages/list_services.php:12
 #: ../../web/templates/pages/edit_server.php:147
 msgid "Updates"
-msgstr "Actualizări"
+msgstr ""
 
 #: ../../web/templates/pages/list_updates.php:33
 #: ../../web/templates/pages/list_updates.php:54
@@ -1570,7 +1610,7 @@ msgstr ""
 #: ../../web/templates/pages/list_webapps.php:27
 #: ../../web/templates/pages/edit_server.php:151
 msgid "Version"
-msgstr "Versiune"
+msgstr ""
 
 #: ../../web/templates/pages/list_updates.php:36
 #: ../../web/templates/pages/list_updates.php:66
@@ -1582,12 +1622,12 @@ msgstr "Versiune"
 #: ../../web/templates/pages/list_search.php:50
 #: ../../web/templates/pages/list_search.php:114
 msgid "Status"
-msgstr "Starea"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:7
 #: ../../web/templates/pages/add_mail.php:34
 msgid "Add Mail Domain"
-msgstr "Adăugare domeniu mail"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:13
 #: ../../web/templates/pages/list_user.php:14
@@ -1626,7 +1666,7 @@ msgstr ""
 #: ../../web/templates/pages/list_mail.php:296
 #: ../../web/templates/includes/panel.php:346
 msgid "Accounts"
-msgstr "Conturi"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:28
 #: ../../web/templates/pages/list_mail.php:78
@@ -1648,7 +1688,7 @@ msgstr "Conturi"
 #: ../../web/templates/pages/list_stats.php:93
 #: ../../web/templates/includes/panel.php:35
 msgid "Disk"
-msgstr "Spaţiu"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:40
 #: ../../web/templates/pages/list_user.php:42
@@ -1721,7 +1761,7 @@ msgstr ""
 #: ../../web/templates/pages/list_dns.php:58
 #: ../../web/templates/pages/list_dns.php:59
 msgid "Search"
-msgstr "Caută"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:79
 #: ../../web/templates/pages/list_mail.php:316
@@ -1782,7 +1822,7 @@ msgstr ""
 #: ../../web/templates/pages/list_mail_acc.php:16
 #: ../../web/templates/pages/add_mail_acc.php:32
 msgid "Add Mail Account"
-msgstr "Adăugare cont email"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail.php:251
 #: ../../web/templates/pages/list_mail.php:254
@@ -1804,11 +1844,10 @@ msgid "%d mail domain"
 msgid_plural "%d mail domains"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
 
 #: ../../web/templates/pages/list_backup.php:6
 msgid "Create Backup"
-msgstr "Creare un backup"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup.php:7
 #: ../../web/templates/pages/list_backup_exclusions.php:29
@@ -1933,7 +1972,7 @@ msgstr ""
 #: ../../web/templates/pages/list_weblog.php:58
 #: ../../web/templates/pages/list_weblog.php:60
 msgid "Download"
-msgstr "Descarcă"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup.php:119
 #, php-format
@@ -1946,7 +1985,6 @@ msgid "%d backup"
 msgid_plural "%d backups"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
 
 #: ../../web/templates/pages/edit_mail.php:11
 #: ../../web/templates/pages/add_mail.php:12
@@ -1987,7 +2025,7 @@ msgstr[2] ""
 #: ../../web/templates/pages/add_cron.php:11
 #: ../../web/templates/pages/edit_dns_rec.php:11
 msgid "Save"
-msgstr "Salvează"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:44
 #: ../../web/templates/pages/add_mail.php:55
@@ -2010,7 +2048,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_mail.php:93
 #: ../../web/templates/pages/add_mail.php:94
 msgid "DKIM Support"
-msgstr "DKIM"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:99
 #: ../../web/templates/pages/edit_web.php:167
@@ -2032,7 +2070,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_web.php:195
 #: ../../web/templates/pages/edit_server.php:918
 msgid "SSL Certificate"
-msgstr "Certificat SSL"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:120
 #: ../../web/templates/pages/list_ssl.php:16
@@ -2052,7 +2090,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_mail.php:130
 #: ../../web/templates/pages/edit_web.php:206
 msgid "SSL Certificate Authority / Intermediate"
-msgstr "Intermediar SSL/ Certificate Authority"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail.php:130
 #: ../../web/templates/pages/add_ip.php:76
@@ -2138,14 +2176,14 @@ msgstr ""
 #: ../../web/templates/pages/add_dns.php:44
 #: ../../web/templates/pages/add_db.php:44
 msgid "Add User"
-msgstr "Adăugare utilizator"
+msgstr ""
 
 #: ../../web/templates/pages/add_mail.php:45
 #: ../../web/templates/pages/add_web.php:38
 #: ../../web/templates/pages/add_dns.php:45
 #: ../../web/templates/pages/add_db.php:45
 msgid "Continue"
-msgstr "Continuă"
+msgstr ""
 
 #: ../../web/templates/pages/add_ip.php:32
 #: ../../web/templates/pages/list_ip.php:9
@@ -2155,7 +2193,7 @@ msgstr ""
 #: ../../web/templates/pages/add_ip.php:57
 #: ../../web/templates/pages/edit_ip.php:50
 msgid "Shared"
-msgstr "Partajat"
+msgstr ""
 
 #: ../../web/templates/pages/add_ip.php:76
 #: ../../web/templates/pages/edit_ip.php:69
@@ -2179,7 +2217,7 @@ msgstr ""
 #: ../../web/templates/pages/add_web.php:27
 #: ../../web/templates/pages/list_web.php:7
 msgid "Add Web Domain"
-msgstr "Adăugare domeniu web"
+msgstr ""
 
 #: ../../web/templates/pages/add_web.php:32
 msgid "a web domain"
@@ -2187,11 +2225,11 @@ msgstr ""
 
 #: ../../web/templates/pages/add_web.php:63
 msgid "DNS Support"
-msgstr "Suport DNS"
+msgstr ""
 
 #: ../../web/templates/pages/add_web.php:73
 msgid "Mail Support"
-msgstr "Suport E-mail"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:25
 #: ../../web/templates/pages/list_cron.php:120
@@ -2202,30 +2240,30 @@ msgstr ""
 #: ../../web/templates/pages/edit_server.php:1078
 #: ../../web/templates/pages/add_cron.php:57
 msgid "Minutes"
-msgstr "Minute"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:58
 #: ../../web/templates/pages/add_cron.php:58
 msgid "Hourly"
-msgstr "Oral"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:59
 #: ../../web/templates/pages/list_rrd.php:13
 #: ../../web/templates/pages/add_cron.php:59
 msgid "Daily"
-msgstr "Zilnic"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:60
 #: ../../web/templates/pages/list_rrd.php:14
 #: ../../web/templates/pages/add_cron.php:60
 msgid "Weekly"
-msgstr "Săptămânal"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:61
 #: ../../web/templates/pages/list_rrd.php:15
 #: ../../web/templates/pages/add_cron.php:61
 msgid "Monthly"
-msgstr "Lunar"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:70
 #: ../../web/templates/pages/edit_cron.php:93
@@ -2238,7 +2276,7 @@ msgstr "Lunar"
 #: ../../web/templates/pages/add_cron.php:191
 #: ../../web/templates/pages/add_cron.php:262
 msgid "Run Command"
-msgstr "Execută comanda"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:72
 #: ../../web/templates/pages/add_cron.php:72
@@ -2340,37 +2378,37 @@ msgstr ""
 #: ../../web/templates/pages/edit_cron.php:196
 #: ../../web/templates/pages/add_cron.php:196
 msgid "Monday"
-msgstr "Luni"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:197
 #: ../../web/templates/pages/add_cron.php:197
 msgid "Tuesday"
-msgstr "Marți"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:198
 #: ../../web/templates/pages/add_cron.php:198
 msgid "Wednesday"
-msgstr "Miercuri"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:199
 #: ../../web/templates/pages/add_cron.php:199
 msgid "Thursday"
-msgstr "Joi"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:200
 #: ../../web/templates/pages/add_cron.php:200
 msgid "Friday"
-msgstr "Vineri"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:201
 #: ../../web/templates/pages/add_cron.php:201
 msgid "Saturday"
-msgstr "Sâmbătă"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:202
 #: ../../web/templates/pages/add_cron.php:202
 msgid "Sunday"
-msgstr "Duminică"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:264
 #: ../../web/templates/pages/add_cron.php:264
@@ -2398,7 +2436,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_cron.php:269
 #: ../../web/templates/pages/add_cron.php:269
 msgid "Jan"
-msgstr "Ian"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:270
 #: ../../web/templates/pages/add_cron.php:270
@@ -2408,7 +2446,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_cron.php:271
 #: ../../web/templates/pages/add_cron.php:271
 msgid "Mar"
-msgstr "Mart"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:272
 #: ../../web/templates/pages/add_cron.php:272
@@ -2418,61 +2456,61 @@ msgstr ""
 #: ../../web/templates/pages/edit_cron.php:273
 #: ../../web/templates/pages/add_cron.php:273
 msgid "May"
-msgstr "Mai"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:274
 #: ../../web/templates/pages/add_cron.php:274
 msgid "Jun"
-msgstr "Iun"
+msgstr ""
 
 #: ../../web/templates/pages/edit_cron.php:275
 #: ../../web/templates/pages/add_cron.php:275
 msgid "Jul"
-msgstr "Iul"
+msgstr "Korrik"
 
 #: ../../web/templates/pages/edit_cron.php:276
 #: ../../web/templates/pages/add_cron.php:276
 msgid "Aug"
-msgstr ""
+msgstr "Gusht"
 
 #: ../../web/templates/pages/edit_cron.php:277
 #: ../../web/templates/pages/add_cron.php:277
 msgid "Sep"
-msgstr "Sept"
+msgstr "Shtator"
 
 #: ../../web/templates/pages/edit_cron.php:278
 #: ../../web/templates/pages/add_cron.php:278
 msgid "Oct"
-msgstr ""
+msgstr "Tetor"
 
 #: ../../web/templates/pages/edit_cron.php:279
 #: ../../web/templates/pages/add_cron.php:279
 msgid "Nov"
-msgstr ""
+msgstr "Nëntor"
 
 #: ../../web/templates/pages/edit_cron.php:280
 #: ../../web/templates/pages/add_cron.php:280
 msgid "Dec"
-msgstr ""
+msgstr "Dhjetor"
 
 #: ../../web/templates/pages/add_firewall.php:25
 msgid "Add Firewall Rule"
-msgstr ""
+msgstr "Shto rregulla për Firewall"
 
 #: ../../web/templates/pages/add_firewall.php:30
 #: ../../web/templates/pages/edit_firewall.php:30
 msgid "DROP"
-msgstr ""
+msgstr "REFUZO"
 
 #: ../../web/templates/pages/add_firewall.php:31
 #: ../../web/templates/pages/edit_firewall.php:31
 msgid "ACCEPT"
-msgstr ""
+msgstr "PRANOJ"
 
 #: ../../web/templates/pages/add_firewall.php:44
 #: ../../web/templates/pages/edit_firewall.php:44
 msgid "Ranges and lists are acceptable"
-msgstr ""
+msgstr "Zona dhe listat janë të pranueshme"
 
 #: ../../web/templates/pages/add_firewall.php:46
 #: ../../web/templates/pages/edit_firewall.php:46
@@ -2507,12 +2545,12 @@ msgstr ""
 #: ../../web/templates/pages/list_access_keys.php:64
 #: ../../web/templates/pages/list_access_keys.php:112
 msgid "Comment"
-msgstr "Comentariu"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:9
 #: ../../web/templates/pages/list_packages.php:47
 msgid "Packages"
-msgstr "Pachete"
+msgstr ""
 
 #: ../../web/templates/pages/list_user.php:43
 msgid "Rebuild User Profile"
@@ -2599,7 +2637,6 @@ msgid "%d user account"
 msgid_plural "%d user accounts"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
 
 #: ../../web/templates/pages/edit_server_dovecot.php:25
 #: ../../web/templates/pages/edit_server_bind9.php:25
@@ -2724,7 +2761,7 @@ msgstr ""
 #: ../../web/templates/pages/add_dns_rec.php:74
 #: ../../web/templates/pages/edit_dns_rec.php:75
 msgid "Priority"
-msgstr "Prioritate"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail_dns.php:27
 #: ../../web/templates/pages/list_mail_dns.php:44
@@ -2801,7 +2838,7 @@ msgstr ""
 #: ../../web/templates/includes/panel.php:301
 #: ../../web/templates/includes/panel.php:308
 msgid "Aliases"
-msgstr "Aliasuri"
+msgstr ""
 
 #: ../../web/templates/pages/list_mail_acc.php:90
 #: ../../web/templates/pages/list_mail_acc.php:272
@@ -2852,7 +2889,6 @@ msgid "%d mail account"
 msgid_plural "%d mail accounts"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
 
 #: ../../web/templates/pages/list_server_info.php:16
 #: ../../web/templates/pages/list_server_info.php:17
@@ -2905,7 +2941,7 @@ msgstr ""
 #: ../../web/templates/pages/list_server_info.php:83
 #: ../../web/templates/pages/list_stats.php:123
 msgid "Mail"
-msgstr "Email"
+msgstr ""
 
 #: ../../web/templates/pages/list_server_info.php:91
 #: ../../web/templates/pages/edit_package.php:285
@@ -2934,7 +2970,7 @@ msgstr ""
 #: ../../web/templates/includes/panel.php:244
 #: ../../web/templates/includes/panel.php:246
 msgid "Log out"
-msgstr "Delogare"
+msgstr ""
 
 #: ../../web/templates/pages/list_log.php:28
 #: ../../web/templates/pages/list_log.php:29
@@ -2963,7 +2999,7 @@ msgstr ""
 #: ../../web/templates/pages/list_log.php:122
 #: ../../web/templates/pages/edit_mail_acc.php:112
 msgid "Message"
-msgstr "Mesaj"
+msgstr ""
 
 #: ../../web/templates/pages/list_log.php:90
 msgid "Information"
@@ -2984,7 +3020,6 @@ msgid "%d log record"
 msgid_plural "%d log records"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
 
 #: ../../web/templates/pages/setup_webapp.php:27
 #, php-format
@@ -3052,17 +3087,17 @@ msgstr ""
 #: ../../web/templates/pages/add_user.php:81
 #: ../../web/templates/pages/edit_user.php:139
 msgid "Language"
-msgstr "Limbă"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:100
 #: ../../web/templates/pages/edit_user.php:158
 msgid "Role"
-msgstr "Rol"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:102
 #: ../../web/templates/pages/edit_user.php:160
 msgid "User"
-msgstr "Utilizator"
+msgstr ""
 
 #: ../../web/templates/pages/add_user.php:103
 #: ../../web/templates/pages/edit_user.php:161
@@ -3084,7 +3119,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_package.php:40
 #: ../../web/templates/pages/add_package.php:39
 msgid "Package Name"
-msgstr "Nume Pachet"
+msgstr ""
 
 #: ../../web/templates/pages/edit_package.php:46
 #: ../../web/templates/pages/edit_package.php:57
@@ -3119,7 +3154,7 @@ msgstr ""
 #: ../../web/templates/pages/add_mail_acc.php:75
 #: ../../web/templates/includes/js.php:8
 msgid "Unlimited"
-msgstr "Nelimitat"
+msgstr ""
 
 #: ../../web/templates/pages/edit_package.php:71
 #: ../../web/templates/pages/add_firewall_banlist.php:37
@@ -3135,7 +3170,7 @@ msgstr ""
 #: ../../web/templates/pages/add_package.php:185
 #: ../../web/templates/pages/add_package.php:264
 msgid "per domain"
-msgstr "per domeniu"
+msgstr ""
 
 #: ../../web/templates/pages/edit_package.php:199
 #: ../../web/templates/pages/add_dns.php:111
@@ -3167,7 +3202,7 @@ msgstr ""
 #: ../../web/templates/pages/list_packages.php:175
 #: ../../web/templates/pages/add_package.php:316
 msgid "SSH Access"
-msgstr "Acces SSH"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:82
 #: ../../web/templates/pages/add_mail_acc.php:82
@@ -3182,16 +3217,16 @@ msgstr ""
 #: ../../web/templates/pages/edit_mail_acc.php:95
 #: ../../web/templates/pages/add_mail_acc.php:101
 msgid "Do not store forwarded mail"
-msgstr "Redirectare fără stocare email"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:100
 #: ../../web/templates/pages/add_mail_acc.php:88
 msgid "Forward to"
-msgstr "Redirectare către"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:100
 msgid "one or more email addresses"
-msgstr "una sau mai multe adrese de e-mail"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:118
 #: ../../web/templates/pages/add_mail_acc.php:106
@@ -3214,7 +3249,7 @@ msgstr ""
 #: ../../web/templates/pages/add_mail_acc.php:137
 #: ../../web/templates/pages/edit_server.php:62
 msgid "Hostname"
-msgstr "Nume de host"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:146
 #: ../../web/templates/pages/add_mail_acc.php:141
@@ -3237,7 +3272,7 @@ msgstr ""
 #: ../../web/templates/pages/add_mail_acc.php:164
 #: ../../web/templates/pages/add_mail_acc.php:183
 msgid "Normal password"
-msgstr "Parolă normală"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:161
 #: ../../web/templates/pages/edit_mail_acc.php:180
@@ -3246,7 +3281,7 @@ msgstr "Parolă normală"
 #: ../../web/templates/pages/add_mail_acc.php:175
 #: ../../web/templates/pages/add_mail_acc.php:194
 msgid "No encryption"
-msgstr "Fără encriptare"
+msgstr ""
 
 #: ../../web/templates/pages/edit_mail_acc.php:165
 #: ../../web/templates/pages/add_mail_acc.php:160
@@ -3262,7 +3297,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_server_httpd.php:9
 #: ../../web/templates/pages/list_services.php:6
 msgid "Configure"
-msgstr "Configurare"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server_nginx.php:73
 #: ../../web/templates/pages/edit_user.php:210
@@ -3286,7 +3321,7 @@ msgstr ""
 #: ../../web/templates/pages/list_key.php:21
 #: ../../web/templates/pages/add_key.php:31
 msgid "Add SSH Key"
-msgstr "Add SSH key"
+msgstr ""
 
 #: ../../web/templates/pages/list_key.php:31
 msgid "SSH Keys"
@@ -3308,7 +3343,6 @@ msgid "%d SSH key"
 msgid_plural "%d SSH keys"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
 
 #: ../../web/templates/pages/edit_user.php:19
 #: ../../web/templates/pages/edit_user.php:20
@@ -3349,7 +3383,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_user.php:168
 #: ../../web/templates/pages/edit_server.php:86
 msgid "Theme"
-msgstr "Aspectul"
+msgstr ""
 
 #: ../../web/templates/pages/edit_user.php:186
 msgid "Default List Sort Order"
@@ -3361,11 +3395,11 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_user.php:249
 msgid "Default Name Servers"
-msgstr "Servere NS implicite"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall.php:9
 msgid "Add Rule"
-msgstr "Adăugare regulă"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall.php:13
 #: ../../web/templates/pages/list_firewall_banlist.php:30
@@ -3397,7 +3431,6 @@ msgid "%d firewall rule"
 msgid_plural "%d firewall rules"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
 
 #: ../../web/templates/pages/list_dns_rec.php:10
 msgid "Add Record"
@@ -3428,11 +3461,10 @@ msgid "%d DNS record"
 msgid_plural "%d DNS records"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
 
 #: ../../web/templates/pages/list_backup_detail.php:6
 msgid "Restore All"
-msgstr "Restaurează toate"
+msgstr ""
 
 #: ../../web/templates/pages/list_backup_detail.php:36
 msgid "Backup Details"
@@ -3478,7 +3510,6 @@ msgid "%d item"
 msgid_plural "%d items"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
 
 #: ../../web/templates/pages/add_firewall_banlist.php:25
 msgid "Add IP Address to Banlist"
@@ -3501,7 +3532,7 @@ msgstr ""
 #: ../../web/templates/pages/list_dns_public.php:7
 #: ../../web/templates/pages/list_dns.php:7
 msgid "Add DNS Domain"
-msgstr "Adăugare domeniu dns"
+msgstr ""
 
 #: ../../web/templates/pages/list_dns_public.php:29
 #: ../../web/templates/pages/list_dns.php:170
@@ -3550,7 +3581,7 @@ msgstr ""
 #: ../../web/templates/pages/list_dns.php:81
 #: ../../web/templates/pages/list_dns.php:224
 msgid "Template"
-msgstr "Șablon"
+msgstr ""
 
 #: ../../web/templates/pages/add_dns.php:97
 #: ../../web/templates/pages/edit_dns.php:71
@@ -3562,17 +3593,17 @@ msgstr ""
 #: ../../web/templates/pages/list_dns.php:85
 #: ../../web/templates/pages/list_dns.php:242
 msgid "Expiration Date"
-msgstr "Data de expirare"
+msgstr ""
 
 #: ../../web/templates/pages/add_dns.php:103
 #: ../../web/templates/pages/edit_dns.php:77
 msgid "YYYY-MM-DD"
-msgstr "AAAA-LL-ZZ"
+msgstr ""
 
 #: ../../web/templates/pages/add_db.php:34
 #: ../../web/templates/pages/list_db.php:20
 msgid "Add Database"
-msgstr "Adăugare bază de date"
+msgstr ""
 
 #: ../../web/templates/pages/add_db.php:39
 msgid "a database"
@@ -3659,7 +3690,6 @@ msgid "%d database"
 msgid_plural "%d databases"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
 
 #: ../../web/templates/pages/list_rrd.php:9
 msgid "Advanced Details"
@@ -3667,7 +3697,7 @@ msgstr ""
 
 #: ../../web/templates/pages/list_rrd.php:16
 msgid "Yearly"
-msgstr "Anual"
+msgstr ""
 
 #: ../../web/templates/pages/list_rrd.php:17
 msgid "Biennially"
@@ -3680,7 +3710,7 @@ msgstr ""
 #: ../../web/templates/pages/list_packages.php:9
 #: ../../web/templates/pages/add_package.php:36
 msgid "Add Package"
-msgstr "Adăugare pachet"
+msgstr ""
 
 #: ../../web/templates/pages/list_packages.php:150
 #: ../../web/templates/pages/list_packages.php:153
@@ -3696,9 +3726,8 @@ msgstr ""
 #, php-format
 msgid "%d package"
 msgid_plural "%d packages"
-msgstr[0] "%d pachet"
-msgstr[1] "%d pachete"
-msgstr[2] "%d pachete"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../../web/templates/pages/list_services.php:9
 msgid "Task Monitor"
@@ -3731,11 +3760,11 @@ msgstr ""
 
 #: ../../web/templates/pages/list_services.php:71
 msgid "Operating System"
-msgstr "Sistem de operare"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:77
 msgid "Load Average"
-msgstr "Utilizare medie CPU"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:83
 #: ../../web/templates/pages/list_services.php:102
@@ -3755,7 +3784,7 @@ msgstr ""
 #: ../../web/templates/pages/list_services.php:104
 #: ../../web/templates/pages/list_services.php:204
 msgid "Memory"
-msgstr "Memorie"
+msgstr ""
 
 #: ../../web/templates/pages/list_services.php:150
 #: ../../web/templates/pages/list_services.php:160
@@ -3782,7 +3811,7 @@ msgstr ""
 #: ../../web/templates/pages/list_cron.php:7
 #: ../../web/templates/pages/add_cron.php:25
 msgid "Add Cron Job"
-msgstr "Adăugare cron job"
+msgstr ""
 
 #: ../../web/templates/pages/list_cron.php:11
 #: ../../web/templates/pages/list_cron.php:42
@@ -3813,7 +3842,6 @@ msgid "%d cron job"
 msgid_plural "%d cron jobs"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
 
 #: ../../web/templates/pages/list_ssl.php:82
 msgid "SSL CSR"
@@ -3859,11 +3887,11 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:79
 msgid "Web Statistics"
-msgstr "Statistici web"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:98
 msgid "Statistics Authorization"
-msgstr "Autorizarea statistici"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:124
 msgid "Enable domain redirection"
@@ -3914,26 +3942,26 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:325
 msgid "Proxy Support"
-msgstr "Suport Proxy"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:349
 msgid "Proxy Extensions"
-msgstr "Extensii Proxy"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:358
 msgid "Custom document root"
-msgstr "Root document personalizat"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:363
 msgid "Point to"
-msgstr "Referință către"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:376
 #: ../../web/templates/pages/edit_server.php:716
 #: ../../web/templates/pages/edit_server.php:831
 #: ../../web/templates/pages/edit_server.php:895
 msgid "Directory"
-msgstr "Director"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:386
 msgid "Additional FTP account(s)"
@@ -3948,12 +3976,12 @@ msgstr ""
 #: ../../web/templates/pages/edit_web.php:424
 #: ../../web/templates/pages/edit_web.php:477
 msgid "Path"
-msgstr "Rută"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:432
 #: ../../web/templates/pages/edit_web.php:483
 msgid "Send FTP credentials to email"
-msgstr "Trimite datele FTP la e-mail"
+msgstr ""
 
 #: ../../web/templates/pages/edit_web.php:441
 msgid "Add FTP account"
@@ -3963,7 +3991,7 @@ msgstr ""
 #: ../../web/templates/pages/list_dns.php:149
 #: ../../web/templates/pages/list_dns.php:152
 msgid "Add DNS Record"
-msgstr "Adăugare registru DNS"
+msgstr ""
 
 #: ../../web/templates/pages/list_web.php:43
 #: ../../web/templates/pages/list_dns.php:43
@@ -3977,7 +4005,7 @@ msgstr ""
 #: ../../web/templates/includes/panel.php:219
 #: ../../web/templates/includes/panel.php:221
 msgid "Statistics"
-msgstr "Statistică"
+msgstr ""
 
 #: ../../web/templates/pages/list_web.php:211
 #: ../../web/templates/pages/list_web.php:256
@@ -4008,7 +4036,6 @@ msgid "%d web domain"
 msgid_plural "%d web domains"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
 
 #: ../../web/templates/pages/add_access_key.php:24
 #: ../../web/templates/pages/list_access_keys.php:15
@@ -4025,7 +4052,7 @@ msgstr ""
 
 #: ../../web/templates/pages/login/login_2.php:15
 msgid "2FA Token"
-msgstr "OTP PIN"
+msgstr ""
 
 #: ../../web/templates/pages/login/login_2.php:17
 msgid "Forgot Token"
@@ -4051,11 +4078,11 @@ msgstr ""
 
 #: ../../web/templates/pages/login/reset_2.php:19
 msgid "Reset Code"
-msgstr "Cod de resetare"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset_2.php:24
 msgid "Confirm"
-msgstr "Confirmă"
+msgstr ""
 
 #: ../../web/templates/pages/login/login_a.php:29
 #: ../../web/templates/pages/login/login.php:18
@@ -4072,7 +4099,7 @@ msgstr ""
 
 #: ../../web/templates/pages/login/reset2fa.php:13
 msgid "Log in"
-msgstr "Logare"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset2fa.php:21
 msgid "Unlock Account"
@@ -4080,28 +4107,28 @@ msgstr ""
 
 #: ../../web/templates/pages/login/reset2fa.php:31
 msgid "2FA Reset Code"
-msgstr "Account Recovery Code"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset2fa.php:36
 #: ../../web/templates/pages/login/reset_1.php:23
 msgid "Submit"
-msgstr "OK"
+msgstr ""
 
 #: ../../web/templates/pages/login/login_1.php:8
 msgid "Welcome"
-msgstr "Bun venit"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset_3.php:17
 msgid "New Password"
-msgstr "Noua parolă"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset_3.php:21
 msgid "Confirm Password"
-msgstr "Repetarea parolei"
+msgstr ""
 
 #: ../../web/templates/pages/login/reset_3.php:26
 msgid "Reset"
-msgstr "Resetează"
+msgstr ""
 
 #: ../../web/templates/pages/generate_ssl.php:35
 msgid "ISO 3166-1 alpha-2 two-letter code"
@@ -4109,11 +4136,11 @@ msgstr ""
 
 #: ../../web/templates/pages/generate_ssl.php:41
 msgid "State / Province"
-msgstr "Județ"
+msgstr ""
 
 #: ../../web/templates/pages/generate_ssl.php:47
 msgid "City / Locality"
-msgstr "Oraș / Localitate"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:12
 msgid "White Label"
@@ -4121,7 +4148,7 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:74
 msgid "Time Zone"
-msgstr "Fus orar"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:105
 msgid "Set as selected theme for all users"
@@ -4129,7 +4156,7 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:109
 msgid "Default Language"
-msgstr "Limba implicită"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:126
 msgid "Set as default language for all users"
@@ -4145,7 +4172,7 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:165
 msgid "Options"
-msgstr "Opțiuni"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:176
 msgid "Enable preview features"
@@ -4166,11 +4193,11 @@ msgstr ""
 #: ../../web/templates/pages/edit_server.php:214
 #: ../../web/templates/pages/edit_server.php:230
 msgid "Web Server"
-msgstr "Server Web"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:219
 msgid "Proxy Server"
-msgstr "Server Proxy"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:241
 msgid "PHP Interpreter"
@@ -4195,7 +4222,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_server.php:321
 #: ../../web/templates/pages/edit_server.php:325
 msgid "DNS Server"
-msgstr "Server DNS"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:334
 msgid "DNS Cluster"
@@ -4216,7 +4243,7 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:495
 msgid "MySQL Support"
-msgstr "Suport MySQL"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:508
 msgid "phpMyAdmin Alias"
@@ -4242,7 +4269,7 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:608
 msgid "PostgreSQL Support"
-msgstr "Suport PostgreSQL"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:619
 msgid "phpPgAdmin Alias"
@@ -4270,7 +4297,7 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:984
 msgid "Security"
-msgstr "Securitate"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:996
 msgid "API"
@@ -4390,7 +4417,7 @@ msgstr ""
 #: ../../web/templates/includes/panel.php:339
 #: ../../web/templates/includes/panel.php:343
 msgid "Domains"
-msgstr "Domenii"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:1343
 msgid "Enforce subdomain ownership"
@@ -4443,11 +4470,10 @@ msgid "%d access key"
 msgid_plural "%d access keys"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
 
 #: ../../web/templates/pages/list_firewall_banlist.php:9
 msgid "Ban IP Address"
-msgstr "Blocare IP"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_banlist.php:41
 #: ../../web/templates/pages/list_firewall_banlist.php:86
@@ -4470,7 +4496,6 @@ msgid "%d banned IP address"
 msgid_plural "%d banned IP addresses"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
 
 #: ../../web/templates/pages/list_ip.php:37
 #: ../../web/templates/pages/list_ip.php:72
@@ -4478,7 +4503,7 @@ msgstr[2] ""
 #: ../../web/templates/pages/list_search.php:53
 #: ../../web/templates/pages/list_search.php:161
 msgid "Owner"
-msgstr "Proprietar"
+msgstr ""
 
 #: ../../web/templates/pages/list_ip.php:44
 msgid "Refresh IP Addresses"
@@ -4495,11 +4520,10 @@ msgid "%d IP address"
 msgid_plural "%d IP addresses"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
 
 #: ../../web/templates/pages/list_stats.php:6
 msgid "Overall Statistics"
-msgstr "Statistică rezumativă"
+msgstr ""
 
 #: ../../web/templates/pages/list_stats.php:14
 msgid "Show Per User"
@@ -4515,13 +4539,12 @@ msgid "%d month"
 msgid_plural "%d months"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
 
 #: ../../web/templates/pages/list_search.php:45
 #: ../../web/templates/pages/list_search.php:51
 #: ../../web/templates/pages/list_search.php:123
 msgid "Search Results"
-msgstr "Rezultatele căutării"
+msgstr ""
 
 #: ../../web/templates/pages/list_search.php:185
 #, php-format
@@ -4529,18 +4552,17 @@ msgid "%d object"
 msgid_plural "%d objects"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
 
 #: ../../web/templates/pages/list_dns.php:25
 msgid "Expire"
-msgstr "Expiră"
+msgstr ""
 
 #: ../../web/templates/pages/list_dns.php:34
 #: ../../web/templates/pages/list_dns.php:80
 #: ../../web/templates/pages/list_dns.php:216
 #: ../../web/templates/includes/panel.php:327
 msgid "Records"
-msgstr "Registrii"
+msgstr ""
 
 #: ../../web/templates/pages/list_dns.php:84
 #: ../../web/templates/pages/list_dns.php:238
@@ -4553,7 +4575,6 @@ msgid "%d DNS zone"
 msgid_plural "%d DNS zones"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
 
 #: ../../web/templates/pages/list_weblog.php:52
 #: ../../web/templates/pages/list_weblog.php:54
@@ -4563,7 +4584,7 @@ msgstr ""
 #: ../../web/templates/pages/list_weblog.php:99
 #, php-format
 msgid "Last 70 lines of %s.%s.log"
-msgstr "Ultimele 70 linii de %s.%s.log"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:29
 msgid "Logged in as"
@@ -4629,11 +4650,11 @@ msgstr ""
 #: ../../web/templates/includes/panel.php:358
 #: ../../web/templates/includes/panel.php:374
 msgid "Suspended"
-msgstr "Suspendat"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:284
 msgid "USER"
-msgstr "UTILIZATOR"
+msgstr ""
 
 #: ../../web/templates/includes/panel.php:301
 #: ../../web/templates/includes/panel.php:320
@@ -4679,7 +4700,7 @@ msgstr ""
 #: ../../web/login/index.php:142 ../../web/login/index.php:199
 #: ../../web/login/index.php:222 ../../web/login/index.php:246
 msgid "Invalid username or password"
-msgstr "Numele de utilizator sau parola greșită"
+msgstr ""
 
 #: ../../web/login/index.php:272 ../../web/login/index.php:287
 msgid "Invalid or missing 2FA token"
@@ -4688,7 +4709,7 @@ msgstr ""
 #: ../../web/start/service/index.php:23
 #, php-format
 msgid "Start \"%s\" failed"
-msgstr "Pornire \"%s\" nereușită"
+msgstr ""
 
 #: ../../web/schedule/backup/index.php:12
 msgid "Task has been added to the queue. You will receive an email notification when your backup is ready for download."

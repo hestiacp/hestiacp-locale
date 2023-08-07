@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-30 05:47+0000\n"
-"PO-Revision-Date: 2023-07-30 05:51\n"
+"POT-Creation-Date: 2023-08-07 11:19+0000\n"
+"PO-Revision-Date: 2023-08-07 11:25\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
@@ -22,17 +22,17 @@ msgstr ""
 msgid "Stop \"%s\" failed"
 msgstr "Зупинка %s невдала"
 
-#: ../../web/inc/main.php:169 ../../web/inc/main.php:178
+#: ../../web/inc/main.php:179 ../../web/inc/main.php:188
 #: ../../web/generate/ssl/index.php:123
 #, php-format
 msgid "Error code: %s"
 msgstr "Код помилки: %s"
 
-#: ../../web/inc/main.php:256 ../../web/inc/main.php:267
+#: ../../web/inc/main.php:266 ../../web/inc/main.php:277
 msgid "You are logged out, please log in again."
 msgstr "Ви вийшли з панелі, будь ласка, зайдіть знову"
 
-#: ../../web/inc/main.php:329
+#: ../../web/inc/main.php:339
 #, php-format
 msgid "%d day"
 msgid_plural "%d days"
@@ -41,7 +41,7 @@ msgstr[1] "%d дні"
 msgstr[2] "%d днів"
 msgstr[3] "%d днів"
 
-#: ../../web/inc/main.php:332
+#: ../../web/inc/main.php:342
 #, php-format
 msgid "%d hour"
 msgid_plural "%d hours"
@@ -50,7 +50,7 @@ msgstr[1] "%d години"
 msgstr[2] "%d годин"
 msgstr[3] "%d годин"
 
-#: ../../web/inc/main.php:336
+#: ../../web/inc/main.php:346
 #, php-format
 msgid "%d minute"
 msgid_plural "%d minutes"
@@ -138,7 +138,7 @@ msgstr "Помилка: Hestia не вернула ніякого результ
 #: ../../web/edit/server/spamd/index.php:44
 #: ../../web/edit/server/bind9/index.php:61
 #: ../../web/edit/server/exim4/index.php:44
-#: ../../web/edit/server/index.php:1726 ../../web/edit/server/index.php:1730
+#: ../../web/edit/server/index.php:1752 ../../web/edit/server/index.php:1756
 #: ../../web/edit/server/php/index.php:44
 #: ../../web/edit/server/ssh/index.php:44
 #: ../../web/edit/server/mysqld/index.php:44
@@ -245,7 +245,7 @@ msgstr "Помилка: невідомий ID запису."
 
 #: ../../web/edit/web/index.php:1074 ../../web/edit/web/index.php:1114
 #: ../../web/edit/web/index.php:1330 ../../web/add/db/index.php:20
-#: ../../web/add/user/index.php:23 ../../web/templates/pages/edit_mail.php:188
+#: ../../web/add/user/index.php:23 ../../web/templates/pages/edit_mail.php:186
 #: ../../web/templates/pages/add_mail.php:113
 #: ../../web/templates/pages/add_user.php:35
 #: ../../web/templates/pages/edit_mail_acc.php:128
@@ -254,9 +254,9 @@ msgstr "Помилка: невідомий ID запису."
 #: ../../web/templates/pages/list_db.php:65
 #: ../../web/templates/pages/list_db.php:113
 #: ../../web/templates/pages/list_db.php:247
-#: ../../web/templates/pages/edit_web.php:107
-#: ../../web/templates/pages/edit_web.php:409
-#: ../../web/templates/pages/edit_web.php:463
+#: ../../web/templates/pages/edit_web.php:105
+#: ../../web/templates/pages/edit_web.php:407
+#: ../../web/templates/pages/edit_web.php:461
 #: ../../web/templates/pages/edit_db.php:34
 #: ../../web/templates/pages/add_mail_acc.php:123
 #: ../../web/templates/pages/login/login_a.php:14
@@ -314,7 +314,7 @@ msgid "Protocol"
 msgstr "Протокол"
 
 #: ../../web/edit/firewall/index.php:76 ../../web/add/firewall/index.php:48
-#: ../../web/templates/pages/edit_mail.php:184
+#: ../../web/templates/pages/edit_mail.php:182
 #: ../../web/templates/pages/add_mail.php:109
 #: ../../web/templates/pages/add_firewall.php:44
 #: ../../web/templates/pages/edit_firewall.php:44
@@ -359,10 +359,10 @@ msgstr "Порт"
 #: ../../web/templates/pages/list_log_auth.php:49
 #: ../../web/templates/pages/list_log_auth.php:90
 #: ../../web/templates/pages/edit_dns.php:33
-#: ../../web/templates/pages/edit_web.php:69
+#: ../../web/templates/pages/edit_web.php:67
 #: ../../web/templates/pages/list_web.php:34
 #: ../../web/templates/pages/list_web.php:80
-#: ../../web/templates/pages/list_web.php:301
+#: ../../web/templates/pages/list_web.php:311
 #: ../../web/templates/pages/list_firewall_banlist.php:37
 #: ../../web/templates/pages/list_firewall_banlist.php:58
 #: ../../web/templates/pages/list_ip.php:25
@@ -387,21 +387,21 @@ msgstr "Пакет"
 #: ../../web/edit/package/index.php:140 ../../web/add/package/index.php:26
 #: ../../web/templates/pages/edit_package.php:100
 #: ../../web/templates/pages/add_package.php:98
-#: ../../web/templates/pages/edit_web.php:266
+#: ../../web/templates/pages/edit_web.php:264
 msgid "Web Template"
 msgstr "Шаблон Web"
 
 #: ../../web/edit/package/index.php:144 ../../web/add/package/index.php:30
 #: ../../web/templates/pages/edit_package.php:117
 #: ../../web/templates/pages/add_package.php:115
-#: ../../web/templates/pages/edit_web.php:303
+#: ../../web/templates/pages/edit_web.php:301
 msgid "Backend Template"
 msgstr "Шаблон Backend"
 
 #: ../../web/edit/package/index.php:149 ../../web/add/package/index.php:38
 #: ../../web/templates/pages/edit_package.php:135
 #: ../../web/templates/pages/add_package.php:134
-#: ../../web/templates/pages/edit_web.php:333
+#: ../../web/templates/pages/edit_web.php:331
 msgid "Proxy Template"
 msgstr "Шаблон Proxy"
 
@@ -535,8 +535,8 @@ msgstr "Частота запитів"
 #: ../../web/templates/pages/edit_backup_exclusions.php:36
 #: ../../web/templates/pages/list_stats.php:114
 #: ../../web/templates/pages/list_stats.php:185
-#: ../../web/templates/includes/panel.php:344
-#: ../../web/templates/includes/panel.php:348
+#: ../../web/templates/includes/panel.php:358
+#: ../../web/templates/includes/panel.php:362
 msgid "Databases"
 msgstr "Бази даних"
 
@@ -566,8 +566,8 @@ msgstr "Cron завдання"
 #: ../../web/templates/pages/add_package.php:65
 #: ../../web/templates/pages/edit_server.php:655
 #: ../../web/templates/pages/list_stats.php:217
-#: ../../web/templates/includes/panel.php:376
-#: ../../web/templates/includes/panel.php:380
+#: ../../web/templates/includes/panel.php:390
+#: ../../web/templates/includes/panel.php:394
 msgid "Backups"
 msgstr "Бекапи"
 
@@ -599,7 +599,7 @@ msgstr "Квота"
 #: ../../web/templates/pages/add_package.php:55
 #: ../../web/templates/pages/list_web.php:22
 #: ../../web/templates/pages/list_web.php:82
-#: ../../web/templates/pages/list_web.php:314
+#: ../../web/templates/pages/list_web.php:324
 #: ../../web/templates/pages/list_stats.php:68
 #: ../../web/templates/pages/list_stats.php:69
 #: ../../web/templates/includes/panel.php:42
@@ -619,7 +619,7 @@ msgstr "Сервер імен 2"
 msgid "Info (read-only mode): Crontab can only be edited via SSH."
 msgstr "Інформація (в режимі read-only): Crontab можна редагувати тільки по SSH"
 
-#: ../../web/edit/server/index.php:1203
+#: ../../web/edit/server/index.php:1229
 msgid "Inactive session timeout can not lower than 1 minute."
 msgstr "Таймаут неактивної сесії не може бути менший 1 хвилини."
 
@@ -732,16 +732,16 @@ msgid "Database"
 msgstr "База даних"
 
 #: ../../web/add/db/index.php:23 ../../web/add/mail/index.php:222
-#: ../../web/add/user/index.php:26 ../../web/templates/pages/edit_mail.php:192
+#: ../../web/add/user/index.php:26 ../../web/templates/pages/edit_mail.php:190
 #: ../../web/templates/pages/add_mail.php:117
 #: ../../web/templates/pages/add_user.php:48
 #: ../../web/templates/pages/edit_mail_acc.php:45
 #: ../../web/templates/pages/edit_mail_acc.php:132
 #: ../../web/templates/pages/edit_user.php:84
 #: ../../web/templates/pages/add_db.php:79
-#: ../../web/templates/pages/edit_web.php:112
-#: ../../web/templates/pages/edit_web.php:418
-#: ../../web/templates/pages/edit_web.php:471
+#: ../../web/templates/pages/edit_web.php:110
+#: ../../web/templates/pages/edit_web.php:416
+#: ../../web/templates/pages/edit_web.php:469
 #: ../../web/templates/pages/edit_db.php:42
 #: ../../web/templates/pages/add_mail_acc.php:47
 #: ../../web/templates/pages/add_mail_acc.php:127
@@ -786,7 +786,7 @@ msgstr "Пароль"
 msgid "Type"
 msgstr "Тип"
 
-#: ../../web/add/db/index.php:29 ../../web/templates/pages/edit_mail.php:180
+#: ../../web/add/db/index.php:29 ../../web/templates/pages/edit_mail.php:178
 #: ../../web/templates/pages/add_mail.php:105
 #: ../../web/templates/pages/add_db.php:110
 #: ../../web/templates/pages/list_db.php:62
@@ -1240,6 +1240,7 @@ msgstr "Вгору"
 #: ../../web/templates/pages/add_dns.php:6
 #: ../../web/templates/pages/add_db.php:6
 #: ../../web/templates/pages/add_firewall_ipset.php:6
+#: ../../web/templates/pages/list_terminal.php:6
 #: ../../web/templates/pages/list_log_auth.php:7
 #: ../../web/templates/pages/list_log_auth.php:11
 #: ../../web/templates/pages/list_rrd.php:6
@@ -1372,12 +1373,12 @@ msgstr "Застосувати до обраного"
 #: ../../web/templates/pages/list_cron.php:156
 #: ../../web/templates/pages/list_cron.php:157
 #: ../../web/templates/pages/list_cron.php:161
-#: ../../web/templates/pages/edit_web.php:403
-#: ../../web/templates/pages/edit_web.php:457
+#: ../../web/templates/pages/edit_web.php:401
+#: ../../web/templates/pages/edit_web.php:455
 #: ../../web/templates/pages/list_web.php:47
-#: ../../web/templates/pages/list_web.php:289
-#: ../../web/templates/pages/list_web.php:290
-#: ../../web/templates/pages/list_web.php:294
+#: ../../web/templates/pages/list_web.php:299
+#: ../../web/templates/pages/list_web.php:300
+#: ../../web/templates/pages/list_web.php:304
 #: ../../web/templates/pages/list_access_keys.php:41
 #: ../../web/templates/pages/list_access_keys.php:101
 #: ../../web/templates/pages/list_access_keys.php:102
@@ -1678,7 +1679,7 @@ msgstr "Сортувати за"
 #: ../../web/templates/pages/list_mail.php:22
 #: ../../web/templates/pages/list_mail.php:77
 #: ../../web/templates/pages/list_mail.php:296
-#: ../../web/templates/includes/panel.php:332
+#: ../../web/templates/includes/panel.php:346
 msgid "Accounts"
 msgstr "Акаунти"
 
@@ -1698,7 +1699,7 @@ msgstr "Акаунти"
 #: ../../web/templates/pages/list_db.php:234
 #: ../../web/templates/pages/list_web.php:28
 #: ../../web/templates/pages/list_web.php:81
-#: ../../web/templates/pages/list_web.php:305
+#: ../../web/templates/pages/list_web.php:315
 #: ../../web/templates/pages/list_stats.php:93
 #: ../../web/templates/includes/panel.php:35
 msgid "Disk"
@@ -1801,7 +1802,7 @@ msgstr "DKIM"
 #: ../../web/templates/pages/list_mail.php:82
 #: ../../web/templates/pages/list_mail.php:328
 #: ../../web/templates/pages/list_web.php:83
-#: ../../web/templates/pages/list_web.php:323
+#: ../../web/templates/pages/list_web.php:333
 #: ../../web/templates/pages/edit_server.php:913
 msgid "SSL"
 msgstr "SSL"
@@ -1846,7 +1847,7 @@ msgid "Edit Mail Domain"
 msgstr "Редагувати поштовий домен"
 
 #: ../../web/templates/pages/list_mail.php:286
-#: ../../web/templates/pages/list_web.php:291
+#: ../../web/templates/pages/list_web.php:301
 #: ../../web/templates/pages/list_dns.php:206
 #, php-format
 msgid "Are you sure you want to delete domain %s?"
@@ -1916,6 +1917,7 @@ msgstr "Витрачено часу"
 #: ../../web/templates/pages/edit_server.php:1387
 #: ../../web/templates/pages/edit_server.php:1400
 #: ../../web/templates/pages/edit_server.php:1413
+#: ../../web/templates/pages/edit_server.php:1426
 msgid "No"
 msgstr "Ні"
 
@@ -1950,6 +1952,7 @@ msgstr "Ні"
 #: ../../web/templates/pages/edit_server.php:1390
 #: ../../web/templates/pages/edit_server.php:1403
 #: ../../web/templates/pages/edit_server.php:1416
+#: ../../web/templates/pages/edit_server.php:1429
 msgid "Yes"
 msgstr "Так"
 
@@ -2067,56 +2070,56 @@ msgid "DKIM Support"
 msgstr "Підтримка DKIM"
 
 #: ../../web/templates/pages/edit_mail.php:99
-#: ../../web/templates/pages/edit_web.php:169
+#: ../../web/templates/pages/edit_web.php:167
 msgid "Enable SSL for this domain"
 msgstr "Увімкнути SSL для цього домену"
 
 #: ../../web/templates/pages/edit_mail.php:106
-#: ../../web/templates/pages/edit_web.php:176
+#: ../../web/templates/pages/edit_web.php:174
 msgid "Use Let's Encrypt to obtain SSL certificate"
 msgstr "Використовувати Let's Encrypt для отримання SSL сертифікату"
 
-#: ../../web/templates/pages/edit_mail.php:114
+#: ../../web/templates/pages/edit_mail.php:113
 #, php-format
 msgid "To enable Let's Encrypt SSL, ensure that DNS records exist for mail.%s and %s!"
 msgstr "Щоб увімкнути Let's Encrypt SSL, переконайтеся, що існують записи DNS для mail.%s and %s!"
 
-#: ../../web/templates/pages/edit_mail.php:121
+#: ../../web/templates/pages/edit_mail.php:119
 #: ../../web/templates/pages/list_ssl.php:28
-#: ../../web/templates/pages/edit_web.php:197
+#: ../../web/templates/pages/edit_web.php:195
 #: ../../web/templates/pages/edit_server.php:918
 msgid "SSL Certificate"
 msgstr "SSL сертификат"
 
-#: ../../web/templates/pages/edit_mail.php:122
+#: ../../web/templates/pages/edit_mail.php:120
 #: ../../web/templates/pages/list_ssl.php:16
-#: ../../web/templates/pages/edit_web.php:198
+#: ../../web/templates/pages/edit_web.php:196
 #: ../../web/templates/pages/generate_ssl.php:16
 #: ../../web/templates/pages/edit_server.php:926
 msgid "Generate Self-Signed SSL Certificate"
 msgstr "Створити самопідписаний сертифікат SSL"
 
-#: ../../web/templates/pages/edit_mail.php:127
+#: ../../web/templates/pages/edit_mail.php:125
 #: ../../web/templates/pages/list_ssl.php:55
-#: ../../web/templates/pages/edit_web.php:203
+#: ../../web/templates/pages/edit_web.php:201
 #: ../../web/templates/pages/edit_server.php:938
 msgid "SSL Private Key"
 msgstr "Приватний Ключ SSL"
 
-#: ../../web/templates/pages/edit_mail.php:132
-#: ../../web/templates/pages/edit_web.php:208
+#: ../../web/templates/pages/edit_mail.php:130
+#: ../../web/templates/pages/edit_web.php:206
 msgid "SSL Certificate Authority / Intermediate"
 msgstr "Центр сертифікації SSL / Проміжний"
 
-#: ../../web/templates/pages/edit_mail.php:132
+#: ../../web/templates/pages/edit_mail.php:130
 #: ../../web/templates/pages/add_ip.php:76
 #: ../../web/templates/pages/add_ip.php:82
 #: ../../web/templates/pages/add_firewall.php:66
 #: ../../web/templates/pages/edit_firewall.php:66
 #: ../../web/templates/pages/edit_ip.php:69
 #: ../../web/templates/pages/edit_ip.php:75
-#: ../../web/templates/pages/edit_web.php:208
-#: ../../web/templates/pages/edit_web.php:378
+#: ../../web/templates/pages/edit_web.php:206
+#: ../../web/templates/pages/edit_web.php:376
 #: ../../web/templates/pages/add_dns_rec.php:74
 #: ../../web/templates/pages/add_dns_rec.php:80
 #: ../../web/templates/pages/add_access_key.php:37
@@ -2126,49 +2129,49 @@ msgstr "Центр сертифікації SSL / Проміжний"
 msgid "Optional"
 msgstr "Опціональний"
 
-#: ../../web/templates/pages/edit_mail.php:140
-#: ../../web/templates/pages/edit_web.php:216
+#: ../../web/templates/pages/edit_mail.php:138
+#: ../../web/templates/pages/edit_web.php:214
 #: ../../web/templates/pages/edit_server.php:948
 msgid "Issued To"
 msgstr "Виданий для"
 
-#: ../../web/templates/pages/edit_mail.php:145
-#: ../../web/templates/pages/edit_web.php:221
+#: ../../web/templates/pages/edit_mail.php:143
+#: ../../web/templates/pages/edit_web.php:219
 #: ../../web/templates/pages/edit_server.php:953
 msgid "Alternate"
 msgstr "Альтернативний"
 
-#: ../../web/templates/pages/edit_mail.php:150
-#: ../../web/templates/pages/edit_web.php:226
+#: ../../web/templates/pages/edit_mail.php:148
+#: ../../web/templates/pages/edit_web.php:224
 #: ../../web/templates/pages/edit_server.php:958
 msgid "Not Before"
 msgstr "Не раніше"
 
-#: ../../web/templates/pages/edit_mail.php:154
-#: ../../web/templates/pages/edit_web.php:230
+#: ../../web/templates/pages/edit_mail.php:152
+#: ../../web/templates/pages/edit_web.php:228
 #: ../../web/templates/pages/edit_server.php:962
 msgid "Not After"
 msgstr "Не пізніше"
 
-#: ../../web/templates/pages/edit_mail.php:158
-#: ../../web/templates/pages/edit_web.php:234
+#: ../../web/templates/pages/edit_mail.php:156
+#: ../../web/templates/pages/edit_web.php:232
 #: ../../web/templates/pages/edit_server.php:966
 msgid "Signature"
 msgstr "Підпис"
 
-#: ../../web/templates/pages/edit_mail.php:162
-#: ../../web/templates/pages/edit_web.php:238
+#: ../../web/templates/pages/edit_mail.php:160
+#: ../../web/templates/pages/edit_web.php:236
 #: ../../web/templates/pages/edit_server.php:970
 msgid "Key Size"
 msgstr "Розмір ключа"
 
-#: ../../web/templates/pages/edit_mail.php:166
-#: ../../web/templates/pages/edit_web.php:242
+#: ../../web/templates/pages/edit_mail.php:164
+#: ../../web/templates/pages/edit_web.php:240
 #: ../../web/templates/pages/edit_server.php:974
 msgid "Issued By"
 msgstr "Видавець"
 
-#: ../../web/templates/pages/edit_mail.php:175
+#: ../../web/templates/pages/edit_mail.php:173
 #: ../../web/templates/pages/add_mail.php:100
 msgid "SMTP Relay"
 msgstr "Рілей SMTP"
@@ -2323,9 +2326,9 @@ msgstr "Кожні %s хвилин"
 #: ../../web/templates/pages/edit_mail_acc.php:46
 #: ../../web/templates/pages/edit_user.php:85
 #: ../../web/templates/pages/add_db.php:80
-#: ../../web/templates/pages/edit_web.php:113
-#: ../../web/templates/pages/edit_web.php:419
-#: ../../web/templates/pages/edit_web.php:472
+#: ../../web/templates/pages/edit_web.php:111
+#: ../../web/templates/pages/edit_web.php:417
+#: ../../web/templates/pages/edit_web.php:470
 #: ../../web/templates/pages/edit_db.php:43
 #: ../../web/templates/pages/add_mail_acc.php:48
 #: ../../web/templates/pages/generate_ssl.php:59
@@ -2560,8 +2563,6 @@ msgstr "Очистити"
 #: ../../web/templates/pages/list_access_keys.php:34
 #: ../../web/templates/pages/list_access_keys.php:64
 #: ../../web/templates/pages/list_access_keys.php:112
-#: ../../web/templates/pages/list_firewall_banlist.php:41
-#: ../../web/templates/pages/list_firewall_banlist.php:86
 msgid "Comment"
 msgstr "Нотатка"
 
@@ -2600,8 +2601,8 @@ msgstr "Оновити показники використання"
 
 #: ../../web/templates/pages/list_user.php:75
 #: ../../web/templates/pages/edit_server.php:1184
-#: ../../web/templates/includes/panel.php:269
-#: ../../web/templates/includes/panel.php:273
+#: ../../web/templates/includes/panel.php:283
+#: ../../web/templates/includes/panel.php:287
 msgid "Users"
 msgstr "Юзери"
 
@@ -2855,8 +2856,8 @@ msgstr "Редагувати IP адресу"
 #: ../../web/templates/pages/edit_web.php:57
 #: ../../web/templates/pages/add_mail_acc.php:82
 #: ../../web/templates/pages/generate_ssl.php:22
-#: ../../web/templates/includes/panel.php:287
-#: ../../web/templates/includes/panel.php:294
+#: ../../web/templates/includes/panel.php:301
+#: ../../web/templates/includes/panel.php:308
 msgid "Aliases"
 msgstr "Аліаси"
 
@@ -2956,7 +2957,7 @@ msgstr "Веб"
 #: ../../web/templates/pages/edit_package.php:152
 #: ../../web/templates/pages/add_firewall_banlist.php:39
 #: ../../web/templates/pages/add_package.php:151
-#: ../../web/templates/includes/panel.php:307
+#: ../../web/templates/includes/panel.php:321
 msgid "DNS"
 msgstr "DNS"
 
@@ -2969,7 +2970,7 @@ msgstr "Пошта"
 #: ../../web/templates/pages/edit_package.php:285
 #: ../../web/templates/pages/add_firewall_banlist.php:41
 #: ../../web/templates/pages/add_package.php:281
-#: ../../web/templates/includes/panel.php:345
+#: ../../web/templates/includes/panel.php:359
 msgid "DB"
 msgstr "DB"
 
@@ -2987,10 +2988,10 @@ msgstr "Оновити"
 #: ../../web/templates/pages/list_server_info.php:104
 #: ../../web/templates/pages/list_weblog.php:76
 #: ../../web/templates/pages/list_weblog.php:78
-#: ../../web/templates/includes/panel.php:223
-#: ../../web/templates/includes/panel.php:225
-#: ../../web/templates/includes/panel.php:230
-#: ../../web/templates/includes/panel.php:232
+#: ../../web/templates/includes/panel.php:237
+#: ../../web/templates/includes/panel.php:239
+#: ../../web/templates/includes/panel.php:244
+#: ../../web/templates/includes/panel.php:246
 msgid "Log out"
 msgstr "Вийти"
 
@@ -3012,8 +3013,8 @@ msgstr "Ви дійсно хочете видалити логи?"
 #: ../../web/templates/pages/edit_user.php:23
 #: ../../web/templates/pages/edit_user.php:24
 #: ../../web/templates/pages/list_services.php:20
-#: ../../web/templates/includes/panel.php:187
-#: ../../web/templates/includes/panel.php:189
+#: ../../web/templates/includes/panel.php:201
+#: ../../web/templates/includes/panel.php:203
 msgid "Logs"
 msgstr "Логи"
 
@@ -3183,7 +3184,7 @@ msgstr "Необмежено"
 #: ../../web/templates/pages/edit_package.php:71
 #: ../../web/templates/pages/add_firewall_banlist.php:37
 #: ../../web/templates/pages/add_package.php:69
-#: ../../web/templates/includes/panel.php:288
+#: ../../web/templates/includes/panel.php:302
 msgid "WEB"
 msgstr "WEB"
 
@@ -3212,7 +3213,7 @@ msgstr "Додати сервер імен"
 #: ../../web/templates/pages/edit_package.php:250
 #: ../../web/templates/pages/add_firewall_banlist.php:40
 #: ../../web/templates/pages/add_package.php:246
-#: ../../web/templates/includes/panel.php:326
+#: ../../web/templates/includes/panel.php:340
 msgid "MAIL"
 msgstr "MAIL"
 
@@ -3327,7 +3328,7 @@ msgstr "Налаштування"
 #: ../../web/templates/pages/edit_user.php:210
 #: ../../web/templates/pages/add_dns.php:89
 #: ../../web/templates/pages/add_db.php:105
-#: ../../web/templates/pages/edit_web.php:259
+#: ../../web/templates/pages/edit_web.php:257
 #: ../../web/templates/pages/add_mail_acc.php:66
 #: ../../web/templates/pages/edit_server_php.php:58
 #: ../../web/templates/pages/edit_server_mysql.php:50
@@ -3402,7 +3403,7 @@ msgid "Use IP address allow list for login attempts"
 msgstr "Список IP, яким дозволений вхід в Панель"
 
 #: ../../web/templates/pages/edit_user.php:135
-#: ../../web/templates/pages/edit_web.php:294
+#: ../../web/templates/pages/edit_web.php:292
 msgid "For example"
 msgstr "Наприклад"
 
@@ -3523,8 +3524,8 @@ msgid "DNS Zone"
 msgstr "DNS-зона"
 
 #: ../../web/templates/pages/list_backup_detail.php:218
-#: ../../web/templates/includes/panel.php:360
-#: ../../web/templates/includes/panel.php:364
+#: ../../web/templates/includes/panel.php:374
+#: ../../web/templates/includes/panel.php:378
 msgid "Jobs"
 msgstr "Завдання"
 
@@ -3552,8 +3553,8 @@ msgid "SSH"
 msgstr "SSH"
 
 #: ../../web/templates/pages/add_firewall_banlist.php:38
-#: ../../web/templates/pages/edit_web.php:402
-#: ../../web/templates/pages/edit_web.php:456
+#: ../../web/templates/pages/edit_web.php:400
+#: ../../web/templates/pages/edit_web.php:454
 msgid "FTP"
 msgstr "FTP"
 
@@ -3770,7 +3771,7 @@ msgid "Task Monitor"
 msgstr "Монітор процесів"
 
 #: ../../web/templates/pages/list_services.php:16
-#: ../../web/templates/pages/edit_server.php:1409
+#: ../../web/templates/pages/edit_server.php:1422
 msgid "Firewall"
 msgstr "Файрвол"
 
@@ -3865,12 +3866,12 @@ msgstr "Ви дійсно хочете активувати користувач
 
 #: ../../web/templates/pages/list_cron.php:103
 msgid "Are you sure you want to suspend this cron job?"
-msgstr "Ви впевнені, що хочете призупинити цей акаунт?"
+msgstr "Ви впевнені, що хочете призупинити це cron завдання?"
 
 #: ../../web/templates/pages/list_cron.php:158
 #, php-format
 msgid "Are you sure you want to delete this cron job?"
-msgstr "Ви дійсно хочете видалити крон завдання?"
+msgstr "Ви дійсно хочете видалити це cron завдання?"
 
 #: ../../web/templates/pages/list_cron.php:196
 #, php-format
@@ -3919,109 +3920,109 @@ msgstr "Очистити кеш NGINX"
 msgid "Edit Web Domain"
 msgstr "Редагувати веб домен"
 
-#: ../../web/templates/pages/edit_web.php:64
+#: ../../web/templates/pages/edit_web.php:63
 msgid "If the aliases changes, Let's Encrypt will obtain a new SSL certificate."
 msgstr "Якщо аліаси домена змінилися Let's Encrypt створить нові SSL сертифікати"
 
-#: ../../web/templates/pages/edit_web.php:81
+#: ../../web/templates/pages/edit_web.php:79
 msgid "Web Statistics"
 msgstr "Веб статистика"
 
-#: ../../web/templates/pages/edit_web.php:100
+#: ../../web/templates/pages/edit_web.php:98
 msgid "Statistics Authorization"
 msgstr "Обмежений доступ до статистики"
 
-#: ../../web/templates/pages/edit_web.php:126
+#: ../../web/templates/pages/edit_web.php:124
 msgid "Enable domain redirection"
 msgstr "Включити редирект для домену"
 
-#: ../../web/templates/pages/edit_web.php:133
-#: ../../web/templates/pages/edit_web.php:139
+#: ../../web/templates/pages/edit_web.php:131
+#: ../../web/templates/pages/edit_web.php:137
 #, php-format
 msgid "Redirect visitors to %s"
 msgstr "Редирект відвідувачів на %s"
 
-#: ../../web/templates/pages/edit_web.php:145
+#: ../../web/templates/pages/edit_web.php:143
 msgid "Redirect visitors to a custom domain or web address"
 msgstr "Перенаправляти відвідувачів на заданий домен чи адресу"
 
-#: ../../web/templates/pages/edit_web.php:150
+#: ../../web/templates/pages/edit_web.php:148
 msgid "Target domain or URL"
 msgstr "Цільовий домен чи URL"
 
-#: ../../web/templates/pages/edit_web.php:154
+#: ../../web/templates/pages/edit_web.php:152
 msgid "Status code"
 msgstr "Код редиректу"
 
-#: ../../web/templates/pages/edit_web.php:182
+#: ../../web/templates/pages/edit_web.php:180
 msgid "Enable automatic HTTPS redirection"
 msgstr "Увімкнути автоматичний HTTPS редирект"
 
-#: ../../web/templates/pages/edit_web.php:188
+#: ../../web/templates/pages/edit_web.php:186
 msgid "Enable HTTP Strict Transport Security (HSTS)"
 msgstr "Увімкнути HSTS"
 
-#: ../../web/templates/pages/edit_web.php:250
+#: ../../web/templates/pages/edit_web.php:248
 msgid "Hide Certificate"
 msgstr "Приховати сертифікат"
 
-#: ../../web/templates/pages/edit_web.php:250
-#: ../../web/templates/pages/edit_web.php:251
+#: ../../web/templates/pages/edit_web.php:248
+#: ../../web/templates/pages/edit_web.php:249
 msgid "Show Certificate"
 msgstr "Показати сертифікат"
 
-#: ../../web/templates/pages/edit_web.php:285
+#: ../../web/templates/pages/edit_web.php:283
 msgid "Enable FastCGI cache"
 msgstr "Увімкнути FastCGI кеш"
 
-#: ../../web/templates/pages/edit_web.php:294
+#: ../../web/templates/pages/edit_web.php:292
 msgid "Cache Duration"
 msgstr "Тривалість кешування"
 
-#: ../../web/templates/pages/edit_web.php:327
+#: ../../web/templates/pages/edit_web.php:325
 msgid "Proxy Support"
 msgstr "Підтримка Proxy"
 
-#: ../../web/templates/pages/edit_web.php:351
+#: ../../web/templates/pages/edit_web.php:349
 msgid "Proxy Extensions"
 msgstr "Розширення Proxy"
 
-#: ../../web/templates/pages/edit_web.php:360
+#: ../../web/templates/pages/edit_web.php:358
 msgid "Custom document root"
 msgstr "Довільний document root"
 
-#: ../../web/templates/pages/edit_web.php:365
+#: ../../web/templates/pages/edit_web.php:363
 msgid "Point to"
 msgstr "Вказує на"
 
-#: ../../web/templates/pages/edit_web.php:378
+#: ../../web/templates/pages/edit_web.php:376
 #: ../../web/templates/pages/edit_server.php:716
 #: ../../web/templates/pages/edit_server.php:831
 #: ../../web/templates/pages/edit_server.php:895
 msgid "Directory"
 msgstr "Папка"
 
-#: ../../web/templates/pages/edit_web.php:388
+#: ../../web/templates/pages/edit_web.php:386
 msgid "Additional FTP account(s)"
 msgstr "Додаткові FTP акаунти"
 
-#: ../../web/templates/pages/edit_web.php:410
-#: ../../web/templates/pages/edit_web.php:464
+#: ../../web/templates/pages/edit_web.php:408
+#: ../../web/templates/pages/edit_web.php:462
 #, php-format
 msgid "Prefix %s will be added to username automatically"
 msgstr "Префікс %s буде автоматично додано до назви акаунту"
 
-#: ../../web/templates/pages/edit_web.php:426
-#: ../../web/templates/pages/edit_web.php:479
+#: ../../web/templates/pages/edit_web.php:424
+#: ../../web/templates/pages/edit_web.php:477
 msgid "Path"
 msgstr "Шлях"
 
-#: ../../web/templates/pages/edit_web.php:434
-#: ../../web/templates/pages/edit_web.php:485
+#: ../../web/templates/pages/edit_web.php:432
+#: ../../web/templates/pages/edit_web.php:483
 msgid "Send FTP credentials to email"
 msgstr "Відправити дані FTP акаунту за адресою"
 
-#: ../../web/templates/pages/edit_web.php:443
+#: ../../web/templates/pages/edit_web.php:441
 msgid "Add FTP account"
 msgstr "Додати FTP акаунт"
 
@@ -4039,9 +4040,9 @@ msgstr "Перебілдити"
 #: ../../web/templates/pages/list_web.php:84
 #: ../../web/templates/pages/list_web.php:231
 #: ../../web/templates/pages/list_web.php:234
-#: ../../web/templates/pages/list_web.php:327
-#: ../../web/templates/includes/panel.php:205
-#: ../../web/templates/includes/panel.php:207
+#: ../../web/templates/pages/list_web.php:337
+#: ../../web/templates/includes/panel.php:219
+#: ../../web/templates/includes/panel.php:221
 msgid "Statistics"
 msgstr "Статистика"
 
@@ -4056,14 +4057,19 @@ msgstr "Редагувати домен"
 msgid "Visit"
 msgstr "Відкрити"
 
-#: ../../web/templates/pages/list_web.php:267
-#: ../../web/templates/pages/list_web.php:270
+#: ../../web/templates/pages/list_web.php:266
+#: ../../web/templates/pages/list_web.php:269
+msgid "Download Site"
+msgstr ""
+
+#: ../../web/templates/pages/list_web.php:277
+#: ../../web/templates/pages/list_web.php:280
 #: ../../web/templates/pages/list_weblog.php:40
 #: ../../web/templates/pages/list_weblog.php:42
 msgid "Access Log"
 msgstr "Журнал доступу"
 
-#: ../../web/templates/pages/list_web.php:339
+#: ../../web/templates/pages/list_web.php:349
 #, php-format
 msgid "%d web domain"
 msgid_plural "%d web domains"
@@ -4235,8 +4241,8 @@ msgid "Proxy Server"
 msgstr "Proxy сервер"
 
 #: ../../web/templates/pages/edit_server.php:241
-msgid "Backend Server"
-msgstr "Backend сервер"
+msgid "PHP Interpreter"
+msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:252
 msgid "Backend Pool Mode"
@@ -4446,11 +4452,11 @@ msgstr "Синхронізувати шаблони каркаса"
 #: ../../web/templates/pages/list_ip.php:34
 #: ../../web/templates/pages/list_ip.php:71
 #: ../../web/templates/pages/list_ip.php:138
-#: ../../web/templates/includes/panel.php:287
-#: ../../web/templates/includes/panel.php:291
-#: ../../web/templates/includes/panel.php:306
-#: ../../web/templates/includes/panel.php:325
-#: ../../web/templates/includes/panel.php:329
+#: ../../web/templates/includes/panel.php:301
+#: ../../web/templates/includes/panel.php:305
+#: ../../web/templates/includes/panel.php:320
+#: ../../web/templates/includes/panel.php:339
+#: ../../web/templates/includes/panel.php:343
 msgid "Domains"
 msgstr "Домени"
 
@@ -4471,6 +4477,10 @@ msgid "File Manager"
 msgstr "Файловий Менеджер"
 
 #: ../../web/templates/pages/edit_server.php:1396
+msgid "Web Terminal"
+msgstr ""
+
+#: ../../web/templates/pages/edit_server.php:1409
 msgid "File System Disk Quota"
 msgstr "Квота файлової системи"
 
@@ -4507,6 +4517,11 @@ msgstr[3] "%d ключів доступу"
 #: ../../web/templates/pages/list_firewall_banlist.php:9
 msgid "Ban IP Address"
 msgstr "Заблокувати IP"
+
+#: ../../web/templates/pages/list_firewall_banlist.php:41
+#: ../../web/templates/pages/list_firewall_banlist.php:86
+msgid "Chain"
+msgstr ""
 
 #: ../../web/templates/pages/list_firewall_banlist.php:69
 #: ../../web/templates/pages/list_ip.php:117
@@ -4596,7 +4611,7 @@ msgstr "Спливає"
 #: ../../web/templates/pages/list_dns.php:34
 #: ../../web/templates/pages/list_dns.php:80
 #: ../../web/templates/pages/list_dns.php:216
-#: ../../web/templates/includes/panel.php:313
+#: ../../web/templates/includes/panel.php:327
 msgid "Records"
 msgstr "Записи"
 
@@ -4658,55 +4673,60 @@ msgstr "Файловий менеджер"
 
 #: ../../web/templates/includes/panel.php:175
 #: ../../web/templates/includes/panel.php:177
+msgid "Web terminal"
+msgstr ""
+
+#: ../../web/templates/includes/panel.php:189
+#: ../../web/templates/includes/panel.php:191
 msgid "Server settings"
 msgstr "Налаштування серверу"
 
-#: ../../web/templates/includes/panel.php:214
-#: ../../web/templates/includes/panel.php:216
+#: ../../web/templates/includes/panel.php:228
+#: ../../web/templates/includes/panel.php:230
 msgid "Help"
 msgstr "Допомога"
 
-#: ../../web/templates/includes/panel.php:251
+#: ../../web/templates/includes/panel.php:265
 msgid "Collapse main menu"
 msgstr "Згорнути головне меню"
 
-#: ../../web/templates/includes/panel.php:251
-#: ../../web/templates/includes/panel.php:254
+#: ../../web/templates/includes/panel.php:265
+#: ../../web/templates/includes/panel.php:268
 msgid "Expand main menu"
 msgstr "Розгорнути головне меню"
 
-#: ../../web/templates/includes/panel.php:269
-#: ../../web/templates/includes/panel.php:276
-#: ../../web/templates/includes/panel.php:287
-#: ../../web/templates/includes/panel.php:306
-#: ../../web/templates/includes/panel.php:325
-#: ../../web/templates/includes/panel.php:344
-#: ../../web/templates/includes/panel.php:360
+#: ../../web/templates/includes/panel.php:283
+#: ../../web/templates/includes/panel.php:290
+#: ../../web/templates/includes/panel.php:301
+#: ../../web/templates/includes/panel.php:320
+#: ../../web/templates/includes/panel.php:339
+#: ../../web/templates/includes/panel.php:358
+#: ../../web/templates/includes/panel.php:374
 msgid "Suspended"
 msgstr "Заблоковані"
 
-#: ../../web/templates/includes/panel.php:270
+#: ../../web/templates/includes/panel.php:284
 msgid "USER"
 msgstr "Користувач"
 
-#: ../../web/templates/includes/panel.php:287
-#: ../../web/templates/includes/panel.php:306
-#: ../../web/templates/includes/panel.php:325
-#: ../../web/templates/includes/panel.php:344
-#: ../../web/templates/includes/panel.php:360
-#: ../../web/templates/includes/panel.php:376
+#: ../../web/templates/includes/panel.php:301
+#: ../../web/templates/includes/panel.php:320
+#: ../../web/templates/includes/panel.php:339
+#: ../../web/templates/includes/panel.php:358
+#: ../../web/templates/includes/panel.php:374
+#: ../../web/templates/includes/panel.php:390
 msgid "Limit"
 msgstr "Ліміт"
 
-#: ../../web/templates/includes/panel.php:310
+#: ../../web/templates/includes/panel.php:324
 msgid "Zones"
 msgstr "Зони"
 
-#: ../../web/templates/includes/panel.php:361
+#: ../../web/templates/includes/panel.php:375
 msgid "CRON"
 msgstr "CRON"
 
-#: ../../web/templates/includes/panel.php:377
+#: ../../web/templates/includes/panel.php:391
 msgid "BACKUP"
 msgstr "БЕКАП"
 
@@ -4773,59 +4793,63 @@ msgstr "внутрішній php Hestia"
 msgid "Hestia internal web server"
 msgstr "внутрішній веб-сервер Hestia"
 
-#: ../../bin/v-list-sys-services:161
+#: ../../bin/v-list-sys-services:166
 msgid "web server"
 msgstr "веб-сервер"
 
-#: ../../bin/v-list-sys-services:172
-msgid "backend server"
-msgstr "бекенд-сервер"
+#: ../../bin/v-list-sys-services:177
+msgid "php interpreter"
+msgstr ""
 
-#: ../../bin/v-list-sys-services:180
+#: ../../bin/v-list-sys-services:185
 msgid "reverse proxy"
 msgstr "реверс-проксі"
 
-#: ../../bin/v-list-sys-services:189
+#: ../../bin/v-list-sys-services:194
 msgid "dns server"
 msgstr "DNS сервер"
 
-#: ../../bin/v-list-sys-services:196
+#: ../../bin/v-list-sys-services:201
 msgid "mail server"
 msgstr "поштовий сервер"
 
-#: ../../bin/v-list-sys-services:203
+#: ../../bin/v-list-sys-services:208
 msgid "imap/pop3 server"
 msgstr "imap/pop3 сервер"
 
-#: ../../bin/v-list-sys-services:220
+#: ../../bin/v-list-sys-services:225
 msgid "email anti-virus"
 msgstr "поштовий антивірус"
 
-#: ../../bin/v-list-sys-services:228
+#: ../../bin/v-list-sys-services:233
 msgid "email spam filter"
 msgstr "спам-фільтр"
 
-#: ../../bin/v-list-sys-services:275
+#: ../../bin/v-list-sys-services:280
 msgid "database server"
 msgstr "БД сервер"
 
-#: ../../bin/v-list-sys-services:284
+#: ../../bin/v-list-sys-services:289
 msgid "ftp server"
 msgstr "FTP сервер"
 
-#: ../../bin/v-list-sys-services:291
+#: ../../bin/v-list-sys-services:296
 msgid "job scheduler"
 msgstr "планувальник завдань"
 
-#: ../../bin/v-list-sys-services:298
+#: ../../bin/v-list-sys-services:303
 msgid "ssh server"
 msgstr "сервер ssh"
 
-#: ../../bin/v-list-sys-services:308
+#: ../../bin/v-list-sys-services:313
 msgid "firewall"
 msgstr "файрвол"
 
-#: ../../bin/v-list-sys-services:323
+#: ../../bin/v-list-sys-services:328
 msgid "brute-force protection"
 msgstr "Захист від брутфорсу"
+
+#: ../../bin/v-list-sys-services:335
+msgid "web terminal backend"
+msgstr ""
 
