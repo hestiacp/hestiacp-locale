@@ -3740,11 +3740,11 @@ msgstr "Год"
 
 #: ../../web/templates/pages/list_rrd.php:17
 msgid "Biennially"
-msgstr "Один раз в два года"
+msgstr "Два года"
 
 #: ../../web/templates/pages/list_rrd.php:18
 msgid "Triennially"
-msgstr "Один раз в три года"
+msgstr "Три года"
 
 #: ../../web/templates/pages/list_packages.php:9
 #: ../../web/templates/pages/add_package.php:36
