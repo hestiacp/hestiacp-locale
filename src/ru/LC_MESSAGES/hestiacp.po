@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-27 16:14+0000\n"
-"PO-Revision-Date: 2023-08-27 16:17\n"
+"POT-Creation-Date: 2023-09-17 18:11+0000\n"
+"PO-Revision-Date: 2023-09-17 18:13\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -124,7 +124,7 @@ msgstr "Ошибка: Hestia не вернула никакого ответа"
 #: ../../web/edit/cron/index.php:89 ../../web/edit/db/index.php:100
 #: ../../web/edit/mail/index.php:736 ../../web/edit/mail/index.php:1166
 #: ../../web/edit/dns/index.php:234 ../../web/edit/dns/index.php:325
-#: ../../web/edit/web/index.php:1603 ../../web/edit/ip/index.php:97
+#: ../../web/edit/web/index.php:1604 ../../web/edit/ip/index.php:97
 #: ../../web/edit/user/index.php:560
 #: ../../web/edit/backup/exclusions/index.php:124
 #: ../../web/edit/firewall/index.php:134 ../../web/edit/package/index.php:327
@@ -162,7 +162,7 @@ msgstr "Пароль не соответствует минимальным тр
 
 #: ../../web/edit/mail/index.php:598 ../../web/edit/web/index.php:863
 #: ../../web/edit/web/index.php:1084 ../../web/edit/web/index.php:1124
-#: ../../web/edit/web/index.php:1186 ../../web/edit/web/index.php:1340
+#: ../../web/edit/web/index.php:1186 ../../web/edit/web/index.php:1341
 #: ../../web/edit/firewall/index.php:89 ../../web/edit/package/index.php:213
 #: ../../web/add/cron/index.php:42 ../../web/add/db/index.php:42
 #: ../../web/add/mail/index.php:49 ../../web/add/mail/index.php:233
@@ -244,7 +244,7 @@ msgid "Error: unknown record ID."
 msgstr "Ошибка: неизвестный идентификатор записи"
 
 #: ../../web/edit/web/index.php:1074 ../../web/edit/web/index.php:1114
-#: ../../web/edit/web/index.php:1330 ../../web/add/db/index.php:20
+#: ../../web/edit/web/index.php:1331 ../../web/add/db/index.php:20
 #: ../../web/add/user/index.php:23 ../../web/templates/pages/edit_mail.php:187
 #: ../../web/templates/pages/add_mail.php:113
 #: ../../web/templates/pages/add_user.php:35
@@ -263,12 +263,12 @@ msgstr "Ошибка: неизвестный идентификатор запи
 #: ../../web/templates/pages/login/reset2fa.php:27
 #: ../../web/templates/pages/login/reset_1.php:14
 #: ../../web/templates/pages/login/login.php:14
-#: ../../web/templates/pages/edit_server.php:458
-#: ../../web/templates/pages/edit_server.php:805
+#: ../../web/templates/pages/edit_server.php:461
+#: ../../web/templates/pages/edit_server.php:808
 msgid "Username"
 msgstr "Аккаунт"
 
-#: ../../web/edit/web/index.php:1245 ../../web/edit/web/index.php:1393
+#: ../../web/edit/web/index.php:1246 ../../web/edit/web/index.php:1394
 msgid "FTP account has been created and ready to use.\n\n"
 "Hostname: {{domain}}\n"
 "Username: {{username}}\n"
@@ -284,7 +284,7 @@ msgstr "Учетная запись FTP создана и готова к исп
 "--\n"
 "{{appname}}"
 
-#: ../../web/edit/web/index.php:1262 ../../web/edit/web/index.php:1410
+#: ../../web/edit/web/index.php:1263 ../../web/edit/web/index.php:1411
 #, php-format
 msgid "FTP Account Credentials: %s"
 msgstr "Учетные данные FTP-аккаунта: %s"
@@ -309,7 +309,7 @@ msgstr "Действие"
 #: ../../web/templates/pages/list_firewall.php:33
 #: ../../web/templates/pages/list_firewall.php:73
 #: ../../web/templates/pages/list_firewall.php:165
-#: ../../web/templates/pages/edit_server.php:749
+#: ../../web/templates/pages/edit_server.php:752
 msgid "Protocol"
 msgstr "Протокол"
 
@@ -339,8 +339,8 @@ msgstr "Протокол"
 #: ../../web/templates/pages/add_mail_acc.php:187
 #: ../../web/templates/pages/add_mail_acc.php:191
 #: ../../web/templates/pages/add_mail_acc.php:195
-#: ../../web/templates/pages/edit_server.php:446
-#: ../../web/templates/pages/edit_server.php:793
+#: ../../web/templates/pages/edit_server.php:449
+#: ../../web/templates/pages/edit_server.php:796
 msgid "Port"
 msgstr "Порт"
 
@@ -531,7 +531,7 @@ msgstr "Ограничение скорости"
 #: ../../web/templates/pages/list_packages.php:275
 #: ../../web/templates/pages/list_packages.php:276
 #: ../../web/templates/pages/add_package.php:289
-#: ../../web/templates/pages/edit_server.php:490
+#: ../../web/templates/pages/edit_server.php:493
 #: ../../web/templates/pages/edit_backup_exclusions.php:36
 #: ../../web/templates/pages/list_stats.php:114
 #: ../../web/templates/pages/list_stats.php:185
@@ -564,7 +564,7 @@ msgstr "Cron задания"
 #: ../../web/templates/pages/list_packages.php:295
 #: ../../web/templates/pages/list_packages.php:296
 #: ../../web/templates/pages/add_package.php:65
-#: ../../web/templates/pages/edit_server.php:655
+#: ../../web/templates/pages/edit_server.php:658
 #: ../../web/templates/pages/list_stats.php:217
 #: ../../web/templates/includes/panel.php:390
 #: ../../web/templates/includes/panel.php:394
@@ -618,6 +618,11 @@ msgstr "сервер имён 2"
 #: ../../web/edit/server/crond/index.php:17
 msgid "Info (read-only mode): Crontab can only be edited via SSH."
 msgstr "Информация (режим только для чтения): Crontab можно редактировать только через SSH."
+
+#: ../../web/edit/server/hestiaweb/index.php:34
+#: ../../web/templates/pages/edit_server.php:15
+msgid "Panel Cronjobs"
+msgstr ""
 
 #: ../../web/edit/server/index.php:1229
 msgid "Inactive session timeout can not lower than 1 minute."
@@ -747,9 +752,9 @@ msgstr "База данных"
 #: ../../web/templates/pages/add_mail_acc.php:127
 #: ../../web/templates/pages/login/login_a.php:19
 #: ../../web/templates/pages/login/login_1.php:12
-#: ../../web/templates/pages/edit_server.php:470
-#: ../../web/templates/pages/edit_server.php:565
-#: ../../web/templates/pages/edit_server.php:817
+#: ../../web/templates/pages/edit_server.php:473
+#: ../../web/templates/pages/edit_server.php:568
+#: ../../web/templates/pages/edit_server.php:820
 msgid "Password"
 msgstr "Пароль"
 
@@ -791,12 +796,12 @@ msgstr "Тип"
 #: ../../web/templates/pages/add_db.php:110
 #: ../../web/templates/pages/list_db.php:62
 #: ../../web/templates/pages/edit_db.php:65
-#: ../../web/templates/pages/edit_server.php:346
-#: ../../web/templates/pages/edit_server.php:434
-#: ../../web/templates/pages/edit_server.php:552
-#: ../../web/templates/pages/edit_server.php:631
-#: ../../web/templates/pages/edit_server.php:781
-#: ../../web/templates/pages/edit_server.php:883
+#: ../../web/templates/pages/edit_server.php:349
+#: ../../web/templates/pages/edit_server.php:437
+#: ../../web/templates/pages/edit_server.php:555
+#: ../../web/templates/pages/edit_server.php:634
+#: ../../web/templates/pages/edit_server.php:784
+#: ../../web/templates/pages/edit_server.php:886
 msgid "Host"
 msgstr "Хост"
 
@@ -1216,7 +1221,8 @@ msgstr "Вверх"
 #: ../../web/templates/pages/list_server_preview.php:6
 #: ../../web/templates/pages/list_webapps.php:6
 #: ../../web/templates/pages/edit_ip.php:6
-#: ../../web/templates/pages/edit_server_service.php:6
+#: ../../web/templates/pages/edit_server_service.php:8
+#: ../../web/templates/pages/edit_server_service.php:14
 #: ../../web/templates/pages/list_mail_acc.php:12
 #: ../../web/templates/pages/list_server_info.php:34
 #: ../../web/templates/pages/list_server_info.php:36
@@ -1549,9 +1555,9 @@ msgstr "Вы уверены, что хотите удалить список IP-
 #: ../../web/templates/pages/list_web.php:164
 #: ../../web/templates/pages/list_web.php:172
 #: ../../web/templates/pages/list_web.php:180
-#: ../../web/templates/pages/edit_server.php:537
-#: ../../web/templates/pages/edit_server.php:1004
-#: ../../web/templates/pages/edit_server.php:1098
+#: ../../web/templates/pages/edit_server.php:540
+#: ../../web/templates/pages/edit_server.php:1007
+#: ../../web/templates/pages/edit_server.php:1101
 #: ../../web/templates/pages/list_dns.php:101
 #: ../../web/templates/pages/list_dns.php:115
 msgid "Disabled"
@@ -1574,8 +1580,8 @@ msgstr "Отключить"
 #: ../../web/templates/pages/list_web.php:167
 #: ../../web/templates/pages/list_web.php:176
 #: ../../web/templates/pages/list_web.php:183
-#: ../../web/templates/pages/edit_server.php:540
-#: ../../web/templates/pages/edit_server.php:1101
+#: ../../web/templates/pages/edit_server.php:543
+#: ../../web/templates/pages/edit_server.php:1104
 #: ../../web/templates/pages/list_dns.php:104
 #: ../../web/templates/pages/list_dns.php:118
 msgid "Enabled"
@@ -1604,7 +1610,7 @@ msgstr "Включить автоматические обновления"
 
 #: ../../web/templates/pages/list_updates.php:29
 #: ../../web/templates/pages/list_services.php:12
-#: ../../web/templates/pages/edit_server.php:147
+#: ../../web/templates/pages/edit_server.php:150
 msgid "Updates"
 msgstr "Обновления"
 
@@ -1623,7 +1629,7 @@ msgstr "Описание"
 #: ../../web/templates/pages/list_updates.php:35
 #: ../../web/templates/pages/list_updates.php:62
 #: ../../web/templates/pages/list_webapps.php:27
-#: ../../web/templates/pages/edit_server.php:151
+#: ../../web/templates/pages/edit_server.php:154
 msgid "Version"
 msgstr "Версия"
 
@@ -1782,7 +1788,7 @@ msgstr "Поиск"
 #: ../../web/templates/pages/list_mail.php:316
 #: ../../web/templates/pages/edit_mail.php:86
 #: ../../web/templates/pages/add_mail.php:87
-#: ../../web/templates/pages/edit_server.php:380
+#: ../../web/templates/pages/edit_server.php:383
 msgid "Anti-Virus"
 msgstr "Антивирус"
 
@@ -1790,7 +1796,7 @@ msgstr "Антивирус"
 #: ../../web/templates/pages/list_mail.php:320
 #: ../../web/templates/pages/edit_mail.php:72
 #: ../../web/templates/pages/add_mail.php:73
-#: ../../web/templates/pages/edit_server.php:391
+#: ../../web/templates/pages/edit_server.php:394
 msgid "Spam Filter"
 msgstr "Спам-фильтр"
 
@@ -1803,7 +1809,7 @@ msgstr "DKIM"
 #: ../../web/templates/pages/list_mail.php:328
 #: ../../web/templates/pages/list_web.php:84
 #: ../../web/templates/pages/list_web.php:334
-#: ../../web/templates/pages/edit_server.php:913
+#: ../../web/templates/pages/edit_server.php:916
 msgid "SSL"
 msgstr "SSL"
 
@@ -1894,12 +1900,47 @@ msgstr "Время выполенения"
 #: ../../web/templates/pages/list_backup.php:63
 #: ../../web/templates/pages/edit_whitelabel.php:111
 #: ../../web/templates/pages/add_firewall_ipset.php:102
-#: ../../web/templates/pages/edit_server.php:336
-#: ../../web/templates/pages/edit_server.php:497
-#: ../../web/templates/pages/edit_server.php:610
-#: ../../web/templates/pages/edit_server.php:664
+#: ../../web/templates/pages/edit_server.php:339
+#: ../../web/templates/pages/edit_server.php:500
+#: ../../web/templates/pages/edit_server.php:613
+#: ../../web/templates/pages/edit_server.php:667
+#: ../../web/templates/pages/edit_server.php:1026
+#: ../../web/templates/pages/edit_server.php:1075
+#: ../../web/templates/pages/edit_server.php:1138
+#: ../../web/templates/pages/edit_server.php:1155
+#: ../../web/templates/pages/edit_server.php:1172
+#: ../../web/templates/pages/edit_server.php:1202
+#: ../../web/templates/pages/edit_server.php:1215
+#: ../../web/templates/pages/edit_server.php:1232
+#: ../../web/templates/pages/edit_server.php:1249
+#: ../../web/templates/pages/edit_server.php:1266
+#: ../../web/templates/pages/edit_server.php:1285
+#: ../../web/templates/pages/edit_server.php:1303
+#: ../../web/templates/pages/edit_server.php:1320
+#: ../../web/templates/pages/edit_server.php:1337
+#: ../../web/templates/pages/edit_server.php:1357
+#: ../../web/templates/pages/edit_server.php:1377
+#: ../../web/templates/pages/edit_server.php:1390
+#: ../../web/templates/pages/edit_server.php:1403
+#: ../../web/templates/pages/edit_server.php:1416
+#: ../../web/templates/pages/edit_server.php:1429
+msgid "No"
+msgstr "Нет"
+
+#: ../../web/templates/pages/list_backup.php:65
+#: ../../web/templates/pages/list_backup.php:66
+#: ../../web/templates/pages/list_backup.php:67
+#: ../../web/templates/pages/list_backup.php:68
+#: ../../web/templates/pages/list_backup.php:69
+#: ../../web/templates/pages/list_backup.php:70
+#: ../../web/templates/pages/edit_whitelabel.php:110
+#: ../../web/templates/pages/add_firewall_ipset.php:101
+#: ../../web/templates/pages/edit_server.php:339
+#: ../../web/templates/pages/edit_server.php:500
+#: ../../web/templates/pages/edit_server.php:613
+#: ../../web/templates/pages/edit_server.php:670
 #: ../../web/templates/pages/edit_server.php:1023
-#: ../../web/templates/pages/edit_server.php:1072
+#: ../../web/templates/pages/edit_server.php:1069
 #: ../../web/templates/pages/edit_server.php:1135
 #: ../../web/templates/pages/edit_server.php:1152
 #: ../../web/templates/pages/edit_server.php:1169
@@ -1913,46 +1954,11 @@ msgstr "Время выполенения"
 #: ../../web/templates/pages/edit_server.php:1317
 #: ../../web/templates/pages/edit_server.php:1334
 #: ../../web/templates/pages/edit_server.php:1354
-#: ../../web/templates/pages/edit_server.php:1374
-#: ../../web/templates/pages/edit_server.php:1387
-#: ../../web/templates/pages/edit_server.php:1400
-#: ../../web/templates/pages/edit_server.php:1413
-#: ../../web/templates/pages/edit_server.php:1426
-msgid "No"
-msgstr "Нет"
-
-#: ../../web/templates/pages/list_backup.php:65
-#: ../../web/templates/pages/list_backup.php:66
-#: ../../web/templates/pages/list_backup.php:67
-#: ../../web/templates/pages/list_backup.php:68
-#: ../../web/templates/pages/list_backup.php:69
-#: ../../web/templates/pages/list_backup.php:70
-#: ../../web/templates/pages/edit_whitelabel.php:110
-#: ../../web/templates/pages/add_firewall_ipset.php:101
-#: ../../web/templates/pages/edit_server.php:336
-#: ../../web/templates/pages/edit_server.php:497
-#: ../../web/templates/pages/edit_server.php:610
-#: ../../web/templates/pages/edit_server.php:667
-#: ../../web/templates/pages/edit_server.php:1020
-#: ../../web/templates/pages/edit_server.php:1066
-#: ../../web/templates/pages/edit_server.php:1132
-#: ../../web/templates/pages/edit_server.php:1149
-#: ../../web/templates/pages/edit_server.php:1166
-#: ../../web/templates/pages/edit_server.php:1196
-#: ../../web/templates/pages/edit_server.php:1209
-#: ../../web/templates/pages/edit_server.php:1226
-#: ../../web/templates/pages/edit_server.php:1243
-#: ../../web/templates/pages/edit_server.php:1260
-#: ../../web/templates/pages/edit_server.php:1279
-#: ../../web/templates/pages/edit_server.php:1297
-#: ../../web/templates/pages/edit_server.php:1314
-#: ../../web/templates/pages/edit_server.php:1331
-#: ../../web/templates/pages/edit_server.php:1351
-#: ../../web/templates/pages/edit_server.php:1377
-#: ../../web/templates/pages/edit_server.php:1390
-#: ../../web/templates/pages/edit_server.php:1403
-#: ../../web/templates/pages/edit_server.php:1416
-#: ../../web/templates/pages/edit_server.php:1429
+#: ../../web/templates/pages/edit_server.php:1380
+#: ../../web/templates/pages/edit_server.php:1393
+#: ../../web/templates/pages/edit_server.php:1406
+#: ../../web/templates/pages/edit_server.php:1419
+#: ../../web/templates/pages/edit_server.php:1432
 msgid "Yes"
 msgstr "Да"
 
@@ -2016,7 +2022,7 @@ msgstr[3] "%d резервных копий"
 #: ../../web/templates/pages/edit_firewall.php:11
 #: ../../web/templates/pages/edit_whitelabel.php:11
 #: ../../web/templates/pages/edit_ip.php:11
-#: ../../web/templates/pages/edit_server_service.php:11
+#: ../../web/templates/pages/edit_server_service.php:20
 #: ../../web/templates/pages/setup_webapp.php:11
 #: ../../web/templates/pages/add_user.php:11
 #: ../../web/templates/pages/edit_package.php:11
@@ -2037,7 +2043,7 @@ msgstr[3] "%d резервных копий"
 #: ../../web/templates/pages/edit_db.php:11
 #: ../../web/templates/pages/add_mail_acc.php:11
 #: ../../web/templates/pages/edit_server_php.php:11
-#: ../../web/templates/pages/edit_server.php:17
+#: ../../web/templates/pages/edit_server.php:20
 #: ../../web/templates/pages/edit_backup_exclusions.php:11
 #: ../../web/templates/pages/edit_server_pgsql.php:11
 #: ../../web/templates/pages/edit_server_mysql.php:11
@@ -2087,7 +2093,7 @@ msgstr "Чтобы включить Let's Encrypt SSL, убедитесь, чт�
 #: ../../web/templates/pages/edit_mail.php:119
 #: ../../web/templates/pages/list_ssl.php:28
 #: ../../web/templates/pages/edit_web.php:195
-#: ../../web/templates/pages/edit_server.php:918
+#: ../../web/templates/pages/edit_server.php:921
 msgid "SSL Certificate"
 msgstr "SSL сертификат"
 
@@ -2095,14 +2101,14 @@ msgstr "SSL сертификат"
 #: ../../web/templates/pages/list_ssl.php:16
 #: ../../web/templates/pages/edit_web.php:196
 #: ../../web/templates/pages/generate_ssl.php:16
-#: ../../web/templates/pages/edit_server.php:926
+#: ../../web/templates/pages/edit_server.php:929
 msgid "Generate Self-Signed SSL Certificate"
 msgstr "Создать самозаверяющий SSL-сертификат"
 
 #: ../../web/templates/pages/edit_mail.php:125
 #: ../../web/templates/pages/list_ssl.php:55
 #: ../../web/templates/pages/edit_web.php:201
-#: ../../web/templates/pages/edit_server.php:938
+#: ../../web/templates/pages/edit_server.php:941
 msgid "SSL Private Key"
 msgstr "Закрытый ключ SSL"
 
@@ -2131,43 +2137,43 @@ msgstr "Опционально"
 
 #: ../../web/templates/pages/edit_mail.php:138
 #: ../../web/templates/pages/edit_web.php:214
-#: ../../web/templates/pages/edit_server.php:948
+#: ../../web/templates/pages/edit_server.php:951
 msgid "Issued To"
 msgstr "Адресован к"
 
 #: ../../web/templates/pages/edit_mail.php:144
 #: ../../web/templates/pages/edit_web.php:220
-#: ../../web/templates/pages/edit_server.php:953
+#: ../../web/templates/pages/edit_server.php:956
 msgid "Alternate"
 msgstr "Альтернативный"
 
 #: ../../web/templates/pages/edit_mail.php:149
 #: ../../web/templates/pages/edit_web.php:225
-#: ../../web/templates/pages/edit_server.php:958
+#: ../../web/templates/pages/edit_server.php:961
 msgid "Not Before"
 msgstr "действителен от"
 
 #: ../../web/templates/pages/edit_mail.php:153
 #: ../../web/templates/pages/edit_web.php:229
-#: ../../web/templates/pages/edit_server.php:962
+#: ../../web/templates/pages/edit_server.php:965
 msgid "Not After"
 msgstr "действителен до"
 
 #: ../../web/templates/pages/edit_mail.php:157
 #: ../../web/templates/pages/edit_web.php:233
-#: ../../web/templates/pages/edit_server.php:966
+#: ../../web/templates/pages/edit_server.php:969
 msgid "Signature"
 msgstr "Сигнатура"
 
 #: ../../web/templates/pages/edit_mail.php:161
 #: ../../web/templates/pages/edit_web.php:237
-#: ../../web/templates/pages/edit_server.php:970
+#: ../../web/templates/pages/edit_server.php:973
 msgid "Key Size"
 msgstr "Размер ключа"
 
 #: ../../web/templates/pages/edit_mail.php:165
 #: ../../web/templates/pages/edit_web.php:241
-#: ../../web/templates/pages/edit_server.php:974
+#: ../../web/templates/pages/edit_server.php:977
 msgid "Issued By"
 msgstr "Адресован от"
 
@@ -2256,7 +2262,7 @@ msgid "Edit Cron Job"
 msgstr "Изменить задание Cron"
 
 #: ../../web/templates/pages/edit_cron.php:57
-#: ../../web/templates/pages/edit_server.php:1078
+#: ../../web/templates/pages/edit_server.php:1081
 #: ../../web/templates/pages/add_cron.php:57
 msgid "Minutes"
 msgstr "Минуты"
@@ -2600,7 +2606,7 @@ msgid "Update Usage Counters"
 msgstr "Обновление счетчиков использования"
 
 #: ../../web/templates/pages/list_user.php:75
-#: ../../web/templates/pages/edit_server.php:1184
+#: ../../web/templates/pages/edit_server.php:1187
 #: ../../web/templates/includes/panel.php:283
 #: ../../web/templates/includes/panel.php:287
 msgid "Users"
@@ -2661,11 +2667,11 @@ msgstr[3] "%d учётных записей пользователя"
 
 #: ../../web/templates/pages/edit_server_dovecot.php:25
 #: ../../web/templates/pages/edit_server_bind9.php:25
-#: ../../web/templates/pages/edit_server_service.php:25
+#: ../../web/templates/pages/edit_server_service.php:34
 #: ../../web/templates/pages/edit_server_nginx.php:28
 #: ../../web/templates/pages/edit_server_httpd.php:28
 #: ../../web/templates/pages/edit_server_php.php:25
-#: ../../web/templates/pages/edit_server.php:50
+#: ../../web/templates/pages/edit_server.php:53
 #: ../../web/templates/pages/edit_server_pgsql.php:25
 #: ../../web/templates/pages/edit_server_mysql.php:25
 msgid "Configure Server"
@@ -2673,7 +2679,7 @@ msgstr "Настроить сервер"
 
 #: ../../web/templates/pages/edit_server_dovecot.php:68
 #: ../../web/templates/pages/edit_server_bind9.php:38
-#: ../../web/templates/pages/edit_server_service.php:34
+#: ../../web/templates/pages/edit_server_service.php:43
 #: ../../web/templates/pages/edit_server_nginx.php:90
 #: ../../web/templates/pages/edit_server_httpd.php:37
 #: ../../web/templates/pages/list_services.php:25
@@ -2737,7 +2743,7 @@ msgstr "Имя отправителя"
 #: ../../web/templates/pages/edit_whitelabel.php:70
 #: ../../web/templates/pages/edit_whitelabel.php:83
 #: ../../web/templates/pages/list_dns_rec.php:164
-#: ../../web/templates/pages/edit_server.php:1049
+#: ../../web/templates/pages/edit_server.php:1052
 msgid "Default"
 msgstr "По умолчанию"
 
@@ -2772,7 +2778,7 @@ msgstr "Обновить логотип"
 
 #: ../../web/templates/pages/edit_whitelabel.php:147
 msgid "Reset Logo"
-msgstr ""
+msgstr "Сброс логотипа"
 
 #: ../../web/templates/pages/list_mail_dns.php:26
 #: ../../web/templates/pages/list_mail_dns.php:41
@@ -2821,7 +2827,7 @@ msgstr "Категория"
 #: ../../web/templates/pages/list_server_preview.php:31
 #: ../../web/templates/pages/edit_package.php:303
 #: ../../web/templates/pages/add_package.php:299
-#: ../../web/templates/pages/edit_server.php:988
+#: ../../web/templates/pages/edit_server.php:991
 msgid "System"
 msgstr "Система"
 
@@ -2830,7 +2836,7 @@ msgid "Policy"
 msgstr "Политика"
 
 #: ../../web/templates/pages/list_server_preview.php:35
-#: ../../web/templates/pages/edit_server.php:1270
+#: ../../web/templates/pages/edit_server.php:1273
 msgid "Allow suspended users to log in with read-only access"
 msgstr "Разрешить заблокированным пользователям входить в режиме \"только чтение\""
 
@@ -3276,7 +3282,7 @@ msgstr "Веб-почта"
 #: ../../web/templates/pages/list_db.php:114
 #: ../../web/templates/pages/list_db.php:251
 #: ../../web/templates/pages/add_mail_acc.php:137
-#: ../../web/templates/pages/edit_server.php:62
+#: ../../web/templates/pages/edit_server.php:65
 msgid "Hostname"
 msgstr "Имя Хоста"
 
@@ -3341,7 +3347,7 @@ msgstr "Расширенные настройки"
 
 #: ../../web/templates/pages/edit_server_nginx.php:80
 #: ../../web/templates/pages/edit_server_php.php:65
-#: ../../web/templates/pages/edit_server.php:57
+#: ../../web/templates/pages/edit_server.php:60
 #: ../../web/templates/pages/edit_server_mysql.php:57
 msgid "Basic Options"
 msgstr "Основные настройки"
@@ -3412,7 +3418,7 @@ msgid "For example"
 msgstr "Например"
 
 #: ../../web/templates/pages/edit_user.php:168
-#: ../../web/templates/pages/edit_server.php:86
+#: ../../web/templates/pages/edit_server.php:89
 msgid "Theme"
 msgstr "Тема оформления"
 
@@ -3775,7 +3781,7 @@ msgid "Task Monitor"
 msgstr "Монитор задач"
 
 #: ../../web/templates/pages/list_services.php:16
-#: ../../web/templates/pages/edit_server.php:1422
+#: ../../web/templates/pages/edit_server.php:1425
 msgid "Firewall"
 msgstr "Файрвол"
 
@@ -4000,9 +4006,9 @@ msgid "Point to"
 msgstr "Указывает на "
 
 #: ../../web/templates/pages/edit_web.php:377
-#: ../../web/templates/pages/edit_server.php:716
-#: ../../web/templates/pages/edit_server.php:831
-#: ../../web/templates/pages/edit_server.php:895
+#: ../../web/templates/pages/edit_server.php:719
+#: ../../web/templates/pages/edit_server.php:834
+#: ../../web/templates/pages/edit_server.php:898
 msgid "Directory"
 msgstr "Каталог"
 
@@ -4043,7 +4049,7 @@ msgstr "Пересоздать"
 
 #: ../../web/templates/pages/list_web.php:47
 msgid "Purge Nginx Cache"
-msgstr ""
+msgstr "Очистить кэш памяти NGINX"
 
 #: ../../web/templates/pages/list_web.php:85
 #: ../../web/templates/pages/list_web.php:232
@@ -4109,7 +4115,7 @@ msgstr "Забыл токен"
 
 #: ../../web/templates/pages/login/login_2.php:24
 #: ../../web/templates/pages/login/login_1.php:23
-#: ../../web/templates/pages/edit_server.php:1041
+#: ../../web/templates/pages/edit_server.php:1044
 msgid "Login"
 msgstr "Войти"
 
@@ -4195,268 +4201,268 @@ msgstr "Город / Населенный пункт"
 msgid "White Label"
 msgstr "Белая этикетка"
 
-#: ../../web/templates/pages/edit_server.php:74
+#: ../../web/templates/pages/edit_server.php:77
 msgid "Time Zone"
 msgstr "Часовой Пояс"
 
-#: ../../web/templates/pages/edit_server.php:105
+#: ../../web/templates/pages/edit_server.php:108
 msgid "Set as selected theme for all users"
 msgstr "Установить тему для всех пользователей"
 
-#: ../../web/templates/pages/edit_server.php:109
+#: ../../web/templates/pages/edit_server.php:112
 msgid "Default Language"
 msgstr "Язык по умолчанию"
 
-#: ../../web/templates/pages/edit_server.php:126
+#: ../../web/templates/pages/edit_server.php:129
 msgid "Set as default language for all users"
 msgstr "Установить язык по-умолчанию для всех пользователей"
 
-#: ../../web/templates/pages/edit_server.php:138
+#: ../../web/templates/pages/edit_server.php:141
 msgid "Enable debug mode"
 msgstr "Включить режим отладки"
 
-#: ../../web/templates/pages/edit_server.php:158
+#: ../../web/templates/pages/edit_server.php:161
 msgid "Release"
 msgstr "Релиз"
 
-#: ../../web/templates/pages/edit_server.php:165
+#: ../../web/templates/pages/edit_server.php:168
 msgid "Options"
 msgstr "Параметры"
 
-#: ../../web/templates/pages/edit_server.php:176
+#: ../../web/templates/pages/edit_server.php:179
 msgid "Enable preview features"
 msgstr "Включить предварительный просмотр"
 
-#: ../../web/templates/pages/edit_server.php:180
+#: ../../web/templates/pages/edit_server.php:183
 msgid "View"
 msgstr "Вид"
 
-#: ../../web/templates/pages/edit_server.php:193
+#: ../../web/templates/pages/edit_server.php:196
 msgid "Send email notification when an update has been installed"
 msgstr "Отправить уведомление по электронной почте после установки обновления"
 
-#: ../../web/templates/pages/edit_server.php:205
+#: ../../web/templates/pages/edit_server.php:208
 msgid "Send update installation log by email"
 msgstr "Отправить журнал установки обновления по электронной почте"
 
-#: ../../web/templates/pages/edit_server.php:214
-#: ../../web/templates/pages/edit_server.php:230
+#: ../../web/templates/pages/edit_server.php:217
+#: ../../web/templates/pages/edit_server.php:233
 msgid "Web Server"
 msgstr "Веб-сервер"
 
-#: ../../web/templates/pages/edit_server.php:219
+#: ../../web/templates/pages/edit_server.php:222
 msgid "Proxy Server"
 msgstr "Прокси-сервер"
 
-#: ../../web/templates/pages/edit_server.php:241
+#: ../../web/templates/pages/edit_server.php:244
 msgid "PHP Interpreter"
 msgstr "Интерпретатор PHP"
 
-#: ../../web/templates/pages/edit_server.php:252
+#: ../../web/templates/pages/edit_server.php:255
 msgid "Backend Pool Mode"
 msgstr "Режим бэкэнд-пула"
 
-#: ../../web/templates/pages/edit_server.php:261
+#: ../../web/templates/pages/edit_server.php:264
 msgid "Enabled PHP Versions"
 msgstr "Включенные версии PHP"
 
-#: ../../web/templates/pages/edit_server.php:265
+#: ../../web/templates/pages/edit_server.php:268
 msgid "It may take a few minutes to save your changes. Please wait until the process has completed and do not refresh the page."
 msgstr "Сохранение изменений может занять несколько минут. Пожалуйста, дождитесь завершения процесса и не обновляйте эту страницу."
 
-#: ../../web/templates/pages/edit_server.php:298
+#: ../../web/templates/pages/edit_server.php:301
 msgid "System PHP Version"
 msgstr "Системная версия PHP"
 
-#: ../../web/templates/pages/edit_server.php:321
-#: ../../web/templates/pages/edit_server.php:325
+#: ../../web/templates/pages/edit_server.php:324
+#: ../../web/templates/pages/edit_server.php:328
 msgid "DNS Server"
 msgstr "DNS Сервер"
 
-#: ../../web/templates/pages/edit_server.php:334
+#: ../../web/templates/pages/edit_server.php:337
 msgid "DNS Cluster"
 msgstr "DNS Кластер"
 
-#: ../../web/templates/pages/edit_server.php:366
-#: ../../web/templates/pages/edit_server.php:370
+#: ../../web/templates/pages/edit_server.php:369
+#: ../../web/templates/pages/edit_server.php:373
 msgid "Mail Server"
 msgstr "Почтовый сервер"
 
-#: ../../web/templates/pages/edit_server.php:403
+#: ../../web/templates/pages/edit_server.php:406
 msgid "Webmail Alias"
 msgstr "Алиас для Webmail"
 
-#: ../../web/templates/pages/edit_server.php:424
+#: ../../web/templates/pages/edit_server.php:427
 msgid "Global SMTP Relay"
 msgstr "Глобальный SMTP Relay"
 
-#: ../../web/templates/pages/edit_server.php:495
+#: ../../web/templates/pages/edit_server.php:498
 msgid "MySQL Support"
 msgstr "Поддержка MySQL"
 
-#: ../../web/templates/pages/edit_server.php:508
+#: ../../web/templates/pages/edit_server.php:511
 msgid "phpMyAdmin Alias"
 msgstr "Алиас для phpMyAdmin"
 
-#: ../../web/templates/pages/edit_server.php:520
+#: ../../web/templates/pages/edit_server.php:523
 msgid "phpMyAdmin Single Sign On"
 msgstr "Единая точка входа phpMyAdmin"
 
-#: ../../web/templates/pages/edit_server.php:526
+#: ../../web/templates/pages/edit_server.php:529
 msgid "More info"
 msgstr "Подробнее"
 
-#: ../../web/templates/pages/edit_server.php:578
-#: ../../web/templates/pages/edit_server.php:636
+#: ../../web/templates/pages/edit_server.php:581
+#: ../../web/templates/pages/edit_server.php:639
 msgid "Maximum Number of Databases"
 msgstr "Максимальное количество баз данных"
 
-#: ../../web/templates/pages/edit_server.php:591
-#: ../../web/templates/pages/edit_server.php:642
+#: ../../web/templates/pages/edit_server.php:594
+#: ../../web/templates/pages/edit_server.php:645
 msgid "Current Number of Databases"
 msgstr "Текущее количество баз данных"
 
-#: ../../web/templates/pages/edit_server.php:608
+#: ../../web/templates/pages/edit_server.php:611
 msgid "PostgreSQL Support"
 msgstr "Поддержка PostgreSQL"
 
-#: ../../web/templates/pages/edit_server.php:619
+#: ../../web/templates/pages/edit_server.php:622
 msgid "phpPgAdmin Alias"
 msgstr "Алиас для phpPgAdmin"
 
-#: ../../web/templates/pages/edit_server.php:660
+#: ../../web/templates/pages/edit_server.php:663
 msgid "Local Backup"
 msgstr "Локальное резервное копирование"
 
-#: ../../web/templates/pages/edit_server.php:673
+#: ../../web/templates/pages/edit_server.php:676
 msgid "Compression"
 msgstr "Сжатие"
 
-#: ../../web/templates/pages/edit_server.php:693
+#: ../../web/templates/pages/edit_server.php:696
 msgid "Compression Level"
 msgstr "Уровень компримирования"
 
-#: ../../web/templates/pages/edit_server.php:709
+#: ../../web/templates/pages/edit_server.php:712
 msgid "zstd only"
 msgstr "только zstd "
 
-#: ../../web/templates/pages/edit_server.php:743
+#: ../../web/templates/pages/edit_server.php:746
 msgid "Remote Backup"
 msgstr "Удаленное резервное копирование"
 
-#: ../../web/templates/pages/edit_server.php:984
+#: ../../web/templates/pages/edit_server.php:987
 msgid "Security"
 msgstr "Безопасность"
 
-#: ../../web/templates/pages/edit_server.php:996
+#: ../../web/templates/pages/edit_server.php:999
 msgid "API"
 msgstr "API"
 
-#: ../../web/templates/pages/edit_server.php:1000
+#: ../../web/templates/pages/edit_server.php:1003
 msgid "Enable API access"
 msgstr "Включить доступ по API"
 
-#: ../../web/templates/pages/edit_server.php:1007
+#: ../../web/templates/pages/edit_server.php:1010
 msgid "Enabled for admin"
 msgstr "Включено для администратора"
 
-#: ../../web/templates/pages/edit_server.php:1010
+#: ../../web/templates/pages/edit_server.php:1013
 msgid "Enabled for all users"
 msgstr "Включено для всех пользователей"
 
-#: ../../web/templates/pages/edit_server.php:1016
+#: ../../web/templates/pages/edit_server.php:1019
 msgid "Enable legacy API access"
 msgstr "Включить устаревший доступ к API"
 
-#: ../../web/templates/pages/edit_server.php:1030
+#: ../../web/templates/pages/edit_server.php:1033
 msgid "Allowed IP addresses for API"
 msgstr "Разрешенные IP для API"
 
-#: ../../web/templates/pages/edit_server.php:1045
+#: ../../web/templates/pages/edit_server.php:1048
 msgid "Login screen style"
 msgstr "Стиль страницы входа"
 
-#: ../../web/templates/pages/edit_server.php:1052
+#: ../../web/templates/pages/edit_server.php:1055
 msgid "Old Style"
 msgstr "Старый стиль"
 
-#: ../../web/templates/pages/edit_server.php:1058
+#: ../../web/templates/pages/edit_server.php:1061
 msgid "Allow users to reset their passwords"
 msgstr "Разрешить пользователям сброс их паролей"
 
-#: ../../web/templates/pages/edit_server.php:1078
+#: ../../web/templates/pages/edit_server.php:1081
 msgid "Inactive session timeout"
 msgstr "Таймаут неактивной сессии"
 
-#: ../../web/templates/pages/edit_server.php:1090
+#: ../../web/templates/pages/edit_server.php:1093
 msgid "Prevent CSRF"
 msgstr "Предотвращать CSRF"
 
-#: ../../web/templates/pages/edit_server.php:1104
+#: ../../web/templates/pages/edit_server.php:1107
 msgid "Strict"
 msgstr "строгая политика"
 
-#: ../../web/templates/pages/edit_server.php:1112
+#: ../../web/templates/pages/edit_server.php:1115
 msgid "System Protection"
 msgstr "Защита системы"
 
-#: ../../web/templates/pages/edit_server.php:1120
+#: ../../web/templates/pages/edit_server.php:1123
 msgid "System Administrator account"
 msgstr "Аккаунт Системного Администратора"
 
-#: ../../web/templates/pages/edit_server.php:1124
+#: ../../web/templates/pages/edit_server.php:1127
 msgid "Restrict access to read-only for other administrators"
 msgstr "Включить режим \"только чтение\" для других администраторов"
 
-#: ../../web/templates/pages/edit_server.php:1141
+#: ../../web/templates/pages/edit_server.php:1144
 msgid "Hide account from other administrators"
 msgstr "Скрыть аккаунт от других администраторов"
 
-#: ../../web/templates/pages/edit_server.php:1158
+#: ../../web/templates/pages/edit_server.php:1161
 msgid "Do not allow other administrators to access Server Settings"
 msgstr "Запретить администраторам доступ к Настройкам Сервера"
 
-#: ../../web/templates/pages/edit_server.php:1176
+#: ../../web/templates/pages/edit_server.php:1179
 msgid "Policies"
 msgstr "Политики"
 
-#: ../../web/templates/pages/edit_server.php:1188
+#: ../../web/templates/pages/edit_server.php:1191
 msgid "Allow users to edit their account details"
 msgstr "Разрешить пользователям изменять их аккаунт"
 
-#: ../../web/templates/pages/edit_server.php:1205
+#: ../../web/templates/pages/edit_server.php:1208
 msgid "Allow users to change templates when editing web domains"
 msgstr "Разрешить пользователям изменять шаблоны при правке веб доменов"
 
-#: ../../web/templates/pages/edit_server.php:1218
+#: ../../web/templates/pages/edit_server.php:1221
 msgid "Allow users to change templates when editing DNS zones"
 msgstr "Разрешить пользователям изменять шаблоны при правке DNS зон"
 
-#: ../../web/templates/pages/edit_server.php:1235
+#: ../../web/templates/pages/edit_server.php:1238
 msgid "Allow users to view action and login history logs"
 msgstr "Разрешить пользователям просматривать журналы входов и операций"
 
-#: ../../web/templates/pages/edit_server.php:1252
+#: ../../web/templates/pages/edit_server.php:1255
 msgid "Allow users to delete log history"
 msgstr "Разрешить пользователям удалять историю логов"
 
-#: ../../web/templates/pages/edit_server.php:1271
+#: ../../web/templates/pages/edit_server.php:1274
 msgid "Preview"
 msgstr "Предварительный просмотр"
 
-#: ../../web/templates/pages/edit_server.php:1289
+#: ../../web/templates/pages/edit_server.php:1292
 msgid "Allow suspended users to create new backups"
 msgstr "Разрешить заблокированным пользователям создавать новые резервные копии"
 
-#: ../../web/templates/pages/edit_server.php:1306
+#: ../../web/templates/pages/edit_server.php:1309
 msgid "Sync Error document templates on user rebuild"
 msgstr "Синхронизировать шаблоны документов ошибок при пересборке пользователя"
 
-#: ../../web/templates/pages/edit_server.php:1323
+#: ../../web/templates/pages/edit_server.php:1326
 msgid "Sync Skeleton templates"
 msgstr "Синхронизировать шаблоны скелета"
 
-#: ../../web/templates/pages/edit_server.php:1339
+#: ../../web/templates/pages/edit_server.php:1342
 #: ../../web/templates/pages/list_ip.php:34
 #: ../../web/templates/pages/list_ip.php:71
 #: ../../web/templates/pages/list_ip.php:138
@@ -4468,27 +4474,27 @@ msgstr "Синхронизировать шаблоны скелета"
 msgid "Domains"
 msgstr "Домены"
 
-#: ../../web/templates/pages/edit_server.php:1343
+#: ../../web/templates/pages/edit_server.php:1346
 msgid "Enforce subdomain ownership"
 msgstr "Владеть включая поддомены"
 
-#: ../../web/templates/pages/edit_server.php:1365
+#: ../../web/templates/pages/edit_server.php:1368
 msgid "Plugins"
 msgstr "Плагины"
 
-#: ../../web/templates/pages/edit_server.php:1370
+#: ../../web/templates/pages/edit_server.php:1373
 msgid "Quick App Installer"
 msgstr "Ускоренный установщик приложений"
 
-#: ../../web/templates/pages/edit_server.php:1383
+#: ../../web/templates/pages/edit_server.php:1386
 msgid "File Manager"
 msgstr "Файловый менеджер"
 
-#: ../../web/templates/pages/edit_server.php:1396
+#: ../../web/templates/pages/edit_server.php:1399
 msgid "Web Terminal"
 msgstr "Веб-Терминал"
 
-#: ../../web/templates/pages/edit_server.php:1409
+#: ../../web/templates/pages/edit_server.php:1412
 msgid "File System Disk Quota"
 msgstr "Квота размера памяти файловой системы"
 
