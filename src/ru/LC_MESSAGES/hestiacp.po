@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-17 18:11+0000\n"
-"PO-Revision-Date: 2023-09-17 18:13\n"
+"PO-Revision-Date: 2023-09-17 18:20\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -3746,11 +3746,11 @@ msgstr "Год"
 
 #: ../../web/templates/pages/list_rrd.php:17
 msgid "Biennially"
-msgstr "Один раз в два года"
+msgstr "Два года"
 
 #: ../../web/templates/pages/list_rrd.php:18
 msgid "Triennially"
-msgstr "Один раз в три года"
+msgstr "Три года"
 
 #: ../../web/templates/pages/list_packages.php:9
 #: ../../web/templates/pages/add_package.php:36
