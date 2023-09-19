@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-17 18:11+0000\n"
-"PO-Revision-Date: 2023-09-17 18:13\n"
+"PO-Revision-Date: 2023-09-19 06:17\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
@@ -622,7 +622,7 @@ msgstr "Інформація (в режимі read-only): Crontab можна р�
 #: ../../web/edit/server/hestiaweb/index.php:34
 #: ../../web/templates/pages/edit_server.php:15
 msgid "Panel Cronjobs"
-msgstr ""
+msgstr "Панель Crontasks"
 
 #: ../../web/edit/server/index.php:1229
 msgid "Inactive session timeout can not lower than 1 minute."
