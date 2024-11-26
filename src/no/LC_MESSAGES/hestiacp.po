@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-24 11:26+0000\n"
-"PO-Revision-Date: 2024-07-24 20:19\n"
+"PO-Revision-Date: 2024-11-19 13:52\n"
 "Last-Translator: \n"
 "Language-Team: Norwegian\n"
 "Language: no_NO\n"
@@ -19,45 +19,46 @@ msgstr ""
 
 #: ../../web/download/backup/index.php:20
 msgid "Download of remote backup file has been scheduled."
-msgstr ""
+msgstr "Identifikator (Nøkkel): Nedlasting av ekstern sikkerhetskopifil er planlagt. #: ../../web/download/backup/index.php:20\n"
+"Fil: hestiacp.pot"
 
 #: ../../web/download/backup/index.php:24 ../../web/unsuspend/dns/index.php:18
 #: ../../web/unsuspend/dns/index.php:44 ../../web/unsuspend/mail/index.php:18
 #: ../../web/unsuspend/mail/index.php:45 ../../web/schedule/backup/index.php:17
 #: ../../web/schedule/restore/index.php:70 ../../web/bulk/restore/index.php:78
 msgid "Error: Hestia did not return any output."
-msgstr ""
+msgstr "Feil: Hestia returnerte ikke resultat."
 
 #: ../../web/schedule/backup/incremental/index.php:17
 msgid "Snapshot has been sheduled"
-msgstr ""
+msgstr "Øyeblikksbilde er planlagt"
 
 #: ../../web/schedule/backup/index.php:12
 msgid "Task has been added to the queue. You will receive an email notification when your backup is ready for download."
-msgstr ""
+msgstr "Oppgaven er lagt til i køen. Du vil motta et e-postvarsel når sikkerhetskopien er klar for nedlasting."
 
 #: ../../web/schedule/backup/index.php:22
 msgid "An existing backup task is already running, please wait for it to complete."
-msgstr ""
+msgstr "En eksisterende sikkerhetskopieringsoppgave kjører allerede, vennligst vent til den er fullført."
 
 #: ../../web/schedule/restore/index.php:65
 #: ../../web/bulk/restore/incremental/index.php:126
 #: ../../web/bulk/restore/index.php:73
 msgid "Task has been added to the queue. You will receive an email notification when your restore has been completed."
-msgstr ""
+msgstr "Oppgaven er lagt til i køen. Du vil motta en e-postmelding når gjenopprettingen er fullført."
 
 #: ../../web/schedule/restore/index.php:74 ../../web/bulk/restore/index.php:82
 msgid "An existing restoration task is already running. Please wait for it to finish before launching it again."
-msgstr ""
+msgstr "En eksisterende gjenopprettingsoppgave kjører allerede. Vennligst vent til den er fullført før du starter den på nytt."
 
 #: ../../web/restart/service/index.php:23
 #, php-format
 msgid "Restart \"%s\" failed"
-msgstr ""
+msgstr "Omstart av \"%s\" mislyktes"
 
 #: ../../web/restart/system/index.php:26 ../../web/bulk/service/index.php:40
 msgid "The system is going down for reboot NOW!"
-msgstr ""
+msgstr "Systemet går ned for å starte på nytt NÅ!"
 
 #: ../../web/list/backup/incremental/index.php:11
 #: ../../web/templates/pages/edit_web.php:377
@@ -65,19 +66,19 @@ msgstr ""
 #: ../../web/templates/pages/edit_server.php:832
 #: ../../web/templates/pages/edit_server.php:896
 msgid "Directory"
-msgstr ""
+msgstr "Katalog"
 
 #: ../../web/list/backup/incremental/index.php:14
 msgid "File"
-msgstr ""
+msgstr "Fil"
 
 #: ../../web/list/backup/incremental/index.php:17
 msgid "Symlink"
-msgstr ""
+msgstr "Symbolsk lenke"
 
 #: ../../web/list/backup/incremental/index.php:20
 msgid "Unknown"
-msgstr ""
+msgstr "Ukjent"
 
 #: ../../web/reset/index.php:60
 msgid "Hello {{name}},\n\n"
@@ -89,29 +90,37 @@ msgid "Hello {{name}},\n\n"
 "Best regards,\n\n"
 "--\n"
 "{{appname}}"
-msgstr ""
+msgstr "Hei {{name}},\n\n"
+"For å tilbakestille passordet ditt for {{appname}}, vennligst følg denne lenken:\n"
+"https://{{hostname}}/reset/?action=confirm&user={{user}}&code={{resetcode}}\n\n"
+"Alternativt kan du gå til https://{{hostname}}/reset/?action=code&user={{user}} og skrive inn følgende tilbakestillingskode:\n"
+"{{resetcode}}\n\n"
+"Hvis du ikke ba om tilbakestilling av passord, vennligst se bort fra denne meldingen og beklager.\n\n"
+"Vennlig hilsen,\n\n"
+"--\n"
+"{{appname}}"
 
 #: ../../web/reset/index.php:84
 #, php-format
 msgid "Password Reset at %s"
-msgstr ""
+msgstr "Tilbakestilling av passord ved %s"
 
 #: ../../web/reset/index.php:137 ../../web/reset/index.php:141
 #: ../../web/reset/index.php:146 ../../web/reset/index.php:155
 msgid "Password reset instructions have been sent to the email address associated with this account."
-msgstr ""
+msgstr "Instruksjoner for tilbakestilling av passord er sendt til e-postadressen knyttet til denne kontoen."
 
 #: ../../web/reset/index.php:150
 msgid "Please wait 15 minutes before sending a new request."
-msgstr ""
+msgstr "Vennligst vent 15 minutter før du sender en ny forespørsel."
 
 #: ../../web/reset/index.php:187
 msgid "An internal error occurred"
-msgstr ""
+msgstr "Det oppsto en intern feil"
 
 #: ../../web/reset/index.php:195
 msgid "Code has been expired"
-msgstr ""
+msgstr "Koden er utløpt"
 
 #: ../../web/reset/index.php:213 ../../web/reset/index.php:231
 msgid "Invalid username or code"
@@ -119,59 +128,59 @@ msgstr "Ugyldig brukernavn eller kode"
 
 #: ../../web/reset/index.php:234
 msgid "Passwords do not match"
-msgstr ""
+msgstr "Passordene samsvarer ikke"
 
 #: ../../web/inc/main.php:180 ../../web/inc/main.php:189
 #: ../../web/generate/ssl/index.php:123
 #, php-format
 msgid "Error code: %s"
-msgstr ""
+msgstr "Feilkode: %s"
 
 #: ../../web/inc/main.php:267 ../../web/inc/main.php:278
 msgid "You are logged out, please log in again."
-msgstr ""
+msgstr "Du er utlogget, vennligst logg inn igjen."
 
 #: ../../web/inc/main.php:345
 #, php-format
 msgid "%d day"
 msgid_plural "%d days"
-msgstr[0] ""
+msgstr[0] "%d dager"
 msgstr[1] ""
 
 #: ../../web/inc/main.php:348
 #, php-format
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] ""
+msgstr[0] "%d time(er)"
 msgstr[1] ""
 
 #: ../../web/inc/main.php:352
 #, php-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d minutt(er)"
+msgstr[1] "%d minutter"
 
 #: ../../web/edit/user/index.php:162 ../../web/edit/db/index.php:74
 #: ../../web/edit/mail/index.php:774 ../../web/add/user/index.php:56
 #: ../../web/add/db/index.php:55 ../../web/add/mail/index.php:246
 msgid "Password does not match the minimum requirements."
-msgstr ""
+msgstr "Passordet samsvarer ikke med minimumskravene."
 
 #: ../../web/edit/user/index.php:380 ../../web/edit/package/index.php:235
 #: ../../web/add/package/index.php:120
 msgid "Cannot combine nologin and rssh shell with jailed shell."
-msgstr ""
+msgstr "Kan ikke kombinere nologin og rssh-skjell med jailed-skjell."
 
 #: ../../web/edit/user/index.php:432 ../../web/edit/web/index.php:1173
 #: ../../web/edit/mail/index.php:748 ../../web/add/user/index.php:50
 #: ../../web/add/db/index.php:48 ../../web/add/mail/index.php:239
 msgid "Please enter a valid email address."
-msgstr ""
+msgstr "Vennligst oppgi en gyldig e-postadresse."
 
 #: ../../web/edit/user/index.php:448
 msgid "Please enter a valid contact name."
-msgstr ""
+msgstr "Vennligst angi et gyldig kontaktnavn."
 
 #: ../../web/edit/user/index.php:579 ../../web/edit/server/vsftpd/index.php:44
 #: ../../web/edit/server/bind9/index.php:61
@@ -203,29 +212,29 @@ msgstr ""
 #: ../../web/edit/mail/index.php:736 ../../web/edit/mail/index.php:1166
 #: ../../web/edit/firewall/index.php:134 ../../web/edit/package/index.php:382
 msgid "Changes have been saved."
-msgstr ""
+msgstr "Endringene har blitt lagret."
 
 #: ../../web/edit/server/crond/index.php:17
 #: ../../web/edit/server/cron/index.php:17
 msgid "Info (read-only mode): Crontab can only be edited via SSH."
-msgstr ""
+msgstr "Info (skrivebeskyttet) Crontab kan kun redigeres via SSH."
 
 #: ../../web/edit/server/index.php:1279
 msgid "Repository can not be empty"
-msgstr ""
+msgstr "Lageret kan ikke være tomt"
 
 #: ../../web/edit/server/index.php:1381
 msgid "Inactive session timeout can not lower than 1 minute."
-msgstr ""
+msgstr "Tidsavbrudd for inaktiv økt kan ikke være lavere enn 1 minutt."
 
 #: ../../web/edit/server/hestiaweb/index.php:34
 #: ../../web/templates/pages/edit_server.php:15
 msgid "Panel Cronjobs"
-msgstr ""
+msgstr "Panel Cronjobs"
 
 #: ../../web/edit/dns/index.php:347
 msgid "Error: unknown record ID."
-msgstr ""
+msgstr "Feil: ukjent post-ID."
 
 #: ../../web/edit/web/index.php:863 ../../web/edit/web/index.php:1084
 #: ../../web/edit/web/index.php:1124 ../../web/edit/web/index.php:1186
@@ -276,12 +285,18 @@ msgid "FTP account has been created and ready to use.\n\n"
 "Best regards,\n\n"
 "--\n"
 "{{appname}}"
-msgstr ""
+msgstr "FTP-konto er opprettet og klar til å brukes.\n\n"
+"Vertnavn: {{domain}}\n"
+"brukernavn: {{username}}\n"
+"Passord: {{password}}\n\n"
+"Vennlig hilsen,\n\n"
+"--\n"
+"{{appname}}"
 
 #: ../../web/edit/web/index.php:1263 ../../web/edit/web/index.php:1431
 #, php-format
 msgid "FTP Account Credentials: %s"
-msgstr ""
+msgstr "FTP kontoopplysninger: %s"
 
 #: ../../web/edit/mail/index.php:1098 ../../web/add/mail/index.php:438
 msgid "Mail account has been created.\n\n"
@@ -308,12 +323,35 @@ msgid "Mail account has been created.\n\n"
 "Best regards,\n\n"
 "--\n"
 "{{appname}}"
-msgstr ""
+msgstr "E-postkontoen har blitt opprettet.\n\n"
+"Vanlige kontoinnstillinger:\n"
+"Brukernavn: {{account}}@{{domain}}\n"
+"Passord: {{password}}\n"
+"Webmail: {{webmail}}\n"
+"Vertnavn: {{hostname}}\n\n"
+"IMAP-innstillinger\n"
+"Autentisering: Normal passord\n"
+"SSL/TLS: Port 993\n"
+"STARTTLS: Port 143\n"
+"Ingen kryptering: Port 143\n\n"
+"POP3-innstillinger\n"
+"Autentisering: Normal passord\n"
+"SSL/TLS: Port 995\n"
+"STARTTLS: Port 110\n"
+"Ingen kryptering: Port 110\n\n"
+"SMTP-innstillinger\n"
+"Autentisering: Normal passord\n"
+"SSL/TLS: Port 465\n"
+"STARTTLS: Port 587\n"
+"Ingen kryptering: Port 25\n\n"
+"Vennlig hilsen,\n\n"
+"--\n"
+"{{appname}}"
 
 #: ../../web/edit/mail/index.php:1135 ../../web/add/mail/index.php:475
 #, php-format
 msgid "Email Credentials: %s@%s"
-msgstr ""
+msgstr "E-post legitimasjon: %s@%s"
 
 #: ../../web/edit/firewall/index.php:70 ../../web/add/firewall/index.php:42
 #: ../../web/templates/pages/add_firewall.php:28
@@ -355,7 +393,7 @@ msgstr "Protokoll"
 #: ../../web/templates/includes/email-settings-panel.php:94
 #: ../../web/templates/includes/email-settings-panel.php:98
 msgid "Port"
-msgstr ""
+msgstr "Port"
 
 #: ../../web/edit/firewall/index.php:79 ../../web/add/dns/index.php:25
 #: ../../web/add/ip/index.php:23 ../../web/add/web/index.php:20
@@ -382,7 +420,7 @@ msgstr ""
 #: ../../web/templates/pages/list_firewall.php:173
 #: ../../web/templates/pages/edit_ip.php:35
 msgid "IP Address"
-msgstr ""
+msgstr "IP-adresse"
 
 #: ../../web/edit/package/index.php:143 ../../web/add/user/index.php:29
 #: ../../web/add/package/index.php:23
@@ -428,7 +466,7 @@ msgstr "DNS Mal"
 #: ../../web/templates/pages/list_packages.php:58
 #: ../../web/templates/pages/list_packages.php:173
 msgid "Shell"
-msgstr ""
+msgstr "Shell"
 
 #: ../../web/edit/package/index.php:165 ../../web/add/package/index.php:51
 #: ../../web/templates/pages/add_package.php:76
@@ -469,7 +507,7 @@ msgstr "Web Aliaser"
 #: ../../web/templates/pages/list_user.php:280
 #: ../../web/templates/pages/edit_package.php:180
 msgid "DNS Zones"
-msgstr ""
+msgstr "DNS Soner"
 
 #: ../../web/edit/package/index.php:174 ../../web/add/package/index.php:60
 #: ../../web/templates/pages/add_package.php:181
@@ -490,7 +528,7 @@ msgstr ""
 #: ../../web/templates/pages/list_mail.php:262
 #: ../../web/templates/pages/list_mail.php:265
 msgid "DNS Records"
-msgstr ""
+msgstr "DNS-poster"
 
 #: ../../web/edit/package/index.php:177 ../../web/add/package/index.php:63
 #: ../../web/templates/pages/add_package.php:211
@@ -530,7 +568,7 @@ msgstr "E-post Kontoer"
 #: ../../web/templates/pages/edit_package.php:241
 #: ../../web/templates/pages/add_mail_acc.php:106
 msgid "Rate Limit"
-msgstr ""
+msgstr "Grenseverdi"
 
 #: ../../web/edit/package/index.php:186 ../../web/add/package/index.php:69
 #: ../../web/templates/pages/add_package.php:244
@@ -589,7 +627,7 @@ msgstr "Backuper"
 #: ../../web/templates/pages/edit_package.php:64
 #: ../../web/templates/pages/list_backup.php:9
 msgid "Incremental Backups"
-msgstr ""
+msgstr "Inkrementelle sikkerhetskopier"
 
 #: ../../web/edit/package/index.php:198 ../../web/add/package/index.php:81
 #: ../../web/templates/pages/add_package.php:37
@@ -628,31 +666,31 @@ msgstr "Båndbredde"
 
 #: ../../web/edit/package/index.php:206 ../../web/add/package/index.php:92
 msgid "CPU quota"
-msgstr ""
+msgstr "CPU kvote"
 
 #: ../../web/edit/package/index.php:209 ../../web/add/package/index.php:95
 msgid "CPU quota period"
-msgstr ""
+msgstr "CPU kvoteperiode"
 
 #: ../../web/edit/package/index.php:212 ../../web/add/package/index.php:98
 msgid "Memory Limit"
-msgstr ""
+msgstr "Minnegrense"
 
 #: ../../web/edit/package/index.php:215 ../../web/add/package/index.php:101
 msgid "Swap Limit"
-msgstr ""
+msgstr "Swap grense"
 
 #: ../../web/edit/package/index.php:222 ../../web/add/package/index.php:108
 msgid "Nameserver 1"
-msgstr ""
+msgstr "Navnetjener 1"
 
 #: ../../web/edit/package/index.php:225 ../../web/add/package/index.php:111
 msgid "Nameserver 2"
-msgstr ""
+msgstr "Navnetjener 2"
 
 #: ../../web/copy/package/index.php:35
 msgid "Error: unable to copy package."
-msgstr ""
+msgstr "Feil: kan ikke kopiere pakke."
 
 #: ../../web/add/user/index.php:26 ../../web/add/db/index.php:23
 #: ../../web/add/mail/index.php:222 ../../web/templates/pages/add_user.php:48
@@ -686,7 +724,7 @@ msgstr "E-post"
 #: ../../web/add/user/index.php:35 ../../web/templates/pages/add_user.php:39
 #: ../../web/templates/pages/edit_user.php:69
 msgid "Contact Name"
-msgstr ""
+msgstr "Kontaktens navn"
 
 #: ../../web/add/user/index.php:156
 msgid "Hello {{name}},\n\n"
@@ -697,18 +735,25 @@ msgid "Hello {{name}},\n\n"
 "Best regards,\n\n"
 "--\n"
 "{{appname}}"
-msgstr ""
+msgstr "Hei {{name}},\n\n"
+"Din konto har blitt opprettet og klar til bruk.\n\n"
+"https://{{hostname}}/login/\n"
+"brukernavn: {{user}}\n"
+"passord: {{password}}\n\n"
+"Vennlig hilsen,\n\n"
+"--\n"
+"{{appname}}"
 
 #: ../../web/add/user/index.php:175 ../../web/templates/pages/login/login.php:8
 #: ../../web/templates/pages/login/login_a.php:8
 #, php-format
 msgid "Welcome to %s"
-msgstr ""
+msgstr "Velkommen til %s"
 
 #: ../../web/add/user/index.php:225
 #, php-format
 msgid "User {%s} has been created successfully. / {Log in as %s}"
-msgstr ""
+msgstr "Brukeren {%s} har blitt opprettet. / {Logg inn som %s}"
 
 #: ../../web/add/dns/index.php:22 ../../web/add/dns/index.php:220
 #: ../../web/add/web/index.php:17 ../../web/add/mail/index.php:39
@@ -729,7 +774,7 @@ msgstr "Domene"
 #: ../../web/add/dns/index.php:199
 #, php-format
 msgid "DNS zone {%s} has been created successfully."
-msgstr ""
+msgstr "DNS-sonen {%s} har blitt opprettet."
 
 #: ../../web/add/dns/index.php:223 ../../web/templates/pages/add_dns_rec.php:33
 #: ../../web/templates/pages/list_dns_rec.php:22
@@ -789,7 +834,7 @@ msgstr "Oppslag"
 #: ../../web/templates/pages/list_files_incremental.php:71
 #: ../../web/templates/pages/list_files_incremental.php:113
 msgid "Type"
-msgstr ""
+msgstr "Type"
 
 #: ../../web/add/dns/index.php:229 ../../web/templates/pages/add_dns_rec.php:58
 #: ../../web/templates/pages/list_dns_rec.php:31
@@ -809,7 +854,7 @@ msgstr "IP eller Verdi"
 #: ../../web/add/dns/index.php:280
 #, php-format
 msgid "Record {%s.%s} has been created successfully."
-msgstr ""
+msgstr "Posten {%s.%s} har blitt opprettet med suksess."
 
 #: ../../web/add/cron/index.php:17 ../../web/templates/pages/add_cron.php:42
 #: ../../web/templates/pages/add_cron.php:110
@@ -860,7 +905,7 @@ msgstr "Månde"
 #: ../../web/templates/pages/list_cron.php:184
 #: ../../web/templates/pages/edit_cron.php:58
 msgid "Day of Week"
-msgstr ""
+msgstr "Ukedag"
 
 #: ../../web/add/cron/index.php:32 ../../web/templates/pages/add_cron.php:36
 #: ../../web/templates/pages/list_cron.php:25
@@ -873,7 +918,7 @@ msgstr "Kommando"
 
 #: ../../web/add/cron/index.php:80
 msgid "Cron job has been created successfully."
-msgstr ""
+msgstr "Cron jobben har blitt opprettet."
 
 #: ../../web/add/ip/index.php:26 ../../web/templates/pages/list_ip.php:28
 #: ../../web/templates/pages/list_ip.php:68
@@ -889,33 +934,33 @@ msgstr "Netmaske"
 #: ../../web/templates/pages/add_ip.php:43
 #: ../../web/templates/pages/edit_ip.php:44
 msgid "Interface"
-msgstr ""
+msgstr "Grensesnitt"
 
 #: ../../web/add/ip/index.php:32 ../../web/templates/pages/add_ip.php:62
 #: ../../web/templates/pages/edit_ip.php:55
 msgid "Assigned User"
-msgstr ""
+msgstr "Tilordnet bruker"
 
 #: ../../web/add/ip/index.php:93
 #, php-format
 msgid "IP address {%s} has been created successfully."
-msgstr ""
+msgstr "IP-adressen {%s} har blitt opprettet."
 
 #: ../../web/add/web/index.php:128
 #, php-format
 msgid "Domain {%s} has been created successfully."
-msgstr ""
+msgstr "Domene {%s} har blitt opprettet."
 
 #: ../../web/add/access-key/index.php:43
 #: ../../web/templates/pages/add_access_key.php:26
 #: ../../web/templates/pages/list_access_key.php:46
 msgid "Permissions"
-msgstr ""
+msgstr "Tillatelser"
 
 #: ../../web/add/access-key/index.php:82
 #, php-format
 msgid "Access key {%s} has been created successfully."
-msgstr ""
+msgstr "Tilgangsnøkkel {%s} har blitt opprettet."
 
 #: ../../web/add/db/index.php:17
 #: ../../web/templates/pages/list_backup_detail_incremental.php:167
@@ -923,7 +968,7 @@ msgstr ""
 #: ../../web/templates/pages/add_db.php:53
 #: ../../web/templates/pages/list_backup_detail.php:189
 msgid "Database"
-msgstr ""
+msgstr "Database"
 
 #: ../../web/add/db/index.php:29 ../../web/templates/pages/list_db.php:62
 #: ../../web/templates/pages/edit_db.php:60
@@ -937,7 +982,7 @@ msgstr ""
 #: ../../web/templates/pages/add_db.php:105
 #: ../../web/templates/pages/add_mail.php:105
 msgid "Host"
-msgstr ""
+msgstr "Vert"
 
 #: ../../web/add/db/index.php:32 ../../web/templates/pages/list_db.php:50
 #: ../../web/templates/pages/list_db.php:115
@@ -945,7 +990,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_db.php:64
 #: ../../web/templates/pages/add_db.php:117
 msgid "Charset"
-msgstr ""
+msgstr "Tegnsiffer"
 
 #: ../../web/add/db/index.php:150
 msgid "Database has been created.\n\n"
@@ -956,51 +1001,58 @@ msgid "Database has been created.\n\n"
 "Best regards,\n\n"
 "--\n"
 "{{appname}}"
-msgstr ""
+msgstr "Databasen er opprettet.\n\n"
+"Database: {{database}}\n"
+"brukernavn: {{username}}\n"
+"Passord: {{password}}\n"
+"SQL Manager: {{dbadmin}}\n\n"
+"Vennlig hilsen,\n\n"
+"--\n"
+"{{appname}}"
 
 #: ../../web/add/db/index.php:168
 #, php-format
 msgid "Database Credentials: %s"
-msgstr ""
+msgstr "Database innloggingsinformasjon: %s"
 
 #: ../../web/add/db/index.php:199
 #, php-format
 msgid "Database {%s} has been created successfully. / {Open %s}"
-msgstr ""
+msgstr "Databasen {%s} har blitt opprettet. / {Open %s}"
 
 #: ../../web/add/webapp/index.php:58
 #, php-format
 msgid "Unable to install %s, %s is not available."
-msgstr ""
+msgstr "Kunne ikke installere %s, %s er ikke tilgjengelig."
 
 #: ../../web/add/webapp/index.php:73
 #, php-format
 msgid "%s installer missing."
-msgstr ""
+msgstr "%s Installeringsprogram mangler."
 
 #: ../../web/add/webapp/index.php:91
 #, php-format
 msgid "%s installed successfully."
-msgstr ""
+msgstr "%s ble installert."
 
 #: ../../web/add/key/index.php:17 ../../web/templates/pages/list_key.php:37
 #: ../../web/templates/pages/list_key.php:74
 #: ../../web/templates/pages/add_key.php:34
 msgid "SSH Key"
-msgstr ""
+msgstr "SSH nøkkel"
 
 #: ../../web/add/key/index.php:57 ../../web/add/key/index.php:60
 msgid "SSH Key already exists."
-msgstr ""
+msgstr "SSH nøkkel finnes allerede."
 
 #: ../../web/add/key/index.php:73
 msgid "SSH Key has been created successfully."
-msgstr ""
+msgstr "SSH nøkkel er opprettet."
 
 #: ../../web/add/mail/index.php:189
 #, php-format
 msgid "Mail domain {%s} has been created successfully."
-msgstr ""
+msgstr "E-post domenet {%s} har blitt opprettet."
 
 #: ../../web/add/mail/index.php:218
 #: ../../web/templates/pages/edit_mail_acc.php:38
@@ -1011,7 +1063,7 @@ msgstr "Konto"
 #: ../../web/add/mail/index.php:508
 #, php-format
 msgid "Mail account {%s@%s} has been created successfully."
-msgstr ""
+msgstr "E-postkonto {%s@%s} har blitt opprettet."
 
 #: ../../web/add/firewall/ipset/index.php:23
 #: ../../web/templates/pages/list_dns.php:16
@@ -1045,30 +1097,30 @@ msgstr ""
 #: ../../web/templates/pages/list_search.php:25
 #: ../../web/templates/pages/list_files_incremental.php:52
 msgid "Name"
-msgstr ""
+msgstr "Navn"
 
 #: ../../web/add/firewall/ipset/index.php:26
 #: ../../web/templates/pages/add_firewall_ipset.php:76
 msgid "Data Source"
-msgstr ""
+msgstr "Datakilder"
 
 #: ../../web/add/firewall/ipset/index.php:29
 #: ../../web/templates/pages/list_firewall_ipset.php:40
 #: ../../web/templates/pages/list_firewall_ipset.php:87
 #: ../../web/templates/pages/add_firewall_ipset.php:92
 msgid "IP Version"
-msgstr ""
+msgstr "IP Versjon"
 
 #: ../../web/add/firewall/ipset/index.php:32
 #: ../../web/templates/pages/list_firewall_ipset.php:39
 #: ../../web/templates/pages/list_firewall_ipset.php:79
 #: ../../web/templates/pages/add_firewall_ipset.php:99
 msgid "Auto Update"
-msgstr ""
+msgstr "Automatisk oppdatering"
 
 #: ../../web/add/firewall/ipset/index.php:72
 msgid "IP list has been created successfully."
-msgstr ""
+msgstr "IP liste har blitt opprettet."
 
 #: ../../web/add/firewall/banlist/index.php:23
 #: ../../web/templates/pages/add_firewall_banlist.php:34
@@ -1077,21 +1129,21 @@ msgstr "Blokkeringsliste"
 
 #: ../../web/add/firewall/banlist/index.php:52
 msgid "IP address has been banned successfully."
-msgstr ""
+msgstr "IP-adressen har blitt utestengt."
 
 #: ../../web/add/firewall/index.php:97
 msgid "Rule has been created successfully."
-msgstr ""
+msgstr "Regelen er opprettet."
 
 #: ../../web/add/package/index.php:250
 #, php-format
 msgid "Package {%s} has been created successfully."
-msgstr ""
+msgstr "Pakken {%s} har blitt opprettet."
 
 #: ../../web/stop/service/index.php:24
 #, php-format
 msgid "Stop \"%s\" failed"
-msgstr ""
+msgstr "Stans \"%s\" mislyktes"
 
 #: ../../web/generate/ssl/index.php:41
 #: ../../web/templates/pages/generate_ssl.php:27
@@ -1101,11 +1153,11 @@ msgstr "Land"
 
 #: ../../web/generate/ssl/index.php:44
 msgid "State"
-msgstr ""
+msgstr "Fylke"
 
 #: ../../web/generate/ssl/index.php:47
 msgid "City"
-msgstr ""
+msgstr "By"
 
 #: ../../web/generate/ssl/index.php:50
 #: ../../web/templates/pages/generate_ssl.php:46
@@ -1114,28 +1166,28 @@ msgstr "Organisasjon"
 
 #: ../../web/generate/ssl/index.php:132
 msgid "Certificate has been generated successfully."
-msgstr ""
+msgstr "Sertifikatet er generert uten feil."
 
 #: ../../web/bulk/cron/index.php:36 ../../web/bulk/cron/index.php:61
 msgid "Cron job email reporting has been successfully disabled."
-msgstr ""
+msgstr "Cron job e-post rapportering er deaktivert."
 
 #: ../../web/bulk/cron/index.php:44 ../../web/bulk/cron/index.php:69
 msgid "Cron job email reporting has been successfully enabled."
-msgstr ""
+msgstr "Cron job e-post rapportering har blitt aktivert."
 
 #: ../../web/update/hestia/index.php:20
 #, php-format
 msgid "Error: %s update failed."
-msgstr ""
+msgstr "Feil: %s oppdatering mislyktes."
 
 #: ../../web/login/index.php:138
 msgid "Account has been suspended"
-msgstr ""
+msgstr "Kontoen har blitt stengt"
 
 #: ../../web/login/index.php:140
 msgid "Unsupported hash method"
-msgstr ""
+msgstr "Ustøttet hash-metode"
 
 #: ../../web/login/index.php:142 ../../web/login/index.php:199
 #: ../../web/login/index.php:222 ../../web/login/index.php:246
@@ -1144,12 +1196,12 @@ msgstr "Ugyldig brukernavn eller passord"
 
 #: ../../web/login/index.php:281
 msgid "Invalid or missing 2FA token"
-msgstr ""
+msgstr "Ugyldig eller manglende 2FA-token"
 
 #: ../../web/start/service/index.php:23
 #, php-format
 msgid "Start \"%s\" failed"
-msgstr ""
+msgstr "Start \"%s\" mislykkes"
 
 #: ../../web/templates/pages/add_user.php:6
 #: ../../web/templates/pages/add_dns.php:6
@@ -1306,16 +1358,16 @@ msgstr "Legg til Bruker"
 #: ../../web/templates/pages/edit_cron.php:373
 #: ../../web/templates/pages/add_mail_acc.php:48
 msgid "Generate"
-msgstr ""
+msgstr "Generere"
 
 #: ../../web/templates/pages/add_user.php:64
 #: ../../web/templates/pages/edit_user.php:102
 msgid "Do not allow user to log in to Control Panel"
-msgstr ""
+msgstr "Ikke tillat bruker å logge inn på kontrollpanelet"
 
 #: ../../web/templates/pages/add_user.php:71
 msgid "Send welcome email"
-msgstr ""
+msgstr "Send en velkomst-e-postmelding"
 
 #: ../../web/templates/pages/add_user.php:76
 #: ../../web/templates/pages/edit_user.php:134
@@ -1325,7 +1377,7 @@ msgstr "Språk"
 #: ../../web/templates/pages/add_user.php:95
 #: ../../web/templates/pages/edit_user.php:153
 msgid "Role"
-msgstr ""
+msgstr "Rolle"
 
 #: ../../web/templates/pages/add_user.php:97
 #: ../../web/templates/pages/edit_user.php:155
@@ -1335,23 +1387,23 @@ msgstr "Bruker"
 #: ../../web/templates/pages/add_user.php:98
 #: ../../web/templates/pages/edit_user.php:156
 msgid "Administrator"
-msgstr ""
+msgstr "Administrator"
 
 #: ../../web/templates/pages/add_user.php:99
 #: ../../web/templates/pages/edit_user.php:157
 msgid "DNS Sync User"
-msgstr ""
+msgstr "DNS Sync bruker"
 
 #: ../../web/templates/pages/add_user.php:122
 #: ../../web/templates/pages/edit_mail_acc.php:65
 #: ../../web/templates/pages/add_db.php:94
 #: ../../web/templates/pages/add_mail_acc.php:113
 msgid "Email login credentials to:"
-msgstr ""
+msgstr "Send innloggingsinformasjon til e-post:"
 
 #: ../../web/templates/pages/add_dns.php:34
 msgid "Add DNS Zone"
-msgstr ""
+msgstr "Legge til DNS sone"
 
 #: ../../web/templates/pages/add_dns.php:39
 #: ../../web/templates/pages/add_web.php:32
@@ -1359,18 +1411,18 @@ msgstr ""
 #: ../../web/templates/pages/add_mail.php:39
 #, php-format
 msgid "It is strongly advised to {create a standard user account} before adding %s to the server due to the increased privileges the admin account possesses and potential security risks."
-msgstr ""
+msgstr "Det anbefales på det sterkeste å bruke {create a standard user account} før du legger %s til tjeneren på grunn av de økte privilegiene til administratorkontoen har og mulige sikkerhetsrisikoer."
 
 #: ../../web/templates/pages/add_dns.php:39
 msgid "a dns domain"
-msgstr ""
+msgstr "et dns domene"
 
 #: ../../web/templates/pages/add_dns.php:45
 #: ../../web/templates/pages/add_web.php:38
 #: ../../web/templates/pages/add_db.php:45
 #: ../../web/templates/pages/add_mail.php:45
 msgid "Continue"
-msgstr ""
+msgstr "Fortsett"
 
 #: ../../web/templates/pages/add_dns.php:71
 #: ../../web/templates/pages/edit_dns.php:51
@@ -1388,12 +1440,12 @@ msgstr "Mal"
 #: ../../web/templates/pages/add_db.php:100
 #: ../../web/templates/pages/add_mail_acc.php:66
 msgid "Advanced Options"
-msgstr ""
+msgstr "Avanserte alternativer"
 
 #: ../../web/templates/pages/add_dns.php:97
 #: ../../web/templates/pages/edit_dns.php:71
 msgid "Enable DNSSEC"
-msgstr ""
+msgstr "Aktiver DNSSEC"
 
 #: ../../web/templates/pages/add_dns.php:103
 #: ../../web/templates/pages/edit_dns.php:77
@@ -1424,24 +1476,24 @@ msgstr "ÅÅÅÅ-MM-DD"
 #: ../../web/templates/pages/list_mail_dns.php:154
 #: ../../web/templates/pages/edit_dns_rec.php:81
 msgid "TTL"
-msgstr ""
+msgstr "TTL"
 
 #: ../../web/templates/pages/add_dns.php:111
 #: ../../web/templates/pages/add_package.php:191
 #: ../../web/templates/pages/edit_package.php:200
 msgid "Name Servers"
-msgstr ""
+msgstr "Navnetjenere"
 
 #: ../../web/templates/pages/add_dns.php:120
 #: ../../web/templates/pages/add_package.php:200
 #: ../../web/templates/pages/edit_user.php:259
 #: ../../web/templates/pages/edit_package.php:209
 msgid "Add Name Server"
-msgstr ""
+msgstr "Legg til navnetjener"
 
 #: ../../web/templates/pages/list_backup_incremental.php:7
 msgid "Create Snapshot"
-msgstr ""
+msgstr "Opprett øyeblikksbilde"
 
 #: ../../web/templates/pages/list_backup_incremental.php:16
 #: ../../web/templates/pages/list_backup_incremental.php:19
@@ -1485,11 +1537,11 @@ msgstr ""
 #: ../../web/templates/pages/list_files_incremental.php:23
 #: ../../web/templates/pages/list_files_incremental.php:26
 msgid "Apply to selected"
-msgstr ""
+msgstr "Bruk på utvalgte"
 
 #: ../../web/templates/pages/list_backup_incremental.php:17
 msgid "Delete Snapshot"
-msgstr ""
+msgstr "Slett øyeblikksbilde"
 
 #: ../../web/templates/pages/list_backup_incremental.php:27
 #: ../../web/templates/pages/list_backup_incremental.php:28

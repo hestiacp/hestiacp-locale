@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-24 11:26+0000\n"
-"PO-Revision-Date: 2024-07-24 20:19\n"
+"PO-Revision-Date: 2024-11-19 13:52\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../web/download/backup/index.php:20
 msgid "Download of remote backup file has been scheduled."
-msgstr ""
+msgstr "Pobieranie zdalnej kopii zapasowej zostało zaplanowane."
 
 #: ../../web/download/backup/index.php:24 ../../web/unsuspend/dns/index.php:18
 #: ../../web/unsuspend/dns/index.php:44 ../../web/unsuspend/mail/index.php:18
@@ -30,15 +30,15 @@ msgstr "Błąd: Hestia nie zwróciła żadnych komunikatów"
 
 #: ../../web/schedule/backup/incremental/index.php:17
 msgid "Snapshot has been sheduled"
-msgstr ""
+msgstr "Migawka została zaplanowana"
 
 #: ../../web/schedule/backup/index.php:12
 msgid "Task has been added to the queue. You will receive an email notification when your backup is ready for download."
-msgstr ""
+msgstr "Zadanie zostało dodane do kolejki. Otrzymasz powiadomienie e-mail, gdy kopia zapasowa będzie gotowa do pobrania."
 
 #: ../../web/schedule/backup/index.php:22
 msgid "An existing backup task is already running, please wait for it to complete."
-msgstr ""
+msgstr "Aktualnie trwa tworzenie kopii zapasowej, poczekaj na zakończenie tego zadania."
 
 #: ../../web/schedule/restore/index.php:65
 #: ../../web/bulk/restore/incremental/index.php:126
@@ -73,7 +73,7 @@ msgstr ""
 
 #: ../../web/list/backup/incremental/index.php:17
 msgid "Symlink"
-msgstr ""
+msgstr "Dowiązanie"
 
 #: ../../web/list/backup/incremental/index.php:20
 msgid "Unknown"
@@ -89,12 +89,20 @@ msgid "Hello {{name}},\n\n"
 "Best regards,\n\n"
 "--\n"
 "{{appname}}"
-msgstr ""
+msgstr "Witaj {{name}},\n\n"
+"Aby zresetować hasło {{appname}}, kliknij na ten link:\n"
+"https://{{hostname}}/reset/? ction=confirm&user={{user}}&code={{resetcode}}\n\n"
+"Alternatywnie, możesz przejść do https://{{hostname}}/reset/? ction=code&user={{user}} i wprowadź następujący kod resetujący:\n"
+"{{resetcode}}\n\n"
+"Jeśli nie prosiłeś o zresetowanie hasła, proszę zignorować tę wiadomość i zaakceptować nasze przeprosiny.\n\n"
+"Pozdrawiamy,\n\n"
+"--\n"
+"{{appname}}"
 
 #: ../../web/reset/index.php:84
 #, php-format
 msgid "Password Reset at %s"
-msgstr ""
+msgstr "Reset hasła w %s"
 
 #: ../../web/reset/index.php:137 ../../web/reset/index.php:141
 #: ../../web/reset/index.php:146 ../../web/reset/index.php:155
@@ -103,7 +111,7 @@ msgstr "Instrukcje resetowania hasła zostały wysłane na adres e-mail powiąza
 
 #: ../../web/reset/index.php:150
 msgid "Please wait 15 minutes before sending a new request."
-msgstr ""
+msgstr "Proszę odczekać 15 minut przed wysłaniem nowego wniosku."
 
 #: ../../web/reset/index.php:187
 msgid "An internal error occurred"
@@ -119,7 +127,7 @@ msgstr "Błędna nazwa użytkownika lub kod."
 
 #: ../../web/reset/index.php:234
 msgid "Passwords do not match"
-msgstr ""
+msgstr "Hasła nie są takie same"
 
 #: ../../web/inc/main.php:180 ../../web/inc/main.php:189
 #: ../../web/generate/ssl/index.php:123
@@ -218,7 +226,7 @@ msgstr ""
 
 #: ../../web/edit/server/index.php:1279
 msgid "Repository can not be empty"
-msgstr ""
+msgstr "Repozytorium nie może być puste"
 
 #: ../../web/edit/server/index.php:1381
 msgid "Inactive session timeout can not lower than 1 minute."
@@ -227,11 +235,11 @@ msgstr ""
 #: ../../web/edit/server/hestiaweb/index.php:34
 #: ../../web/templates/pages/edit_server.php:15
 msgid "Panel Cronjobs"
-msgstr ""
+msgstr "Panel zadań Crona"
 
 #: ../../web/edit/dns/index.php:347
 msgid "Error: unknown record ID."
-msgstr ""
+msgstr "Błąd: nieznany identyfikator rekordu."
 
 #: ../../web/edit/web/index.php:863 ../../web/edit/web/index.php:1084
 #: ../../web/edit/web/index.php:1124 ../../web/edit/web/index.php:1186
@@ -314,7 +322,30 @@ msgid "Mail account has been created.\n\n"
 "Best regards,\n\n"
 "--\n"
 "{{appname}}"
-msgstr ""
+msgstr "Konto pocztowe zostało utworzone.\n\n"
+"Wspólne ustawienia konta:\n"
+"Nazwa użytkownika: {{account}}@{{domain}}.\n"
+"Hasło: {{password}}\n"
+"Webmail: {{webmail}}\n"
+"Nazwa hosta: {{hostname}}\n\n"
+"Ustawienia IMAP\n"
+"Uwierzytelnianie: Normalne hasło\n"
+"SSL/TLS: Port 993\n"
+"STARTTLS: Port 143\n"
+"Bez szyfrowania: Port 143\n\n"
+"Ustawienia POP3\n"
+"Uwierzytelnianie: Normalne hasło\n"
+"SSL/TLS: Port 995\n"
+"STARTTLS: Port 110\n"
+"Bez szyfrowania: Port 110\n\n"
+"Ustawienia SMTP\n"
+"Uwierzytelnianie: Normalne hasło\n"
+"SSL/TLS: Port 465\n"
+"STARTTLS: Port 587\n"
+"Brak szyfrowania: Port 25\n\n"
+"Pozdrawiam,\n\n"
+"--\n"
+"{{appname}}"
 
 #: ../../web/edit/mail/index.php:1135 ../../web/add/mail/index.php:475
 #, php-format
@@ -638,7 +669,7 @@ msgstr ""
 
 #: ../../web/edit/package/index.php:209 ../../web/add/package/index.php:95
 msgid "CPU quota period"
-msgstr ""
+msgstr "Okres limitu CPU"
 
 #: ../../web/edit/package/index.php:212 ../../web/add/package/index.php:98
 msgid "Memory Limit"
@@ -646,7 +677,7 @@ msgstr ""
 
 #: ../../web/edit/package/index.php:215 ../../web/add/package/index.php:101
 msgid "Swap Limit"
-msgstr ""
+msgstr "Limit pamięci Swap"
 
 #: ../../web/edit/package/index.php:222 ../../web/add/package/index.php:108
 msgid "Nameserver 1"
@@ -658,7 +689,7 @@ msgstr ""
 
 #: ../../web/copy/package/index.php:35
 msgid "Error: unable to copy package."
-msgstr ""
+msgstr "Błąd: nie można skopiować pakietu."
 
 #: ../../web/add/user/index.php:26 ../../web/add/db/index.php:23
 #: ../../web/add/mail/index.php:222 ../../web/templates/pages/add_user.php:48
@@ -687,7 +718,7 @@ msgstr "Hasło"
 #: ../../web/templates/pages/list_user.php:166
 #: ../../web/templates/pages/login/reset_1.php:18
 msgid "Email"
-msgstr ""
+msgstr "E-mail"
 
 #: ../../web/add/user/index.php:35 ../../web/templates/pages/add_user.php:39
 #: ../../web/templates/pages/edit_user.php:69
@@ -703,7 +734,14 @@ msgid "Hello {{name}},\n\n"
 "Best regards,\n\n"
 "--\n"
 "{{appname}}"
-msgstr ""
+msgstr "Witaj {{name}},\n\n"
+"Twoje konto zostało utworzone i gotowe do użycia.\n\n"
+"https://{{hostname}}/login/\n"
+"Nazwa użytkownika: {{user}}\n"
+"Hasło: {{password}}\n\n"
+"Pozdrawiamy,\n\n"
+"--\n"
+"{{appname}}"
 
 #: ../../web/add/user/index.php:175 ../../web/templates/pages/login/login.php:8
 #: ../../web/templates/pages/login/login_a.php:8
@@ -905,7 +943,7 @@ msgstr ""
 #: ../../web/add/ip/index.php:93
 #, php-format
 msgid "IP address {%s} has been created successfully."
-msgstr ""
+msgstr "Adres IP {%s} został utworzony pomyślnie."
 
 #: ../../web/add/web/index.php:128
 #, php-format
@@ -921,7 +959,7 @@ msgstr "Uprawnienia"
 #: ../../web/add/access-key/index.php:82
 #, php-format
 msgid "Access key {%s} has been created successfully."
-msgstr ""
+msgstr "Klucz dostępu {%s} został pomyślnie utworzony."
 
 #: ../../web/add/db/index.php:17
 #: ../../web/templates/pages/list_backup_detail_incremental.php:167
@@ -962,7 +1000,14 @@ msgid "Database has been created.\n\n"
 "Best regards,\n\n"
 "--\n"
 "{{appname}}"
-msgstr ""
+msgstr "Baza danych została utworzona.\n\n"
+"Baza danych: {{database}}\n"
+"Nazwa użytkownika: {{username}}\n"
+"Hasło: {{password}}\n"
+"Menedżer SQL: {{dbadmin}}\n\n"
+"Pozdrawiamy,\n\n"
+"--\n"
+"{{appname}}"
 
 #: ../../web/add/db/index.php:168
 #, php-format
@@ -1063,14 +1108,14 @@ msgstr "Źródło danych"
 #: ../../web/templates/pages/list_firewall_ipset.php:87
 #: ../../web/templates/pages/add_firewall_ipset.php:92
 msgid "IP Version"
-msgstr ""
+msgstr "Wersja IP"
 
 #: ../../web/add/firewall/ipset/index.php:32
 #: ../../web/templates/pages/list_firewall_ipset.php:39
 #: ../../web/templates/pages/list_firewall_ipset.php:79
 #: ../../web/templates/pages/add_firewall_ipset.php:99
 msgid "Auto Update"
-msgstr ""
+msgstr "Automatyczna aktualizacja"
 
 #: ../../web/add/firewall/ipset/index.php:72
 msgid "IP list has been created successfully."
@@ -1087,7 +1132,7 @@ msgstr ""
 
 #: ../../web/add/firewall/index.php:97
 msgid "Rule has been created successfully."
-msgstr ""
+msgstr "Reguła została utworzona pomyślnie."
 
 #: ../../web/add/package/index.php:250
 #, php-format
@@ -1124,11 +1169,11 @@ msgstr "Certyfikat został wygenerowany pomyślnie."
 
 #: ../../web/bulk/cron/index.php:36 ../../web/bulk/cron/index.php:61
 msgid "Cron job email reporting has been successfully disabled."
-msgstr ""
+msgstr "Raportowanie e-mail zadań Cron zostało pomyślnie wyłączone."
 
 #: ../../web/bulk/cron/index.php:44 ../../web/bulk/cron/index.php:69
 msgid "Cron job email reporting has been successfully enabled."
-msgstr ""
+msgstr "Raportowanie e-mail zadań Cron zostało pomyślnie włączone."
 
 #: ../../web/update/hestia/index.php:20
 #, php-format
@@ -1369,7 +1414,7 @@ msgstr ""
 
 #: ../../web/templates/pages/add_dns.php:39
 msgid "a dns domain"
-msgstr ""
+msgstr "domena dns"
 
 #: ../../web/templates/pages/add_dns.php:45
 #: ../../web/templates/pages/add_web.php:38
@@ -1394,7 +1439,7 @@ msgstr "Szablon"
 #: ../../web/templates/pages/add_db.php:100
 #: ../../web/templates/pages/add_mail_acc.php:66
 msgid "Advanced Options"
-msgstr ""
+msgstr "Opcje zaawansowane"
 
 #: ../../web/templates/pages/add_dns.php:97
 #: ../../web/templates/pages/edit_dns.php:71
@@ -1430,7 +1475,7 @@ msgstr "DD-MM-YYYY"
 #: ../../web/templates/pages/list_mail_dns.php:154
 #: ../../web/templates/pages/edit_dns_rec.php:81
 msgid "TTL"
-msgstr ""
+msgstr "TTL"
 
 #: ../../web/templates/pages/add_dns.php:111
 #: ../../web/templates/pages/add_package.php:191
@@ -1711,7 +1756,7 @@ msgstr "Przywróć"
 
 #: ../../web/templates/pages/list_backup_incremental.php:80
 msgid "Browse"
-msgstr ""
+msgstr "Przeglądaj"
 
 #: ../../web/templates/pages/list_backup_incremental.php:115
 #, php-format
@@ -1903,7 +1948,7 @@ msgstr ""
 #: ../../web/templates/pages/add_package.php:299
 #: ../../web/templates/pages/edit_package.php:309
 msgid "CPU Quota (in %)"
-msgstr ""
+msgstr "Limit CPU (w %)"
 
 #: ../../web/templates/pages/add_package.php:307
 #: ../../web/templates/pages/edit_package.php:317
@@ -1933,7 +1978,7 @@ msgstr ""
 #: ../../web/templates/pages/add_package.php:338
 #: ../../web/templates/pages/edit_package.php:348
 msgid "Swap Limit (in bytes or with units like '2G')"
-msgstr ""
+msgstr "Limit pamięci Swap (w bajtach lub jednostkach takich jak '2G')"
 
 #: ../../web/templates/pages/add_package.php:346
 #: ../../web/templates/pages/edit_package.php:356
@@ -2206,7 +2251,7 @@ msgstr "Szybka instalacja aplikacji"
 
 #: ../../web/templates/pages/edit_web.php:49
 msgid "Edit Web Domain"
-msgstr ""
+msgstr "Edytuj domenę Web"
 
 #: ../../web/templates/pages/edit_web.php:57
 #: ../../web/templates/pages/generate_ssl.php:15
@@ -2221,7 +2266,7 @@ msgstr "Aliasy"
 
 #: ../../web/templates/pages/edit_web.php:63
 msgid "If the aliases changes, Let's Encrypt will obtain a new SSL certificate."
-msgstr ""
+msgstr "Jeśli aliasy ulegną zmianie, Let's Encrypt pozyska nowy certyfikat SSL."
 
 #: ../../web/templates/pages/edit_web.php:79
 msgid "Web Statistics"
@@ -2428,11 +2473,11 @@ msgstr ""
 
 #: ../../web/templates/pages/list_updates.php:12
 msgid "Disable Automatic Updates"
-msgstr ""
+msgstr "Wyłącz automatyczne aktualizacje"
 
 #: ../../web/templates/pages/list_updates.php:16
 msgid "Enable Automatic Updates"
-msgstr ""
+msgstr "Włącz automatyczne aktualizacje"
 
 #: ../../web/templates/pages/list_updates.php:29
 #: ../../web/templates/pages/edit_server.php:148
@@ -2483,7 +2528,7 @@ msgstr ""
 #: ../../web/templates/pages/list_dns.php:162
 #: ../../web/templates/pages/list_dns_rec.php:13
 msgid "Edit DNS Domain"
-msgstr ""
+msgstr "Edytuj domenę DNS"
 
 #: ../../web/templates/pages/edit_dns.php:82
 #: ../../web/templates/pages/list_dns.php:83
@@ -2625,7 +2670,7 @@ msgstr ""
 #: ../../web/templates/pages/list_mail.php:286
 #, php-format
 msgid "Are you sure you want to delete domain %s?"
-msgstr ""
+msgstr "Czy na pewno chcesz usunąć domenę %s?"
 
 #: ../../web/templates/pages/list_dns.php:253
 #, php-format
@@ -2719,7 +2764,7 @@ msgstr "Dysk"
 #: ../../web/templates/pages/list_stats.php:106
 #: ../../web/templates/pages/list_server_info.php:70
 msgid "Web"
-msgstr ""
+msgstr "Web"
 
 #: ../../web/templates/pages/list_stats.php:124
 #: ../../web/templates/pages/list_server_info.php:86
@@ -2742,7 +2787,7 @@ msgstr[3] ""
 #: ../../web/templates/pages/edit_user.php:19
 #: ../../web/templates/pages/edit_user.php:20
 msgid "Manage SSH Keys"
-msgstr ""
+msgstr "Zarządzaj kluczami SSH"
 
 #: ../../web/templates/pages/edit_user.php:30
 #: ../../web/templates/pages/edit_user.php:31
@@ -2830,13 +2875,13 @@ msgstr ""
 
 #: ../../web/templates/pages/add_firewall_banlist.php:25
 msgid "Add IP Address to Banlist"
-msgstr ""
+msgstr "Dopisuje adres IP gracza do listy zablokowanych"
 
 #: ../../web/templates/pages/add_firewall_banlist.php:29
 #: ../../web/templates/pages/add_firewall.php:50
 #: ../../web/templates/pages/edit_firewall.php:50
 msgid "Support CIDR format"
-msgstr ""
+msgstr "Obsługa formatu CIDR"
 
 #: ../../web/templates/pages/add_firewall_banlist.php:36
 msgid "SSH"
@@ -2919,7 +2964,7 @@ msgstr "Właściciel"
 
 #: ../../web/templates/pages/list_ip.php:44
 msgid "Refresh IP Addresses"
-msgstr ""
+msgstr "Odśwież adresy IP"
 
 #: ../../web/templates/pages/list_ip.php:95
 #: ../../web/templates/pages/list_ip.php:105
@@ -2939,7 +2984,7 @@ msgstr[3] ""
 
 #: ../../web/templates/pages/generate_ssl.php:28
 msgid "ISO 3166-1 alpha-2 two-letter code"
-msgstr ""
+msgstr "Dwuliterowy kod ISO 3166-1 alfa-2"
 
 #: ../../web/templates/pages/generate_ssl.php:34
 msgid "State / Province"
@@ -3052,7 +3097,7 @@ msgstr "Pobierz Bazę Danych"
 #: ../../web/templates/pages/list_db.php:224
 #, php-format
 msgid "Are you sure you want to delete database %s?"
-msgstr ""
+msgstr "Czy na pewno chcesz usunąć bazę danych %s?"
 
 #: ../../web/templates/pages/list_db.php:264
 #, php-format
@@ -3067,7 +3112,7 @@ msgstr[3] ""
 #: ../../web/templates/pages/add_db.php:72
 #, php-format
 msgid "Maximum %s characters length, including prefix"
-msgstr ""
+msgstr "Maksymalnie %s znaków, w tym prefiks"
 
 #: ../../web/templates/pages/list_backup_exclusions.php:29
 #: ../../web/templates/pages/list_backup.php:7
@@ -3128,7 +3173,7 @@ msgstr ""
 #: ../../web/templates/pages/add_firewall.php:31
 #: ../../web/templates/pages/edit_firewall.php:31
 msgid "ACCEPT"
-msgstr ""
+msgstr "ACCEPT"
 
 #: ../../web/templates/pages/add_firewall.php:44
 #: ../../web/templates/pages/edit_firewall.php:44
@@ -3217,7 +3262,7 @@ msgstr ""
 #: ../../web/templates/pages/list_mail_acc.php:240
 #, php-format
 msgid "Are you sure you want to delete %s?"
-msgstr ""
+msgstr "Czy na pewno chcesz usunąć %s?"
 
 #: ../../web/templates/pages/list_mail_acc.php:285
 #, php-format
@@ -3288,7 +3333,7 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:206
 msgid "Send update installation log by email"
-msgstr ""
+msgstr "Wyślij dziennik instalacji aktualizacji pocztą elektroniczną"
 
 #: ../../web/templates/pages/edit_server.php:215
 #: ../../web/templates/pages/edit_server.php:231
@@ -3313,11 +3358,11 @@ msgstr ""
 
 #: ../../web/templates/pages/edit_server.php:266
 msgid "It may take a few minutes to save your changes. Please wait until the process has completed and do not refresh the page."
-msgstr ""
+msgstr "Zapisanie zmian może potrwać kilka minut. Poczekaj na zakończenie procesu i nie odświeżaj strony."
 
 #: ../../web/templates/pages/edit_server.php:299
 msgid "System PHP Version"
-msgstr ""
+msgstr "Wersja systemowa PHP"
 
 #: ../../web/templates/pages/edit_server.php:322
 #: ../../web/templates/pages/edit_server.php:326
@@ -3714,7 +3759,7 @@ msgstr ""
 #: ../../web/templates/pages/list_packages.php:163
 #, php-format
 msgid "Are you sure you want to delete package %s?"
-msgstr ""
+msgstr "Czy na pewno chcesz usunąć pakiet %s?"
 
 #: ../../web/templates/pages/list_packages.php:310
 #, php-format
@@ -3775,7 +3820,7 @@ msgstr ""
 #: ../../web/templates/pages/add_cron.php:103
 #: ../../web/templates/pages/edit_cron.php:103
 msgid "Every hour"
-msgstr ""
+msgstr "Co godzinę"
 
 #: ../../web/templates/pages/add_cron.php:104
 #: ../../web/templates/pages/add_cron.php:105
@@ -3978,7 +4023,7 @@ msgstr "Edytuj"
 #: ../../web/templates/pages/list_cron.php:158
 #, php-format
 msgid "Are you sure you want to delete this cron job?"
-msgstr ""
+msgstr "Czy na pewno chcesz usunąć to zadanie cron?"
 
 #: ../../web/templates/pages/list_cron.php:193
 #, php-format
@@ -4150,7 +4195,7 @@ msgstr ""
 #: ../../web/templates/pages/list_dns_rec.php:144
 #, php-format
 msgid "Are you sure you want to delete record %s?"
-msgstr ""
+msgstr "Czy na pewno chcesz usunąć rekord %s?"
 
 #: ../../web/templates/pages/list_dns_rec.php:178
 #, php-format
@@ -4308,7 +4353,7 @@ msgstr ""
 #: ../../web/templates/pages/list_user.php:133
 #, php-format
 msgid "Are you sure you want to suspend user %s?"
-msgstr ""
+msgstr "Czy na pewno chcesz zawiesić użytkownika %s?"
 
 #: ../../web/templates/pages/list_user.php:158
 #: ../../web/templates/pages/list_user.php:182
@@ -4358,7 +4403,7 @@ msgstr "Współdzielone"
 #: ../../web/templates/pages/add_ip.php:76
 #: ../../web/templates/pages/edit_ip.php:69
 msgid "Assigned Domain"
-msgstr ""
+msgstr "Przypisana domena"
 
 #: ../../web/templates/pages/add_ip.php:82
 #: ../../web/templates/pages/edit_ip.php:75
@@ -4397,7 +4442,7 @@ msgstr ""
 
 #: ../../web/templates/pages/list_server_preview.php:35
 msgid "Policy"
-msgstr "Polityka"
+msgstr "serwer DNS"
 
 #: ../../web/templates/pages/list_server_preview.php:39
 msgid "Partially implemented"
@@ -4511,7 +4556,7 @@ msgstr "Konta"
 #: ../../web/templates/pages/list_mail.php:81
 #: ../../web/templates/pages/list_mail.php:324
 msgid "DKIM"
-msgstr ""
+msgstr "DKIM"
 
 #: ../../web/templates/pages/list_mail.php:337
 #, php-format
@@ -4579,7 +4624,7 @@ msgstr ""
 
 #: ../../web/templates/pages/list_dns_public.php:31
 msgid "DNSKEY Record"
-msgstr ""
+msgstr "Rekord DNSKEY"
 
 #: ../../web/templates/pages/list_dns_public.php:35
 msgid "DS Record"
@@ -4595,7 +4640,7 @@ msgstr ""
 
 #: ../../web/templates/pages/list_dns_public.php:47
 msgid "Key Tag"
-msgstr ""
+msgstr "Etykieta klucza"
 
 #: ../../web/templates/pages/list_dns_public.php:51
 msgid "Flag"
@@ -4641,7 +4686,7 @@ msgstr ""
 #: ../../web/templates/pages/list_firewall.php:128
 #: ../../web/templates/pages/list_firewall.php:131
 msgid "Edit Firewall Rule"
-msgstr ""
+msgstr "Edytuj regułę zapory"
 
 #: ../../web/templates/pages/add_mail_acc.php:88
 msgid "One or more email addresses"
@@ -4682,7 +4727,7 @@ msgstr[3] ""
 #: ../../web/templates/pages/list_weblog.php:55
 #: ../../web/templates/pages/list_weblog.php:57
 msgid "Error Log"
-msgstr ""
+msgstr "Dziennik błędów"
 
 #: ../../web/templates/pages/list_weblog.php:97
 #, php-format
@@ -4897,7 +4942,7 @@ msgstr "Uwierzytelnianie"
 #: ../../web/templates/includes/email-settings-panel.php:67
 #: ../../web/templates/includes/email-settings-panel.php:86
 msgid "Normal password"
-msgstr "Normale hasło"
+msgstr "Normalne hasło"
 
 #: ../../web/templates/includes/email-settings-panel.php:59
 #: ../../web/templates/includes/email-settings-panel.php:78

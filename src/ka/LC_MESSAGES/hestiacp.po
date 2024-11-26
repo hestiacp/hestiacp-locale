@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-24 11:26+0000\n"
-"PO-Revision-Date: 2024-07-24 20:19\n"
+"PO-Revision-Date: 2024-11-19 13:52\n"
 "Last-Translator: \n"
 "Language-Team: Georgian\n"
 "Language: ka_GE\n"
@@ -69,15 +69,15 @@ msgstr "დირექტორია"
 
 #: ../../web/list/backup/incremental/index.php:14
 msgid "File"
-msgstr ""
+msgstr "ფაილი"
 
 #: ../../web/list/backup/incremental/index.php:17
 msgid "Symlink"
-msgstr ""
+msgstr "სიმბოლური ბმული"
 
 #: ../../web/list/backup/incremental/index.php:20
 msgid "Unknown"
-msgstr ""
+msgstr "უცნობი"
 
 #: ../../web/reset/index.php:60
 msgid "Hello {{name}},\n\n"
@@ -119,7 +119,7 @@ msgstr "არასწორი მომხმარებლის სახ�
 
 #: ../../web/reset/index.php:234
 msgid "Passwords do not match"
-msgstr ""
+msgstr "პაროლები არ ემთხვევა"
 
 #: ../../web/inc/main.php:180 ../../web/inc/main.php:189
 #: ../../web/generate/ssl/index.php:123
@@ -167,11 +167,11 @@ msgstr ""
 #: ../../web/edit/mail/index.php:748 ../../web/add/user/index.php:50
 #: ../../web/add/db/index.php:48 ../../web/add/mail/index.php:239
 msgid "Please enter a valid email address."
-msgstr ""
+msgstr "გთხოვთ მიუთითეთ კორექტული ელ-ფოსტა."
 
 #: ../../web/edit/user/index.php:448
 msgid "Please enter a valid contact name."
-msgstr ""
+msgstr "გთხოვთ, შეიყვანოთ სწორი კონტაქტის სახელი."
 
 #: ../../web/edit/user/index.php:579 ../../web/edit/server/vsftpd/index.php:44
 #: ../../web/edit/server/bind9/index.php:61
@@ -203,7 +203,7 @@ msgstr ""
 #: ../../web/edit/mail/index.php:736 ../../web/edit/mail/index.php:1166
 #: ../../web/edit/firewall/index.php:134 ../../web/edit/package/index.php:382
 msgid "Changes have been saved."
-msgstr ""
+msgstr "ცვლილებები შენახულია."
 
 #: ../../web/edit/server/crond/index.php:17
 #: ../../web/edit/server/cron/index.php:17
@@ -212,7 +212,7 @@ msgstr ""
 
 #: ../../web/edit/server/index.php:1279
 msgid "Repository can not be empty"
-msgstr ""
+msgstr "რეპოზიტორია არ შეიძლება ცარიელი იყოს"
 
 #: ../../web/edit/server/index.php:1381
 msgid "Inactive session timeout can not lower than 1 minute."
@@ -221,11 +221,11 @@ msgstr ""
 #: ../../web/edit/server/hestiaweb/index.php:34
 #: ../../web/templates/pages/edit_server.php:15
 msgid "Panel Cronjobs"
-msgstr ""
+msgstr "პანელის ქრონის ამოცანები"
 
 #: ../../web/edit/dns/index.php:347
 msgid "Error: unknown record ID."
-msgstr ""
+msgstr "შეცდომა: უცნობი ჩანაწერის აიდი."
 
 #: ../../web/edit/web/index.php:863 ../../web/edit/web/index.php:1084
 #: ../../web/edit/web/index.php:1124 ../../web/edit/web/index.php:1186
@@ -276,7 +276,13 @@ msgid "FTP account has been created and ready to use.\n\n"
 "Best regards,\n\n"
 "--\n"
 "{{appname}}"
-msgstr ""
+msgstr "FTP account has been created and ready to use.\n\n"
+"ჰოსთის სახელი: {{domain}}\n"
+"სახელი: {{username}}\n"
+"პაროლი: {{password}}\n\n"
+"კეთილი სურვილებით,\n\n"
+"--\n"
+"{{appname}}"
 
 #: ../../web/edit/web/index.php:1263 ../../web/edit/web/index.php:1431
 #, php-format

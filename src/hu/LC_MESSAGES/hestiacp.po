@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-24 11:26+0000\n"
-"PO-Revision-Date: 2024-07-24 20:19\n"
+"PO-Revision-Date: 2024-11-19 13:52\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
@@ -69,15 +69,15 @@ msgstr "Könyvtár"
 
 #: ../../web/list/backup/incremental/index.php:14
 msgid "File"
-msgstr ""
+msgstr "Fájl"
 
 #: ../../web/list/backup/incremental/index.php:17
 msgid "Symlink"
-msgstr ""
+msgstr "Szimbolikus link"
 
 #: ../../web/list/backup/incremental/index.php:20
 msgid "Unknown"
-msgstr ""
+msgstr "Ismeretlen"
 
 #: ../../web/reset/index.php:60
 msgid "Hello {{name}},\n\n"
@@ -220,7 +220,7 @@ msgstr "Infó (read-only mód): A crontab csak SSH-n keresztül szerkeszthető."
 
 #: ../../web/edit/server/index.php:1279
 msgid "Repository can not be empty"
-msgstr ""
+msgstr "A tároló nem lehet üres"
 
 #: ../../web/edit/server/index.php:1381
 msgid "Inactive session timeout can not lower than 1 minute."
@@ -626,7 +626,7 @@ msgstr "Mentés"
 #: ../../web/templates/pages/edit_package.php:64
 #: ../../web/templates/pages/list_backup.php:9
 msgid "Incremental Backups"
-msgstr ""
+msgstr "Inkrementális Mentések"
 
 #: ../../web/edit/package/index.php:198 ../../web/add/package/index.php:81
 #: ../../web/templates/pages/add_package.php:37
@@ -665,19 +665,19 @@ msgstr "Adatforgalom"
 
 #: ../../web/edit/package/index.php:206 ../../web/add/package/index.php:92
 msgid "CPU quota"
-msgstr ""
+msgstr "CPU kvóta"
 
 #: ../../web/edit/package/index.php:209 ../../web/add/package/index.php:95
 msgid "CPU quota period"
-msgstr ""
+msgstr "CPU kvóta periódus"
 
 #: ../../web/edit/package/index.php:212 ../../web/add/package/index.php:98
 msgid "Memory Limit"
-msgstr ""
+msgstr "Memória Limit"
 
 #: ../../web/edit/package/index.php:215 ../../web/add/package/index.php:101
 msgid "Swap Limit"
-msgstr ""
+msgstr "Swap Limit"
 
 #: ../../web/edit/package/index.php:222 ../../web/add/package/index.php:108
 msgid "Nameserver 1"
@@ -1492,7 +1492,7 @@ msgstr "Névszerver hozzáadása"
 
 #: ../../web/templates/pages/list_backup_incremental.php:7
 msgid "Create Snapshot"
-msgstr ""
+msgstr "Pillanatkép Létrehozása"
 
 #: ../../web/templates/pages/list_backup_incremental.php:16
 #: ../../web/templates/pages/list_backup_incremental.php:19
@@ -1540,7 +1540,7 @@ msgstr "Művelet a kijelöltekkel"
 
 #: ../../web/templates/pages/list_backup_incremental.php:17
 msgid "Delete Snapshot"
-msgstr ""
+msgstr "Pillanatkép Törlése"
 
 #: ../../web/templates/pages/list_backup_incremental.php:27
 #: ../../web/templates/pages/list_backup_incremental.php:28
@@ -1582,7 +1582,7 @@ msgstr "Keresés"
 #: ../../web/templates/pages/list_backup_incremental.php:40
 #: ../../web/templates/pages/edit_server.php:943
 msgid "Snapshots"
-msgstr ""
+msgstr "Pillanatképek"
 
 #: ../../web/templates/pages/list_backup_incremental.php:45
 #: ../../web/templates/pages/list_firewall_banlist.php:35
@@ -1611,7 +1611,7 @@ msgstr "Összes kijelölése"
 #: ../../web/templates/pages/list_backup_incremental.php:68
 #: ../../web/templates/pages/list_backup_incremental.php:71
 msgid "Snapshot"
-msgstr ""
+msgstr "Pillanatkép"
 
 #: ../../web/templates/pages/list_backup_incremental.php:49
 #: ../../web/templates/pages/list_backup_incremental.php:89
@@ -1763,7 +1763,7 @@ msgstr ""
 msgid "%d snapshot"
 msgid_plural "%d snapshots"
 msgstr[0] ""
-msgstr[1] ""
+msgstr[1] "%d pillanatkép"
 
 #: ../../web/templates/pages/add_package.php:29
 #: ../../web/templates/pages/list_packages.php:9
@@ -1941,12 +1941,12 @@ msgstr ""
 #: ../../web/templates/pages/add_package.php:294
 #: ../../web/templates/pages/edit_package.php:304
 msgid "System Resources"
-msgstr ""
+msgstr "Rendszer Erőforrások"
 
 #: ../../web/templates/pages/add_package.php:299
 #: ../../web/templates/pages/edit_package.php:309
 msgid "CPU Quota (in %)"
-msgstr ""
+msgstr "CPU Kvóta (%-ban)"
 
 #: ../../web/templates/pages/add_package.php:307
 #: ../../web/templates/pages/edit_package.php:317
@@ -1956,7 +1956,7 @@ msgstr ""
 #: ../../web/templates/pages/add_package.php:312
 #: ../../web/templates/pages/edit_package.php:322
 msgid "CPU Quota Period (in ms for milliseconds or s for seconds.)"
-msgstr ""
+msgstr "CPU Kvóta Periódus (ms ezredmásodpercben vagy s másodpercben)"
 
 #: ../../web/templates/pages/add_package.php:320
 #: ../../web/templates/pages/edit_package.php:330
@@ -1966,7 +1966,7 @@ msgstr ""
 #: ../../web/templates/pages/add_package.php:325
 #: ../../web/templates/pages/edit_package.php:335
 msgid "Memory Limit (in bytes or with units like '2G')"
-msgstr ""
+msgstr "Memória Limit (byte-ban vagy egyéb egységben, például '2G')"
 
 #: ../../web/templates/pages/add_package.php:333
 #: ../../web/templates/pages/edit_package.php:343
@@ -2989,7 +2989,7 @@ msgstr "Összes Visszaállítása"
 
 #: ../../web/templates/pages/list_backup_detail_incremental.php:16
 msgid "Restore Snapshot"
-msgstr ""
+msgstr "Pillanatkép Helyreállítása"
 
 #: ../../web/templates/pages/list_backup_detail_incremental.php:39
 #: ../../web/templates/pages/list_backup_detail.php:40
@@ -3028,7 +3028,7 @@ msgstr ""
 
 #: ../../web/templates/pages/list_backup_detail_incremental.php:201
 msgid "Cronjob"
-msgstr ""
+msgstr "Ütemezett feladat"
 
 #: ../../web/templates/pages/list_backup_detail_incremental.php:224
 #: ../../web/templates/pages/list_backup_detail.php:294
@@ -3512,11 +3512,11 @@ msgstr "Távoli Biztonsági Mentés"
 
 #: ../../web/templates/pages/edit_server.php:917
 msgid "Enable incremental backup"
-msgstr ""
+msgstr "Inkrementális mentés engedélyezése"
 
 #: ../../web/templates/pages/edit_server.php:931
 msgid "Repository"
-msgstr ""
+msgstr "Tároló"
 
 #: ../../web/templates/pages/edit_server.php:955
 msgid "Keep last daily backups"
@@ -3707,7 +3707,7 @@ msgstr "Webes Terminál"
 
 #: ../../web/templates/pages/edit_server.php:1501
 msgid "Limit System Resources"
-msgstr ""
+msgstr "Rendszer Erőforrások Korlátozása"
 
 #: ../../web/templates/pages/edit_server.php:1514
 msgid "File System Disk Quota"
@@ -3756,7 +3756,7 @@ msgstr "Új Ütemezett Feladat"
 #: ../../web/templates/pages/add_cron.php:28
 #: ../../web/templates/pages/edit_cron.php:28
 msgid "System time"
-msgstr ""
+msgstr "Rendszeridő"
 
 #: ../../web/templates/pages/add_cron.php:66
 #: ../../web/templates/pages/edit_cron.php:66
@@ -4044,7 +4044,7 @@ msgstr "Weboldal Letöltése"
 #: ../../web/templates/pages/list_weblog.php:43
 #: ../../web/templates/pages/list_weblog.php:45
 msgid "View Logs"
-msgstr ""
+msgstr "Naplók Megtekintése"
 
 #: ../../web/templates/pages/list_web.php:349
 #, php-format
@@ -4092,7 +4092,7 @@ msgstr "Feladatfigyelő"
 
 #: ../../web/templates/pages/list_services.php:26
 msgid "Are you sure you want to restart the server?"
-msgstr ""
+msgstr "Biztosan újra akarod indítani a szervert?"
 
 #: ../../web/templates/pages/list_services.php:36
 #: ../../web/templates/pages/list_services.php:113
@@ -4139,17 +4139,17 @@ msgstr "Memória"
 #: ../../web/templates/pages/list_services.php:171
 #, php-format
 msgid "Are you sure you want to restart the %s service?"
-msgstr ""
+msgstr "Biztosan újra akarod indítani a(z) %s folyamatot?"
 
 #: ../../web/templates/pages/list_services.php:183
 #, php-format
 msgid "Are you sure you want to stop the %s service?"
-msgstr ""
+msgstr "Biztosan le akarod állítani a(z) %s folyamatot?"
 
 #: ../../web/templates/pages/list_services.php:183
 #, php-format
 msgid "Are you sure you want to start the %s service?"
-msgstr ""
+msgstr "Biztosan el akarod indítani a(z) %s folyamatot?"
 
 #: ../../web/templates/pages/list_services.php:205
 msgid "MB"
@@ -4422,7 +4422,7 @@ msgstr "Részlegesen implementált"
 #: ../../web/templates/pages/list_backup_detail.php:280
 #, php-format
 msgid "Are you sure you want to restore %s?"
-msgstr ""
+msgstr "Biztosan helyre akarod állítani a(z) %s-t?"
 
 #: ../../web/templates/pages/list_backup_detail.php:149
 msgid "DNS Zone"
@@ -4677,7 +4677,7 @@ msgstr "Biztosan fel akarod függeszteni a #%s tűzfalszabályt?"
 #: ../../web/templates/pages/list_firewall.php:152
 #, php-format
 msgid "Are you sure you want to delete rule #%s?"
-msgstr ""
+msgstr "Biztosan törölni akarod a #%s szabályt?"
 
 #: ../../web/templates/pages/list_firewall.php:182
 #, php-format
@@ -4750,19 +4750,19 @@ msgstr "IPSet Címlista Hozzáadása"
 
 #: ../../web/templates/pages/add_firewall_ipset.php:76
 msgid "URL, script or file"
-msgstr ""
+msgstr "URL, szkript vagy fájl"
 
 #: ../../web/templates/pages/list_files_incremental.php:24
 msgid "Restore Files"
-msgstr ""
+msgstr "Fájlok Helyreállítása"
 
 #: ../../web/templates/pages/list_files_incremental.php:46
 msgid "Files"
-msgstr ""
+msgstr "Fájlok"
 
 #: ../../web/templates/pages/list_files_incremental.php:119
 msgid "Date / Time"
-msgstr ""
+msgstr "Dátum / Idő"
 
 #: ../../web/templates/footer.php:25 ../../web/templates/footer.php:61
 #: ../../web/templates/footer.php:64
@@ -4835,15 +4835,15 @@ msgstr "Mozgás az elemek között lefelé"
 
 #: ../../web/templates/includes/password-requirements.php:1
 msgid "Password must include"
-msgstr ""
+msgstr "A jelszónak tartalmaznia kell"
 
 #: ../../web/templates/includes/password-requirements.php:3
 msgid "8 characters minimum"
-msgstr ""
+msgstr "Minimum 8 karakter"
 
 #: ../../web/templates/includes/extra-ns-fields.php:8
 msgid "Remove"
-msgstr ""
+msgstr "Törlés"
 
 #: ../../web/templates/includes/js.php:10
 #: ../../web/templates/includes/panel.php:92
@@ -4880,7 +4880,7 @@ msgstr ""
 #: ../../web/templates/includes/email-settings-panel.php:29
 #: ../../web/templates/includes/email-settings-panel.php:39
 msgid "Copy to clipboard"
-msgstr ""
+msgstr "Másolás vágólapra"
 
 #: ../../web/templates/includes/email-settings-panel.php:26
 msgid "Webmail"

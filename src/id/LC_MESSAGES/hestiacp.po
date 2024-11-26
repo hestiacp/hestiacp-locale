@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-24 11:26+0000\n"
-"PO-Revision-Date: 2024-07-24 20:19\n"
+"PO-Revision-Date: 2024-11-19 13:52\n"
 "Last-Translator: \n"
 "Language-Team: Indonesian\n"
 "Language: id_ID\n"
@@ -19,18 +19,18 @@ msgstr ""
 
 #: ../../web/download/backup/index.php:20
 msgid "Download of remote backup file has been scheduled."
-msgstr ""
+msgstr "Pengunduhan berkas cadangan jarak jauh telah dijadwalkan."
 
 #: ../../web/download/backup/index.php:24 ../../web/unsuspend/dns/index.php:18
 #: ../../web/unsuspend/dns/index.php:44 ../../web/unsuspend/mail/index.php:18
 #: ../../web/unsuspend/mail/index.php:45 ../../web/schedule/backup/index.php:17
 #: ../../web/schedule/restore/index.php:70 ../../web/bulk/restore/index.php:78
 msgid "Error: Hestia did not return any output."
-msgstr ""
+msgstr "Kesalahan: Hestia tidak mengembalikan output apa pun."
 
 #: ../../web/schedule/backup/incremental/index.php:17
 msgid "Snapshot has been sheduled"
-msgstr ""
+msgstr "Snapshot telah dihapus"
 
 #: ../../web/schedule/backup/index.php:12
 msgid "Task has been added to the queue. You will receive an email notification when your backup is ready for download."
@@ -38,7 +38,7 @@ msgstr "Task telah ditambahkan dalam antrian. Anda akan menerima email notifikas
 
 #: ../../web/schedule/backup/index.php:22
 msgid "An existing backup task is already running, please wait for it to complete."
-msgstr ""
+msgstr "Aktivitas pencadangan yang ada sudah berjalan, harap tunggu hingga selesai."
 
 #: ../../web/schedule/restore/index.php:65
 #: ../../web/bulk/restore/incremental/index.php:126
@@ -48,16 +48,16 @@ msgstr "Task telah ditambahkan dalam antrian. Anda akan menerima email notifikas
 
 #: ../../web/schedule/restore/index.php:74 ../../web/bulk/restore/index.php:82
 msgid "An existing restoration task is already running. Please wait for it to finish before launching it again."
-msgstr ""
+msgstr "Aktivitas pemulihan yang ada sudah berjalan. Harap tunggu hingga selesai sebelum meluncurkannya lagi."
 
 #: ../../web/restart/service/index.php:23
 #, php-format
 msgid "Restart \"%s\" failed"
-msgstr ""
+msgstr "Memulai ulang \"%s\" gagal"
 
 #: ../../web/restart/system/index.php:26 ../../web/bulk/service/index.php:40
 msgid "The system is going down for reboot NOW!"
-msgstr ""
+msgstr "Sistem akan berhenti untuk dihidupkan ulang SEKARANG!"
 
 #: ../../web/list/backup/incremental/index.php:11
 #: ../../web/templates/pages/edit_web.php:377
@@ -69,15 +69,15 @@ msgstr "Direktori"
 
 #: ../../web/list/backup/incremental/index.php:14
 msgid "File"
-msgstr ""
+msgstr "Berkas"
 
 #: ../../web/list/backup/incremental/index.php:17
 msgid "Symlink"
-msgstr ""
+msgstr "Symlink"
 
 #: ../../web/list/backup/incremental/index.php:20
 msgid "Unknown"
-msgstr ""
+msgstr "Tidak diketahui"
 
 #: ../../web/reset/index.php:60
 msgid "Hello {{name}},\n\n"
@@ -133,50 +133,50 @@ msgstr "Kata sandi tidak cocok"
 #: ../../web/generate/ssl/index.php:123
 #, php-format
 msgid "Error code: %s"
-msgstr ""
+msgstr "Kode kesalahan: %s"
 
 #: ../../web/inc/main.php:267 ../../web/inc/main.php:278
 msgid "You are logged out, please log in again."
-msgstr ""
+msgstr "Anda sudah keluar, silakan masuk lagi."
 
 #: ../../web/inc/main.php:345
 #, php-format
 msgid "%d day"
 msgid_plural "%d days"
-msgstr[0] ""
+msgstr[0] "%d hari"
 
 #: ../../web/inc/main.php:348
 #, php-format
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] ""
+msgstr[0] "%d jam"
 
 #: ../../web/inc/main.php:352
 #, php-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] ""
+msgstr[0] "%d menit"
 
 #: ../../web/edit/user/index.php:162 ../../web/edit/db/index.php:74
 #: ../../web/edit/mail/index.php:774 ../../web/add/user/index.php:56
 #: ../../web/add/db/index.php:55 ../../web/add/mail/index.php:246
 msgid "Password does not match the minimum requirements."
-msgstr ""
+msgstr "Kata sandi tidak sesuai dengan persyaratan minimum."
 
 #: ../../web/edit/user/index.php:380 ../../web/edit/package/index.php:235
 #: ../../web/add/package/index.php:120
 msgid "Cannot combine nologin and rssh shell with jailed shell."
-msgstr ""
+msgstr "Tidak dapat menggabungkan shell nologin dan rssh dengan shell yang dikurung."
 
 #: ../../web/edit/user/index.php:432 ../../web/edit/web/index.php:1173
 #: ../../web/edit/mail/index.php:748 ../../web/add/user/index.php:50
 #: ../../web/add/db/index.php:48 ../../web/add/mail/index.php:239
 msgid "Please enter a valid email address."
-msgstr ""
+msgstr "Masukkan alamat email yang valid."
 
 #: ../../web/edit/user/index.php:448
 msgid "Please enter a valid contact name."
-msgstr ""
+msgstr "Masukkan nama kontak yang valid."
 
 #: ../../web/edit/user/index.php:579 ../../web/edit/server/vsftpd/index.php:44
 #: ../../web/edit/server/bind9/index.php:61
@@ -208,29 +208,29 @@ msgstr ""
 #: ../../web/edit/mail/index.php:736 ../../web/edit/mail/index.php:1166
 #: ../../web/edit/firewall/index.php:134 ../../web/edit/package/index.php:382
 msgid "Changes have been saved."
-msgstr ""
+msgstr "Perubahan telah disimpan."
 
 #: ../../web/edit/server/crond/index.php:17
 #: ../../web/edit/server/cron/index.php:17
 msgid "Info (read-only mode): Crontab can only be edited via SSH."
-msgstr ""
+msgstr "Info (mode hanya-baca): Crontab hanya dapat diedit melalui SSH."
 
 #: ../../web/edit/server/index.php:1279
 msgid "Repository can not be empty"
-msgstr ""
+msgstr "Repositori tidak boleh kosong"
 
 #: ../../web/edit/server/index.php:1381
 msgid "Inactive session timeout can not lower than 1 minute."
-msgstr ""
+msgstr "Batas waktu sesi tidak aktif tidak boleh kurang dari 1 menit."
 
 #: ../../web/edit/server/hestiaweb/index.php:34
 #: ../../web/templates/pages/edit_server.php:15
 msgid "Panel Cronjobs"
-msgstr ""
+msgstr "Panel Cronjobs"
 
 #: ../../web/edit/dns/index.php:347
 msgid "Error: unknown record ID."
-msgstr ""
+msgstr "Kesalahan: ID record tidak diketahui."
 
 #: ../../web/edit/web/index.php:863 ../../web/edit/web/index.php:1084
 #: ../../web/edit/web/index.php:1124 ../../web/edit/web/index.php:1186
@@ -281,12 +281,18 @@ msgid "FTP account has been created and ready to use.\n\n"
 "Best regards,\n\n"
 "--\n"
 "{{appname}}"
-msgstr ""
+msgstr "Akun FTP telah dibuat dan siap digunakan.\n\n"
+"Nama host: {{domain}}\n"
+"Nama user: {{username}}\n"
+"Kata sandi: {{password}}\n\n"
+"Salam,\n\n"
+"--\n"
+"{{appname}}"
 
 #: ../../web/edit/web/index.php:1263 ../../web/edit/web/index.php:1431
 #, php-format
 msgid "FTP Account Credentials: %s"
-msgstr ""
+msgstr "Informasi Akun FTP: %s"
 
 #: ../../web/edit/mail/index.php:1098 ../../web/add/mail/index.php:438
 msgid "Mail account has been created.\n\n"
@@ -313,7 +319,30 @@ msgid "Mail account has been created.\n\n"
 "Best regards,\n\n"
 "--\n"
 "{{appname}}"
-msgstr ""
+msgstr "Akun email telah dibuat.\n\n"
+"Konfigurasi Umum:\n"
+"Username: {{account}}@{{domain}}\n"
+"Password: {{password}}\n"
+"Webmail: {{webmail}}\n"
+"Hostname: {{hostname}}\n\n"
+"Konfigurasi IMAP\n"
+"Autentikasi: kata sandi\n"
+"SSL/TLS: Port 993\n"
+"STARTTLS: Port 143\n"
+"Tanpa enkripsi: Port 143\n\n"
+"Konfigurasi POP3\n"
+"Autentikasi: kata sandi\n"
+"SSL/TLS: Port 995\n"
+"STARTTLS: Port 110\n"
+"Tanpa enkripsi: Port 110\n\n"
+"Konfigurasi SMTP\n"
+"Autentikasi: kata sandi\n"
+"SSL/TLS: Port 465\n"
+"STARTTLS: Port 587\n"
+"Tanpa enkripsi: Port 25\n\n"
+"Salam,\n\n"
+"--\n"
+"{{appname}}"
 
 #: ../../web/edit/mail/index.php:1135 ../../web/add/mail/index.php:475
 #, php-format

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-24 11:26+0000\n"
-"PO-Revision-Date: 2024-07-24 20:19\n"
+"PO-Revision-Date: 2024-11-26 17:17\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
@@ -30,7 +30,7 @@ msgstr "Помилка: Hestia не вернула ніякого результ
 
 #: ../../web/schedule/backup/incremental/index.php:17
 msgid "Snapshot has been sheduled"
-msgstr ""
+msgstr "Заплановано снепшот"
 
 #: ../../web/schedule/backup/index.php:12
 msgid "Task has been added to the queue. You will receive an email notification when your backup is ready for download."
@@ -69,15 +69,15 @@ msgstr "Папка"
 
 #: ../../web/list/backup/incremental/index.php:14
 msgid "File"
-msgstr ""
+msgstr "Файл"
 
 #: ../../web/list/backup/incremental/index.php:17
 msgid "Symlink"
-msgstr ""
+msgstr "Сімлінк"
 
 #: ../../web/list/backup/incremental/index.php:20
 msgid "Unknown"
-msgstr ""
+msgstr "Невідомо"
 
 #: ../../web/reset/index.php:60
 msgid "Hello {{name}},\n\n"
@@ -175,7 +175,7 @@ msgstr "Пароль не відповідає мінімальним вимог
 #: ../../web/edit/user/index.php:380 ../../web/edit/package/index.php:235
 #: ../../web/add/package/index.php:120
 msgid "Cannot combine nologin and rssh shell with jailed shell."
-msgstr ""
+msgstr "Неможливо поєднати nologin та rssh shell з jailed shell."
 
 #: ../../web/edit/user/index.php:432 ../../web/edit/web/index.php:1173
 #: ../../web/edit/mail/index.php:748 ../../web/add/user/index.php:50
@@ -226,7 +226,7 @@ msgstr "Інформація (в режимі read-only): Crontab можна р�
 
 #: ../../web/edit/server/index.php:1279
 msgid "Repository can not be empty"
-msgstr ""
+msgstr "Репозиторій не може бути пустим"
 
 #: ../../web/edit/server/index.php:1381
 msgid "Inactive session timeout can not lower than 1 minute."
@@ -632,7 +632,7 @@ msgstr "Бекапи"
 #: ../../web/templates/pages/edit_package.php:64
 #: ../../web/templates/pages/list_backup.php:9
 msgid "Incremental Backups"
-msgstr ""
+msgstr "Інкрементні бекапи"
 
 #: ../../web/edit/package/index.php:198 ../../web/add/package/index.php:81
 #: ../../web/templates/pages/add_package.php:37
@@ -671,19 +671,19 @@ msgstr "Трафік"
 
 #: ../../web/edit/package/index.php:206 ../../web/add/package/index.php:92
 msgid "CPU quota"
-msgstr ""
+msgstr "Квота CPU"
 
 #: ../../web/edit/package/index.php:209 ../../web/add/package/index.php:95
 msgid "CPU quota period"
-msgstr ""
+msgstr "Термін квоти ЦП"
 
 #: ../../web/edit/package/index.php:212 ../../web/add/package/index.php:98
 msgid "Memory Limit"
-msgstr ""
+msgstr "Обмеження пам'яті"
 
 #: ../../web/edit/package/index.php:215 ../../web/add/package/index.php:101
 msgid "Swap Limit"
-msgstr ""
+msgstr "Обмеження Swap"
 
 #: ../../web/edit/package/index.php:222 ../../web/add/package/index.php:108
 msgid "Nameserver 1"
@@ -1498,7 +1498,7 @@ msgstr "Додати сервер імен"
 
 #: ../../web/templates/pages/list_backup_incremental.php:7
 msgid "Create Snapshot"
-msgstr ""
+msgstr "Створити снапшот"
 
 #: ../../web/templates/pages/list_backup_incremental.php:16
 #: ../../web/templates/pages/list_backup_incremental.php:19
@@ -1546,7 +1546,7 @@ msgstr "Застосувати до обраного"
 
 #: ../../web/templates/pages/list_backup_incremental.php:17
 msgid "Delete Snapshot"
-msgstr ""
+msgstr "Видалити снепшот"
 
 #: ../../web/templates/pages/list_backup_incremental.php:27
 #: ../../web/templates/pages/list_backup_incremental.php:28
@@ -1588,7 +1588,7 @@ msgstr "Пошук"
 #: ../../web/templates/pages/list_backup_incremental.php:40
 #: ../../web/templates/pages/edit_server.php:943
 msgid "Snapshots"
-msgstr ""
+msgstr "Снепшоти"
 
 #: ../../web/templates/pages/list_backup_incremental.php:45
 #: ../../web/templates/pages/list_firewall_banlist.php:35
@@ -1617,7 +1617,7 @@ msgstr "Обрати все"
 #: ../../web/templates/pages/list_backup_incremental.php:68
 #: ../../web/templates/pages/list_backup_incremental.php:71
 msgid "Snapshot"
-msgstr ""
+msgstr "Снепшот"
 
 #: ../../web/templates/pages/list_backup_incremental.php:49
 #: ../../web/templates/pages/list_backup_incremental.php:89
@@ -1762,16 +1762,16 @@ msgstr "Відновити"
 
 #: ../../web/templates/pages/list_backup_incremental.php:80
 msgid "Browse"
-msgstr ""
+msgstr "Огляд"
 
 #: ../../web/templates/pages/list_backup_incremental.php:115
 #, php-format
 msgid "%d snapshot"
 msgid_plural "%d snapshots"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d снепшот"
+msgstr[1] "%d снепшоти"
 msgstr[2] ""
-msgstr[3] ""
+msgstr[3] "%d снепшотів"
 
 #: ../../web/templates/pages/add_package.php:29
 #: ../../web/templates/pages/list_packages.php:9
@@ -1944,52 +1944,52 @@ msgstr "SSH доступ"
 #: ../../web/templates/pages/edit_user.php:227
 #: ../../web/templates/pages/edit_package.php:295
 msgid "Jail User Shell"
-msgstr ""
+msgstr "Обмежений shell юзера"
 
 #: ../../web/templates/pages/add_package.php:294
 #: ../../web/templates/pages/edit_package.php:304
 msgid "System Resources"
-msgstr ""
+msgstr "Системні ресурси"
 
 #: ../../web/templates/pages/add_package.php:299
 #: ../../web/templates/pages/edit_package.php:309
 msgid "CPU Quota (in %)"
-msgstr ""
+msgstr "Квота ЦП (у %)"
 
 #: ../../web/templates/pages/add_package.php:307
 #: ../../web/templates/pages/edit_package.php:317
 msgid "CPUQuota=20% ensures that the executed processes will never get more than 20% CPU time on one CPU."
-msgstr ""
+msgstr "CPUQuota=20% гарантує, що процеси, які виконуються, ніколи не отримують більше 20% часу на один процесор."
 
 #: ../../web/templates/pages/add_package.php:312
 #: ../../web/templates/pages/edit_package.php:322
 msgid "CPU Quota Period (in ms for milliseconds or s for seconds.)"
-msgstr ""
+msgstr "Термін квоти ЦП (в мілісекундах або секундах.)"
 
 #: ../../web/templates/pages/add_package.php:320
 #: ../../web/templates/pages/edit_package.php:330
 msgid "CPUQuotaPeriodSec=10ms to request that the CPU quota is measured in periods of 10ms."
-msgstr ""
+msgstr "CPUQuotaPeriodSec=10 мс, щоб запитати, що ЦП квота вимірюється в періодах по 10 мс."
 
 #: ../../web/templates/pages/add_package.php:325
 #: ../../web/templates/pages/edit_package.php:335
 msgid "Memory Limit (in bytes or with units like '2G')"
-msgstr ""
+msgstr "Обмеження пам'яті (у байтах чи одиницях таких як \"2G')"
 
 #: ../../web/templates/pages/add_package.php:333
 #: ../../web/templates/pages/edit_package.php:343
 msgid "Takes a memory size in bytes. If the value is suffixed with K, M, G or T, the specified memory size is parsed as Kilobytes, Megabytes, Gigabytes, or Terabytes (with the base 1024), respectively"
-msgstr ""
+msgstr "Розмір пам'яті в байтах. Якщо значення має суфікс K, M, G або T, вказаний розмір пам'яті визначається як Кілобайт, Мегабайт, Гігабайт або Терабайт (кратно 1024)"
 
 #: ../../web/templates/pages/add_package.php:338
 #: ../../web/templates/pages/edit_package.php:348
 msgid "Swap Limit (in bytes or with units like '2G')"
-msgstr ""
+msgstr "Ліміт swap (в байтах чи одиницях, як \"2G')"
 
 #: ../../web/templates/pages/add_package.php:346
 #: ../../web/templates/pages/edit_package.php:356
 msgid "Takes a swap size in bytes. If the value is suffixed with K, M, G or T, the specified swap size is parsed as Kilobytes, Megabytes, Gigabytes, or Terabytes (with the base 1024), respectively"
-msgstr ""
+msgstr "Розмір свопу в байтах. Якщо значення має суфікс K, M, G або T, вказаний розмір свопу, визначається як Кілобайт, Мегабайт, Гігабайт або Терабайт (кратно 1024)"
 
 #: ../../web/templates/pages/list_log.php:28
 #: ../../web/templates/pages/list_log.php:29
@@ -2523,11 +2523,11 @@ msgstr "Ім'я пакету"
 
 #: ../../web/templates/pages/list_updates.php:68
 msgid "Update available"
-msgstr ""
+msgstr "Доступне оновлення"
 
 #: ../../web/templates/pages/list_updates.php:70
 msgid "Package up-to-date"
-msgstr ""
+msgstr "Пакет оновлено"
 
 #: ../../web/templates/pages/edit_dns.php:25
 #: ../../web/templates/pages/list_dns.php:159
@@ -3007,7 +3007,7 @@ msgstr "Відновити Усе"
 
 #: ../../web/templates/pages/list_backup_detail_incremental.php:16
 msgid "Restore Snapshot"
-msgstr ""
+msgstr "Відновити снепшот"
 
 #: ../../web/templates/pages/list_backup_detail_incremental.php:39
 #: ../../web/templates/pages/list_backup_detail.php:40
@@ -3042,11 +3042,11 @@ msgstr "Поштовий домен"
 
 #: ../../web/templates/pages/list_backup_detail_incremental.php:133
 msgid "DNS Domain"
-msgstr ""
+msgstr "Домен DNS"
 
 #: ../../web/templates/pages/list_backup_detail_incremental.php:201
 msgid "Cronjob"
-msgstr ""
+msgstr "Cronjob"
 
 #: ../../web/templates/pages/list_backup_detail_incremental.php:224
 #: ../../web/templates/pages/list_backup_detail.php:294
@@ -3538,27 +3538,27 @@ msgstr "Віддалений бекап"
 
 #: ../../web/templates/pages/edit_server.php:917
 msgid "Enable incremental backup"
-msgstr ""
+msgstr "Увімкнути інкрементний бекап"
 
 #: ../../web/templates/pages/edit_server.php:931
 msgid "Repository"
-msgstr ""
+msgstr "Репозиторій"
 
 #: ../../web/templates/pages/edit_server.php:955
 msgid "Keep last daily backups"
-msgstr ""
+msgstr "Зберегати останні щоденні бекапи"
 
 #: ../../web/templates/pages/edit_server.php:967
 msgid "Keep last weekly backups"
-msgstr ""
+msgstr "Зберегати останні щотижневі бекапи"
 
 #: ../../web/templates/pages/edit_server.php:979
 msgid "Keep last monthly backups"
-msgstr ""
+msgstr "Зберегати останні щомісячні бекапи"
 
 #: ../../web/templates/pages/edit_server.php:991
 msgid "Keep last yearly backups"
-msgstr ""
+msgstr "Зберігати останні щорічні бекапи"
 
 #: ../../web/templates/pages/edit_server.php:1008
 #: ../../web/templates/pages/list_web.php:86
@@ -3733,7 +3733,7 @@ msgstr "Веб термінал"
 
 #: ../../web/templates/pages/edit_server.php:1501
 msgid "Limit System Resources"
-msgstr ""
+msgstr "Обмежити системні ресурси"
 
 #: ../../web/templates/pages/edit_server.php:1514
 msgid "File System Disk Quota"
@@ -3784,7 +3784,7 @@ msgstr "Додати Cron завдання"
 #: ../../web/templates/pages/add_cron.php:28
 #: ../../web/templates/pages/edit_cron.php:28
 msgid "System time"
-msgstr ""
+msgstr "Системний час"
 
 #: ../../web/templates/pages/add_cron.php:66
 #: ../../web/templates/pages/edit_cron.php:66
@@ -4074,7 +4074,7 @@ msgstr "Завантажити сайт"
 #: ../../web/templates/pages/list_weblog.php:43
 #: ../../web/templates/pages/list_weblog.php:45
 msgid "View Logs"
-msgstr ""
+msgstr "Показати логи"
 
 #: ../../web/templates/pages/list_web.php:349
 #, php-format
@@ -4124,7 +4124,7 @@ msgstr "Монітор процесів"
 
 #: ../../web/templates/pages/list_services.php:26
 msgid "Are you sure you want to restart the server?"
-msgstr ""
+msgstr "Ви впевнені, що хочете перезавантажити сервер?"
 
 #: ../../web/templates/pages/list_services.php:36
 #: ../../web/templates/pages/list_services.php:113
@@ -4171,17 +4171,17 @@ msgstr "Пам'ять"
 #: ../../web/templates/pages/list_services.php:171
 #, php-format
 msgid "Are you sure you want to restart the %s service?"
-msgstr ""
+msgstr "Ви дійсно хочете перезапустити сервіс %s?"
 
 #: ../../web/templates/pages/list_services.php:183
 #, php-format
 msgid "Are you sure you want to stop the %s service?"
-msgstr ""
+msgstr "Ви дійсно хочете зупинити сервіс %s?"
 
 #: ../../web/templates/pages/list_services.php:183
 #, php-format
 msgid "Are you sure you want to start the %s service?"
-msgstr ""
+msgstr "Ви дійсно хочете запустити сервіс %s?"
 
 #: ../../web/templates/pages/list_services.php:205
 msgid "MB"
@@ -4462,7 +4462,7 @@ msgstr "Частково реалізований"
 #: ../../web/templates/pages/list_backup_detail.php:280
 #, php-format
 msgid "Are you sure you want to restore %s?"
-msgstr ""
+msgstr "Ви дійсно бажаєте відновити %s?"
 
 #: ../../web/templates/pages/list_backup_detail.php:149
 msgid "DNS Zone"
@@ -4719,7 +4719,7 @@ msgstr "Ви дійсно хочете призупинити правило #%s
 #: ../../web/templates/pages/list_firewall.php:152
 #, php-format
 msgid "Are you sure you want to delete rule #%s?"
-msgstr ""
+msgstr "Ви дійсно хочете видалити правило %s?"
 
 #: ../../web/templates/pages/list_firewall.php:182
 #, php-format
@@ -4798,19 +4798,19 @@ msgstr "Додати список IPset у фаєрвол"
 
 #: ../../web/templates/pages/add_firewall_ipset.php:76
 msgid "URL, script or file"
-msgstr ""
+msgstr "URL, скрипт чи файл"
 
 #: ../../web/templates/pages/list_files_incremental.php:24
 msgid "Restore Files"
-msgstr ""
+msgstr "Відновити файли"
 
 #: ../../web/templates/pages/list_files_incremental.php:46
 msgid "Files"
-msgstr ""
+msgstr "Файли"
 
 #: ../../web/templates/pages/list_files_incremental.php:119
 msgid "Date / Time"
-msgstr ""
+msgstr "Дата / час"
 
 #: ../../web/templates/footer.php:25 ../../web/templates/footer.php:61
 #: ../../web/templates/footer.php:64
@@ -4883,15 +4883,15 @@ msgstr "Перейти до наступного елементу списку"
 
 #: ../../web/templates/includes/password-requirements.php:1
 msgid "Password must include"
-msgstr ""
+msgstr "Пароль має містити"
 
 #: ../../web/templates/includes/password-requirements.php:3
 msgid "8 characters minimum"
-msgstr ""
+msgstr "Щонайменше 8 символів"
 
 #: ../../web/templates/includes/extra-ns-fields.php:8
 msgid "Remove"
-msgstr ""
+msgstr "Видалити"
 
 #: ../../web/templates/includes/js.php:10
 #: ../../web/templates/includes/panel.php:92
@@ -4921,14 +4921,14 @@ msgstr "Загальні налаштування акаунту"
 
 #: ../../web/templates/includes/email-settings-panel.php:4
 msgid "Connect to this account using credentials:"
-msgstr ""
+msgstr "Підключитися до цього акаунту з доступами:"
 
 #: ../../web/templates/includes/email-settings-panel.php:10
 #: ../../web/templates/includes/email-settings-panel.php:19
 #: ../../web/templates/includes/email-settings-panel.php:29
 #: ../../web/templates/includes/email-settings-panel.php:39
 msgid "Copy to clipboard"
-msgstr ""
+msgstr "Копіювати в буфер обміну"
 
 #: ../../web/templates/includes/email-settings-panel.php:26
 msgid "Webmail"

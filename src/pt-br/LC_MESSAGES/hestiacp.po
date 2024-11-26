@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-24 11:26+0000\n"
-"PO-Revision-Date: 2024-08-04 14:44\n"
+"PO-Revision-Date: 2024-11-26 17:17\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
@@ -5085,5 +5085,5 @@ msgstr "Proteção de força-bruta"
 
 #: ../../bin/v-list-sys-services:336
 msgid "web terminal backend"
-msgstr "web terminal de backend"
+msgstr "backend do terminal web"
 

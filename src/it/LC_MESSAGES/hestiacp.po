@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-24 11:26+0000\n"
-"PO-Revision-Date: 2024-07-24 20:19\n"
+"PO-Revision-Date: 2024-11-19 13:52\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -26,7 +26,7 @@ msgstr ""
 #: ../../web/unsuspend/mail/index.php:45 ../../web/schedule/backup/index.php:17
 #: ../../web/schedule/restore/index.php:70 ../../web/bulk/restore/index.php:78
 msgid "Error: Hestia did not return any output."
-msgstr "Errore: Hestia non ha restituito alcun risultato"
+msgstr "Errore: Hestia non ha restituito alcun risultato."
 
 #: ../../web/schedule/backup/incremental/index.php:17
 msgid "Snapshot has been sheduled"
@@ -69,7 +69,7 @@ msgstr "Cartella"
 
 #: ../../web/list/backup/incremental/index.php:14
 msgid "File"
-msgstr ""
+msgstr "File"
 
 #: ../../web/list/backup/incremental/index.php:17
 msgid "Symlink"
@@ -77,7 +77,7 @@ msgstr ""
 
 #: ../../web/list/backup/incremental/index.php:20
 msgid "Unknown"
-msgstr ""
+msgstr "Sconosciuto"
 
 #: ../../web/reset/index.php:60
 msgid "Hello {{name}},\n\n"
@@ -119,13 +119,13 @@ msgstr "Nome utente o codice non validi"
 
 #: ../../web/reset/index.php:234
 msgid "Passwords do not match"
-msgstr ""
+msgstr "Le password non corrispondono"
 
 #: ../../web/inc/main.php:180 ../../web/inc/main.php:189
 #: ../../web/generate/ssl/index.php:123
 #, php-format
 msgid "Error code: %s"
-msgstr ""
+msgstr "Codice errore: %s"
 
 #: ../../web/inc/main.php:267 ../../web/inc/main.php:278
 msgid "You are logged out, please log in again."
@@ -203,7 +203,7 @@ msgstr "Inserisci un nome di contatto valido."
 #: ../../web/edit/mail/index.php:736 ../../web/edit/mail/index.php:1166
 #: ../../web/edit/firewall/index.php:134 ../../web/edit/package/index.php:382
 msgid "Changes have been saved."
-msgstr ""
+msgstr "Le modifiche sono state salvate."
 
 #: ../../web/edit/server/crond/index.php:17
 #: ../../web/edit/server/cron/index.php:17
@@ -276,7 +276,13 @@ msgid "FTP account has been created and ready to use.\n\n"
 "Best regards,\n\n"
 "--\n"
 "{{appname}}"
-msgstr ""
+msgstr "L'account FTP è stato creato ed è pronto all'uso.\n\n"
+"Nome host: {{domain}}\n"
+"Nome utente: {{username}}\n"
+"Password: {{password}}\n\n"
+"Cordiali saluti,\n\n"
+"--\n"
+"{{appname}}"
 
 #: ../../web/edit/web/index.php:1263 ../../web/edit/web/index.php:1431
 #, php-format
@@ -428,7 +434,7 @@ msgstr "Template DNS"
 #: ../../web/templates/pages/list_packages.php:58
 #: ../../web/templates/pages/list_packages.php:173
 msgid "Shell"
-msgstr ""
+msgstr "Shell"
 
 #: ../../web/edit/package/index.php:165 ../../web/add/package/index.php:51
 #: ../../web/templates/pages/add_package.php:76
@@ -589,7 +595,7 @@ msgstr "Backup"
 #: ../../web/templates/pages/edit_package.php:64
 #: ../../web/templates/pages/list_backup.php:9
 msgid "Incremental Backups"
-msgstr ""
+msgstr "Backup incrementali"
 
 #: ../../web/edit/package/index.php:198 ../../web/add/package/index.php:81
 #: ../../web/templates/pages/add_package.php:37
@@ -636,7 +642,7 @@ msgstr ""
 
 #: ../../web/edit/package/index.php:212 ../../web/add/package/index.php:98
 msgid "Memory Limit"
-msgstr ""
+msgstr "Limite memoria"
 
 #: ../../web/edit/package/index.php:215 ../../web/add/package/index.php:101
 msgid "Swap Limit"
@@ -673,7 +679,7 @@ msgstr "Errore: impossibile copiare il pacchetto."
 #: ../../web/templates/pages/add_mail_acc.php:47
 #: ../../web/templates/includes/email-settings-panel.php:16
 msgid "Password"
-msgstr ""
+msgstr "Password"
 
 #: ../../web/add/user/index.php:32 ../../web/templates/pages/add_user.php:43
 #: ../../web/templates/pages/edit_user.php:76
@@ -681,7 +687,7 @@ msgstr ""
 #: ../../web/templates/pages/list_user.php:166
 #: ../../web/templates/pages/login/reset_1.php:18
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: ../../web/add/user/index.php:35 ../../web/templates/pages/add_user.php:39
 #: ../../web/templates/pages/edit_user.php:69
@@ -860,7 +866,7 @@ msgstr "Mese"
 #: ../../web/templates/pages/list_cron.php:184
 #: ../../web/templates/pages/edit_cron.php:58
 msgid "Day of Week"
-msgstr ""
+msgstr "Giorno della settimana"
 
 #: ../../web/add/cron/index.php:32 ../../web/templates/pages/add_cron.php:36
 #: ../../web/templates/pages/list_cron.php:25
@@ -894,7 +900,7 @@ msgstr "Interfaccia"
 #: ../../web/add/ip/index.php:32 ../../web/templates/pages/add_ip.php:62
 #: ../../web/templates/pages/edit_ip.php:55
 msgid "Assigned User"
-msgstr ""
+msgstr "Utente assegnato"
 
 #: ../../web/add/ip/index.php:93
 #, php-format

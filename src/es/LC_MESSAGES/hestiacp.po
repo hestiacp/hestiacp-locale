@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-24 11:26+0000\n"
-"PO-Revision-Date: 2024-08-04 14:44\n"
+"PO-Revision-Date: 2024-11-19 13:52\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3690,7 +3690,7 @@ msgstr "Sincronizar plantillas base"
 
 #: ../../web/templates/pages/edit_server.php:1433
 msgid "Enforce subdomain ownership"
-msgstr "Reforzar la propiedad del subdominio"
+msgstr "Garantizar la propiedad de subdominios"
 
 #: ../../web/templates/pages/edit_server.php:1457
 msgid "Plugins"

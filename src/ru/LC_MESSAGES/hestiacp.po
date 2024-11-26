@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-24 11:26+0000\n"
-"PO-Revision-Date: 2024-08-04 14:44\n"
+"PO-Revision-Date: 2024-11-19 13:52\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -30,7 +30,7 @@ msgstr "Ошибка: По неизвестной Hestia причине."
 
 #: ../../web/schedule/backup/incremental/index.php:17
 msgid "Snapshot has been sheduled"
-msgstr "Снимок был запланирован"
+msgstr "Снепшот запланирован"
 
 #: ../../web/schedule/backup/index.php:12
 msgid "Task has been added to the queue. You will receive an email notification when your backup is ready for download."
@@ -695,7 +695,7 @@ msgstr "Сервер имён 2"
 
 #: ../../web/copy/package/index.php:35
 msgid "Error: unable to copy package."
-msgstr "Ошибка: невозможно скопировать пакет"
+msgstr "Ошибка: невозможно скопировать пакет."
 
 #: ../../web/add/user/index.php:26 ../../web/add/db/index.php:23
 #: ../../web/add/mail/index.php:222 ../../web/templates/pages/add_user.php:48
@@ -1770,7 +1770,7 @@ msgid "%d snapshot"
 msgid_plural "%d snapshots"
 msgstr[0] "снимок"
 msgstr[1] "снимки"
-msgstr[2] ""
+msgstr[2] "%d снепшота"
 msgstr[3] ""
 
 #: ../../web/templates/pages/add_package.php:29
@@ -1944,52 +1944,52 @@ msgstr "Доступ по SSH"
 #: ../../web/templates/pages/edit_user.php:227
 #: ../../web/templates/pages/edit_package.php:295
 msgid "Jail User Shell"
-msgstr ""
+msgstr "Ограниченный Shell юзера"
 
 #: ../../web/templates/pages/add_package.php:294
 #: ../../web/templates/pages/edit_package.php:304
 msgid "System Resources"
-msgstr ""
+msgstr "Системные ресурсы"
 
 #: ../../web/templates/pages/add_package.php:299
 #: ../../web/templates/pages/edit_package.php:309
 msgid "CPU Quota (in %)"
-msgstr ""
+msgstr "Квота ЦП (в %)"
 
 #: ../../web/templates/pages/add_package.php:307
 #: ../../web/templates/pages/edit_package.php:317
 msgid "CPUQuota=20% ensures that the executed processes will never get more than 20% CPU time on one CPU."
-msgstr ""
+msgstr "CPUQuota=20% гарантирует, что выполненные процессы никогда не получат более 20% времени процессора на одном процессоре."
 
 #: ../../web/templates/pages/add_package.php:312
 #: ../../web/templates/pages/edit_package.php:322
 msgid "CPU Quota Period (in ms for milliseconds or s for seconds.)"
-msgstr ""
+msgstr "Период квоты процессора (в мс для миллисекунд или s для секунд.)"
 
 #: ../../web/templates/pages/add_package.php:320
 #: ../../web/templates/pages/edit_package.php:330
 msgid "CPUQuotaPeriodSec=10ms to request that the CPU quota is measured in periods of 10ms."
-msgstr ""
+msgstr "CPUQuotaPeriodSec=10ms запрашивать, чтобы квота процессора измерялась в периоды по 10 мс."
 
 #: ../../web/templates/pages/add_package.php:325
 #: ../../web/templates/pages/edit_package.php:335
 msgid "Memory Limit (in bytes or with units like '2G')"
-msgstr ""
+msgstr "Лимит памяти (в байтах или в единицах типа '2G')"
 
 #: ../../web/templates/pages/add_package.php:333
 #: ../../web/templates/pages/edit_package.php:343
 msgid "Takes a memory size in bytes. If the value is suffixed with K, M, G or T, the specified memory size is parsed as Kilobytes, Megabytes, Gigabytes, or Terabytes (with the base 1024), respectively"
-msgstr ""
+msgstr "принимает размер памяти в байтах. Если значение имеет значение K, M, G или T, то указанный размер памяти интерпретируется как Kilobytes, Мегабайты, гигабайты, или терабайты (по основанию 1024), соответственно"
 
 #: ../../web/templates/pages/add_package.php:338
 #: ../../web/templates/pages/edit_package.php:348
 msgid "Swap Limit (in bytes or with units like '2G')"
-msgstr ""
+msgstr "Лимит памяти подкачки (в байтах или в единицах типа '2G')"
 
 #: ../../web/templates/pages/add_package.php:346
 #: ../../web/templates/pages/edit_package.php:356
 msgid "Takes a swap size in bytes. If the value is suffixed with K, M, G or T, the specified swap size is parsed as Kilobytes, Megabytes, Gigabytes, or Terabytes (with the base 1024), respectively"
-msgstr ""
+msgstr "Принимает размер подкачки в байтах. Если значение имеет значение K, M, G или T, то указанный размер памяти интерпретируется как килобайты, мегабайты, гигабайты, или терабайты (по основанию 1024), соответственно"
 
 #: ../../web/templates/pages/list_log.php:28
 #: ../../web/templates/pages/list_log.php:29
@@ -2523,11 +2523,11 @@ msgstr "Имена пакетов"
 
 #: ../../web/templates/pages/list_updates.php:68
 msgid "Update available"
-msgstr ""
+msgstr "Доступно обновление"
 
 #: ../../web/templates/pages/list_updates.php:70
 msgid "Package up-to-date"
-msgstr ""
+msgstr "Пакет обновлён"
 
 #: ../../web/templates/pages/edit_dns.php:25
 #: ../../web/templates/pages/list_dns.php:159
@@ -3007,7 +3007,7 @@ msgstr "Восстановить все"
 
 #: ../../web/templates/pages/list_backup_detail_incremental.php:16
 msgid "Restore Snapshot"
-msgstr ""
+msgstr "Восстановить Снепшот"
 
 #: ../../web/templates/pages/list_backup_detail_incremental.php:39
 #: ../../web/templates/pages/list_backup_detail.php:40
@@ -3046,7 +3046,7 @@ msgstr "Домен DNS"
 
 #: ../../web/templates/pages/list_backup_detail_incremental.php:201
 msgid "Cronjob"
-msgstr ""
+msgstr "Cronjob"
 
 #: ../../web/templates/pages/list_backup_detail_incremental.php:224
 #: ../../web/templates/pages/list_backup_detail.php:294
@@ -3538,7 +3538,7 @@ msgstr "Удаленное резервное копирование"
 
 #: ../../web/templates/pages/edit_server.php:917
 msgid "Enable incremental backup"
-msgstr ""
+msgstr "Включить инкрементные бекапы"
 
 #: ../../web/templates/pages/edit_server.php:931
 msgid "Repository"
@@ -3546,19 +3546,19 @@ msgstr "Репозиторий"
 
 #: ../../web/templates/pages/edit_server.php:955
 msgid "Keep last daily backups"
-msgstr ""
+msgstr "Хранить последние ежедневные бекапы"
 
 #: ../../web/templates/pages/edit_server.php:967
 msgid "Keep last weekly backups"
-msgstr ""
+msgstr "Хранить последние еженедельные бекапы"
 
 #: ../../web/templates/pages/edit_server.php:979
 msgid "Keep last monthly backups"
-msgstr ""
+msgstr "Хранить последние ежемесячные бекапы"
 
 #: ../../web/templates/pages/edit_server.php:991
 msgid "Keep last yearly backups"
-msgstr ""
+msgstr "Хранить последние годовые бекапы"
 
 #: ../../web/templates/pages/edit_server.php:1008
 #: ../../web/templates/pages/list_web.php:86
@@ -3733,7 +3733,7 @@ msgstr "Веб-Терминал"
 
 #: ../../web/templates/pages/edit_server.php:1501
 msgid "Limit System Resources"
-msgstr ""
+msgstr "Ограничить системные ресурсы"
 
 #: ../../web/templates/pages/edit_server.php:1514
 msgid "File System Disk Quota"
@@ -4074,7 +4074,7 @@ msgstr "Загрузить сайт"
 #: ../../web/templates/pages/list_weblog.php:43
 #: ../../web/templates/pages/list_weblog.php:45
 msgid "View Logs"
-msgstr ""
+msgstr "Просмотреть логи"
 
 #: ../../web/templates/pages/list_web.php:349
 #, php-format
@@ -4124,7 +4124,7 @@ msgstr "Монитор задач"
 
 #: ../../web/templates/pages/list_services.php:26
 msgid "Are you sure you want to restart the server?"
-msgstr ""
+msgstr "Вы уверены, что хотите перезагрузить сервер?"
 
 #: ../../web/templates/pages/list_services.php:36
 #: ../../web/templates/pages/list_services.php:113
@@ -4171,17 +4171,17 @@ msgstr "Память"
 #: ../../web/templates/pages/list_services.php:171
 #, php-format
 msgid "Are you sure you want to restart the %s service?"
-msgstr ""
+msgstr "Вы уверены, что хотите перезапустить %s?"
 
 #: ../../web/templates/pages/list_services.php:183
 #, php-format
 msgid "Are you sure you want to stop the %s service?"
-msgstr ""
+msgstr "Вы уверены, что хотите остановить %s?"
 
 #: ../../web/templates/pages/list_services.php:183
 #, php-format
 msgid "Are you sure you want to start the %s service?"
-msgstr ""
+msgstr "Вы уверены, что хотите запустить %s?"
 
 #: ../../web/templates/pages/list_services.php:205
 msgid "MB"
@@ -4462,7 +4462,7 @@ msgstr "Частично реализовано"
 #: ../../web/templates/pages/list_backup_detail.php:280
 #, php-format
 msgid "Are you sure you want to restore %s?"
-msgstr ""
+msgstr "Вы уверены, что хотите восстановить %s?"
 
 #: ../../web/templates/pages/list_backup_detail.php:149
 msgid "DNS Zone"
@@ -4719,7 +4719,7 @@ msgstr "Вы уверены, что хотите приостановить де
 #: ../../web/templates/pages/list_firewall.php:152
 #, php-format
 msgid "Are you sure you want to delete rule #%s?"
-msgstr ""
+msgstr "Вы уверены, что хотите удалить правило № %s?"
 
 #: ../../web/templates/pages/list_firewall.php:182
 #, php-format
@@ -4798,11 +4798,11 @@ msgstr "Добавить IP-адреса в IPset для файрвола"
 
 #: ../../web/templates/pages/add_firewall_ipset.php:76
 msgid "URL, script or file"
-msgstr ""
+msgstr "URL, скрипт или файл"
 
 #: ../../web/templates/pages/list_files_incremental.php:24
 msgid "Restore Files"
-msgstr ""
+msgstr "Восстановить Файлы"
 
 #: ../../web/templates/pages/list_files_incremental.php:46
 msgid "Files"
@@ -4883,7 +4883,7 @@ msgstr "Переместить вниз по списку элементов"
 
 #: ../../web/templates/includes/password-requirements.php:1
 msgid "Password must include"
-msgstr ""
+msgstr "Пароль должен содержать"
 
 #: ../../web/templates/includes/password-requirements.php:3
 msgid "8 characters minimum"
@@ -4921,7 +4921,7 @@ msgstr "Общие настройки учетной записи"
 
 #: ../../web/templates/includes/email-settings-panel.php:4
 msgid "Connect to this account using credentials:"
-msgstr ""
+msgstr "Подключиться к этому аккаунту, используя учетные данные:"
 
 #: ../../web/templates/includes/email-settings-panel.php:10
 #: ../../web/templates/includes/email-settings-panel.php:19

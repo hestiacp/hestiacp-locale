@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-24 11:26+0000\n"
-"PO-Revision-Date: 2024-07-24 20:19\n"
+"PO-Revision-Date: 2024-11-19 13:52\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -30,15 +30,15 @@ msgstr "Hata: Hestia herhangi bir geri dönüş vermedi."
 
 #: ../../web/schedule/backup/incremental/index.php:17
 msgid "Snapshot has been sheduled"
-msgstr ""
+msgstr "Anlık görüntü zamanlandı"
 
 #: ../../web/schedule/backup/index.php:12
 msgid "Task has been added to the queue. You will receive an email notification when your backup is ready for download."
-msgstr "Görev sıraya eklendi. Yedeğiniz indirilmeye hazır olduğunda bir email bildirimi alacaksınız."
+msgstr "Görev sıraya eklendi. Yedeğiniz indirilmeye hazır olduğunda bir e-posta bildirimi alacaksınız."
 
 #: ../../web/schedule/backup/index.php:22
 msgid "An existing backup task is already running, please wait for it to complete."
-msgstr "Mevcut bir yedekleme görevi zaten çalışıyor, lütfen tamamlamasını bekleyin."
+msgstr "Mevcut bir yedekleme görevi zaten çalışıyor, lütfen tamamlanmasını bekleyin."
 
 #: ../../web/schedule/restore/index.php:65
 #: ../../web/bulk/restore/incremental/index.php:126
@@ -48,12 +48,12 @@ msgstr "Görev sıraya eklendi. Geri yükleme tamamlandığında bir e-posta bil
 
 #: ../../web/schedule/restore/index.php:74 ../../web/bulk/restore/index.php:82
 msgid "An existing restoration task is already running. Please wait for it to finish before launching it again."
-msgstr "Mevcut bir yedekleme görevi zaten çalışıyor. Lütfen bitmesini bekleyin."
+msgstr "Mevcut bir geri yükleme görevi zaten çalışıyor. Lütfen bitmesini bekleyin."
 
 #: ../../web/restart/service/index.php:23
 #, php-format
 msgid "Restart \"%s\" failed"
-msgstr " \"%s\" yeniden başlatılamadı!"
+msgstr "\"%s\" yeniden başlatılamadı"
 
 #: ../../web/restart/system/index.php:26 ../../web/bulk/service/index.php:40
 msgid "The system is going down for reboot NOW!"
@@ -69,15 +69,15 @@ msgstr "Dizin"
 
 #: ../../web/list/backup/incremental/index.php:14
 msgid "File"
-msgstr ""
+msgstr "Dosya"
 
 #: ../../web/list/backup/incremental/index.php:17
 msgid "Symlink"
-msgstr ""
+msgstr "Sembolik Bağlantı"
 
 #: ../../web/list/backup/incremental/index.php:20
 msgid "Unknown"
-msgstr ""
+msgstr "Bilinmeyen"
 
 #: ../../web/reset/index.php:60
 msgid "Hello {{name}},\n\n"
@@ -94,7 +94,7 @@ msgstr "Merhaba {{name}},\n\n"
 "https://{{hostname}}/reset/?action=confirm&user={{user}}&code={{resetcode}}\n\n"
 "Alternatif olarak, https://{{hostname}}/reset/?action=code&user={{user}} adresine gidebilir ve aşağıdaki sıfırlama kodunu girebilirsiniz:\n"
 "{{resetcode}}\n\n"
-"Şifre sıfırlama talebiniz olmadıysa, lütfen bu mesajı dikkate almayın ve özürlerimizi kabul edin.\n\n"
+"Parola sıfırlama talebiniz olmadıysa, lütfen bu mesajı dikkate almayın ve özürlerimizi kabul edin.\n\n"
 "Saygılarımla,\n\n"
 "--\n"
 "{{appname}}"
@@ -102,7 +102,7 @@ msgstr "Merhaba {{name}},\n\n"
 #: ../../web/reset/index.php:84
 #, php-format
 msgid "Password Reset at %s"
-msgstr "%s Şifreyi Sıfırla"
+msgstr "%s Parolayı Sıfırla"
 
 #: ../../web/reset/index.php:137 ../../web/reset/index.php:141
 #: ../../web/reset/index.php:146 ../../web/reset/index.php:155
@@ -115,7 +115,7 @@ msgstr "Yeni bir istek göndermeden önce lütfen 15 dakika bekleyin."
 
 #: ../../web/reset/index.php:187
 msgid "An internal error occurred"
-msgstr "Dahili bir hata oluştu"
+msgstr "Bir iç hata oluştu"
 
 #: ../../web/reset/index.php:195
 msgid "Code has been expired"
@@ -169,7 +169,7 @@ msgstr "Parola minimum gereksinimleri karşılamıyor."
 #: ../../web/edit/user/index.php:380 ../../web/edit/package/index.php:235
 #: ../../web/add/package/index.php:120
 msgid "Cannot combine nologin and rssh shell with jailed shell."
-msgstr ""
+msgstr "Nologin ve Rssh shell jailed shell ile birleştirilemez."
 
 #: ../../web/edit/user/index.php:432 ../../web/edit/web/index.php:1173
 #: ../../web/edit/mail/index.php:748 ../../web/add/user/index.php:50
@@ -220,7 +220,7 @@ msgstr "Bilgi (salt okunur mod): Crontab yalnızca SSH aracılığıyla düzenle
 
 #: ../../web/edit/server/index.php:1279
 msgid "Repository can not be empty"
-msgstr ""
+msgstr "Depo boş olamaz"
 
 #: ../../web/edit/server/index.php:1381
 msgid "Inactive session timeout can not lower than 1 minute."
@@ -350,7 +350,7 @@ msgstr "Mail hesabı oluşturuldu.\n\n"
 #: ../../web/edit/mail/index.php:1135 ../../web/add/mail/index.php:475
 #, php-format
 msgid "Email Credentials: %s@%s"
-msgstr "Email Kimlik Bilgileri: %s@%s"
+msgstr "E-posta Kimlik Bilgileri: %s@%s"
 
 #: ../../web/edit/firewall/index.php:70 ../../web/add/firewall/index.php:42
 #: ../../web/templates/pages/add_firewall.php:28
@@ -567,7 +567,7 @@ msgstr "Posta Hesapları"
 #: ../../web/templates/pages/edit_package.php:241
 #: ../../web/templates/pages/add_mail_acc.php:106
 msgid "Rate Limit"
-msgstr "Rate Limit"
+msgstr "Hız Limiti"
 
 #: ../../web/edit/package/index.php:186 ../../web/add/package/index.php:69
 #: ../../web/templates/pages/add_package.php:244
@@ -626,7 +626,7 @@ msgstr "Yedekler"
 #: ../../web/templates/pages/edit_package.php:64
 #: ../../web/templates/pages/list_backup.php:9
 msgid "Incremental Backups"
-msgstr ""
+msgstr "Artımlı Yedeklemeler"
 
 #: ../../web/edit/package/index.php:198 ../../web/add/package/index.php:81
 #: ../../web/templates/pages/add_package.php:37
@@ -665,27 +665,27 @@ msgstr "Trafik"
 
 #: ../../web/edit/package/index.php:206 ../../web/add/package/index.php:92
 msgid "CPU quota"
-msgstr ""
+msgstr "CPU Kotası"
 
 #: ../../web/edit/package/index.php:209 ../../web/add/package/index.php:95
 msgid "CPU quota period"
-msgstr ""
+msgstr "CPU kota süresi"
 
 #: ../../web/edit/package/index.php:212 ../../web/add/package/index.php:98
 msgid "Memory Limit"
-msgstr ""
+msgstr "Bellek Sınırı"
 
 #: ../../web/edit/package/index.php:215 ../../web/add/package/index.php:101
 msgid "Swap Limit"
-msgstr ""
+msgstr "Swap Limiti"
 
 #: ../../web/edit/package/index.php:222 ../../web/add/package/index.php:108
 msgid "Nameserver 1"
-msgstr "Nameserver 1"
+msgstr "Ad Sunucu 1"
 
 #: ../../web/edit/package/index.php:225 ../../web/add/package/index.php:111
 msgid "Nameserver 2"
-msgstr "Nameserver 2"
+msgstr "Ad Sunucu 2"
 
 #: ../../web/copy/package/index.php:35
 msgid "Error: unable to copy package."
@@ -710,7 +710,7 @@ msgstr "Hata: paket kopyalanamıyor."
 #: ../../web/templates/pages/add_mail_acc.php:47
 #: ../../web/templates/includes/email-settings-panel.php:16
 msgid "Password"
-msgstr "Şifre"
+msgstr "Parola"
 
 #: ../../web/add/user/index.php:32 ../../web/templates/pages/add_user.php:43
 #: ../../web/templates/pages/edit_user.php:76
@@ -917,7 +917,7 @@ msgstr "Komut"
 
 #: ../../web/add/cron/index.php:80
 msgid "Cron job has been created successfully."
-msgstr "Cron işi başarıyla oluşturuldu."
+msgstr "Cron görevi başarıyla oluşturuldu."
 
 #: ../../web/add/ip/index.php:26 ../../web/templates/pages/list_ip.php:28
 #: ../../web/templates/pages/list_ip.php:68
@@ -938,7 +938,7 @@ msgstr "Arayüz"
 #: ../../web/add/ip/index.php:32 ../../web/templates/pages/add_ip.php:62
 #: ../../web/templates/pages/edit_ip.php:55
 msgid "Assigned User"
-msgstr "Tanımlanmış Kullanıcı"
+msgstr "Atanmış Kullanıcı"
 
 #: ../../web/add/ip/index.php:93
 #, php-format
@@ -1042,7 +1042,7 @@ msgstr "SSH Anahtarı"
 
 #: ../../web/add/key/index.php:57 ../../web/add/key/index.php:60
 msgid "SSH Key already exists."
-msgstr "SSH anahtarı zaten var."
+msgstr "SSH Anahtarı zaten var."
 
 #: ../../web/add/key/index.php:73
 msgid "SSH Key has been created successfully."
@@ -1169,11 +1169,11 @@ msgstr "Sertifika başarıyla oluşturuldu."
 
 #: ../../web/bulk/cron/index.php:36 ../../web/bulk/cron/index.php:61
 msgid "Cron job email reporting has been successfully disabled."
-msgstr "Cron görevi email raporlaması başarıyla devre dışı bırakıldı."
+msgstr "Cron görevi e-posta raporlaması başarıyla devre dışı bırakıldı."
 
 #: ../../web/bulk/cron/index.php:44 ../../web/bulk/cron/index.php:69
 msgid "Cron job email reporting has been successfully enabled."
-msgstr "Cron görevi email raporlaması başarıyla etkinleştirildi."
+msgstr "Cron görevi e-posta raporlaması başarıyla etkinleştirildi."
 
 #: ../../web/update/hestia/index.php:20
 #, php-format
@@ -1191,7 +1191,7 @@ msgstr "Desteklenmeyen hash yöntemi"
 #: ../../web/login/index.php:142 ../../web/login/index.php:199
 #: ../../web/login/index.php:222 ../../web/login/index.php:246
 msgid "Invalid username or password"
-msgstr "Geçersiz kullanıcı adı veya şifre"
+msgstr "Geçersiz kullanıcı adı veya parola"
 
 #: ../../web/login/index.php:281
 msgid "Invalid or missing 2FA token"
@@ -1200,7 +1200,7 @@ msgstr "Geçersiz veya eksik 2FA token"
 #: ../../web/start/service/index.php:23
 #, php-format
 msgid "Start \"%s\" failed"
-msgstr "\"%s\" başlatılamadı!"
+msgstr "\"%s\" başlatılamadı"
 
 #: ../../web/templates/pages/add_user.php:6
 #: ../../web/templates/pages/add_dns.php:6
@@ -1398,7 +1398,7 @@ msgstr "DNS Sync Kullanıcısı"
 #: ../../web/templates/pages/add_db.php:94
 #: ../../web/templates/pages/add_mail_acc.php:113
 msgid "Email login credentials to:"
-msgstr "Giriş kimlik bilgilerini email ile gönderin:"
+msgstr "Giriş kimlik bilgilerini e-posta ile gönder:"
 
 #: ../../web/templates/pages/add_dns.php:34
 msgid "Add DNS Zone"
@@ -1492,7 +1492,7 @@ msgstr "Name Server ekle"
 
 #: ../../web/templates/pages/list_backup_incremental.php:7
 msgid "Create Snapshot"
-msgstr ""
+msgstr "Anlık Görüntü Oluştur"
 
 #: ../../web/templates/pages/list_backup_incremental.php:16
 #: ../../web/templates/pages/list_backup_incremental.php:19
@@ -1540,7 +1540,7 @@ msgstr "Seçilenlere uygula"
 
 #: ../../web/templates/pages/list_backup_incremental.php:17
 msgid "Delete Snapshot"
-msgstr ""
+msgstr "Anlık Görüntü Sil"
 
 #: ../../web/templates/pages/list_backup_incremental.php:27
 #: ../../web/templates/pages/list_backup_incremental.php:28
@@ -1582,7 +1582,7 @@ msgstr "Ara"
 #: ../../web/templates/pages/list_backup_incremental.php:40
 #: ../../web/templates/pages/edit_server.php:943
 msgid "Snapshots"
-msgstr ""
+msgstr "Anlık Görüntüler"
 
 #: ../../web/templates/pages/list_backup_incremental.php:45
 #: ../../web/templates/pages/list_firewall_banlist.php:35
@@ -1611,7 +1611,7 @@ msgstr "Tümünü seç"
 #: ../../web/templates/pages/list_backup_incremental.php:68
 #: ../../web/templates/pages/list_backup_incremental.php:71
 msgid "Snapshot"
-msgstr ""
+msgstr "Anlık Görüntü"
 
 #: ../../web/templates/pages/list_backup_incremental.php:49
 #: ../../web/templates/pages/list_backup_incremental.php:89
@@ -1752,18 +1752,18 @@ msgstr "Seç"
 #: ../../web/templates/pages/list_backup.php:111
 #: ../../web/templates/pages/list_files_incremental.php:108
 msgid "Restore"
-msgstr "Onar"
+msgstr "Geri Yükle"
 
 #: ../../web/templates/pages/list_backup_incremental.php:80
 msgid "Browse"
-msgstr ""
+msgstr "Gözat"
 
 #: ../../web/templates/pages/list_backup_incremental.php:115
 #, php-format
 msgid "%d snapshot"
 msgid_plural "%d snapshots"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d anlık görüntü"
+msgstr[1] "%d anlık görüntü"
 
 #: ../../web/templates/pages/add_package.php:29
 #: ../../web/templates/pages/list_packages.php:9
@@ -1846,7 +1846,7 @@ msgstr "Sınırsız"
 #: ../../web/templates/pages/list_mail.php:150
 #: ../../web/templates/pages/list_mail.php:157
 msgid "Disabled"
-msgstr "Kapalı"
+msgstr "Devre Dışı"
 
 #: ../../web/templates/pages/add_package.php:67
 #: ../../web/templates/pages/list_dns.php:104
@@ -1916,7 +1916,7 @@ msgstr "hesap başına / saat"
 #: ../../web/templates/pages/edit_package.php:249
 #: ../../web/templates/includes/panel.php:366
 msgid "DB"
-msgstr "DB"
+msgstr "VERİTABANI"
 
 #: ../../web/templates/pages/add_package.php:256
 #: ../../web/templates/pages/edit_server.php:1085
@@ -1936,52 +1936,52 @@ msgstr "SSH Erişimi"
 #: ../../web/templates/pages/edit_user.php:227
 #: ../../web/templates/pages/edit_package.php:295
 msgid "Jail User Shell"
-msgstr ""
+msgstr "Jail User Shell"
 
 #: ../../web/templates/pages/add_package.php:294
 #: ../../web/templates/pages/edit_package.php:304
 msgid "System Resources"
-msgstr ""
+msgstr "Sistem Kaynakları"
 
 #: ../../web/templates/pages/add_package.php:299
 #: ../../web/templates/pages/edit_package.php:309
 msgid "CPU Quota (in %)"
-msgstr ""
+msgstr "Cpu Kotası (% olarak)"
 
 #: ../../web/templates/pages/add_package.php:307
 #: ../../web/templates/pages/edit_package.php:317
 msgid "CPUQuota=20% ensures that the executed processes will never get more than 20% CPU time on one CPU."
-msgstr ""
+msgstr "CPUQuota=20%, yürütülen işlemlerin bir CPU üzerinde %20'den fazla CPU zamanı almamasını sağlar."
 
 #: ../../web/templates/pages/add_package.php:312
 #: ../../web/templates/pages/edit_package.php:322
 msgid "CPU Quota Period (in ms for milliseconds or s for seconds.)"
-msgstr ""
+msgstr "CPU Kota Süresi (ms cinsinden milisaniye veya s cinsinden saniye)"
 
 #: ../../web/templates/pages/add_package.php:320
 #: ../../web/templates/pages/edit_package.php:330
 msgid "CPUQuotaPeriodSec=10ms to request that the CPU quota is measured in periods of 10ms."
-msgstr ""
+msgstr "CPUQuotaPeriodSec=10ms, CPU kotasının 10ms periyotlarla ölçülmesini talep eder."
 
 #: ../../web/templates/pages/add_package.php:325
 #: ../../web/templates/pages/edit_package.php:335
 msgid "Memory Limit (in bytes or with units like '2G')"
-msgstr ""
+msgstr "Bellek Limiti (bayt cinsinden veya '2G' gibi birimlerle)"
 
 #: ../../web/templates/pages/add_package.php:333
 #: ../../web/templates/pages/edit_package.php:343
 msgid "Takes a memory size in bytes. If the value is suffixed with K, M, G or T, the specified memory size is parsed as Kilobytes, Megabytes, Gigabytes, or Terabytes (with the base 1024), respectively"
-msgstr ""
+msgstr "Bellek boyutunu bayt cinsinden alır. Değerin sonuna K, M, G veya T eklenirse, belirtilen bellek boyutu sırasıyla Kilobayt, Megabayt, Gigabayt veya Terabayt olarak (1024 tabanıyla) değerlendirilir"
 
 #: ../../web/templates/pages/add_package.php:338
 #: ../../web/templates/pages/edit_package.php:348
 msgid "Swap Limit (in bytes or with units like '2G')"
-msgstr ""
+msgstr "Swap Limiti (bayt cinsinden veya '2G' gibi birimlerle)"
 
 #: ../../web/templates/pages/add_package.php:346
 #: ../../web/templates/pages/edit_package.php:356
 msgid "Takes a swap size in bytes. If the value is suffixed with K, M, G or T, the specified swap size is parsed as Kilobytes, Megabytes, Gigabytes, or Terabytes (with the base 1024), respectively"
-msgstr ""
+msgstr "Swap boyutunu bayt cinsinden alır. Değerin sonuna K, M, G veya T eklenirse, belirtilen swap boyutu sırasıyla Kilobayt, Megabayt, Gigabayt veya Terabayt olarak (1024 tabanıyla) değerlendirilir"
 
 #: ../../web/templates/pages/list_log.php:28
 #: ../../web/templates/pages/list_log.php:29
@@ -2077,7 +2077,7 @@ msgstr "Sil"
 #: ../../web/templates/pages/list_log.php:59
 #: ../../web/templates/pages/list_log_auth.php:29
 msgid "Are you sure you want to delete the logs?"
-msgstr "Logları silmek istediğinize emin misiniz?"
+msgstr "Günlükleri silmek istediğinize emin misiniz?"
 
 #: ../../web/templates/pages/list_log.php:72
 #: ../../web/templates/pages/edit_user.php:23
@@ -2086,7 +2086,7 @@ msgstr "Logları silmek istediğinize emin misiniz?"
 #: ../../web/templates/includes/panel.php:208
 #: ../../web/templates/includes/panel.php:210
 msgid "Logs"
-msgstr "Loglar"
+msgstr "Günlükler"
 
 #: ../../web/templates/pages/list_log.php:78
 #: ../../web/templates/pages/list_log.php:112
@@ -2131,7 +2131,7 @@ msgstr "Hata"
 #, php-format
 msgid "%d log record"
 msgid_plural "%d log records"
-msgstr[0] "%d log kaydı"
+msgstr[0] "%d günlük kaydı"
 msgstr[1] "%d log kaydı"
 
 #: ../../web/templates/pages/edit_backup_exclusions.php:25
@@ -2163,7 +2163,7 @@ msgstr "Her satıra bir tane gelecek şekilde dizin adını yazın. Tüm dizinle
 
 #: ../../web/templates/pages/list_firewall_banlist.php:9
 msgid "Ban IP Address"
-msgstr "IP adresini banla"
+msgstr "IP Adresini Banla"
 
 #: ../../web/templates/pages/list_firewall_banlist.php:30
 #: ../../web/templates/pages/list_firewall.php:13
@@ -2189,7 +2189,7 @@ msgstr "Şu anda banlanmış IP adresi yok."
 #, php-format
 msgid "%d banned IP address"
 msgid_plural "%d banned IP addresses"
-msgstr[0] "%d banlanmış Ip adresi"
+msgstr[0] "%d banlanmış IP adresi"
 msgstr[1] "%d banlanmış Ip adresi"
 
 #: ../../web/templates/pages/edit_server_nginx.php:9
@@ -2241,7 +2241,7 @@ msgstr "NGINX Önbelleğini Temizle"
 #: ../../web/templates/pages/edit_web.php:15
 #: ../../web/templates/pages/list_webapps.php:16
 msgid "Quick Install App"
-msgstr "Hızlı Kurulum App"
+msgstr "Hızlı Kurulum Uygulamalar"
 
 #: ../../web/templates/pages/edit_web.php:49
 msgid "Edit Web Domain"
@@ -2511,11 +2511,11 @@ msgstr "Paket İsimleri"
 
 #: ../../web/templates/pages/list_updates.php:68
 msgid "Update available"
-msgstr ""
+msgstr "Güncelleme mevcut"
 
 #: ../../web/templates/pages/list_updates.php:70
 msgid "Package up-to-date"
-msgstr ""
+msgstr "Paket güncel"
 
 #: ../../web/templates/pages/edit_dns.php:25
 #: ../../web/templates/pages/list_dns.php:159
@@ -2729,7 +2729,7 @@ msgstr "IP Adresleri"
 #: ../../web/templates/pages/list_user.php:85
 #: ../../web/templates/pages/list_user.php:240
 msgid "IPs"
-msgstr "IPs"
+msgstr "IP'ler"
 
 #: ../../web/templates/pages/list_stats.php:94
 #: ../../web/templates/pages/list_server_info.php:57
@@ -2751,7 +2751,7 @@ msgstr "IPs"
 #: ../../web/templates/pages/list_mail.php:307
 #: ../../web/templates/includes/panel.php:35
 msgid "Disk"
-msgstr "DİSK"
+msgstr "Disk"
 
 #: ../../web/templates/pages/list_stats.php:106
 #: ../../web/templates/pages/list_server_info.php:70
@@ -2914,7 +2914,7 @@ msgstr "BELLEK"
 #: ../../web/templates/pages/list_server_info.php:63
 #: ../../web/templates/pages/edit_server.php:9
 msgid "Network"
-msgstr "AĞ"
+msgstr "Ağ"
 
 #: ../../web/templates/pages/list_server_info.php:105
 #: ../../web/templates/pages/list_server_info.php:107
@@ -2989,7 +2989,7 @@ msgstr "Tümünü Restore Et"
 
 #: ../../web/templates/pages/list_backup_detail_incremental.php:16
 msgid "Restore Snapshot"
-msgstr ""
+msgstr "Anlık Görüntüyü Geri Yükle"
 
 #: ../../web/templates/pages/list_backup_detail_incremental.php:39
 #: ../../web/templates/pages/list_backup_detail.php:40
@@ -3024,11 +3024,11 @@ msgstr "Mail Domaini"
 
 #: ../../web/templates/pages/list_backup_detail_incremental.php:133
 msgid "DNS Domain"
-msgstr ""
+msgstr "Dns Alan Adı"
 
 #: ../../web/templates/pages/list_backup_detail_incremental.php:201
 msgid "Cronjob"
-msgstr ""
+msgstr "Cronjob"
 
 #: ../../web/templates/pages/list_backup_detail_incremental.php:224
 #: ../../web/templates/pages/list_backup_detail.php:294
@@ -3313,7 +3313,7 @@ msgstr "Bir güncelleme yüklendiğinde e-posta bildirimi gönder"
 
 #: ../../web/templates/pages/edit_server.php:206
 msgid "Send update installation log by email"
-msgstr "Güncelleme yükleme günlüğünü email ile gönderin"
+msgstr "Güncelleme yükleme günlüğünü e-posta ile gönderin"
 
 #: ../../web/templates/pages/edit_server.php:215
 #: ../../web/templates/pages/edit_server.php:231
@@ -3512,27 +3512,27 @@ msgstr "Uzak Yedekleme"
 
 #: ../../web/templates/pages/edit_server.php:917
 msgid "Enable incremental backup"
-msgstr ""
+msgstr "Artımlı yedeklemeyi etkinleştir"
 
 #: ../../web/templates/pages/edit_server.php:931
 msgid "Repository"
-msgstr ""
+msgstr "Repository"
 
 #: ../../web/templates/pages/edit_server.php:955
 msgid "Keep last daily backups"
-msgstr ""
+msgstr "Son günlük yedekleri sakla"
 
 #: ../../web/templates/pages/edit_server.php:967
 msgid "Keep last weekly backups"
-msgstr ""
+msgstr "Son haftalık yedenleri sakla"
 
 #: ../../web/templates/pages/edit_server.php:979
 msgid "Keep last monthly backups"
-msgstr ""
+msgstr "Son aylık yedekleri sakla"
 
 #: ../../web/templates/pages/edit_server.php:991
 msgid "Keep last yearly backups"
-msgstr ""
+msgstr "Son yıllık yedekleri sakla"
 
 #: ../../web/templates/pages/edit_server.php:1008
 #: ../../web/templates/pages/list_web.php:86
@@ -3593,7 +3593,7 @@ msgstr "Eski Stil"
 
 #: ../../web/templates/pages/edit_server.php:1151
 msgid "Allow users to reset their passwords"
-msgstr "Kullanıcıların şifrelerini sıfırlamasına izin ver"
+msgstr "Kullanıcıların parolalarını sıfırlamasına izin ver"
 
 #: ../../web/templates/pages/edit_server.php:1171
 msgid "Inactive session timeout"
@@ -3707,7 +3707,7 @@ msgstr "Web Terminali"
 
 #: ../../web/templates/pages/edit_server.php:1501
 msgid "Limit System Resources"
-msgstr ""
+msgstr "Sistem Kaynaklarını Sınırla"
 
 #: ../../web/templates/pages/edit_server.php:1514
 msgid "File System Disk Quota"
@@ -3756,7 +3756,7 @@ msgstr "Cron Görevi Ekle"
 #: ../../web/templates/pages/add_cron.php:28
 #: ../../web/templates/pages/edit_cron.php:28
 msgid "System time"
-msgstr ""
+msgstr "Sistem zamanı"
 
 #: ../../web/templates/pages/add_cron.php:66
 #: ../../web/templates/pages/edit_cron.php:66
@@ -4012,7 +4012,7 @@ msgstr[1] "%d cron görevi"
 
 #: ../../web/templates/pages/list_web.php:48
 msgid "Purge Nginx Cache"
-msgstr "NGINX Önbelleğini Temizle"
+msgstr "Nginx Önbelleğini Temizle"
 
 #: ../../web/templates/pages/list_web.php:87
 #: ../../web/templates/pages/list_web.php:234
@@ -4044,7 +4044,7 @@ msgstr "Site İndir"
 #: ../../web/templates/pages/list_weblog.php:43
 #: ../../web/templates/pages/list_weblog.php:45
 msgid "View Logs"
-msgstr ""
+msgstr "Günlükleri Görüntüle"
 
 #: ../../web/templates/pages/list_web.php:349
 #, php-format
@@ -4056,15 +4056,15 @@ msgstr[1] "%d web alan adları"
 #: ../../web/templates/pages/edit_mail.php:44
 #: ../../web/templates/pages/add_mail.php:55
 msgid "Webmail Client"
-msgstr " Webmail İstemcisi"
+msgstr "Webmail İstemcisi"
 
 #: ../../web/templates/pages/edit_mail.php:59
 msgid "Catch-All Email"
-msgstr "Ana Email"
+msgstr "Tümünü Yakalama E-Postası"
 
 #: ../../web/templates/pages/edit_mail.php:64
 msgid "email / hour / account"
-msgstr "email / saat / hesap"
+msgstr "e-posta / saat / hesap"
 
 #: ../../web/templates/pages/edit_mail.php:78
 #: ../../web/templates/pages/add_mail.php:79
@@ -4092,7 +4092,7 @@ msgstr "Görev İzleyicisi"
 
 #: ../../web/templates/pages/list_services.php:26
 msgid "Are you sure you want to restart the server?"
-msgstr ""
+msgstr "Sunucuyu yeniden başlatmak istediğinize emin misiniz?"
 
 #: ../../web/templates/pages/list_services.php:36
 #: ../../web/templates/pages/list_services.php:113
@@ -4124,7 +4124,7 @@ msgstr "Çalışma süresi"
 
 #: ../../web/templates/pages/list_services.php:91
 msgid "Services"
-msgstr "Hizmetler"
+msgstr "Servisler"
 
 #: ../../web/templates/pages/list_services.php:98
 #: ../../web/templates/pages/list_services.php:147
@@ -4139,17 +4139,17 @@ msgstr "Bellek"
 #: ../../web/templates/pages/list_services.php:171
 #, php-format
 msgid "Are you sure you want to restart the %s service?"
-msgstr ""
+msgstr "%s servisini yeniden başlatmak istediğinize emin misiniz?"
 
 #: ../../web/templates/pages/list_services.php:183
 #, php-format
 msgid "Are you sure you want to stop the %s service?"
-msgstr ""
+msgstr "%s servisini durdurmak istediğinize emin misiniz?"
 
 #: ../../web/templates/pages/list_services.php:183
 #, php-format
 msgid "Are you sure you want to start the %s service?"
-msgstr ""
+msgstr "%s servisini başlatmak istediğinize emin misiniz?"
 
 #: ../../web/templates/pages/list_services.php:205
 msgid "MB"
@@ -4228,7 +4228,7 @@ msgstr[1] "%d SSH anahtarı"
 #: ../../web/templates/pages/edit_mail_acc.php:57
 #: ../../web/templates/pages/add_mail_acc.php:59
 msgid "Your password must have at least"
-msgstr "Şifreniz aşağıdakileri karşılamalıdır:"
+msgstr "Parolanız aşağıdakileri karşılamalıdır"
 
 #: ../../web/templates/pages/edit_mail_acc.php:59
 #: ../../web/templates/pages/add_mail_acc.php:61
@@ -4274,7 +4274,7 @@ msgstr "bir veya daha fazla e-posta adresi"
 #: ../../web/templates/pages/edit_mail_acc.php:118
 #: ../../web/templates/pages/add_mail_acc.php:106
 msgid "email / hour"
-msgstr "email / saat"
+msgstr "e-posta / saat"
 
 #: ../../web/templates/pages/add_db.php:39
 msgid "a database"
@@ -4422,7 +4422,7 @@ msgstr "Kısmen uygulanmış"
 #: ../../web/templates/pages/list_backup_detail.php:280
 #, php-format
 msgid "Are you sure you want to restore %s?"
-msgstr ""
+msgstr "%s geri yüklemek istediğinize emin misiniz?"
 
 #: ../../web/templates/pages/list_backup_detail.php:149
 msgid "DNS Zone"
@@ -4440,7 +4440,7 @@ msgstr "Görevler"
 #: ../../web/templates/pages/login/login_a.php:22
 #: ../../web/templates/pages/login/login_1.php:15
 msgid "Forgot Password"
-msgstr " Şifremi Unuttum"
+msgstr "Parolamı Unuttum"
 
 #: ../../web/templates/pages/login/reset_1.php:23
 #: ../../web/templates/pages/login/reset2fa.php:36
@@ -4449,7 +4449,7 @@ msgstr "Gönder"
 
 #: ../../web/templates/pages/login/reset_2.php:13
 msgid "Password reset code has been sent to your email address"
-msgstr "Parola sıfırlama kodu email adresinize gönderildi"
+msgstr "Parola sıfırlama kodu e-posta adresinize gönderildi"
 
 #: ../../web/templates/pages/login/reset_2.php:19
 msgid "Reset Code"
@@ -4481,11 +4481,11 @@ msgstr "2FA Sıfırlama Kodu"
 
 #: ../../web/templates/pages/login/reset_3.php:17
 msgid "New Password"
-msgstr "Yeni Şifre"
+msgstr "Yeni Parola"
 
 #: ../../web/templates/pages/login/reset_3.php:21
 msgid "Confirm Password"
-msgstr "Şifreyi Onayla"
+msgstr "Parolayı Onayla"
 
 #: ../../web/templates/pages/login/reset_3.php:26
 msgid "Reset"
@@ -4558,11 +4558,11 @@ msgstr "Gönderen Adı"
 
 #: ../../web/templates/pages/edit_whitelabel.php:82
 msgid "Sender Email Address"
-msgstr "Gönderen Email Adresi"
+msgstr "Gönderen E-posta Adresi"
 
 #: ../../web/templates/pages/edit_whitelabel.php:94
 msgid "Email Subject"
-msgstr "Email konu"
+msgstr "E-posta konu"
 
 #: ../../web/templates/pages/edit_whitelabel.php:106
 msgid "Hide link to Documentation"
@@ -4654,7 +4654,7 @@ msgstr "Güvenlik Duvarı Kuralını Düzenle"
 
 #: ../../web/templates/pages/add_mail_acc.php:88
 msgid "One or more email addresses"
-msgstr "Bir veya daha fazla email adresi"
+msgstr "Bir veya daha fazla e-posta adresi"
 
 #: ../../web/templates/pages/list_firewall.php:9
 msgid "Add Rule"
@@ -4677,7 +4677,7 @@ msgstr "#%s kuralının askıya alınmasını istediğinizden emin misiniz?"
 #: ../../web/templates/pages/list_firewall.php:152
 #, php-format
 msgid "Are you sure you want to delete rule #%s?"
-msgstr ""
+msgstr "%s kuralını silmek istediğinize emin misiniz?"
 
 #: ../../web/templates/pages/list_firewall.php:182
 #, php-format
@@ -4742,7 +4742,7 @@ msgstr[1] "%d yedek"
 
 #: ../../web/templates/pages/add_firewall_ipset.php:61
 msgid "Block Malicious IPs"
-msgstr "Kötü niyetli IP'leri engelleyin"
+msgstr "Kötü Niyetli IP'leri Engelle"
 
 #: ../../web/templates/pages/add_firewall_ipset.php:68
 msgid "Add IPset IP List for Firewall"
@@ -4750,19 +4750,19 @@ msgstr "Güvenlik duvarı için IPset IP listesi ekleyin"
 
 #: ../../web/templates/pages/add_firewall_ipset.php:76
 msgid "URL, script or file"
-msgstr ""
+msgstr "URL, komut dosyası veya dosya"
 
 #: ../../web/templates/pages/list_files_incremental.php:24
 msgid "Restore Files"
-msgstr ""
+msgstr "Dosyaları Geri Yükle"
 
 #: ../../web/templates/pages/list_files_incremental.php:46
 msgid "Files"
-msgstr ""
+msgstr "Dosyalar"
 
 #: ../../web/templates/pages/list_files_incremental.php:119
 msgid "Date / Time"
-msgstr ""
+msgstr "Tarih / Saat"
 
 #: ../../web/templates/footer.php:25 ../../web/templates/footer.php:61
 #: ../../web/templates/footer.php:64
@@ -4775,11 +4775,11 @@ msgstr "Yeni nesne ekle"
 
 #: ../../web/templates/footer.php:36
 msgid "Save form"
-msgstr "Biçimi kaydet"
+msgstr "Formu kaydet"
 
 #: ../../web/templates/footer.php:37
 msgid "Unsave form"
-msgstr "Biçimi kaydetme"
+msgstr "Formu kaydetme"
 
 #: ../../web/templates/footer.php:38
 msgid "Go to WEB list"
@@ -4835,15 +4835,15 @@ msgstr "Öğe listesinde aşağı doğru git"
 
 #: ../../web/templates/includes/password-requirements.php:1
 msgid "Password must include"
-msgstr ""
+msgstr "Parola içermelidir"
 
 #: ../../web/templates/includes/password-requirements.php:3
 msgid "8 characters minimum"
-msgstr ""
+msgstr "En az 8 karakter"
 
 #: ../../web/templates/includes/extra-ns-fields.php:8
 msgid "Remove"
-msgstr ""
+msgstr "Kaldır"
 
 #: ../../web/templates/includes/js.php:10
 #: ../../web/templates/includes/panel.php:92
@@ -4873,14 +4873,14 @@ msgstr "Ortak Hesap Ayarları"
 
 #: ../../web/templates/includes/email-settings-panel.php:4
 msgid "Connect to this account using credentials:"
-msgstr ""
+msgstr "Bu hesaba kimlik bilgilerini kullanarak bağlanın:"
 
 #: ../../web/templates/includes/email-settings-panel.php:10
 #: ../../web/templates/includes/email-settings-panel.php:19
 #: ../../web/templates/includes/email-settings-panel.php:29
 #: ../../web/templates/includes/email-settings-panel.php:39
 msgid "Copy to clipboard"
-msgstr ""
+msgstr "Panoya kopyala"
 
 #: ../../web/templates/includes/email-settings-panel.php:26
 msgid "Webmail"
@@ -4900,7 +4900,7 @@ msgstr "Kimlik doğrulama"
 #: ../../web/templates/includes/email-settings-panel.php:67
 #: ../../web/templates/includes/email-settings-panel.php:86
 msgid "Normal password"
-msgstr "Normal şifre"
+msgstr "Normal parola"
 
 #: ../../web/templates/includes/email-settings-panel.php:59
 #: ../../web/templates/includes/email-settings-panel.php:78
@@ -5053,11 +5053,11 @@ msgstr "imap/pop3 sunucu"
 
 #: ../../bin/v-list-sys-services:226
 msgid "email anti-virus"
-msgstr "email anti-virüs"
+msgstr "e-posta anti-virüs"
 
 #: ../../bin/v-list-sys-services:234
 msgid "email spam filter"
-msgstr "email spam filtresi"
+msgstr "e-posta spam filtresi"
 
 #: ../../bin/v-list-sys-services:281
 msgid "database server"
