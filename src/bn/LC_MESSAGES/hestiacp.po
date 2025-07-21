@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-08 13:33+0000\n"
-"PO-Revision-Date: 2025-02-08 13:36\n"
+"PO-Revision-Date: 2025-07-21 07:59\n"
 "Last-Translator: \n"
 "Language-Team: Bengali\n"
 "Language: bn_BD\n"
@@ -192,7 +192,7 @@ msgstr "স্থগিত"
 
 #: ../../web/templates/includes/panel.php:291
 msgid "USER"
-msgstr ""
+msgstr "ব্যবহারকারী"
 
 #: ../../web/templates/includes/panel.php:308
 #: ../../web/templates/includes/panel.php:312
@@ -231,7 +231,7 @@ msgstr "লিমিট"
 #: ../../web/templates/pages/edit_package.php:74
 #: ../../web/templates/pages/add_package.php:72
 msgid "WEB"
-msgstr ""
+msgstr "ওয়েব"
 
 #: ../../web/templates/includes/panel.php:328
 #: ../../web/templates/pages/add_firewall_banlist.php:39
@@ -239,7 +239,7 @@ msgstr ""
 #: ../../web/templates/pages/add_package.php:151
 #: ../../web/templates/pages/list_server_info.php:78
 msgid "DNS"
-msgstr ""
+msgstr "ডিএনএস"
 
 #: ../../web/templates/includes/panel.php:331
 msgid "Zones"
@@ -257,7 +257,7 @@ msgstr "রেকর্ড"
 #: ../../web/templates/pages/edit_package.php:216
 #: ../../web/templates/pages/add_package.php:207
 msgid "MAIL"
-msgstr ""
+msgstr "মেইল"
 
 #: ../../web/templates/includes/panel.php:353
 #: ../../web/templates/pages/list_mail.php:22
@@ -292,7 +292,7 @@ msgstr "ডেটাবেস"
 #: ../../web/templates/pages/add_package.php:240
 #: ../../web/templates/pages/list_server_info.php:94
 msgid "DB"
-msgstr ""
+msgstr "ডিবি"
 
 #: ../../web/templates/includes/panel.php:381
 #: ../../web/templates/includes/panel.php:385
@@ -302,7 +302,7 @@ msgstr "জবস"
 
 #: ../../web/templates/includes/panel.php:382
 msgid "CRON"
-msgstr ""
+msgstr "ক্রোন"
 
 #: ../../web/templates/includes/panel.php:397
 #: ../../web/templates/includes/panel.php:401
@@ -324,7 +324,7 @@ msgstr "ব্যাকআপ"
 
 #: ../../web/templates/includes/panel.php:398
 msgid "BACKUP"
-msgstr ""
+msgstr "ব্যাকআপ"
 
 #: ../../web/templates/includes/email-settings-panel.php:2
 msgid "Common Account Settings"
@@ -402,7 +402,7 @@ msgstr "হোস্টনেম"
 
 #: ../../web/templates/includes/email-settings-panel.php:44
 msgid "IMAP Settings"
-msgstr ""
+msgstr "আইম্যাপ সেটিংস"
 
 #: ../../web/templates/includes/email-settings-panel.php:47
 #: ../../web/templates/includes/email-settings-panel.php:66
@@ -446,19 +446,19 @@ msgstr "কোনো এনক্রিপশন নেই"
 
 #: ../../web/templates/includes/email-settings-panel.php:63
 msgid "POP3 Settings"
-msgstr ""
+msgstr "পপ৩ সেটিংস"
 
 #: ../../web/templates/includes/email-settings-panel.php:82
 msgid "SMTP Settings"
-msgstr ""
+msgstr "এসএমটিপি সেটিংস"
 
 #: ../../web/templates/includes/password-requirements.php:1
 msgid "Password must include"
-msgstr ""
+msgstr "পাসওয়ার্ডে অবশ্যই অন্তর্ভুক্ত থাকতে হবে"
 
 #: ../../web/templates/includes/password-requirements.php:3
 msgid "8 characters minimum"
-msgstr ""
+msgstr "ন্যূনতম ৮ টি অক্ষর"
 
 #: ../../web/templates/includes/password-requirements.php:4
 #: ../../web/templates/pages/edit_mail_acc.php:60
@@ -512,7 +512,7 @@ msgstr ""
 
 #: ../../web/templates/includes/js.php:14
 msgid "BLACKLIST"
-msgstr ""
+msgstr "কালো তালিকা"
 
 #: ../../web/templates/includes/js.php:15
 msgid "IPVERSE"
@@ -799,7 +799,7 @@ msgstr "লগইন প্রচেষ্টার জন্য IP ঠিকা
 #: ../../web/templates/pages/edit_user.php:130
 #: ../../web/templates/pages/edit_web.php:293
 msgid "For example"
-msgstr ""
+msgstr "উদাহরণস্বরূপ"
 
 #: ../../web/templates/pages/edit_user.php:134
 #: ../../web/templates/pages/add_user.php:76
@@ -1274,7 +1274,7 @@ msgstr "নির্বাচন করুন"
 #: ../../web/templates/pages/list_firewall_ipset.php:70
 #, php-format
 msgid "Are you sure you want to delete IP list %s?"
-msgstr ""
+msgstr "আপনি কি নিশ্চিত যে আপনি %s আইপি তালিকা মুছে ফেলতে চান?"
 
 #: ../../web/templates/pages/list_firewall_ipset.php:81
 #: ../../web/templates/pages/list_mail_acc.php:114
@@ -1339,8 +1339,8 @@ msgstr "বর্তমানে কোন আইপি তালিকা ন�
 #, php-format
 msgid "%d IP list"
 msgid_plural "%d IP lists"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d আইপি তালিকা"
+msgstr[1] "%d আইপি তালিকাসমূহ"
 
 #: ../../web/templates/pages/edit_mail_acc.php:33
 #: ../../web/templates/pages/list_mail_acc.php:172

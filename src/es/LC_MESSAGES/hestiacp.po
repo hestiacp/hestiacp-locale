@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-08 13:33+0000\n"
-"PO-Revision-Date: 2025-02-08 13:36\n"
+"PO-Revision-Date: 2025-07-21 07:59\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1222,7 +1222,7 @@ msgstr "Versión IP"
 #: ../../web/templates/pages/list_firewall_banlist.php:40
 #: ../../web/templates/pages/list_firewall_banlist.php:82
 msgid "Time"
-msgstr "Tiempo"
+msgstr "Hora"
 
 #: ../../web/templates/pages/list_firewall_ipset.php:54
 #: ../../web/templates/pages/list_firewall_ipset.php:55

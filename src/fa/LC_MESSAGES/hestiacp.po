@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-08 13:33+0000\n"
-"PO-Revision-Date: 2025-02-08 13:36\n"
+"PO-Revision-Date: 2025-07-21 07:59\n"
 "Last-Translator: \n"
 "Language-Team: Persian\n"
 "Language: fa_IR\n"
@@ -83,17 +83,17 @@ msgstr ""
 
 #: ../../web/templates/includes/panel.php:86
 msgid "Loading..."
-msgstr ""
+msgstr "درحال بارگذاری..."
 
 #: ../../web/templates/includes/panel.php:92
 #: ../../web/templates/includes/js.php:10
 msgid "No notifications"
-msgstr ""
+msgstr "بدون اطلاعیه"
 
 #: ../../web/templates/includes/panel.php:113
 #: ../../web/templates/includes/panel.php:116
 msgid "Delete notification"
-msgstr ""
+msgstr "حذف اعلانات"
 
 #: ../../web/templates/includes/panel.php:139
 #: ../../web/templates/includes/js.php:11
@@ -104,7 +104,7 @@ msgstr ""
 #: ../../web/templates/pages/list_weblog.php:30
 #: ../../web/templates/pages/list_server_info.php:30
 msgid "Close menu"
-msgstr ""
+msgstr "بستن منو"
 
 #: ../../web/templates/includes/panel.php:154
 #: ../../web/templates/includes/panel.php:155
@@ -113,12 +113,12 @@ msgstr ""
 #: ../../web/templates/pages/list_server_info.php:30
 #: ../../web/templates/pages/list_server_info.php:31
 msgid "Open menu"
-msgstr ""
+msgstr "باز کردن منو"
 
 #: ../../web/templates/includes/panel.php:168
 #: ../../web/templates/includes/panel.php:170
 msgid "File manager"
-msgstr ""
+msgstr "مدیریت فایل"
 
 #: ../../web/templates/includes/panel.php:182
 #: ../../web/templates/includes/panel.php:184
@@ -520,7 +520,7 @@ msgstr ""
 
 #: ../../web/templates/includes/extra-ns-fields.php:8
 msgid "Remove"
-msgstr ""
+msgstr "حذف"
 
 #: ../../web/templates/footer.php:25 ../../web/templates/footer.php:61
 #: ../../web/templates/footer.php:64

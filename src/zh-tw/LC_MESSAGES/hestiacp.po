@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-08 13:33+0000\n"
-"PO-Revision-Date: 2025-02-08 13:36\n"
+"PO-Revision-Date: 2025-07-21 07:59\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -137,7 +137,7 @@ msgstr "伺服器設定值"
 #: ../../web/templates/pages/list_log.php:72
 #: ../../web/templates/pages/list_services.php:20
 msgid "Logs"
-msgstr "紀錄"
+msgstr "日誌"
 
 #: ../../web/templates/includes/panel.php:226
 #: ../../web/templates/includes/panel.php:228

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-08 13:33+0000\n"
-"PO-Revision-Date: 2025-02-08 13:37\n"
+"PO-Revision-Date: 2025-07-21 07:59\n"
 "Last-Translator: \n"
 "Language-Team: Thai\n"
 "Language: th_TH\n"
@@ -23,12 +23,12 @@ msgstr ""
 #: ../../web/schedule/restore/index.php:70
 #: ../../web/schedule/backup/index.php:17
 msgid "Error: Hestia did not return any output."
-msgstr ""
+msgstr "ผิดพลาด: เฮสเทียไม่ส่งผลลัพธ์ใดๆ "
 
 #: ../../web/templates/includes/jump-to-top-link.php:4
 #: ../../web/templates/includes/jump-to-top-link.php:7
 msgid "Top"
-msgstr ""
+msgstr "บนสุด "
 
 #: ../../web/templates/includes/panel.php:29
 msgid "Logged in as"
@@ -54,7 +54,7 @@ msgstr ""
 #: ../../web/templates/pages/list_web.php:84
 #: ../../web/templates/pages/list_web.php:318
 msgid "Disk"
-msgstr ""
+msgstr "ดิสก์"
 
 #: ../../web/templates/includes/panel.php:42
 #: ../../web/templates/pages/list_user.php:23
@@ -79,21 +79,21 @@ msgstr "ปริมาณรับส่งข้อมูล"
 #: ../../web/templates/includes/panel.php:67
 #: ../../web/templates/includes/panel.php:75
 msgid "Notifications"
-msgstr ""
+msgstr "การแจ้งเตือน "
 
 #: ../../web/templates/includes/panel.php:86
 msgid "Loading..."
-msgstr ""
+msgstr "กำลังโหลด... "
 
 #: ../../web/templates/includes/panel.php:92
 #: ../../web/templates/includes/js.php:10
 msgid "No notifications"
-msgstr ""
+msgstr "ไม่มีการแจ้งเตือน "
 
 #: ../../web/templates/includes/panel.php:113
 #: ../../web/templates/includes/panel.php:116
 msgid "Delete notification"
-msgstr ""
+msgstr "ลบแจ้งเตือน "
 
 #: ../../web/templates/includes/panel.php:139
 #: ../../web/templates/includes/js.php:11
@@ -113,7 +113,7 @@ msgstr ""
 #: ../../web/templates/pages/list_server_info.php:30
 #: ../../web/templates/pages/list_server_info.php:31
 msgid "Open menu"
-msgstr ""
+msgstr "เปิดเมนู"
 
 #: ../../web/templates/includes/panel.php:168
 #: ../../web/templates/includes/panel.php:170
@@ -151,7 +151,7 @@ msgstr "สถิติ"
 #: ../../web/templates/includes/panel.php:235
 #: ../../web/templates/includes/panel.php:237
 msgid "Help"
-msgstr ""
+msgstr "ช่วยเหลือ "
 
 #: ../../web/templates/includes/panel.php:244
 #: ../../web/templates/includes/panel.php:246
@@ -364,7 +364,7 @@ msgstr "ชื่อผู้ใช้"
 #: ../../web/templates/includes/email-settings-panel.php:29
 #: ../../web/templates/includes/email-settings-panel.php:39
 msgid "Copy to clipboard"
-msgstr ""
+msgstr "คัดลอกไปยังคลิปบอร์ด "
 
 #: ../../web/templates/includes/email-settings-panel.php:16
 #: ../../web/templates/pages/edit_user.php:84
@@ -389,7 +389,7 @@ msgstr "รหัสผ่าน"
 
 #: ../../web/templates/includes/email-settings-panel.php:26
 msgid "Webmail"
-msgstr ""
+msgstr "เว็บเมล์\n"
 
 #: ../../web/templates/includes/email-settings-panel.php:36
 #: ../../web/templates/pages/list_backup_incremental.php:51
@@ -398,7 +398,7 @@ msgstr ""
 #: ../../web/templates/pages/list_db.php:251
 #: ../../web/templates/pages/edit_server.php:63
 msgid "Hostname"
-msgstr ""
+msgstr "ชื่อโฮสต์\n"
 
 #: ../../web/templates/includes/email-settings-panel.php:44
 msgid "IMAP Settings"
@@ -731,12 +731,12 @@ msgstr "บันทึก"
 #: ../../web/templates/pages/list_user.php:194
 #: ../../web/templates/pages/list_user.php:197
 msgid "Edit User"
-msgstr ""
+msgstr "แก้ไขผู้ใช้ "
 
 #: ../../web/templates/pages/edit_user.php:69
 #: ../../web/templates/pages/add_user.php:39 ../../web/add/user/index.php:35
 msgid "Contact Name"
-msgstr ""
+msgstr "ผู้ติดต่อ"
 
 #: ../../web/templates/pages/edit_user.php:76
 #: ../../web/templates/pages/list_user.php:166
@@ -769,7 +769,7 @@ msgstr "อีเมล"
 #: ../../web/templates/pages/edit_web.php:418
 #: ../../web/templates/pages/edit_web.php:471
 msgid "Generate"
-msgstr ""
+msgstr "สร้าง "
 
 #: ../../web/templates/pages/edit_user.php:102
 #: ../../web/templates/pages/add_user.php:64
@@ -809,7 +809,7 @@ msgstr "ภาษา"
 #: ../../web/templates/pages/edit_user.php:153
 #: ../../web/templates/pages/add_user.php:95
 msgid "Role"
-msgstr ""
+msgstr "กฏ"
 
 #: ../../web/templates/pages/edit_user.php:155
 #: ../../web/templates/pages/add_user.php:97
@@ -819,7 +819,7 @@ msgstr "ผู้ใช้"
 #: ../../web/templates/pages/edit_user.php:156
 #: ../../web/templates/pages/add_user.php:98
 msgid "Administrator"
-msgstr ""
+msgstr "ผู้ดูแลระบบ"
 
 #: ../../web/templates/pages/edit_user.php:157
 #: ../../web/templates/pages/add_user.php:99
@@ -1166,7 +1166,7 @@ msgstr "ลบ"
 #: ../../web/templates/pages/list_firewall_ipset.php:30
 #: ../../web/templates/pages/list_firewall.php:17
 msgid "IPset IP Lists"
-msgstr ""
+msgstr "IPset รายการ IP"
 
 #: ../../web/templates/pages/list_firewall_ipset.php:35
 #: ../../web/templates/pages/list_dns_rec.php:80
@@ -1736,7 +1736,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_whitelabel.php:82
 #: ../../web/templates/pages/edit_server.php:1142
 msgid "Default"
-msgstr ""
+msgstr "ค่าเริ่มต้น "
 
 #: ../../web/templates/pages/list_dns_rec.php:178
 #, php-format
@@ -1749,7 +1749,7 @@ msgstr[0] ""
 #: ../../web/templates/pages/list_web.php:280
 #: ../../web/templates/pages/list_web.php:283
 msgid "View Logs"
-msgstr ""
+msgstr "แสดง Log"
 
 #: ../../web/templates/pages/list_weblog.php:49
 #: ../../web/templates/pages/list_weblog.php:51
@@ -1764,7 +1764,7 @@ msgstr ""
 #: ../../web/templates/pages/list_ssl.php:77
 #: ../../web/templates/pages/list_ssl.php:80
 msgid "Download"
-msgstr ""
+msgstr "ดาวน์โหลด "
 
 #: ../../web/templates/pages/list_weblog.php:55
 #: ../../web/templates/pages/list_weblog.php:57

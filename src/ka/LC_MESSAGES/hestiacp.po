@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-08 13:33+0000\n"
-"PO-Revision-Date: 2025-02-08 13:36\n"
+"PO-Revision-Date: 2025-07-21 07:59\n"
 "Last-Translator: \n"
 "Language-Team: Georgian\n"
 "Language: ka_GE\n"
@@ -83,12 +83,12 @@ msgstr "შეტყობინებები"
 
 #: ../../web/templates/includes/panel.php:86
 msgid "Loading..."
-msgstr ""
+msgstr "იტვირთება..."
 
 #: ../../web/templates/includes/panel.php:92
 #: ../../web/templates/includes/js.php:10
 msgid "No notifications"
-msgstr ""
+msgstr "შეტყობინებები არ არის"
 
 #: ../../web/templates/includes/panel.php:113
 #: ../../web/templates/includes/panel.php:116
@@ -231,7 +231,7 @@ msgstr "ლიმიტი"
 #: ../../web/templates/pages/edit_package.php:74
 #: ../../web/templates/pages/add_package.php:72
 msgid "WEB"
-msgstr "ვები"
+msgstr "საიტები"
 
 #: ../../web/templates/includes/panel.php:328
 #: ../../web/templates/pages/add_firewall_banlist.php:39
@@ -328,11 +328,11 @@ msgstr "მარქაფი"
 
 #: ../../web/templates/includes/email-settings-panel.php:2
 msgid "Common Account Settings"
-msgstr ""
+msgstr "ანგარიშის ძირითადი პარამეტრები"
 
 #: ../../web/templates/includes/email-settings-panel.php:4
 msgid "Connect to this account using credentials:"
-msgstr ""
+msgstr "დაუკავშირდით ამ ანგარიშს, შემდეგი ინფორმაციით:"
 
 #: ../../web/templates/includes/email-settings-panel.php:7
 #: ../../web/templates/pages/edit_user.php:64
@@ -364,7 +364,7 @@ msgstr "მომხმარებლის სახელი"
 #: ../../web/templates/includes/email-settings-panel.php:29
 #: ../../web/templates/includes/email-settings-panel.php:39
 msgid "Copy to clipboard"
-msgstr ""
+msgstr "კოპირება"
 
 #: ../../web/templates/includes/email-settings-panel.php:16
 #: ../../web/templates/pages/edit_user.php:84
@@ -402,7 +402,7 @@ msgstr "ჰოსტის სახელი"
 
 #: ../../web/templates/includes/email-settings-panel.php:44
 msgid "IMAP Settings"
-msgstr ""
+msgstr "IMAP პარამეტრები"
 
 #: ../../web/templates/includes/email-settings-panel.php:47
 #: ../../web/templates/includes/email-settings-panel.php:66
@@ -442,23 +442,23 @@ msgstr "პორტი"
 #: ../../web/templates/includes/email-settings-panel.php:78
 #: ../../web/templates/includes/email-settings-panel.php:97
 msgid "No encryption"
-msgstr ""
+msgstr "დაშიფვრის გარეშე"
 
 #: ../../web/templates/includes/email-settings-panel.php:63
 msgid "POP3 Settings"
-msgstr ""
+msgstr "POP3 პარამეტრები"
 
 #: ../../web/templates/includes/email-settings-panel.php:82
 msgid "SMTP Settings"
-msgstr ""
+msgstr "SMTP პარამეტრები"
 
 #: ../../web/templates/includes/password-requirements.php:1
 msgid "Password must include"
-msgstr ""
+msgstr "პაროლი უნდა შეიცავდეს"
 
 #: ../../web/templates/includes/password-requirements.php:3
 msgid "8 characters minimum"
-msgstr ""
+msgstr "მინიმუმ 8 სიმბოლოს"
 
 #: ../../web/templates/includes/password-requirements.php:4
 #: ../../web/templates/pages/edit_mail_acc.php:60
@@ -508,19 +508,19 @@ msgstr "ულიმიტო"
 
 #: ../../web/templates/includes/js.php:12
 msgid "Are you sure you want to leave the page?"
-msgstr ""
+msgstr "ნამდვილად გსურთ გვერდის დატოვება?"
 
 #: ../../web/templates/includes/js.php:14
 msgid "BLACKLIST"
-msgstr ""
+msgstr "შავი სია"
 
 #: ../../web/templates/includes/js.php:15
 msgid "IPVERSE"
-msgstr ""
+msgstr "IPVERSE"
 
 #: ../../web/templates/includes/extra-ns-fields.php:8
 msgid "Remove"
-msgstr ""
+msgstr "წაშლა"
 
 #: ../../web/templates/footer.php:25 ../../web/templates/footer.php:61
 #: ../../web/templates/footer.php:64
@@ -537,7 +537,7 @@ msgstr "ფორმის შენახვა"
 
 #: ../../web/templates/footer.php:37
 msgid "Unsave form"
-msgstr ""
+msgstr "შეუნახავი ფორმა"
 
 #: ../../web/templates/footer.php:38
 msgid "Go to WEB list"
@@ -569,7 +569,7 @@ msgstr "ძიაბაზე ფოკუსირება"
 
 #: ../../web/templates/footer.php:47
 msgid "Display / Hide shortcuts"
-msgstr ""
+msgstr "შორთქათის ჩვენება / დამალვა"
 
 #: ../../web/templates/footer.php:48
 msgid "Move backward through top menu"
@@ -677,7 +677,7 @@ msgstr "უკან"
 #: ../../web/templates/pages/edit_user.php:19
 #: ../../web/templates/pages/edit_user.php:20
 msgid "Manage SSH Keys"
-msgstr ""
+msgstr "SSH გასაღებების მართვა"
 
 #: ../../web/templates/pages/edit_user.php:30
 #: ../../web/templates/pages/edit_user.php:31
@@ -731,12 +731,12 @@ msgstr "შენახვა"
 #: ../../web/templates/pages/list_user.php:194
 #: ../../web/templates/pages/list_user.php:197
 msgid "Edit User"
-msgstr ""
+msgstr "მომხმარებლის რედაქტირება"
 
 #: ../../web/templates/pages/edit_user.php:69
 #: ../../web/templates/pages/add_user.php:39 ../../web/add/user/index.php:35
 msgid "Contact Name"
-msgstr ""
+msgstr "საკონტაქტო სახელი"
 
 #: ../../web/templates/pages/edit_user.php:76
 #: ../../web/templates/pages/list_user.php:166
@@ -769,7 +769,7 @@ msgstr "ელფოსტა"
 #: ../../web/templates/pages/edit_web.php:418
 #: ../../web/templates/pages/edit_web.php:471
 msgid "Generate"
-msgstr ""
+msgstr "გენერაცია"
 
 #: ../../web/templates/pages/edit_user.php:102
 #: ../../web/templates/pages/add_user.php:64
@@ -778,15 +778,15 @@ msgstr "არ მისცეთ მომხმარებელს მარ
 
 #: ../../web/templates/pages/edit_user.php:110
 msgid "Enable two-factor authentication"
-msgstr ""
+msgstr "2FA ავტორიზაციის ჩართვა"
 
 #: ../../web/templates/pages/edit_user.php:114
 msgid "Account Recovery Code"
-msgstr ""
+msgstr "ანგარიშის აღდგენის კოდი"
 
 #: ../../web/templates/pages/edit_user.php:115
 msgid "Please scan the code below in your 2FA application"
-msgstr ""
+msgstr "დაასკანერეთ 2FA კოდი თქვენს აპლიკაციაში"
 
 #: ../../web/templates/pages/edit_user.php:117
 msgid "2FA QR Code"
@@ -799,7 +799,7 @@ msgstr "გამოიყენეთ IP მისამართების �
 #: ../../web/templates/pages/edit_user.php:130
 #: ../../web/templates/pages/edit_web.php:293
 msgid "For example"
-msgstr ""
+msgstr "მაგალითად"
 
 #: ../../web/templates/pages/edit_user.php:134
 #: ../../web/templates/pages/add_user.php:76
@@ -824,7 +824,7 @@ msgstr "ადმინისტრატორი"
 #: ../../web/templates/pages/edit_user.php:157
 #: ../../web/templates/pages/add_user.php:99
 msgid "DNS Sync User"
-msgstr ""
+msgstr "მომხმარებლის DNS სინქრონიზაცია"
 
 #: ../../web/templates/pages/edit_user.php:163
 #: ../../web/templates/pages/edit_server.php:87
@@ -833,7 +833,7 @@ msgstr "თემა"
 
 #: ../../web/templates/pages/edit_user.php:181
 msgid "Default List Sort Order"
-msgstr ""
+msgstr "სტანდარტული სორტირება"
 
 #: ../../web/templates/pages/edit_user.php:183
 #: ../../web/templates/pages/list_firewall_ipset.php:41
@@ -878,7 +878,7 @@ msgstr ""
 #: ../../web/templates/pages/list_cron.php:25
 #: ../../web/templates/pages/list_cron.php:34
 msgid "Date"
-msgstr "თარიღით"
+msgstr "თარიღი"
 
 #: ../../web/templates/pages/edit_user.php:184
 #: ../../web/templates/pages/list_user.php:17
@@ -935,7 +935,7 @@ msgstr "პაკეტი"
 #: ../../web/templates/pages/edit_web.php:258
 #: ../../web/templates/pages/edit_server_php.php:58
 msgid "Advanced Options"
-msgstr ""
+msgstr "დამატებითი პარამეტრები"
 
 #: ../../web/templates/pages/edit_user.php:210
 #: ../../web/templates/pages/edit_package.php:278
@@ -946,11 +946,11 @@ msgstr "SSH წვდომა"
 
 #: ../../web/templates/pages/edit_user.php:225
 msgid "PHP CLI Version"
-msgstr ""
+msgstr "PHP CLI ვერსია"
 
 #: ../../web/templates/pages/edit_user.php:244
 msgid "Default Name Servers"
-msgstr "ნაგულისხმევი Name Server-ები"
+msgstr "Name Server ჩანაწერები"
 
 #: ../../web/templates/pages/edit_user.php:253
 #: ../../web/templates/pages/edit_package.php:209
@@ -970,11 +970,11 @@ msgstr "ვებ დომენის დამატება"
 #: ../../web/templates/pages/add_db.php:39
 #, php-format
 msgid "It is strongly advised to {create a standard user account} before adding %s to the server due to the increased privileges the admin account possesses and potential security risks."
-msgstr ""
+msgstr "ადმინისტრატორის ანგარიშის გაზრდილი პრივილეგიებისა და პოტენციური უსაფრთხოების რისკების გამო, მკაცრად რეკომენდებულია {create a standard user account} სერვერზე %s-ის დამატებამდე."
 
 #: ../../web/templates/pages/add_web.php:32
 msgid "a web domain"
-msgstr ""
+msgstr "ვებ დომენი"
 
 #: ../../web/templates/pages/add_web.php:37
 #: ../../web/templates/pages/list_user.php:6
@@ -1089,7 +1089,7 @@ msgstr "IP სიის დამატება"
 #: ../../web/templates/pages/list_firewall.php:48
 #: ../../web/templates/pages/list_firewall.php:51
 msgid "Apply to selected"
-msgstr ""
+msgstr "არჩეულზე გამოყენება"
 
 #: ../../web/templates/pages/list_firewall_ipset.php:17
 #: ../../web/templates/pages/list_firewall_ipset.php:68
@@ -1166,7 +1166,7 @@ msgstr "წაშლა"
 #: ../../web/templates/pages/list_firewall_ipset.php:30
 #: ../../web/templates/pages/list_firewall.php:17
 msgid "IPset IP Lists"
-msgstr ""
+msgstr "IPset IP სიები"
 
 #: ../../web/templates/pages/list_firewall_ipset.php:35
 #: ../../web/templates/pages/list_dns_rec.php:80
@@ -1274,7 +1274,7 @@ msgstr "არჩევა"
 #: ../../web/templates/pages/list_firewall_ipset.php:70
 #, php-format
 msgid "Are you sure you want to delete IP list %s?"
-msgstr ""
+msgstr "ნამდვილად გსურთ %s IP მისამართების სიის წაშლა?"
 
 #: ../../web/templates/pages/list_firewall_ipset.php:81
 #: ../../web/templates/pages/list_mail_acc.php:114
@@ -1333,21 +1333,21 @@ msgstr "ჩართულია"
 
 #: ../../web/templates/pages/list_firewall_ipset.php:106
 msgid "There are currently no IP lists defined."
-msgstr ""
+msgstr "ამჟამად IP მისამართების სიები განსაზღვრული არ არის."
 
 #: ../../web/templates/pages/list_firewall_ipset.php:108
 #, php-format
 msgid "%d IP list"
 msgid_plural "%d IP lists"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d IP სია"
+msgstr[1] "%d IP სია"
 
 #: ../../web/templates/pages/edit_mail_acc.php:33
 #: ../../web/templates/pages/list_mail_acc.php:172
 #: ../../web/templates/pages/list_mail_acc.php:215
 #: ../../web/templates/pages/list_mail_acc.php:218
 msgid "Edit Mail Account"
-msgstr ""
+msgstr "Mail ანგარიშის რედაქტირება"
 
 #: ../../web/templates/pages/edit_mail_acc.php:38
 #: ../../web/templates/pages/add_mail_acc.php:42
@@ -1370,7 +1370,7 @@ msgstr "8 სიმბოლო"
 #: ../../web/templates/pages/add_mail_acc.php:113
 #: ../../web/templates/pages/add_db.php:94
 msgid "Email login credentials to:"
-msgstr ""
+msgstr "ავტორიზაციის დეტალების მიმღები:"
 
 #: ../../web/templates/pages/edit_mail_acc.php:71
 #: ../../web/templates/pages/list_mail_acc.php:43
@@ -1394,12 +1394,12 @@ msgstr "კვოტა"
 #: ../../web/templates/pages/add_package.php:48
 #: ../../web/templates/pages/add_mail_acc.php:71
 msgid "in MB"
-msgstr ""
+msgstr "მბ"
 
 #: ../../web/templates/pages/edit_mail_acc.php:82
 #: ../../web/templates/pages/add_mail_acc.php:82
 msgid "Use local-part without domain name"
-msgstr ""
+msgstr "გამოიყენეთ ლოკალური ნაწილი დომენის სახელის გარეშე"
 
 #: ../../web/templates/pages/edit_mail_acc.php:89
 #: ../../web/templates/pages/add_mail_acc.php:95
@@ -1424,7 +1424,7 @@ msgstr "ერთი ან მეტი ელფოსტის მისა�
 #: ../../web/templates/pages/list_mail_acc.php:91
 #: ../../web/templates/pages/list_mail_acc.php:276
 msgid "Auto Reply"
-msgstr ""
+msgstr "ავტომატური მოპასუხე"
 
 #: ../../web/templates/pages/edit_mail_acc.php:112
 #: ../../web/templates/pages/list_log.php:80
@@ -1444,7 +1444,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_mail_acc.php:118
 #: ../../web/templates/pages/add_mail_acc.php:106
 msgid "email / hour"
-msgstr ""
+msgstr "მეილის/სთ"
 
 #: ../../web/templates/pages/edit_server_bind9.php:25
 #: ../../web/templates/pages/edit_server_httpd.php:28
@@ -1456,7 +1456,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_server_service.php:34
 #: ../../web/templates/pages/edit_server_php.php:25
 msgid "Configure Server"
-msgstr ""
+msgstr "სერვერის კონფიგურაცია"
 
 #: ../../web/templates/pages/edit_server_bind9.php:38
 #: ../../web/templates/pages/edit_server_httpd.php:37
@@ -1473,7 +1473,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_server_service.php:43
 #: ../../web/templates/pages/edit_server_php.php:75
 msgid "Restart"
-msgstr ""
+msgstr "რესტარტი"
 
 #: ../../web/templates/pages/list_mail_dns.php:20
 #: ../../web/templates/pages/list_dns_rec.php:75
@@ -1606,14 +1606,14 @@ msgstr "IP ან მნიშვნელობა"
 
 #: ../../web/templates/pages/list_dns_rec.php:10
 msgid "Add Record"
-msgstr ""
+msgstr "ჩანაწერის დამატება"
 
 #: ../../web/templates/pages/list_dns_rec.php:13
 #: ../../web/templates/pages/list_dns.php:159
 #: ../../web/templates/pages/list_dns.php:162
 #: ../../web/templates/pages/edit_dns.php:25
 msgid "Edit DNS Domain"
-msgstr ""
+msgstr "დომენის DNS რედაქტირება"
 
 #: ../../web/templates/pages/list_dns_rec.php:19
 #: ../../web/templates/pages/list_user.php:14
@@ -1645,7 +1645,7 @@ msgstr "სორტირება"
 #: ../../web/templates/pages/list_cron.php:23
 #: ../../web/templates/pages/list_firewall.php:23
 msgid "Sort by"
-msgstr ""
+msgstr "სორტირება"
 
 #: ../../web/templates/pages/list_dns_rec.php:49
 #: ../../web/templates/pages/list_user.php:50
@@ -1725,12 +1725,12 @@ msgstr "ძიება"
 #: ../../web/templates/pages/list_dns_rec.php:134
 #: ../../web/templates/pages/edit_dns_rec.php:25
 msgid "Edit DNS Record"
-msgstr ""
+msgstr "DNS ჩანაწერის რედაქტირება"
 
 #: ../../web/templates/pages/list_dns_rec.php:144
 #, php-format
 msgid "Are you sure you want to delete record %s?"
-msgstr ""
+msgstr "ნამდვილად გსურთ %s ჩანაწერის წაშლა?"
 
 #: ../../web/templates/pages/list_dns_rec.php:164
 #: ../../web/templates/pages/edit_whitelabel.php:70
@@ -1744,14 +1744,14 @@ msgstr "ნაგულისხმები"
 msgid "%d DNS record"
 msgid_plural "%d DNS records"
 msgstr[0] "%d DNS ჩანაწერი"
-msgstr[1] ""
+msgstr[1] "%d DNS ჩანაწერი"
 
 #: ../../web/templates/pages/list_weblog.php:43
 #: ../../web/templates/pages/list_weblog.php:45
 #: ../../web/templates/pages/list_web.php:280
 #: ../../web/templates/pages/list_web.php:283
 msgid "View Logs"
-msgstr ""
+msgstr "ლოგების ნახვა"
 
 #: ../../web/templates/pages/list_weblog.php:49
 #: ../../web/templates/pages/list_weblog.php:51
@@ -1781,7 +1781,7 @@ msgstr "შეცდომების ლოგი"
 #: ../../web/templates/pages/list_server_info.php:99
 #: ../../web/templates/pages/list_server_info.php:101
 msgid "Refresh"
-msgstr ""
+msgstr "განახლება"
 
 #: ../../web/templates/pages/list_weblog.php:97
 #, php-format
@@ -1797,35 +1797,35 @@ msgstr "პაკეტები"
 #: ../../web/templates/pages/list_mail.php:40
 #: ../../web/templates/pages/list_db.php:74
 msgid "Rebuild All"
-msgstr ""
+msgstr "ყველაფრის რებილდი"
 
 #: ../../web/templates/pages/list_user.php:43
 msgid "Rebuild User Profile"
-msgstr ""
+msgstr "მომხმარებლების პროფილი რებილდი"
 
 #: ../../web/templates/pages/list_user.php:44
 msgid "Rebuild Web Domains"
-msgstr ""
+msgstr "ვებ-დომენების რებილდი"
 
 #: ../../web/templates/pages/list_user.php:45
 msgid "Rebuild DNS Zones"
-msgstr ""
+msgstr "DNS ზონების რებილდი"
 
 #: ../../web/templates/pages/list_user.php:46
 msgid "Rebuild Mail Domains"
-msgstr ""
+msgstr "მაილ დომენების რებილდი"
 
 #: ../../web/templates/pages/list_user.php:47
 msgid "Rebuild Databases"
-msgstr ""
+msgstr "მონაცემთა ბაზების რებილდი"
 
 #: ../../web/templates/pages/list_user.php:48
 msgid "Rebuild Cron Jobs"
-msgstr ""
+msgstr "Cron დავალებების რებილდი"
 
 #: ../../web/templates/pages/list_user.php:49
 msgid "Update Usage Counters"
-msgstr ""
+msgstr "გამოყენების მრიცხველების განახლება"
 
 #: ../../web/templates/pages/list_user.php:85
 #: ../../web/templates/pages/list_user.php:240
@@ -1882,12 +1882,12 @@ msgstr "ელფოსტის დომენები"
 #: ../../web/templates/pages/list_user.php:126
 #, php-format
 msgid "Are you sure you want to unsuspend user %s?"
-msgstr ""
+msgstr "ნამდვილად გსურთ %s მომხმარებლის შეჩერების გაუქმება?"
 
 #: ../../web/templates/pages/list_user.php:133
 #, php-format
 msgid "Are you sure you want to suspend user %s?"
-msgstr ""
+msgstr "ნამდვილად გსურთ %s მომხმარებლის შეჩერება?"
 
 #: ../../web/templates/pages/list_user.php:158
 #: ../../web/templates/pages/list_user.php:182
@@ -1895,12 +1895,12 @@ msgstr ""
 #: ../../web/templates/pages/list_search.php:166
 #: ../../web/templates/pages/list_search.php:168
 msgid "Log in as"
-msgstr ""
+msgstr "ავტორიზაცია როგორც"
 
 #: ../../web/templates/pages/list_user.php:220
 #, php-format
 msgid "Are you sure you want to delete user %s?"
-msgstr ""
+msgstr "ნამდვილად გსურთ %s-ს წაშლა?"
 
 #: ../../web/templates/pages/list_user.php:234
 #: ../../web/templates/pages/edit_package.php:30
@@ -1915,7 +1915,7 @@ msgstr "პაკეტის რედაქტირება"
 msgid "%d user account"
 msgid_plural "%d user accounts"
 msgstr[0] "%d მომხმარებლის ანგარიში"
-msgstr[1] ""
+msgstr[1] "%d მომხმარებლის ანგარიში"
 
 #: ../../web/templates/pages/list_backup_exclusions.php:9
 #: ../../web/templates/pages/edit_backup_exclusions.php:25
@@ -1925,7 +1925,7 @@ msgstr "მარქაფიდან გამონაკლისები�
 #: ../../web/templates/pages/list_backup_exclusions.php:29
 #: ../../web/templates/pages/list_backup.php:7
 msgid "Backup Exclusions"
-msgstr ""
+msgstr "რეზერვაციის გამონაკლისი"
 
 #: ../../web/templates/pages/list_backup_exclusions.php:34
 #: ../../web/templates/pages/list_backup_exclusions.php:45
@@ -1934,22 +1934,22 @@ msgstr "მნიშვნელობა"
 
 #: ../../web/templates/pages/list_backup_exclusions.php:48
 msgid "No exclusions"
-msgstr ""
+msgstr "გამონაკლისის გარეშე"
 
 #: ../../web/templates/pages/list_key.php:17
 #: ../../web/templates/pages/list_key.php:21
 #: ../../web/templates/pages/add_key.php:31
 msgid "Add SSH Key"
-msgstr "Add SSH key"
+msgstr "SSH გასაღების დამატება"
 
 #: ../../web/templates/pages/list_key.php:31
 msgid "SSH Keys"
-msgstr ""
+msgstr "SSH გასაღებები"
 
 #: ../../web/templates/pages/list_key.php:35
 #: ../../web/templates/pages/list_key.php:48
 msgid "SSH ID"
-msgstr ""
+msgstr "SSH აიდი"
 
 #: ../../web/templates/pages/list_key.php:37
 #: ../../web/templates/pages/list_key.php:74
@@ -1960,23 +1960,23 @@ msgstr "SSH გასაღებები"
 #: ../../web/templates/pages/list_key.php:65
 #, php-format
 msgid "Are you sure you want to delete SSH key %s?"
-msgstr ""
+msgstr "ნამდვილად გსურთ %s SSH გასაღების წაშლა?"
 
 #: ../../web/templates/pages/list_key.php:85
 #, php-format
 msgid "%d SSH key"
 msgid_plural "%d SSH keys"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d SSH გასაღები"
+msgstr[1] "%d SSH გასაღები"
 
 #: ../../web/templates/pages/list_log_auth.php:29
 #: ../../web/templates/pages/list_log.php:59
 msgid "Are you sure you want to delete the logs?"
-msgstr ""
+msgstr "ნამდვილად გსურთ ლოგის წაშლა?"
 
 #: ../../web/templates/pages/list_log_auth.php:42
 msgid "Auth Log"
-msgstr ""
+msgstr "ავტორიზაციის ლოგი"
 
 #: ../../web/templates/pages/list_log_auth.php:46
 #: ../../web/templates/pages/list_search.php:50
@@ -1997,11 +1997,11 @@ msgstr "ბრაუზერი"
 
 #: ../../web/templates/pages/list_log_auth.php:67
 msgid "Success"
-msgstr ""
+msgstr "წარმატებით"
 
 #: ../../web/templates/pages/list_log_auth.php:70
 msgid "Failed"
-msgstr ""
+msgstr "შეცდომით"
 
 #: ../../web/templates/pages/list_log_auth.php:103
 #: ../../web/templates/pages/list_log.php:133
@@ -2009,7 +2009,7 @@ msgstr ""
 msgid "%d log record"
 msgid_plural "%d log records"
 msgstr[0] "%d ჩანაწერი ლოგში"
-msgstr[1] ""
+msgstr[1] "%d ჩანაწერი ლოგში"
 
 #: ../../web/templates/pages/setup_webapp.php:27
 #, php-format
@@ -2018,7 +2018,7 @@ msgstr "%s ინსტალაცია"
 
 #: ../../web/templates/pages/setup_webapp.php:33
 msgid "Data Loss Warning!"
-msgstr ""
+msgstr "მონაცემთა დაკარგვის საშიშროება!"
 
 #: ../../web/templates/pages/setup_webapp.php:34
 msgid "Your web folder already has files uploaded to it. The installer will overwrite your files and/or the installation might fail."
@@ -2048,7 +2048,7 @@ msgstr "მფლობელი"
 msgid "%d object"
 msgid_plural "%d objects"
 msgstr[0] "%d ობიექტი"
-msgstr[1] ""
+msgstr[1] "%d ობიექტი"
 
 #: ../../web/templates/pages/list_rrd.php:9
 msgid "Advanced Details"
@@ -2078,11 +2078,11 @@ msgstr "ყოველწლიური"
 
 #: ../../web/templates/pages/list_rrd.php:17
 msgid "Biennially"
-msgstr ""
+msgstr "ყოველ ორ წელში"
 
 #: ../../web/templates/pages/list_rrd.php:18
 msgid "Triennially"
-msgstr ""
+msgstr "ყოველ სამ წელში"
 
 #: ../../web/templates/pages/list_log.php:28
 #: ../../web/templates/pages/list_log.php:29
@@ -2102,15 +2102,15 @@ msgstr "კატეგორია"
 
 #: ../../web/templates/pages/list_log.php:90
 msgid "Information"
-msgstr ""
+msgstr "ინფორმაცია"
 
 #: ../../web/templates/pages/list_log.php:94
 msgid "Warning"
-msgstr ""
+msgstr "გაფრთხილება"
 
 #: ../../web/templates/pages/list_log.php:98
 msgid "Error"
-msgstr ""
+msgstr "შეცდომა"
 
 #: ../../web/templates/pages/list_mail_acc.php:16
 #: ../../web/templates/pages/list_mail.php:226
@@ -2144,27 +2144,27 @@ msgstr "ელფოსტის ანგარიშები"
 #: ../../web/templates/pages/list_mail_acc.php:90
 #: ../../web/templates/pages/list_mail_acc.php:272
 msgid "Forwarding"
-msgstr ""
+msgstr "გადამისამართება"
 
 #: ../../web/templates/pages/list_mail_acc.php:104
 #, php-format
 msgid "Are you sure you want to unsuspend %s?"
-msgstr ""
+msgstr "მანდვილად გსურთ %s-ის შეჩერების გაუქმება?"
 
 #: ../../web/templates/pages/list_mail_acc.php:107
 #: ../../web/templates/pages/list_mail_acc.php:135
 msgid "No aliases"
-msgstr ""
+msgstr "ფსევდონიმების გარეშე"
 
 #: ../../web/templates/pages/list_mail_acc.php:110
 #: ../../web/templates/pages/list_mail_acc.php:138
 msgid "Aliases used"
-msgstr ""
+msgstr "ფსევდონიმი გამოყენებულია"
 
 #: ../../web/templates/pages/list_mail_acc.php:132
 #, php-format
 msgid "Are you sure you want to suspend %s?"
-msgstr ""
+msgstr "მანდვილად გსურთ %s-ის შეჩერება?"
 
 #: ../../web/templates/pages/list_mail_acc.php:187
 #: ../../web/templates/pages/list_mail_acc.php:190
@@ -2175,23 +2175,23 @@ msgstr ""
 #: ../../web/templates/pages/list_mail.php:239
 #: ../../web/templates/pages/list_mail.php:242
 msgid "Open Webmail"
-msgstr ""
+msgstr "Webmail გახსნა"
 
 #: ../../web/templates/pages/list_mail_acc.php:240
 #, php-format
 msgid "Are you sure you want to delete %s?"
-msgstr ""
+msgstr "მანდვილად გსურთ %s-ის წაშლა?"
 
 #: ../../web/templates/pages/list_mail_acc.php:285
 #, php-format
 msgid "%d mail account"
 msgid_plural "%d mail accounts"
-msgstr[0] "%d ელ.ფოსტის ანგარიში"
-msgstr[1] ""
+msgstr[0] "%d ელ-ფოსტის ანგარიში"
+msgstr[1] "%d ელ-ფოსტის ანგარიში"
 
 #: ../../web/templates/pages/add_firewall_banlist.php:25
 msgid "Add IP Address to Banlist"
-msgstr ""
+msgstr "IP მისამართის შავ სიაში დამატება"
 
 #: ../../web/templates/pages/add_firewall_banlist.php:29
 #: ../../web/templates/pages/edit_firewall.php:50
@@ -2248,7 +2248,7 @@ msgstr ""
 
 #: ../../web/templates/pages/list_services.php:9
 msgid "Task Monitor"
-msgstr ""
+msgstr "დავალებების მონიტორი"
 
 #: ../../web/templates/pages/list_services.php:12
 #: ../../web/templates/pages/list_updates.php:29
@@ -2263,17 +2263,17 @@ msgstr "ფაირვოლი"
 
 #: ../../web/templates/pages/list_services.php:26
 msgid "Are you sure you want to restart the server?"
-msgstr ""
+msgstr "ნამდვილად გსურთ სერვერის გადატვირთვა?"
 
 #: ../../web/templates/pages/list_services.php:36
 #: ../../web/templates/pages/list_services.php:113
 msgid "Stop"
-msgstr ""
+msgstr "შეჩერება"
 
 #: ../../web/templates/pages/list_services.php:37
 #: ../../web/templates/pages/list_services.php:120
 msgid "Start"
-msgstr ""
+msgstr "დაწყება"
 
 #: ../../web/templates/pages/list_services.php:62
 msgid "Production Release"
@@ -2295,25 +2295,25 @@ msgstr "აფთაიმი"
 
 #: ../../web/templates/pages/list_services.php:91
 msgid "Services"
-msgstr ""
+msgstr "სერვისები"
 
 #: ../../web/templates/pages/list_services.php:98
 #: ../../web/templates/pages/list_services.php:147
 msgid "Service"
-msgstr ""
+msgstr "სერვისი"
 
 #: ../../web/templates/pages/list_services.php:100
 #: ../../web/templates/pages/list_services.php:192
 #: ../../web/templates/pages/list_updates.php:34
 #: ../../web/templates/pages/list_updates.php:58
 msgid "Description"
-msgstr ""
+msgstr "აღწერა"
 
 #: ../../web/templates/pages/list_services.php:102
 #: ../../web/templates/pages/list_services.php:200
 #: ../../web/templates/pages/list_server_info.php:45
 msgid "CPU"
-msgstr ""
+msgstr "CPU"
 
 #: ../../web/templates/pages/list_services.php:103
 #: ../../web/templates/pages/list_services.php:204
@@ -2331,21 +2331,21 @@ msgstr "რედაქტირება"
 #: ../../web/templates/pages/list_services.php:171
 #, php-format
 msgid "Are you sure you want to restart the %s service?"
-msgstr ""
+msgstr "ნამდვილად გსურთ %s სერვისის გადატვირთვა?"
 
 #: ../../web/templates/pages/list_services.php:183
 #, php-format
 msgid "Are you sure you want to stop the %s service?"
-msgstr ""
+msgstr "ნამდვილად გსურთ %s სერვისის გაჩერება?"
 
 #: ../../web/templates/pages/list_services.php:183
 #, php-format
 msgid "Are you sure you want to start the %s service?"
-msgstr ""
+msgstr "ნამდვილად გსურთ %s სერვისის დაწყება?"
 
 #: ../../web/templates/pages/list_services.php:205
 msgid "MB"
-msgstr ""
+msgstr "მბ"
 
 #: ../../web/templates/pages/list_backup_detail.php:9
 #: ../../web/templates/pages/list_backup_detail_incremental.php:7
@@ -2395,7 +2395,7 @@ msgstr "აღდგენა"
 #: ../../web/templates/pages/list_backup_detail.php:40
 #: ../../web/templates/pages/list_backup_detail_incremental.php:39
 msgid "Backup Details"
-msgstr ""
+msgstr "ბექაპის დეტალები"
 
 #: ../../web/templates/pages/list_backup_detail.php:48
 #: ../../web/templates/pages/list_backup_detail.php:72
@@ -2416,7 +2416,7 @@ msgstr "დეტალები"
 #: ../../web/templates/pages/list_backup_detail.php:69
 #: ../../web/templates/pages/list_backup_detail_incremental.php:65
 msgid "Web Domain"
-msgstr ""
+msgstr "ვებ-დომენები"
 
 #: ../../web/templates/pages/list_backup_detail.php:83
 #: ../../web/templates/pages/list_backup_detail.php:123
@@ -2426,16 +2426,16 @@ msgstr ""
 #: ../../web/templates/pages/list_backup_detail.php:280
 #, php-format
 msgid "Are you sure you want to restore %s?"
-msgstr ""
+msgstr "ნამდვილად გსურთ %s აღდგენა?"
 
 #: ../../web/templates/pages/list_backup_detail.php:109
 #: ../../web/templates/pages/list_backup_detail_incremental.php:99
 msgid "Mail Domain"
-msgstr ""
+msgstr "მაილ დომენი"
 
 #: ../../web/templates/pages/list_backup_detail.php:149
 msgid "DNS Zone"
-msgstr ""
+msgstr "DNS ზონა"
 
 #: ../../web/templates/pages/list_backup_detail.php:189
 #: ../../web/templates/pages/edit_db.php:28
@@ -2465,7 +2465,7 @@ msgstr "კრონის დავალებები"
 msgid "%d item"
 msgid_plural "%d items"
 msgstr[0] "%d ჩანაწერი"
-msgstr[1] ""
+msgstr[1] "%d ჩანაწერი"
 
 #: ../../web/templates/pages/add_user.php:71
 msgid "Send welcome email"
@@ -2483,7 +2483,7 @@ msgstr "პაკეტის სახელი"
 #: ../../web/templates/pages/list_backup.php:9
 #: ../../web/edit/package/index.php:194 ../../web/add/package/index.php:78
 msgid "Incremental Backups"
-msgstr ""
+msgstr "ინკრემენტული ბექაპი"
 
 #: ../../web/templates/pages/edit_package.php:88
 #: ../../web/templates/pages/list_packages.php:73
@@ -2536,7 +2536,7 @@ msgstr "DNS-ის შაბლონი"
 #: ../../web/templates/pages/add_dns.php:111
 #: ../../web/templates/pages/add_package.php:191
 msgid "Name Servers"
-msgstr ""
+msgstr "Name Server-ები"
 
 #: ../../web/templates/pages/edit_package.php:241
 #: ../../web/templates/pages/add_package.php:232
@@ -2553,12 +2553,12 @@ msgstr "სისტემა"
 #: ../../web/templates/pages/edit_package.php:297
 #: ../../web/templates/pages/add_package.php:288
 msgid "System Resources"
-msgstr ""
+msgstr "სისტემის რესურსები"
 
 #: ../../web/templates/pages/edit_package.php:302
 #: ../../web/templates/pages/add_package.php:293
 msgid "CPU Quota (in %)"
-msgstr ""
+msgstr "CPU-ს კვოტა (%-ში)"
 
 #: ../../web/templates/pages/edit_package.php:310
 #: ../../web/templates/pages/add_package.php:301
@@ -2606,7 +2606,7 @@ msgstr "ელფოსტის დომენის დამატება"
 #: ../../web/templates/pages/edit_server.php:381
 #: ../../web/templates/pages/edit_mail.php:86
 msgid "Anti-Virus"
-msgstr ""
+msgstr "ანტი-ვირუსი"
 
 #: ../../web/templates/pages/list_mail.php:80
 #: ../../web/templates/pages/list_mail.php:320
@@ -2614,12 +2614,12 @@ msgstr ""
 #: ../../web/templates/pages/edit_server.php:392
 #: ../../web/templates/pages/edit_mail.php:72
 msgid "Spam Filter"
-msgstr ""
+msgstr "სპამის ფილტრი"
 
 #: ../../web/templates/pages/list_mail.php:81
 #: ../../web/templates/pages/list_mail.php:324
 msgid "DKIM"
-msgstr ""
+msgstr "DKIM"
 
 #: ../../web/templates/pages/list_mail.php:82
 #: ../../web/templates/pages/list_mail.php:328
@@ -2627,35 +2627,35 @@ msgstr ""
 #: ../../web/templates/pages/list_web.php:86
 #: ../../web/templates/pages/list_web.php:336
 msgid "SSL"
-msgstr ""
+msgstr "SSL"
 
 #: ../../web/templates/pages/list_mail.php:98
 #: ../../web/templates/pages/list_dns.php:98
 #: ../../web/templates/pages/list_web.php:100
 #, php-format
 msgid "Are you sure you want to unsuspend domain %s?"
-msgstr ""
+msgstr "ნამდვილად გსურთ %s დომენის შეჩერების გაუქმება?"
 
 #: ../../web/templates/pages/list_mail.php:133
 #: ../../web/templates/pages/list_dns.php:112
 #: ../../web/templates/pages/list_web.php:107
 #, php-format
 msgid "Are you sure you want to suspend domain %s?"
-msgstr ""
+msgstr "ნამდვილად გსურთ %s დომენის შეჩერება?"
 
 #: ../../web/templates/pages/list_mail.php:286
 #: ../../web/templates/pages/list_dns.php:206
 #: ../../web/templates/pages/list_web.php:304
 #, php-format
 msgid "Are you sure you want to delete domain %s?"
-msgstr ""
+msgstr "ნამდვილად გსურთ %s დომენის წაშლა?"
 
 #: ../../web/templates/pages/list_mail.php:337
 #, php-format
 msgid "%d mail domain"
 msgid_plural "%d mail domains"
 msgstr[0] "%d ელ.ფოსტის დომენი"
-msgstr[1] ""
+msgstr[1] "%d ელ.ფოსტის დომენი"
 
 #: ../../web/templates/pages/list_dns_public.php:7
 #: ../../web/templates/pages/list_dns.php:7
@@ -2666,31 +2666,31 @@ msgstr "DNS დომენის დამატება"
 #: ../../web/templates/pages/list_dns.php:170
 #: ../../web/templates/pages/list_dns.php:173
 msgid "View Public DNSSEC Key"
-msgstr ""
+msgstr "DNSSEC ღია გასაღების ნახვა"
 
 #: ../../web/templates/pages/list_dns_public.php:31
 msgid "DNSKEY Record"
-msgstr ""
+msgstr "DNSKEY ჩანაწერი"
 
 #: ../../web/templates/pages/list_dns_public.php:35
 msgid "DS Record"
-msgstr ""
+msgstr "DS ჩანაწერი"
 
 #: ../../web/templates/pages/list_dns_public.php:39
 msgid "Public Key"
-msgstr ""
+msgstr "ღია გასაღები"
 
 #: ../../web/templates/pages/list_dns_public.php:43
 msgid "Key Type / Flag"
-msgstr ""
+msgstr "გასაღები თეგი"
 
 #: ../../web/templates/pages/list_dns_public.php:47
 msgid "Key Tag"
-msgstr ""
+msgstr "გასაღები თეგი"
 
 #: ../../web/templates/pages/list_dns_public.php:51
 msgid "Flag"
-msgstr ""
+msgstr "დროშა"
 
 #: ../../web/templates/pages/list_dns_public.php:55
 msgid "Algorithm"
@@ -2698,41 +2698,41 @@ msgstr "ალგორითმი"
 
 #: ../../web/templates/pages/list_backup_incremental.php:7
 msgid "Create Snapshot"
-msgstr ""
+msgstr "სნაპშოტის შექმნა"
 
 #: ../../web/templates/pages/list_backup_incremental.php:17
 msgid "Delete Snapshot"
-msgstr ""
+msgstr "სნაპშოტის წაშლა"
 
 #: ../../web/templates/pages/list_backup_incremental.php:40
 #: ../../web/templates/pages/edit_server.php:943
 msgid "Snapshots"
-msgstr ""
+msgstr "სნაპშოტები"
 
 #: ../../web/templates/pages/list_backup_incremental.php:47
 #: ../../web/templates/pages/list_backup_incremental.php:68
 #: ../../web/templates/pages/list_backup_incremental.php:71
 msgid "Snapshot"
-msgstr ""
+msgstr "სნაპშოტი"
 
 #: ../../web/templates/pages/list_backup_incremental.php:80
 msgid "Browse"
-msgstr ""
+msgstr "დათვალიერება"
 
 #: ../../web/templates/pages/list_backup_incremental.php:115
 #, php-format
 msgid "%d snapshot"
 msgid_plural "%d snapshots"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d სნაპშოთი"
+msgstr[1] "%d სნაპშოთი"
 
 #: ../../web/templates/pages/list_updates.php:12
 msgid "Disable Automatic Updates"
-msgstr ""
+msgstr "აუტომატური განახლების გათიშვა"
 
 #: ../../web/templates/pages/list_updates.php:16
 msgid "Enable Automatic Updates"
-msgstr ""
+msgstr "აუტომატური განახლების ჩართვა"
 
 #: ../../web/templates/pages/list_updates.php:35
 #: ../../web/templates/pages/list_updates.php:62
@@ -2743,15 +2743,15 @@ msgstr "ვერსია"
 
 #: ../../web/templates/pages/list_updates.php:54
 msgid "Package Names"
-msgstr ""
+msgstr "პაკეტის სახელი"
 
 #: ../../web/templates/pages/list_updates.php:68
 msgid "Update available"
-msgstr ""
+msgstr "განახლება ხელმისაწვდომია"
 
 #: ../../web/templates/pages/list_updates.php:70
 msgid "Package up-to-date"
-msgstr ""
+msgstr "პაკეტი განახლებულია"
 
 #: ../../web/templates/pages/list_access_keys.php:15
 #: ../../web/templates/pages/add_access_key.php:24
@@ -2782,21 +2782,21 @@ msgstr "კომენტარი"
 #: ../../web/templates/pages/list_access_keys.php:103
 #, php-format
 msgid "Are you sure you want to delete access key %s?"
-msgstr ""
+msgstr "ნამდვილად გსურთ %s წვდომის გასაღების წაშლა?"
 
 #: ../../web/templates/pages/list_access_keys.php:129
 #, php-format
 msgid "%d access key"
 msgid_plural "%d access keys"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d წვდომის გასაღები"
+msgstr[1] "%d წვდომის გასაღები"
 
 #: ../../web/templates/pages/edit_server_mysql.php:57
 #: ../../web/templates/pages/edit_server_nginx.php:80
 #: ../../web/templates/pages/edit_server.php:58
 #: ../../web/templates/pages/edit_server_php.php:65
 msgid "Basic Options"
-msgstr ""
+msgstr "საბაზო პარამეტრები"
 
 #: ../../web/templates/pages/add_access_key.php:26
 #: ../../web/templates/pages/list_access_key.php:46
@@ -2936,20 +2936,20 @@ msgstr "არა"
 #: ../../web/templates/pages/edit_whitelabel.php:119
 #: ../../web/templates/pages/edit_whitelabel.php:124
 msgid "Custom Logo"
-msgstr ""
+msgstr "მომხმარებლის ლოგო"
 
 #: ../../web/templates/pages/edit_whitelabel.php:128
 #, php-format
 msgid "Upload the files to %s"
-msgstr ""
+msgstr "%s-ში ფაილების ატვირთვა"
 
 #: ../../web/templates/pages/edit_whitelabel.php:140
 msgid "Update logo"
-msgstr ""
+msgstr "ლოგოს განახლება"
 
 #: ../../web/templates/pages/edit_whitelabel.php:146
 msgid "Reset Logo"
-msgstr ""
+msgstr "ლოგოს რესეტი"
 
 #: ../../web/templates/pages/list_dns.php:25
 msgid "Expire"
@@ -2958,7 +2958,7 @@ msgstr "ვადა"
 #: ../../web/templates/pages/list_dns.php:43
 #: ../../web/templates/pages/list_web.php:43
 msgid "Rebuild"
-msgstr ""
+msgstr "რებილდი"
 
 #: ../../web/templates/pages/list_dns.php:81
 #: ../../web/templates/pages/list_dns.php:224
@@ -2971,7 +2971,7 @@ msgstr "შაბლონი"
 #: ../../web/templates/pages/list_dns.php:234
 #: ../../web/templates/pages/edit_dns.php:82
 msgid "SOA"
-msgstr ""
+msgstr "SOA"
 
 #: ../../web/templates/pages/list_dns.php:84
 #: ../../web/templates/pages/list_dns.php:238
@@ -2996,14 +2996,14 @@ msgstr "DNS ჩანაწერის დამატება"
 msgid "%d DNS zone"
 msgid_plural "%d DNS zones"
 msgstr[0] "%d DNS ზონა"
-msgstr[1] ""
+msgstr[1] "%d DNS ზონა"
 
 #: ../../web/templates/pages/edit_ip.php:32
 #: ../../web/templates/pages/list_ip.php:95
 #: ../../web/templates/pages/list_ip.php:105
 #: ../../web/templates/pages/list_ip.php:108
 msgid "Edit IP Address"
-msgstr ""
+msgstr "IP მისამართის რედაქტირება"
 
 #: ../../web/templates/pages/edit_ip.php:40
 #: ../../web/templates/pages/list_ip.php:28
@@ -3047,7 +3047,7 @@ msgstr "NAT IP ასოციაცია"
 #: ../../web/templates/pages/edit_mail.php:120
 #: ../../web/templates/pages/list_ssl.php:7
 msgid "Generate Self-Signed SSL Certificate"
-msgstr ""
+msgstr "თვით ხელმოწერილი SSL სერტიფიკატის გენერირება"
 
 #: ../../web/templates/pages/generate_ssl.php:27
 #: ../../web/templates/pages/add_firewall_ipset.php:49
@@ -3057,7 +3057,7 @@ msgstr "ქვეყანა"
 
 #: ../../web/templates/pages/generate_ssl.php:28
 msgid "ISO 3166-1 alpha-2 two-letter code"
-msgstr ""
+msgstr "ISO 3166-1 alpha-2 two-letter code"
 
 #: ../../web/templates/pages/generate_ssl.php:34
 msgid "State / Province"
@@ -3089,12 +3089,12 @@ msgstr "IP მისამართის დაბლოკვა"
 #: ../../web/templates/pages/list_firewall_banlist.php:30
 #: ../../web/templates/pages/list_firewall.php:13
 msgid "Banned IP Addresses"
-msgstr ""
+msgstr "დაბლოკილი IP მისამართები"
 
 #: ../../web/templates/pages/list_firewall_banlist.php:41
 #: ../../web/templates/pages/list_firewall_banlist.php:86
 msgid "Chain"
-msgstr ""
+msgstr "ჯაჭვი"
 
 #: ../../web/templates/pages/list_firewall_banlist.php:69
 #: ../../web/templates/pages/list_ip.php:117
@@ -3111,7 +3111,7 @@ msgstr "ახლა არ არის დაბლოკილი IP მი�
 msgid "%d banned IP address"
 msgid_plural "%d banned IP addresses"
 msgstr[0] "%d ბლოკირებული IP მისამართი"
-msgstr[1] ""
+msgstr[1] "%d ბლოკირებული IP მისამართი"
 
 #: ../../web/templates/pages/list_packages.php:9
 #: ../../web/templates/pages/add_package.php:29
@@ -3128,23 +3128,23 @@ msgstr "შელი"
 #: ../../web/templates/pages/list_packages.php:150
 #: ../../web/templates/pages/list_packages.php:153
 msgid "Duplicate"
-msgstr ""
+msgstr "დუბლირება"
 
 #: ../../web/templates/pages/list_packages.php:163
 #, php-format
 msgid "Are you sure you want to delete package %s?"
-msgstr ""
+msgstr "ნამდვილად გსურთ %s პაკეტის წაშლა?"
 
 #: ../../web/templates/pages/list_packages.php:310
 #, php-format
 msgid "%d package"
 msgid_plural "%d packages"
 msgstr[0] "%d პაკეტი"
-msgstr[1] ""
+msgstr[1] "%d პაკეტი"
 
 #: ../../web/templates/pages/add_mail.php:39
 msgid "a mail domain"
-msgstr ""
+msgstr "მაილის დომენი"
 
 #: ../../web/templates/pages/add_mail.php:55
 #: ../../web/templates/pages/edit_mail.php:44
@@ -3154,7 +3154,7 @@ msgstr "ვებფოსტის კლიენტი"
 #: ../../web/templates/pages/add_mail.php:79
 #: ../../web/templates/pages/edit_mail.php:78
 msgid "Reject Spam"
-msgstr ""
+msgstr "სპამის უარყოფა"
 
 #: ../../web/templates/pages/add_mail.php:94
 #: ../../web/templates/pages/edit_mail.php:93
@@ -3164,7 +3164,7 @@ msgstr "DKIM მხარდაჭერა"
 #: ../../web/templates/pages/add_mail.php:100
 #: ../../web/templates/pages/edit_mail.php:174
 msgid "SMTP Relay"
-msgstr ""
+msgstr "SMTP რელე"
 
 #: ../../web/templates/pages/add_mail.php:105
 #: ../../web/templates/pages/edit_db.php:60
@@ -3178,11 +3178,11 @@ msgstr ""
 #: ../../web/templates/pages/add_db.php:105
 #: ../../web/templates/pages/edit_mail.php:179 ../../web/add/db/index.php:29
 msgid "Host"
-msgstr ""
+msgstr "ჰოსტი"
 
 #: ../../web/templates/pages/list_access_key.php:31
 msgid "Access Key ID"
-msgstr ""
+msgstr "წვდომის გასაღების ID"
 
 #: ../../web/templates/pages/list_access_key.php:39
 msgid "Secret Key"
@@ -3190,11 +3190,11 @@ msgstr "საიდუმლო გასაღები"
 
 #: ../../web/templates/pages/list_access_key.php:40
 msgid "Warning! Last chance to save secret key!"
-msgstr ""
+msgstr "გაფრთხილება! საიდუმლო გასაღების შენახვის ბოლო შანსი!"
 
 #: ../../web/templates/pages/list_server_preview.php:15
 msgid "Preview Features"
-msgstr ""
+msgstr "გადახედვის ფუნქციები"
 
 #: ../../web/templates/pages/list_server_preview.php:35
 msgid "Policy"
@@ -3207,7 +3207,7 @@ msgstr "ნება დართე დაპაუზებულ მომხ
 
 #: ../../web/templates/pages/list_server_preview.php:39
 msgid "Partially implemented"
-msgstr ""
+msgstr "ნაწილობრივ განხორციელებული"
 
 #: ../../web/templates/pages/list_stats.php:6
 msgid "Overall Statistics"
@@ -3215,12 +3215,12 @@ msgstr "საერთო სტატისტიკა"
 
 #: ../../web/templates/pages/list_stats.php:14
 msgid "Show Per User"
-msgstr ""
+msgstr "ჩვენება მომხმარებლის მიხედვით"
 
 #: ../../web/templates/pages/list_stats.php:82
 #: ../../web/templates/pages/list_ip.php:59
 msgid "IP Addresses"
-msgstr ""
+msgstr "IP მისამართები"
 
 #: ../../web/templates/pages/list_stats.php:106
 #: ../../web/templates/pages/list_server_info.php:70
@@ -3241,15 +3241,15 @@ msgstr "SSL დომენები"
 msgid "%d month"
 msgid_plural "%d months"
 msgstr[0] "%d თვე"
-msgstr[1] ""
+msgstr[1] "%d თვე"
 
 #: ../../web/templates/pages/add_dns.php:34
 msgid "Add DNS Zone"
-msgstr ""
+msgstr "DNS ზონის დამატება"
 
 #: ../../web/templates/pages/add_dns.php:39
 msgid "a dns domain"
-msgstr ""
+msgstr "dns დომენი"
 
 #: ../../web/templates/pages/list_ip.php:9
 #: ../../web/templates/pages/add_ip.php:32
@@ -3258,23 +3258,23 @@ msgstr "IP მისამართის დამატება"
 
 #: ../../web/templates/pages/list_ip.php:44
 msgid "Refresh IP Addresses"
-msgstr ""
+msgstr "IP მისამართის განახლება"
 
 #: ../../web/templates/pages/list_ip.php:151
 #, php-format
 msgid "%d IP address"
 msgid_plural "%d IP addresses"
 msgstr[0] "%d IP მისამართი"
-msgstr[1] ""
+msgstr[1] "%d IP მისამართი"
 
 #: ../../web/templates/pages/list_server_info.php:19
 #: ../../web/templates/pages/list_server_info.php:20
 msgid "Hestia Control Panel"
-msgstr ""
+msgstr "Hestia მართვის პანელი"
 
 #: ../../web/templates/pages/list_server_info.php:51
 msgid "RAM"
-msgstr ""
+msgstr "RAM"
 
 #: ../../web/templates/pages/list_server_info.php:63
 #: ../../web/templates/pages/edit_server.php:9
@@ -3286,13 +3286,13 @@ msgstr "ქსელი"
 #: ../../web/templates/pages/list_db.php:177
 #: ../../web/templates/pages/list_db.php:180
 msgid "Edit Database"
-msgstr ""
+msgstr "ბაზის რედაქტირება"
 
 #: ../../web/templates/pages/edit_db.php:35
 #: ../../web/templates/pages/add_db.php:72
 #, php-format
 msgid "Maximum %s characters length, including prefix"
-msgstr ""
+msgstr "მაქსიმალური %s სიმბოლო, პრეფიქსის ჩათვლით"
 
 #: ../../web/templates/pages/edit_db.php:64
 #: ../../web/templates/pages/list_db.php:50
@@ -3310,7 +3310,7 @@ msgstr "კრონის დავალების დამატება"
 #: ../../web/templates/pages/add_cron.php:28
 #: ../../web/templates/pages/edit_cron.php:28
 msgid "System time"
-msgstr ""
+msgstr "სისტემის დრო"
 
 #: ../../web/templates/pages/add_cron.php:36
 #: ../../web/templates/pages/edit_cron.php:36
@@ -3370,7 +3370,7 @@ msgstr "თვე"
 #: ../../web/templates/pages/list_cron.php:83
 #: ../../web/templates/pages/list_cron.php:184 ../../web/add/cron/index.php:29
 msgid "Day of Week"
-msgstr ""
+msgstr "კვირის დღე"
 
 #: ../../web/templates/pages/add_cron.php:65
 #: ../../web/templates/pages/edit_cron.php:65
@@ -3399,7 +3399,7 @@ msgstr "ბრძანების გაშვება"
 #: ../../web/templates/pages/add_cron.php:80
 #: ../../web/templates/pages/edit_cron.php:80
 msgid "Every minute"
-msgstr ""
+msgstr "ყოველ წუთში"
 
 #: ../../web/templates/pages/add_cron.php:81
 #: ../../web/templates/pages/add_cron.php:82
@@ -3413,12 +3413,12 @@ msgstr ""
 #: ../../web/templates/pages/edit_cron.php:85
 #, php-format
 msgid "Every %s minutes"
-msgstr ""
+msgstr "ყოველ %s წუთში"
 
 #: ../../web/templates/pages/add_cron.php:103
 #: ../../web/templates/pages/edit_cron.php:103
 msgid "Every hour"
-msgstr ""
+msgstr "ყოველ საათში"
 
 #: ../../web/templates/pages/add_cron.php:104
 #: ../../web/templates/pages/add_cron.php:105
@@ -3428,24 +3428,24 @@ msgstr ""
 #: ../../web/templates/pages/edit_cron.php:106
 #, php-format
 msgid "Every %s hours"
-msgstr ""
+msgstr "ყოველ %s საათში"
 
 #: ../../web/templates/pages/add_cron.php:132
 #: ../../web/templates/pages/add_cron.php:201
 #: ../../web/templates/pages/edit_cron.php:132
 #: ../../web/templates/pages/edit_cron.php:201
 msgid "Every day"
-msgstr ""
+msgstr "ყოველ დღე"
 
 #: ../../web/templates/pages/add_cron.php:133
 #: ../../web/templates/pages/edit_cron.php:133
 msgid "Every odd day"
-msgstr ""
+msgstr "ყოველ კენტ რიცხვში"
 
 #: ../../web/templates/pages/add_cron.php:134
 #: ../../web/templates/pages/edit_cron.php:134
 msgid "Every even day"
-msgstr ""
+msgstr "ყოველ ლუწ რიცხვში"
 
 #: ../../web/templates/pages/add_cron.php:135
 #: ../../web/templates/pages/add_cron.php:136
@@ -3457,7 +3457,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_cron.php:138
 #, php-format
 msgid "Every %s days"
-msgstr ""
+msgstr "ყოველ %s დღეში"
 
 #: ../../web/templates/pages/add_cron.php:202
 #: ../../web/templates/pages/edit_cron.php:202
@@ -3512,12 +3512,12 @@ msgstr "ყოველ თვე"
 #: ../../web/templates/pages/add_cron.php:273
 #: ../../web/templates/pages/edit_cron.php:273
 msgid "Every odd month"
-msgstr ""
+msgstr "ყოველ კენ თვეში"
 
 #: ../../web/templates/pages/add_cron.php:274
 #: ../../web/templates/pages/edit_cron.php:274
 msgid "Every even month"
-msgstr ""
+msgstr "ყოველ ლუწ თვეში"
 
 #: ../../web/templates/pages/add_cron.php:275
 #: ../../web/templates/pages/add_cron.php:276
@@ -3525,7 +3525,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_cron.php:276
 #, php-format
 msgid "Every %s months"
-msgstr ""
+msgstr "ყოველ %s თვეში"
 
 #: ../../web/templates/pages/add_cron.php:277
 #: ../../web/templates/pages/edit_cron.php:277
@@ -3589,11 +3589,11 @@ msgstr "დეკ"
 
 #: ../../web/templates/pages/add_firewall_ipset.php:61
 msgid "Block Malicious IPs"
-msgstr ""
+msgstr "მავნე IP-ების ბლოკირება"
 
 #: ../../web/templates/pages/add_firewall_ipset.php:68
 msgid "Add IPset IP List for Firewall"
-msgstr ""
+msgstr "Firewall-ში IPset IP სიის დამატება"
 
 #: ../../web/templates/pages/add_firewall_ipset.php:76
 #: ../../web/add/firewall/ipset/index.php:26
@@ -3602,7 +3602,7 @@ msgstr "მონაცემთა წყარო"
 
 #: ../../web/templates/pages/add_firewall_ipset.php:76
 msgid "URL, script or file"
-msgstr ""
+msgstr "URL, სკრიფტი ან ფაილი"
 
 #: ../../web/templates/pages/add_firewall_ipset.php:86
 #: ../../web/templates/pages/edit_firewall.php:59
@@ -3631,37 +3631,37 @@ msgstr "ყველას შეჩერების გაუქმება"
 #: ../../web/templates/pages/list_db.php:129
 #, php-format
 msgid "Are you sure you want to unsuspend database %s?"
-msgstr ""
+msgstr "ნამდვილად გსურთ მონაცემთა ბაზის %s-ის შეჩერების გაუქმება?"
 
 #: ../../web/templates/pages/list_db.php:136
 #, php-format
 msgid "Are you sure you want to suspend database %s?"
-msgstr ""
+msgstr "ნამდვილად გსურთ %s-ის მონაცემთა ბაზის შეჩერები?"
 
 #: ../../web/templates/pages/list_db.php:200
 #: ../../web/templates/pages/list_db.php:203
 msgid "Download Database"
-msgstr ""
+msgstr "მონაცემთა ბაზის გადმოწერა"
 
 #: ../../web/templates/pages/list_db.php:224
 #, php-format
 msgid "Are you sure you want to delete database %s?"
-msgstr ""
+msgstr "ნამდვილად გსურთ %s-ის მონაცემთა ბაზის წაშლა?"
 
 #: ../../web/templates/pages/list_db.php:264
 #, php-format
 msgid "%d database"
 msgid_plural "%d databases"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d მონაცემთა ბაზა"
+msgstr[1] "%d მონაცემთა ბაზა"
 
 #: ../../web/templates/pages/add_mail_acc.php:88
 msgid "One or more email addresses"
-msgstr ""
+msgstr "ერთი ან მეტი ელ-ფოსტის მისამართი"
 
 #: ../../web/templates/pages/edit_server.php:12
 msgid "White Label"
-msgstr ""
+msgstr "თეთრი ეტიკეტი"
 
 #: ../../web/templates/pages/edit_server.php:15
 #: ../../web/edit/server/hestiaweb/index.php:34
@@ -3706,11 +3706,11 @@ msgstr "ნახვა"
 
 #: ../../web/templates/pages/edit_server.php:194
 msgid "Send email notification when an update has been installed"
-msgstr ""
+msgstr "განახლების ინსტალაციისას ელფოსტაზე შეტყობინების გაგზავნა"
 
 #: ../../web/templates/pages/edit_server.php:206
 msgid "Send update installation log by email"
-msgstr ""
+msgstr "ინსტალაციის ლოგის ელ-ფოსტით გაგზავნა"
 
 #: ../../web/templates/pages/edit_server.php:215
 #: ../../web/templates/pages/edit_server.php:231
@@ -3735,11 +3735,11 @@ msgstr "PHP-ის ვერსიების ჩართვა"
 
 #: ../../web/templates/pages/edit_server.php:266
 msgid "It may take a few minutes to save your changes. Please wait until the process has completed and do not refresh the page."
-msgstr ""
+msgstr "ცვლილებების შენახვას შეიძლება რამდენიმე წუთი დასჭირდეს. გთხოვთ, დაელოდოთ პროცესის დასრულებას და არ განაახლოთ გვერდი."
 
 #: ../../web/templates/pages/edit_server.php:299
 msgid "System PHP Version"
-msgstr ""
+msgstr "სისტემის PHP ვერსია"
 
 #: ../../web/templates/pages/edit_server.php:322
 #: ../../web/templates/pages/edit_server.php:326
@@ -3787,7 +3787,7 @@ msgstr "მონაცემთა ბაზების მაქსიმა�
 #: ../../web/templates/pages/edit_server.php:592
 #: ../../web/templates/pages/edit_server.php:643
 msgid "Current Number of Databases"
-msgstr ""
+msgstr "მონაცემთა ბაზების რაოდენობა"
 
 #: ../../web/templates/pages/edit_server.php:609
 msgid "PostgreSQL Support"
@@ -3823,7 +3823,7 @@ msgstr "დირექტორია"
 
 #: ../../web/templates/pages/edit_server.php:744
 msgid "Remote Backup"
-msgstr ""
+msgstr "დისტანციური ბექაპი"
 
 #: ../../web/templates/pages/edit_server.php:750
 #: ../../web/templates/pages/edit_firewall.php:35
@@ -3837,27 +3837,27 @@ msgstr "პროტოკოლი"
 
 #: ../../web/templates/pages/edit_server.php:917
 msgid "Enable incremental backup"
-msgstr ""
+msgstr "ინკრემენტალური ბექაპის ჩართვა"
 
 #: ../../web/templates/pages/edit_server.php:931
 msgid "Repository"
-msgstr ""
+msgstr "რეპოზიტორია"
 
 #: ../../web/templates/pages/edit_server.php:955
 msgid "Keep last daily backups"
-msgstr ""
+msgstr "ბოლო დღიური ბექაპის შენახვა"
 
 #: ../../web/templates/pages/edit_server.php:967
 msgid "Keep last weekly backups"
-msgstr ""
+msgstr "ბოლო კვირეული ბექაპის შენახვა"
 
 #: ../../web/templates/pages/edit_server.php:979
 msgid "Keep last monthly backups"
-msgstr ""
+msgstr "ბოლო თვიური ბექაპის შენახვა"
 
 #: ../../web/templates/pages/edit_server.php:991
 msgid "Keep last yearly backups"
-msgstr ""
+msgstr "ბოლო წლიური ბექაპის შენახვა"
 
 #: ../../web/templates/pages/edit_server.php:1013
 #: ../../web/templates/pages/edit_web.php:195
@@ -3871,49 +3871,49 @@ msgstr "SSL სერტიფიკატები"
 #: ../../web/templates/pages/edit_mail.php:125
 #: ../../web/templates/pages/list_ssl.php:46
 msgid "SSL Private Key"
-msgstr ""
+msgstr "SSL პირადი გასაღები"
 
 #: ../../web/templates/pages/edit_server.php:1043
 #: ../../web/templates/pages/edit_web.php:214
 #: ../../web/templates/pages/edit_mail.php:138
 msgid "Issued To"
-msgstr ""
+msgstr "გაცემულია"
 
 #: ../../web/templates/pages/edit_server.php:1048
 #: ../../web/templates/pages/edit_web.php:220
 #: ../../web/templates/pages/edit_mail.php:144
 msgid "Alternate"
-msgstr ""
+msgstr "ალტერნატივი"
 
 #: ../../web/templates/pages/edit_server.php:1053
 #: ../../web/templates/pages/edit_web.php:225
 #: ../../web/templates/pages/edit_mail.php:149
 msgid "Not Before"
-msgstr ""
+msgstr "არაადრეული"
 
 #: ../../web/templates/pages/edit_server.php:1057
 #: ../../web/templates/pages/edit_web.php:229
 #: ../../web/templates/pages/edit_mail.php:153
 msgid "Not After"
-msgstr ""
+msgstr "არაუგვიანეს"
 
 #: ../../web/templates/pages/edit_server.php:1061
 #: ../../web/templates/pages/edit_web.php:233
 #: ../../web/templates/pages/edit_mail.php:157
 msgid "Signature"
-msgstr ""
+msgstr "ხელმოწერა"
 
 #: ../../web/templates/pages/edit_server.php:1065
 #: ../../web/templates/pages/edit_web.php:237
 #: ../../web/templates/pages/edit_mail.php:161
 msgid "Key Size"
-msgstr ""
+msgstr "გასაღების ზომა"
 
 #: ../../web/templates/pages/edit_server.php:1069
 #: ../../web/templates/pages/edit_web.php:241
 #: ../../web/templates/pages/edit_mail.php:165
 msgid "Issued By"
-msgstr ""
+msgstr "გამომცემი"
 
 #: ../../web/templates/pages/edit_server.php:1079
 msgid "Security"
@@ -4023,15 +4023,15 @@ msgstr "წინასწარ დათვალიერება"
 
 #: ../../web/templates/pages/edit_server.php:1379
 msgid "Allow suspended users to create new backups"
-msgstr ""
+msgstr "შეჩერებული მომხმარებლებისთვის ბექაპიების გაკეთების უფლები მიცემა"
 
 #: ../../web/templates/pages/edit_server.php:1396
 msgid "Sync Error document templates on user rebuild"
-msgstr ""
+msgstr "სინქრონიზაციის შეცდომა. დოკუმენტის შაბლონები მომხმარებლის ხელახლა შექმნისას"
 
 #: ../../web/templates/pages/edit_server.php:1413
 msgid "Sync Skeleton templates"
-msgstr ""
+msgstr "ჩონჩხის შაბლონების სინქრონიზაცია"
 
 #: ../../web/templates/pages/edit_server.php:1433
 msgid "Enforce subdomain ownership"
@@ -4039,40 +4039,40 @@ msgstr "ქვედომენების მფლობელობის �
 
 #: ../../web/templates/pages/edit_server.php:1457
 msgid "Plugins"
-msgstr ""
+msgstr "პლაგინები"
 
 #: ../../web/templates/pages/edit_server.php:1462
 msgid "Quick App Installer"
-msgstr "სწრაფი აპლიკაციების ინსტალატორი"
+msgstr "აპლიკაციების სწრაფი ინსტალატორი"
 
 #: ../../web/templates/pages/edit_server.php:1475
 msgid "File Manager"
-msgstr ""
+msgstr "ფაილების მენეჯერი"
 
 #: ../../web/templates/pages/edit_server.php:1488
 msgid "Web Terminal"
-msgstr ""
+msgstr "ვებ ტერმინალი"
 
 #: ../../web/templates/pages/edit_server.php:1501
 msgid "Limit System Resources"
-msgstr ""
+msgstr "სისტემის რესურსები ლიმიტი"
 
 #: ../../web/templates/pages/edit_server.php:1514
 msgid "File System Disk Quota"
-msgstr ""
+msgstr "ფაილური სისტემის დისკის კვოტა"
 
 #: ../../web/templates/pages/list_webapps.php:16
 #: ../../web/templates/pages/edit_web.php:15
 msgid "Quick Install App"
-msgstr ""
+msgstr "აპლიკაციის სწრაფი ინსტალაცია"
 
 #: ../../web/templates/pages/list_webapps.php:29
 msgid "Setup"
-msgstr ""
+msgstr "ინსტალაცია"
 
 #: ../../web/templates/pages/add_db.php:39
 msgid "a database"
-msgstr ""
+msgstr "მონაცემთა ბაზა"
 
 #: ../../web/templates/pages/add_db.php:50
 #, php-format
@@ -4081,15 +4081,15 @@ msgstr "პრეფიქსი %s ავტომატურად დაე�
 
 #: ../../web/templates/pages/edit_web.php:11
 msgid "Purge NGINX Cache"
-msgstr ""
+msgstr "NGINX ქეშის გასუფთავება"
 
 #: ../../web/templates/pages/edit_web.php:49
 msgid "Edit Web Domain"
-msgstr ""
+msgstr "დომენის რედაქტირება"
 
 #: ../../web/templates/pages/edit_web.php:63
 msgid "If the aliases changes, Let's Encrypt will obtain a new SSL certificate."
-msgstr ""
+msgstr "ალიასის ცვლილების შემთხვევაში, Let's Encrypt SSL სერტიფიკატი განახლდება."
 
 #: ../../web/templates/pages/edit_web.php:79
 msgid "Web Statistics"
@@ -4124,20 +4124,20 @@ msgstr "სტატუსის კოდი"
 #: ../../web/templates/pages/edit_web.php:167
 #: ../../web/templates/pages/edit_mail.php:99
 msgid "Enable SSL for this domain"
-msgstr ""
+msgstr "SSL -ის გააქტიურება"
 
 #: ../../web/templates/pages/edit_web.php:174
 #: ../../web/templates/pages/edit_mail.php:106
 msgid "Use Let's Encrypt to obtain SSL certificate"
-msgstr ""
+msgstr "Let's Encrypt გამოყენება, SSL სერტიფიკატის მისაღება"
 
 #: ../../web/templates/pages/edit_web.php:180
 msgid "Enable automatic HTTPS redirection"
-msgstr ""
+msgstr "HTTPS აუტომატური გადამისამართება"
 
 #: ../../web/templates/pages/edit_web.php:186
 msgid "Enable HTTP Strict Transport Security (HSTS)"
-msgstr ""
+msgstr "HTTP Strict Transport Security (HSTS) გამოყენება"
 
 #: ../../web/templates/pages/edit_web.php:206
 #: ../../web/templates/pages/edit_mail.php:130
@@ -4155,7 +4155,7 @@ msgstr "სერტიფიკატის ნახვა"
 
 #: ../../web/templates/pages/edit_web.php:284
 msgid "Enable FastCGI cache"
-msgstr ""
+msgstr "FastCGI ქეშის გასუფთავება"
 
 #: ../../web/templates/pages/edit_web.php:293
 msgid "Cache Duration"
@@ -4179,7 +4179,7 @@ msgstr "მიმართავს"
 
 #: ../../web/templates/pages/edit_web.php:387
 msgid "Additional FTP account(s)"
-msgstr ""
+msgstr "დამატებით FTP ანგარიში"
 
 #: ../../web/templates/pages/edit_web.php:409
 #: ../../web/templates/pages/edit_web.php:463
@@ -4199,14 +4199,14 @@ msgstr "FTP ანგარიშის დეტალების ელფო
 
 #: ../../web/templates/pages/edit_web.php:442
 msgid "Add FTP account"
-msgstr ""
+msgstr "FTP ანგარიშის დამატება"
 
 #: ../../web/templates/pages/edit_firewall.php:25
 #: ../../web/templates/pages/list_firewall.php:112
 #: ../../web/templates/pages/list_firewall.php:128
 #: ../../web/templates/pages/list_firewall.php:131
 msgid "Edit Firewall Rule"
-msgstr ""
+msgstr "Firewall წესის რედაქტირება"
 
 #: ../../web/templates/pages/edit_firewall.php:28
 #: ../../web/templates/pages/add_firewall.php:28
@@ -4231,7 +4231,7 @@ msgstr "მიღება"
 #: ../../web/templates/pages/edit_firewall.php:44
 #: ../../web/templates/pages/add_firewall.php:44
 msgid "Ranges and lists are acceptable"
-msgstr ""
+msgstr "დიაპაზონები და სიები მისაღებია"
 
 #: ../../web/templates/pages/edit_firewall.php:46
 #: ../../web/templates/pages/add_firewall.php:46
@@ -4241,7 +4241,7 @@ msgstr "ყველა პორტი: 0, დიაპაზონი: 80-82, 
 #: ../../web/templates/pages/edit_firewall.php:50
 #: ../../web/templates/pages/add_firewall.php:50
 msgid "IP Address / IPset IP List"
-msgstr ""
+msgstr "IP მისამართები / IPset IP მისამართების სია"
 
 #: ../../web/templates/pages/list_backup.php:6
 msgid "Create Backup"
@@ -4250,7 +4250,7 @@ msgstr "მარქაფის შექმნა"
 #: ../../web/templates/pages/list_backup.php:47
 #: ../../web/templates/pages/list_backup.php:81
 msgid "File Name"
-msgstr ""
+msgstr "ფაილის სახელი"
 
 #: ../../web/templates/pages/list_backup.php:50
 #: ../../web/templates/pages/list_backup.php:137
@@ -4260,19 +4260,19 @@ msgstr "ზომა"
 #: ../../web/templates/pages/list_backup.php:52
 #: ../../web/templates/pages/list_backup.php:150
 msgid "Runtime"
-msgstr ""
+msgstr "მოქმედების დრო"
 
 #: ../../web/templates/pages/list_backup.php:120
 #, php-format
 msgid "Are you sure you want to delete backup %s?"
-msgstr ""
+msgstr "ნამდვილად გსურთ %s ბექაპის წაშლა?"
 
 #: ../../web/templates/pages/list_backup.php:159
 #, php-format
 msgid "%d backup"
 msgid_plural "%d backups"
 msgstr[0] "%d მარქაფი"
-msgstr[1] ""
+msgstr[1] "%d მარქაფი"
 
 #: ../../web/templates/pages/login/reset2fa.php:8
 msgid "Account Unlocked"
@@ -4280,7 +4280,7 @@ msgstr "ანგარიში განიბლოკა"
 
 #: ../../web/templates/pages/login/reset2fa.php:11
 msgid "Two-factor authentication is now turned off for your account.<br><br>You may now proceed to log in."
-msgstr ""
+msgstr "2FA ავტორიზაცია გაითიშა თქვენს ანგარიშზე. თქვენ შეგიძლია გააგრძელოთ ავტოზაცია"
 
 #: ../../web/templates/pages/login/reset2fa.php:13
 msgid "Log in"
@@ -4288,7 +4288,7 @@ msgstr "შესვლა"
 
 #: ../../web/templates/pages/login/reset2fa.php:21
 msgid "Unlock Account"
-msgstr ""
+msgstr "ანგარიშის განბლოკვა"
 
 #: ../../web/templates/pages/login/reset2fa.php:31
 msgid "2FA Reset Code"
@@ -4305,11 +4305,11 @@ msgstr "გადაცემა"
 #: ../../web/templates/pages/login/login_1.php:15
 #: ../../web/templates/pages/login/reset_3.php:7
 msgid "Forgot Password"
-msgstr ""
+msgstr "პაროლის აღდგენა"
 
 #: ../../web/templates/pages/login/login_2.php:8
 msgid "Two-factor Authentication"
-msgstr ""
+msgstr "2FA ავტორიზაცია"
 
 #: ../../web/templates/pages/login/login_2.php:15
 msgid "2FA Token"
@@ -4317,13 +4317,13 @@ msgstr "OTP PIN"
 
 #: ../../web/templates/pages/login/login_2.php:17
 msgid "Forgot Token"
-msgstr ""
+msgstr "აღდგენის ტოკენი"
 
 #: ../../web/templates/pages/login/login_a.php:8
 #: ../../web/templates/pages/login/login.php:8 ../../web/add/user/index.php:175
 #, php-format
 msgid "Welcome to %s"
-msgstr ""
+msgstr "მოგესალმებით %s"
 
 #: ../../web/templates/pages/login/login_a.php:29
 #: ../../web/templates/pages/login/login.php:18
@@ -4332,7 +4332,7 @@ msgstr "შემდეგი"
 
 #: ../../web/templates/pages/login/reset_2.php:13
 msgid "Password reset code has been sent to your email address"
-msgstr ""
+msgstr "პაროლის განახლების ინსტრუქცია გამოიგზავნა თქვენს ელ-ფოსტაზე"
 
 #: ../../web/templates/pages/login/reset_2.php:19
 msgid "Reset Code"
@@ -4360,35 +4360,35 @@ msgstr "ჩამოყრა"
 
 #: ../../web/templates/pages/list_files_incremental.php:24
 msgid "Restore Files"
-msgstr ""
+msgstr "ფაილების აღდგენა"
 
 #: ../../web/templates/pages/list_files_incremental.php:46
 msgid "Files"
-msgstr ""
+msgstr "ფაილი"
 
 #: ../../web/templates/pages/list_files_incremental.php:119
 msgid "Date / Time"
-msgstr ""
+msgstr "თარიღი / დრო"
 
 #: ../../web/templates/pages/list_backup_detail_incremental.php:16
 msgid "Restore Snapshot"
-msgstr ""
+msgstr "სნაპშოთის აღდგენა"
 
 #: ../../web/templates/pages/list_backup_detail_incremental.php:133
 msgid "DNS Domain"
-msgstr ""
+msgstr "დომენის DNS"
 
 #: ../../web/templates/pages/list_backup_detail_incremental.php:201
 msgid "Cronjob"
-msgstr ""
+msgstr "ქრონის დავალება"
 
 #: ../../web/templates/pages/edit_mail.php:59
 msgid "Catch-All Email"
-msgstr ""
+msgstr "Catch-All ელ-ფოსტა"
 
 #: ../../web/templates/pages/edit_mail.php:64
 msgid "email / hour / account"
-msgstr ""
+msgstr "მაილი / საათში / ექაუნთზე"
 
 #: ../../web/templates/pages/edit_mail.php:113
 #, php-format
@@ -4397,44 +4397,44 @@ msgstr "Let's Encrypt SSL-ის ჩასართავად, დარწმ
 
 #: ../../web/templates/pages/add_firewall.php:25
 msgid "Add Firewall Rule"
-msgstr ""
+msgstr "Firewall წესის დამატება"
 
 #: ../../web/templates/pages/list_web.php:48
 msgid "Purge Nginx Cache"
-msgstr ""
+msgstr "Nginx ქეშის გასუფთავება"
 
 #: ../../web/templates/pages/list_web.php:214
 #: ../../web/templates/pages/list_web.php:259
 #: ../../web/templates/pages/list_web.php:262
 msgid "Edit Domain"
-msgstr ""
+msgstr "დომენის რედაქტირება"
 
 #: ../../web/templates/pages/list_web.php:247
 #: ../../web/templates/pages/list_web.php:250
 msgid "Visit"
-msgstr ""
+msgstr "ვიზიტი"
 
 #: ../../web/templates/pages/list_web.php:269
 #: ../../web/templates/pages/list_web.php:272
 msgid "Download Site"
-msgstr ""
+msgstr "საიტის გადმოწერა"
 
 #: ../../web/templates/pages/list_web.php:349
 #, php-format
 msgid "%d web domain"
 msgid_plural "%d web domains"
 msgstr[0] "%d ვებ დომენი"
-msgstr[1] ""
+msgstr[1] "%d ვებ დომენი"
 
 #: ../../web/templates/pages/list_cron.php:11
 #: ../../web/templates/pages/list_cron.php:42
 msgid "Disable Notifications"
-msgstr ""
+msgstr "შეტყობინების გათიშვა"
 
 #: ../../web/templates/pages/list_cron.php:15
 #: ../../web/templates/pages/list_cron.php:43
 msgid "Enable Notifications"
-msgstr ""
+msgstr "შეტყობინების ჩართვა"
 
 #: ../../web/templates/pages/list_cron.php:96
 msgid "Are you sure you want to unsuspend this cron job?"
@@ -4447,18 +4447,18 @@ msgstr "დარწმუნებული ხართ, რომ გსუ�
 #: ../../web/templates/pages/list_cron.php:158
 #, php-format
 msgid "Are you sure you want to delete this cron job?"
-msgstr ""
+msgstr "ნამდვილად გსურთ ამ cron დავალების წაშლა?"
 
 #: ../../web/templates/pages/list_cron.php:193
 #, php-format
 msgid "%d cron job"
 msgid_plural "%d cron jobs"
-msgstr[0] "%d ქრონის ამოცანა"
-msgstr[1] ""
+msgstr[0] "%d ქრონის დავალება"
+msgstr[1] "%d ქრონის დავალება"
 
 #: ../../web/templates/pages/list_ssl.php:73
 msgid "SSL CSR"
-msgstr ""
+msgstr "SSL CSR"
 
 #: ../../web/templates/pages/list_firewall.php:9
 msgid "Add Rule"
@@ -4466,29 +4466,29 @@ msgstr "წესის დამატება"
 
 #: ../../web/templates/pages/list_firewall.php:63
 msgid "Firewall Rules"
-msgstr ""
+msgstr "Firewall წესები"
 
 #: ../../web/templates/pages/list_firewall.php:88
 #, php-format
 msgid "Are you sure you want to unsuspend rule #%s?"
-msgstr ""
+msgstr "ნამდვილად გსურთ #%s წესის შეჩერების გაუქმება?"
 
 #: ../../web/templates/pages/list_firewall.php:95
 #, php-format
 msgid "Are you sure you want to suspend rule #%s?"
-msgstr ""
+msgstr "ნამდვილად გსურთ #%s წესის შეჩერება?"
 
 #: ../../web/templates/pages/list_firewall.php:152
 #, php-format
 msgid "Are you sure you want to delete rule #%s?"
-msgstr ""
+msgstr "ნამდვილად გსურთ #%s წესის წაშლა?"
 
 #: ../../web/templates/pages/list_firewall.php:182
 #, php-format
 msgid "%d firewall rule"
 msgid_plural "%d firewall rules"
 msgstr[0] "%d ფაირვოლის წესი"
-msgstr[1] ""
+msgstr[1] "%d ფაირვოლის წესი"
 
 #: ../../web/templates/pages/debug_panel.php:11
 msgid "Close debug panel"
@@ -4528,7 +4528,7 @@ msgstr "ველი: \"%s\" არ შეიძლება იყოს ცა
 #: ../../web/inc/main.php:195
 #, php-format
 msgid "Error code: %s"
-msgstr ""
+msgstr "შეცდომის კოდი: %s"
 
 #: ../../web/generate/ssl/index.php:132
 msgid "Certificate has been generated successfully."
@@ -4536,16 +4536,16 @@ msgstr "Სერტიფიკატი წარმატებით და�
 
 #: ../../web/delete/web/cache/index.php:20
 msgid "NGINX cache has been purged successfully."
-msgstr ""
+msgstr "NGINX ქეში წარმატებით გასუფთავდა."
 
 #: ../../web/update/hestia/index.php:20
 #, php-format
 msgid "Error: %s update failed."
-msgstr ""
+msgstr "შეცდომა: %s, განახლება ვერ მოხერხდა."
 
 #: ../../web/download/backup/index.php:20
 msgid "Download of remote backup file has been scheduled."
-msgstr ""
+msgstr "დისტანციური სარეზერვო ფაილის ჩამოტვირთვა დაგეგმილია."
 
 #: ../../web/reset/index.php:60
 msgid "Hello {{name}},\n\n"
@@ -4562,7 +4562,7 @@ msgstr ""
 #: ../../web/reset/index.php:84
 #, php-format
 msgid "Password Reset at %s"
-msgstr ""
+msgstr "პაროლის აღდგენა %s-ზე"
 
 #: ../../web/reset/index.php:137 ../../web/reset/index.php:141
 #: ../../web/reset/index.php:146 ../../web/reset/index.php:155
@@ -4571,7 +4571,7 @@ msgstr "პაროლის აღდგენის ინსტრუქც�
 
 #: ../../web/reset/index.php:150
 msgid "Please wait 15 minutes before sending a new request."
-msgstr ""
+msgstr "ახალი მოთხოვნის გაგზავნამდე გთხოვთ, დაელოდოთ 15 წუთი."
 
 #: ../../web/reset/index.php:187
 msgid "An internal error occurred"
@@ -4625,7 +4625,7 @@ msgstr "ცვლილებები შენახულია."
 #: ../../web/edit/server/crond/index.php:17
 #: ../../web/edit/server/cron/index.php:17
 msgid "Info (read-only mode): Crontab can only be edited via SSH."
-msgstr ""
+msgstr "ინფორმაცია (მხოლოდ წაკითხვის რეჟიმი): Crontab-ის რედაქტირება შესაძლებელია მხოლოდ SSH-ის საშუალებით."
 
 #: ../../web/edit/server/index.php:1281
 msgid "Repository can not be empty"
@@ -4633,7 +4633,7 @@ msgstr "რეპოზიტორია არ შეიძლება ცა
 
 #: ../../web/edit/server/index.php:1377
 msgid "Inactive session timeout can not lower than 1 minute."
-msgstr ""
+msgstr "არააქტიური სესიის ლოდინის დრო არ შეიძლება იყოს 1 წუთზე ნაკლები."
 
 #: ../../web/edit/mail/index.php:748 ../../web/edit/web/index.php:1173
 #: ../../web/edit/user/index.php:414 ../../web/add/mail/index.php:239
@@ -4645,7 +4645,7 @@ msgstr "გთხოვთ მიუთითეთ კორექტული 
 #: ../../web/edit/user/index.php:161 ../../web/add/mail/index.php:246
 #: ../../web/add/db/index.php:55 ../../web/add/user/index.php:56
 msgid "Password does not match the minimum requirements."
-msgstr ""
+msgstr "პაროლი არ აკმაყოფილებს მინიმალურ მოთხოვნებს."
 
 #: ../../web/edit/mail/index.php:1098 ../../web/add/mail/index.php:438
 msgid "Mail account has been created.\n\n"
@@ -4677,7 +4677,7 @@ msgstr ""
 #: ../../web/edit/mail/index.php:1135 ../../web/add/mail/index.php:475
 #, php-format
 msgid "Email Credentials: %s@%s"
-msgstr ""
+msgstr "ელფოსტის ავტორიზაციის მონაცემები: %s@%s"
 
 #: ../../web/edit/web/index.php:1246 ../../web/edit/web/index.php:1414
 msgid "FTP account has been created and ready to use.\n\n"
@@ -4687,7 +4687,7 @@ msgid "FTP account has been created and ready to use.\n\n"
 "Best regards,\n\n"
 "--\n"
 "{{appname}}"
-msgstr "FTP account has been created and ready to use.\n\n"
+msgstr "FTP ანგარიში შექმნილია და მზად არის გამოსაყენებლად.\n\n"
 "ჰოსთის სახელი: {{domain}}\n"
 "სახელი: {{username}}\n"
 "პაროლი: {{password}}\n\n"
@@ -4698,7 +4698,7 @@ msgstr "FTP account has been created and ready to use.\n\n"
 #: ../../web/edit/web/index.php:1263 ../../web/edit/web/index.php:1431
 #, php-format
 msgid "FTP Account Credentials: %s"
-msgstr ""
+msgstr "FTP ანგარიშის ავტორიზაციის მონაცემები: %s@%s"
 
 #: ../../web/edit/dns/index.php:347
 msgid "Error: unknown record ID."
@@ -4706,27 +4706,27 @@ msgstr "შეცდომა: უცნობი ჩანაწერის �
 
 #: ../../web/edit/package/index.php:205 ../../web/add/package/index.php:92
 msgid "CPU quota"
-msgstr ""
+msgstr "CPU-ს კვოტა"
 
 #: ../../web/edit/package/index.php:208 ../../web/add/package/index.php:95
 msgid "CPU quota period"
-msgstr ""
+msgstr "CPU-ს კვოტის პერიოდი"
 
 #: ../../web/edit/package/index.php:211 ../../web/add/package/index.php:98
 msgid "Memory Limit"
-msgstr ""
+msgstr "მეხსიერების ლიმიტი"
 
 #: ../../web/edit/package/index.php:214 ../../web/add/package/index.php:101
 msgid "Swap Limit"
-msgstr ""
+msgstr "სვაპის ლიმიტი"
 
 #: ../../web/edit/package/index.php:221 ../../web/add/package/index.php:108
 msgid "Nameserver 1"
-msgstr ""
+msgstr "Nameserver 1"
 
 #: ../../web/edit/package/index.php:224 ../../web/add/package/index.php:111
 msgid "Nameserver 2"
-msgstr ""
+msgstr "Nameserver 2"
 
 #: ../../web/edit/user/index.php:430
 msgid "Please enter a valid contact name."
@@ -4754,19 +4754,19 @@ msgstr "ხელახლა გაშვება \"%s\" ჩაიშალა
 #: ../../web/bulk/restore/incremental/index.php:126
 #: ../../web/bulk/restore/index.php:73 ../../web/schedule/restore/index.php:65
 msgid "Task has been added to the queue. You will receive an email notification when your restore has been completed."
-msgstr ""
+msgstr "დავალება დაემატა რიგში. აღდგენის დასრულების შემდეგ თქვენ მიიღებთ ელ-ფოსტის შეტყობინებას."
 
 #: ../../web/bulk/restore/index.php:82 ../../web/schedule/restore/index.php:74
 msgid "An existing restoration task is already running. Please wait for it to finish before launching it again."
-msgstr ""
+msgstr "არსებული აღდგენის დავალება უკვე გაშვებულია. გთხოვთ, დაელოდოთ მის დასრულებას ხელახლა გაშვებამდე."
 
 #: ../../web/bulk/cron/index.php:36 ../../web/bulk/cron/index.php:61
 msgid "Cron job email reporting has been successfully disabled."
-msgstr ""
+msgstr "Cron-ის დავალების ელფოსტის შეტყობინება წარმატებით გაითიშა."
 
 #: ../../web/bulk/cron/index.php:44 ../../web/bulk/cron/index.php:69
 msgid "Cron job email reporting has been successfully enabled."
-msgstr ""
+msgstr "Cron-ის დავალების ელფოსტის ანგარიშგება წარმატებით ჩაირთო."
 
 #: ../../web/add/key/index.php:57 ../../web/add/key/index.php:60
 msgid "SSH Key already exists."
@@ -4779,34 +4779,34 @@ msgstr "SSH გასაღები წარმატებით შეიქ
 #: ../../web/add/access-key/index.php:79
 #, php-format
 msgid "Access key {%s} has been created successfully."
-msgstr ""
+msgstr "წვდომის გასაღები {%s} წარმატებით შეიქმნა."
 
 #: ../../web/add/mail/index.php:189
 #, php-format
 msgid "Mail domain {%s} has been created successfully."
-msgstr ""
+msgstr "მაილის დომენი {%s} წარმატებით შეიქმნა."
 
 #: ../../web/add/mail/index.php:508
 #, php-format
 msgid "Mail account {%s@%s} has been created successfully."
-msgstr ""
+msgstr "ელფოსტის ანგარიში {%s@%s} წარმატებით შეიქმნა."
 
 #: ../../web/add/firewall/index.php:97
 msgid "Rule has been created successfully."
-msgstr ""
+msgstr "წესი წარმატებით შეიქმნა."
 
 #: ../../web/add/firewall/ipset/index.php:72
 msgid "IP list has been created successfully."
-msgstr ""
+msgstr "IP მისამართი სია წარმატებით შეიქმნა."
 
 #: ../../web/add/firewall/banlist/index.php:52
 msgid "IP address has been banned successfully."
-msgstr ""
+msgstr "IP მისამართი წარმატებით დაიბლოკა."
 
 #: ../../web/add/ip/index.php:93
 #, php-format
 msgid "IP address {%s} has been created successfully."
-msgstr ""
+msgstr "IP მისამართი {%s} წარმატებით შეიქმნა."
 
 #: ../../web/add/db/index.php:150
 msgid "Database has been created.\n\n"
@@ -4822,51 +4822,51 @@ msgstr ""
 #: ../../web/add/db/index.php:168
 #, php-format
 msgid "Database Credentials: %s"
-msgstr ""
+msgstr "მონაცემთა ბაზის მონაცემები: %s"
 
 #: ../../web/add/db/index.php:199
 #, php-format
 msgid "Database {%s} has been created successfully. / {Open %s}"
-msgstr ""
+msgstr "მონაცემთა ბაზა {%s} წარმატებით შეიქმნა. / {%s გახსნა}"
 
 #: ../../web/add/webapp/index.php:58
 #, php-format
 msgid "Unable to install %s, %s is not available."
-msgstr ""
+msgstr "%s-ის ინსტალაცია შეუძლებელია, %s მიუწვდომელია."
 
 #: ../../web/add/webapp/index.php:73
 #, php-format
 msgid "%s installer missing."
-msgstr ""
+msgstr "%s ინსტალერი ვერ მოიძებნა."
 
 #: ../../web/add/webapp/index.php:91
 #, php-format
 msgid "%s installed successfully."
-msgstr ""
+msgstr "%s დაინსტალირდა წარმატებით."
 
 #: ../../web/add/web/index.php:128
 #, php-format
 msgid "Domain {%s} has been created successfully."
-msgstr ""
+msgstr "დომენი %s წარმატებით დაემატა."
 
 #: ../../web/add/dns/index.php:199
 #, php-format
 msgid "DNS zone {%s} has been created successfully."
-msgstr ""
+msgstr "DNS ზონა {%s} წარმატებით შეიქმნა."
 
 #: ../../web/add/dns/index.php:280
 #, php-format
 msgid "Record {%s.%s} has been created successfully."
-msgstr ""
+msgstr "ჩანაწერი {%s.%s} წარმატებით შეიქმნა."
 
 #: ../../web/add/package/index.php:238
 #, php-format
 msgid "Package {%s} has been created successfully."
-msgstr ""
+msgstr "პაკეტი {%s} წარმატებით შეიქმნა"
 
 #: ../../web/add/cron/index.php:80
 msgid "Cron job has been created successfully."
-msgstr ""
+msgstr "Cron დავალება წარმატებით შეიქმნა"
 
 #: ../../web/add/user/index.php:156
 msgid "Hello {{name}},\n\n"
@@ -4882,7 +4882,7 @@ msgstr ""
 #: ../../web/add/user/index.php:225
 #, php-format
 msgid "User {%s} has been created successfully. / {Log in as %s}"
-msgstr ""
+msgstr "მომხმარებელი {%s} წარმატებით შეიქმნა. / {ავტორიზაცია როგორც %s}"
 
 #: ../../web/src/app/WebApp/AppWizard.php:126
 msgid "Unable to add database! Limit reached!"
@@ -4894,7 +4894,7 @@ msgstr "შეუძლებელია მონაცემთა ბაზ�
 
 #: ../../web/copy/package/index.php:35
 msgid "Error: unable to copy package."
-msgstr ""
+msgstr "%d ჩანაწერი ლოგში"
 
 #: ../../web/login/index.php:150
 msgid "Account has been suspended"
@@ -4915,40 +4915,40 @@ msgstr "არასწორი ან ცარიელი 2FA თოკე�
 
 #: ../../web/inc/main.php:273 ../../web/inc/main.php:284
 msgid "You are logged out, please log in again."
-msgstr ""
+msgstr "თვენი დეავტორიზებული ხართ. გთხოვთ, ხელახლა შეხვიდეთ სისტემაში."
 
 #: ../../web/inc/main.php:351
 #, php-format
 msgid "%d day"
 msgid_plural "%d days"
 msgstr[0] "%d დღე"
-msgstr[1] ""
+msgstr[1] "%d დღე"
 
 #: ../../web/inc/main.php:354
 #, php-format
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "%d საათი"
-msgstr[1] ""
+msgstr[1] "%d საათი"
 
 #: ../../web/inc/main.php:358
 #, php-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d წუთი"
-msgstr[1] ""
+msgstr[1] "%d წუთი"
 
 #: ../../web/schedule/backup/incremental/index.php:17
 msgid "Snapshot has been sheduled"
-msgstr ""
+msgstr "სნაპშოთის აღება დაჯავშნილია"
 
 #: ../../web/schedule/backup/index.php:12
 msgid "Task has been added to the queue. You will receive an email notification when your backup is ready for download."
-msgstr ""
+msgstr "დავალება დაემატა რიგში. თქვენ მიიღებთ ელფოსტის შეტყობინებას, როდესაც თქვენი სარეზერვო ასლი ჩამოსატვირთად მზად იქნება."
 
 #: ../../web/schedule/backup/index.php:22
 msgid "An existing backup task is already running, please wait for it to complete."
-msgstr ""
+msgstr "არსებული სარეზერვო ასლის შექმნის დავალება უკვე გაშვებულია, გთხოვთ, დაელოდოთ მის დასრულებას."
 
 #: ../../web/list/backup/incremental/index.php:14
 msgid "File"
@@ -4964,15 +4964,15 @@ msgstr "უცნობი"
 
 #: ../../bin/v-list-sys-hestia-updates:110
 msgid "Hestia core package"
-msgstr ""
+msgstr "Hestia-ს ძირითადი პაკეტი"
 
 #: ../../bin/v-list-sys-hestia-updates:125
 msgid "Hestia internal php interpreter"
-msgstr ""
+msgstr "Hestia-ს შიდა php ინტერპრეტატორი"
 
 #: ../../bin/v-list-sys-hestia-updates:141
 msgid "Hestia internal web server"
-msgstr ""
+msgstr "Hestia-ს შიდა ვებ სერვერი"
 
 #: ../../bin/v-list-sys-services:167
 msgid "web server"
@@ -4980,7 +4980,7 @@ msgstr "ვებ სერვერი"
 
 #: ../../bin/v-list-sys-services:178
 msgid "php interpreter"
-msgstr ""
+msgstr "php ინტერპრეტატორი"
 
 #: ../../bin/v-list-sys-services:186
 msgid "reverse proxy"
@@ -4996,15 +4996,15 @@ msgstr "ელ-ფოსტის სერვერი"
 
 #: ../../bin/v-list-sys-services:209
 msgid "imap/pop3 server"
-msgstr ""
+msgstr "imap/pop3 სერვერი"
 
 #: ../../bin/v-list-sys-services:226
 msgid "email anti-virus"
-msgstr ""
+msgstr "ელ-ფოსტის ანტივირუსი"
 
 #: ../../bin/v-list-sys-services:234
 msgid "email spam filter"
-msgstr ""
+msgstr "ელ-ფოსტის სპამ ფილტრი"
 
 #: ../../bin/v-list-sys-services:281
 msgid "database server"
@@ -5020,7 +5020,7 @@ msgstr "ამოცანების განრიგი"
 
 #: ../../bin/v-list-sys-services:304
 msgid "ssh server"
-msgstr ""
+msgstr "ssh სერვერი"
 
 #: ../../bin/v-list-sys-services:314
 msgid "firewall"
@@ -5028,9 +5028,9 @@ msgstr "ფაირვოლი"
 
 #: ../../bin/v-list-sys-services:329
 msgid "brute-force protection"
-msgstr ""
+msgstr "ბრუტ-ფორსის თავდაცვა"
 
 #: ../../bin/v-list-sys-services:336
 msgid "web terminal backend"
-msgstr ""
+msgstr "ვებ ტერმინალის ბექენდი"
 

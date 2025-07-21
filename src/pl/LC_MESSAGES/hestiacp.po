@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-08 13:33+0000\n"
-"PO-Revision-Date: 2025-02-08 13:36\n"
+"PO-Revision-Date: 2025-07-21 07:59\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -83,12 +83,12 @@ msgstr "Powiadomienia"
 
 #: ../../web/templates/includes/panel.php:86
 msgid "Loading..."
-msgstr ""
+msgstr "Ładowanie..."
 
 #: ../../web/templates/includes/panel.php:92
 #: ../../web/templates/includes/js.php:10
 msgid "No notifications"
-msgstr ""
+msgstr "Brak powiadomień"
 
 #: ../../web/templates/includes/panel.php:113
 #: ../../web/templates/includes/panel.php:116
@@ -123,7 +123,7 @@ msgstr "Menedżer plików"
 #: ../../web/templates/includes/panel.php:182
 #: ../../web/templates/includes/panel.php:184
 msgid "Web terminal"
-msgstr ""
+msgstr "Terminal"
 
 #: ../../web/templates/includes/panel.php:196
 #: ../../web/templates/includes/panel.php:198
@@ -224,7 +224,7 @@ msgstr "Aliasy"
 #: ../../web/templates/includes/panel.php:381
 #: ../../web/templates/includes/panel.php:397
 msgid "Limit"
-msgstr ""
+msgstr "Limit"
 
 #: ../../web/templates/includes/panel.php:309
 #: ../../web/templates/pages/add_firewall_banlist.php:37
@@ -243,7 +243,7 @@ msgstr "DOMENY"
 
 #: ../../web/templates/includes/panel.php:331
 msgid "Zones"
-msgstr ""
+msgstr "Strefy"
 
 #: ../../web/templates/includes/panel.php:334
 #: ../../web/templates/pages/list_dns.php:34
@@ -328,11 +328,11 @@ msgstr "KOPIE"
 
 #: ../../web/templates/includes/email-settings-panel.php:2
 msgid "Common Account Settings"
-msgstr ""
+msgstr "Ogólne ustawienia konta"
 
 #: ../../web/templates/includes/email-settings-panel.php:4
 msgid "Connect to this account using credentials:"
-msgstr ""
+msgstr "Połącz z tym kontem używając danych uwierzytelniających:"
 
 #: ../../web/templates/includes/email-settings-panel.php:7
 #: ../../web/templates/pages/edit_user.php:64
@@ -364,7 +364,7 @@ msgstr "Nazwa użytkownika"
 #: ../../web/templates/includes/email-settings-panel.php:29
 #: ../../web/templates/includes/email-settings-panel.php:39
 msgid "Copy to clipboard"
-msgstr ""
+msgstr "Kopiuj do schowka"
 
 #: ../../web/templates/includes/email-settings-panel.php:16
 #: ../../web/templates/pages/edit_user.php:84
@@ -389,7 +389,7 @@ msgstr "Hasło"
 
 #: ../../web/templates/includes/email-settings-panel.php:26
 msgid "Webmail"
-msgstr ""
+msgstr "Aplikacja poczty"
 
 #: ../../web/templates/includes/email-settings-panel.php:36
 #: ../../web/templates/pages/list_backup_incremental.php:51
@@ -402,7 +402,7 @@ msgstr "Nazwa hosta"
 
 #: ../../web/templates/includes/email-settings-panel.php:44
 msgid "IMAP Settings"
-msgstr ""
+msgstr "Ustawienia IMAP"
 
 #: ../../web/templates/includes/email-settings-panel.php:47
 #: ../../web/templates/includes/email-settings-panel.php:66
@@ -436,7 +436,7 @@ msgstr "Normalne hasło"
 #: ../../web/templates/pages/list_firewall.php:169
 #: ../../web/edit/firewall/index.php:76 ../../web/add/firewall/index.php:48
 msgid "Port"
-msgstr ""
+msgstr "Port"
 
 #: ../../web/templates/includes/email-settings-panel.php:59
 #: ../../web/templates/includes/email-settings-panel.php:78
@@ -446,19 +446,19 @@ msgstr "Brak szyfrowania"
 
 #: ../../web/templates/includes/email-settings-panel.php:63
 msgid "POP3 Settings"
-msgstr ""
+msgstr "Ustawienia POP3"
 
 #: ../../web/templates/includes/email-settings-panel.php:82
 msgid "SMTP Settings"
-msgstr ""
+msgstr "Ustawienia SMTP"
 
 #: ../../web/templates/includes/password-requirements.php:1
 msgid "Password must include"
-msgstr ""
+msgstr "Hasło musi zawierać"
 
 #: ../../web/templates/includes/password-requirements.php:3
 msgid "8 characters minimum"
-msgstr ""
+msgstr "Co najmniej 8 znaków"
 
 #: ../../web/templates/includes/password-requirements.php:4
 #: ../../web/templates/pages/edit_mail_acc.php:60
@@ -508,7 +508,7 @@ msgstr "Bez limitu"
 
 #: ../../web/templates/includes/js.php:12
 msgid "Are you sure you want to leave the page?"
-msgstr ""
+msgstr "Czy na pewno chcesz opuścić tę stronę?"
 
 #: ../../web/templates/includes/js.php:14
 msgid "BLACKLIST"
@@ -516,11 +516,11 @@ msgstr "CZARNA LISTA"
 
 #: ../../web/templates/includes/js.php:15
 msgid "IPVERSE"
-msgstr ""
+msgstr "IPVERSE"
 
 #: ../../web/templates/includes/extra-ns-fields.php:8
 msgid "Remove"
-msgstr ""
+msgstr "Usuń"
 
 #: ../../web/templates/footer.php:25 ../../web/templates/footer.php:61
 #: ../../web/templates/footer.php:64
@@ -529,15 +529,15 @@ msgstr "Skróty klawiszowe"
 
 #: ../../web/templates/footer.php:35
 msgid "Add new object"
-msgstr ""
+msgstr "Dodaj nowy obiekt"
 
 #: ../../web/templates/footer.php:36
 msgid "Save form"
-msgstr ""
+msgstr "Zapisz formularz"
 
 #: ../../web/templates/footer.php:37
 msgid "Unsave form"
-msgstr ""
+msgstr "Cofnij zapis formularza"
 
 #: ../../web/templates/footer.php:38
 msgid "Go to WEB list"
@@ -569,7 +569,7 @@ msgstr "Skoncentruj na szukaniu"
 
 #: ../../web/templates/footer.php:47
 msgid "Display / Hide shortcuts"
-msgstr ""
+msgstr "Wyświetl / Ukryj skróty"
 
 #: ../../web/templates/footer.php:48
 msgid "Move backward through top menu"
@@ -731,7 +731,7 @@ msgstr "Zapisz"
 #: ../../web/templates/pages/list_user.php:194
 #: ../../web/templates/pages/list_user.php:197
 msgid "Edit User"
-msgstr ""
+msgstr "Edytuj użytkownika"
 
 #: ../../web/templates/pages/edit_user.php:69
 #: ../../web/templates/pages/add_user.php:39 ../../web/add/user/index.php:35
@@ -769,7 +769,7 @@ msgstr "E-mail"
 #: ../../web/templates/pages/edit_web.php:418
 #: ../../web/templates/pages/edit_web.php:471
 msgid "Generate"
-msgstr ""
+msgstr "Wygeneruj"
 
 #: ../../web/templates/pages/edit_user.php:102
 #: ../../web/templates/pages/add_user.php:64
@@ -778,19 +778,19 @@ msgstr "Nie zezwalaj użytkownikowi na logowanie do Panelu Sterowania"
 
 #: ../../web/templates/pages/edit_user.php:110
 msgid "Enable two-factor authentication"
-msgstr ""
+msgstr "Włącz uwierzytelnianie dwustopniowe"
 
 #: ../../web/templates/pages/edit_user.php:114
 msgid "Account Recovery Code"
-msgstr ""
+msgstr "Kod odzyskiwania konta"
 
 #: ../../web/templates/pages/edit_user.php:115
 msgid "Please scan the code below in your 2FA application"
-msgstr ""
+msgstr "Zeskanuj poniższy kod w swojej aplikacji 2FA"
 
 #: ../../web/templates/pages/edit_user.php:117
 msgid "2FA QR Code"
-msgstr ""
+msgstr "Kod QR 2FA"
 
 #: ../../web/templates/pages/edit_user.php:125
 msgid "Use IP address allow list for login attempts"
@@ -799,7 +799,7 @@ msgstr "Użyj listy dozwolonych adresów IP przy próbach logowania"
 #: ../../web/templates/pages/edit_user.php:130
 #: ../../web/templates/pages/edit_web.php:293
 msgid "For example"
-msgstr ""
+msgstr "Przykładowo"
 
 #: ../../web/templates/pages/edit_user.php:134
 #: ../../web/templates/pages/add_user.php:76
@@ -819,7 +819,7 @@ msgstr "Użytkownik"
 #: ../../web/templates/pages/edit_user.php:156
 #: ../../web/templates/pages/add_user.php:98
 msgid "Administrator"
-msgstr ""
+msgstr "Administrator"
 
 #: ../../web/templates/pages/edit_user.php:157
 #: ../../web/templates/pages/add_user.php:99
@@ -833,7 +833,7 @@ msgstr "Motyw"
 
 #: ../../web/templates/pages/edit_user.php:181
 msgid "Default List Sort Order"
-msgstr ""
+msgstr "Domyślne sortowanie listy"
 
 #: ../../web/templates/pages/edit_user.php:183
 #: ../../web/templates/pages/list_firewall_ipset.php:41
@@ -970,11 +970,11 @@ msgstr "Dodaj domenę Web"
 #: ../../web/templates/pages/add_db.php:39
 #, php-format
 msgid "It is strongly advised to {create a standard user account} before adding %s to the server due to the increased privileges the admin account possesses and potential security risks."
-msgstr ""
+msgstr "Zdecydowanie zaleca się {create a standard user account} przed dodaniem %s do serwera ze względu na zwiększone uprawnienia konta administratora i potencjalne zagrożenia bezpieczeństwa."
 
 #: ../../web/templates/pages/add_web.php:32
 msgid "a web domain"
-msgstr ""
+msgstr "domena"
 
 #: ../../web/templates/pages/add_web.php:37
 #: ../../web/templates/pages/list_user.php:6
@@ -1089,7 +1089,7 @@ msgstr "Dodaj listę IP"
 #: ../../web/templates/pages/list_firewall.php:48
 #: ../../web/templates/pages/list_firewall.php:51
 msgid "Apply to selected"
-msgstr ""
+msgstr "Zastosuj do wybranych"
 
 #: ../../web/templates/pages/list_firewall_ipset.php:17
 #: ../../web/templates/pages/list_firewall_ipset.php:68
@@ -1349,7 +1349,7 @@ msgstr[3] ""
 #: ../../web/templates/pages/list_mail_acc.php:215
 #: ../../web/templates/pages/list_mail_acc.php:218
 msgid "Edit Mail Account"
-msgstr ""
+msgstr "Edytuj konto pocztowe"
 
 #: ../../web/templates/pages/edit_mail_acc.php:38
 #: ../../web/templates/pages/add_mail_acc.php:42
@@ -1372,7 +1372,7 @@ msgstr "8 znaków"
 #: ../../web/templates/pages/add_mail_acc.php:113
 #: ../../web/templates/pages/add_db.php:94
 msgid "Email login credentials to:"
-msgstr ""
+msgstr "Wyślij dane logowania do:"
 
 #: ../../web/templates/pages/edit_mail_acc.php:71
 #: ../../web/templates/pages/list_mail_acc.php:43
@@ -1387,7 +1387,7 @@ msgstr ""
 #: ../../web/templates/pages/add_mail_acc.php:71
 #: ../../web/edit/package/index.php:197 ../../web/add/package/index.php:81
 msgid "Quota"
-msgstr ""
+msgstr "Przydział"
 
 #: ../../web/templates/pages/edit_mail_acc.php:71
 #: ../../web/templates/pages/edit_package.php:39
@@ -1396,12 +1396,12 @@ msgstr ""
 #: ../../web/templates/pages/add_package.php:48
 #: ../../web/templates/pages/add_mail_acc.php:71
 msgid "in MB"
-msgstr ""
+msgstr "w MB"
 
 #: ../../web/templates/pages/edit_mail_acc.php:82
 #: ../../web/templates/pages/add_mail_acc.php:82
 msgid "Use local-part without domain name"
-msgstr ""
+msgstr "Użyj części lokalnej bez nazwy domeny"
 
 #: ../../web/templates/pages/edit_mail_acc.php:89
 #: ../../web/templates/pages/add_mail_acc.php:95
@@ -1426,7 +1426,7 @@ msgstr "jeden lub więcej adresów email"
 #: ../../web/templates/pages/list_mail_acc.php:91
 #: ../../web/templates/pages/list_mail_acc.php:276
 msgid "Auto Reply"
-msgstr ""
+msgstr "Odpowiedź automatyczna"
 
 #: ../../web/templates/pages/edit_mail_acc.php:112
 #: ../../web/templates/pages/list_log.php:80
@@ -1446,7 +1446,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_mail_acc.php:118
 #: ../../web/templates/pages/add_mail_acc.php:106
 msgid "email / hour"
-msgstr ""
+msgstr "wiadomości / godzinę"
 
 #: ../../web/templates/pages/edit_server_bind9.php:25
 #: ../../web/templates/pages/edit_server_httpd.php:28
@@ -1458,7 +1458,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_server_service.php:34
 #: ../../web/templates/pages/edit_server_php.php:25
 msgid "Configure Server"
-msgstr ""
+msgstr "Konfiguruj serwer"
 
 #: ../../web/templates/pages/edit_server_bind9.php:38
 #: ../../web/templates/pages/edit_server_httpd.php:37
@@ -1475,7 +1475,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_server_service.php:43
 #: ../../web/templates/pages/edit_server_php.php:75
 msgid "Restart"
-msgstr ""
+msgstr "Uruchom ponownie"
 
 #: ../../web/templates/pages/list_mail_dns.php:20
 #: ../../web/templates/pages/list_dns_rec.php:75
@@ -1727,7 +1727,7 @@ msgstr "Szukaj"
 #: ../../web/templates/pages/list_dns_rec.php:134
 #: ../../web/templates/pages/edit_dns_rec.php:25
 msgid "Edit DNS Record"
-msgstr ""
+msgstr "Edytuj wpis DNS"
 
 #: ../../web/templates/pages/list_dns_rec.php:144
 #, php-format
@@ -2122,7 +2122,7 @@ msgstr ""
 
 #: ../../web/templates/pages/list_log.php:98
 msgid "Error"
-msgstr ""
+msgstr "Błąd"
 
 #: ../../web/templates/pages/list_mail_acc.php:16
 #: ../../web/templates/pages/list_mail.php:226
@@ -2198,7 +2198,7 @@ msgstr "Czy na pewno chcesz usunąć %s?"
 #, php-format
 msgid "%d mail account"
 msgid_plural "%d mail accounts"
-msgstr[0] "%d konto pocztowe"
+msgstr[0] "%d kont pocztowych"
 msgstr[1] "%d konta pocztowe"
 msgstr[2] "%d kont pocztowych"
 msgstr[3] ""
@@ -2220,17 +2220,17 @@ msgstr "Lista zbanowanych"
 
 #: ../../web/templates/pages/add_firewall_banlist.php:36
 msgid "SSH"
-msgstr ""
+msgstr "SSH"
 
 #: ../../web/templates/pages/add_firewall_banlist.php:38
 #: ../../web/templates/pages/edit_web.php:401
 #: ../../web/templates/pages/edit_web.php:455
 msgid "FTP"
-msgstr ""
+msgstr "FTP"
 
 #: ../../web/templates/pages/add_firewall_banlist.php:42
 msgid "HESTIA"
-msgstr ""
+msgstr "HESTIA"
 
 #: ../../web/templates/pages/edit_server_httpd.php:9
 #: ../../web/templates/pages/list_services.php:6
@@ -2240,15 +2240,15 @@ msgstr "Konfiguracja"
 
 #: ../../web/templates/pages/edit_backup_exclusions.php:29
 msgid "Type domain name, one per line. To exclude all domains use *. To exclude specific dirs use following format: domain.tld:public_html/cache:public_html/tmp"
-msgstr ""
+msgstr "Wpisz nazwy domen, jedna w każdej linii. Aby wykluczyć wszystkie domeny używaj *. Aby wykluczyć określone domeny użyj następującego formatu: domain.tld:public_html/cache:public_html/tmp"
 
 #: ../../web/templates/pages/edit_backup_exclusions.php:33
 msgid "Type domain name, one per line. To exclude all domains use *. To exclude specific accounts use following format: domain.tld:info:support:postmaster"
-msgstr ""
+msgstr "Wpisz nazwy domen, jedna w każdej linii. Aby wykluczyć wszystkie domeny używaj *. Aby wykluczyć określone domeny użyj następującego formatu: domain.tld:public_html/cache:public_html/tmp"
 
 #: ../../web/templates/pages/edit_backup_exclusions.php:37
 msgid "Type full database name, one per line. To exclude all databases use *"
-msgstr ""
+msgstr "Wpisz pełną nazwę bazy danych, jedną w każdej linii. Aby wykluczyć wszystkie bazy danych, użyj *"
 
 #: ../../web/templates/pages/edit_backup_exclusions.php:40
 #: ../../web/templates/pages/list_backup_detail.php:266
@@ -2258,11 +2258,11 @@ msgstr "Katalog użytkownika"
 
 #: ../../web/templates/pages/edit_backup_exclusions.php:41
 msgid "Type directory name, one per line. To exlude all dirs use *"
-msgstr ""
+msgstr "Wpisz nazwy folderów, jedną w każdej linii. Aby wykluczyć wszystkie foldery, użyj *"
 
 #: ../../web/templates/pages/list_services.php:9
 msgid "Task Monitor"
-msgstr ""
+msgstr "Monitor zadań"
 
 #: ../../web/templates/pages/list_services.php:12
 #: ../../web/templates/pages/list_updates.php:29
@@ -2273,25 +2273,25 @@ msgstr "Aktualizacje"
 #: ../../web/templates/pages/list_services.php:16
 #: ../../web/templates/pages/edit_server.php:1527
 msgid "Firewall"
-msgstr ""
+msgstr "Zapora sieciowa"
 
 #: ../../web/templates/pages/list_services.php:26
 msgid "Are you sure you want to restart the server?"
-msgstr ""
+msgstr "Czy na pewno chcesz uruchomić ponownie serwer?"
 
 #: ../../web/templates/pages/list_services.php:36
 #: ../../web/templates/pages/list_services.php:113
 msgid "Stop"
-msgstr ""
+msgstr "Zatrzymaj"
 
 #: ../../web/templates/pages/list_services.php:37
 #: ../../web/templates/pages/list_services.php:120
 msgid "Start"
-msgstr ""
+msgstr "Uruchom"
 
 #: ../../web/templates/pages/list_services.php:62
 msgid "Production Release"
-msgstr ""
+msgstr "Wersja produkcyjna"
 
 #: ../../web/templates/pages/list_services.php:70
 msgid "Operating System"
@@ -2327,7 +2327,7 @@ msgstr "Opis"
 #: ../../web/templates/pages/list_services.php:200
 #: ../../web/templates/pages/list_server_info.php:45
 msgid "CPU"
-msgstr ""
+msgstr "CPU"
 
 #: ../../web/templates/pages/list_services.php:103
 #: ../../web/templates/pages/list_services.php:204
@@ -2345,21 +2345,21 @@ msgstr "Edytuj"
 #: ../../web/templates/pages/list_services.php:171
 #, php-format
 msgid "Are you sure you want to restart the %s service?"
-msgstr ""
+msgstr "Czy na pewno chcesz ponownie uruchomić usługę %s?"
 
 #: ../../web/templates/pages/list_services.php:183
 #, php-format
 msgid "Are you sure you want to stop the %s service?"
-msgstr ""
+msgstr "Czy na pewno chcesz zatrzymać usługę %s?"
 
 #: ../../web/templates/pages/list_services.php:183
 #, php-format
 msgid "Are you sure you want to start the %s service?"
-msgstr ""
+msgstr "Czy na pewno chcesz uruchomić usługę %s?"
 
 #: ../../web/templates/pages/list_services.php:205
 msgid "MB"
-msgstr ""
+msgstr "MB"
 
 #: ../../web/templates/pages/list_backup_detail.php:9
 #: ../../web/templates/pages/list_backup_detail_incremental.php:7
@@ -2409,7 +2409,7 @@ msgstr "Przywróć"
 #: ../../web/templates/pages/list_backup_detail.php:40
 #: ../../web/templates/pages/list_backup_detail_incremental.php:39
 msgid "Backup Details"
-msgstr ""
+msgstr "Szczegóły kopii zapasowej"
 
 #: ../../web/templates/pages/list_backup_detail.php:48
 #: ../../web/templates/pages/list_backup_detail.php:72
@@ -2430,7 +2430,7 @@ msgstr "Szczegóły"
 #: ../../web/templates/pages/list_backup_detail.php:69
 #: ../../web/templates/pages/list_backup_detail_incremental.php:65
 msgid "Web Domain"
-msgstr ""
+msgstr "Domena"
 
 #: ../../web/templates/pages/list_backup_detail.php:83
 #: ../../web/templates/pages/list_backup_detail.php:123
@@ -2440,12 +2440,12 @@ msgstr ""
 #: ../../web/templates/pages/list_backup_detail.php:280
 #, php-format
 msgid "Are you sure you want to restore %s?"
-msgstr ""
+msgstr "Czy na pewno chcesz przywrócić %s?"
 
 #: ../../web/templates/pages/list_backup_detail.php:109
 #: ../../web/templates/pages/list_backup_detail_incremental.php:99
 msgid "Mail Domain"
-msgstr ""
+msgstr "Domena pocztowa"
 
 #: ../../web/templates/pages/list_backup_detail.php:149
 msgid "DNS Zone"
@@ -2499,7 +2499,7 @@ msgstr "Nazwa pakietu"
 #: ../../web/templates/pages/list_backup.php:9
 #: ../../web/edit/package/index.php:194 ../../web/add/package/index.php:78
 msgid "Incremental Backups"
-msgstr ""
+msgstr "Przyrostowe kopie zapasowe"
 
 #: ../../web/templates/pages/edit_package.php:88
 #: ../../web/templates/pages/list_packages.php:73
@@ -2552,7 +2552,7 @@ msgstr "Szablon DNS"
 #: ../../web/templates/pages/add_dns.php:111
 #: ../../web/templates/pages/add_package.php:191
 msgid "Name Servers"
-msgstr ""
+msgstr "Serwery nazw"
 
 #: ../../web/templates/pages/edit_package.php:241
 #: ../../web/templates/pages/add_package.php:232
@@ -2564,12 +2564,12 @@ msgstr "dla konta / godzinę"
 #: ../../web/templates/pages/add_package.php:256
 #: ../../web/templates/pages/edit_server.php:1085
 msgid "System"
-msgstr ""
+msgstr "System"
 
 #: ../../web/templates/pages/edit_package.php:297
 #: ../../web/templates/pages/add_package.php:288
 msgid "System Resources"
-msgstr ""
+msgstr "Zasoby systemowe"
 
 #: ../../web/templates/pages/edit_package.php:302
 #: ../../web/templates/pages/add_package.php:293
@@ -2579,27 +2579,27 @@ msgstr "Limit CPU (w %)"
 #: ../../web/templates/pages/edit_package.php:310
 #: ../../web/templates/pages/add_package.php:301
 msgid "CPUQuota=20% ensures that the executed processes will never get more than 20% CPU time on one CPU."
-msgstr ""
+msgstr "CPUQuota=20% zapewnia, że wykonywane procesy nigdy nie otrzymają więcej niż 20% czasu na jednym procesorze."
 
 #: ../../web/templates/pages/edit_package.php:315
 #: ../../web/templates/pages/add_package.php:306
 msgid "CPU Quota Period (in ms for milliseconds or s for seconds.)"
-msgstr ""
+msgstr "Czas użycia procesora (\"ms\" dla milisekund lub \"s' dla sekund)"
 
 #: ../../web/templates/pages/edit_package.php:323
 #: ../../web/templates/pages/add_package.php:314
 msgid "CPUQuotaPeriodSec=10ms to request that the CPU quota is measured in periods of 10ms."
-msgstr ""
+msgstr "CPUQuotaPeriodSec=10ms aby pomiar użycia procesora był mierzony w okresach 10ms."
 
 #: ../../web/templates/pages/edit_package.php:328
 #: ../../web/templates/pages/add_package.php:319
 msgid "Memory Limit (in bytes or with units like '2G')"
-msgstr ""
+msgstr "Limit pamięci (w bajtach lub jednostkach takich jak '2G')"
 
 #: ../../web/templates/pages/edit_package.php:336
 #: ../../web/templates/pages/add_package.php:327
 msgid "Takes a memory size in bytes. If the value is suffixed with K, M, G or T, the specified memory size is parsed as Kilobytes, Megabytes, Gigabytes, or Terabytes (with the base 1024), respectively"
-msgstr ""
+msgstr "Rozmiar pamięci w bajtach. Jeżeli do wartości dodano przyrostek K, M, G lub T, to określony rozmiar pamięci jest przetworzony jako, odpowiednio: Kilobajty, Megabajty, Gigabajty lub Terabajty (przy podstawie 1024),"
 
 #: ../../web/templates/pages/edit_package.php:341
 #: ../../web/templates/pages/add_package.php:332
@@ -2609,7 +2609,7 @@ msgstr "Limit pamięci Swap (w bajtach lub jednostkach takich jak '2G')"
 #: ../../web/templates/pages/edit_package.php:349
 #: ../../web/templates/pages/add_package.php:340
 msgid "Takes a swap size in bytes. If the value is suffixed with K, M, G or T, the specified swap size is parsed as Kilobytes, Megabytes, Gigabytes, or Terabytes (with the base 1024), respectively"
-msgstr ""
+msgstr "Rozmiar pamięci SWAP w bajtach. Jeżeli do wartości dodano przyrostek K, M, G lub T, to określony rozmiar pamięci jest przetworzony jako, odpowiednio: Kilobajty, Megabajty, Gigabajty lub Terabajty (przy podstawie 1024),"
 
 #: ../../web/templates/pages/list_mail.php:7
 #: ../../web/templates/pages/add_mail.php:34
@@ -2622,7 +2622,7 @@ msgstr "Dodaj domenę mailową"
 #: ../../web/templates/pages/edit_server.php:381
 #: ../../web/templates/pages/edit_mail.php:86
 msgid "Anti-Virus"
-msgstr ""
+msgstr "Anty-wirus"
 
 #: ../../web/templates/pages/list_mail.php:80
 #: ../../web/templates/pages/list_mail.php:320
@@ -2630,7 +2630,7 @@ msgstr ""
 #: ../../web/templates/pages/edit_server.php:392
 #: ../../web/templates/pages/edit_mail.php:72
 msgid "Spam Filter"
-msgstr ""
+msgstr "Filtr antyspamowy"
 
 #: ../../web/templates/pages/list_mail.php:81
 #: ../../web/templates/pages/list_mail.php:324
@@ -2643,21 +2643,21 @@ msgstr "DKIM"
 #: ../../web/templates/pages/list_web.php:86
 #: ../../web/templates/pages/list_web.php:336
 msgid "SSL"
-msgstr ""
+msgstr "SSL"
 
 #: ../../web/templates/pages/list_mail.php:98
 #: ../../web/templates/pages/list_dns.php:98
 #: ../../web/templates/pages/list_web.php:100
 #, php-format
 msgid "Are you sure you want to unsuspend domain %s?"
-msgstr ""
+msgstr "Czy na pewno chcesz cofnąć zawieszenie domeny %s?"
 
 #: ../../web/templates/pages/list_mail.php:133
 #: ../../web/templates/pages/list_dns.php:112
 #: ../../web/templates/pages/list_web.php:107
 #, php-format
 msgid "Are you sure you want to suspend domain %s?"
-msgstr ""
+msgstr "Czy na pewno chcesz zawiesić domenę %s?"
 
 #: ../../web/templates/pages/list_mail.php:286
 #: ../../web/templates/pages/list_dns.php:206
@@ -2670,7 +2670,7 @@ msgstr "Czy na pewno chcesz usunąć domenę %s?"
 #, php-format
 msgid "%d mail domain"
 msgid_plural "%d mail domains"
-msgstr[0] "%d domena mailowa"
+msgstr[0] "%d domen mailowych"
 msgstr[1] "%d domeny mailowe"
 msgstr[2] "%d domen mailowych"
 msgstr[3] ""
@@ -2684,7 +2684,7 @@ msgstr "Dodaj domenę DNS"
 #: ../../web/templates/pages/list_dns.php:170
 #: ../../web/templates/pages/list_dns.php:173
 msgid "View Public DNSSEC Key"
-msgstr ""
+msgstr "Wyświetl klucz publiczny DNSSEC"
 
 #: ../../web/templates/pages/list_dns_public.php:31
 msgid "DNSKEY Record"
@@ -2692,15 +2692,15 @@ msgstr "Rekord DNSKEY"
 
 #: ../../web/templates/pages/list_dns_public.php:35
 msgid "DS Record"
-msgstr ""
+msgstr "Rekord DS"
 
 #: ../../web/templates/pages/list_dns_public.php:39
 msgid "Public Key"
-msgstr ""
+msgstr "Klucz Publiczny"
 
 #: ../../web/templates/pages/list_dns_public.php:43
 msgid "Key Type / Flag"
-msgstr ""
+msgstr "Typ klucza / Flaga"
 
 #: ../../web/templates/pages/list_dns_public.php:47
 msgid "Key Tag"
@@ -2708,7 +2708,7 @@ msgstr "Etykieta klucza"
 
 #: ../../web/templates/pages/list_dns_public.php:51
 msgid "Flag"
-msgstr ""
+msgstr "Flaga"
 
 #: ../../web/templates/pages/list_dns_public.php:55
 msgid "Algorithm"
@@ -2716,22 +2716,22 @@ msgstr "Algorytm"
 
 #: ../../web/templates/pages/list_backup_incremental.php:7
 msgid "Create Snapshot"
-msgstr ""
+msgstr "Utwórz migawkę"
 
 #: ../../web/templates/pages/list_backup_incremental.php:17
 msgid "Delete Snapshot"
-msgstr ""
+msgstr "Usuń migawkę"
 
 #: ../../web/templates/pages/list_backup_incremental.php:40
 #: ../../web/templates/pages/edit_server.php:943
 msgid "Snapshots"
-msgstr ""
+msgstr "Migawki"
 
 #: ../../web/templates/pages/list_backup_incremental.php:47
 #: ../../web/templates/pages/list_backup_incremental.php:68
 #: ../../web/templates/pages/list_backup_incremental.php:71
 msgid "Snapshot"
-msgstr ""
+msgstr "Migawka"
 
 #: ../../web/templates/pages/list_backup_incremental.php:80
 msgid "Browse"
