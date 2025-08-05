@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-08 13:33+0000\n"
-"PO-Revision-Date: 2025-07-21 07:59\n"
+"PO-Revision-Date: 2025-08-05 12:48\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -332,7 +332,7 @@ msgstr "Ogólne ustawienia konta"
 
 #: ../../web/templates/includes/email-settings-panel.php:4
 msgid "Connect to this account using credentials:"
-msgstr "Połącz z tym kontem używając danych uwierzytelniających:"
+msgstr "Połącz z tym kontem, używając danych uwierzytelniających:"
 
 #: ../../web/templates/includes/email-settings-panel.php:7
 #: ../../web/templates/pages/edit_user.php:64
@@ -736,7 +736,7 @@ msgstr "Edytuj użytkownika"
 #: ../../web/templates/pages/edit_user.php:69
 #: ../../web/templates/pages/add_user.php:39 ../../web/add/user/index.php:35
 msgid "Contact Name"
-msgstr ""
+msgstr "Osoba kontaktowa"
 
 #: ../../web/templates/pages/edit_user.php:76
 #: ../../web/templates/pages/list_user.php:166
@@ -824,7 +824,7 @@ msgstr "Administrator"
 #: ../../web/templates/pages/edit_user.php:157
 #: ../../web/templates/pages/add_user.php:99
 msgid "DNS Sync User"
-msgstr ""
+msgstr "Użytkownik Synchronizacji DNS"
 
 #: ../../web/templates/pages/edit_user.php:163
 #: ../../web/templates/pages/edit_server.php:87
@@ -1166,7 +1166,7 @@ msgstr "Usuń"
 #: ../../web/templates/pages/list_firewall_ipset.php:30
 #: ../../web/templates/pages/list_firewall.php:17
 msgid "IPset IP Lists"
-msgstr ""
+msgstr "Listy IP IPSET"
 
 #: ../../web/templates/pages/list_firewall_ipset.php:35
 #: ../../web/templates/pages/list_dns_rec.php:80
@@ -1195,7 +1195,7 @@ msgstr "Zaznacz wszystko"
 #: ../../web/templates/pages/list_firewall_ipset.php:59
 #: ../../web/templates/pages/add_firewall_ipset.php:71
 msgid "IP List Name"
-msgstr ""
+msgstr "Nazwa Listy IP"
 
 #: ../../web/templates/pages/list_firewall_ipset.php:39
 #: ../../web/templates/pages/list_firewall_ipset.php:79
@@ -1274,7 +1274,7 @@ msgstr "Zaznacz"
 #: ../../web/templates/pages/list_firewall_ipset.php:70
 #, php-format
 msgid "Are you sure you want to delete IP list %s?"
-msgstr ""
+msgstr "Czy na pewno chcesz usunąć listę IP %s?"
 
 #: ../../web/templates/pages/list_firewall_ipset.php:81
 #: ../../web/templates/pages/list_mail_acc.php:114
@@ -1339,10 +1339,10 @@ msgstr "Obecnie nie ma zdefiniowanych list IP"
 #, php-format
 msgid "%d IP list"
 msgid_plural "%d IP lists"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%d Lista IP"
+msgstr[1] "%d Listy IP"
+msgstr[2] "%d Listy IP "
+msgstr[3] "%d List IP"
 
 #: ../../web/templates/pages/edit_mail_acc.php:33
 #: ../../web/templates/pages/list_mail_acc.php:172
@@ -1745,17 +1745,17 @@ msgstr "Domyślny"
 #, php-format
 msgid "%d DNS record"
 msgid_plural "%d DNS records"
-msgstr[0] "%d rekord DNS"
-msgstr[1] "%d rekordy DNS"
-msgstr[2] "%d rekordów DNS"
-msgstr[3] ""
+msgstr[0] "%d Rekord DNS"
+msgstr[1] "%d Rekordy DNS"
+msgstr[2] "%d Rekordów DNS"
+msgstr[3] "%d  Rekordów DNS"
 
 #: ../../web/templates/pages/list_weblog.php:43
 #: ../../web/templates/pages/list_weblog.php:45
 #: ../../web/templates/pages/list_web.php:280
 #: ../../web/templates/pages/list_web.php:283
 msgid "View Logs"
-msgstr ""
+msgstr "Zobacz Logi"
 
 #: ../../web/templates/pages/list_weblog.php:49
 #: ../../web/templates/pages/list_weblog.php:51
@@ -1801,41 +1801,41 @@ msgstr "Pakiety"
 #: ../../web/templates/pages/list_mail.php:40
 #: ../../web/templates/pages/list_db.php:74
 msgid "Rebuild All"
-msgstr ""
+msgstr "Odbuduj Wszystko"
 
 #: ../../web/templates/pages/list_user.php:43
 msgid "Rebuild User Profile"
-msgstr ""
+msgstr "Odbuduj profil użytkownika"
 
 #: ../../web/templates/pages/list_user.php:44
 msgid "Rebuild Web Domains"
-msgstr ""
+msgstr "Odbuduj domeny internetowe"
 
 #: ../../web/templates/pages/list_user.php:45
 msgid "Rebuild DNS Zones"
-msgstr ""
+msgstr "Odbuduj strefy DNS"
 
 #: ../../web/templates/pages/list_user.php:46
 msgid "Rebuild Mail Domains"
-msgstr ""
+msgstr "Przebuduj domeny email"
 
 #: ../../web/templates/pages/list_user.php:47
 msgid "Rebuild Databases"
-msgstr ""
+msgstr "Odbuduj bazy danych"
 
 #: ../../web/templates/pages/list_user.php:48
 msgid "Rebuild Cron Jobs"
-msgstr ""
+msgstr "Odbuduj zadania CRON"
 
 #: ../../web/templates/pages/list_user.php:49
 msgid "Update Usage Counters"
-msgstr ""
+msgstr "Zaktualizuj liczniki użycia"
 
 #: ../../web/templates/pages/list_user.php:85
 #: ../../web/templates/pages/list_user.php:240
 #: ../../web/templates/pages/list_stats.php:87
 msgid "IPs"
-msgstr ""
+msgstr "IP"
 
 #: ../../web/templates/pages/list_user.php:95
 #: ../../web/templates/pages/list_user.php:96
@@ -1899,12 +1899,12 @@ msgstr "Czy na pewno chcesz zawiesić użytkownika %s?"
 #: ../../web/templates/pages/list_search.php:166
 #: ../../web/templates/pages/list_search.php:168
 msgid "Log in as"
-msgstr ""
+msgstr "Zaloguj się jako"
 
 #: ../../web/templates/pages/list_user.php:220
 #, php-format
 msgid "Are you sure you want to delete user %s?"
-msgstr ""
+msgstr "Czy na pewno chcesz usunąć użytkownika %s?"
 
 #: ../../web/templates/pages/list_user.php:234
 #: ../../web/templates/pages/edit_package.php:30
@@ -1918,10 +1918,10 @@ msgstr "Edytuj Pakiet"
 #, php-format
 msgid "%d user account"
 msgid_plural "%d user accounts"
-msgstr[0] "%d konto użytkownika"
-msgstr[1] "%d konta użytkowników"
-msgstr[2] "%d kont użytkowników"
-msgstr[3] ""
+msgstr[0] "%d Konto użytkownika"
+msgstr[1] "%d Konta użytkowników"
+msgstr[2] "%d Kont użytkownika"
+msgstr[3] "%d Kont użytkownika"
 
 #: ../../web/templates/pages/list_backup_exclusions.php:9
 #: ../../web/templates/pages/edit_backup_exclusions.php:25
@@ -1940,7 +1940,7 @@ msgstr "Wartość"
 
 #: ../../web/templates/pages/list_backup_exclusions.php:48
 msgid "No exclusions"
-msgstr ""
+msgstr "Brak wykluczeń"
 
 #: ../../web/templates/pages/list_key.php:17
 #: ../../web/templates/pages/list_key.php:21
@@ -1955,7 +1955,7 @@ msgstr ""
 #: ../../web/templates/pages/list_key.php:35
 #: ../../web/templates/pages/list_key.php:48
 msgid "SSH ID"
-msgstr ""
+msgstr "Identyfikator SSH"
 
 #: ../../web/templates/pages/list_key.php:37
 #: ../../web/templates/pages/list_key.php:74
@@ -1966,21 +1966,21 @@ msgstr "Klucz SSH"
 #: ../../web/templates/pages/list_key.php:65
 #, php-format
 msgid "Are you sure you want to delete SSH key %s?"
-msgstr ""
+msgstr "Czy na pewno chcesz usunąć klucz SSH %s?"
 
 #: ../../web/templates/pages/list_key.php:85
 #, php-format
 msgid "%d SSH key"
 msgid_plural "%d SSH keys"
 msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[1] "%d Klucze SSH"
+msgstr[2] "%d Klucze SSH"
+msgstr[3] "%d Kluczy SSH"
 
 #: ../../web/templates/pages/list_log_auth.php:29
 #: ../../web/templates/pages/list_log.php:59
 msgid "Are you sure you want to delete the logs?"
-msgstr ""
+msgstr "Czy na pewno chcesz usunąć logi?"
 
 #: ../../web/templates/pages/list_log_auth.php:42
 msgid "Auth Log"
@@ -1996,7 +1996,7 @@ msgstr ""
 #: ../../web/templates/pages/list_ip.php:70
 #: ../../web/templates/pages/list_ip.php:134
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: ../../web/templates/pages/list_log_auth.php:50
 #: ../../web/templates/pages/list_log_auth.php:94
@@ -2005,21 +2005,21 @@ msgstr "Przeglądarka"
 
 #: ../../web/templates/pages/list_log_auth.php:67
 msgid "Success"
-msgstr ""
+msgstr "Sukces"
 
 #: ../../web/templates/pages/list_log_auth.php:70
 msgid "Failed"
-msgstr ""
+msgstr "Niepowodzenie"
 
 #: ../../web/templates/pages/list_log_auth.php:103
 #: ../../web/templates/pages/list_log.php:133
 #, php-format
 msgid "%d log record"
 msgid_plural "%d log records"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%d Wpis logu"
+msgstr[1] "%d Wpisy logu"
+msgstr[2] "%d Wpisy logu"
+msgstr[3] "%d Wpisów logu"
 
 #: ../../web/templates/pages/setup_webapp.php:27
 #, php-format
@@ -2028,11 +2028,11 @@ msgstr "Instalowanie %s"
 
 #: ../../web/templates/pages/setup_webapp.php:33
 msgid "Data Loss Warning!"
-msgstr ""
+msgstr "Ostrzeżenie o utracie danych!"
 
 #: ../../web/templates/pages/setup_webapp.php:34
 msgid "Your web folder already has files uploaded to it. The installer will overwrite your files and/or the installation might fail."
-msgstr ""
+msgstr "Twój folder internetowy zawiera już przesłane pliki. Instalator nadpisze Twoje pliki i/lub instalacja może się nie powieść"
 
 #: ../../web/templates/pages/setup_webapp.php:35
 #, php-format
@@ -2058,13 +2058,13 @@ msgstr "Właściciel"
 msgid "%d object"
 msgid_plural "%d objects"
 msgstr[0] "%d obiekt"
-msgstr[1] "%d obiekty"
-msgstr[2] "%d obiektów"
-msgstr[3] ""
+msgstr[1] "%d Obiekty"
+msgstr[2] "%d Obiektów"
+msgstr[3] "%d Obiektów"
 
 #: ../../web/templates/pages/list_rrd.php:9
 msgid "Advanced Details"
-msgstr ""
+msgstr "Szczegóły zaawansowane"
 
 #: ../../web/templates/pages/list_rrd.php:13
 #: ../../web/templates/pages/add_cron.php:67
@@ -4601,8 +4601,8 @@ msgid "Hello {{name}},\n\n"
 "{{appname}}"
 msgstr "Witaj {{name}},\n\n"
 "Aby zresetować hasło {{appname}}, kliknij na ten link:\n"
-"https://{{hostname}}/reset/? ction=confirm&user={{user}}&code={{resetcode}}\n\n"
-"Alternatywnie, możesz przejść do https://{{hostname}}/reset/? ction=code&user={{user}} i wprowadź następujący kod resetujący:\n"
+"https://{{hostname}}/reset/?action=confirm&user={{user}}&code={{resetcode}}\n\n"
+"Alternatywnie, możesz przejść do https://{{hostname}}/reset/?action=code&user={{user}} i wprowadź następujący kod resetujący:\n"
 "{{resetcode}}\n\n"
 "Jeśli nie prosiłeś o zresetowanie hasła, proszę zignorować tę wiadomość i zaakceptować nasze przeprosiny.\n\n"
 "Pozdrawiamy,\n\n"
