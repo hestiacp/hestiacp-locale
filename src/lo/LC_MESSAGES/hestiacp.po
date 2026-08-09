@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-30 12:15+0000\n"
-"PO-Revision-Date: 2026-07-30 12:17\n"
+"PO-Revision-Date: 2026-08-09 12:58\n"
 "Last-Translator: \n"
 "Language-Team: Lao\n"
 "Language: lo_LA\n"
@@ -121,7 +121,7 @@ msgstr "DNS ເທັມເພລດ"
 #: ../../web/templates/pages/list_packages.php:173
 #: ../../web/add/package/index.php:48
 msgid "Shell"
-msgstr ""
+msgstr "Shell"
 
 #: ../../web/edit/package/index.php:164
 #: ../../web/templates/pages/edit_package.php:78
@@ -348,11 +348,11 @@ msgstr "ຂໍ້ຈຳກັດ Swap"
 
 #: ../../web/edit/package/index.php:221 ../../web/add/package/index.php:108
 msgid "Nameserver 1"
-msgstr ""
+msgstr "ເນມເຊີເວີ 1"
 
 #: ../../web/edit/package/index.php:224 ../../web/add/package/index.php:111
 msgid "Nameserver 2"
-msgstr ""
+msgstr "ເນມເຊີເວີ 2"
 
 #: ../../web/edit/package/index.php:236 ../../web/edit/firewall/index.php:89
 #: ../../web/edit/web/index.php:865 ../../web/edit/web/index.php:1086
@@ -1091,12 +1091,12 @@ msgstr "ສ້າງໃບຮັບຮອງ SSL ແບບລົງນາມດ�
 #: ../../web/templates/pages/edit_server.php:1057
 #: ../../web/templates/pages/list_ssl.php:46
 msgid "SSL Private Key"
-msgstr ""
+msgstr "ລະຫັດສ່ວນຕົວ SSL"
 
 #: ../../web/templates/pages/edit_mail.php:130
 #: ../../web/templates/pages/edit_web.php:208
 msgid "SSL Certificate Authority / Intermediate"
-msgstr ""
+msgstr "ຜູ້ອອກໃບຢັ້ງຢືນ SSL / ລະດັບກາງ"
 
 #: ../../web/templates/pages/edit_mail.php:130
 #: ../../web/templates/pages/edit_ip.php:69
@@ -1161,7 +1161,7 @@ msgstr "ອອກໂດຍ"
 #: ../../web/templates/pages/edit_mail.php:174
 #: ../../web/templates/pages/add_mail.php:116
 msgid "SMTP Relay"
-msgstr ""
+msgstr "SMTP Relay"
 
 #: ../../web/templates/pages/edit_mail.php:179
 #: ../../web/templates/pages/add_db.php:109
@@ -1325,11 +1325,11 @@ msgstr "ເປີດເມນູ"
 #: ../../web/templates/pages/list_services.php:102
 #: ../../web/templates/pages/list_services.php:200
 msgid "CPU"
-msgstr ""
+msgstr "CPU"
 
 #: ../../web/templates/pages/list_server_info.php:51
 msgid "RAM"
-msgstr ""
+msgstr "RAM"
 
 #: ../../web/templates/pages/list_server_info.php:57
 #: ../../web/templates/pages/list_user.php:29
@@ -1369,7 +1369,7 @@ msgstr "ເວັບ"
 #: ../../web/templates/pages/add_firewall_banlist.php:39
 #: ../../web/templates/includes/panel.php:360
 msgid "DNS"
-msgstr ""
+msgstr "DNS"
 
 #: ../../web/templates/pages/list_server_info.php:86
 #: ../../web/templates/pages/list_stats.php:124
@@ -2024,7 +2024,7 @@ msgstr "ບັນທຶກເຫດການ"
 #: ../../web/templates/pages/edit_user.php:31
 #: ../../web/templates/pages/list_access_keys.php:55
 msgid "Access Keys"
-msgstr ""
+msgstr "ຄີການເຂົ້າເຖິງ"
 
 #: ../../web/templates/pages/edit_user.php:61
 #: ../../web/templates/pages/list_user.php:151
@@ -2065,7 +2065,7 @@ msgstr "ກະລຸນາສະແກນລະຫັດລຸ່ມນີ້ໃ
 
 #: ../../web/templates/pages/edit_user.php:117
 msgid "2FA QR Code"
-msgstr ""
+msgstr "ລະຫັດ QR 2FA"
 
 #: ../../web/templates/pages/edit_user.php:125
 msgid "Use IP address allow list for login attempts"
@@ -2343,7 +2343,7 @@ msgstr "ຕໍ່ໂດເມນ"
 #: ../../web/templates/pages/add_package.php:191
 #: ../../web/templates/pages/add_dns.php:111
 msgid "Name Servers"
-msgstr ""
+msgstr "ເນມເຊີເວີ"
 
 #: ../../web/templates/pages/edit_package.php:214
 #: ../../web/templates/pages/add_package.php:207
@@ -2459,7 +2459,7 @@ msgstr "ຜູ້ໃຊ້"
 #: ../../web/templates/pages/list_user.php:240
 #: ../../web/templates/pages/list_stats.php:87
 msgid "IPs"
-msgstr ""
+msgstr "IPs"
 
 #: ../../web/templates/pages/list_user.php:126
 #, php-format
@@ -2553,7 +2553,7 @@ msgstr "ລຳດັບຄວາມສຳຄັນ"
 #: ../../web/templates/pages/list_dns_rec.php:86
 #: ../../web/templates/pages/list_dns_rec.php:163
 msgid "TTL"
-msgstr ""
+msgstr "TTL"
 
 #: ../../web/templates/pages/edit_server_dovecot.php:25
 #: ../../web/templates/pages/edit_server_pgsql.php:25
@@ -2721,7 +2721,7 @@ msgstr "ບັນຊີ FTP ເພີ່ມເຕີມ"
 #: ../../web/templates/pages/edit_web.php:457
 #: ../../web/templates/pages/add_firewall_banlist.php:38
 msgid "FTP"
-msgstr ""
+msgstr "FTP"
 
 #: ../../web/templates/pages/edit_web.php:411
 #: ../../web/templates/pages/edit_web.php:465
@@ -3153,7 +3153,7 @@ msgstr "ອົງກອນ"
 #: ../../web/templates/pages/list_mail.php:5
 #, php-format
 msgid "Bad Request: parameter q must be scalar, got %s."
-msgstr ""
+msgstr "ຄຳຂໍບໍ່ຖືກຕ້ອງ: ພາຣາມີເຕີ q ຕ້ອງເປັນສະກາລາ (scalar), ແຕ່ໄດ້ຮັບ %s."
 
 #: ../../web/templates/pages/list_mail.php:16
 #: ../../web/templates/pages/add_mail.php:34
@@ -3170,7 +3170,7 @@ msgstr "ບັນຊີ"
 #: ../../web/templates/pages/list_mail.php:90
 #: ../../web/templates/pages/list_mail.php:333
 msgid "DKIM"
-msgstr ""
+msgstr "DKIM"
 
 #: ../../web/templates/pages/list_mail.php:91
 #: ../../web/templates/pages/list_mail.php:337
@@ -3178,7 +3178,7 @@ msgstr ""
 #: ../../web/templates/pages/list_web.php:86
 #: ../../web/templates/pages/list_web.php:338
 msgid "SSL"
-msgstr ""
+msgstr "SSL"
 
 #: ../../web/templates/pages/list_mail.php:107
 #: ../../web/templates/pages/list_dns.php:98
@@ -3363,7 +3363,7 @@ msgstr "ປັບແຕ່ງແບຣນ (White Label)"
 #: ../../web/templates/pages/list_backup_incremental.php:101
 #: ../../web/templates/includes/email-settings-panel.php:36
 msgid "Hostname"
-msgstr ""
+msgstr "ຊື່ໂຮສຕ໌"
 
 #: ../../web/templates/pages/edit_server.php:78
 msgid "Time Zone"
@@ -3426,7 +3426,7 @@ msgstr "ພຣັອກຊີເຊີບເວີ"
 
 #: ../../web/templates/pages/edit_server.php:245
 msgid "PHP Interpreter"
-msgstr ""
+msgstr "ຕົວແປພາສາ PHP"
 
 #: ../../web/templates/pages/edit_server.php:256
 msgid "Backend Pool Mode"
@@ -3464,7 +3464,7 @@ msgstr "ຊື່ນາມແຝງເວັບເມລ"
 
 #: ../../web/templates/pages/edit_server.php:428
 msgid "Global SMTP Relay"
-msgstr ""
+msgstr "ຕົວສົ່ງຕໍ່ SMTP ສາກົນ"
 
 #: ../../web/templates/pages/edit_server.php:499
 msgid "MySQL Support"
@@ -3476,7 +3476,7 @@ msgstr "ຊື່ນາມແຝງ phpMyAdmin"
 
 #: ../../web/templates/pages/edit_server.php:524
 msgid "phpMyAdmin Single Sign On"
-msgstr ""
+msgstr "ການເຂົ້າສູ່ລະບົບ phpMyAdmin ແບບຄັ້ງດຽວ (SSO)"
 
 #: ../../web/templates/pages/edit_server.php:530
 msgid "More info"
@@ -3484,11 +3484,11 @@ msgstr "ຂໍ້ມູນເພີ່ມເຕີມ"
 
 #: ../../web/templates/pages/edit_server.php:550
 msgid "Restrict phpMyAdmin to Hestia login"
-msgstr ""
+msgstr "ຈຳກັດການເຂົ້າໃຊ້ phpMyAdmin ໃຫ້ຜ່ານການເຂົ້າສູ່ລະບົບຂອງ Hestia ເທົ່ານັ້ນ"
 
 #: ../../web/templates/pages/edit_server.php:552
 msgid "Blocks phpMyAdmin's own login form; only reachable via the phpMyAdmin link inside Hestia (requires SSO above)."
-msgstr ""
+msgstr "ບລັອກຟອມການເຂົ້າສູ່ລະບົບຂອງ phpMyAdmin ເອງ; ສາມາດເຂົ້າເຖິງໄດ້ຜ່ານລິ້ງ phpMyAdmin ພາຍໃນ Hestia ເທົ່ານັ້ນ (ຕ້ອງເປີດໃຊ້ SSO ຂ້າງເທິງ)."
 
 #: ../../web/templates/pages/edit_server.php:603
 #: ../../web/templates/pages/edit_server.php:661
@@ -3563,7 +3563,7 @@ msgstr "ຄວາມປອດໄພ"
 
 #: ../../web/templates/pages/edit_server.php:1113
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #: ../../web/templates/pages/edit_server.php:1117
 msgid "Enable API access"
@@ -3742,7 +3742,7 @@ msgstr "ປີ-ເດືອນ-ມື້"
 #: ../../web/templates/pages/list_dns.php:83
 #: ../../web/templates/pages/list_dns.php:234
 msgid "SOA"
-msgstr ""
+msgstr "SOA"
 
 #: ../../web/templates/pages/list_weblog.php:44
 #: ../../web/templates/pages/list_weblog.php:46
@@ -3774,13 +3774,13 @@ msgstr "ຄີ SSH"
 #: ../../web/templates/pages/list_key.php:35
 #: ../../web/templates/pages/list_key.php:48
 msgid "SSH ID"
-msgstr ""
+msgstr "ໄອດີ SSH"
 
 #: ../../web/templates/pages/list_key.php:37
 #: ../../web/templates/pages/list_key.php:74
 #: ../../web/templates/pages/add_key.php:34 ../../web/add/key/index.php:17
 msgid "SSH Key"
-msgstr ""
+msgstr "ກະແຈ SSH"
 
 #: ../../web/templates/pages/list_key.php:65
 #, php-format
@@ -3817,7 +3817,7 @@ msgstr "ສ້າງໃໝ່ (Rebuild)"
 #: ../../web/templates/pages/list_dns.php:84
 #: ../../web/templates/pages/list_dns.php:238
 msgid "DNSSEC"
-msgstr ""
+msgstr "DNSSEC"
 
 #: ../../web/templates/pages/list_dns.php:149
 #: ../../web/templates/pages/list_dns.php:152
@@ -3854,15 +3854,15 @@ msgstr "ລາຍຊື່ທີ່ຖືກບລັອກ (Banlist)"
 
 #: ../../web/templates/pages/add_firewall_banlist.php:36
 msgid "SSH"
-msgstr ""
+msgstr "SSH"
 
 #: ../../web/templates/pages/add_firewall_banlist.php:42
 msgid "HESTIA"
-msgstr ""
+msgstr "HESTIA"
 
 #: ../../web/templates/pages/list_ssl.php:73
 msgid "SSL CSR"
-msgstr ""
+msgstr "SSL CSR"
 
 #: ../../web/templates/pages/list_backup_detail.php:10
 #: ../../web/templates/pages/list_backup_detail_incremental.php:7
@@ -3921,7 +3921,7 @@ msgstr "ວຽກ"
 
 #: ../../web/templates/pages/list_backup_detail.php:260
 msgid "Are you sure you want to restore cron jobs?"
-msgstr ""
+msgstr "ທ່ານແນ່ໃຈຫຼືບໍ່ວ່າຕ້ອງການກູ້ຄືນງານ cron?"
 
 #: ../../web/templates/pages/edit_backup_exclusions.php:29
 msgid "Type domain name, one per line. To exclude all domains use *. To exclude specific dirs use following format: domain.tld:public_html/cache:public_html/tmp"
@@ -4158,7 +4158,7 @@ msgstr "ປະເພດຄີ / ແຟລັກ"
 
 #: ../../web/templates/pages/list_dns_public.php:47
 msgid "Key Tag"
-msgstr ""
+msgstr "ປ້າຍກຳກັບຄີ"
 
 #: ../../web/templates/pages/list_dns_public.php:51
 msgid "Flag"
@@ -4202,7 +4202,7 @@ msgstr "ກົດໄຟວໍ"
 
 #: ../../web/templates/pages/list_firewall.php:70
 msgid "Pos"
-msgstr ""
+msgstr "ຕຳແໜ່ງ"
 
 #: ../../web/templates/pages/list_firewall.php:100
 #, php-format
@@ -4216,7 +4216,7 @@ msgstr "ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການລະ
 
 #: ../../web/templates/pages/list_firewall.php:125
 msgid "Position"
-msgstr ""
+msgstr "ຕຳແໜ່ງ"
 
 #: ../../web/templates/pages/list_firewall.php:126
 #: ../../web/templates/pages/list_firewall.php:161
@@ -4229,30 +4229,30 @@ msgstr "ແກ້ໄຂກົດໄຟວໍ"
 #: ../../web/templates/pages/list_firewall.php:138
 #: ../../web/templates/pages/list_firewall.php:142
 msgid "Move Firewall Rule Up"
-msgstr ""
+msgstr "ຍ້າຍກົດໄຟວໍຂຶ້ນ"
 
 #: ../../web/templates/pages/list_firewall.php:139
 msgid "Move Up"
-msgstr ""
+msgstr "ຍ້າຍຂຶ້ນ"
 
 #: ../../web/templates/pages/list_firewall.php:140
 #, php-format
 msgid "Are you sure you want to move rule #%s up?"
-msgstr ""
+msgstr "ທ່ານແນ່ໃຈຫຼືບໍ່ວ່າຕ້ອງການຍ້າຍກົດ #%s ຂຶ້ນ?"
 
 #: ../../web/templates/pages/list_firewall.php:150
 #: ../../web/templates/pages/list_firewall.php:154
 msgid "Move Firewall Rule Down"
-msgstr ""
+msgstr "ຍ້າຍກົດໄຟວໍລົງ"
 
 #: ../../web/templates/pages/list_firewall.php:151
 msgid "Move Down"
-msgstr ""
+msgstr "ຍ້າຍລົງ"
 
 #: ../../web/templates/pages/list_firewall.php:152
 #, php-format
 msgid "Are you sure you want to move rule #%s down?"
-msgstr ""
+msgstr "ທ່ານແນ່ໃຈຫຼືບໍ່ວ່າຕ້ອງການຍ້າຍກົດ #%s ລົງ?"
 
 #: ../../web/templates/pages/list_firewall.php:201
 #, php-format
@@ -4339,7 +4339,7 @@ msgstr "ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການເລ
 
 #: ../../web/templates/pages/list_services.php:205
 msgid "MB"
-msgstr ""
+msgstr "MB"
 
 #: ../../web/templates/pages/list_firewall_banlist.php:9
 msgid "Ban IP Address"
@@ -4348,7 +4348,7 @@ msgstr "ແບນ (Ban) ທີ່ຢູ່ IP"
 #: ../../web/templates/pages/list_firewall_banlist.php:41
 #: ../../web/templates/pages/list_firewall_banlist.php:86
 msgid "Chain"
-msgstr ""
+msgstr "ຕ່ອງໂສ້"
 
 #: ../../web/templates/pages/list_firewall_banlist.php:97
 msgid "There are currently no banned IP addresses."
@@ -4546,7 +4546,7 @@ msgstr "ບັນຊີດຳ"
 
 #: ../../web/templates/includes/js.php:15
 msgid "IPVERSE"
-msgstr ""
+msgstr "IPVERSE"
 
 #: ../../web/templates/includes/panel.php:27
 msgid "Logged in as"
@@ -4624,7 +4624,7 @@ msgstr "ໂຊນ"
 
 #: ../../web/templates/includes/panel.php:436
 msgid "CRON"
-msgstr ""
+msgstr "CRON"
 
 #: ../../web/templates/includes/panel.php:456
 msgid "BACKUP"
@@ -4781,7 +4781,7 @@ msgstr "ຂໍ້ຜິດພາດ: ບໍ່ສາມາດສຳເນົາ�
 #: ../../web/add/webapp/index.php:50
 #, php-format
 msgid "Unable to install %s, required php version is not available."
-msgstr ""
+msgstr "ບໍ່ສາມາດຕິດຕັ້ງ %s, ເວີຊັນ Php ທີ່ຕ້ອງການແມ່ນບໍ່ມີໃຫ້ໃຊ້."
 
 #: ../../web/add/webapp/index.php:63
 #, php-format

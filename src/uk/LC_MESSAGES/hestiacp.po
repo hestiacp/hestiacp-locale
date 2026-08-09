@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-30 12:15+0000\n"
-"PO-Revision-Date: 2026-07-30 12:17\n"
+"PO-Revision-Date: 2026-08-09 12:58\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
@@ -3168,7 +3168,7 @@ msgstr "Організація"
 #: ../../web/templates/pages/list_mail.php:5
 #, php-format
 msgid "Bad Request: parameter q must be scalar, got %s."
-msgstr ""
+msgstr "Неправильний запит: параметр q має бути числовим, отримано %s."
 
 #: ../../web/templates/pages/list_mail.php:16
 #: ../../web/templates/pages/add_mail.php:34
@@ -3514,11 +3514,11 @@ msgstr "Більше інфо"
 
 #: ../../web/templates/pages/edit_server.php:550
 msgid "Restrict phpMyAdmin to Hestia login"
-msgstr ""
+msgstr "Обмежити доступ до phpMyAdmin лише через вхід у Hestia"
 
 #: ../../web/templates/pages/edit_server.php:552
 msgid "Blocks phpMyAdmin's own login form; only reachable via the phpMyAdmin link inside Hestia (requires SSO above)."
-msgstr ""
+msgstr "Відключає стандартну сторінку входу phpMyAdmin — потрапити туди можна тільки через посилання phpMyAdmin у Hestia (для цього потрібен SSO, описаний вище)."
 
 #: ../../web/templates/pages/edit_server.php:603
 #: ../../web/templates/pages/edit_server.php:661
@@ -3957,7 +3957,7 @@ msgstr "Завдання"
 
 #: ../../web/templates/pages/list_backup_detail.php:260
 msgid "Are you sure you want to restore cron jobs?"
-msgstr ""
+msgstr "Ви впевнені, що хочете відновити завдання cron?"
 
 #: ../../web/templates/pages/edit_backup_exclusions.php:29
 msgid "Type domain name, one per line. To exclude all domains use *. To exclude specific dirs use following format: domain.tld:public_html/cache:public_html/tmp"
@@ -4250,7 +4250,7 @@ msgstr "Правил файрволу"
 
 #: ../../web/templates/pages/list_firewall.php:70
 msgid "Pos"
-msgstr ""
+msgstr "Поз"
 
 #: ../../web/templates/pages/list_firewall.php:100
 #, php-format
@@ -4264,7 +4264,7 @@ msgstr "Ви дійсно хочете призупинити правило #%s
 
 #: ../../web/templates/pages/list_firewall.php:125
 msgid "Position"
-msgstr ""
+msgstr "Позиція"
 
 #: ../../web/templates/pages/list_firewall.php:126
 #: ../../web/templates/pages/list_firewall.php:161
@@ -4277,30 +4277,30 @@ msgstr "Редагувати правило файрволу"
 #: ../../web/templates/pages/list_firewall.php:138
 #: ../../web/templates/pages/list_firewall.php:142
 msgid "Move Firewall Rule Up"
-msgstr ""
+msgstr "Перемістити правило фаєрвола вище"
 
 #: ../../web/templates/pages/list_firewall.php:139
 msgid "Move Up"
-msgstr ""
+msgstr "Вгору"
 
 #: ../../web/templates/pages/list_firewall.php:140
 #, php-format
 msgid "Are you sure you want to move rule #%s up?"
-msgstr ""
+msgstr "Ви впевнені, що хочете перемістити правило #%s вгору?"
 
 #: ../../web/templates/pages/list_firewall.php:150
 #: ../../web/templates/pages/list_firewall.php:154
 msgid "Move Firewall Rule Down"
-msgstr ""
+msgstr "Перемістити правило фаєрвола нижче"
 
 #: ../../web/templates/pages/list_firewall.php:151
 msgid "Move Down"
-msgstr ""
+msgstr "Перемістити вниз"
 
 #: ../../web/templates/pages/list_firewall.php:152
 #, php-format
 msgid "Are you sure you want to move rule #%s down?"
-msgstr ""
+msgstr "Ви впевнені, що хочете перемістити правило #%s вниз?"
 
 #: ../../web/templates/pages/list_firewall.php:201
 #, php-format
@@ -4844,7 +4844,7 @@ msgstr "Помилка: неможливо скопіювати пакет"
 #: ../../web/add/webapp/index.php:50
 #, php-format
 msgid "Unable to install %s, required php version is not available."
-msgstr ""
+msgstr "Не вдається встановити %s, оскільки необхідна версія PHP відсутня."
 
 #: ../../web/add/webapp/index.php:63
 #, php-format
