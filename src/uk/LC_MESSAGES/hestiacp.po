@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-30 12:15+0000\n"
-"PO-Revision-Date: 2026-08-09 12:58\n"
+"PO-Revision-Date: 2026-08-13 07:55\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
@@ -3168,7 +3168,7 @@ msgstr "Організація"
 #: ../../web/templates/pages/list_mail.php:5
 #, php-format
 msgid "Bad Request: parameter q must be scalar, got %s."
-msgstr "Неправильний запит: параметр q має бути числовим, отримано %s."
+msgstr "Помилковий запит: параметр \"q\" має бути звичайним значенням (рядком або числом), а отримано %s."
 
 #: ../../web/templates/pages/list_mail.php:16
 #: ../../web/templates/pages/add_mail.php:34
@@ -3518,7 +3518,7 @@ msgstr "Обмежити доступ до phpMyAdmin лише через вхі
 
 #: ../../web/templates/pages/edit_server.php:552
 msgid "Blocks phpMyAdmin's own login form; only reachable via the phpMyAdmin link inside Hestia (requires SSO above)."
-msgstr "Відключає стандартну сторінку входу phpMyAdmin — потрапити туди можна тільки через посилання phpMyAdmin у Hestia (для цього потрібен SSO, описаний вище)."
+msgstr "Блокує власну форму входу phpMyAdmin; доступ можливий лише через посилання phpMyAdmin у Hestia (потрібна зазначена вище SSO-авторизація)."
 
 #: ../../web/templates/pages/edit_server.php:603
 #: ../../web/templates/pages/edit_server.php:661
@@ -4250,7 +4250,7 @@ msgstr "Правил файрволу"
 
 #: ../../web/templates/pages/list_firewall.php:70
 msgid "Pos"
-msgstr "Поз"
+msgstr "Поз."
 
 #: ../../web/templates/pages/list_firewall.php:100
 #, php-format

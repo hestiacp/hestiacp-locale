@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-30 12:15+0000\n"
-"PO-Revision-Date: 2026-07-30 12:17\n"
+"PO-Revision-Date: 2026-08-13 07:55\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -3168,7 +3168,7 @@ msgstr "Организация"
 #: ../../web/templates/pages/list_mail.php:5
 #, php-format
 msgid "Bad Request: parameter q must be scalar, got %s."
-msgstr ""
+msgstr "Некорректный запрос: параметр q должен содержать одно значение, получено %s."
 
 #: ../../web/templates/pages/list_mail.php:16
 #: ../../web/templates/pages/add_mail.php:34
@@ -3514,11 +3514,11 @@ msgstr "Подробнее"
 
 #: ../../web/templates/pages/edit_server.php:550
 msgid "Restrict phpMyAdmin to Hestia login"
-msgstr ""
+msgstr "Ограничить доступ к phpMyAdmin только через авторизацию Hestia"
 
 #: ../../web/templates/pages/edit_server.php:552
 msgid "Blocks phpMyAdmin's own login form; only reachable via the phpMyAdmin link inside Hestia (requires SSO above)."
-msgstr ""
+msgstr "Блокирует собственную форму входа phpMyAdmin; доступ возможен только через ссылку phpMyAdmin в Hestia (требуется включённый выше SSO)."
 
 #: ../../web/templates/pages/edit_server.php:603
 #: ../../web/templates/pages/edit_server.php:661
@@ -3957,7 +3957,7 @@ msgstr "Задания"
 
 #: ../../web/templates/pages/list_backup_detail.php:260
 msgid "Are you sure you want to restore cron jobs?"
-msgstr ""
+msgstr "Вы уверены, что хотите восстановить задания cron?"
 
 #: ../../web/templates/pages/edit_backup_exclusions.php:29
 msgid "Type domain name, one per line. To exclude all domains use *. To exclude specific dirs use following format: domain.tld:public_html/cache:public_html/tmp"
@@ -4250,7 +4250,7 @@ msgstr "Правила файрвол"
 
 #: ../../web/templates/pages/list_firewall.php:70
 msgid "Pos"
-msgstr ""
+msgstr "Поз"
 
 #: ../../web/templates/pages/list_firewall.php:100
 #, php-format
@@ -4264,7 +4264,7 @@ msgstr "Вы уверены, что хотите приостановить де
 
 #: ../../web/templates/pages/list_firewall.php:125
 msgid "Position"
-msgstr ""
+msgstr "Позиция"
 
 #: ../../web/templates/pages/list_firewall.php:126
 #: ../../web/templates/pages/list_firewall.php:161
@@ -4277,30 +4277,30 @@ msgstr "Изменить правило файрвол"
 #: ../../web/templates/pages/list_firewall.php:138
 #: ../../web/templates/pages/list_firewall.php:142
 msgid "Move Firewall Rule Up"
-msgstr ""
+msgstr "Переместить правило фаервола вверх"
 
 #: ../../web/templates/pages/list_firewall.php:139
 msgid "Move Up"
-msgstr ""
+msgstr "Вверх"
 
 #: ../../web/templates/pages/list_firewall.php:140
 #, php-format
 msgid "Are you sure you want to move rule #%s up?"
-msgstr ""
+msgstr "Вы уверены, что хотите переместить правило #%s вверх?"
 
 #: ../../web/templates/pages/list_firewall.php:150
 #: ../../web/templates/pages/list_firewall.php:154
 msgid "Move Firewall Rule Down"
-msgstr ""
+msgstr "Переместить правило фаервола вниз"
 
 #: ../../web/templates/pages/list_firewall.php:151
 msgid "Move Down"
-msgstr ""
+msgstr "Вниз"
 
 #: ../../web/templates/pages/list_firewall.php:152
 #, php-format
 msgid "Are you sure you want to move rule #%s down?"
-msgstr ""
+msgstr "Вы уверены, что хотите переместить правило #%s вниз?"
 
 #: ../../web/templates/pages/list_firewall.php:201
 #, php-format
@@ -4456,7 +4456,7 @@ msgid_plural "%d snapshots"
 msgstr[0] "%d снимок"
 msgstr[1] "%d снимка"
 msgstr[2] "%d снимков"
-msgstr[3] ""
+msgstr[3] "%d снимок"
 
 #: ../../web/templates/pages/list_updates.php:12
 msgid "Disable Automatic Updates"
@@ -4844,7 +4844,7 @@ msgstr "Ошибка: невозможно скопировать пакет."
 #: ../../web/add/webapp/index.php:50
 #, php-format
 msgid "Unable to install %s, required php version is not available."
-msgstr ""
+msgstr "Невозможно установить %s, необходимая версия php недоступна."
 
 #: ../../web/add/webapp/index.php:63
 #, php-format

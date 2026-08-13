@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hestiacp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-30 12:15+0000\n"
-"PO-Revision-Date: 2026-07-30 12:17\n"
+"PO-Revision-Date: 2026-08-13 07:55\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
@@ -3158,7 +3158,7 @@ msgstr "Organização"
 #: ../../web/templates/pages/list_mail.php:5
 #, php-format
 msgid "Bad Request: parameter q must be scalar, got %s."
-msgstr ""
+msgstr "Requisição Inválida: parâmetro q deve ser escalar, tem %s."
 
 #: ../../web/templates/pages/list_mail.php:16
 #: ../../web/templates/pages/add_mail.php:34
@@ -3494,11 +3494,11 @@ msgstr "Mais informação"
 
 #: ../../web/templates/pages/edit_server.php:550
 msgid "Restrict phpMyAdmin to Hestia login"
-msgstr ""
+msgstr "Restringir phpMyAdmin para login Hestia"
 
 #: ../../web/templates/pages/edit_server.php:552
 msgid "Blocks phpMyAdmin's own login form; only reachable via the phpMyAdmin link inside Hestia (requires SSO above)."
-msgstr ""
+msgstr "Bloqueia o formulário de login do próprio phpMyAdmin; acessível apenas pelo link do phpMyAdmin dentro do Hestia (requer o SSO mencionado acima)."
 
 #: ../../web/templates/pages/edit_server.php:603
 #: ../../web/templates/pages/edit_server.php:661
@@ -3933,7 +3933,7 @@ msgstr "Tarefas"
 
 #: ../../web/templates/pages/list_backup_detail.php:260
 msgid "Are you sure you want to restore cron jobs?"
-msgstr ""
+msgstr "Tem certeza que deseja restaurar o cron jobs?"
 
 #: ../../web/templates/pages/edit_backup_exclusions.php:29
 msgid "Type domain name, one per line. To exclude all domains use *. To exclude specific dirs use following format: domain.tld:public_html/cache:public_html/tmp"
@@ -4218,7 +4218,7 @@ msgstr "Regras do Firewall"
 
 #: ../../web/templates/pages/list_firewall.php:70
 msgid "Pos"
-msgstr ""
+msgstr "Pos"
 
 #: ../../web/templates/pages/list_firewall.php:100
 #, php-format
@@ -4232,7 +4232,7 @@ msgstr "Você tem certeza que deseja suspender a regra #%s?"
 
 #: ../../web/templates/pages/list_firewall.php:125
 msgid "Position"
-msgstr ""
+msgstr "Posição"
 
 #: ../../web/templates/pages/list_firewall.php:126
 #: ../../web/templates/pages/list_firewall.php:161
@@ -4245,30 +4245,30 @@ msgstr "Editar regra de firewall"
 #: ../../web/templates/pages/list_firewall.php:138
 #: ../../web/templates/pages/list_firewall.php:142
 msgid "Move Firewall Rule Up"
-msgstr ""
+msgstr "Mover regra do Firewall para cima"
 
 #: ../../web/templates/pages/list_firewall.php:139
 msgid "Move Up"
-msgstr ""
+msgstr "Mover para cima"
 
 #: ../../web/templates/pages/list_firewall.php:140
 #, php-format
 msgid "Are you sure you want to move rule #%s up?"
-msgstr ""
+msgstr "Tem certeza que deseja mover a regra #%s para cima?"
 
 #: ../../web/templates/pages/list_firewall.php:150
 #: ../../web/templates/pages/list_firewall.php:154
 msgid "Move Firewall Rule Down"
-msgstr ""
+msgstr "Mover regra de Firewall para baixo"
 
 #: ../../web/templates/pages/list_firewall.php:151
 msgid "Move Down"
-msgstr ""
+msgstr "Mover para baixo"
 
 #: ../../web/templates/pages/list_firewall.php:152
 #, php-format
 msgid "Are you sure you want to move rule #%s down?"
-msgstr ""
+msgstr "Tem certeza que deseja mover a regra #%s para baixo?"
 
 #: ../../web/templates/pages/list_firewall.php:201
 #, php-format
@@ -4802,7 +4802,7 @@ msgstr "Erro: não foi possível copiar o pacote."
 #: ../../web/add/webapp/index.php:50
 #, php-format
 msgid "Unable to install %s, required php version is not available."
-msgstr ""
+msgstr "Não é possível instalar a versão %s, a versão do php necessária não está disponível."
 
 #: ../../web/add/webapp/index.php:63
 #, php-format
